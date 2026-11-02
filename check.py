@@ -6,7 +6,7 @@ Alerts go to ntfy (NTFY_TOPIC), Discord (DISCORD_WEBHOOK) and/or one email
 digest per run (SMTP_USER/SMTP_PASS, optional SMTP_HOST, EMAIL_TO).
 Writes status.json, which dashboard.html displays.
 """
-import json, os, re, smtplib, sys, urllib.request
+import json, os, re, smtplib, sys, time, urllib.request
 from datetime import datetime, timezone
 from email.message import EmailMessage
 from html.parser import HTMLParser
@@ -243,6 +243,7 @@ def main():
     for site in cfg["sites"]:
         err = None
         if not site.get("skip"):
+            time.sleep(2)  # most shops share Shopify's servers, which answer 429 to fast back-to-back requests
             try:
                 state[site["name"]], alerts = check_site(site, cfg, state.get(site["name"]))
                 run_alerts += [(site["name"], t, u) for t, u in alerts]
