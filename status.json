@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T19:42:04+00:00",
+ "updated": "2026-11-02T19:49:58+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -91,23 +91,15 @@
    "url": "https://www.doublesleeved.co.uk/collections/pre-orders",
    "skip": null,
    "error": null,
-   "mode": "shopify",
+   "mode": "page",
    "items": [
     {
      "title": "Pokemon TCG: Delta Reign - Booster Box (PRE-ORDER)",
-     "price": 154.44,
-     "available": true,
-     "url": "https://www.doublesleeved.co.uk/products/pokemon-tcg-delta-reign-booster-box",
-     "over_rrp": true,
-     "cart": "https://www.doublesleeved.co.uk/cart/65001978134905:1"
+     "url": "https://www.doublesleeved.co.uk/collections/pre-orders"
     },
     {
      "title": "Pokemon TCG: Delta Reign - Elite Trainer Box ETB (PRE-ORDER)",
-     "price": 49.99,
-     "available": true,
-     "url": "https://www.doublesleeved.co.uk/products/pokemon-tcg-delta-reign-elite-trainer-box-etb",
-     "over_rrp": false,
-     "cart": "https://www.doublesleeved.co.uk/cart/65002043113849:1"
+     "url": "https://www.doublesleeved.co.uk/collections/pre-orders"
     }
    ]
   },
@@ -128,7 +120,7 @@
    "name": "Total Cards",
    "url": "https://www.totalcards.net/pokemon",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 404: Not Found",
    "mode": "shopify",
    "items": [
     {
@@ -427,87 +419,47 @@
    "url": "https://zatu.com/collections/trading-card-games-pokemon-tcg",
    "skip": null,
    "error": null,
-   "mode": "shopify",
+   "mode": "page",
    "items": [
     {
+     "title": "30th Celebration: Classic Collection",
+     "url": "https://zatu.com/collections/trading-card-games-pokemon-tcg"
+    },
+    {
      "title": "Pokemon TCG: 30th Celebration - Elite Trainer Box",
-     "price": 169.99,
-     "available": true,
-     "url": "https://zatu.com/products/pokemon-tcg-30th-celebration-elite-trainer-box",
-     "over_rrp": true,
-     "cart": "https://zatu.com/cart/57057314341242:1"
+     "url": "https://zatu.com/collections/trading-card-games-pokemon-tcg"
     },
     {
      "title": "Pokemon TCG: 30th Celebration - Greninja ex Tin",
-     "price": 68.99,
-     "available": true,
-     "url": "https://zatu.com/products/pokemon-tcg-30th-celebration-greninja-ex-tin",
-     "over_rrp": false,
-     "cart": "https://zatu.com/cart/57057313358202:1"
+     "url": "https://zatu.com/collections/trading-card-games-pokemon-tcg"
     },
     {
      "title": "Pokemon TCG: 30th Celebration - Mini Tin - Greninja",
-     "price": 29.99,
-     "available": true,
-     "url": "https://zatu.com/products/pokemon-tcg-30th-celebration-mini-tin-greninja",
-     "over_rrp": false,
-     "cart": "https://zatu.com/cart/57248471056762:1"
+     "url": "https://zatu.com/collections/trading-card-games-pokemon-tcg"
     },
     {
      "title": "Pokemon TCG: 30th Celebration - Poster Collection",
-     "price": 58.99,
-     "available": true,
-     "url": "https://zatu.com/products/pokemon-tcg-30th-celebration-poster-collection",
-     "over_rrp": false,
-     "cart": "https://zatu.com/cart/57057314177402:1"
+     "url": "https://zatu.com/collections/trading-card-games-pokemon-tcg"
     },
     {
      "title": "Pokemon TCG: 30th Celebration - Sylveon ex Tin",
-     "price": 68.99,
-     "available": true,
-     "url": "https://zatu.com/products/pokemon-tcg-30th-celebration-sylveon-ex-tin",
-     "over_rrp": false,
-     "cart": "https://zatu.com/cart/57057315946874:1"
+     "url": "https://zatu.com/collections/trading-card-games-pokemon-tcg"
     },
     {
      "title": "Pokemon TCG: First Partner Illustration Collection - Series 2",
-     "price": 39.99,
-     "available": true,
-     "url": "https://zatu.com/products/pokemon-tcg-first-partner-illustration-collection-series-2",
-     "over_rrp": false,
-     "cart": "https://zatu.com/cart/56783217361274:1"
+     "url": "https://zatu.com/collections/trading-card-games-pokemon-tcg"
     },
     {
      "title": "Pokemon TCG: Mega Evolution Chaos Rising - Booster Bundle",
-     "price": 54.99,
-     "available": true,
-     "url": "https://zatu.com/products/pokemon-tcg-mega-evolution-chaos-rising-booster-bundle",
-     "over_rrp": true,
-     "cart": "https://zatu.com/cart/56895234015610:1"
+     "url": "https://zatu.com/collections/trading-card-games-pokemon-tcg"
     },
     {
      "title": "Pokemon TCG: Mega Moonlit Tin - Mega Clefable",
-     "price": 39.99,
-     "available": true,
-     "url": "https://zatu.com/products/pokemon-tcg-mega-moonlit-tin-mega-clefable",
-     "over_rrp": false,
-     "cart": "https://zatu.com/cart/56783218377082:1"
+     "url": "https://zatu.com/collections/trading-card-games-pokemon-tcg"
     },
     {
      "title": "Pokemon TCG: Mega Moonlit Tin - Mega Gengar",
-     "price": 49.99,
-     "available": true,
-     "url": "https://zatu.com/products/pokemon-tcg-mega-moonlit-tin-mega-gengar",
-     "over_rrp": false,
-     "cart": "https://zatu.com/cart/56783225094522:1"
-    },
-    {
-     "title": "Victini 30C 013/128 - Holo",
-     "price": 0.9,
-     "available": true,
-     "url": "https://zatu.com/products/victini-30c-013-128-holo",
-     "over_rrp": false,
-     "cart": "https://zatu.com/cart/57277778100602:1"
+     "url": "https://zatu.com/collections/trading-card-games-pokemon-tcg"
     }
    ]
   },
@@ -1961,6 +1913,34 @@
   {
    "t": "2026-11-02T19:42:04+00:00",
    "shop": "The Dice Dungeon"
+  },
+  {
+   "t": "2026-11-02T19:49:58+00:00",
+   "shop": "Double Sleeved"
+  },
+  {
+   "t": "2026-11-02T19:49:58+00:00",
+   "shop": "Double Sleeved"
+  },
+  {
+   "t": "2026-11-02T19:49:58+00:00",
+   "shop": "Zatu Games"
+  },
+  {
+   "t": "2026-11-02T19:49:58+00:00",
+   "shop": "Zatu Games"
+  },
+  {
+   "t": "2026-11-02T19:49:58+00:00",
+   "shop": "Zatu Games"
+  },
+  {
+   "t": "2026-11-02T19:49:58+00:00",
+   "shop": "Zatu Games"
+  },
+  {
+   "t": "2026-11-02T19:49:58+00:00",
+   "shop": "Zatu Games"
   }
  ],
  "wishlist": [

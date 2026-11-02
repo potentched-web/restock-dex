@@ -160,21 +160,11 @@
   "mode": "shopify"
  },
  "Double Sleeved": {
-  "items": {
-   "65001978134905": [
-    "Pokemon TCG: Delta Reign - Booster Box (PRE-ORDER)",
-    154.44,
-    true,
-    "https://www.doublesleeved.co.uk/products/pokemon-tcg-delta-reign-booster-box"
-   ],
-   "65002043113849": [
-    "Pokemon TCG: Delta Reign - Elite Trainer Box ETB (PRE-ORDER)",
-    49.99,
-    true,
-    "https://www.doublesleeved.co.uk/products/pokemon-tcg-delta-reign-elite-trainer-box-etb"
-   ]
-  },
-  "mode": "shopify"
+  "lines": [
+   "Pokemon TCG: Delta Reign - Booster Box (PRE-ORDER)",
+   "Pokemon TCG: Delta Reign - Elite Trainer Box ETB (PRE-ORDER)"
+  ],
+  "mode": "page"
  },
  "Firestorm Games": {
   "lines": [
@@ -1079,69 +1069,19 @@
   "mode": "shopify"
  },
  "Zatu Games": {
-  "items": {
-   "56783217361274": [
-    "Pokemon TCG: First Partner Illustration Collection - Series 2",
-    39.99,
-    true,
-    "https://zatu.com/products/pokemon-tcg-first-partner-illustration-collection-series-2"
-   ],
-   "56783218377082": [
-    "Pokemon TCG: Mega Moonlit Tin - Mega Clefable",
-    39.99,
-    true,
-    "https://zatu.com/products/pokemon-tcg-mega-moonlit-tin-mega-clefable"
-   ],
-   "56783225094522": [
-    "Pokemon TCG: Mega Moonlit Tin - Mega Gengar",
-    49.99,
-    true,
-    "https://zatu.com/products/pokemon-tcg-mega-moonlit-tin-mega-gengar"
-   ],
-   "56895234015610": [
-    "Pokemon TCG: Mega Evolution Chaos Rising - Booster Bundle",
-    54.99,
-    true,
-    "https://zatu.com/products/pokemon-tcg-mega-evolution-chaos-rising-booster-bundle"
-   ],
-   "57057313358202": [
-    "Pokemon TCG: 30th Celebration - Greninja ex Tin",
-    68.99,
-    true,
-    "https://zatu.com/products/pokemon-tcg-30th-celebration-greninja-ex-tin"
-   ],
-   "57057314177402": [
-    "Pokemon TCG: 30th Celebration - Poster Collection",
-    58.99,
-    true,
-    "https://zatu.com/products/pokemon-tcg-30th-celebration-poster-collection"
-   ],
-   "57057314341242": [
-    "Pokemon TCG: 30th Celebration - Elite Trainer Box",
-    169.99,
-    true,
-    "https://zatu.com/products/pokemon-tcg-30th-celebration-elite-trainer-box"
-   ],
-   "57057315946874": [
-    "Pokemon TCG: 30th Celebration - Sylveon ex Tin",
-    68.99,
-    true,
-    "https://zatu.com/products/pokemon-tcg-30th-celebration-sylveon-ex-tin"
-   ],
-   "57248471056762": [
-    "Pokemon TCG: 30th Celebration - Mini Tin - Greninja",
-    29.99,
-    true,
-    "https://zatu.com/products/pokemon-tcg-30th-celebration-mini-tin-greninja"
-   ],
-   "57277778100602": [
-    "Victini 30C 013/128 - Holo",
-    0.9,
-    true,
-    "https://zatu.com/products/victini-30c-013-128-holo"
-   ]
-  },
-  "mode": "shopify"
+  "lines": [
+   "30th Celebration: Classic Collection",
+   "Pokemon TCG: 30th Celebration - Elite Trainer Box",
+   "Pokemon TCG: 30th Celebration - Greninja ex Tin",
+   "Pokemon TCG: 30th Celebration - Mini Tin - Greninja",
+   "Pokemon TCG: 30th Celebration - Poster Collection",
+   "Pokemon TCG: 30th Celebration - Sylveon ex Tin",
+   "Pokemon TCG: First Partner Illustration Collection - Series 2",
+   "Pokemon TCG: Mega Evolution Chaos Rising - Booster Bundle",
+   "Pokemon TCG: Mega Moonlit Tin - Mega Clefable",
+   "Pokemon TCG: Mega Moonlit Tin - Mega Gengar"
+  ],
+  "mode": "page"
  },
  "_droppage:https://www.chaoscards.co.uk/release-calendar/category/pokemon": {
   "links": [
