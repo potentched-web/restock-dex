@@ -86,6 +86,29 @@
       ],
       "note": "Already released: tracked for restocks at RRP.",
       "set": "Pitch Black"
+    },
+    {
+      "name": "Mega Evolution: Phantasmal Flames (ME02)",
+      "date": "2025-11-14",
+      "status": "confirmed",
+      "products": [
+        "Elite Trainer Box",
+        "Booster Bundle",
+        "Booster Box"
+      ],
+      "note": "Already released: tracked for restocks at RRP.",
+      "set": "Phantasmal Flames"
+    },
+    {
+      "name": "Mega Evolution: Ascended Heroes (ME2.5)",
+      "date": "2026-01-30",
+      "status": "confirmed",
+      "products": [
+        "Elite Trainer Box",
+        "Booster Bundle"
+      ],
+      "note": "Already released: tracked for restocks at RRP.",
+      "set": "Ascended Heroes"
     }
   ],
   "shops": [
@@ -333,6 +356,41 @@
     {
       "name": "Ascended Heroes Elite Trainer Box",
       "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Ascended+Heroes+Elite+Trainer+Box",
+      "kind": "search"
+    },
+    {
+      "name": "Pitch Black Booster Bundle",
+      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Pitch+Black+Booster+Bundle",
+      "kind": "search"
+    },
+    {
+      "name": "Chaos Rising Booster Bundle",
+      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Chaos+Rising+Booster+Bundle",
+      "kind": "search"
+    },
+    {
+      "name": "Perfect Order Elite Trainer Box",
+      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Perfect+Order+Elite+Trainer+Box",
+      "kind": "search"
+    },
+    {
+      "name": "Perfect Order Booster Bundle",
+      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Perfect+Order+Booster+Bundle",
+      "kind": "search"
+    },
+    {
+      "name": "Ascended Heroes Booster Bundle",
+      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Ascended+Heroes+Booster+Bundle",
+      "kind": "search"
+    },
+    {
+      "name": "Phantasmal Flames Elite Trainer Box",
+      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Phantasmal+Flames+Elite+Trainer+Box",
+      "kind": "search"
+    },
+    {
+      "name": "Phantasmal Flames Booster Bundle",
+      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Phantasmal+Flames+Booster+Bundle",
       "kind": "search"
     }
   ]

@@ -133,5 +133,50 @@
     ],
     "max": 24.99,
     "rrp_status": "confirmed"
+  },
+  {
+    "name": "Ascended Heroes Elite Trainer Box",
+    "match": [
+      "ascended heroes",
+      "elite trainer"
+    ],
+    "max": 49.99,
+    "rrp_status": "confirmed"
+  },
+  {
+    "name": "Ascended Heroes Booster Bundle",
+    "match": [
+      "ascended heroes",
+      "booster bundle"
+    ],
+    "max": 24.99,
+    "rrp_status": "confirmed"
+  },
+  {
+    "name": "Phantasmal Flames Elite Trainer Box",
+    "match": [
+      "phantasmal flames",
+      "elite trainer"
+    ],
+    "max": 49.99,
+    "rrp_status": "confirmed"
+  },
+  {
+    "name": "Phantasmal Flames Booster Bundle",
+    "match": [
+      "phantasmal flames",
+      "booster bundle"
+    ],
+    "max": 24.99,
+    "rrp_status": "confirmed"
+  },
+  {
+    "name": "Phantasmal Flames Booster Box",
+    "match": [
+      "phantasmal flames",
+      "booster box"
+    ],
+    "max": 130.0,
+    "rrp_status": "estimate"
   }
 ]
