@@ -30,9 +30,16 @@ def wanted(title, cfg):
     return any(k in t for k in cfg["include"]) and not any(k in t for k in cfg["exclude"])
 
 
-def over_rrp(title, price, cfg):
+def rrp_for(title, cfg):
+    """UK RRP for a product title from sites.json "rrp"; the longest matching key wins (e.g. Pokemon Center ETB)."""
     t = title.lower()
-    return any(k in t and price > rrp for k, rrp in cfg["rrp"].items())
+    keys = [k for k in cfg["rrp"] if k in t]
+    return cfg["rrp"][max(keys, key=len)] if keys else None
+
+
+def over_rrp(title, price, cfg):
+    rrp = rrp_for(title, cfg)
+    return rrp is not None and price > rrp
 
 
 def shopify_items(data, base, cfg):
@@ -156,9 +163,17 @@ def wish_hit(text, cfg):
     """Name of the first wishlist entry whose terms are all in text and whose max price isn't exceeded."""
     t, m = text.lower(), PRICE.search(text)  # prices come from our own alert text, e.g. "£49.99"
     for w in cfg.get("wishlist", []):
+        if w.get("got"):
+            continue  # already got it: no more alerts
         if all(k in t for k in w["match"]) and (w.get("max") is None or not m or float(m.group(1)) <= w["max"]):
             return w["name"]
     return None
+
+
+def got_it(text, cfg):
+    """True if text is about a wishlist item already marked as got on the dashboard."""
+    t = text.lower()
+    return any(w.get("got") and all(k in t for k in w["match"]) for w in cfg.get("wishlist", []))
 
 
 def drop_reminders(drops, now, reminded):
@@ -196,7 +211,7 @@ def site_status(site, st, err, cfg):
         # Shopify cart permalink: opens the shop with this variant already in the basket (you still check out).
         cart = url.split("/products/")[0] + f"/cart/{vid}:1"
         row["items"].append({"title": title, "price": price, "available": avail, "url": url,
-                             "over_rrp": over_rrp(title, price, cfg), "cart": cart})
+                             "over_rrp": over_rrp(title, price, cfg), "rrp": rrp_for(title, cfg), "cart": cart})
     row["items"] += [{"title": l, "url": site["url"]} for l in st.get("lines", [])]
     return row
 
@@ -248,8 +263,9 @@ def main():
             auto_drops.insert(0, {**d, "found": now})
             run_alerts.append((d["shop"], f"New {d['type']} spotted: {d['name']}", d["url"]))
     # With a wishlist, only wishlist hits (and drop reminders) ping you; everything still shows on the dashboard.
-    push = [a for a in run_alerts if not cfg.get("wishlist") or wish_hit(a[1], cfg) or " spotted: " in a[1]]
-    reminders = drop_reminders(drops, now_dt, state.setdefault("_reminded", []))
+    push = [a for a in run_alerts if not got_it(a[1], cfg)
+            and (not cfg.get("wishlist") or wish_hit(a[1], cfg) or " spotted: " in a[1])]
+    reminders = [r for r in drop_reminders(drops, now_dt, state.setdefault("_reminded", [])) if not got_it(r[1], cfg)]
     push += reminders
     run_alerts += reminders
     for name, text, url in push:
@@ -261,13 +277,14 @@ def main():
         send_email(push)
     except Exception as e:
         print(f"email failed: {e}", file=sys.stderr)
-    history = [{"time": now, "site": n, "text": t, "url": u} for n, t, u in run_alerts] + status.get("alerts", [])
+    # Keep only well-formed entries: older runs stored the restock log here by mistake.
+    feed = [{"time": now, "site": n, "text": t, "url": u} for n, t, u in run_alerts] + [a for a in status.get("alerts", []) if "text" in a]
     # Restock log for the dashboard's day/hour patterns.
     history = json.load(open(HISTORY)) if os.path.exists(HISTORY) else []
     history += [{"t": now, "shop": n} for n, t, u in run_alerts if t.startswith(("NEW:", "BACK IN STOCK:", "New on page:"))]
     json.dump(history[-3000:], open(HISTORY, "w"))
     json.dump(state, open(STATE, "w"), indent=1, sort_keys=True)
-    json.dump({"updated": now, "sites": rows, "alerts": history[:100], "wishlist": cfg.get("wishlist", []),
+    json.dump({"updated": now, "sites": rows, "alerts": feed[:100], "wishlist": cfg.get("wishlist", []),
                "auto_drops": auto_drops[:30]}, open(STATUS, "w"), indent=1)
 
 

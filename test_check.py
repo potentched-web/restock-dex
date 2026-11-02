@@ -87,7 +87,7 @@ assert [i["title"] for i in rows["items"]] == ["Delta Reign Booster Bundle", "ME
 shop = check.site_status({"name": "s", "url": "u"}, {"mode": "shopify", "items": {"4": ["Some Elite Trainer Box", 89.99, True, "x"]}}, None, CFG)
 shop = check.site_status({"name": "s", "url": "u"}, {"mode": "shopify", "items": {"4": ["Some Elite Trainer Box", 89.99, True, "https://shop.uk/products/etb"]}}, None, CFG)
 assert shop["items"] == [{"title": "Some Elite Trainer Box", "price": 89.99, "available": True, "url": "https://shop.uk/products/etb",
-                          "over_rrp": True, "cart": "https://shop.uk/cart/4:1"}], shop
+                          "over_rrp": True, "rrp": 49.99, "cart": "https://shop.uk/cart/4:1"}], shop
 check.send_email([])  # no SMTP env: must be a silent no-op
 
 # Wishlist: all terms must match, price must be within max (page lines have no price)
@@ -123,3 +123,13 @@ from datetime import date
 R = [{"date": "2026-11-06"}]
 assert [check.release_window(R, date(2026, 11, d)) for d in (4, 5, 6, 7)] == [False, True, True, False]
 print("all checks passed")
+
+# RRP: longest matching key wins; got items stop alerting
+R = {"rrp": {"elite trainer": 49.99, "pokemon center elite trainer": 56.99}}
+assert check.rrp_for("Pokemon Center Elite Trainer Box", R) == 56.99 and check.rrp_for("Some Elite Trainer Box", R) == 49.99
+assert check.rrp_for("Mini Tin", R) is None and not check.over_rrp("Pokemon Center Elite Trainer Box", 56.99, R)
+G = {"wishlist": [{"name": "DR ETB", "match": ["delta reign", "elite trainer"], "max": 50, "got": {"shop": "Zatu Games", "date": "2026-11-06"}}]}
+assert check.wish_hit("NEW: Delta Reign Elite Trainer Box £49.99", G) is None
+assert check.got_it("New pre-order spotted: Delta Reign Elite Trainer Box", G)
+assert not check.got_it("NEW: Delta Reign Booster Bundle £24.99", G)
+print("rrp/got checks passed")

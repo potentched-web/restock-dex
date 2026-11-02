@@ -199,6 +199,7 @@
     <button class="tab" role="tab" id="t-drops" aria-controls="tab-drops" aria-selected="false" data-tab="drops">Drops<span class="badge" id="b-drops" hidden></span></button>
     <button class="tab" role="tab" id="t-releases" aria-controls="tab-releases" aria-selected="false" data-tab="releases">Releases<span class="badge" id="b-releases" hidden></span></button>
     <button class="tab" role="tab" id="t-shops" aria-controls="tab-shops" aria-selected="false" data-tab="shops">Shops<span class="badge" id="b-shops" hidden></span></button>
+    <button class="tab" role="tab" id="t-got" aria-controls="tab-got" aria-selected="false" data-tab="got">Got drop<span class="badge" id="b-got" hidden></span></button>
     <button class="tab" role="tab" id="t-orders" aria-controls="tab-orders" aria-selected="false" data-tab="orders">My orders<span class="badge" id="b-orders" hidden></span></button>
     <button class="tab" role="tab" id="t-amazon" aria-controls="tab-amazon" aria-selected="false" data-tab="amazon">Amazon<span class="badge" id="b-amazon" hidden></span></button>
     <button class="tab" role="tab" id="t-patterns" aria-controls="tab-patterns" aria-selected="false" data-tab="patterns">Patterns<span class="badge" id="b-patterns" hidden></span></button>
@@ -274,6 +275,20 @@
       <button class="toggle" id="notify" aria-pressed="false">🔔 Browser alerts</button>
     </div>
     <div class="grid" id="shops"></div>
+  </section>
+  </div>
+
+  <div class="panel" id="tab-got" role="tabpanel" aria-labelledby="t-got">
+<section class="screen" aria-labelledby="got-h">
+    <h2 id="got-h">▶ GOT DROP</h2>
+    <p class="note" style="margin-top:0">Got something? Mark it here and alerts for it stop from the next scan.</p>
+    <form class="oform" id="gform">
+      <label for="g-item">Product<select id="g-item" required></select></label>
+      <label for="g-shop">From shop<select id="g-shop" required></select></label>
+      <button class="btn primary" type="submit" style="align-self:end">✓ Got it</button>
+    </form>
+    <span id="got-msg" role="status" class="note"></span>
+    <div class="orders" id="got" style="margin-top:10px"></div>
   </section>
   </div>
 
@@ -357,11 +372,14 @@ const F = () => ({...NOF, q: $("q").value.trim().toLowerCase(), stock: $("instoc
 const textOk = (text, f) => { const t = String(text).toLowerCase(); return !f.q || t.includes(f.q); };
 const shopOk = (name, f) => !f.shop || name === f.shop;
 const itemOk = (i, shop, f) => textOk(i.title, f) && (!f.stock || i.available);
+// Only stock listed at or under its UK RRP is shown; unpriced page lines and unknown-RRP products are hidden.
+const atRrp = (i, max = i.rrp) => i.price != null && max != null && i.price <= max + 0.001;
 const filtering = f => !!(f.q || f.stock);
 
 function render() {
   if (!data) return;
   renderWishlist();
+  renderGot();
   renderDrops(allDrops());
   const f = F();
   const mins = Math.round((Date.now() - new Date(data.updated)) / 60000), fresh = mins <= 45;
@@ -370,25 +388,25 @@ function render() {
   $("led-g").classList.toggle("off", !fresh);
   const live = data.sites.filter(s => !s.skip), failing = live.filter(s => s.error).length;
   $("led-r").classList.toggle("off", !failing);
-  const all = live.flatMap(s => s.items), inStock = all.filter(i => i.available), atRrp = inStock.filter(i => !i.over_rrp);
+  const all = live.flatMap(s => s.items), inStock = all.filter(i => i.available), rrpNow = inStock.filter(i => atRrp(i));
   const day = data.alerts.filter(a => Date.now() - new Date(a.time) < 864e5).length;
   $("led-y").classList.toggle("off", !day);
   $("stats").innerHTML = [
     ["In stock now", inStock.length, bar(inStock.length, all.filter(i => i.available !== undefined).length, "--grass")],
-    ["At or under RRP", atRrp.length, bar(atRrp.length, inStock.length, "--electric")],
+    ["At or under RRP", rrpNow.length, bar(rrpNow.length, inStock.length, "--electric")],
     ["Shops online", `${live.length - failing}/${live.length}`, bar(live.length - failing, live.length, "--water")],
     ["Sightings (24h)", day, bar(day, 20, "--psychic")],
   ].map(([k, v, b]) => `<div class="stat"><div class="k">${k}</div><div class="v">${v}</div>${b}</div>`).join("");
 
-  $("alerts").innerHTML = data.alerts.slice(0, 15).map(a =>
+  $("alerts").innerHTML = data.alerts.filter(a => a.text).slice(0, 15).map(a =>
     `<li class="${seen && !seen.has(a.time + a.text) ? "new" : ""}"><time>${when(a.time)}</time><span class="who">${esc(a.site)}</span>
      <a href="${esc(a.url)}" target="_blank" rel="noopener">${sighting(a)}</a></li>`
   ).join("") || '<li class="empty">No sightings yet. The first scan only records what each shop has.</li>';
 
   const order = s => s.skip ? 3 : s.error ? 2 : s.items.some(i => i.available) ? 0 : 1;
   $("shops").innerHTML = [...data.sites].filter(s => shopOk(s.name, f)).sort((a, b) => order(a) - order(b)).map(s => {
-    const n = s.items.filter(i => i.available).length;
-    const items = s.items.filter(i => itemOk(i, s.name, f))
+    const n = s.items.filter(i => i.available && atRrp(i)).length;
+    const items = s.items.filter(i => atRrp(i) && itemOk(i, s.name, f))
       .sort((a, b) => (b.available === true) - (a.available === true));
     if (filtering(f) && !items.length) return "";
     const badge = s.skip ? '<span class="pill t-normal">not scanned</span>' : s.error ? '<span class="pill t-fire">fainted</span>'
@@ -398,7 +416,7 @@ function render() {
       ${s.skip ? `<div class="note">${esc(s.skip)}</div>` : ""}
       ${s.error ? `<div class="error">Last scan failed: ${esc(s.error)}</div>` : ""}
       ${s.skip ? "" : `<ul>${items.map(i => `<li><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a><span class="tags">${pill(i)}${basket(i)}</span></li>`).join("")
-        || '<li class="empty">Nothing matching yet</li>'}</ul>`}</article>`;
+        || `<li class="empty">${s.mode === "page" ? "This shop's prices can't be read automatically. Tap its name to check." : "Nothing at RRP right now"}</li>`}</ul>`}</article>`;
   }).join("") || '<p class="empty">Nothing matches your filters.</p>';
 }
 
@@ -410,7 +428,8 @@ let wishlist = null;  // from wishlist.json; falls back to the copy in status.js
 function renderWishlist() {
   const wl = wishlist || data.wishlist || [], f = NOF;
   $("wishlist").innerHTML = wl.filter(w => textOk(w.name + " " + w.match.join(" "), f)).map(w => {
-    const hits = data.sites.filter(s => !s.skip && shopOk(s.name, f)).flatMap(s => s.items.filter(i => matches(w, i.title) && (!f.stock || i.available)).map(i => ({...i, shop: s.name})))
+    if (w.got) return `<article class="wish"><h3>${esc(w.name)}</h3><div class="best">✓ Got it from ${esc(w.got.shop)} on ${esc(w.got.date)}. No more alerts.</div></article>`;
+    const hits = data.sites.filter(s => !s.skip && shopOk(s.name, f)).flatMap(s => s.items.filter(i => matches(w, i.title) && (!f.stock || i.available) && (w.max == null ? i.price != null : atRrp(i, w.max))).map(i => ({...i, shop: s.name})))
       .sort((a, b) => priceOf(a) - priceOf(b) || (b.available === undefined) - (a.available === undefined));
     const best = hits.find(i => i.available && (w.max == null || i.price <= w.max));
     if (f.max && !best) return "";
@@ -440,6 +459,7 @@ function addRow(w = {name: "", match: [], max: null}) {
   row.className = "wrow";
   row.dataset.rrp = w.rrp_status || "";
   row.dataset.max = w.max ?? "";
+  row.dataset.got = w.got ? JSON.stringify(w.got) : "";
   const auto = w.match.length === 1 && w.match[0] === w.name.toLowerCase();
   row.innerHTML = `<input class="nm" aria-label="Product" placeholder="e.g. Delta Reign Elite Trainer Box" value="${esc(w.name)}">
     <input class="kw" aria-label="Must contain" placeholder="e.g. delta reign, elite trainer" value="${esc(auto ? "" : w.match.join(", "))}">
@@ -455,7 +475,7 @@ function readRows() {
     const name = r.querySelector(".nm").value.trim(), kw = r.querySelector(".kw").value;
     const match = kw.split(",").map(k => k.trim().toLowerCase()).filter(Boolean);
     const price = r.dataset.rrp ? {max: r.dataset.max === "" ? null : +r.dataset.max, rrp_status: r.dataset.rrp} : rrpFor(name);
-    return {name, match: match.length ? match : [name.toLowerCase()], ...price};
+    return {name, match: match.length ? match : [name.toLowerCase()], ...price, ...(r.dataset.got ? {got: JSON.parse(r.dataset.got)} : {})};
   }).filter(w => w.name);
 }
 
@@ -638,6 +658,34 @@ fetch("amazon.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.ok ? r.jso
 
 let orders = [];
 const ACTIVE = ["pre-order", "ordered"];
+/* Got drop: marks a wishlist item as got (saved in wishlist.json) so the checker stops alerting for it */
+function renderGot() {
+  const wl = wishlist || data?.wishlist || [];
+  $("g-item").innerHTML = wl.filter(w => !w.got).map(w => `<option>${esc(w.name)}</option>`).join("") || "<option value=''>Nothing left on your wishlist</option>";
+  const keep = $("g-shop").value;
+  $("g-shop").innerHTML = (data?.sites || []).map(s => `<option ${s.name === keep ? "selected" : ""}>${esc(s.name)}</option>`).join("");
+  $("got").innerHTML = wl.filter(w => w.got).map(w => `<div class="order"><div class="what"><b>${esc(w.name)}</b> · ${esc(w.got.shop)} · ${esc(w.got.date)}</div>
+    <button class="btn small" data-ungot="${esc(w.name)}" aria-label="Undo got ${esc(w.name)}">Undo</button></div>`).join("")
+    || '<p class="empty">Nothing marked as got yet.</p>';
+}
+async function setGot(name, got) {
+  const msg = $("got-msg");
+  if (!ghReady()) { msg.textContent = "Add your GitHub repo and token first (Buy → Edit wishlist → GitHub connection)."; return; }
+  const list = (wishlist || data?.wishlist || []).map(w => w.name !== name ? w : got ? {...w, got} : (({got, ...rest}) => rest)(w));
+  msg.textContent = "Saving…";
+  try {
+    await saveToRepo("wishlist.json", list, (got ? "Got " : "Undo got ") + name);
+    wishlist = list; $("wrows").innerHTML = "";
+    msg.textContent = got ? `✓ Saved. Alerts for ${name} stop from the next scan.` : "✓ Undone. Alerts are back on.";
+    render();
+  } catch (e) { msg.textContent = "✕ " + e.message; }
+}
+$("gform").addEventListener("submit", e => {
+  e.preventDefault();
+  if ($("g-item").value) setGot($("g-item").value, {shop: $("g-shop").value, date: new Date().toISOString().slice(0, 10)});
+});
+$("got").addEventListener("click", e => { const n = e.target.dataset.ungot; if (n) setGot(n, null); });
+
 function renderOrders() {
   const today = new Date(new Date().toDateString());
   const count = {};
@@ -723,7 +771,7 @@ function browserAlerts(fresh) {
 
 async function load() {
   fetch("wishlist.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.ok ? r.json() : null)
-    .then(w => { if (w && !$("save-msg").textContent.startsWith("✓")) { wishlist = w; render(); if (lastReleases) renderReleases(lastReleases); } }).catch(() => {});
+    .then(w => { if (w && !$("save-msg").textContent.startsWith("✓") && !$("got-msg").textContent.startsWith("✓")) { wishlist = w; render(); if (lastReleases) renderReleases(lastReleases); } }).catch(() => {});
   fetch("releases.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.json()).then(renderReleases)
     .catch(() => { $("releases").innerHTML = '<p class="empty">Couldn\'t load releases.json.</p>'; });
   try {

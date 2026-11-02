@@ -29,12 +29,19 @@
     "art card",
     "empty mini tin",
     "- sticker",
-    "(pokemon)"
+    "(pokemon)",
+    "gem pack"
   ],
   "rrp": {
     "booster bundle": 24.99,
     "elite trainer": 49.99,
-    "booster box": 130.0
+    "booster box": 130.0,
+    "pokemon center elite trainer": 56.99,
+    "pokémon center elite trainer": 56.99,
+    "build & battle": 19.99,
+    "ultra premium": 169.99,
+    "ultra-premium": 169.99,
+    "booster display": 130.0
   },
   "sites": [
     {
@@ -61,10 +68,6 @@
     {
       "name": "Zatu Games",
       "url": "https://zatu.com/collections/trading-card-games-pokemon-tcg"
-    },
-    {
-      "name": "Asmodee UK",
-      "url": "https://www.asmodee.co.uk/collections/pokemon-new-releases"
     },
     {
       "name": "Hokey Poke Games",
@@ -161,6 +164,11 @@
     {
       "name": "Japan2UK",
       "url": "https://www.japan2uk.com/"
+    },
+    {
+      "name": "Asmodee UK",
+      "url": "https://www.asmodee.co.uk/collections/pokemon-new-releases",
+      "skip": "Distributor: lists trade prices, not shop prices (Nov 2026)"
     },
     {
       "name": "Element Games",
