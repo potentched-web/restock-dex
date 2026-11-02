@@ -12,7 +12,7 @@
 <meta name="apple-mobile-web-app-title" content="Restock Dex">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Nunito:wght@500;700;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bungee&family=Creepster&family=Righteous&family=Rubik:ital,wght@0,500;0,700;0,800;0,900;1,800;1,900&family=Press+Start+2P&family=Nunito:wght@500;700;800&display=swap">
 <style>
   :root {
     --shell:#c8102e; --shell-dark:#8e0b20; --shell-light:#ee3a4f;
@@ -183,7 +183,132 @@
   .order.opted { border-color:var(--grass); opacity:.8 }
   .amz-go { text-decoration:none }
   footer { text-align:center; font-size:12px; opacity:.85; margin-top:22px }
+.skin { margin-top:8px; font:inherit; font-size:13px; font-weight:700; padding:4px 8px; border-radius:8px; border:2px solid var(--line); background:var(--screen); color:var(--text) }
 </style>
+<style>
+/* Flame */
+html[data-skin="flame"]{ --shell:#c4501b; --shell-dark:#5a210c; --shell-light:#ff8a3d; --screen:#18110d; --screen-2:#221812; --line:#3d2a1e;
+  --text:#fbeee4; --muted:#c3a594; --electric:#ffb02e; --wing:#2fa5a0; --head:"Bungee", "Arial Black", sans-serif; color-scheme:dark }
+html[data-skin="flame"] body{ background:#0e0907 radial-gradient(ellipse at 50% 120%, #7a2a0c 0, transparent 60%) fixed }
+html[data-skin="flame"] body::after{ content:""; position:fixed; inset:0; pointer-events:none; opacity:.5;
+  background:radial-gradient(2px 2px at 20% 80%, #ffb02e, transparent), radial-gradient(2px 2px at 70% 60%, #ff6a2b, transparent),
+  radial-gradient(1.5px 1.5px at 40% 30%, #ffd27a, transparent), radial-gradient(2px 2px at 85% 85%, #ffb02e, transparent);
+  animation:embers 9s linear infinite }
+@keyframes embers{ to { transform:translateY(-120px); opacity:0 } }
+html[data-skin="flame"] .top{ border-bottom:0 }
+html[data-skin="flame"] .lens{ background:radial-gradient(circle at 40% 35%, #fff3c4 0 10%, #ffb02e 12% 45%, #c4501b 70%, #5a210c); border-color:#2a1a10; box-shadow:0 0 22px 6px rgba(255,138,61,.5) }
+html[data-skin="flame"] .lens.fresh{ animation:none }
+html[data-skin="flame"] h1{ font:400 26px/1 var(--head); color:var(--electric); text-shadow:0 3px 0 #5a210c, 0 0 20px rgba(255,138,61,.5) }
+html[data-skin="flame"] .screen{ border:0; border-radius:16px; background:var(--screen); box-shadow:inset 0 0 0 2px var(--line), 0 8px 24px rgba(0,0,0,.5); position:relative; overflow:hidden }
+html[data-skin="flame"] .screen::before{ content:""; position:absolute; inset:0 0 auto; height:4px; background:linear-gradient(90deg, #c4501b, #ffb02e, #fff1a8, #ffb02e, #c4501b) }
+html[data-skin="flame"] h2{ font:400 14px/1.3 var(--head); color:var(--electric) }
+html[data-skin="flame"] .tabs{ background:#221812; border:2px solid var(--line) }
+html[data-skin="flame"] .tab{ font:400 12px/1 var(--head); background:transparent; border-color:var(--line) }
+html[data-skin="flame"] .tab[aria-selected=true]{ background:linear-gradient(180deg, #ffb02e, #e0641f); color:#2a1206; border-color:#ffd27a }
+html[data-skin="flame"] .badge{ background:var(--wing) }
+html[data-skin="flame"] .stat .v{ font:400 24px/1.4 var(--head); color:#fff }
+html[data-skin="flame"] .shop.hot, html[data-skin="flame"] .wish.buy{ border-color:#ff8a3d; box-shadow:0 0 0 1px #ff8a3d, 0 0 24px rgba(255,138,61,.35) }
+html[data-skin="flame"] .feed .who, html[data-skin="flame"] .resale a{ color:var(--wing) }
+html[data-skin="flame"] .btn.primary{ background:linear-gradient(180deg, #ffb02e, #e0641f); border-color:#ffb02e; color:#2a1206 }
+html[data-skin="flame"] input[type=search], html[data-skin="flame"] .wrow input, html[data-skin="flame"] .gh input, html[data-skin="flame"] .order select, html[data-skin="flame"] .oform input, html[data-skin="flame"] .oform select{ background:#0e0907 }
+html[data-skin="flame"] .rday{ background:linear-gradient(135deg, #ffb02e, #e0641f) }
+html[data-skin="flame"] footer{ color:var(--muted) }
+/* Ghost */
+html[data-skin="ghost"]{ --shell:#5b3a8c; --shell-dark:#24163b; --shell-light:#8a5cc7; --screen:#140d22; --screen-2:#1d1430; --line:#3a2858;
+  --text:#ece4fb; --muted:#a493c4; --electric:#c9a4ff; --grin:#ff5c8a; --eye:#ff3b3b; color-scheme:dark }
+html[data-skin="ghost"] body{ background:radial-gradient(ellipse at 15% 0%, #3b2463 0, transparent 55%), radial-gradient(ellipse at 90% 30%, #2a1747 0, transparent 50%) #0c0716 fixed }
+html[data-skin="ghost"] .top{ border-bottom-color:#3a2858 }
+html[data-skin="ghost"] .lens{ background:radial-gradient(circle at 50% 50%, #fff 0 10%, var(--eye) 12% 55%, #6d0f1c); border-color:#2a1a44; box-shadow:0 0 18px 4px rgba(255,59,59,.45) }
+html[data-skin="ghost"] .lens.fresh{ animation:none }
+html[data-skin="ghost"] .leds .led{ border-color:#2a1a44 }
+html[data-skin="ghost"] h1{ font:400 34px/1 "Creepster", cursive; letter-spacing:3px; color:var(--electric); text-shadow:0 0 14px rgba(201,164,255,.6) }
+html[data-skin="ghost"] .screen{ border:3px solid var(--line); border-radius:22px; box-shadow:0 0 0 1px #000, 0 10px 30px rgba(0,0,0,.5) }
+html[data-skin="ghost"] .screen{ position:relative; margin-top:34px }
+html[data-skin="ghost"] .screen::before{ content:""; position:absolute; top:-16px; left:22px; width:120px; height:16px; background:var(--line);
+  clip-path:polygon(0 100%, 10% 0, 22% 100%, 34% 20%, 46% 100%, 58% 0, 70% 100%) }
+html[data-skin="ghost"] h2{ color:var(--electric) }
+html[data-skin="ghost"] .tabs{ background:#1d1430; border:3px solid var(--grin); box-shadow:0 0 22px rgba(255,92,138,.35) }
+html[data-skin="ghost"] .tab{ background:transparent; border-color:#3a2858 }
+html[data-skin="ghost"] .tab[aria-selected=true]{ background:#fff; color:#24163b; border-color:#fff }
+html[data-skin="ghost"] .badge{ background:var(--grin) }
+html[data-skin="ghost"] .shop.hot, html[data-skin="ghost"] .wish.buy{ border-color:var(--electric); box-shadow:0 0 0 1px var(--electric), 0 0 22px rgba(201,164,255,.35) }
+html[data-skin="ghost"] .btn.primary{ background:var(--grin); border-color:var(--grin); color:#fff }
+html[data-skin="ghost"] input[type=search], html[data-skin="ghost"] .wrow input, html[data-skin="ghost"] .gh input, html[data-skin="ghost"] .order select, html[data-skin="ghost"] .oform input, html[data-skin="ghost"] .oform select{ background:#0c0716 }
+html[data-skin="ghost"] footer{ color:var(--muted) }
+/* Battle Screen */
+html[data-skin="battle"]{ --sky:#9fd8ff; --field:#a4dc7c; --box:#ffffff; --rim:#3b5a6e; --rim-2:#cfe1ea; --hp:#38d26b;
+  --screen:var(--box); --screen-2:#f3f8fb; --line:var(--rim-2); --text:#20323f; --muted:#5d7383;
+  --head:"Rubik", system-ui, sans-serif; color-scheme:light }
+html[data-skin="battle"] body{ color:var(--text); font-family:var(--head); background:linear-gradient(180deg, var(--sky) 0, #d6f0ff 320px, var(--field) 320px, #7fc35a) fixed }
+html[data-skin="battle"] .top{ border:0; background:transparent }
+html[data-skin="battle"] h1{ font:900 italic 30px/1 var(--head); color:#fff; text-shadow:0 3px 0 var(--rim), 3px 0 0 var(--rim), -2px 0 0 var(--rim), 0 -2px 0 var(--rim); letter-spacing:1px }
+html[data-skin="battle"] .status-line{ color:var(--rim); font-weight:700 }
+html[data-skin="battle"] .lens{ border-color:#fff; box-shadow:0 0 0 3px var(--rim) }
+html[data-skin="battle"] .screen{ background:var(--box); border:4px solid var(--rim); border-radius:18px; box-shadow:inset 0 0 0 4px var(--rim-2), 0 6px 0 rgba(30,60,80,.35) }
+html[data-skin="battle"] h2{ font:800 italic 16px/1.2 var(--head); color:var(--rim); letter-spacing:.5px; text-transform:uppercase }
+html[data-skin="battle"] .stat{ position:relative; background:linear-gradient(180deg, #fff, #eef6fa); border:3px solid var(--rim); border-radius:12px 12px 12px 30px; padding:10px 14px 12px }
+html[data-skin="battle"] .stat .k{ color:var(--rim); font-weight:800; text-transform:uppercase; font-size:12px }
+html[data-skin="battle"] .stat .v{ font:800 26px/1.2 var(--head) }
+html[data-skin="battle"] .bar{ height:10px; background:#3c4a52; border:2px solid var(--rim); position:relative; margin-left:30px }
+html[data-skin="battle"] .bar::before{ content:"HP"; position:absolute; left:-30px; top:-5px; font:900 italic 12px var(--head); color:#f2a71b }
+html[data-skin="battle"] .bar i{ background:var(--hp) !important }
+html[data-skin="battle"] .bar i[style*="width:1"], html[data-skin="battle"] .bar i[style*="width:2"]{ background:#f2a71b !important }
+html[data-skin="battle"] .tabs{ background:#283c48; border:4px solid #fff; border-radius:16px; padding:8px; gap:8px }
+html[data-skin="battle"] .tab{ font:800 italic 15px/1 var(--head); text-transform:uppercase; color:#fff; border:3px solid rgba(0,0,0,.3); border-radius:12px;
+  padding:12px 16px; background:linear-gradient(180deg, color-mix(in srgb, var(--c) 75%, #fff), var(--c)); text-shadow:0 2px 0 rgba(0,0,0,.35) }
+html[data-skin="battle"] #t-buy{ --c:#e2443a }
+html[data-skin="battle"] #t-drops{ --c:#e8a02c }
+html[data-skin="battle"] #t-releases{ --c:#3f86d6 }
+html[data-skin="battle"] #t-shops{ --c:#3caa4c }
+html[data-skin="battle"] #t-got{ --c:#8b5bd1 }
+html[data-skin="battle"] #t-orders{ --c:#d1508f }
+html[data-skin="battle"] #t-amazon{ --c:#6b7d89 }
+html[data-skin="battle"] #t-patterns{ --c:#2a9d9a }
+html[data-skin="battle"] .tab[aria-selected=true]{ background:linear-gradient(180deg, color-mix(in srgb, var(--c) 75%, #fff), var(--c)); color:#fff; border-color:#fff; box-shadow:0 0 0 3px var(--c), 0 4px 10px rgba(0,0,0,.4); transform:translateY(-2px) }
+html[data-skin="battle"] .tab:not([aria-selected=true]){ opacity:.75 }
+html[data-skin="battle"] .badge{ background:#fff; color:#20323f }
+html[data-skin="battle"] .tab[aria-selected=true] .badge{ background:#fff; color:#20323f }
+html[data-skin="battle"] .shop, html[data-skin="battle"] .wish, html[data-skin="battle"] .release, html[data-skin="battle"] .drop, html[data-skin="battle"] .order{ background:var(--screen-2); border:3px solid var(--rim-2); border-radius:14px }
+html[data-skin="battle"] .shop.hot, html[data-skin="battle"] .wish.buy{ border-color:var(--hp); box-shadow:0 0 0 2px var(--hp), 0 6px 14px rgba(56,210,107,.3); background:#f2fff5 }
+html[data-skin="battle"] .shop h3, html[data-skin="battle"] .wish h3, html[data-skin="battle"] .release h3{ font-weight:800 }
+html[data-skin="battle"] .release .when, html[data-skin="battle"] .drop .closes{ font:800 italic 13px/1.4 var(--head); color:#e2443a }
+html[data-skin="battle"] .drop{ border-left:6px solid #e8a02c }
+html[data-skin="battle"] .drop.done{ border-left-color:var(--hp) }
+html[data-skin="battle"] .wish .best a{ color:#1d8a44 }
+html[data-skin="battle"] .resale a{ color:#3f86d6 }
+html[data-skin="battle"] .feed .who{ color:var(--rim) }
+html[data-skin="battle"] input[type=search], html[data-skin="battle"] .wrow input, html[data-skin="battle"] .gh input, html[data-skin="battle"] .order select, html[data-skin="battle"] .oform input, html[data-skin="battle"] .oform select{ background:#fff; color:var(--text); border:3px solid var(--rim-2) }
+html[data-skin="battle"] .btn, html[data-skin="battle"] .toggle, html[data-skin="battle"] .chip{ background:#fff; color:var(--rim); border:3px solid var(--rim-2); font-weight:800 }
+html[data-skin="battle"] .btn:hover, html[data-skin="battle"] .chip:hover, html[data-skin="battle"] .toggle[aria-pressed=true]{ border-color:var(--rim); color:var(--rim) }
+html[data-skin="battle"] .btn.primary{ background:linear-gradient(180deg, #ff6a5e, #e2443a); color:#fff; border-color:#b8322a }
+html[data-skin="battle"] .editor{ background:#fff; border-color:var(--rim) }
+html[data-skin="battle"] .heat .c{ background:#e3eef3 }
+html[data-skin="battle"] footer{ color:#20402a }
+html[data-skin="battle"] .bar{ overflow:visible }
+html[data-skin="battle"] .bar i{ border-radius:99px }
+/* Deep Sea */
+html[data-skin="deepsea"]{ --shell:#1f6fb5; --shell-dark:#051624; --shell-light:#2d8ad6; --screen:#0a1d2c; --screen-2:#0f2638; --line:#1b3a52;
+  --text:#e6f3fb; --muted:#8fb0c6; --electric:#f6d27a; --fin:#e2483d; --head:"Righteous", system-ui, sans-serif; color-scheme:dark }
+html[data-skin="deepsea"] body{ background-color:#04111c;
+  background-image:radial-gradient(circle at 50% 100%, transparent 0 13px, rgba(45,138,214,.10) 14px 16px, transparent 17px);
+  background-size:32px 18px; background-attachment:fixed }
+html[data-skin="deepsea"] .top{ border-bottom:3px solid var(--line) }
+html[data-skin="deepsea"] .lens{ background:radial-gradient(circle at 35% 30%, #c9f0ff 0 12%, var(--shell-light) 14% 55%, #0b3f6e); border-color:var(--electric); box-shadow:0 0 0 3px #04111c, 0 0 24px rgba(45,138,214,.5) }
+html[data-skin="deepsea"] h1{ font:400 30px/1 var(--head); letter-spacing:2px; color:#fff; text-shadow:0 0 18px rgba(45,138,214,.8) }
+html[data-skin="deepsea"] .screen{ border:2px solid var(--line); border-radius:20px 4px 20px 4px; box-shadow:0 10px 30px rgba(0,0,0,.5); background:linear-gradient(180deg, var(--screen), #071722) }
+html[data-skin="deepsea"] h2{ font:400 16px/1.3 var(--head); color:var(--electric); padding-left:12px; border-left:4px solid var(--fin) }
+html[data-skin="deepsea"] .tabs{ background:#071722; border:2px solid var(--shell-light); box-shadow:0 0 24px rgba(31,111,181,.35) }
+html[data-skin="deepsea"] .tab{ font:400 14px/1 var(--head); background:transparent; border-color:var(--line) }
+html[data-skin="deepsea"] .tab[aria-selected=true]{ background:var(--electric); color:#051624; border-color:var(--electric) }
+html[data-skin="deepsea"] .badge{ background:var(--fin) }
+html[data-skin="deepsea"] .stat .v{ font:400 28px/1.3 var(--head) }
+html[data-skin="deepsea"] .stat, html[data-skin="deepsea"] .shop, html[data-skin="deepsea"] .wish, html[data-skin="deepsea"] .release, html[data-skin="deepsea"] .drop, html[data-skin="deepsea"] .order{ border-radius:14px 4px 14px 4px }
+html[data-skin="deepsea"] .shop.hot, html[data-skin="deepsea"] .wish.buy{ border-color:var(--shell-light); box-shadow:0 0 0 1px var(--shell-light), 0 0 24px rgba(45,138,214,.35) }
+html[data-skin="deepsea"] .btn.primary{ background:var(--electric); color:#051624 }
+html[data-skin="deepsea"] input[type=search], html[data-skin="deepsea"] .wrow input, html[data-skin="deepsea"] .gh input, html[data-skin="deepsea"] .order select, html[data-skin="deepsea"] .oform input, html[data-skin="deepsea"] .oform select{ background:#04111c }
+html[data-skin="deepsea"] footer{ color:var(--muted) }
+</style>
+<script>try { document.documentElement.dataset.skin = localStorage.getItem("skin") || "flame" } catch { document.documentElement.dataset.skin = "flame" }</script>
 </head>
 <body>
 <div class="dex">
@@ -192,6 +317,7 @@
     <div class="leds" aria-hidden="true"><span class="led r" id="led-r"></span><span class="led y" id="led-y"></span><span class="led g" id="led-g"></span></div>
     <div class="titles">
       <h1>RESTOCK DEX</h1>
+      <select class="skin" id="skin" aria-label="Theme"><option value="flame">Flame</option><option value="ghost">Ghost</option><option value="battle">Battle Screen</option><option value="deepsea">Deep Sea</option><option value="dex">Classic Dex</option></select>
       <div class="status-line" id="updated" aria-live="polite">Booting up…</div>
     </div>
   </header>
@@ -896,6 +1022,10 @@ function loadHistory() {
 }
 // Refresh every minute, or every 20 seconds on release day.
 (function tick() { load(); loadHistory(); setTimeout(tick, rdayList.length ? 20000 : 60000); })();
+
+/* Theme picker: remembered on this device */
+$("skin").value = document.documentElement.dataset.skin;
+$("skin").onchange = e => { document.documentElement.dataset.skin = e.target.value; store("skin", e.target.value); };
 </script>
 </body>
 </html>
