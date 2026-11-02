@@ -45,6 +45,8 @@ SHOP["products"] = [product(1, "Delta Reign Elite Trainer Box", "49.99", False),
 st, alerts = check.check_site(site, CFG, None)
 assert st["mode"] == "shopify" and alerts == [] and list(st["items"]) == ["1"], (st, alerts)
 assert PATHS[-1] == "/collections/x/products.json?limit=250", PATHS  # collection URLs read just that collection
+check.check_site({"name": "a", "url": f"http://127.0.0.1:{SHOPIFY_PORT}/collections/all"}, CFG, None)
+assert PATHS[-1] == "/products.json?limit=250", PATHS  # except /collections/all, read store-wide
 st = json.loads(json.dumps(st))  # round-trip like state.json
 
 # restock + new over-RRP listing alert; filtered product does not

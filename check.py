@@ -129,7 +129,9 @@ def check_site(site, cfg, prev):
     base = f"{parts.scheme}://{parts.netloc}"
     try:
         # A /collections/ URL is read as that collection only (keeps e.g. Double Sleeved to its pre-orders).
-        src = site["url"].split("?")[0].rstrip("/") if "/collections/" in parts.path else base
+        # /collections/all is read store-wide instead, since only the store feed lists newest first.
+        src = site["url"].split("?")[0].rstrip("/") if "/collections/" in parts.path \
+            and not parts.path.startswith("/collections/all") else base
         data = json.loads(fetch(src + "/products.json?limit=250"))
         if "products" in data:
             items = shopify_items(data, base, cfg)
