@@ -253,6 +253,9 @@ def main():
                 err = str(e)[:200]
                 print(f"[{site['name']}] check failed: {e}", file=sys.stderr)
         rows.append(site_status(site, state.get(site["name"], {}), err, cfg))
+        if not site.get("skip"):  # scan success rate, a moving average over roughly the last 50 scans
+            up = state.setdefault("_uptime", {})
+            rows[-1]["uptime"] = up[site["name"]] = round(0.98 * up.get(site["name"], 1.0) + 0.02 * (err is None), 4)
     auto_drops = [d for d in status.get("auto_drops", [])
                   if (now_dt - datetime.fromisoformat(d["found"])).days < 30]
     for page in cfg.get("drop_pages", []):
@@ -287,7 +290,9 @@ def main():
     feed = [{"time": now, "site": n, "text": t, "url": u} for n, t, u in run_alerts] + [a for a in status.get("alerts", []) if "text" in a]
     # Restock log for the dashboard's day/hour patterns.
     history = json.load(open(HISTORY)) if os.path.exists(HISTORY) else []
-    history += [{"t": now, "shop": n} for n, t, u in run_alerts if t.startswith(("NEW:", "BACK IN STOCK:", "New on page:"))]
+    # rrp: True/False for priced restocks, None when the shop's page shows no price
+    history += [{"t": now, "shop": n, "rrp": None if t.startswith("New on page:") else "(over RRP)" not in t}
+                for n, t, u in run_alerts if t.startswith(("NEW:", "BACK IN STOCK:", "New on page:"))]
     json.dump(history[-3000:], open(HISTORY, "w"))
     json.dump(state, open(STATE, "w"), indent=1, sort_keys=True)
     json.dump({"updated": now, "sites": rows, "alerts": feed[:100], "wishlist": cfg.get("wishlist", []),

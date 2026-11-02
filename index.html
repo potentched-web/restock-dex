@@ -102,6 +102,12 @@
   .chip { text-decoration:none; font-size:13px; font-weight:700; padding:6px 12px; border-radius:99px; border:2px solid var(--line); background:var(--screen-2) }
   .chip:hover, .chip:focus-visible { border-color:var(--electric); color:var(--electric) }
   .chip small { color:var(--muted); font-weight:500 }
+  .set { border-top:1px solid var(--line); padding:6px 0 } .set summary { cursor:pointer; display:grid; grid-template-columns:auto auto 1fr; gap:8px; align-items:center }
+  .set .feed li { display:flex; justify-content:space-between; align-items:center; gap:10px }
+  .rel { margin:0 0 12px } .rel summary { cursor:pointer; padding:4px 0 }
+  .rel-list { list-style:none; margin:6px 0 0; padding:0; max-height:300px; overflow:auto }
+  .rel-list li { display:grid; grid-template-columns:minmax(0,9em) 1fr 2.5em; gap:4px 10px; align-items:center; padding:5px 0; border-top:1px solid var(--line); font-size:14px }
+  .rel-list .rn { overflow-wrap:anywhere } .rel-list .note { grid-column:1 / -1; margin:0 }
   .wish { background:var(--screen-2); border:1px solid var(--line); border-radius:12px; padding:12px 14px; min-width:0 }
   .wish.buy { border-color:var(--electric); box-shadow:0 0 0 1px var(--electric), 0 0 18px rgba(247,208,44,.25) }
   .wish h3 { margin:0 0 4px; font-size:16px }
@@ -269,6 +275,11 @@
   <div class="panel" id="tab-shops" role="tabpanel" aria-labelledby="t-shops">
 <section class="screen" aria-labelledby="shops-h">
     <h2 id="shops-h">▶ SHOPS</h2>
+    <details class="rel" id="rel-box" open>
+      <summary><b>Most reliable for RRP</b> <span class="note">(score out of 100)</span></summary>
+      <p class="note">50% how much of a shop's stock is priced at or under RRP, 30% restocks at RRP in the last 30 days (compared with the busiest shop), 20% how often its scans succeed. Shops whose prices can't be read are scored on the parts that are known.</p>
+      <ol class="rel-list" id="rel"></ol>
+    </details>
     <div class="controls">
       <input type="search" id="q" placeholder="Search, e.g. delta reign" aria-label="Filter products">
       <button class="toggle" id="instock" aria-pressed="false">● In stock only</button>
@@ -289,6 +300,11 @@
     </form>
     <span id="got-msg" role="status" class="note"></span>
     <div class="orders" id="got" style="margin-top:10px"></div>
+  </section>
+<section class="screen" aria-labelledby="sets-h">
+    <h2 id="sets-h">▶ SET CHECKLIST</h2>
+    <p class="note" style="margin-top:0">Every sealed product in the sets you track. Tap "Got it" to record where you got it (this also stops its alerts).</p>
+    <div id="sets"></div>
   </section>
   </div>
 
@@ -376,6 +392,27 @@ const itemOk = (i, shop, f) => textOk(i.title, f) && (!f.stock || i.available);
 const atRrp = (i, max = i.rrp) => i.price != null && max != null && i.price <= max + 0.001;
 const filtering = f => !!(f.q || f.stock);
 
+/* Shop reliability: score each live shop 0-100 from RRP pricing, recent RRP restocks and scan uptime */
+function reliability() {
+  const since = Date.now() - 30 * 864e5, live = data.sites.filter(s => !s.skip);
+  const restocks = {};
+  restockLog.filter(h => h.rrp && new Date(h.t) > since).forEach(h => restocks[h.shop] = (restocks[h.shop] || 0) + 1);
+  const most = Math.max(1, ...Object.values(restocks));
+  return Object.fromEntries(live.map(s => {
+    const priced = s.items.filter(i => i.price != null && i.rrp != null);
+    const parts = [[50, priced.length ? priced.filter(i => atRrp(i)).length / priced.length : null],
+                   [30, (restocks[s.name] || 0) / most], [20, s.uptime ?? (s.error ? 0 : 1)]].filter(([, v]) => v != null);
+    const w = parts.reduce((t, [k]) => t + k, 0);
+    return [s.name, {score: Math.round(parts.reduce((t, [k, v]) => t + k * v, 0) / w * 100),
+      rrpShare: priced.length ? priced.filter(i => atRrp(i)).length / priced.length : null, restocks: restocks[s.name] || 0, uptime: s.uptime ?? null}];
+  }));
+}
+function renderReliability(rel) {
+  $("rel").innerHTML = Object.entries(rel).sort((a, b) => b[1].score - a[1].score).map(([n, r]) =>
+    `<li><span class="rn">${esc(n)}</span>${bar(r.score, 100, r.score >= 70 ? "--grass" : r.score >= 40 ? "--electric" : "--fire")}<b>${r.score}</b>
+      <span class="note">${r.rrpShare == null ? "prices hidden" : Math.round(r.rrpShare * 100) + "% at RRP"} · ${r.restocks} RRP restocks/30d${r.uptime == null ? "" : " · " + Math.round(r.uptime * 100) + "% up"}</span></li>`).join("");
+}
+
 function render() {
   if (!data) return;
   renderWishlist();
@@ -403,8 +440,10 @@ function render() {
      <a href="${esc(a.url)}" target="_blank" rel="noopener">${sighting(a)}</a></li>`
   ).join("") || '<li class="empty">No sightings yet. The first scan only records what each shop has.</li>';
 
+  const rel = reliability();
+  renderReliability(rel);
   const order = s => s.skip ? 3 : s.error ? 2 : s.items.some(i => i.available) ? 0 : 1;
-  $("shops").innerHTML = [...data.sites].filter(s => shopOk(s.name, f)).sort((a, b) => order(a) - order(b)).map(s => {
+  $("shops").innerHTML = [...data.sites].filter(s => shopOk(s.name, f)).sort((a, b) => order(a) - order(b) || (rel[b.name]?.score ?? 0) - (rel[a.name]?.score ?? 0)).map(s => {
     // Shops tab lists everything, over-RRP included; at-RRP stock first. The wishlist stays RRP-only.
     const n = s.items.filter(i => i.available).length;
     const items = s.items.filter(i => itemOk(i, s.name, f))
@@ -413,7 +452,7 @@ function render() {
     const badge = s.skip ? '<span class="pill t-normal">not scanned</span>' : s.error ? '<span class="pill t-fire">fainted</span>'
       : s.mode === "page" ? '<span class="pill t-water">watching</span>' : `<span class="pill ${n ? "t-grass" : "t-normal"}">${n} in stock</span>`;
     return `<article class="shop ${n ? "hot" : ""} ${s.error ? "err" : ""}">
-      <h3><span class="ball" aria-hidden="true"></span><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>${badge}</h3>
+      <h3><span class="ball" aria-hidden="true"></span><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>${rel[s.name] ? `<span class="pill t-normal" title="Reliability score">★ ${rel[s.name].score}</span>` : ""}${badge}</h3>
       ${s.skip ? `<div class="note">${esc(s.skip)}</div>` : ""}
       ${s.error ? `<div class="error">Last scan failed: ${esc(s.error)}</div>` : ""}
       ${s.skip ? "" : `<ul>${items.map(i => `<li><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a><span class="tags">${pill(i)}${basket(i)}</span></li>`).join("")
@@ -660,9 +699,33 @@ fetch("amazon.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.ok ? r.jso
 let orders = [];
 const ACTIVE = ["pre-order", "ordered"];
 /* Got drop: marks a wishlist item as got (saved in wishlist.json) so the checker stops alerting for it */
+// Sealed products per tracked set, from releases.json: [{set, items: [{name, match, max, rrp_status}]}]
+function setProducts() {
+  return (lastReleases?.releases || []).filter(r => r.set).map(r => ({set: r.set, items: r.products.map(p => {
+    const t = rrpTable[p] || {};
+    return {name: `${r.set} ${p}`, match: [r.set.toLowerCase(), ...(t.match || [p.toLowerCase()])], max: t.price ?? null, rrp_status: t.status || "unknown"};
+  })}));
+}
+function renderSets(wl) {
+  const got = Object.fromEntries(wl.filter(w => w.got).map(w => [w.name, w.got]));
+  $("sets").innerHTML = setProducts().map(({set, items}) => {
+    const n = items.filter(i => got[i.name]).length;
+    return `<details class="set" ${n < items.length ? "open" : ""}><summary><b>${esc(set)}</b> <span class="note">${n}/${items.length} got</span>${bar(n, items.length, "--grass")}</summary>
+      <ul class="feed">${items.map(i => `<li><span>${got[i.name] ? "✅" : "⬜"} ${esc(i.name.slice(set.length + 1))}</span>
+        ${got[i.name] ? `<span class="note">${esc(got[i.name].shop)} · ${esc(got[i.name].date)}</span>` : `<button class="btn small" data-pick="${esc(i.name)}">Got it</button>`}</li>`).join("")}</ul></details>`;
+  }).join("") || '<p class="empty">No sets in releases.json yet.</p>';
+}
+$("sets").addEventListener("click", e => {
+  const n = e.target.dataset.pick; if (!n) return;
+  $("g-item").value = n; $("g-shop").focus(); $("gform").scrollIntoView({behavior: "smooth", block: "center"});
+});
+
 function renderGot() {
   const wl = wishlist || data?.wishlist || [];
-  $("g-item").innerHTML = wl.filter(w => !w.got).map(w => `<option>${esc(w.name)}</option>`).join("") || "<option value=''>Nothing left on your wishlist</option>";
+  renderSets(wl);
+  const names = new Set(wl.map(w => w.name)), extra = setProducts().flatMap(s => s.items).filter(i => !names.has(i.name));
+  const pick = $("g-item").value;  // keep the choice across the minute-by-minute refresh
+  $("g-item").innerHTML = wl.filter(w => !w.got).concat(extra).map(w => `<option ${w.name === pick ? "selected" : ""}>${esc(w.name)}</option>`).join("") || "<option value=''>Nothing left to get</option>";
   const keep = $("g-shop").value;
   $("g-shop").innerHTML = (data?.sites || []).map(s => `<option ${s.name === keep ? "selected" : ""}>${esc(s.name)}</option>`).join("");
   $("got").innerHTML = wl.filter(w => w.got).map(w => `<div class="order"><div class="what"><b>${esc(w.name)}</b> · ${esc(w.got.shop)} · ${esc(w.got.date)}</div>
@@ -672,7 +735,10 @@ function renderGot() {
 async function setGot(name, got) {
   const msg = $("got-msg");
   if (!ghReady()) { msg.textContent = "Add your GitHub repo and token first (Buy → Edit wishlist → GitHub connection)."; return; }
-  const list = (wishlist || data?.wishlist || []).map(w => w.name !== name ? w : got ? {...w, got} : (({got, ...rest}) => rest)(w));
+  let list = (wishlist || data?.wishlist || []).map(w => w.name !== name ? w : got ? {...w, got} : (({got, ...rest}) => rest)(w));
+  // A set product that wasn't on the wishlist is added already got, so it never alerts.
+  const extra = got && !list.some(w => w.name === name) && setProducts().flatMap(s => s.items).find(i => i.name === name);
+  if (extra) list = list.concat({...extra, got});
   msg.textContent = "Saving…";
   try {
     await saveToRepo("wishlist.json", list, (got ? "Got " : "Undo got ") + name);
@@ -738,6 +804,7 @@ const allDrops = () => releaseDrops.concat(data?.auto_drops || []);
 let lastReleases = null;
 function renderReleases(r) {
   lastReleases = r;
+  if (data) renderGot();
   rrpTable = r.rrp || {};
   releaseDrops = r.drops || [];
   shopLinks = r.shops;
@@ -825,7 +892,7 @@ $("notify").addEventListener("click", async e => {
 });
 setToggle($("notify"), store("notify") === "on");
 function loadHistory() {
-  fetch("history.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.ok ? r.json() : []).then(h => { restockLog = h; renderPatterns(); }).catch(renderPatterns);
+  fetch("history.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.ok ? r.json() : []).then(h => { restockLog = h; renderPatterns(); if (data) renderReliability(reliability()); }).catch(renderPatterns);
 }
 // Refresh every minute, or every 20 seconds on release day.
 (function tick() { load(); loadHistory(); setTimeout(tick, rdayList.length ? 20000 : 60000); })();
