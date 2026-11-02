@@ -342,7 +342,7 @@ def main():
              and (now_dt - datetime.fromisoformat(d.get("date_checked") or "2000-01-01T00:00:00+00:00")).days >= 7]
     for d in stale[:15]:
         try:
-            time.sleep(2)
+            time.sleep(4)  # Shopify rate-limits GitHub runner IPs; 2s still drew 429s
             d["expected"] = expected_date(fetch(d["url"])) or d.get("expected")
         except Exception as e:
             print(f"[{d['shop']}] date check failed: {e}", file=sys.stderr)
