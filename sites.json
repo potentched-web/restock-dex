@@ -126,6 +126,186 @@
       "name": "Amazon UK",
       "url": "https://www.amazon.co.uk",
       "skip": "Terms forbid scraping: use an alert Discord"
+    },
+    {
+      "name": "Titan Cards",
+      "url": "https://titancards.co.uk/",
+      "probe": true
+    },
+    {
+      "name": "TCG Shop UK",
+      "url": "https://tcgshopuk.com/",
+      "probe": true
+    },
+    {
+      "name": "Pixel Hub",
+      "url": "https://pixel-hub.co.uk/",
+      "probe": true
+    },
+    {
+      "name": "Invicta TCG",
+      "url": "https://invictatcg.co.uk/product-category/pokemon/",
+      "probe": true
+    },
+    {
+      "name": "Dice Cup Cafe",
+      "url": "https://dicecupcafe.co.uk/",
+      "probe": true
+    },
+    {
+      "name": "Poke Collect",
+      "url": "https://poke-collect.com/",
+      "probe": true
+    },
+    {
+      "name": "TCGora",
+      "url": "https://tcgora.com/",
+      "probe": true
+    },
+    {
+      "name": "SJ's PokeStore",
+      "url": "https://sjspokestore.co.uk/",
+      "probe": true
+    },
+    {
+      "name": "TCG Paradise",
+      "url": "https://tcgparadise.co.uk/",
+      "probe": true
+    },
+    {
+      "name": "Dark Sphere",
+      "url": "https://www.darksphere.co.uk/",
+      "probe": true
+    },
+    {
+      "name": "Wayland Games",
+      "url": "https://www.waylandgames.co.uk/",
+      "probe": true
+    },
+    {
+      "name": "Troll Trader",
+      "url": "https://www.trolltradercards.com/",
+      "probe": true
+    },
+    {
+      "name": "Manaleak",
+      "url": "https://www.manaleak.com/",
+      "probe": true
+    },
+    {
+      "name": "Axion Now",
+      "url": "https://www.axionnow.com/",
+      "probe": true
+    },
+    {
+      "name": "Goblin Gaming",
+      "url": "https://www.goblingaming.co.uk/",
+      "probe": true
+    },
+    {
+      "name": "Hobbiesville",
+      "url": "https://www.hobbiesville.co.uk/",
+      "probe": true
+    },
+    {
+      "name": "Kards Unlimited",
+      "url": "https://www.kardsunlimited.com/",
+      "probe": true
+    },
+    {
+      "name": "Shuffle and Cut Games",
+      "url": "https://www.shuffleandcutgames.co.uk/",
+      "probe": true
+    },
+    {
+      "name": "Forbidden Planet",
+      "url": "https://forbiddenplanet.com/",
+      "probe": true
+    },
+    {
+      "name": "Leisure Games",
+      "url": "https://www.leisuregames.com/",
+      "probe": true
+    },
+    {
+      "name": "Orcs Nest",
+      "url": "https://www.orcsnest.com/",
+      "probe": true
+    },
+    {
+      "name": "The Card Vault",
+      "url": "https://thecardvault.co.uk/",
+      "probe": true
+    },
+    {
+      "name": "Spirit Games",
+      "url": "https://www.spiritgames.co.uk/",
+      "probe": true
+    },
+    {
+      "name": "Card Cavern",
+      "url": "https://cardcavern.co.uk/",
+      "probe": true
+    },
+    {
+      "name": "Fanboy3",
+      "url": "https://www.fanboy3.co.uk/",
+      "probe": true
+    },
+    {
+      "name": "Gameology",
+      "url": "https://www.gameology.co.uk/",
+      "probe": true
+    },
+    {
+      "name": "Mighty Ape Cards",
+      "url": "https://www.cardsandcollectables.co.uk/",
+      "probe": true
+    },
+    {
+      "name": "Bluemoon Games",
+      "url": "https://bluemoongames.co.uk/",
+      "probe": true
+    },
+    {
+      "name": "Pokemart UK",
+      "url": "https://pokemart.co.uk/",
+      "probe": true
+    },
+    {
+      "name": "Poke Stop UK",
+      "url": "https://pokestopuk.com/",
+      "probe": true
+    },
+    {
+      "name": "Kanto Cards",
+      "url": "https://kantocards.co.uk/",
+      "probe": true
+    },
+    {
+      "name": "The Pokemon Shop UK",
+      "url": "https://thepokemonshop.co.uk/",
+      "probe": true
+    },
+    {
+      "name": "Card Hub UK",
+      "url": "https://thecardhub.co.uk/",
+      "probe": true
+    },
+    {
+      "name": "Rubicon Games",
+      "url": "https://rubicongames.co.uk/",
+      "probe": true
+    },
+    {
+      "name": "Board Game Hub",
+      "url": "https://boardgamehub.co.uk/",
+      "probe": true
+    },
+    {
+      "name": "Nerd Arena",
+      "url": "https://nerdarena.co.uk/",
+      "probe": true
     }
   ],
   "drop_pages": [
