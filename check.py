@@ -126,7 +126,9 @@ def check_site(site, cfg, prev):
     parts = urlsplit(site["url"])
     base = f"{parts.scheme}://{parts.netloc}"
     try:
-        data = json.loads(fetch(base + "/products.json?limit=250"))
+        # A /collections/ URL is read as that collection only (keeps e.g. Double Sleeved to its pre-orders).
+        src = site["url"].split("?")[0].rstrip("/") if "/collections/" in parts.path else base
+        data = json.loads(fetch(src + "/products.json?limit=250"))
         if "products" in data:
             items = shopify_items(data, base, cfg)
             alerts = shopify_alerts(prev.get("items", {}), items, cfg) if prev else []

@@ -8,9 +8,7 @@
     "collection",
     "tin",
     "blister",
-    "build & battle",
-    "delta reign",
-    "30th celebration"
+    "build & battle"
   ],
   "exclude": [
     "sleeves",
@@ -27,7 +25,10 @@
     "thai",
     "(jp)",
     "(cn)",
-    "(kr)"
+    "(kr)",
+    "art card",
+    "empty mini tin",
+    "- sticker"
   ],
   "rrp": {
     "booster bundle": 24.99,
@@ -54,11 +55,11 @@
     },
     {
       "name": "Firestorm Games",
-      "url": "https://www.firestormgames.co.uk/pokemon"
+      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     },
     {
       "name": "Zatu Games",
-      "url": "https://www.board-game.co.uk/category/trading-card-games/pokemon/"
+      "url": "https://zatu.com/collections/trading-card-games-pokemon-tcg"
     },
     {
       "name": "Element Games",
@@ -67,7 +68,8 @@
     },
     {
       "name": "Big Orbit Cards",
-      "url": "https://www.bigorbitcards.co.uk/pokemon"
+      "url": "https://www.bigorbitcards.co.uk/pokemon",
+      "skip": "Cloudflare bot check blocks automated checks (HTTP 403, Nov 2026): use an alert Discord"
     },
     {
       "name": "Asmodee UK",
@@ -96,7 +98,8 @@
     },
     {
       "name": "Games Lore",
-      "url": "https://www.gameslore.com/acatalog/pokemon.html"
+      "url": "https://www.gameslore.com/acatalog/pokemon.html",
+      "skip": "No Pokemon page found and old URL is 404 (Nov 2026)"
     },
     {
       "name": "Pokemon Center UK",
