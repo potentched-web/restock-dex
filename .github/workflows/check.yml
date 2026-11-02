@@ -10,7 +10,9 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+      - run: python3 probe.py https://dicecupcafe.co.uk https://www.trolltradercards.com https://www.axionnow.com https://www.leisuregames.com https://thecardvault.co.uk https://www.fanboy3.co.uk https://sjspokestore.co.uk https://www.darksphere.co.uk https://www.waylandgames.co.uk https://www.manaleak.com https://www.goblingaming.co.uk https://www.kardsunlimited.com https://www.orcsnest.com https://www.spiritgames.co.uk https://www.cardsandcollectables.co.uk https://pokemart.co.uk https://thepokemonshop.co.uk https://titancards.co.uk https://tcgparadise.co.uk https://tcgora.com https://pixel-hub.co.uk https://hokeypokegames.co.uk https://collectorsedge.co.uk https://www.totalcards.net
       - run: python3 check.py
+        if: false
       - name: Save what was seen
         run: |
           git config user.name "stock-bot"
