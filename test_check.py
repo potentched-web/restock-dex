@@ -6,11 +6,13 @@ import check
 CFG = {"include": ["elite trainer", "booster bundle"], "exclude": ["sleeves"], "rrp": {"elite trainer": 49.99}}
 SHOP = {"products": []}
 PAGE = {"html": ""}
+PATHS = []
 
 
 class H(BaseHTTPRequestHandler):
     def do_GET(self):
-        if self.path.startswith("/products.json") and self.server.server_port == SHOPIFY_PORT:
+        PATHS.append(self.path)
+        if "/products.json" in self.path and self.server.server_port == SHOPIFY_PORT:
             body = json.dumps(SHOP).encode()
         elif self.path.startswith("/products.json"):
             self.send_error(404); return
@@ -42,6 +44,7 @@ SHOP["products"] = [product(1, "Delta Reign Elite Trainer Box", "49.99", False),
                     product(5, "Lorcana Booster Bundle", "24.99", True, "Ravensburger")]  # other TCGs are ignored
 st, alerts = check.check_site(site, CFG, None)
 assert st["mode"] == "shopify" and alerts == [] and list(st["items"]) == ["1"], (st, alerts)
+assert PATHS[-1] == "/collections/x/products.json?limit=250", PATHS  # collection URLs read just that collection
 st = json.loads(json.dumps(st))  # round-trip like state.json
 
 # restock + new over-RRP listing alert; filtered product does not
