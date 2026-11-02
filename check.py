@@ -6,7 +6,7 @@ Alerts go to ntfy (NTFY_TOPIC), Discord (DISCORD_WEBHOOK) and/or one email
 digest per run (SMTP_USER/SMTP_PASS, optional SMTP_HOST, EMAIL_TO).
 Writes status.json, which dashboard.html displays.
 """
-import json, os, re, smtplib, sys, time, urllib.request
+import json, os, re, smtplib, sys, time, urllib.error, urllib.request
 from datetime import datetime, timezone
 from email.message import EmailMessage
 from html.parser import HTMLParser
@@ -20,10 +20,16 @@ NOTIFS = os.path.join(HERE, "notifications.json")
 UA = "Mozilla/5.0 (personal stock alert; one request per 15 min)"
 
 
-def fetch(url):
+def fetch(url, retry=True):
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "en-GB"})
-    with urllib.request.urlopen(req, timeout=20) as r:
-        return r.read().decode("utf-8", "replace")
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            return r.read().decode("utf-8", "replace")
+    except urllib.error.HTTPError as e:
+        if e.code != 429 or not retry:
+            raise
+        time.sleep(min(int(e.headers.get("Retry-After") or 10), 10))  # rate limited: wait as asked, try once more
+        return fetch(url, retry=False)
 
 
 def wanted(title, cfg):
