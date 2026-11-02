@@ -280,33 +280,39 @@
     },
     {
       "name": "Delta Reign Booster Bundle",
-      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Delta+Reign+Booster+Bundle",
-      "kind": "search"
+      "url": "https://www.amazon.co.uk/dp/B0HG3RVZLW",
+      "kind": "product",
+      "old": "https://www.amazon.co.uk/s?k=pokemon+tcg+Delta+Reign+Booster+Bundle"
     },
     {
       "name": "Delta Reign Build & Battle Box",
-      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Delta+Reign+Build+%26+Battle+Box",
-      "kind": "search"
+      "url": "https://www.amazon.co.uk/dp/B0HG47DGH4",
+      "kind": "product",
+      "old": "https://www.amazon.co.uk/s?k=pokemon+tcg+Delta+Reign+Build+%26+Battle+Box"
     },
     {
       "name": "Delta Reign 3-pack blister",
-      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Delta+Reign+3-pack+blister",
-      "kind": "search"
+      "url": "https://www.amazon.co.uk/dp/B0HG3JBNBN",
+      "kind": "product",
+      "old": "https://www.amazon.co.uk/s?k=pokemon+tcg+Delta+Reign+3-pack+blister"
     },
     {
       "name": "30th Celebration Elite Trainer Box",
-      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Elite+Trainer+Box",
-      "kind": "search"
+      "url": "https://www.amazon.co.uk/dp/B0H8SV3WJ8",
+      "kind": "product",
+      "old": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Elite+Trainer+Box"
     },
     {
       "name": "30th Celebration Binder Collection",
-      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Binder+Collection",
-      "kind": "search"
+      "url": "https://www.amazon.co.uk/dp/B0H8SR6K76",
+      "kind": "product",
+      "old": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Binder+Collection"
     },
     {
       "name": "30th Celebration Greninja ex Box",
-      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Greninja+ex+Box",
-      "kind": "search"
+      "url": "https://www.amazon.co.uk/dp/B0H8T59PR8",
+      "kind": "product",
+      "old": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Greninja+ex+Box"
     },
     {
       "name": "30th Celebration Sylveon ex Box",
@@ -315,83 +321,105 @@
     },
     {
       "name": "30th Celebration Mini Tin",
-      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Mini+Tin",
-      "kind": "search"
+      "url": "https://www.amazon.co.uk/dp/B0H7F8BHC3",
+      "kind": "product",
+      "old": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Mini+Tin"
     },
     {
-      "name": "30th Celebration Tin",
-      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Tin",
-      "kind": "search"
+      "name": "30th Celebration Tin (Greninja ex)",
+      "url": "https://www.amazon.co.uk/dp/B0H8SW58J8",
+      "kind": "product",
+      "old": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Tin"
     },
     {
-      "name": "30th Celebration Ultra-Premium Collection",
-      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Ultra-Premium+Collection",
-      "kind": "search"
+      "name": "30th Celebration Tin (Sylveon ex)",
+      "url": "https://www.amazon.co.uk/dp/B0H8SS7XK3",
+      "kind": "product",
+      "old": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Tin"
+    },
+    {
+      "name": "30th Celebration Ultra-Premium Collection (Day)",
+      "url": "https://www.amazon.co.uk/dp/B0H8SYDRX2",
+      "kind": "product",
+      "old": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Ultra-Premium+Collection"
+    },
+    {
+      "name": "30th Celebration Ultra-Premium Collection (Night)",
+      "url": "https://www.amazon.co.uk/dp/B0H8T4D34C",
+      "kind": "product",
+      "old": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Ultra-Premium+Collection"
     },
     {
       "name": "30th Celebration Ditto Premium Collection",
-      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Ditto+Premium+Collection",
-      "kind": "search"
+      "url": "https://www.amazon.co.uk/dp/B0H8SSYGCX",
+      "kind": "product",
+      "old": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Ditto+Premium+Collection"
     },
     {
-      "name": "30th Celebration Figure Collection Mewtwo",
-      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Figure+Collection+Mewtwo",
-      "kind": "search"
-    },
-    {
-      "name": "30th Celebration Figure Collection Mew",
-      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Figure+Collection+Mew",
-      "kind": "search"
+      "name": "30th Celebration Figure Collection (Mew or Mewtwo)",
+      "url": "https://www.amazon.co.uk/dp/B0H788HLPY",
+      "kind": "product",
+      "old": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Figure+Collection+Mewtwo"
     },
     {
       "name": "Pitch Black Elite Trainer Box",
-      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Pitch+Black+Elite+Trainer+Box",
-      "kind": "search"
+      "url": "https://www.amazon.co.uk/dp/B0GYVHLP4L",
+      "kind": "product",
+      "old": "https://www.amazon.co.uk/s?k=pokemon+tcg+Pitch+Black+Elite+Trainer+Box"
     },
     {
       "name": "Chaos Rising Elite Trainer Box",
-      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Chaos+Rising+Elite+Trainer+Box",
-      "kind": "search"
+      "url": "https://www.amazon.co.uk/dp/B0GR6N18F6",
+      "kind": "product",
+      "old": "https://www.amazon.co.uk/s?k=pokemon+tcg+Chaos+Rising+Elite+Trainer+Box"
     },
     {
       "name": "Ascended Heroes Elite Trainer Box",
-      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Ascended+Heroes+Elite+Trainer+Box",
-      "kind": "search"
+      "url": "https://www.amazon.co.uk/dp/B0G3CY83L5",
+      "kind": "product",
+      "old": "https://www.amazon.co.uk/s?k=pokemon+tcg+Ascended+Heroes+Elite+Trainer+Box"
     },
     {
       "name": "Pitch Black Booster Bundle",
-      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Pitch+Black+Booster+Bundle",
-      "kind": "search"
+      "url": "https://www.amazon.co.uk/dp/B0GYTRYV7P",
+      "kind": "product",
+      "old": "https://www.amazon.co.uk/s?k=pokemon+tcg+Pitch+Black+Booster+Bundle"
     },
     {
       "name": "Chaos Rising Booster Bundle",
-      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Chaos+Rising+Booster+Bundle",
-      "kind": "search"
+      "url": "https://www.amazon.co.uk/dp/B0GR6Q72ND",
+      "kind": "product",
+      "old": "https://www.amazon.co.uk/s?k=pokemon+tcg+Chaos+Rising+Booster+Bundle"
     },
     {
       "name": "Perfect Order Elite Trainer Box",
-      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Perfect+Order+Elite+Trainer+Box",
-      "kind": "search"
+      "url": "https://www.amazon.co.uk/dp/B0GFZV1ZVV",
+      "kind": "product",
+      "old": "https://www.amazon.co.uk/s?k=pokemon+tcg+Perfect+Order+Elite+Trainer+Box"
     },
     {
       "name": "Perfect Order Booster Bundle",
-      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Perfect+Order+Booster+Bundle",
-      "kind": "search"
+      "url": "https://www.amazon.co.uk/dp/B0GG11K25W",
+      "kind": "product",
+      "old": "https://www.amazon.co.uk/s?k=pokemon+tcg+Perfect+Order+Booster+Bundle"
     },
     {
       "name": "Ascended Heroes Booster Bundle",
-      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Ascended+Heroes+Booster+Bundle",
-      "kind": "search"
+      "url": "https://www.amazon.co.uk/dp/B0G3CV6Z9D",
+      "kind": "product",
+      "old": "https://www.amazon.co.uk/s?k=pokemon+tcg+Ascended+Heroes+Booster+Bundle"
     },
     {
       "name": "Phantasmal Flames Elite Trainer Box",
-      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Phantasmal+Flames+Elite+Trainer+Box",
-      "kind": "search"
+      "url": "https://www.amazon.co.uk/dp/B0FPM3LQJ4",
+      "kind": "product",
+      "old": "https://www.amazon.co.uk/s?k=pokemon+tcg+Phantasmal+Flames+Elite+Trainer+Box"
     },
     {
       "name": "Phantasmal Flames Booster Bundle",
-      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Phantasmal+Flames+Booster+Bundle",
-      "kind": "search"
+      "url": "https://www.amazon.co.uk/dp/B0FTF6TC43",
+      "kind": "product",
+      "old": "https://www.amazon.co.uk/s?k=pokemon+tcg+Phantasmal+Flames+Booster+Bundle"
     }
   ]
 }
