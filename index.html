@@ -725,7 +725,9 @@ function renderDrops(drops) {
   $("drops").innerHTML = open.map(d => {
     const key = "entered:" + d.shop + d.name + d.closes, done = store(key) === "1";
     const h = d.closes ? (new Date(d.closes) - now) / 36e5 : null;
-    const left = h == null ? "NOT OPEN YET / DATE TBC" : h < 1 ? "CLOSES IN UNDER 1 HOUR" : h < 48 ? `CLOSES IN ${Math.round(h)}H` : `CLOSES IN ${Math.round(h / 24)} DAYS`;
+    // Auto-spotted drops have no closing time; show the set's release date from releases.json instead.
+    const rel = (lastReleases?.releases || []).find(r => r.set && d.name.toLowerCase().includes(r.set.toLowerCase()));
+    const left = h == null ? (rel ? `EXPECTED ${new Date(rel.date + "T00:00:00").toLocaleDateString("en-GB", {day: "numeric", month: "short"}).toUpperCase()} · CLOSING DATE TBC` : "NOT OPEN YET / DATE TBC") : h < 1 ? "CLOSES IN UNDER 1 HOUR" : h < 48 ? `CLOSES IN ${Math.round(h)}H` : `CLOSES IN ${Math.round(h / 24)} DAYS`;
     return `<div class="drop ${done ? "done" : ""}"><div class="what"><div class="closes">${left}</div>
       <a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.shop)}: ${esc(d.name)}</a>
       ${d.note ? `<div class="note" style="margin:2px 0 0">${esc(d.note)}${d.found ? ` Found ${when(d.found)}.` : ""}</div>` : ""}</div>
