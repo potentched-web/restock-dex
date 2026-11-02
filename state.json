@@ -1987,12 +1987,6 @@
     false,
     "https://hokeypokegames.co.uk/products/pokemon-tcg-mega-evolution-pitch-black-booster-bundle"
    ],
-   "54547603259739": [
-    "Pokemon TCG: Gem Pack Vol.7 Booster Box (Pre Order)",
-    31.99,
-    true,
-    "https://hokeypokegames.co.uk/products/pokemon-tcg-gem-pack-vol-7-booster-box"
-   ],
    "54574966767963": [
     "Pokemon TCG: First Partner Illustration Collection Series 1 - Booster Pack",
     58.99,
@@ -2088,12 +2082,6 @@
     65.99,
     false,
     "https://hokeypokegames.co.uk/products/pokemon-tcg-ascended-heros-pin-collection"
-   ],
-   "54575794717019": [
-    "Pokemon TCG: Gem Pack Vol.5 - Booster Box",
-    53.99,
-    false,
-    "https://hokeypokegames.co.uk/products/pokemon-tcg-gem-pack-vol-5-booster-box"
    ],
    "54575833383259": [
     "Pokemon TCG: 151 - Mini Tin (random tin)",
@@ -4506,19 +4494,19 @@
    ],
    "51573165293910": [
     "Pokemon - Destined Rivals - Booster Box Case (6 Booster Boxes)",
-    3932.0,
+    3933.0,
     false,
     "https://pixel-hub.co.uk/products/pokemon-destined-rivals-booster-box-case-6-booster-boxes"
    ],
    "51573169848662": [
     "Pok\u00e9mon TCG - Journey Together SV09 Booster Box (36 Packs) - SEALED CASE OF 6",
-    1730.0,
+    1731.0,
     false,
     "https://pixel-hub.co.uk/products/pokemon-tcg-journey-together-sv09-booster-box-36-packs-sealed-case-of-6"
    ],
    "51573178696022": [
     "Pok\u00e9mon - Prismatic Evolutions Booster Bundle Master Case (60 bundles)",
-    9436.0,
+    9438.0,
     false,
     "https://pixel-hub.co.uk/products/pokemon-prismatic-evolutions-booster-bundle-master-case-60-bundles"
    ],
@@ -4650,7 +4638,7 @@
    ],
    "52431329198422": [
     "Pok\u00e9mon TCG: Poke Ball Tin (2025)",
-    22.0,
+    23.0,
     false,
     "https://pixel-hub.co.uk/products/pokemon-tcg-poke-ball-tin-2025"
    ],
@@ -6165,6 +6153,26 @@
    ]
   },
   "mode": "shopify"
+ },
+ "_droppage:https://www.chaoscards.co.uk/release-calendar/category/pokemon": {
+  "links": [
+   "https://www.chaoscards.co.uk/prod/booster-boxes-pokemon/pokemon-mega-evolution-delta-reign-booster-box-36-packs",
+   "https://www.chaoscards.co.uk/prod/booster-packs-pokemon/pokemon-mega-evolution-delta-reign-booster-bundle",
+   "https://www.chaoscards.co.uk/prod/collection-boxes-pokemon/pokemon-30th-celebration-day-ultra-premium-collection",
+   "https://www.chaoscards.co.uk/prod/collection-boxes-pokemon/pokemon-30th-celebration-ditto-premium-collection",
+   "https://www.chaoscards.co.uk/prod/collection-boxes-pokemon/pokemon-30th-celebration-mew-figure-collection",
+   "https://www.chaoscards.co.uk/prod/collection-boxes-pokemon/pokemon-30th-celebration-mewtwo-figure-collection",
+   "https://www.chaoscards.co.uk/prod/collection-boxes-pokemon/pokemon-30th-celebration-night-ultra-premium-collection",
+   "https://www.chaoscards.co.uk/prod/elite-trainer-boxes-pokemon/pokemon-mega-evolution-delta-reign-elite-trainer-box",
+   "https://www.chaoscards.co.uk/prod/other-pokemon/pokemon-mega-evolution-delta-reign-3-pack-blister-seel",
+   "https://www.chaoscards.co.uk/prod/other-pokemon/pokemon-mega-evolution-delta-reign-checklane-blister-spritzee"
+  ]
+ },
+ "_droppage:https://www.doublesleeved.co.uk/collections/pre-orders": {
+  "links": [
+   "https://www.doublesleeved.co.uk/products/pokemon-tcg-delta-reign-booster-box",
+   "https://www.doublesleeved.co.uk/products/pokemon-tcg-delta-reign-elite-trainer-box-etb"
+  ]
  },
  "_reminded": []
 }
