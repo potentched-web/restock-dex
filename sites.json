@@ -1,0 +1,132 @@
+{
+  "include": [
+    "elite trainer",
+    "booster box",
+    "booster bundle",
+    "booster display",
+    "premium collection",
+    "collection",
+    "tin",
+    "blister",
+    "build & battle",
+    "delta reign",
+    "30th celebration"
+  ],
+  "exclude": [
+    "sleeves",
+    "binder",
+    "deck box",
+    "playmat",
+    "single card",
+    "japanese",
+    "korean",
+    "chinese",
+    "graded",
+    "psa"
+  ],
+  "rrp": {
+    "booster bundle": 24.99,
+    "elite trainer": 49.99,
+    "booster box": 130.0
+  },
+  "sites": [
+    {
+      "name": "Chaos Cards",
+      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon",
+      "note": "Hyped items are ballots: this catches the drop page appearing"
+    },
+    {
+      "name": "Double Sleeved",
+      "url": "https://www.doublesleeved.co.uk/collections/pre-orders"
+    },
+    {
+      "name": "Magic Madhouse",
+      "url": "https://www.magicmadhouse.co.uk/pokemon"
+    },
+    {
+      "name": "Total Cards",
+      "url": "https://www.totalcards.net/pokemon"
+    },
+    {
+      "name": "Firestorm Games",
+      "url": "https://www.firestormgames.co.uk/pokemon"
+    },
+    {
+      "name": "Zatu Games",
+      "url": "https://www.board-game.co.uk/category/trading-card-games/pokemon/"
+    },
+    {
+      "name": "Element Games",
+      "url": "https://elementgames.co.uk/pokemon"
+    },
+    {
+      "name": "Big Orbit Cards",
+      "url": "https://www.bigorbitcards.co.uk/pokemon"
+    },
+    {
+      "name": "Asmodee UK",
+      "url": "https://www.asmodee.co.uk/collections/pokemon-tcg"
+    },
+    {
+      "name": "Hokey Poke Games",
+      "url": "https://hokeypokegames.co.uk/collections/all"
+    },
+    {
+      "name": "Collectors Edge",
+      "url": "https://collectorsedge.co.uk/collections/all"
+    },
+    {
+      "name": "The Dice Dungeon",
+      "url": "https://thedicedungeon.co.uk/collections/all"
+    },
+    {
+      "name": "Packrat",
+      "url": "https://packratt.co.uk/"
+    },
+    {
+      "name": "Patriot Games",
+      "url": "https://patriotgamesleeds.com/collections/all"
+    },
+    {
+      "name": "Games Lore",
+      "url": "https://www.gameslore.com/acatalog/pokemon.html"
+    },
+    {
+      "name": "Pokemon Center UK",
+      "url": "https://www.pokemoncenter.com/en-gb",
+      "skip": "Bot-protected and against its terms to scrape: use Oak Labs / PokeStockAlerts queue alerts"
+    },
+    {
+      "name": "Smyths",
+      "url": "https://www.smythstoys.com/uk/en-gb",
+      "skip": "Terms forbid scraping: use an alert Discord"
+    },
+    {
+      "name": "Argos",
+      "url": "https://www.argos.co.uk",
+      "skip": "Terms forbid scraping: use an alert Discord"
+    },
+    {
+      "name": "GAME",
+      "url": "https://www.game.co.uk",
+      "skip": "Terms forbid scraping: use an alert Discord"
+    },
+    {
+      "name": "Amazon UK",
+      "url": "https://www.amazon.co.uk",
+      "skip": "Terms forbid scraping: use an alert Discord"
+    }
+  ],
+  "drop_pages": [
+    {
+      "shop": "Chaos Cards",
+      "url": "https://www.chaoscards.co.uk/release-calendar/category/pokemon",
+      "type": "ballot"
+    },
+    {
+      "shop": "Double Sleeved",
+      "url": "https://www.doublesleeved.co.uk/collections/pre-orders",
+      "type": "pre-order"
+    }
+  ]
+}

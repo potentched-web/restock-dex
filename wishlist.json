@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Delta Reign Elite Trainer Box",
+    "match": [
+      "delta reign",
+      "elite trainer"
+    ],
+    "max": 49.99,
+    "rrp_status": "confirmed"
+  },
+  {
+    "name": "Delta Reign Booster Bundle",
+    "match": [
+      "delta reign",
+      "booster bundle"
+    ],
+    "max": 24.99,
+    "rrp_status": "confirmed"
+  },
+  {
+    "name": "Delta Reign Booster Box",
+    "match": [
+      "delta reign",
+      "booster box"
+    ],
+    "max": 130.0,
+    "rrp_status": "estimate"
+  },
+  {
+    "name": "30th Celebration Ultra-Premium Collection",
+    "match": [
+      "30th celebration",
+      "ultra"
+    ],
+    "max": 169.99,
+    "rrp_status": "reported"
+  }
+]

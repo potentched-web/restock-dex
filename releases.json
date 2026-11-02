@@ -1,0 +1,301 @@
+{
+  "_how_to_edit": "Add or change releases here. status: confirmed or rumoured. Releases drop off the dashboard 14 days after their date. drops: open or upcoming ballots/pre-order windows; closes is an ISO time like 2026-11-05T12:00:00+00:00, or null if not known yet. set: the short set name used for one-tap wishlist adds. rrp: UK RRP per product name, used when you tap + want (status confirmed, reported, estimate or unknown). amazon: Amazon UK invite-only items; kind product = direct page, search = Amazon search for it.",
+  "releases": [
+    {
+      "name": "Mega Evolution: Delta Reign (ME06)",
+      "date": "2026-11-06",
+      "status": "confirmed",
+      "products": [
+        "Elite Trainer Box",
+        "Booster Bundle",
+        "Booster Box",
+        "Build & Battle Box",
+        "3-pack blisters"
+      ],
+      "note": "Pokemon Center UK has its own ETB with extra promo; expect a queue on release morning.",
+      "set": "Delta Reign"
+    },
+    {
+      "name": "30th Celebration: premium collections",
+      "date": "2026-11-06",
+      "status": "confirmed",
+      "products": [
+        "Ditto Premium Collection",
+        "Mew / Mewtwo Figure Collections",
+        "Day & Night Ultra-Premium Collections"
+      ],
+      "note": "Chaos Cards sells all 30th Celebration items by ballot only. Pokemon Center UK 30th ETB orders delayed to mid/late November.",
+      "set": "30th Celebration"
+    },
+    {
+      "name": "Valentine's Box (mini boosters)",
+      "date": "2027-01-27",
+      "status": "rumoured",
+      "products": [
+        "Valentine's Box"
+      ],
+      "note": "Reported date; not yet on pokemon.com.",
+      "set": "Valentine"
+    },
+    {
+      "name": "Flowing Fists (first 2027 main set)",
+      "date": "2027-02-05",
+      "status": "rumoured",
+      "products": [
+        "Elite Trainer Box",
+        "Booster Bundle",
+        "Booster Box"
+      ],
+      "note": "Reported by PokeBeach; prereleases 23-31 Jan. Pre-orders usually open 6-10 weeks before.",
+      "set": "Flowing Fists"
+    }
+  ],
+  "shops": [
+    {
+      "name": "Chaos Cards",
+      "url": "https://www.chaoscards.co.uk/release-calendar/category/pokemon",
+      "label": "Release calendar + ballots"
+    },
+    {
+      "name": "Double Sleeved",
+      "url": "https://www.doublesleeved.co.uk/collections/pre-orders",
+      "label": "Pre-orders"
+    },
+    {
+      "name": "Pokemon Center UK",
+      "url": "https://www.pokemoncenter.com/en-gb",
+      "label": "Official store"
+    },
+    {
+      "name": "Magic Madhouse",
+      "url": "https://www.magicmadhouse.co.uk/pokemon"
+    },
+    {
+      "name": "Total Cards",
+      "url": "https://www.totalcards.net/pokemon"
+    },
+    {
+      "name": "Firestorm Games",
+      "url": "https://www.firestormgames.co.uk/pokemon"
+    },
+    {
+      "name": "Zatu Games",
+      "url": "https://www.board-game.co.uk/category/trading-card-games/pokemon/"
+    },
+    {
+      "name": "Element Games",
+      "url": "https://elementgames.co.uk/pokemon"
+    },
+    {
+      "name": "Big Orbit Cards",
+      "url": "https://www.bigorbitcards.co.uk/pokemon"
+    },
+    {
+      "name": "Asmodee UK",
+      "url": "https://www.asmodee.co.uk/collections/pokemon-tcg-coming-soon",
+      "label": "Coming soon"
+    },
+    {
+      "name": "Hokey Poke Games",
+      "url": "https://hokeypokegames.co.uk/collections/all"
+    },
+    {
+      "name": "Collectors Edge",
+      "url": "https://collectorsedge.co.uk/collections/all"
+    },
+    {
+      "name": "The Dice Dungeon",
+      "url": "https://thedicedungeon.co.uk/collections/all"
+    },
+    {
+      "name": "Packrat",
+      "url": "https://packratt.co.uk/"
+    },
+    {
+      "name": "Patriot Games",
+      "url": "https://patriotgamesleeds.com/collections/all"
+    },
+    {
+      "name": "Games Lore",
+      "url": "https://www.gameslore.com/acatalog/pokemon.html"
+    },
+    {
+      "name": "Smyths",
+      "url": "https://www.smythstoys.com/uk/en-gb"
+    },
+    {
+      "name": "Argos",
+      "url": "https://www.argos.co.uk"
+    },
+    {
+      "name": "GAME",
+      "url": "https://www.game.co.uk"
+    },
+    {
+      "name": "Amazon UK",
+      "url": "https://www.amazon.co.uk"
+    }
+  ],
+  "drops": [
+    {
+      "shop": "Chaos Cards",
+      "name": "30th Celebration premium collections ballot",
+      "type": "ballot",
+      "url": "https://www.chaoscards.co.uk/prod/elite-trainer-boxes-pokemon/pokemon-30th-celebration-elite-trainer-box",
+      "closes": null,
+      "note": "Announced, not open yet. Log in to your Chaos Cards account to enter when it opens."
+    }
+  ],
+  "rrp": {
+    "Elite Trainer Box": {
+      "price": 49.99,
+      "status": "confirmed",
+      "match": [
+        "elite trainer"
+      ]
+    },
+    "Booster Bundle": {
+      "price": 24.99,
+      "status": "confirmed",
+      "match": [
+        "booster bundle"
+      ]
+    },
+    "Booster Box": {
+      "price": 130.0,
+      "status": "estimate",
+      "match": [
+        "booster box"
+      ]
+    },
+    "Build & Battle Box": {
+      "price": 19.99,
+      "status": "estimate",
+      "match": [
+        "build & battle"
+      ]
+    },
+    "3-pack blisters": {
+      "price": 14.99,
+      "status": "estimate",
+      "match": [
+        "blister"
+      ]
+    },
+    "Ditto Premium Collection": {
+      "price": null,
+      "status": "unknown",
+      "match": [
+        "ditto"
+      ]
+    },
+    "Mew / Mewtwo Figure Collections": {
+      "price": null,
+      "status": "unknown",
+      "match": [
+        "figure collection"
+      ]
+    },
+    "Day & Night Ultra-Premium Collections": {
+      "price": 169.99,
+      "status": "reported",
+      "match": [
+        "ultra"
+      ]
+    },
+    "Valentine's Box": {
+      "price": null,
+      "status": "unknown",
+      "match": [
+        "valentine"
+      ]
+    }
+  },
+  "amazon": [
+    {
+      "name": "Delta Reign Elite Trainer Box",
+      "url": "https://www.amazon.co.uk/dp/B0HG3MQDWP",
+      "kind": "product"
+    },
+    {
+      "name": "Delta Reign Booster Bundle",
+      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Delta+Reign+Booster+Bundle",
+      "kind": "search"
+    },
+    {
+      "name": "Delta Reign Build & Battle Box",
+      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Delta+Reign+Build+%26+Battle+Box",
+      "kind": "search"
+    },
+    {
+      "name": "Delta Reign 3-pack blister",
+      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Delta+Reign+3-pack+blister",
+      "kind": "search"
+    },
+    {
+      "name": "30th Celebration Elite Trainer Box",
+      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Elite+Trainer+Box",
+      "kind": "search"
+    },
+    {
+      "name": "30th Celebration Binder Collection",
+      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Binder+Collection",
+      "kind": "search"
+    },
+    {
+      "name": "30th Celebration Greninja ex Box",
+      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Greninja+ex+Box",
+      "kind": "search"
+    },
+    {
+      "name": "30th Celebration Sylveon ex Box",
+      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Sylveon+ex+Box",
+      "kind": "search"
+    },
+    {
+      "name": "30th Celebration Mini Tin",
+      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Mini+Tin",
+      "kind": "search"
+    },
+    {
+      "name": "30th Celebration Tin",
+      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Tin",
+      "kind": "search"
+    },
+    {
+      "name": "30th Celebration Ultra-Premium Collection",
+      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Ultra-Premium+Collection",
+      "kind": "search"
+    },
+    {
+      "name": "30th Celebration Ditto Premium Collection",
+      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Ditto+Premium+Collection",
+      "kind": "search"
+    },
+    {
+      "name": "30th Celebration Figure Collection Mewtwo",
+      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Figure+Collection+Mewtwo",
+      "kind": "search"
+    },
+    {
+      "name": "30th Celebration Figure Collection Mew",
+      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Figure+Collection+Mew",
+      "kind": "search"
+    },
+    {
+      "name": "Pitch Black Elite Trainer Box",
+      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Pitch+Black+Elite+Trainer+Box",
+      "kind": "search"
+    },
+    {
+      "name": "Chaos Rising Elite Trainer Box",
+      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Chaos+Rising+Elite+Trainer+Box",
+      "kind": "search"
+    },
+    {
+      "name": "Ascended Heroes Elite Trainer Box",
+      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Ascended+Heroes+Elite+Trainer+Box",
+      "kind": "search"
+    }
+  ]
+}

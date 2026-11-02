@@ -1,0 +1,777 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#c8102e">
+<title>Restock Dex</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Restock Dex">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Nunito:wght@500;700;800&display=swap">
+<style>
+  :root {
+    --shell:#c8102e; --shell-dark:#8e0b20; --shell-light:#ee3a4f;
+    --screen:#0f1a22; --screen-2:#16242f; --line:#24384a; --text:#e9f1f6; --muted:#8fa6b8;
+    --lens:#2fa8ff; --grass:#5fbf4c; --fire:#f0562e; --electric:#f7d02c; --water:#4d90d5; --normal:#9a9b8b; --psychic:#f95587;
+    --pixel:"Press Start 2P", ui-monospace, monospace;
+  }
+  * { box-sizing:border-box }
+  body { margin:0; color:var(--text); font:15px/1.5 Nunito, system-ui, sans-serif;
+    background:var(--shell-dark) radial-gradient(circle at 20% 0%, var(--shell-light), var(--shell) 40%, var(--shell-dark)) fixed; min-height:100vh }
+  a { color:inherit }
+  .dex { max-width:1180px; margin:0 auto; padding:18px 16px 40px }
+
+  /* Top of the device: lens, LEDs, title */
+  .top { display:flex; align-items:center; gap:16px; padding-bottom:18px; border-bottom:4px solid var(--shell-dark); position:relative }
+  .lens { flex:none; width:64px; height:64px; border-radius:50%; border:5px solid #fff; box-shadow:0 0 0 3px #222, inset -8px -8px 0 rgba(0,0,0,.25);
+    background:radial-gradient(circle at 35% 30%, #c9ecff 0 12%, var(--lens) 13% 60%, #1460a8) }
+  .lens.fresh { animation:glow 2.4s ease-in-out infinite }
+  @keyframes glow { 50% { box-shadow:0 0 0 3px #222, 0 0 22px 6px rgba(47,168,255,.75), inset -8px -8px 0 rgba(0,0,0,.25) } }
+  .leds { display:flex; gap:7px; align-self:flex-start; margin-top:4px }
+  .led { width:14px; height:14px; border-radius:50%; border:2px solid #222 }
+  .led.r { background:#ff4d4d } .led.y { background:var(--electric) } .led.g { background:var(--grass) }
+  .led.off { filter:brightness(.4) }
+  .titles { margin-left:auto; text-align:right; min-width:0 }
+  h1 { font:16px/1.4 var(--pixel); margin:0; text-shadow:3px 3px 0 var(--shell-dark); letter-spacing:1px }
+  .status-line { font-size:13px; opacity:.9; margin-top:6px }
+  @media (max-width:520px) { h1 { font-size:12px } .lens { width:48px; height:48px } .top { flex-wrap:wrap } }
+
+  /* Screens */
+  .screen { background:var(--screen); border:6px solid #e6e6e6; border-radius:14px 14px 14px 36px; padding:16px;
+    box-shadow:inset 0 0 0 2px #000, 0 6px 0 var(--shell-dark); margin-top:18px }
+  h2 { font:11px/1.4 var(--pixel); margin:0 0 12px; color:var(--electric); letter-spacing:.5px }
+
+  .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:12px }
+  .stat { background:var(--screen-2); border:1px solid var(--line); border-radius:10px; padding:12px 14px }
+  .stat .k { font-size:13px; color:var(--muted); font-weight:700 }
+  .stat .v { font:20px/1.6 var(--pixel); margin-top:4px }
+  .bar { height:8px; border-radius:99px; background:#05090c; overflow:hidden; margin-top:6px; border:1px solid var(--line) }
+  .bar i { display:block; height:100% }
+
+  .feed { list-style:none; margin:0; padding:0 }
+  .feed li { display:flex; gap:10px; align-items:baseline; flex-wrap:wrap; padding:9px 0; border-top:1px dashed var(--line) }
+  .feed li:first-child { border-top:0 }
+  .feed time { font-size:12px; color:var(--muted); min-width:96px }
+  .feed .who { font-weight:800 }
+  .feed .new { animation:pop .6s ease-out }
+  @keyframes pop { from { background:rgba(247,208,44,.25) } }
+
+  .controls { display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin-bottom:14px }
+  input[type=search] { flex:1 1 220px; min-width:0; padding:9px 12px; border-radius:10px; border:2px solid var(--line); background:#05090c; color:var(--text); font:inherit }
+  input[type=search]:focus { outline:2px solid var(--electric); outline-offset:1px }
+  .toggle { display:inline-flex; gap:6px; align-items:center; font-weight:700; font-size:14px; cursor:pointer;
+    padding:7px 12px; border-radius:99px; border:2px solid var(--line); background:var(--screen-2); color:var(--text); font-family:inherit }
+  .toggle[aria-pressed=true] { border-color:var(--electric); color:var(--electric) }
+
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:14px }
+  @media (max-width:420px) { .grid { grid-template-columns:1fr } }
+  .shop { background:var(--screen-2); border:1px solid var(--line); border-radius:12px; padding:12px 14px; min-width:0 }
+  .shop.hot { border-color:var(--grass); box-shadow:0 0 0 1px var(--grass), 0 0 18px rgba(95,191,76,.25) }
+  .shop h3 { margin:0; font-size:16px; display:flex; align-items:center; gap:10px }
+  .shop h3 a { text-decoration:none; overflow-wrap:anywhere } .shop h3 a:hover { text-decoration:underline }
+  .shop h3 .pill { margin-left:auto }
+  .ball { flex:none; width:22px; height:22px; border-radius:50%; border:2px solid #111; position:relative;
+    background:linear-gradient(#fff 0 0) bottom/100% 50% no-repeat, var(--normal) }
+  .ball::after { content:""; position:absolute; inset:50% 0 auto; height:2px; margin-top:-1px; background:#111 }
+  .ball::before { content:""; position:absolute; width:6px; height:6px; border-radius:50%; background:#fff; border:2px solid #111; left:50%; top:50%; transform:translate(-50%,-50%); z-index:1 }
+  .shop.hot .ball { background:linear-gradient(#fff 0 0) bottom/100% 50% no-repeat, var(--shell-light); animation:wobble 1.4s ease-in-out infinite }
+  .shop.err .ball { background:linear-gradient(#fff 0 0) bottom/100% 50% no-repeat, #333 }
+  @keyframes wobble { 0%,60%,100% { transform:rotate(0) } 70% { transform:rotate(-14deg) } 85% { transform:rotate(12deg) } }
+  @media (prefers-reduced-motion:reduce) { * { animation:none !important } }
+
+  .shop ul { list-style:none; margin:10px 0 0; padding:0; max-height:270px; overflow:auto }
+  .shop li { display:flex; justify-content:space-between; gap:10px; padding:6px 0; border-top:1px solid var(--line); font-size:14px }
+  .shop li a { overflow-wrap:anywhere; text-decoration:none } .shop li a:hover { text-decoration:underline }
+  .pill { font-size:11px; font-weight:800; padding:2px 9px; border-radius:99px; white-space:nowrap; align-self:flex-start; color:#111; text-transform:uppercase; letter-spacing:.3px }
+  .t-grass { background:var(--grass) } .t-fire { background:var(--fire); color:#fff } .t-electric { background:var(--electric) }
+  .t-normal { background:var(--normal) } .t-water { background:var(--water); color:#fff } .t-psychic { background:var(--psychic); color:#fff }
+  .note { color:var(--muted); font-size:13px; margin-top:6px }
+  .error { color:#ff9a8a; font-size:13px; margin-top:6px }
+  .empty { color:var(--muted); font-size:14px }
+  .releases { display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:12px }
+  .release { background:var(--screen-2); border:1px solid var(--line); border-radius:12px; padding:12px 14px; min-width:0 }
+  .release .when { font:12px/1.6 var(--pixel); color:var(--electric) }
+  .release h3 { font-size:16px; margin:4px 0 6px; display:flex; gap:8px; align-items:flex-start; justify-content:space-between }
+  .release ul { margin:0 0 6px; padding-left:18px; font-size:14px }
+  .chips { display:flex; flex-wrap:wrap; gap:8px; margin-top:14px }
+  .chip { text-decoration:none; font-size:13px; font-weight:700; padding:6px 12px; border-radius:99px; border:2px solid var(--line); background:var(--screen-2) }
+  .chip:hover, .chip:focus-visible { border-color:var(--electric); color:var(--electric) }
+  .chip small { color:var(--muted); font-weight:500 }
+  .wish { background:var(--screen-2); border:1px solid var(--line); border-radius:12px; padding:12px 14px; min-width:0 }
+  .wish.buy { border-color:var(--electric); box-shadow:0 0 0 1px var(--electric), 0 0 18px rgba(247,208,44,.25) }
+  .wish h3 { margin:0 0 4px; font-size:16px }
+  .wish .best { font-weight:800; font-size:14px }
+  .wish .best a { color:var(--electric) }
+  .wish ol { list-style:none; margin:8px 0 0; padding:0; max-height:220px; overflow:auto }
+  .wish li { display:flex; justify-content:space-between; gap:10px; padding:5px 0; border-top:1px solid var(--line); font-size:14px }
+  .wish li a { text-decoration:none; overflow-wrap:anywhere } .wish li a:hover { text-decoration:underline }
+  .drops { display:grid; gap:10px; margin-bottom:18px }
+  .drop { display:flex; flex-wrap:wrap; gap:6px 14px; align-items:center; background:var(--screen-2); border:1px solid var(--line); border-left:5px solid var(--psychic); border-radius:10px; padding:10px 14px }
+  .drop.done { border-left-color:var(--grass); opacity:.75 }
+  .drop .what { flex:1 1 240px; min-width:0 }
+  .drop .what a { font-weight:800; text-decoration:none } .drop .what a:hover { text-decoration:underline }
+  .drop .closes { font:11px/1.6 var(--pixel); color:var(--electric) }
+  .drop label { font-weight:700; font-size:14px; display:inline-flex; gap:6px; align-items:center; cursor:pointer }
+  .drop input { width:18px; height:18px; accent-color:var(--grass) }
+  .btn { font:inherit; font-weight:800; font-size:14px; cursor:pointer; padding:8px 14px; border-radius:10px; border:2px solid var(--line); background:var(--screen-2); color:var(--text) }
+  .btn:hover, .btn:focus-visible { border-color:var(--electric); color:var(--electric) }
+  .btn.primary { background:var(--electric); border-color:var(--electric); color:#111 }
+  .btn.small { padding:2px 8px; font-size:13px; border-radius:8px }
+  .editor { background:var(--screen-2); border:2px solid var(--electric); border-radius:12px; padding:14px; margin-bottom:14px }
+  .editor[hidden] { display:none }
+  .wrow { display:grid; grid-template-columns:2fr 2fr 90px auto; gap:8px; margin-bottom:8px; align-items:center }
+  .wrow input, .gh input { width:100%; min-width:0; padding:8px 10px; border-radius:8px; border:2px solid var(--line); background:#05090c; color:var(--text); font:inherit; font-size:14px }
+  .wrow input:focus, .gh input:focus { outline:2px solid var(--electric); outline-offset:1px }
+  .whead { font-size:12px; color:var(--muted); font-weight:700 }
+  #wrows .wrow { padding-bottom:8px; border-bottom:1px dashed var(--line) }
+  .wrow { grid-template-columns:2fr 2fr auto auto }
+  .wrow .rrp { font-size:13px; font-weight:800; color:var(--electric); white-space:nowrap }
+  @media (max-width:640px) { .wrow { grid-template-columns:1fr auto auto } .wrow .kw { grid-column:1 / -1; order:3 } .whead { display:none } }
+  .bar-actions { display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin-top:10px }
+  .gh { margin-top:12px; font-size:14px } .gh summary { cursor:pointer; font-weight:700 }
+  .gh label { display:block; margin-top:8px; font-weight:700; font-size:13px }
+  #save-msg { font-size:14px; font-weight:700 }
+  .release li button { margin-left:6px }
+  .ready { width:100%; border-collapse:collapse; font-size:14px }
+  .ready th, .ready td { padding:7px 6px; border-top:1px solid var(--line); text-align:center }
+  .ready th:first-child, .ready td:first-child { text-align:left }
+  .ready thead th { border-top:0; font-size:12px; color:var(--muted); font-weight:700; vertical-align:bottom }
+  .ready input { width:20px; height:20px; accent-color:var(--grass); cursor:pointer }
+  .ready tr.full td:first-child a { color:var(--grass) }
+  .ready-wrap { overflow-x:auto; max-height:420px; overflow-y:auto }
+  .basket { text-decoration:none; font-size:11px; font-weight:800; padding:2px 8px; border-radius:99px; background:var(--electric); color:#111; white-space:nowrap; align-self:flex-start }
+  .basket:hover, .basket:focus-visible { outline:2px solid #fff }
+  .wish .best a.basket { color:#111 }
+  .tags { display:flex; gap:6px; align-items:flex-start; flex-wrap:wrap; justify-content:flex-end }
+  .rday { background:var(--electric); color:#111; border:6px solid #fff; border-radius:14px; padding:16px; margin-top:18px; box-shadow:0 6px 0 var(--shell-dark) }
+  .rday h2 { color:#111; margin-bottom:6px }
+  .rday .big { font:clamp(18px, 5vw, 30px)/1.4 var(--pixel); margin:6px 0 }
+  .rday .chips { margin-top:10px } .rday .chip { background:#fff; color:#111; border-color:#111 }
+  .rday .chip.go { background:#111; color:var(--electric) }
+  .resale { font-size:13px; margin-top:6px } .resale a { color:var(--lens) }
+  .heat-wrap { overflow-x:auto }
+  .heat { display:grid; grid-template-columns:34px repeat(24, minmax(12px, 1fr)); gap:2px; min-width:360px; font-size:10px; color:var(--muted) }
+  .heat .c { aspect-ratio:1; border-radius:3px; background:var(--line) }
+  .heat .h { text-align:center } .heat .d { align-self:center }
+  .orders { display:grid; gap:8px }
+  .order { display:flex; flex-wrap:wrap; gap:6px 12px; align-items:center; background:var(--screen-2); border:1px solid var(--line); border-radius:10px; padding:10px 14px }
+  .order.warn { border-color:var(--electric) } .order.dupe { border-color:var(--fire) }
+  .order .what { flex:1 1 220px; min-width:0 } .order .what b { overflow-wrap:anywhere }
+  .order select, .oform input, .oform select { padding:7px 8px; border-radius:8px; border:2px solid var(--line); background:#05090c; color:var(--text); font:inherit; font-size:14px; min-width:0 }
+  .oform { display:grid; grid-template-columns:repeat(auto-fit, minmax(150px, 1fr)); gap:8px; margin:12px 0 }
+  .oform label { display:grid; gap:4px; font-size:12px; font-weight:700; color:var(--muted) }
+  .flag { font-size:13px; font-weight:800; color:var(--electric) } .order.dupe .flag { color:#ff9a8a }
+  .tabs { position:sticky; top:env(safe-area-inset-top, 0px); z-index:5; display:flex; gap:6px; overflow-x:auto; margin-top:18px; padding:8px; background:var(--shell-dark); border:3px solid #e6e6e6; border-radius:14px; box-shadow:0 6px 14px rgba(0,0,0,.35); scrollbar-width:none }
+  .tab { flex:none; font:11px/1.4 var(--pixel); color:var(--text); background:var(--screen); border:2px solid var(--line); border-radius:10px; padding:10px 12px; cursor:pointer; display:inline-flex; gap:8px; align-items:center }
+  .tab:hover { border-color:var(--muted) }
+  .tab:focus-visible { outline:2px solid var(--electric); outline-offset:2px }
+  .tab[aria-selected=true] { background:var(--electric); color:#111; border-color:#fff }
+  .badge { font:800 11px/1 Nunito, system-ui, sans-serif; background:var(--shell-light); color:#fff; border-radius:99px; padding:3px 7px }
+  .tab[aria-selected=true] .badge { background:#111; color:var(--electric) }
+  .panel[hidden] { display:none }
+  .order.opted { border-color:var(--grass); opacity:.8 }
+  .amz-go { text-decoration:none }
+  footer { text-align:center; font-size:12px; opacity:.85; margin-top:22px }
+</style>
+</head>
+<body>
+<div class="dex">
+  <header class="top">
+    <div class="lens" id="lens" aria-hidden="true"></div>
+    <div class="leds" aria-hidden="true"><span class="led r" id="led-r"></span><span class="led y" id="led-y"></span><span class="led g" id="led-g"></span></div>
+    <div class="titles">
+      <h1>RESTOCK DEX</h1>
+      <div class="status-line" id="updated" aria-live="polite">Booting up…</div>
+    </div>
+  </header>
+
+  <section class="rday" id="rday" hidden aria-live="polite"></section>
+
+  <section class="screen" aria-label="Summary"><div class="stats" id="stats"></div></section>
+
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button class="tab" role="tab" id="t-buy" aria-controls="tab-buy" aria-selected="false" data-tab="buy">Buy<span class="badge" id="b-buy" hidden></span></button>
+    <button class="tab" role="tab" id="t-drops" aria-controls="tab-drops" aria-selected="false" data-tab="drops">Drops<span class="badge" id="b-drops" hidden></span></button>
+    <button class="tab" role="tab" id="t-releases" aria-controls="tab-releases" aria-selected="false" data-tab="releases">Releases<span class="badge" id="b-releases" hidden></span></button>
+    <button class="tab" role="tab" id="t-shops" aria-controls="tab-shops" aria-selected="false" data-tab="shops">Shops<span class="badge" id="b-shops" hidden></span></button>
+    <button class="tab" role="tab" id="t-orders" aria-controls="tab-orders" aria-selected="false" data-tab="orders">My orders<span class="badge" id="b-orders" hidden></span></button>
+    <button class="tab" role="tab" id="t-amazon" aria-controls="tab-amazon" aria-selected="false" data-tab="amazon">Amazon<span class="badge" id="b-amazon" hidden></span></button>
+    <button class="tab" role="tab" id="t-patterns" aria-controls="tab-patterns" aria-selected="false" data-tab="patterns">Patterns<span class="badge" id="b-patterns" hidden></span></button>
+  </nav>
+
+  <div class="panel" id="tab-buy" role="tabpanel" aria-labelledby="t-buy">
+<section class="screen" aria-labelledby="wish-h">
+    <h2 id="wish-h">▶ WISHLIST · BEST PRICE</h2>
+    <div class="controls"><button class="btn" id="edit-wl" aria-expanded="false" aria-controls="editor">✎ Edit wishlist</button></div>
+    <div class="editor" id="editor" hidden>
+      <div class="wrow whead" aria-hidden="true"><span>Product</span><span class="kw">Must contain (comma separated, optional)</span><span>RRP</span><span></span></div>
+      <div id="wrows"></div>
+      <div class="bar-actions">
+        <button class="btn" id="add-row">+ Add item</button>
+        <button class="btn primary" id="save-wl">Save</button>
+        <span id="save-msg" role="status"></span>
+      </div>
+      <details class="gh" id="gh">
+        <summary>GitHub connection (needed once per device)</summary>
+        <p class="note">Saving writes <code>wishlist.json</code> to your repo, so email and push alerts use it from the next scan. Make a fine-grained token at github.com → Settings → Developer settings → Fine-grained tokens. Give it access to this repo only, with <b>Contents: Read and write</b>. It's stored only in this browser.</p>
+        <label for="gh-repo">Repo (owner/name)</label><input id="gh-repo" placeholder="your-username/restock-dex" autocomplete="off">
+        <label for="gh-token">Token</label><input id="gh-token" type="password" placeholder="github_pat_…" autocomplete="off">
+      </details>
+    </div>
+    <div class="releases" id="wishlist"></div>
+  </section>
+<section class="screen" aria-labelledby="feed-h">
+    <h2 id="feed-h">▶ RECENT SIGHTINGS</h2>
+    <ul class="feed" id="alerts"></ul>
+  </section>
+  </div>
+
+  <div class="panel" id="tab-drops" role="tabpanel" aria-labelledby="t-drops">
+  <section class="screen" aria-labelledby="drops-h">
+    <h2 id="drops-h">▶ DROPS &amp; BALLOTS</h2>
+    <div class="drops" id="drops"></div>
+  </section>
+<section class="screen" aria-labelledby="ready-h">
+    <h2 id="ready-h">▶ READY FOR DROPS</h2>
+    <div class="best" id="ready-sum" style="margin-bottom:10px"></div>
+    <div class="ready-wrap"><table class="ready">
+      <thead><tr><th scope="col">Shop</th><th scope="col">Account</th><th scope="col">Card saved</th><th scope="col">Newsletter</th><th scope="col">Notify me</th></tr></thead>
+      <tbody id="ready"></tbody>
+    </table></div>
+    <p class="note">Ticks are saved on this device only.</p>
+  </section>
+  </div>
+
+  <div class="panel" id="tab-releases" role="tabpanel" aria-labelledby="t-releases">
+  <section class="screen" aria-labelledby="rel-h">
+    <h2 id="rel-h">▶ COMING SOON</h2>
+    <div class="releases" id="releases"><p class="empty">Loading releases…</p></div>
+    <p class="note">Tap <b>+ want</b> to add a product to your wishlist at its UK RRP. Prices marked * are estimates or reported, not confirmed.</p>
+    <h2 style="margin-top:18px">▶ PRE-ORDER PAGES</h2>
+    <div class="chips" id="preorders"></div>
+  </section>
+  </div>
+
+  <div class="panel" id="tab-shops" role="tabpanel" aria-labelledby="t-shops">
+<section class="screen" aria-labelledby="shops-h">
+    <h2 id="shops-h">▶ SHOPS</h2>
+    <div class="controls">
+      <input type="search" id="q" placeholder="Search, e.g. delta reign" aria-label="Filter products">
+      <button class="toggle" id="instock" aria-pressed="false">● In stock only</button>
+      <button class="toggle" id="notify" aria-pressed="false">🔔 Browser alerts</button>
+    </div>
+    <div class="grid" id="shops"></div>
+  </section>
+  </div>
+
+  <div class="panel" id="tab-orders" role="tabpanel" aria-labelledby="t-orders">
+<section class="screen" aria-labelledby="orders-h">
+    <h2 id="orders-h">▶ MY ORDERS</h2>
+    <div class="best" id="orders-sum"></div>
+    <details id="oadd">
+      <summary class="btn" style="display:inline-block;margin-top:10px">+ Add order</summary>
+      <form class="oform" id="oform">
+        <label for="o-item">Item<input id="o-item" required placeholder="Delta Reign Elite Trainer Box"></label>
+        <label for="o-shop">Shop<input id="o-shop" required list="shoplist" placeholder="Double Sleeved"></label>
+        <label for="o-price">Price £<input id="o-price" type="number" min="0" step="0.01" inputmode="decimal" required></label>
+        <label for="o-status">Status<select id="o-status"><option>pre-order</option><option>ordered</option><option>dispatched</option><option>delivered</option><option>cancelled</option></select></label>
+        <label for="o-dispatch">Expected dispatch<input id="o-dispatch" type="date"></label>
+        <label for="o-cancel">Cancel by<input id="o-cancel" type="date"></label>
+        <button class="btn primary" type="submit" style="align-self:end">Save order</button>
+      </form>
+      <datalist id="shoplist"></datalist>
+    </details>
+    <span id="orders-msg" role="status" class="note"></span>
+    <div class="orders" id="orders" style="margin-top:10px"></div>
+  </section>
+  </div>
+
+  <div class="panel" id="tab-amazon" role="tabpanel" aria-labelledby="t-amazon">
+  <section class="screen" aria-labelledby="amz-h">
+    <h2 id="amz-h">▶ AMAZON INVITES</h2>
+    <div class="best" id="amz-sum"></div>
+    <p class="note">Open each link and tap <b>Request invitation</b> on the item sold by Amazon (it says "Available by invitation"). Then tap <b>Mark opted in</b> here. You can request each item once. If you're picked, Amazon emails a buy link that lasts 72 hours, so check your Promotions folder too. Links marked <i>search</i> open an Amazon search, so pick the listing sold by Amazon.</p>
+    <div class="orders" id="amz"></div>
+    <form class="oform" id="amz-form">
+      <label for="amz-name">Product<input id="amz-name" required placeholder="e.g. Delta Reign Booster Bundle"></label>
+      <label for="amz-url">Amazon link<input id="amz-url" type="url" required placeholder="https://www.amazon.co.uk/dp/…"></label>
+      <button class="btn primary" type="submit" style="align-self:end">+ Add link</button>
+    </form>
+    <span id="amz-msg" role="status" class="note"></span>
+    <p class="note">More invite lists: <a href="https://www.tcgcompare.com/amazon" target="_blank" rel="noopener">TCG Compare</a> · <a href="https://tcgstock.co.uk/amazon-invites" target="_blank" rel="noopener">TCG Stock</a></p>
+  </section>
+  </div>
+
+  <div class="panel" id="tab-patterns" role="tabpanel" aria-labelledby="t-patterns">
+<section class="screen" aria-labelledby="pat-h">
+    <h2 id="pat-h">▶ RESTOCK PATTERNS</h2>
+    <div class="best" id="pat-sum" style="margin-bottom:10px"></div>
+    <div class="heat-wrap"><div class="heat" id="heat" role="img" aria-label="Restocks by day and hour, UK time"></div></div>
+    <p class="note">UK time. Built from every restock the checker has seen. It gets more useful after a few weeks.</p>
+  </section>
+  </div>
+
+  <footer>Fan-made tracker. Not affiliated with Nintendo, Game Freak, Creatures or The Pokémon Company.</footer>
+</div>
+<script>
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const when = iso => new Date(iso).toLocaleString("en-GB", {day:"numeric", month:"short", hour:"2-digit", minute:"2-digit"});
+const store = (k, v) => { try { return v === undefined ? localStorage.getItem(k) : localStorage.setItem(k, v) } catch { return null } };
+let data = null, seen = null;
+
+function pill(it) {
+  if (it.available === undefined) return '<span class="pill t-normal">listed</span>';
+  if (!it.available) return '<span class="pill t-fire">out</span>';
+  return it.over_rrp ? `<span class="pill t-electric">£${it.price.toFixed(2)} · over RRP</span>`
+                     : `<span class="pill t-grass">£${it.price.toFixed(2)}</span>`;
+}
+
+const basket = i => i.available && i.cart ? `<a class="basket" href="${esc(i.cart)}" target="_blank" rel="noopener" aria-label="Open basket with ${esc(i.title)}">⚡ Basket</a>` : "";
+
+function sighting(a) {
+  return esc(a.text.replace(/^NEW: /, "A wild listing appeared! ").replace(/^BACK IN STOCK: /, "Back in stock! ").replace(/^New on page: /, "Spotted: "));
+}
+
+function bar(value, max, colour) {
+  const pct = max ? Math.min(100, Math.round(value / max * 100)) : 0;
+  return `<div class="bar" aria-hidden="true"><i style="width:${pct}%;background:var(${colour})"></i></div>`;
+}
+
+/* Shops tab search; other tabs show everything */
+const NOF = {q: "", set: "", type: "", shop: "", stock: false, max: false};
+const F = () => ({...NOF, q: $("q").value.trim().toLowerCase(), stock: $("instock").getAttribute("aria-pressed") === "true"});
+const textOk = (text, f) => { const t = String(text).toLowerCase(); return !f.q || t.includes(f.q); };
+const shopOk = (name, f) => !f.shop || name === f.shop;
+const itemOk = (i, shop, f) => textOk(i.title, f) && (!f.stock || i.available);
+const filtering = f => !!(f.q || f.stock);
+
+function render() {
+  if (!data) return;
+  renderWishlist();
+  renderDrops(allDrops());
+  const f = F();
+  const mins = Math.round((Date.now() - new Date(data.updated)) / 60000), fresh = mins <= 45;
+  $("updated").textContent = `Last scan ${when(data.updated)} · ${mins} min ago${fresh ? "" : " · checker may have stopped"}`;
+  $("lens").classList.toggle("fresh", fresh);
+  $("led-g").classList.toggle("off", !fresh);
+  const live = data.sites.filter(s => !s.skip), failing = live.filter(s => s.error).length;
+  $("led-r").classList.toggle("off", !failing);
+  const all = live.flatMap(s => s.items), inStock = all.filter(i => i.available), atRrp = inStock.filter(i => !i.over_rrp);
+  const day = data.alerts.filter(a => Date.now() - new Date(a.time) < 864e5).length;
+  $("led-y").classList.toggle("off", !day);
+  $("stats").innerHTML = [
+    ["In stock now", inStock.length, bar(inStock.length, all.filter(i => i.available !== undefined).length, "--grass")],
+    ["At or under RRP", atRrp.length, bar(atRrp.length, inStock.length, "--electric")],
+    ["Shops online", `${live.length - failing}/${live.length}`, bar(live.length - failing, live.length, "--water")],
+    ["Sightings (24h)", day, bar(day, 20, "--psychic")],
+  ].map(([k, v, b]) => `<div class="stat"><div class="k">${k}</div><div class="v">${v}</div>${b}</div>`).join("");
+
+  $("alerts").innerHTML = data.alerts.slice(0, 15).map(a =>
+    `<li class="${seen && !seen.has(a.time + a.text) ? "new" : ""}"><time>${when(a.time)}</time><span class="who">${esc(a.site)}</span>
+     <a href="${esc(a.url)}" target="_blank" rel="noopener">${sighting(a)}</a></li>`
+  ).join("") || '<li class="empty">No sightings yet. The first scan only records what each shop has.</li>';
+
+  const order = s => s.skip ? 3 : s.error ? 2 : s.items.some(i => i.available) ? 0 : 1;
+  $("shops").innerHTML = [...data.sites].filter(s => shopOk(s.name, f)).sort((a, b) => order(a) - order(b)).map(s => {
+    const n = s.items.filter(i => i.available).length;
+    const items = s.items.filter(i => itemOk(i, s.name, f))
+      .sort((a, b) => (b.available === true) - (a.available === true));
+    if (filtering(f) && !items.length) return "";
+    const badge = s.skip ? '<span class="pill t-normal">not scanned</span>' : s.error ? '<span class="pill t-fire">fainted</span>'
+      : s.mode === "page" ? '<span class="pill t-water">watching</span>' : `<span class="pill ${n ? "t-grass" : "t-normal"}">${n} in stock</span>`;
+    return `<article class="shop ${n ? "hot" : ""} ${s.error ? "err" : ""}">
+      <h3><span class="ball" aria-hidden="true"></span><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>${badge}</h3>
+      ${s.skip ? `<div class="note">${esc(s.skip)}</div>` : ""}
+      ${s.error ? `<div class="error">Last scan failed: ${esc(s.error)}</div>` : ""}
+      ${s.skip ? "" : `<ul>${items.map(i => `<li><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a><span class="tags">${pill(i)}${basket(i)}</span></li>`).join("")
+        || '<li class="empty">Nothing matching yet</li>'}</ul>`}</article>`;
+  }).join("") || '<p class="empty">Nothing matches your filters.</p>';
+}
+
+const matches = (w, title) => w.match.every(k => title.toLowerCase().includes(k));
+const priceOf = i => i.available ? i.price : Infinity;
+
+let wishlist = null;  // from wishlist.json; falls back to the copy in status.json
+
+function renderWishlist() {
+  const wl = wishlist || data.wishlist || [], f = NOF;
+  $("wishlist").innerHTML = wl.filter(w => textOk(w.name + " " + w.match.join(" "), f)).map(w => {
+    const hits = data.sites.filter(s => !s.skip && shopOk(s.name, f)).flatMap(s => s.items.filter(i => matches(w, i.title) && (!f.stock || i.available)).map(i => ({...i, shop: s.name})))
+      .sort((a, b) => priceOf(a) - priceOf(b) || (b.available === undefined) - (a.available === undefined));
+    const best = hits.find(i => i.available && (w.max == null || i.price <= w.max));
+    if (f.max && !best) return "";
+    const tag = {estimate: " (estimated)", reported: " (reported)"}[w.rrp_status] || "";
+    const cap = w.max == null ? (w.rrp_status ? "RRP not announced yet, alerting at any price" : "any price")
+      : `${w.rrp_status ? "RRP" : "max"} £${w.max.toFixed(2)}${tag}`;
+    return `<article class="wish ${best ? "buy" : ""}"><h3>${esc(w.name)}</h3><div class="note" style="margin:0 0 6px">${cap}</div>
+      <div class="best">${best ? `Best: <a href="${esc(best.url)}" target="_blank" rel="noopener">£${best.price.toFixed(2)} at ${esc(best.shop)} →</a> ${basket(best)}`
+        : hits.some(i => i.available) ? "In stock, but over your max"
+        : hits.some(i => i.available === undefined) ? "Listed somewhere, tap to check stock" : "Not in stock anywhere yet"}</div>
+      <ol>${hits.map(i => `<li><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.shop)}</a><span class="tags">${pill(i)}${basket(i)}</span></li>`).join("")
+        || '<li class="empty">No shop lists it yet</li>'}</ol>
+      <div class="resale"><a href="https://www.ebay.co.uk/sch/i.html?_nkw=${encodeURIComponent(w.name)}&LH_Sold=1&LH_Complete=1" target="_blank" rel="noopener">Check eBay sold prices →</a></div></article>`;
+  }).join("") || '<p class="empty">No wishlist yet. Tap "Edit wishlist" to add what you want to buy.</p>';
+}
+
+/* Wishlist editor */
+// Price is always the UK RRP: kept from the item, or looked up by product type for new rows.
+function rrpFor(name) {
+  const n = name.toLowerCase(), hit = Object.values(rrpTable).find(r => r.match.every(k => n.includes(k)));
+  return hit ? {max: hit.price, rrp_status: hit.status} : {max: null, rrp_status: "unknown"};
+}
+const rrpLabel = (max, st) => max == null ? "RRP ?" : `£${max.toFixed(2)}${st === "confirmed" ? "" : "*"}`;
+
+function addRow(w = {name: "", match: [], max: null}) {
+  const row = document.createElement("div");
+  row.className = "wrow";
+  row.dataset.rrp = w.rrp_status || "";
+  row.dataset.max = w.max ?? "";
+  const auto = w.match.length === 1 && w.match[0] === w.name.toLowerCase();
+  row.innerHTML = `<input class="nm" aria-label="Product" placeholder="e.g. Delta Reign Elite Trainer Box" value="${esc(w.name)}">
+    <input class="kw" aria-label="Must contain" placeholder="e.g. delta reign, elite trainer" value="${esc(auto ? "" : w.match.join(", "))}">
+    <span class="rrp">${w.name ? rrpLabel(w.max, w.rrp_status) : ""}</span>
+    <button class="btn small" aria-label="Remove">✕</button>`;
+  row.querySelector("button").onclick = () => row.remove();
+  $("wrows").append(row);
+  return row;
+}
+
+function readRows() {
+  return [...$("wrows").children].map(r => {
+    const name = r.querySelector(".nm").value.trim(), kw = r.querySelector(".kw").value;
+    const match = kw.split(",").map(k => k.trim().toLowerCase()).filter(Boolean);
+    const price = r.dataset.rrp ? {max: r.dataset.max === "" ? null : +r.dataset.max, rrp_status: r.dataset.rrp} : rrpFor(name);
+    return {name, match: match.length ? match : [name.toLowerCase()], ...price};
+  }).filter(w => w.name);
+}
+
+function openEditor(show) {
+  $("editor").hidden = !show;
+  $("edit-wl").setAttribute("aria-expanded", String(show));
+  if (show && !$("wrows").children.length) (wishlist || data?.wishlist || []).forEach(w => addRow(w));
+}
+
+const ghReady = () => $("gh-repo").value.trim() && $("gh-token").value.trim();
+
+async function saveToRepo(path, obj, message) {
+  const repo = $("gh-repo").value.trim(), token = $("gh-token").value.trim();
+  store("gh-repo", repo); store("gh-token", token);
+  const api = `https://api.github.com/repos/${repo}/contents/${path}`;
+  const headers = {Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json"};
+  const cur = await fetch(api, {headers, cache: "no-store"});
+  const sha = cur.ok ? (await cur.json()).sha : undefined;
+  const content = btoa(unescape(encodeURIComponent(JSON.stringify(obj, null, 2) + "\n")));
+  const r = await fetch(api, {method: "PUT", headers, body: JSON.stringify({message, content, sha})});
+  if (!r.ok) throw new Error(r.status === 401 || r.status === 403 || r.status === 404 ? "GitHub refused it: check the repo name and token permissions" : "HTTP " + r.status);
+}
+
+async function saveWishlist() {
+  const list = readRows(), msg = $("save-msg");
+  if (!ghReady()) { msg.textContent = "Add your GitHub repo and token below first."; $("gh").open = true; return; }
+  msg.textContent = "Saving…";
+  try {
+    await saveToRepo("wishlist.json", list, "Update wishlist from dashboard");
+    wishlist = list;
+    msg.textContent = "✓ Saved. Alerts use it from the next scan.";
+    render();
+  } catch (e) { msg.textContent = "✕ " + e.message; }
+}
+
+$("edit-wl").onclick = () => openEditor($("editor").hidden);
+$("add-row").onclick = () => addRow().querySelector(".nm").focus();
+$("save-wl").onclick = saveWishlist;
+$("gh-repo").value = store("gh-repo") || (location.hostname.endsWith(".github.io") ? `${location.hostname.split(".")[0]}/${location.pathname.split("/")[1] || ""}` : "");
+$("gh-token").value = store("gh-token") || "";
+
+let rrpTable = {};
+const wanted = name => (wishlist || data?.wishlist || []).some(w => w.name === name);
+
+function quickAdd(set, product) {
+  const name = `${set} ${product}`;
+  if (wanted(name)) return;
+  const r = rrpTable[product] || {};
+  openEditor(true);
+  addRow({name, match: [set.toLowerCase(), ...(r.match || [product.toLowerCase()])], max: r.price ?? null, rrp_status: r.status || "unknown"});
+  wishlist = readRows(); render();
+  saveWishlist();  // set at RRP straight away; asks for the GitHub key if it isn't set yet
+  $("editor").scrollIntoView({behavior: "smooth", block: "center"});
+}
+
+function renderDrops(drops) {
+  const now = Date.now();
+  const f = NOF;
+  const open = drops.filter(d => (!d.closes || new Date(d.closes) > now) && shopOk(d.shop, f) && textOk(d.name, f))
+    .sort((a, b) => (a.closes ? new Date(a.closes) : Infinity) - (b.closes ? new Date(b.closes) : Infinity));
+  $("drops").innerHTML = open.map(d => {
+    const key = "entered:" + d.shop + d.name + d.closes, done = store(key) === "1";
+    const h = d.closes ? (new Date(d.closes) - now) / 36e5 : null;
+    const left = h == null ? "NOT OPEN YET / DATE TBC" : h < 1 ? "CLOSES IN UNDER 1 HOUR" : h < 48 ? `CLOSES IN ${Math.round(h)}H` : `CLOSES IN ${Math.round(h / 24)} DAYS`;
+    return `<div class="drop ${done ? "done" : ""}"><div class="what"><div class="closes">${left}</div>
+      <a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.shop)}: ${esc(d.name)}</a>
+      ${d.note ? `<div class="note" style="margin:2px 0 0">${esc(d.note)}${d.found ? ` Found ${when(d.found)}.` : ""}</div>` : ""}</div>
+      <span class="pill ${d.type === "ballot" ? "t-psychic" : "t-water"}">${esc(d.type || "pre-order")}</span>
+      <label><input type="checkbox" data-key="${esc(key)}" ${done ? "checked" : ""}> I've entered</label></div>`;
+  }).join("") || '<p class="empty">No open drops right now. Ask Claude to add one, or edit "drops" in releases.json.</p>';
+}
+
+const STEPS = ["account", "card", "news", "notify"];
+function renderReady(shops) {
+  $("ready").innerHTML = shops.map(s => `<tr><td><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a></td>${STEPS.map(k => {
+    const key = `ready:${s.name}:${k}`;
+    return `<td><input type="checkbox" data-key="${esc(key)}" aria-label="${esc(s.name)} ${k}" ${store(key) === "1" ? "checked" : ""}></td>`;
+  }).join("")}</tr>`).join("");
+  readySummary();
+}
+function readySummary() {
+  const rows = [...$("ready").rows];
+  rows.forEach(r => r.classList.toggle("full", [...r.querySelectorAll("input")].every(i => i.checked)));
+  const done = rows.filter(r => r.classList.contains("full")).length;
+  $("ready-sum").textContent = `${done} of ${rows.length} shops fully ready`;
+}
+$("ready").addEventListener("change", e => {
+  if (!e.target.dataset.key) return;
+  store(e.target.dataset.key, e.target.checked ? "1" : "0");
+  readySummary();
+});
+
+$("releases").addEventListener("click", e => {
+  const b = e.target.closest("button[data-set]");
+  if (b) { quickAdd(b.dataset.set, b.dataset.product); b.disabled = true; b.textContent = "✓ wanted"; }
+});
+
+$("drops").addEventListener("change", e => {
+  if (!e.target.dataset.key) return;
+  store(e.target.dataset.key, e.target.checked ? "1" : "0");
+  e.target.closest(".drop").classList.toggle("done", e.target.checked);
+});
+
+/* Release-day mode: today's or tomorrow's releases get a countdown and quick links */
+let rdayList = [], shopLinks = [];
+const releaseDays = d => Math.round((new Date(d + "T00:00:00") - new Date(new Date().toDateString())) / 864e5);
+function renderRday() {
+  const box = $("rday");
+  box.hidden = !rdayList.length;
+  if (!rdayList.length) return;
+  const x = rdayList[0], ms = new Date(x.date + "T00:00:00") - Date.now();
+  const t = ms <= 0 ? "OUT TODAY" : [ms / 36e5, ms / 6e4 % 60, ms / 1e3 % 60].map(n => String(Math.floor(n)).padStart(2, "0")).join(":");
+  const wl = (wishlist || data?.wishlist || []).filter(w => rdayList.some(r => r.set && w.match.includes(r.set.toLowerCase())));
+  const best = wl.map(w => ({w, i: (data?.sites || []).filter(s => !s.skip).flatMap(s => s.items.filter(i => i.available && matches(w, i.title) && (w.max == null || i.price <= w.max)).map(i => ({...i, shop: s.name})))
+    .sort((a, b) => priceOf(a) - priceOf(b))[0]})).filter(b => b.i);
+  box.innerHTML = `<h2>▶ RELEASE DAY MODE</h2><div><b>${rdayList.map(r => esc(r.name)).join(" + ")}</b></div>
+    <div class="big">${t}</div><div class="note" style="color:#111">Refreshing every 20 seconds. Shops often go live early morning or at midnight.</div>
+    <div class="chips">${best.map(b => `<a class="chip go" href="${esc(b.i.cart || b.i.url)}" target="_blank" rel="noopener">${b.i.cart ? "⚡ " : ""}${esc(b.w.name)} £${b.i.price.toFixed(2)}</a>`).join("")}
+    ${shopLinks.slice(0, 8).map(s => `<a class="chip" href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join("")}</div>`;
+}
+setInterval(renderRday, 1000);
+
+/* Restock patterns heatmap */
+let restockLog = [];
+const DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+const ukParts = iso => Object.fromEntries(new Intl.DateTimeFormat("en-GB", {timeZone: "Europe/London", weekday: "short", hour: "2-digit", hourCycle: "h23"})
+  .formatToParts(new Date(iso)).map(p => [p.type, p.value]));
+function renderPatterns() {
+  const shop = "", grid = DAYS.map(() => Array(24).fill(0));
+  restockLog.filter(h => !shop || h.shop === shop).forEach(h => { const p = ukParts(h.t); grid[DAYS.indexOf(p.weekday)][+p.hour]++; });
+  const max = Math.max(1, ...grid.flat());
+  let top = null;
+  grid.forEach((row, d) => row.forEach((n, hr) => { if (n && (!top || n > top.n)) top = {d, hr, n}; }));
+  $("pat-sum").textContent = top ? `Busiest: ${DAYS[top.d]} ${String(top.hr).padStart(2, "0")}:00 to ${String(top.hr + 1).padStart(2, "0")}:00 (${top.n} restocks)` : "No restocks logged yet.";
+  $("heat").innerHTML = "<span></span>" + Array.from({length: 24}, (_, h) => `<span class="h">${h % 3 ? "" : h}</span>`).join("")
+    + grid.map((row, d) => `<span class="d">${DAYS[d]}</span>` + row.map((n, h) =>
+      `<span class="c" title="${DAYS[d]} ${h}:00, ${n} restocks" style="${n ? `background:var(--grass);opacity:${(0.25 + 0.75 * n / max).toFixed(2)}` : ""}"></span>`).join("")).join("");
+}
+
+/* My orders */
+/* Amazon invites: list from releases.json + your own links; opted-in state in amazon.json */
+let amazonList = [], amz = {added: [], opted: {}};
+function renderAmazon() {
+  const all = amazonList.concat(amz.added.map(a => ({...a, mine: true})));
+  const done = all.filter(a => amz.opted[a.url]).length;
+  $("amz-sum").textContent = all.length ? `${done} of ${all.length} opted in` : "";
+  $("amz").innerHTML = [...all].sort((a, b) => !!amz.opted[a.url] - !!amz.opted[b.url]).map(a => { const on = !!amz.opted[a.url];
+    return `<div class="order ${on ? "opted" : ""}"><div class="what"><b>${esc(a.name)}</b>
+      <div class="note" style="margin:2px 0 0">${a.kind === "search" ? "search" : "product page"}${a.mine ? " · added by you" : ""}</div></div>
+      <a class="btn small amz-go" href="${esc(a.url)}" target="_blank" rel="noopener">Request invite →</a>
+      <button class="btn small ${on ? "" : "primary"}" data-opt="${esc(a.url)}" aria-pressed="${on}">${on ? "✓ Opted in" : "Mark opted in"}</button>
+      ${a.mine ? `<button class="btn small" data-rm="${esc(a.url)}" aria-label="Remove ${esc(a.name)}">✕</button>` : ""}</div>`; }).join("")
+    || '<p class="empty">No Amazon links yet.</p>';
+  badge("amazon", all.length - done, "Amazon invites not requested");
+}
+async function persistAmazon() {
+  store("amazon", JSON.stringify(amz));
+  renderAmazon();
+  if (!ghReady()) { $("amz-msg").textContent = "Saved on this device. Add your GitHub key (Edit wishlist → GitHub connection) to sync everywhere."; return; }
+  try { await saveToRepo("amazon.json", amz, "Update Amazon invites from dashboard"); $("amz-msg").textContent = "✓ Saved."; }
+  catch (e) { $("amz-msg").textContent = "Saved on this device only. ✕ " + e.message; }
+}
+$("amz").addEventListener("click", e => {
+  const b = e.target.closest("button"); if (!b) return;
+  if (b.dataset.opt) { if (amz.opted[b.dataset.opt]) delete amz.opted[b.dataset.opt]; else amz.opted[b.dataset.opt] = new Date().toISOString().slice(0, 10); }
+  if (b.dataset.rm) { amz.added = amz.added.filter(a => a.url !== b.dataset.rm); delete amz.opted[b.dataset.rm]; }
+  persistAmazon();
+});
+$("amz-form").addEventListener("submit", e => {
+  e.preventDefault();
+  const url = $("amz-url").value.trim();
+  if (!/^https:\/\/(www\.)?amazon\.co\.uk\//.test(url)) { $("amz-msg").textContent = "That doesn't look like an amazon.co.uk link."; return; }
+  amz.added.push({name: $("amz-name").value.trim(), url, kind: /\/dp\//.test(url) ? "product" : "search"});
+  e.target.reset();
+  persistAmazon();
+});
+fetch("amazon.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.ok ? r.json() : Promise.reject())
+  .catch(() => { try { return JSON.parse(store("amazon") || "null"); } catch { return null; } })
+  .then(d => { if (d && d.opted) amz = {added: d.added || [], opted: d.opted}; renderAmazon(); });
+
+let orders = [];
+const ACTIVE = ["pre-order", "ordered"];
+function renderOrders() {
+  const today = new Date(new Date().toDateString());
+  const count = {};
+  orders.filter(o => o.status !== "cancelled").forEach(o => count[o.item.toLowerCase()] = (count[o.item.toLowerCase()] || 0) + 1);
+  const sum = st => orders.filter(o => st.includes(o.status)).reduce((t, o) => t + (o.price || 0), 0);
+  $("orders-sum").textContent = orders.length ? `Committed £${sum(ACTIVE).toFixed(2)} · Spent £${sum(["dispatched", "delivered"]).toFixed(2)}` : "";
+  const f = NOF;
+  $("orders").innerHTML = orders.filter(o => shopOk(o.shop, f) && textOk(o.item, f)).sort((a, b) => (a.cancel_by || "9") .localeCompare(b.cancel_by || "9")).map(o => {
+    const left = o.cancel_by ? Math.round((new Date(o.cancel_by + "T00:00:00") - today) / 864e5) : null;
+    const warn = ACTIVE.includes(o.status) && left != null && left >= 0 && left <= 3, dupe = o.status !== "cancelled" && count[o.item.toLowerCase()] > 1;
+    const flags = [dupe ? "⚠ Ordered more than once" : "", warn ? `⚠ Cancel window ends ${left === 0 ? "today" : left === 1 ? "tomorrow" : `in ${left} days`}` : ""].filter(Boolean).join(" · ");
+    return `<div class="order ${dupe ? "dupe" : warn ? "warn" : ""}"><div class="what"><b>${esc(o.item)}</b> · ${esc(o.shop)} · £${(+o.price).toFixed(2)}
+      <div class="note" style="margin:2px 0 0">${o.dispatch ? `Dispatch ${esc(o.dispatch)}` : ""}${o.dispatch && o.cancel_by ? " · " : ""}${o.cancel_by ? `Cancel by ${esc(o.cancel_by)}` : ""}</div>
+      ${flags ? `<div class="flag">${flags}</div>` : ""}</div>
+      <select data-id="${esc(o.id)}" aria-label="Status of ${esc(o.item)}">${["pre-order", "ordered", "dispatched", "delivered", "cancelled"].map(s => `<option ${s === o.status ? "selected" : ""}>${s}</option>`).join("")}</select>
+      <button class="btn small" data-del="${esc(o.id)}" aria-label="Delete ${esc(o.item)}">✕</button></div>`;
+  }).join("") || '<p class="empty">No orders yet. Tap "+ Add order" after you buy or pre-order something.</p>';
+}
+async function persistOrders() {
+  store("orders", JSON.stringify(orders));
+  renderOrders();
+  if (!ghReady()) { $("orders-msg").textContent = "Saved on this device. Add your GitHub key (Edit wishlist → GitHub connection) to sync everywhere."; return; }
+  $("orders-msg").textContent = "Saving…";
+  try { await saveToRepo("orders.json", orders, "Update orders from dashboard"); $("orders-msg").textContent = "✓ Saved."; }
+  catch (e) { $("orders-msg").textContent = "Saved on this device only. ✕ " + e.message; }
+}
+$("oform").addEventListener("submit", e => {
+  e.preventDefault();
+  orders.push({id: Date.now().toString(36), item: $("o-item").value.trim(), shop: $("o-shop").value.trim(), price: parseFloat($("o-price").value),
+    status: $("o-status").value, dispatch: $("o-dispatch").value || null, cancel_by: $("o-cancel").value || null});
+  e.target.reset();
+  persistOrders();
+});
+$("orders").addEventListener("change", e => {
+  const o = orders.find(o => o.id === e.target.dataset.id);
+  if (o) { o.status = e.target.value; persistOrders(); }
+});
+$("orders").addEventListener("click", e => {
+  const id = e.target.dataset.del;
+  if (id) { orders = orders.filter(o => o.id !== id); persistOrders(); }
+});
+fetch("orders.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.ok ? r.json() : Promise.reject())
+  .catch(() => { try { return JSON.parse(store("orders") || "[]"); } catch { return []; } })
+  .then(o => { orders = Array.isArray(o) ? o : []; renderOrders(); });
+
+let releaseDrops = [];
+const allDrops = () => releaseDrops.concat(data?.auto_drops || []);
+
+let lastReleases = null;
+function renderReleases(r) {
+  lastReleases = r;
+  rrpTable = r.rrp || {};
+  releaseDrops = r.drops || [];
+  shopLinks = r.shops;
+  amazonList = r.amazon || []; renderAmazon();
+  rdayList = r.releases.filter(x => releaseDays(x.date) >= 0 && releaseDays(x.date) <= 1);
+  $("shoplist").innerHTML = r.shops.map(s => `<option value="${esc(s.name)}">`).join("");
+  renderRday();
+  renderDrops(allDrops());
+  renderReady(r.shops);
+  const today = new Date(new Date().toDateString());
+  const days = d => Math.round((new Date(d + "T00:00:00") - today) / 864e5);
+  const ahead = r.releases.filter(x => days(x.date) >= -14).sort((a, b) => a.date.localeCompare(b.date));
+  $("releases").innerHTML = ahead.map(x => {
+    const n = days(x.date), count = n > 1 ? `in ${n} days` : n === 1 ? "tomorrow" : n === 0 ? "out today!" : "out now";
+    const date = new Date(x.date + "T00:00:00").toLocaleDateString("en-GB", {weekday:"short", day:"numeric", month:"short", year:"numeric"});
+    return `<article class="release"><div class="when">${esc(count.toUpperCase())}</div>
+      <h3>${esc(x.name)}<span class="pill ${x.status === "confirmed" ? "t-grass" : "t-electric"}">${esc(x.status)}</span></h3>
+      <div class="note" style="margin:0 0 6px">${date}</div>
+      <ul>${x.products.map(p => { const r = rrpTable[p] || {}, done = x.set && wanted(`${x.set} ${p}`);
+        const price = r.price != null ? ` · £${r.price.toFixed(2)}${r.status === "confirmed" ? "" : "*"}` : "";
+        return `<li>${esc(p)}${x.set ? `<button class="btn small" data-set="${esc(x.set)}" data-product="${esc(p)}" ${done ? "disabled" : ""} aria-label="Add ${esc(x.set)} ${esc(p)} to wishlist at RRP">${done ? "✓ wanted" : "+ want"}${price}</button>` : ""}</li>`; }).join("")}</ul>
+      ${x.note ? `<div class="note">${esc(x.note)}</div>` : ""}</article>`;
+  }).join("") || '<p class="empty">No releases listed. Add some to releases.json.</p>';
+  $("preorders").innerHTML = r.shops.map(s =>
+    `<a class="chip" href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}${s.label ? ` <small>· ${esc(s.label)}</small>` : ""}</a>`).join("");
+}
+
+function browserAlerts(fresh) {
+  if (store("notify") !== "on" || !("Notification" in window) || Notification.permission !== "granted") return;
+  fresh.slice(0, 3).forEach(a => { new Notification(a.site, {body: a.text}).onclick = () => window.open(a.url); });
+}
+
+async function load() {
+  fetch("wishlist.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.ok ? r.json() : null)
+    .then(w => { if (w && !$("save-msg").textContent.startsWith("✓")) { wishlist = w; render(); if (lastReleases) renderReleases(lastReleases); } }).catch(() => {});
+  fetch("releases.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.json()).then(renderReleases)
+    .catch(() => { $("releases").innerHTML = '<p class="empty">Couldn\'t load releases.json.</p>'; });
+  try {
+    const r = await fetch("status.json?t=" + Date.now(), {cache: "no-store"});
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    const next = await r.json();
+    if (seen) browserAlerts(next.alerts.filter(a => !seen.has(a.time + a.text)));
+    data = next;
+    render();
+    seen = new Set(data.alerts.map(a => a.time + a.text));
+  } catch (e) {
+    $("updated").textContent = "No scan data yet. Has the checker run? (" + e.message + ")";
+  }
+}
+
+const setToggle = (btn, on) => btn.setAttribute("aria-pressed", String(on));
+$("q").addEventListener("input", render);
+$("instock").addEventListener("click", e => { setToggle(e.currentTarget, e.currentTarget.getAttribute("aria-pressed") !== "true"); render(); });
+
+/* Tabs: #buy, #drops, ... in the address bar; last tab remembered */
+const TABS = [...document.querySelectorAll(".tab")].map(t => t.dataset.tab);
+function showTab(id, focus) {
+  if (!TABS.includes(id)) id = "buy";
+  document.querySelectorAll(".tab").forEach(t => { const on = t.dataset.tab === id; t.setAttribute("aria-selected", String(on)); t.tabIndex = on ? 0 : -1; if (on && focus) t.focus(); });
+  document.querySelectorAll(".panel").forEach(p => p.hidden = p.id !== "tab-" + id);
+  store("tab", id);
+  try { if (location.hash.slice(1) !== id) history.replaceState(null, "", "#" + id); } catch {}
+}
+document.querySelector(".tabs").addEventListener("click", e => { const t = e.target.closest(".tab"); if (t) showTab(t.dataset.tab); });
+document.querySelector(".tabs").addEventListener("keydown", e => {
+  const k = {ArrowRight: 1, ArrowLeft: -1}[e.key]; if (!k) return;
+  const i = TABS.indexOf(document.activeElement.dataset.tab);
+  showTab(TABS[(i + k + TABS.length) % TABS.length], true);
+});
+addEventListener("hashchange", () => showTab(location.hash.slice(1)));
+showTab(location.hash.slice(1) || store("tab"));
+
+function badge(id, n, label) { const b = $("b-" + id); b.hidden = !n; b.textContent = n; b.setAttribute("aria-label", `${n} ${label}`); }
+function updateBadges() {
+  badge("buy", document.querySelectorAll(".wish.buy").length, "deals within your max");
+  badge("drops", document.querySelectorAll("#drops .drop:not(.done)").length, "drops not entered");
+  badge("orders", document.querySelectorAll(".order.warn, .order.dupe").length, "orders need attention");
+}
+setInterval(updateBadges, 1000);
+
+$("notify").addEventListener("click", async e => {
+  const btn = e.currentTarget, on = btn.getAttribute("aria-pressed") !== "true";
+  if (on && "Notification" in window && Notification.permission !== "granted" && await Notification.requestPermission() !== "granted") return;
+  setToggle(btn, on); store("notify", on ? "on" : "off");
+});
+setToggle($("notify"), store("notify") === "on");
+function loadHistory() {
+  fetch("history.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.ok ? r.json() : []).then(h => { restockLog = h; renderPatterns(); }).catch(renderPatterns);
+}
+// Refresh every minute, or every 20 seconds on release day.
+(function tick() { load(); loadHistory(); setTimeout(tick, rdayList.length ? 20000 : 60000); })();
+</script>
+</body>
+</html>
