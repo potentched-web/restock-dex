@@ -52,6 +52,10 @@ def shopify_items(data, base, cfg):
             continue
         for v in p.get("variants", []):
             title = p["title"] if v.get("title") in (None, "Default Title") else f'{p["title"]} ({v["title"]})'
+            tags = " ".join(p["tags"]) if isinstance(p.get("tags"), list) else str(p.get("tags", ""))
+            tag = DROP_WORDS.search(tags + " " + p.get("product_type", ""))
+            if tag and not DROP_WORDS.search(title):  # shop marks it as a pre-order/ballot only in tags
+                title += f" ({tag.group(1).title()})"
             out[str(v["id"])] = (title, float(v.get("price") or 0), bool(v.get("available")), f'{base}/products/{p["handle"]}')
     return out
 
@@ -118,6 +122,26 @@ def check_drop_page(page, cfg, prev):
             "note": "Spotted automatically. Open it to check if it's open and when it closes."}
            for u, t in sorted(links.items()) if u not in seen]
     return {"links": sorted(seen | set(links))}, new
+
+
+DROP_WORDS = re.compile(r"\b(ballot|raffle|prize draw|product drop|pre[- ]?order)", re.I)
+
+
+def listing_drops(name, st, cfg):
+    """{key: drop} for a shop's listings that say ballot/raffle/pre-order. Pre-orders over RRP are left out."""
+    out = {}
+    for vid, (title, price, avail, url) in st.get("items", {}).items():
+        m = DROP_WORDS.search(title)
+        if m and (not m.group(1).lower().startswith("pre") or not over_rrp(title, price, cfg)):
+            out[url] = (title, url, m.group(1))
+    for line in st.get("lines", []):  # page-checked shops: no price or own link, so key by title
+        m = DROP_WORDS.search(line)
+        if m:
+            out[name + ":" + line] = (line, None, m.group(1))
+    return {k: {"shop": name, "name": t, "url": u, "closes": None,
+                "type": "pre-order" if w.lower().startswith("pre") else "ballot",
+                "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes."}
+            for k, (t, u, w) in out.items()}
 
 
 def notify(site, text, url, topic=None):
@@ -247,7 +271,7 @@ def main():
     status = json.load(open(STATUS)) if os.path.exists(STATUS) else {}
     drops = releases.get("drops", [])
     now = now_dt.isoformat(timespec="seconds")
-    rows, run_alerts = [], []
+    rows, run_alerts, shop_drops = [], [], {}
     for site in cfg["sites"]:
         err = None
         if not site.get("skip"):
@@ -255,6 +279,8 @@ def main():
             try:
                 state[site["name"]], alerts = check_site(site, cfg, state.get(site["name"]))
                 run_alerts += [(site["name"], t, u) for t, u in alerts]
+                shop_drops[site["name"]] = {k: {**d, "url": d["url"] or site["url"]}
+                                            for k, d in listing_drops(site["name"], state[site["name"]], cfg).items()}
             except Exception as e:  # one broken site must not stop the rest
                 err = str(e)[:200]
                 print(f"[{site['name']}] check failed: {e}", file=sys.stderr)
@@ -264,6 +290,18 @@ def main():
             rows[-1]["uptime"] = up[site["name"]] = round(0.98 * up.get(site["name"], 1.0) + 0.02 * (err is None), 4)
     auto_drops = [d for d in status.get("auto_drops", [])
                   if (now_dt - datetime.fromisoformat(d["found"])).days < 30]
+    # Ballots and pre-orders found in every shop's listings; a shop's first scan lists them without alerting.
+    dropseen = state.setdefault("_dropseen", {})
+    for shop, found in shop_drops.items():
+        first = shop not in dropseen
+        for k, d in found.items():
+            if k in dropseen.get(shop, []):
+                continue
+            if not any(x["url"] == d["url"] and x["name"] == d["name"] for x in auto_drops):
+                auto_drops.insert(0, {**d, "found": now})
+            if not first:
+                run_alerts.append((shop, f"New {d['type']} spotted: {d['name']}", d["url"]))
+        dropseen[shop] = sorted(set(dropseen.get(shop, [])) | set(found))
     for page in cfg.get("drop_pages", []):
         key = "_droppage:" + page["url"]
         try:
@@ -313,7 +351,7 @@ def main():
     json.dump(history[-3000:], open(HISTORY, "w"))
     json.dump(state, open(STATE, "w"), indent=1, sort_keys=True)
     json.dump({"updated": now, "sites": rows, "alerts": feed[:100], "wishlist": cfg.get("wishlist", []),
-               "auto_drops": auto_drops[:30]}, open(STATUS, "w"), indent=1)
+               "auto_drops": auto_drops[:150]}, open(STATUS, "w"), indent=1)
 
 
 if __name__ == "__main__":

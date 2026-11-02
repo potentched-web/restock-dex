@@ -138,3 +138,15 @@ print("rrp/got checks passed")
 # notify reports which channels worked; none configured means none
 assert check.notify("s", "t", "u") == []
 print("notify checks passed")
+
+# Ballots/pre-orders spotted in any shop's listings; over-RRP pre-orders skipped
+LD = {"rrp": {"elite trainer": 49.99}}
+st = {"items": {"1": ["Pokemon Delta Reign Elite Trainer Box (PRE-ORDER)", 49.99, True, "https://s/products/a"],
+                "2": ["Pokemon Delta Reign Elite Trainer Box Pre Order", 89.99, True, "https://s/products/b"],
+                "3": ["Pokemon 30th UPC - Ballot Entry", 169.99, True, "https://s/products/c"]}}
+got = check.listing_drops("S", st, LD)
+assert sorted((d["name"], d["type"]) for d in got.values()) == [("Pokemon 30th UPC - Ballot Entry", "ballot"), ("Pokemon Delta Reign Elite Trainer Box (PRE-ORDER)", "pre-order")], got
+assert list(check.listing_drops("P", {"lines": ["Pokemon Mew Figure Collection - Product Drop"]}, LD).values())[0]["url"] is None
+tagged = {"products": [{**product(7, "Pokemon Chaos Rising Elite Trainer Box", 49.99, True), "tags": ["Pre-Order", "Pokemon"]}]}
+assert list(check.shopify_items(tagged, "b", LD | {"include": ["elite trainer"], "exclude": []}).values())[0][0] == "Pokemon Chaos Rising Elite Trainer Box (Pre-Order)"
+print("listing drop checks passed")
