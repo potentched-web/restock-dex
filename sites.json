@@ -6,7 +6,7 @@
     "booster display",
     "premium collection",
     "collection",
-    "tin",
+    " tin",
     "blister",
     "build & battle"
   ],
@@ -84,7 +84,7 @@
     },
     {
       "name": "Titan Cards",
-      "url": "https://titancards.co.uk/collections/pokemon-sealed-products"
+      "url": "https://titancards.co.uk/collections/pokemon"
     },
     {
       "name": "TCG Paradise",
@@ -111,20 +111,8 @@
       "url": "https://dicecupcafe.co.uk/collections/pokemon"
     },
     {
-      "name": "Troll Trader (boxes)",
-      "url": "https://www.trolltradercards.com/collections/pokemon-booster-boxes"
-    },
-    {
-      "name": "Troll Trader (ETBs & tins)",
-      "url": "https://www.trolltradercards.com/collections/pokemon-tins-and-box-sets"
-    },
-    {
       "name": "The Card Vault",
       "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
-    },
-    {
-      "name": "Wayland Games",
-      "url": "https://www.waylandgames.co.uk/tabletop-games/collectable-card-games/pokemon"
     },
     {
       "name": "Iconic TCG",
@@ -161,6 +149,26 @@
     {
       "name": "BuyAnyCards",
       "url": "https://buyanycards.co.uk/"
+    },
+    {
+      "name": "Monster Card Corner",
+      "url": "https://monstercardcorner.co.uk/"
+    },
+    {
+      "name": "Mystic Games",
+      "url": "https://www.mysticgames.co.uk/shop?search=pokemon"
+    },
+    {
+      "name": "CardDeckr",
+      "url": "https://carddeckr.com/"
+    },
+    {
+      "name": "Goblin Gaming",
+      "url": "https://www.goblingaming.co.uk/collections/pokemon"
+    },
+    {
+      "name": "Japan2UK",
+      "url": "https://www.japan2uk.com/"
     },
     {
       "name": "Element Games",

@@ -35,13 +35,12 @@ def over_rrp(title, price, cfg):
     return any(k in t and price > rrp for k, rrp in cfg["rrp"].items())
 
 
-def shopify_items(data, base, cfg, pokemon_feed=False):
+def shopify_items(data, base, cfg):
     """{variant_id: (title, price, available, url)} for wanted products."""
     out = {}
     for p in data.get("products", []):
         # Shops sell other TCGs too; Pokemon stock always has Pokemon in the title or vendor.
-        # A Pokemon-only collection (URL says so) may leave "Pokemon" out of titles.
-        if not wanted(p["title"], cfg) or not (pokemon_feed or "pok" in (p["title"] + p.get("vendor", "")).lower()):
+        if not wanted(p["title"], cfg) or "pok" not in (p["title"] + p.get("vendor", "")).lower():
             continue
         for v in p.get("variants", []):
             title = p["title"] if v.get("title") in (None, "Default Title") else f'{p["title"]} ({v["title"]})'
@@ -135,11 +134,13 @@ def check_site(site, cfg, prev):
             and not parts.path.startswith("/collections/all") else base
         data = json.loads(fetch(src + "/products.json?limit=250"))
         if "products" in data:
-            items = shopify_items(data, base, cfg, "pok" in src.lower())
+            items = shopify_items(data, base, cfg)
             alerts = shopify_alerts(prev.get("items", {}), items, cfg) if prev else []
             return {"mode": "shopify", "items": items}, alerts
-    except Exception:
-        pass  # not Shopify (or blocked): fall back to the page itself
+    except Exception as e:
+        if getattr(e, "code", None) == 429:
+            raise  # rate-limited Shopify: keep last state rather than flip to page mode and re-alert everything
+        # otherwise not Shopify (or blocked): fall back to the page itself
     lines = page_lines(fetch(site["url"]), cfg)
     added = sorted(set(lines) - set(prev.get("lines", []))) if prev else []
     alerts = [(f"New on page: {l}", site["url"]) for l in added[:5]]
