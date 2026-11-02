@@ -22,7 +22,12 @@
     "korean",
     "chinese",
     "graded",
-    "psa"
+    "psa",
+    "indonesian",
+    "thai",
+    "(jp)",
+    "(cn)",
+    "(kr)"
   ],
   "rrp": {
     "booster bundle": 24.99,
@@ -41,7 +46,7 @@
     },
     {
       "name": "Magic Madhouse",
-      "url": "https://www.magicmadhouse.co.uk/pokemon"
+      "url": "https://magicmadhouse.co.uk/pokemon/pokemon-sealed-product?sort=newest"
     },
     {
       "name": "Total Cards",
@@ -57,7 +62,8 @@
     },
     {
       "name": "Element Games",
-      "url": "https://elementgames.co.uk/pokemon"
+      "url": "https://elementgames.co.uk/pokemon",
+      "skip": "No Pokemon range on the site any more (checked Nov 2026)"
     },
     {
       "name": "Big Orbit Cards",
@@ -81,11 +87,12 @@
     },
     {
       "name": "Packrat",
-      "url": "https://packratt.co.uk/"
+      "url": "https://packratt.co.uk/pokemon"
     },
     {
       "name": "Patriot Games",
-      "url": "https://patriotgamesleeds.com/collections/all"
+      "url": "https://patriotgamesleeds.com/collections/all",
+      "skip": "Cloudflare bot check blocks automated checks (checked Nov 2026): use an alert Discord"
     },
     {
       "name": "Games Lore",
