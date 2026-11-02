@@ -134,3 +134,7 @@ assert check.got_it("New pre-order spotted: Delta Reign Elite Trainer Box", G)
 assert not check.got_it("NEW: Delta Reign Booster Bundle £24.99", G)
 print("rrp/got checks passed")
 
+
+# notify reports which channels worked; none configured means none
+assert check.notify("s", "t", "u") == []
+print("notify checks passed")

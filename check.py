@@ -16,6 +16,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 STATE = os.path.join(HERE, "state.json")
 STATUS = os.path.join(HERE, "status.json")
 HISTORY = os.path.join(HERE, "history.json")
+NOTIFS = os.path.join(HERE, "notifications.json")
 UA = "Mozilla/5.0 (personal stock alert; one request per 15 min)"
 
 
@@ -119,17 +120,22 @@ def check_drop_page(page, cfg, prev):
     return {"links": sorted(seen | set(links))}, new
 
 
-def notify(site, text, url):
+def notify(site, text, url, topic=None):
+    """Sends to every configured channel; returns the names of the ones that worked."""
     print(f"[{site}] {text} {url}")
-    if os.environ.get("NTFY_TOPIC"):
-        req = urllib.request.Request(f'https://ntfy.sh/{os.environ["NTFY_TOPIC"]}', data=text.encode(),
+    sent = []
+    if topic:
+        req = urllib.request.Request(f"https://ntfy.sh/{topic}", data=text.encode(),
                                      headers={"Title": site, "Click": url, "Tags": "rotating_light"})
         urllib.request.urlopen(req, timeout=20)
+        sent.append("push")
     if os.environ.get("DISCORD_WEBHOOK"):
         body = json.dumps({"content": f"**{site}**: {text}\n{url}"}).encode()
         req = urllib.request.Request(os.environ["DISCORD_WEBHOOK"], data=body,
                                      headers={"Content-Type": "application/json", "User-Agent": UA})
         urllib.request.urlopen(req, timeout=20)
+        sent.append("discord")
+    return sent
 
 
 def check_site(site, cfg, prev):
@@ -277,15 +283,26 @@ def main():
     reminders = [r for r in drop_reminders(drops, now_dt, state.setdefault("_reminded", [])) if not got_it(r[1], cfg)]
     push += reminders
     run_alerts += reminders
+    # The public topic in sites.json is what the dashboard's "Push notifications" button subscribes people to.
+    topic = cfg.get("ntfy_topic") or os.environ.get("NTFY_TOPIC")
+    log = []
     for name, text, url in push:
         try:
-            notify(name, text, url)
+            via = notify(name, text, url, topic)
         except Exception as e:
+            via = []
             print(f"[{name}] notify failed: {e}", file=sys.stderr)
+        log.append({"time": now, "site": name, "text": text, "url": url, "via": via})
     try:
         send_email(push)
+        if push and os.environ.get("SMTP_USER"):
+            for entry in log:
+                entry["via"].append("email")
     except Exception as e:
         print(f"email failed: {e}", file=sys.stderr)
+    if log:  # log of every notification sent, shown on the dashboard's Notifications tab
+        old = json.load(open(NOTIFS)) if os.path.exists(NOTIFS) else []
+        json.dump((log[::-1] + old)[:500], open(NOTIFS, "w"), indent=1)
     # Keep only well-formed entries: older runs stored the restock log here by mistake.
     feed = [{"time": now, "site": n, "text": t, "url": u} for n, t, u in run_alerts] + [a for a in status.get("alerts", []) if "text" in a]
     # Restock log for the dashboard's day/hour patterns.

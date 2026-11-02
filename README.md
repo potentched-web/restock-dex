@@ -17,7 +17,9 @@ shows the price and flags anything **over RRP**. It never buys anything.
    day of) it scans every time, otherwise every 15 minutes. A private repo's
    2,000 free minutes won't cover that.
 3. In the repo go to **Settings > Secrets and variables > Actions** and add
-   `NTFY_TOPIC` (your topic name) and/or `DISCORD_WEBHOOK`.
+   `DISCORD_WEBHOOK` if you want Discord alerts. Phone push uses the public ntfy
+   topic in `sites.json` (`ntfy_topic`); anyone can subscribe from the dashboard's
+   Notifications tab. Every notification sent is logged in `notifications.json`.
    For **email** (one digest email per run that finds restocks): with Gmail,
    turn on 2-step verification, create an **App password** at
    myaccount.google.com/apppasswords, then add secrets `SMTP_USER` (your

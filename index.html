@@ -334,6 +334,7 @@ html[data-skin="deepsea"] footer{ color:var(--muted) }
     <button class="tab" role="tab" id="t-got" aria-controls="tab-got" aria-selected="false" data-tab="got">Got drop<span class="badge" id="b-got" hidden></span></button>
     <button class="tab" role="tab" id="t-orders" aria-controls="tab-orders" aria-selected="false" data-tab="orders">My orders<span class="badge" id="b-orders" hidden></span></button>
     <button class="tab" role="tab" id="t-amazon" aria-controls="tab-amazon" aria-selected="false" data-tab="amazon">Amazon<span class="badge" id="b-amazon" hidden></span></button>
+    <button class="tab" role="tab" id="t-notifs" aria-controls="tab-notifs" aria-selected="false" data-tab="notifs">Notifications<span class="badge" id="b-notifs" hidden></span></button>
     <button class="tab" role="tab" id="t-patterns" aria-controls="tab-patterns" aria-selected="false" data-tab="patterns">Patterns<span class="badge" id="b-patterns" hidden></span></button>
   </nav>
 
@@ -431,6 +432,25 @@ html[data-skin="deepsea"] footer{ color:var(--muted) }
     <h2 id="sets-h">▶ SET CHECKLIST</h2>
     <p class="note" style="margin-top:0">Every sealed product in the sets you track. Tap "Got it" to record where you got it (this also stops its alerts).</p>
     <div id="sets"></div>
+  </section>
+  </div>
+
+  <div class="panel" id="tab-notifs" role="tabpanel" aria-labelledby="t-notifs">
+<section class="screen" aria-labelledby="push-h">
+    <h2 id="push-h">▶ PUSH NOTIFICATIONS</h2>
+    <p class="note" style="margin-top:0">Get a ping on your phone the moment a wishlist item is in stock at RRP or a new drop appears. Anyone with this page can subscribe. It's free and needs no account.</p>
+    <p style="display:flex;gap:8px;flex-wrap:wrap;margin:0">
+      <a class="btn primary" id="push-web" target="_blank" rel="noopener">🔔 Push notifications</a>
+      <a class="btn" id="push-app">Open in the ntfy app</a>
+    </p>
+    <ol class="note" style="padding-left:18px">
+      <li><b>Phone:</b> install the free <b>ntfy</b> app (App Store or Google Play), tap + and subscribe to <code id="push-topic">…</code>.</li>
+      <li><b>Computer:</b> tap 🔔 Push notifications, then Subscribe and allow notifications in your browser.</li>
+    </ol>
+  </section>
+<section class="screen" aria-labelledby="nlog-h">
+    <h2 id="nlog-h">▶ NOTIFICATIONS SENT</h2>
+    <ul class="feed" id="nlog"></ul>
   </section>
   </div>
 
@@ -1017,11 +1037,27 @@ $("notify").addEventListener("click", async e => {
   setToggle(btn, on); store("notify", on ? "on" : "off");
 });
 setToggle($("notify"), store("notify") === "on");
+/* Push notifications: public ntfy topic from sites.json, and the log of what the checker sent */
+fetch("sites.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.json()).then(c => {
+  const t = c.ntfy_topic || "";
+  $("push-topic").textContent = t || "(not set up)";
+  $("push-web").href = "https://ntfy.sh/" + encodeURIComponent(t);
+  $("push-app").href = "ntfy://ntfy.sh/" + encodeURIComponent(t);
+}).catch(() => {});
+function loadNotifs() {
+  fetch("notifications.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.ok ? r.json() : []).catch(() => []).then(n => {
+    const via = {push: "📱 push", discord: "💬 Discord", email: "✉️ email"};
+    $("nlog").innerHTML = (Array.isArray(n) ? n : []).slice(0, 200).map(x => `<li><time>${when(x.time)}</time><span class="who">${esc(x.site)}</span>
+      <a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.text)}</a><span class="note">${(x.via || []).map(v => via[v] || esc(v)).join(" · ") || "not delivered"}</span></li>`).join("")
+      || '<li class="empty">No notifications sent yet. They appear here when a wishlist item hits RRP or a new drop is spotted.</li>';
+    badge("notifs", (Array.isArray(n) ? n : []).filter(x => Date.now() - new Date(x.time) < 864e5).length, "notifications in the last 24 hours");
+  });
+}
 function loadHistory() {
   fetch("history.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.ok ? r.json() : []).then(h => { restockLog = h; renderPatterns(); if (data) renderReliability(reliability()); }).catch(renderPatterns);
 }
 // Refresh every minute, or every 20 seconds on release day.
-(function tick() { load(); loadHistory(); setTimeout(tick, rdayList.length ? 20000 : 60000); })();
+(function tick() { load(); loadHistory(); loadNotifs(); setTimeout(tick, rdayList.length ? 20000 : 60000); })();
 
 /* Theme picker: remembered on this device */
 $("skin").value = document.documentElement.dataset.skin;
