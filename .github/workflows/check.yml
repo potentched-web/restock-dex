@@ -10,7 +10,7 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - run: python3 probe.py https://dicecupcafe.co.uk https://www.trolltradercards.com https://www.axionnow.com https://www.leisuregames.com https://thecardvault.co.uk https://www.fanboy3.co.uk https://sjspokestore.co.uk https://www.darksphere.co.uk https://www.waylandgames.co.uk https://www.manaleak.com https://www.goblingaming.co.uk https://www.kardsunlimited.com https://www.orcsnest.com https://www.spiritgames.co.uk https://www.cardsandcollectables.co.uk https://pokemart.co.uk https://thepokemonshop.co.uk https://titancards.co.uk https://tcgparadise.co.uk https://tcgora.com https://pixel-hub.co.uk https://hokeypokegames.co.uk https://collectorsedge.co.uk https://www.totalcards.net
+      - run: python3 probe.py https://titancards.co.uk https://www.bbstcg.co.uk https://iconic-tcg.com https://evolvault.com https://www.hobby-addicts.com https://hoodlumsuk.com https://buyanycards.co.uk https://www.thetcgshop.co.uk https://www.hillscards.co.uk https://www.120hp.co.uk https://jetcards.uk https://www.nxtgentrading.co.uk https://paragnnetwork.co.uk https://www.trolltradercards.com
       - run: python3 check.py
         if: false
       - name: Save what was seen
