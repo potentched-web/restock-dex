@@ -6,7 +6,7 @@
     "booster display",
     "premium collection",
     "collection",
-    "tin",
+    " tin",
     "blister",
     "build & battle"
   ],
@@ -52,7 +52,7 @@
     },
     {
       "name": "Total Cards",
-      "url": "https://www.totalcards.net/pokemon"
+      "url": "https://www.totalcards.net/collections/pokemon"
     },
     {
       "name": "Firestorm Games",
@@ -63,26 +63,16 @@
       "url": "https://zatu.com/collections/trading-card-games-pokemon-tcg"
     },
     {
-      "name": "Element Games",
-      "url": "https://elementgames.co.uk/pokemon",
-      "skip": "No Pokemon range on the site any more (checked Nov 2026)"
-    },
-    {
-      "name": "Big Orbit Cards",
-      "url": "https://www.bigorbitcards.co.uk/pokemon",
-      "skip": "Cloudflare bot check blocks automated checks (HTTP 403, Nov 2026): use an alert Discord"
-    },
-    {
       "name": "Asmodee UK",
       "url": "https://www.asmodee.co.uk/collections/pokemon-new-releases"
     },
     {
       "name": "Hokey Poke Games",
-      "url": "https://hokeypokegames.co.uk/collections/all"
+      "url": "https://hokeypokegames.co.uk/collections/all-pokemon"
     },
     {
       "name": "Collectors Edge",
-      "url": "https://collectorsedge.co.uk/collections/all"
+      "url": "https://collectorsedge.co.uk/collections/pokemon"
     },
     {
       "name": "The Dice Dungeon",
@@ -91,6 +81,96 @@
     {
       "name": "Packrat",
       "url": "https://packratt.co.uk/pokemon"
+    },
+    {
+      "name": "Titan Cards",
+      "url": "https://titancards.co.uk/collections/pokemon"
+    },
+    {
+      "name": "TCG Paradise",
+      "url": "https://tcgparadise.co.uk/"
+    },
+    {
+      "name": "TCGora",
+      "url": "https://tcgora.com/"
+    },
+    {
+      "name": "Pixel Hub",
+      "url": "https://pixel-hub.co.uk/collections/pokemon"
+    },
+    {
+      "name": "Poke Collect",
+      "url": "https://poke-collect.com/"
+    },
+    {
+      "name": "Card Cavern",
+      "url": "https://cardcavern.co.uk/"
+    },
+    {
+      "name": "Dice Cup Cafe",
+      "url": "https://dicecupcafe.co.uk/collections/pokemon"
+    },
+    {
+      "name": "The Card Vault",
+      "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
+    },
+    {
+      "name": "Iconic TCG",
+      "url": "https://iconic-tcg.com/collections/pokemon"
+    },
+    {
+      "name": "Evolvault",
+      "url": "https://evolvault.com/"
+    },
+    {
+      "name": "Hobby Addicts",
+      "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
+    },
+    {
+      "name": "Hoodlums UK",
+      "url": "https://hoodlumsuk.com/collections/pokemon"
+    },
+    {
+      "name": "The TCG Shop",
+      "url": "https://www.thetcgshop.co.uk/collections/pokemon"
+    },
+    {
+      "name": "120HP",
+      "url": "https://www.120hp.co.uk/collections/sealed-pokemon-trading-card-game-products"
+    },
+    {
+      "name": "JET Cards",
+      "url": "https://jetcards.uk/"
+    },
+    {
+      "name": "Berry Brand Supply TCG",
+      "url": "https://www.bbstcg.co.uk/"
+    },
+    {
+      "name": "Monster Card Corner",
+      "url": "https://monstercardcorner.co.uk/collections/pokemon"
+    },
+    {
+      "name": "Mystic Games",
+      "url": "https://www.mysticgames.co.uk/shop?search=pokemon"
+    },
+    {
+      "name": "CardDeckr",
+      "url": "https://carddeckr.com/"
+    },
+    {
+      "name": "Japan2UK",
+      "url": "https://www.japan2uk.com/"
+    },
+    {
+      "name": "Element Games",
+      "url": "https://elementgames.co.uk/pokemon",
+      "skip": "No Pokemon range on the site any more (checked Nov 2026)"
+    },
+    {
+      "name": "Big Orbit Cards",
+      "url": "https://www.bigorbitcards.co.uk/pokemon",
+      "skip": "Cloudflare bot check blocks automated checks (HTTP 403, Nov 2026): use an alert Discord"
     },
     {
       "name": "Patriot Games",

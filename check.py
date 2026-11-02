@@ -137,8 +137,10 @@ def check_site(site, cfg, prev):
             items = shopify_items(data, base, cfg)
             alerts = shopify_alerts(prev.get("items", {}), items, cfg) if prev else []
             return {"mode": "shopify", "items": items}, alerts
-    except Exception:
-        pass  # not Shopify (or blocked): fall back to the page itself
+    except Exception as e:
+        if getattr(e, "code", None) == 429:
+            raise  # rate-limited Shopify: keep last state rather than flip to page mode and re-alert everything
+        # otherwise not Shopify (or blocked): fall back to the page itself
     lines = page_lines(fetch(site["url"]), cfg)
     added = sorted(set(lines) - set(prev.get("lines", []))) if prev else []
     alerts = [(f"New on page: {l}", site["url"]) for l in added[:5]]

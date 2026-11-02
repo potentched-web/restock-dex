@@ -60,6 +60,16 @@ assert texts == ["BACK IN STOCK: Delta Reign Elite Trainer Box £49.99", "NEW: B
 st, alerts = check.check_site(site, CFG, json.loads(json.dumps(st)))
 assert alerts == [], alerts  # nothing changed, no repeat alerts
 
+# Shopify rate limit (429) keeps the last state instead of falling back to page mode
+import urllib.error
+real = check.fetch
+check.fetch = lambda u: (_ for _ in ()).throw(urllib.error.HTTPError(u, 429, "Too Many Requests", {}, None))
+try:
+    check.check_site(site, CFG, st); raise AssertionError("429 should raise")
+except urllib.error.HTTPError:
+    pass
+check.fetch = real
+
 # Non-Shopify page: diff of matching lines
 site = {"name": "p", "url": f"http://127.0.0.1:{PAGE_PORT}/pokemon"}
 CFG["sets"] = ["delta reign"]
