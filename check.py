@@ -108,10 +108,12 @@ def page_links(html, page_url, cfg):
 
 
 def check_drop_page(page, cfg, prev):
-    """Returns (new_state, [new drop dicts]). First sight seeds silently."""
-    links = page_links(fetch(page["url"]), page["url"], cfg)
-    seen = set(prev.get("links", [])) if prev else set(links)
-    new = [{"shop": page["shop"], "name": t, "url": u, "type": page["type"], "closes": None,
+    """Returns (new_state, [drop dicts]). On first sight every product is returned with seeded=True:
+    shown on the dashboard, but not pushed as an alert."""
+    links = {u: t for u, t in page_links(fetch(page["url"]), page["url"], cfg).items()
+             if re.search(r"/prod(ucts)?/", u) and "pok" in (u + t).lower()}  # product pages only, not menus
+    seen = set(prev.get("links", [])) if prev else set()
+    new = [{"shop": page["shop"], "name": t, "url": u, "type": page["type"], "closes": None, "seeded": not prev,
             "note": "Spotted automatically. Open it to check if it's open and when it closes."}
            for u, t in sorted(links.items()) if u not in seen]
     return {"links": sorted(seen | set(links))}, new
@@ -260,9 +262,12 @@ def main():
         except Exception as e:
             print(f"[{page['shop']} drops] check failed: {e}", file=sys.stderr)
             continue
+        listed = {d["url"] for d in auto_drops}
         for d in new:
-            auto_drops.insert(0, {**d, "found": now})
-            run_alerts.append((d["shop"], f"New {d['type']} spotted: {d['name']}", d["url"]))
+            if d["url"] not in listed:
+                auto_drops.insert(0, {**d, "found": now})
+            if not d.pop("seeded"):
+                run_alerts.append((d["shop"], f"New {d['type']} spotted: {d['name']}", d["url"]))
     # With a wishlist, only wishlist hits (and drop reminders) ping you; everything still shows on the dashboard.
     push = [a for a in run_alerts if not got_it(a[1], cfg)
             and (not cfg.get("wishlist") or wish_hit(a[1], cfg) or " spotted: " in a[1])]

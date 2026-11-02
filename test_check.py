@@ -107,14 +107,14 @@ reminded = []
 assert check.drop_reminders(drops, now, reminded) == [("Chaos Cards", "Closes in 3h: Ballot", "u")]
 assert check.drop_reminders(drops, now, reminded) == []
 
-# Drop pages: seed silently, then report only newly linked products (absolute URLs)
+# Drop pages: first sight lists every product (shown, not alerted), then only new ones; menu links ignored
 dp = {"shop": "Chaos Cards", "url": f"http://127.0.0.1:{PAGE_PORT}/calendar", "type": "ballot"}
-PAGE["html"] = '<a href="/prod/old">Old Elite Trainer Box</a><a href="/basket">Basket</a>'
+PAGE["html"] = '<a href="/prod/pokemon-old">Old Elite Trainer Box</a><a href="/shop/etbs">Elite Trainer Boxes</a><a href="/basket">Basket</a>'
 st, new = check.check_drop_page(dp, CFG, None)
-assert new == [] and st["links"] == [f"http://127.0.0.1:{PAGE_PORT}/prod/old"], (st, new)
-PAGE["html"] += '<a href="/prod/dr-bundle#x"><span>Delta Reign Booster Bundle</span></a>'
+assert [(d["name"], d["seeded"]) for d in new] == [("Old Elite Trainer Box", True)] and st["links"] == [f"http://127.0.0.1:{PAGE_PORT}/prod/pokemon-old"], (st, new)
+PAGE["html"] += '<a href="/prod/pokemon-dr-bundle#x"><span>Delta Reign Booster Bundle</span></a>'
 st, new = check.check_drop_page(dp, CFG, st)
-assert [(d["name"], d["url"], d["type"]) for d in new] == [("Delta Reign Booster Bundle", f"http://127.0.0.1:{PAGE_PORT}/prod/dr-bundle", "ballot")], new
+assert [(d["name"], d["url"], d["type"], d["seeded"]) for d in new] == [("Delta Reign Booster Bundle", f"http://127.0.0.1:{PAGE_PORT}/prod/pokemon-dr-bundle", "ballot", False)], new
 st, new = check.check_drop_page(dp, CFG, st)
 assert new == []
 
@@ -133,3 +133,4 @@ assert check.wish_hit("NEW: Delta Reign Elite Trainer Box £49.99", G) is None
 assert check.got_it("New pre-order spotted: Delta Reign Elite Trainer Box", G)
 assert not check.got_it("NEW: Delta Reign Booster Bundle £24.99", G)
 print("rrp/got checks passed")
+
