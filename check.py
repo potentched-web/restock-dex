@@ -150,6 +150,21 @@ def listing_drops(name, st, cfg):
             for k, (t, u, w) in out.items()}
 
 
+MONTHS = "january february march april may june july august september october november december".split()
+DATE_NEAR = re.compile(r"(?:expected|release[sd]?(?: date)?|releasing|available(?: from| on)?|out on|launch(?:es)?|dispatch(?:es|ed)?(?: from| on)?)"
+                       r"\W{0,20}(?:on |from )?(\d{1,2})(?:st|nd|rd|th)?[ /.-]([a-z]+|\d{1,2})[ /.,-]*(\d{4})", re.I)
+
+
+def expected_date(html):
+    """First 'Expected 06/11/2026' / 'Release date: 6th November 2026' style date on a page, as YYYY-MM-DD, or None."""
+    text = re.sub(r"<[^>]+>", " ", html)
+    for d, m, y in DATE_NEAR.findall(text):
+        month = int(m) if m.isdigit() else next((i + 1 for i, n in enumerate(MONTHS) if n.startswith(m.lower()[:3])), 0)
+        if 1 <= month <= 12 and 1 <= int(d) <= 31:
+            return f"{y}-{month:02d}-{int(d):02d}"
+    return None
+
+
 def notify(site, text, url, topic=None):
     """Sends to every configured channel; returns the names of the ones that worked."""
     print(f"[{site}] {text} {url}")
@@ -321,6 +336,17 @@ def main():
                 auto_drops.insert(0, {**d, "found": now})
             if not d.pop("seeded"):
                 run_alerts.append((d["shop"], f"New {d['type']} spotted: {d['name']}", d["url"]))
+    # Expected release date from each drop's own product page: once when found, then weekly, a few per run.
+    shop_urls = {x["url"] for x in cfg["sites"]}
+    stale = [d for d in auto_drops if d["url"] not in shop_urls
+             and (now_dt - datetime.fromisoformat(d.get("date_checked") or "2000-01-01T00:00:00+00:00")).days >= 7]
+    for d in stale[:15]:
+        try:
+            time.sleep(2)
+            d["expected"] = expected_date(fetch(d["url"])) or d.get("expected")
+        except Exception as e:
+            print(f"[{d['shop']}] date check failed: {e}", file=sys.stderr)
+        d["date_checked"] = now
     # With a wishlist, only wishlist hits (and drop reminders) ping you; everything still shows on the dashboard.
     push = [a for a in run_alerts if not got_it(a[1], cfg)
             and (not cfg.get("wishlist") or wish_hit(a[1], cfg) or " spotted: " in a[1])]

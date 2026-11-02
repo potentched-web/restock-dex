@@ -150,3 +150,10 @@ assert list(check.listing_drops("P", {"lines": ["Pokemon Mew Figure Collection -
 tagged = {"products": [{**product(7, "Pokemon Chaos Rising Elite Trainer Box", 49.99, True), "tags": ["Pre-Order", "Pokemon"]}]}
 assert list(check.shopify_items(tagged, "b", LD | {"include": ["elite trainer"], "exclude": []}).values())[0][0] == "Pokemon Chaos Rising Elite Trainer Box (Pre-Order)"
 print("listing drop checks passed")
+
+# Expected dates from product pages
+assert check.expected_date("<b>Available for Pre-Order soon.</b> Expected 06/11/2026") == "2026-11-06"
+assert check.expected_date("<p>Release date: 6th November 2026</p>") == "2026-11-06"
+assert check.expected_date("Releases on 22 May 2026, ships fast") == "2026-05-22"
+assert check.expected_date("Pokemon ETB 49.99") is None
+print("date checks passed")
