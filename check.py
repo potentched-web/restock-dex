@@ -39,7 +39,8 @@ def shopify_items(data, base, cfg):
     """{variant_id: (title, price, available, url)} for wanted products."""
     out = {}
     for p in data.get("products", []):
-        if not wanted(p["title"], cfg):
+        # Shops sell other TCGs too; Pokemon stock always has Pokemon in the title or vendor.
+        if not wanted(p["title"], cfg) or "pok" not in (p["title"] + p.get("vendor", "")).lower():
             continue
         for v in p.get("variants", []):
             title = p["title"] if v.get("title") in (None, "Default Title") else f'{p["title"]} ({v["title"]})'
@@ -85,7 +86,9 @@ class _Text(HTMLParser):
 def page_lines(html, cfg):
     p = _Text()
     p.feed(html)
-    return sorted({s[:150] for s in p.parts if len(s) < 200 and wanted(s, cfg)})
+    # Many shops (e.g. BigCommerce, Next.js) put the product list in page JSON rather than visible HTML.
+    names = re.findall(r'"name":"([^"]{3,150})"', html.replace('\\"', '"'))
+    return sorted({s[:150] for s in p.parts + names if len(s) < 200 and wanted(s, cfg)})
 
 
 def page_links(html, page_url, cfg):
