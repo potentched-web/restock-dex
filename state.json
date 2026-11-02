@@ -376,7 +376,7 @@
    "57565259530615": [
     "Pok\u00e9mon TCG: 30th Celebration Tin (Sylveon ex)",
     44.95,
-    false,
+    true,
     "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-tin-sylveon-ex"
    ],
    "57565273129335": [
@@ -633,9 +633,7 @@
   "mode": "shopify"
  },
  "Card Cavern": {
-  "lines": [
-   "Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)"
-  ],
+  "lines": [],
   "mode": "page"
  },
  "CardDeckr": {
@@ -3204,19 +3202,19 @@
     "https://iconic-tcg.com/products/first-partner-illustration-collection-series-3"
    ],
    "58980531732812": [
-    "Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Booster Box (36 Packs)",
+    "Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Booster Box (36 Packs) (Preorder)",
     164.95,
     false,
     "https://iconic-tcg.com/products/pokemon-tcg-delta-reign-booster-box-36-packs"
    ],
    "58980531765580": [
-    "Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Elite Trainer Box",
+    "Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Elite Trainer Box (Preorder)",
     64.0,
     false,
     "https://iconic-tcg.com/products/pokemon-tcg-delta-reign-elite-trainer-box"
    ],
    "58980531798348": [
-    "Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Booster Bundle (6 Packs)",
+    "Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Booster Bundle (6 Packs) (Preorder)",
     29.95,
     false,
     "https://iconic-tcg.com/products/pokemon-tcg-delta-reign-booster-bundle-6-packs"
@@ -3257,25 +3255,25 @@
     "https://jetcards.uk/products/pokemon-scarlet-violet-destined-rivals-booster-bundle"
    ],
    "58915278258557": [
-    "Pokemon - Mega Evolution - Delta Reign - Booster Box (36 Boosters)",
+    "Pokemon - Mega Evolution - Delta Reign - Booster Box (36 Boosters) (Preorder)",
     154.44,
     false,
     "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-booster-box-36-boosters"
    ],
    "58943300075901": [
-    "Pokemon - Mega Evolution - Delta Reign - Elite Trainer Box",
+    "Pokemon - Mega Evolution - Delta Reign - Elite Trainer Box (Preorder)",
     49.99,
     false,
     "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-elite-trainer-box"
    ],
    "58943314690429": [
-    "Pokemon - Mega Evolution - Delta Reign - Booster Bundle",
+    "Pokemon - Mega Evolution - Delta Reign - Booster Bundle (Preorder)",
     24.99,
     false,
     "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-booster-bundle"
    ],
    "58943354110333": [
-    "Pokemon - Mega Evolution - Delta Reign - 3-Pack Blister - Seel",
+    "Pokemon - Mega Evolution - Delta Reign - 3-Pack Blister - Seel (Preorder)",
     13.99,
     false,
     "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-3-pack-blister-seel"
@@ -4017,31 +4015,31 @@
     "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-case-10-tins"
    ],
    "57962862412120": [
-    "Pokemon TCG - 30th Celebration - Ditto Premium Collection",
+    "Pokemon TCG - 30th Celebration - Ditto Premium Collection (Pre-Order)",
     69.0,
     false,
     "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-ditto-premium-collection"
    ],
    "57962862739800": [
-    "Pokemon TCG - 30th Celebration - Ultra-Premium Collection - Day",
+    "Pokemon TCG - 30th Celebration - Ultra-Premium Collection - Day (Pre-Order)",
     276.0,
     false,
     "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-ultra-premium-collection-day"
    ],
    "57962863067480": [
-    "Pokemon TCG - 30th Celebration - Ultra-Premium Collection - Night",
+    "Pokemon TCG - 30th Celebration - Ultra-Premium Collection - Night (Pre-Order)",
     276.0,
     false,
     "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-ultra-premium-collection-night"
    ],
    "57962863329624": [
-    "Pokemon TCG - 30th Celebration - Figure Collection - Mew",
+    "Pokemon TCG - 30th Celebration - Figure Collection - Mew (Pre-Order)",
     54.0,
     false,
     "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-figure-collection-mew"
    ],
    "57962863559000": [
-    "Pokemon TCG - 30th Celebration - Figure Collection - Mewtwo",
+    "Pokemon TCG - 30th Celebration - Figure Collection - Mewtwo (Pre-Order)",
     54.0,
     false,
     "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-figure-collection-mewtwo"
@@ -4095,55 +4093,55 @@
     "https://monstercardcorner.co.uk/products/pokemon-tcg-ascended-heroes-tin-mega-meganium-ex"
    ],
    "58783336890712": [
-    "Pokemon TCG - Mega Evolution - Delta Reign - Elite Trainer Box",
+    "Pokemon TCG - Mega Evolution - Delta Reign - Elite Trainer Box (Pre-Order)",
     85.0,
     false,
     "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-elite-trainer-box"
    ],
    "58783337185624": [
-    "Pokemon TCG - Mega Evolution - Delta Reign - Booster Box",
+    "Pokemon TCG - Mega Evolution - Delta Reign - Booster Box (Pre-Order)",
     238.0,
     false,
     "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-booster-box"
    ],
    "58783337316696": [
-    "Pokemon TCG - Mega Evolution - Delta Reign - Half Booster Box",
+    "Pokemon TCG - Mega Evolution - Delta Reign - Half Booster Box (Pre-Order)",
     123.0,
     false,
     "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-half-booster-box-18-packs"
    ],
    "58783337644376": [
-    "Pokemon TCG - Mega Evolution - Delta Reign - Booster Bundle",
+    "Pokemon TCG - Mega Evolution - Delta Reign - Booster Bundle (Pre-Order)",
     54.0,
     false,
     "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-booster-bundle-6-packs"
    ],
    "58783337808216": [
-    "Pokemon TCG - Mega Evolution - Delta Reign - 3 Pack Blister - Seel",
+    "Pokemon TCG - Mega Evolution - Delta Reign - 3 Pack Blister - Seel (Pre-Order)",
     27.0,
     false,
     "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-3-pack-blister-seel"
    ],
    "58783338889560": [
-    "Pokemon TCG - Mega Evolution - Delta Reign - Build & Battle Box",
+    "Pokemon TCG - Mega Evolution - Delta Reign - Build & Battle Box (Pre-Order)",
     36.0,
     false,
     "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-build-battle-box"
    ],
    "58783339577688": [
-    "Pokemon TCG - Mega Evolution - Delta Reign - Checklane Blister - Spritzee",
+    "Pokemon TCG - Mega Evolution - Delta Reign - Checklane Blister - Spritzee (Pre-Order)",
     16.0,
     false,
     "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-checklane-spritzee"
    ],
    "58783339807064": [
-    "Pokemon TCG - Mega Evolution - Delta Reign - Premium Checklane Blister - Ampharos",
+    "Pokemon TCG - Mega Evolution - Delta Reign - Premium Checklane Blister - Ampharos (Pre-Order)",
     11.0,
     false,
     "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-premium-checklane-ampharos"
    ],
    "58783340101976": [
-    "Pokemon TCG - Mega Evolution - Delta Reign - Premium Checklane Blister - Delphox",
+    "Pokemon TCG - Mega Evolution - Delta Reign - Premium Checklane Blister - Delphox (Pre-Order)",
     11.0,
     false,
     "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-premium-checklane-delphox"
@@ -4649,7 +4647,7 @@
     "https://pixel-hub.co.uk/products/pokemon-tcg-team-rockets-moltres-ex-ultra-premium-collection"
    ],
    "52790690054486": [
-    "Pok\u00e9mon Center TCG: Mega Evolution-Perfect Order Elite Trainer Box",
+    "Pok\u00e9mon Center TCG: Mega Evolution-Perfect Order Elite Trainer Box (Pre-Order)",
     144.0,
     false,
     "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolution-perfect-order-pokemon-center-elite-trainer-box"
@@ -4769,7 +4767,7 @@
     "https://pixel-hub.co.uk/products/pokemon-tcg-booster-bundle-30th-celebration"
    ],
    "55711586779478": [
-    "Pok\u00e9mon Trading Card Game (TGC): Mega Evolution Delta Reign Elite Trainer Box",
+    "Pok\u00e9mon Trading Card Game (TGC): Mega Evolution Delta Reign Elite Trainer Box (Pre-Order)",
     175.0,
     false,
     "https://pixel-hub.co.uk/products/pokemon-trading-card-game-tgc-mega-evolution-delta-reign-elite-trainer-box"
@@ -6174,5 +6172,76 @@
    "https://www.doublesleeved.co.uk/products/pokemon-tcg-delta-reign-elite-trainer-box-etb"
   ]
  },
- "_reminded": []
+ "_dropseen": {
+  "120HP": [],
+  "Berry Brand Supply TCG": [],
+  "Card Cavern": [],
+  "CardDeckr": [],
+  "Chaos Cards": [],
+  "Collectors Edge": [],
+  "Dice Cup Cafe": [],
+  "Double Sleeved": [
+   "https://www.doublesleeved.co.uk/products/pokemon-tcg-delta-reign-elite-trainer-box-etb"
+  ],
+  "Firestorm Games": [],
+  "Iconic TCG": [],
+  "JET Cards": [
+   "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-3-pack-blister-seel",
+   "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-booster-bundle",
+   "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-elite-trainer-box"
+  ],
+  "Japan2UK": [],
+  "Magic Madhouse": [],
+  "Monster Card Corner": [
+   "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-ditto-premium-collection",
+   "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-figure-collection-mew",
+   "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-figure-collection-mewtwo",
+   "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-3-pack-blister-seel",
+   "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-checklane-spritzee",
+   "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-half-booster-box-18-packs",
+   "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-premium-checklane-ampharos",
+   "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-premium-checklane-delphox"
+  ],
+  "Mystic Games": [],
+  "Packrat": [],
+  "Pixel Hub": [],
+  "Poke Collect": [],
+  "The Card Vault": [],
+  "The TCG Shop": [],
+  "Titan Cards": [],
+  "Total Cards": []
+ },
+ "_reminded": [],
+ "_uptime": {
+  "120HP": 1.0,
+  "Berry Brand Supply TCG": 1.0,
+  "Card Cavern": 1.0,
+  "CardDeckr": 1.0,
+  "Chaos Cards": 1.0,
+  "Collectors Edge": 1.0,
+  "Dice Cup Cafe": 1.0,
+  "Double Sleeved": 1.0,
+  "Evolvault": 0.98,
+  "Firestorm Games": 1.0,
+  "Hobby Addicts": 0.98,
+  "Hokey Poke Games": 0.98,
+  "Hoodlums UK": 0.98,
+  "Iconic TCG": 1.0,
+  "JET Cards": 1.0,
+  "Japan2UK": 1.0,
+  "Magic Madhouse": 1.0,
+  "Monster Card Corner": 1.0,
+  "Mystic Games": 1.0,
+  "Packrat": 1.0,
+  "Pixel Hub": 1.0,
+  "Poke Collect": 1.0,
+  "TCG Paradise": 0.98,
+  "TCGora": 0.98,
+  "The Card Vault": 1.0,
+  "The Dice Dungeon": 0.98,
+  "The TCG Shop": 1.0,
+  "Titan Cards": 1.0,
+  "Total Cards": 1.0,
+  "Zatu Games": 0.98
+ }
 }

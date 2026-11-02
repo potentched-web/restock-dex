@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T20:16:10+00:00",
+ "updated": "2026-11-02T20:28:50+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -84,13 +84,14 @@
      "title": "Pokemon Mega Forces Mega Zeraora EX Gift Tin",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     }
-   ]
+   ],
+   "uptime": 1.0
   },
   {
    "name": "Double Sleeved",
    "url": "https://www.doublesleeved.co.uk/collections/pre-orders",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -111,7 +112,8 @@
      "rrp": 49.99,
      "cart": "https://www.doublesleeved.co.uk/cart/65002043113849:1"
     }
-   ]
+   ],
+   "uptime": 1.0
   },
   {
    "name": "Magic Madhouse",
@@ -124,7 +126,8 @@
      "title": "Pok\u00e9mon Booster Box",
      "url": "https://magicmadhouse.co.uk/pokemon/pokemon-sealed-product?sort=newest"
     }
-   ]
+   ],
+   "uptime": 1.0
   },
   {
    "name": "Total Cards",
@@ -187,7 +190,8 @@
      "rrp": null,
      "cart": "https://www.totalcards.net/cart/59010459959677:1"
     }
-   ]
+   ],
+   "uptime": 1.0
   },
   {
    "name": "Firestorm Games",
@@ -204,13 +208,14 @@
      "title": "Pokemon TCG: Professor Juniper Premium Tournament Collection",
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
-   ]
+   ],
+   "uptime": 1.0
   },
   {
    "name": "Zatu Games",
    "url": "https://zatu.com/collections/trading-card-games-pokemon-tcg",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -294,13 +299,14 @@
      "rrp": null,
      "cart": "https://zatu.com/cart/56783225094522:1"
     }
-   ]
+   ],
+   "uptime": 0.98
   },
   {
    "name": "Hokey Poke Games",
    "url": "https://hokeypokegames.co.uk/collections/all-pokemon",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -717,7 +723,8 @@
      "rrp": 49.99,
      "cart": "https://hokeypokegames.co.uk/cart/54575778005339:1"
     }
-   ]
+   ],
+   "uptime": 0.98
   },
   {
    "name": "Collectors Edge",
@@ -807,13 +814,14 @@
      "rrp": null,
      "cart": "https://collectorsedge.co.uk/cart/55096695783763:1"
     }
-   ]
+   ],
+   "uptime": 1.0
   },
   {
    "name": "The Dice Dungeon",
    "url": "https://thedicedungeon.co.uk/collections/all",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -1275,7 +1283,8 @@
      "rrp": null,
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
-   ]
+   ],
+   "uptime": 0.98
   },
   {
    "name": "Packrat",
@@ -1528,7 +1537,8 @@
      "title": "Sealed English Pok\u00e9mon TCG: 30th Celebration Booster Bundle: 6 anniversary booster packs, each with 5 foil cards, one of the 30 Pikachu illustrations ",
      "url": "https://packratt.co.uk/pokemon"
     }
-   ]
+   ],
+   "uptime": 1.0
   },
   {
    "name": "Titan Cards",
@@ -1546,13 +1556,14 @@
      "rrp": 130.0,
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
-   ]
+   ],
+   "uptime": 1.0
   },
   {
    "name": "TCG Paradise",
    "url": "https://tcgparadise.co.uk/",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -2095,13 +2106,14 @@
      "rrp": 49.99,
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
-   ]
+   ],
+   "uptime": 0.98
   },
   {
    "name": "TCGora",
    "url": "https://tcgora.com/",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -2482,7 +2494,8 @@
      "rrp": 56.99,
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
-   ]
+   ],
+   "uptime": 0.98
   },
   {
    "name": "Pixel Hub",
@@ -2744,7 +2757,7 @@
      "cart": "https://pixel-hub.co.uk/cart/53662008869206:1"
     },
     {
-     "title": "Pok\u00e9mon Center TCG: Mega Evolution-Perfect Order Elite Trainer Box",
+     "title": "Pok\u00e9mon Center TCG: Mega Evolution-Perfect Order Elite Trainer Box (Pre-Order)",
      "price": 144.0,
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolution-perfect-order-pokemon-center-elite-trainer-box",
@@ -3230,7 +3243,7 @@
      "cart": "https://pixel-hub.co.uk/cart/52431330869590:1"
     },
     {
-     "title": "Pok\u00e9mon Trading Card Game (TGC): Mega Evolution Delta Reign Elite Trainer Box",
+     "title": "Pok\u00e9mon Trading Card Game (TGC): Mega Evolution Delta Reign Elite Trainer Box (Pre-Order)",
      "price": 175.0,
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-trading-card-game-tgc-mega-evolution-delta-reign-elite-trainer-box",
@@ -3310,7 +3323,8 @@
      "rrp": 49.99,
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
-   ]
+   ],
+   "uptime": 1.0
   },
   {
    "name": "Poke Collect",
@@ -3391,7 +3405,8 @@
      "rrp": 49.99,
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
-   ]
+   ],
+   "uptime": 1.0
   },
   {
    "name": "Card Cavern",
@@ -3399,12 +3414,8 @@
    "skip": null,
    "error": null,
    "mode": "page",
-   "items": [
-    {
-     "title": "Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
-     "url": "https://cardcavern.co.uk/"
-    }
-   ]
+   "items": [],
+   "uptime": 1.0
   },
   {
    "name": "Dice Cup Cafe",
@@ -3521,7 +3532,8 @@
      "rrp": 130.0,
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
-   ]
+   ],
+   "uptime": 1.0
   },
   {
    "name": "The Card Vault",
@@ -3674,7 +3686,8 @@
      "rrp": null,
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
-   ]
+   ],
+   "uptime": 1.0
   },
   {
    "name": "Iconic TCG",
@@ -4404,7 +4417,7 @@
      "cart": "https://iconic-tcg.com/cart/58394757955916:1"
     },
     {
-     "title": "Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Booster Box (36 Packs)",
+     "title": "Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Booster Box (36 Packs) (Preorder)",
      "price": 164.95,
      "available": false,
      "url": "https://iconic-tcg.com/products/pokemon-tcg-delta-reign-booster-box-36-packs",
@@ -4413,7 +4426,7 @@
      "cart": "https://iconic-tcg.com/cart/58980531732812:1"
     },
     {
-     "title": "Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Booster Bundle (6 Packs)",
+     "title": "Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Booster Bundle (6 Packs) (Preorder)",
      "price": 29.95,
      "available": false,
      "url": "https://iconic-tcg.com/products/pokemon-tcg-delta-reign-booster-bundle-6-packs",
@@ -4422,7 +4435,7 @@
      "cart": "https://iconic-tcg.com/cart/58980531798348:1"
     },
     {
-     "title": "Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Elite Trainer Box",
+     "title": "Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Elite Trainer Box (Preorder)",
      "price": 64.0,
      "available": false,
      "url": "https://iconic-tcg.com/products/pokemon-tcg-delta-reign-elite-trainer-box",
@@ -5060,13 +5073,14 @@
      "rrp": 24.99,
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
-   ]
+   ],
+   "uptime": 1.0
   },
   {
    "name": "Evolvault",
    "url": "https://evolvault.com/",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -5366,13 +5380,14 @@
      "rrp": 49.99,
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
-   ]
+   ],
+   "uptime": 0.98
   },
   {
    "name": "Hobby Addicts",
    "url": "https://www.hobby-addicts.com/collections/pokemon-tcg",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -6223,21 +6238,21 @@
     },
     {
      "title": "Pokemon: Scarlet & Violet Build & Battle Box",
-     "price": 26.99,
-     "available": false,
-     "url": "https://www.hobby-addicts.com/products/pokemon-scarlet-violet-build-battle-box",
-     "over_rrp": true,
-     "rrp": 19.99,
-     "cart": "https://www.hobby-addicts.com/cart/51666068275507:1"
-    },
-    {
-     "title": "Pokemon: Scarlet & Violet Build & Battle Box",
      "price": 24.99,
      "available": false,
      "url": "https://www.hobby-addicts.com/products/pokemon-scarlet-violet-build-battle-box-1",
      "over_rrp": true,
      "rrp": 19.99,
      "cart": "https://www.hobby-addicts.com/cart/44835975561523:1"
+    },
+    {
+     "title": "Pokemon: Scarlet & Violet Build & Battle Box",
+     "price": 26.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-scarlet-violet-build-battle-box",
+     "over_rrp": true,
+     "rrp": 19.99,
+     "cart": "https://www.hobby-addicts.com/cart/51666068275507:1"
     },
     {
      "title": "Pokemon: Scarlet & Violet Build & Battle Stadium",
@@ -6545,7 +6560,8 @@
      "rrp": null,
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
-   ]
+   ],
+   "uptime": 0.98
   },
   {
    "name": "Hoodlums UK",
@@ -6887,7 +6903,8 @@
      "rrp": 49.99,
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
-   ]
+   ],
+   "uptime": 0.98
   },
   {
    "name": "The TCG Shop",
@@ -7157,7 +7174,8 @@
      "rrp": null,
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
-   ]
+   ],
+   "uptime": 1.0
   },
   {
    "name": "120HP",
@@ -7403,7 +7421,7 @@
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Tin (Sylveon ex)",
      "price": 44.95,
-     "available": false,
+     "available": true,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-tin-sylveon-ex",
      "over_rrp": false,
      "rrp": null,
@@ -7859,7 +7877,8 @@
      "rrp": 169.99,
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
-   ]
+   ],
+   "uptime": 1.0
   },
   {
    "name": "JET Cards",
@@ -7878,7 +7897,7 @@
      "cart": "https://jetcards.uk/cart/58976515359101:1"
     },
     {
-     "title": "Pokemon - Mega Evolution - Delta Reign - 3-Pack Blister - Seel",
+     "title": "Pokemon - Mega Evolution - Delta Reign - 3-Pack Blister - Seel (Preorder)",
      "price": 13.99,
      "available": false,
      "url": "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-3-pack-blister-seel",
@@ -7887,7 +7906,7 @@
      "cart": "https://jetcards.uk/cart/58943354110333:1"
     },
     {
-     "title": "Pokemon - Mega Evolution - Delta Reign - Booster Box (36 Boosters)",
+     "title": "Pokemon - Mega Evolution - Delta Reign - Booster Box (36 Boosters) (Preorder)",
      "price": 154.44,
      "available": false,
      "url": "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-booster-box-36-boosters",
@@ -7896,7 +7915,7 @@
      "cart": "https://jetcards.uk/cart/58915278258557:1"
     },
     {
-     "title": "Pokemon - Mega Evolution - Delta Reign - Booster Bundle",
+     "title": "Pokemon - Mega Evolution - Delta Reign - Booster Bundle (Preorder)",
      "price": 24.99,
      "available": false,
      "url": "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-booster-bundle",
@@ -7905,7 +7924,7 @@
      "cart": "https://jetcards.uk/cart/58943314690429:1"
     },
     {
-     "title": "Pokemon - Mega Evolution - Delta Reign - Elite Trainer Box",
+     "title": "Pokemon - Mega Evolution - Delta Reign - Elite Trainer Box (Preorder)",
      "price": 49.99,
      "available": false,
      "url": "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-elite-trainer-box",
@@ -7922,7 +7941,8 @@
      "rrp": 24.99,
      "cart": "https://jetcards.uk/cart/58903348871549:1"
     }
-   ]
+   ],
+   "uptime": 1.0
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -7994,7 +8014,8 @@
      "rrp": 49.99,
      "cart": "https://www.bbstcg.co.uk/cart/57169842471290:1"
     }
-   ]
+   ],
+   "uptime": 1.0
   },
   {
    "name": "Monster Card Corner",
@@ -8049,7 +8070,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/57962861265240:1"
     },
     {
-     "title": "Pokemon TCG - 30th Celebration - Ditto Premium Collection",
+     "title": "Pokemon TCG - 30th Celebration - Ditto Premium Collection (Pre-Order)",
      "price": 69.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-ditto-premium-collection",
@@ -8067,7 +8088,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/57962851598680:1"
     },
     {
-     "title": "Pokemon TCG - 30th Celebration - Figure Collection - Mew",
+     "title": "Pokemon TCG - 30th Celebration - Figure Collection - Mew (Pre-Order)",
      "price": 54.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-figure-collection-mew",
@@ -8076,7 +8097,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/57962863329624:1"
     },
     {
-     "title": "Pokemon TCG - 30th Celebration - Figure Collection - Mewtwo",
+     "title": "Pokemon TCG - 30th Celebration - Figure Collection - Mewtwo (Pre-Order)",
      "price": 54.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-figure-collection-mewtwo",
@@ -8238,7 +8259,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/57962863624536:1"
     },
     {
-     "title": "Pokemon TCG - 30th Celebration - Ultra-Premium Collection - Day",
+     "title": "Pokemon TCG - 30th Celebration - Ultra-Premium Collection - Day (Pre-Order)",
      "price": 276.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-ultra-premium-collection-day",
@@ -8247,7 +8268,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/57962862739800:1"
     },
     {
-     "title": "Pokemon TCG - 30th Celebration - Ultra-Premium Collection - Night",
+     "title": "Pokemon TCG - 30th Celebration - Ultra-Premium Collection - Night (Pre-Order)",
      "price": 276.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-ultra-premium-collection-night",
@@ -8445,7 +8466,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/56887543693656:1"
     },
     {
-     "title": "Pokemon TCG - Mega Evolution - Delta Reign - 3 Pack Blister - Seel",
+     "title": "Pokemon TCG - Mega Evolution - Delta Reign - 3 Pack Blister - Seel (Pre-Order)",
      "price": 27.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-3-pack-blister-seel",
@@ -8454,7 +8475,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/58783337808216:1"
     },
     {
-     "title": "Pokemon TCG - Mega Evolution - Delta Reign - Booster Box",
+     "title": "Pokemon TCG - Mega Evolution - Delta Reign - Booster Box (Pre-Order)",
      "price": 238.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-booster-box",
@@ -8463,7 +8484,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/58783337185624:1"
     },
     {
-     "title": "Pokemon TCG - Mega Evolution - Delta Reign - Booster Bundle",
+     "title": "Pokemon TCG - Mega Evolution - Delta Reign - Booster Bundle (Pre-Order)",
      "price": 54.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-booster-bundle-6-packs",
@@ -8472,7 +8493,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/58783337644376:1"
     },
     {
-     "title": "Pokemon TCG - Mega Evolution - Delta Reign - Build & Battle Box",
+     "title": "Pokemon TCG - Mega Evolution - Delta Reign - Build & Battle Box (Pre-Order)",
      "price": 36.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-build-battle-box",
@@ -8481,7 +8502,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/58783338889560:1"
     },
     {
-     "title": "Pokemon TCG - Mega Evolution - Delta Reign - Checklane Blister - Spritzee",
+     "title": "Pokemon TCG - Mega Evolution - Delta Reign - Checklane Blister - Spritzee (Pre-Order)",
      "price": 16.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-checklane-spritzee",
@@ -8490,7 +8511,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/58783339577688:1"
     },
     {
-     "title": "Pokemon TCG - Mega Evolution - Delta Reign - Elite Trainer Box",
+     "title": "Pokemon TCG - Mega Evolution - Delta Reign - Elite Trainer Box (Pre-Order)",
      "price": 85.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-elite-trainer-box",
@@ -8499,7 +8520,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/58783336890712:1"
     },
     {
-     "title": "Pokemon TCG - Mega Evolution - Delta Reign - Half Booster Box",
+     "title": "Pokemon TCG - Mega Evolution - Delta Reign - Half Booster Box (Pre-Order)",
      "price": 123.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-half-booster-box-18-packs",
@@ -8508,7 +8529,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/58783337316696:1"
     },
     {
-     "title": "Pokemon TCG - Mega Evolution - Delta Reign - Premium Checklane Blister - Ampharos",
+     "title": "Pokemon TCG - Mega Evolution - Delta Reign - Premium Checklane Blister - Ampharos (Pre-Order)",
      "price": 11.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-premium-checklane-ampharos",
@@ -8517,7 +8538,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/58783339807064:1"
     },
     {
-     "title": "Pokemon TCG - Mega Evolution - Delta Reign - Premium Checklane Blister - Delphox",
+     "title": "Pokemon TCG - Mega Evolution - Delta Reign - Premium Checklane Blister - Delphox (Pre-Order)",
      "price": 11.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-premium-checklane-delphox",
@@ -9245,7 +9266,8 @@
      "rrp": null,
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
-   ]
+   ],
+   "uptime": 1.0
   },
   {
    "name": "Mystic Games",
@@ -9270,7 +9292,8 @@
      "title": "Mega Evolution Chaos Rising - Elite Trainer Box",
      "url": "https://www.mysticgames.co.uk/shop?search=pokemon"
     }
-   ]
+   ],
+   "uptime": 1.0
   },
   {
    "name": "CardDeckr",
@@ -9287,7 +9310,8 @@
      "title": "Your Pokemon TCG shop. Browse singles, sealed product, accessories and bundles. Everything you need for your collection, all in one place.",
      "url": "https://carddeckr.com/"
     }
-   ]
+   ],
+   "uptime": 1.0
   },
   {
    "name": "Japan2UK",
@@ -9323,7 +9347,8 @@
      "rrp": null,
      "cart": "https://www.japan2uk.com/cart/65080776327545:1"
     }
-   ]
+   ],
+   "uptime": 1.0
   },
   {
    "name": "Asmodee UK",
@@ -9578,7 +9603,14 @@
    "items": []
   }
  ],
- "alerts": [],
+ "alerts": [
+  {
+   "time": "2026-11-02T20:28:50+00:00",
+   "site": "120HP",
+   "text": "BACK IN STOCK: Pok\u00e9mon TCG: 30th Celebration Tin (Sylveon ex) \u00a344.95",
+   "url": "https://www.120hp.co.uk/cart/57565259530615:1"
+  }
+ ],
  "wishlist": [
   {
    "name": "Delta Reign Elite Trainer Box",
@@ -9717,6 +9749,105 @@
   }
  ],
  "auto_drops": [
+  {
+   "shop": "Monster Card Corner",
+   "name": "Pokemon TCG - 30th Celebration - Ditto Premium Collection (Pre-Order)",
+   "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-ditto-premium-collection",
+   "closes": null,
+   "type": "pre-order",
+   "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
+   "found": "2026-11-02T20:28:50+00:00"
+  },
+  {
+   "shop": "Monster Card Corner",
+   "name": "Pokemon TCG - 30th Celebration - Figure Collection - Mew (Pre-Order)",
+   "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-figure-collection-mew",
+   "closes": null,
+   "type": "pre-order",
+   "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
+   "found": "2026-11-02T20:28:50+00:00"
+  },
+  {
+   "shop": "Monster Card Corner",
+   "name": "Pokemon TCG - 30th Celebration - Figure Collection - Mewtwo (Pre-Order)",
+   "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-figure-collection-mewtwo",
+   "closes": null,
+   "type": "pre-order",
+   "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
+   "found": "2026-11-02T20:28:50+00:00"
+  },
+  {
+   "shop": "Monster Card Corner",
+   "name": "Pokemon TCG - Mega Evolution - Delta Reign - Half Booster Box (Pre-Order)",
+   "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-half-booster-box-18-packs",
+   "closes": null,
+   "type": "pre-order",
+   "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
+   "found": "2026-11-02T20:28:50+00:00"
+  },
+  {
+   "shop": "Monster Card Corner",
+   "name": "Pokemon TCG - Mega Evolution - Delta Reign - 3 Pack Blister - Seel (Pre-Order)",
+   "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-3-pack-blister-seel",
+   "closes": null,
+   "type": "pre-order",
+   "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
+   "found": "2026-11-02T20:28:50+00:00"
+  },
+  {
+   "shop": "Monster Card Corner",
+   "name": "Pokemon TCG - Mega Evolution - Delta Reign - Checklane Blister - Spritzee (Pre-Order)",
+   "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-checklane-spritzee",
+   "closes": null,
+   "type": "pre-order",
+   "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
+   "found": "2026-11-02T20:28:50+00:00"
+  },
+  {
+   "shop": "Monster Card Corner",
+   "name": "Pokemon TCG - Mega Evolution - Delta Reign - Premium Checklane Blister - Ampharos (Pre-Order)",
+   "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-premium-checklane-ampharos",
+   "closes": null,
+   "type": "pre-order",
+   "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
+   "found": "2026-11-02T20:28:50+00:00"
+  },
+  {
+   "shop": "Monster Card Corner",
+   "name": "Pokemon TCG - Mega Evolution - Delta Reign - Premium Checklane Blister - Delphox (Pre-Order)",
+   "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-premium-checklane-delphox",
+   "closes": null,
+   "type": "pre-order",
+   "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
+   "found": "2026-11-02T20:28:50+00:00"
+  },
+  {
+   "shop": "JET Cards",
+   "name": "Pokemon - Mega Evolution - Delta Reign - Elite Trainer Box (Preorder)",
+   "url": "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-elite-trainer-box",
+   "closes": null,
+   "type": "pre-order",
+   "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
+   "found": "2026-11-02T20:28:50+00:00"
+  },
+  {
+   "shop": "JET Cards",
+   "name": "Pokemon - Mega Evolution - Delta Reign - Booster Bundle (Preorder)",
+   "url": "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-booster-bundle",
+   "closes": null,
+   "type": "pre-order",
+   "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
+   "found": "2026-11-02T20:28:50+00:00"
+  },
+  {
+   "shop": "JET Cards",
+   "name": "Pokemon - Mega Evolution - Delta Reign - 3-Pack Blister - Seel (Preorder)",
+   "url": "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-3-pack-blister-seel",
+   "closes": null,
+   "type": "pre-order",
+   "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
+   "found": "2026-11-02T20:28:50+00:00"
+  },
   {
    "shop": "Double Sleeved",
    "name": "Pokemon TCG: Delta Reign - Elite Trainer Box ETB (PRE-ORDER)",
