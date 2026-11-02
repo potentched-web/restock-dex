@@ -35,12 +35,13 @@ def over_rrp(title, price, cfg):
     return any(k in t and price > rrp for k, rrp in cfg["rrp"].items())
 
 
-def shopify_items(data, base, cfg):
+def shopify_items(data, base, cfg, pokemon_feed=False):
     """{variant_id: (title, price, available, url)} for wanted products."""
     out = {}
     for p in data.get("products", []):
         # Shops sell other TCGs too; Pokemon stock always has Pokemon in the title or vendor.
-        if not wanted(p["title"], cfg) or "pok" not in (p["title"] + p.get("vendor", "")).lower():
+        # A Pokemon-only collection (URL says so) may leave "Pokemon" out of titles.
+        if not wanted(p["title"], cfg) or not (pokemon_feed or "pok" in (p["title"] + p.get("vendor", "")).lower()):
             continue
         for v in p.get("variants", []):
             title = p["title"] if v.get("title") in (None, "Default Title") else f'{p["title"]} ({v["title"]})'
@@ -134,7 +135,7 @@ def check_site(site, cfg, prev):
             and not parts.path.startswith("/collections/all") else base
         data = json.loads(fetch(src + "/products.json?limit=250"))
         if "products" in data:
-            items = shopify_items(data, base, cfg)
+            items = shopify_items(data, base, cfg, "pok" in src.lower())
             alerts = shopify_alerts(prev.get("items", {}), items, cfg) if prev else []
             return {"mode": "shopify", "items": items}, alerts
     except Exception:

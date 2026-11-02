@@ -34,5 +34,104 @@
     ],
     "max": 169.99,
     "rrp_status": "reported"
+  },
+  {
+    "name": "Pitch Black Elite Trainer Box",
+    "match": [
+      "pitch black",
+      "elite trainer"
+    ],
+    "max": 49.99,
+    "rrp_status": "confirmed"
+  },
+  {
+    "name": "Pitch Black Booster Bundle",
+    "match": [
+      "pitch black",
+      "booster bundle"
+    ],
+    "max": 24.99,
+    "rrp_status": "confirmed"
+  },
+  {
+    "name": "Pitch Black Booster Box",
+    "match": [
+      "pitch black",
+      "booster box"
+    ],
+    "max": 130.0,
+    "rrp_status": "estimate"
+  },
+  {
+    "name": "Chaos Rising Elite Trainer Box",
+    "match": [
+      "chaos rising",
+      "elite trainer"
+    ],
+    "max": 49.99,
+    "rrp_status": "confirmed"
+  },
+  {
+    "name": "Chaos Rising Booster Bundle",
+    "match": [
+      "chaos rising",
+      "booster bundle"
+    ],
+    "max": 24.99,
+    "rrp_status": "confirmed"
+  },
+  {
+    "name": "Chaos Rising Booster Box",
+    "match": [
+      "chaos rising",
+      "booster box"
+    ],
+    "max": 130.0,
+    "rrp_status": "estimate"
+  },
+  {
+    "name": "Perfect Order Elite Trainer Box",
+    "match": [
+      "perfect order",
+      "elite trainer"
+    ],
+    "max": 49.99,
+    "rrp_status": "confirmed"
+  },
+  {
+    "name": "Perfect Order Booster Bundle",
+    "match": [
+      "perfect order",
+      "booster bundle"
+    ],
+    "max": 24.99,
+    "rrp_status": "confirmed"
+  },
+  {
+    "name": "Perfect Order Booster Box",
+    "match": [
+      "perfect order",
+      "booster box"
+    ],
+    "max": 130.0,
+    "rrp_status": "estimate"
+  },
+  {
+    "name": "30th Celebration Elite Trainer Box",
+    "match": [
+      "30th celebration",
+      "elite trainer"
+    ],
+    "max": 49.99,
+    "rrp_status": "confirmed"
+  },
+  {
+    "name": "30th Celebration Booster Bundle",
+    "match": [
+      "30th celebration",
+      "booster bundle"
+    ],
+    "max": 24.99,
+    "rrp_status": "confirmed"
   }
 ]

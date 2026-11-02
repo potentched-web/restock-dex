@@ -52,7 +52,7 @@
     },
     {
       "name": "Total Cards",
-      "url": "https://www.totalcards.net/pokemon"
+      "url": "https://www.totalcards.net/collections/new-pokemon"
     },
     {
       "name": "Firestorm Games",
@@ -63,26 +63,16 @@
       "url": "https://zatu.com/collections/trading-card-games-pokemon-tcg"
     },
     {
-      "name": "Element Games",
-      "url": "https://elementgames.co.uk/pokemon",
-      "skip": "No Pokemon range on the site any more (checked Nov 2026)"
-    },
-    {
-      "name": "Big Orbit Cards",
-      "url": "https://www.bigorbitcards.co.uk/pokemon",
-      "skip": "Cloudflare bot check blocks automated checks (HTTP 403, Nov 2026): use an alert Discord"
-    },
-    {
       "name": "Asmodee UK",
       "url": "https://www.asmodee.co.uk/collections/pokemon-new-releases"
     },
     {
       "name": "Hokey Poke Games",
-      "url": "https://hokeypokegames.co.uk/collections/all"
+      "url": "https://hokeypokegames.co.uk/collections/all-pokemon"
     },
     {
       "name": "Collectors Edge",
-      "url": "https://collectorsedge.co.uk/collections/all"
+      "url": "https://collectorsedge.co.uk/collections/pokemon"
     },
     {
       "name": "The Dice Dungeon",
@@ -91,6 +81,96 @@
     {
       "name": "Packrat",
       "url": "https://packratt.co.uk/pokemon"
+    },
+    {
+      "name": "Titan Cards",
+      "url": "https://titancards.co.uk/collections/pokemon-sealed-products"
+    },
+    {
+      "name": "TCG Paradise",
+      "url": "https://tcgparadise.co.uk/"
+    },
+    {
+      "name": "TCGora",
+      "url": "https://tcgora.com/"
+    },
+    {
+      "name": "Pixel Hub",
+      "url": "https://pixel-hub.co.uk/collections/pokemon"
+    },
+    {
+      "name": "Poke Collect",
+      "url": "https://poke-collect.com/"
+    },
+    {
+      "name": "Card Cavern",
+      "url": "https://cardcavern.co.uk/"
+    },
+    {
+      "name": "Dice Cup Cafe",
+      "url": "https://dicecupcafe.co.uk/collections/pokemon"
+    },
+    {
+      "name": "Troll Trader (boxes)",
+      "url": "https://www.trolltradercards.com/collections/pokemon-booster-boxes"
+    },
+    {
+      "name": "Troll Trader (ETBs & tins)",
+      "url": "https://www.trolltradercards.com/collections/pokemon-tins-and-box-sets"
+    },
+    {
+      "name": "The Card Vault",
+      "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
+    },
+    {
+      "name": "Wayland Games",
+      "url": "https://www.waylandgames.co.uk/tabletop-games/collectable-card-games/pokemon"
+    },
+    {
+      "name": "Iconic TCG",
+      "url": "https://iconic-tcg.com/collections/pokemon"
+    },
+    {
+      "name": "Evolvault",
+      "url": "https://evolvault.com/"
+    },
+    {
+      "name": "Hobby Addicts",
+      "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
+    },
+    {
+      "name": "Hoodlums UK",
+      "url": "https://hoodlumsuk.com/collections/pokemon"
+    },
+    {
+      "name": "The TCG Shop",
+      "url": "https://www.thetcgshop.co.uk/collections/pokemon"
+    },
+    {
+      "name": "120HP",
+      "url": "https://www.120hp.co.uk/collections/sealed-pokemon-trading-card-game-products"
+    },
+    {
+      "name": "JET Cards",
+      "url": "https://jetcards.uk/"
+    },
+    {
+      "name": "Berry Brand Supply TCG",
+      "url": "https://www.bbstcg.co.uk/"
+    },
+    {
+      "name": "BuyAnyCards",
+      "url": "https://buyanycards.co.uk/"
+    },
+    {
+      "name": "Element Games",
+      "url": "https://elementgames.co.uk/pokemon",
+      "skip": "No Pokemon range on the site any more (checked Nov 2026)"
+    },
+    {
+      "name": "Big Orbit Cards",
+      "url": "https://www.bigorbitcards.co.uk/pokemon",
+      "skip": "Cloudflare bot check blocks automated checks (HTTP 403, Nov 2026): use an alert Discord"
     },
     {
       "name": "Patriot Games",
@@ -126,186 +206,6 @@
       "name": "Amazon UK",
       "url": "https://www.amazon.co.uk",
       "skip": "Terms forbid scraping: use an alert Discord"
-    },
-    {
-      "name": "Titan Cards",
-      "url": "https://titancards.co.uk/",
-      "probe": true
-    },
-    {
-      "name": "TCG Shop UK",
-      "url": "https://tcgshopuk.com/",
-      "probe": true
-    },
-    {
-      "name": "Pixel Hub",
-      "url": "https://pixel-hub.co.uk/",
-      "probe": true
-    },
-    {
-      "name": "Invicta TCG",
-      "url": "https://invictatcg.co.uk/product-category/pokemon/",
-      "probe": true
-    },
-    {
-      "name": "Dice Cup Cafe",
-      "url": "https://dicecupcafe.co.uk/",
-      "probe": true
-    },
-    {
-      "name": "Poke Collect",
-      "url": "https://poke-collect.com/",
-      "probe": true
-    },
-    {
-      "name": "TCGora",
-      "url": "https://tcgora.com/",
-      "probe": true
-    },
-    {
-      "name": "SJ's PokeStore",
-      "url": "https://sjspokestore.co.uk/",
-      "probe": true
-    },
-    {
-      "name": "TCG Paradise",
-      "url": "https://tcgparadise.co.uk/",
-      "probe": true
-    },
-    {
-      "name": "Dark Sphere",
-      "url": "https://www.darksphere.co.uk/",
-      "probe": true
-    },
-    {
-      "name": "Wayland Games",
-      "url": "https://www.waylandgames.co.uk/",
-      "probe": true
-    },
-    {
-      "name": "Troll Trader",
-      "url": "https://www.trolltradercards.com/",
-      "probe": true
-    },
-    {
-      "name": "Manaleak",
-      "url": "https://www.manaleak.com/",
-      "probe": true
-    },
-    {
-      "name": "Axion Now",
-      "url": "https://www.axionnow.com/",
-      "probe": true
-    },
-    {
-      "name": "Goblin Gaming",
-      "url": "https://www.goblingaming.co.uk/",
-      "probe": true
-    },
-    {
-      "name": "Hobbiesville",
-      "url": "https://www.hobbiesville.co.uk/",
-      "probe": true
-    },
-    {
-      "name": "Kards Unlimited",
-      "url": "https://www.kardsunlimited.com/",
-      "probe": true
-    },
-    {
-      "name": "Shuffle and Cut Games",
-      "url": "https://www.shuffleandcutgames.co.uk/",
-      "probe": true
-    },
-    {
-      "name": "Forbidden Planet",
-      "url": "https://forbiddenplanet.com/",
-      "probe": true
-    },
-    {
-      "name": "Leisure Games",
-      "url": "https://www.leisuregames.com/",
-      "probe": true
-    },
-    {
-      "name": "Orcs Nest",
-      "url": "https://www.orcsnest.com/",
-      "probe": true
-    },
-    {
-      "name": "The Card Vault",
-      "url": "https://thecardvault.co.uk/",
-      "probe": true
-    },
-    {
-      "name": "Spirit Games",
-      "url": "https://www.spiritgames.co.uk/",
-      "probe": true
-    },
-    {
-      "name": "Card Cavern",
-      "url": "https://cardcavern.co.uk/",
-      "probe": true
-    },
-    {
-      "name": "Fanboy3",
-      "url": "https://www.fanboy3.co.uk/",
-      "probe": true
-    },
-    {
-      "name": "Gameology",
-      "url": "https://www.gameology.co.uk/",
-      "probe": true
-    },
-    {
-      "name": "Mighty Ape Cards",
-      "url": "https://www.cardsandcollectables.co.uk/",
-      "probe": true
-    },
-    {
-      "name": "Bluemoon Games",
-      "url": "https://bluemoongames.co.uk/",
-      "probe": true
-    },
-    {
-      "name": "Pokemart UK",
-      "url": "https://pokemart.co.uk/",
-      "probe": true
-    },
-    {
-      "name": "Poke Stop UK",
-      "url": "https://pokestopuk.com/",
-      "probe": true
-    },
-    {
-      "name": "Kanto Cards",
-      "url": "https://kantocards.co.uk/",
-      "probe": true
-    },
-    {
-      "name": "The Pokemon Shop UK",
-      "url": "https://thepokemonshop.co.uk/",
-      "probe": true
-    },
-    {
-      "name": "Card Hub UK",
-      "url": "https://thecardhub.co.uk/",
-      "probe": true
-    },
-    {
-      "name": "Rubicon Games",
-      "url": "https://rubicongames.co.uk/",
-      "probe": true
-    },
-    {
-      "name": "Board Game Hub",
-      "url": "https://boardgamehub.co.uk/",
-      "probe": true
-    },
-    {
-      "name": "Nerd Arena",
-      "url": "https://nerdarena.co.uk/",
-      "probe": true
     }
   ],
   "drop_pages": [

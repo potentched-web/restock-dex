@@ -48,6 +48,42 @@
       ],
       "note": "Reported by PokeBeach; prereleases 23-31 Jan. Pre-orders usually open 6-10 weeks before.",
       "set": "Flowing Fists"
+    },
+    {
+      "name": "Mega Evolution: Perfect Order (ME03)",
+      "date": "2026-03-27",
+      "status": "confirmed",
+      "products": [
+        "Elite Trainer Box",
+        "Booster Bundle",
+        "Booster Box"
+      ],
+      "note": "Already released: tracked for restocks at RRP.",
+      "set": "Perfect Order"
+    },
+    {
+      "name": "Mega Evolution: Chaos Rising (ME04)",
+      "date": "2026-05-22",
+      "status": "confirmed",
+      "products": [
+        "Elite Trainer Box",
+        "Booster Bundle",
+        "Booster Box"
+      ],
+      "note": "Already released: tracked for restocks at RRP.",
+      "set": "Chaos Rising"
+    },
+    {
+      "name": "Mega Evolution: Pitch Black (ME05)",
+      "date": "2026-07-17",
+      "status": "confirmed",
+      "products": [
+        "Elite Trainer Box",
+        "Booster Bundle",
+        "Booster Box"
+      ],
+      "note": "Already released: tracked for restocks at RRP.",
+      "set": "Pitch Black"
     }
   ],
   "shops": [

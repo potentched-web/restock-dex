@@ -60,6 +60,10 @@ assert texts == ["BACK IN STOCK: Delta Reign Elite Trainer Box £49.99", "NEW: B
 st, alerts = check.check_site(site, CFG, json.loads(json.dumps(st)))
 assert alerts == [], alerts  # nothing changed, no repeat alerts
 
+# A Pokemon collection URL keeps products whose title and vendor don't say Pokemon
+assert list(check.shopify_items({"products": [product(9, "Chaos Rising Elite Trainer Box", 49.99, True, "Troll Trader")]}, "b", CFG, True)) == ["9"]
+assert check.shopify_items({"products": [product(9, "Chaos Rising Elite Trainer Box", 49.99, True, "Troll Trader")]}, "b", CFG) == {}
+
 # Non-Shopify page: diff of matching lines
 site = {"name": "p", "url": f"http://127.0.0.1:{PAGE_PORT}/pokemon"}
 CFG["sets"] = ["delta reign"]
