@@ -296,7 +296,7 @@ def main():
     for site in cfg["sites"]:
         err = None
         if not site.get("skip"):
-            time.sleep(2)  # most shops share Shopify's servers, which answer 429 to fast back-to-back requests
+            time.sleep(4)  # most shops share Shopify's servers, which answer 429 to fast back-to-back requests (2s still drew 429s)
             try:
                 state[site["name"]], alerts = check_site(site, cfg, state.get(site["name"]))
                 run_alerts += [(site["name"], t, u) for t, u in alerts]
@@ -342,7 +342,7 @@ def main():
              and (now_dt - datetime.fromisoformat(d.get("date_checked") or "2000-01-01T00:00:00+00:00")).days >= 7]
     for d in stale[:15]:
         try:
-            time.sleep(4)  # Shopify rate-limits GitHub runner IPs; 2s still drew 429s
+            time.sleep(2)
             d["expected"] = expected_date(fetch(d["url"])) or d.get("expected")
         except Exception as e:
             print(f"[{d['shop']}] date check failed: {e}", file=sys.stderr)
