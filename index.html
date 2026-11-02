@@ -405,9 +405,10 @@ function render() {
 
   const order = s => s.skip ? 3 : s.error ? 2 : s.items.some(i => i.available) ? 0 : 1;
   $("shops").innerHTML = [...data.sites].filter(s => shopOk(s.name, f)).sort((a, b) => order(a) - order(b)).map(s => {
-    const n = s.items.filter(i => i.available && atRrp(i)).length;
-    const items = s.items.filter(i => atRrp(i) && itemOk(i, s.name, f))
-      .sort((a, b) => (b.available === true) - (a.available === true));
+    // Shops tab lists everything, over-RRP included; at-RRP stock first. The wishlist stays RRP-only.
+    const n = s.items.filter(i => i.available).length;
+    const items = s.items.filter(i => itemOk(i, s.name, f))
+      .sort((a, b) => (b.available === true) - (a.available === true) || atRrp(b) - atRrp(a));
     if (filtering(f) && !items.length) return "";
     const badge = s.skip ? '<span class="pill t-normal">not scanned</span>' : s.error ? '<span class="pill t-fire">fainted</span>'
       : s.mode === "page" ? '<span class="pill t-water">watching</span>' : `<span class="pill ${n ? "t-grass" : "t-normal"}">${n} in stock</span>`;
@@ -416,7 +417,7 @@ function render() {
       ${s.skip ? `<div class="note">${esc(s.skip)}</div>` : ""}
       ${s.error ? `<div class="error">Last scan failed: ${esc(s.error)}</div>` : ""}
       ${s.skip ? "" : `<ul>${items.map(i => `<li><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a><span class="tags">${pill(i)}${basket(i)}</span></li>`).join("")
-        || `<li class="empty">${s.mode === "page" ? "This shop's prices can't be read automatically. Tap its name to check." : "Nothing at RRP right now"}</li>`}</ul>`}</article>`;
+        || `<li class="empty">Nothing matching yet</li>`}</ul>`}</article>`;
   }).join("") || '<p class="empty">Nothing matches your filters.</p>';
 }
 
