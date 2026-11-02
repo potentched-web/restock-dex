@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T20:28:50+00:00",
+ "updated": "2026-11-02T20:45:49+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -215,7 +215,7 @@
    "name": "Zatu Games",
    "url": "https://zatu.com/collections/trading-card-games-pokemon-tcg",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -300,13 +300,13 @@
      "cart": "https://zatu.com/cart/56783225094522:1"
     }
    ],
-   "uptime": 0.98
+   "uptime": 0.9804
   },
   {
    "name": "Hokey Poke Games",
    "url": "https://hokeypokegames.co.uk/collections/all-pokemon",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -724,7 +724,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54575778005339:1"
     }
    ],
-   "uptime": 0.98
+   "uptime": 0.9804
   },
   {
    "name": "Collectors Edge",
@@ -821,7 +821,7 @@
    "name": "The Dice Dungeon",
    "url": "https://thedicedungeon.co.uk/collections/all",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -1284,7 +1284,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.98
+   "uptime": 0.9804
   },
   {
    "name": "Packrat",
@@ -1563,7 +1563,7 @@
    "name": "TCG Paradise",
    "url": "https://tcgparadise.co.uk/",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -2107,13 +2107,13 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.98
+   "uptime": 0.9804
   },
   {
    "name": "TCGora",
    "url": "https://tcgora.com/",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -2495,7 +2495,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.98
+   "uptime": 0.9804
   },
   {
    "name": "Pixel Hub",
@@ -3414,7 +3414,12 @@
    "skip": null,
    "error": null,
    "mode": "page",
-   "items": [],
+   "items": [
+    {
+     "title": "Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
+     "url": "https://cardcavern.co.uk/"
+    }
+   ],
    "uptime": 1.0
   },
   {
@@ -5080,7 +5085,7 @@
    "name": "Evolvault",
    "url": "https://evolvault.com/",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -5111,7 +5116,7 @@
      "cart": "https://evolvault.com/cart/63796715290954:1"
     },
     {
-     "title": "Pok\u00e9mon 30th Celebration Tech Sticker Collection \u2014 Alolan Exeggutor",
+     "title": "Pok\u00e9mon 30th Celebration Tech Sticker Collection \u2014 Alolan Exeggutor (Pre-Order)",
      "price": 55.0,
      "available": true,
      "url": "https://evolvault.com/products/pokemon-30th-celebration-tech-sticker-alolan-exeggutor",
@@ -5120,7 +5125,7 @@
      "cart": "https://evolvault.com/cart/62730494837066:1"
     },
     {
-     "title": "Pok\u00e9mon 30th Celebration Tech Sticker Collection \u2014 Lucario",
+     "title": "Pok\u00e9mon 30th Celebration Tech Sticker Collection \u2014 Lucario (Pre-Order)",
      "price": 55.0,
      "available": true,
      "url": "https://evolvault.com/products/pokemon-30th-celebration-tech-sticker-lucario",
@@ -5129,7 +5134,7 @@
      "cart": "https://evolvault.com/cart/62730494869834:1"
     },
     {
-     "title": "Pok\u00e9mon Ascended Heroes Booster Bundle \u2014 6 Packs",
+     "title": "Pok\u00e9mon Ascended Heroes Booster Bundle \u2014 6 Packs (Pre-Order)",
      "price": 69.0,
      "available": false,
      "url": "https://evolvault.com/products/pokemon-ascended-heroes-booster-bundle",
@@ -5183,7 +5188,7 @@
      "cart": "https://evolvault.com/cart/61600095076682:1"
     },
     {
-     "title": "Pok\u00e9mon Delta Reign Booster Box \u2014 36 Packs",
+     "title": "Pok\u00e9mon Delta Reign Booster Box \u2014 36 Packs (Pre-Order)",
      "price": 301.0,
      "available": true,
      "url": "https://evolvault.com/products/pokemon-delta-reign-booster-box",
@@ -5192,7 +5197,7 @@
      "cart": "https://evolvault.com/cart/63738003161418:1"
     },
     {
-     "title": "Pok\u00e9mon Delta Reign Booster Bundle \u2014 6 Packs",
+     "title": "Pok\u00e9mon Delta Reign Booster Bundle \u2014 6 Packs (Pre-Order)",
      "price": 76.0,
      "available": true,
      "url": "https://evolvault.com/products/pokemon-delta-reign-booster-bundle",
@@ -5201,7 +5206,7 @@
      "cart": "https://evolvault.com/cart/63738003325258:1"
     },
     {
-     "title": "Pok\u00e9mon Delta Reign Elite Trainer Box \u2014 Pok\u00e9mon Center Exclusive",
+     "title": "Pok\u00e9mon Delta Reign Elite Trainer Box \u2014 Pok\u00e9mon Center Exclusive (Pre-Order)",
      "price": 288.0,
      "available": true,
      "url": "https://evolvault.com/products/pokemon-delta-reign-pokemon-center-etb",
@@ -5327,7 +5332,7 @@
      "cart": "https://evolvault.com/cart/52855657660746:1"
     },
     {
-     "title": "Pok\u00e9mon Pitch Black Booster Box \u2014 36 Packs",
+     "title": "Pok\u00e9mon Pitch Black Booster Box \u2014 36 Packs (Pre-Order)",
      "price": 274.0,
      "available": false,
      "url": "https://evolvault.com/products/pitch-black-booster-box",
@@ -5336,7 +5341,7 @@
      "cart": "https://evolvault.com/cart/62228340670794:1"
     },
     {
-     "title": "Pok\u00e9mon Pitch Black Booster Bundle \u2014 6 Packs",
+     "title": "Pok\u00e9mon Pitch Black Booster Bundle \u2014 6 Packs (Pre-Order)",
      "price": 55.0,
      "available": false,
      "url": "https://evolvault.com/products/pitch-black-booster-bundle",
@@ -5345,7 +5350,7 @@
      "cart": "https://evolvault.com/cart/62228340736330:1"
     },
     {
-     "title": "Pok\u00e9mon Pitch Black Elite Trainer Box \u2014 Pok\u00e9mon Center Exclusive",
+     "title": "Pok\u00e9mon Pitch Black Elite Trainer Box \u2014 Pok\u00e9mon Center Exclusive (Pre-Order)",
      "price": 130.0,
      "available": true,
      "url": "https://evolvault.com/products/pitch-black-pokemon-center-etb",
@@ -5381,13 +5386,13 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.98
+   "uptime": 0.9804
   },
   {
    "name": "Hobby Addicts",
    "url": "https://www.hobby-addicts.com/collections/pokemon-tcg",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -6238,21 +6243,21 @@
     },
     {
      "title": "Pokemon: Scarlet & Violet Build & Battle Box",
-     "price": 24.99,
-     "available": false,
-     "url": "https://www.hobby-addicts.com/products/pokemon-scarlet-violet-build-battle-box-1",
-     "over_rrp": true,
-     "rrp": 19.99,
-     "cart": "https://www.hobby-addicts.com/cart/44835975561523:1"
-    },
-    {
-     "title": "Pokemon: Scarlet & Violet Build & Battle Box",
      "price": 26.99,
      "available": false,
      "url": "https://www.hobby-addicts.com/products/pokemon-scarlet-violet-build-battle-box",
      "over_rrp": true,
      "rrp": 19.99,
      "cart": "https://www.hobby-addicts.com/cart/51666068275507:1"
+    },
+    {
+     "title": "Pokemon: Scarlet & Violet Build & Battle Box",
+     "price": 24.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-scarlet-violet-build-battle-box-1",
+     "over_rrp": true,
+     "rrp": 19.99,
+     "cart": "https://www.hobby-addicts.com/cart/44835975561523:1"
     },
     {
      "title": "Pokemon: Scarlet & Violet Build & Battle Stadium",
@@ -6561,13 +6566,13 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.98
+   "uptime": 0.9804
   },
   {
    "name": "Hoodlums UK",
    "url": "https://hoodlumsuk.com/collections/pokemon",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -6815,7 +6820,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Phantasmal Flames Booster Box (36 Packs)",
-     "price": 547.0,
+     "price": 548.0,
      "available": false,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-phantasmal-flames-booster-box-36-pack",
      "over_rrp": true,
@@ -6904,7 +6909,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.98
+   "uptime": 0.9804
   },
   {
    "name": "The TCG Shop",
@@ -9605,6 +9610,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-02T20:45:49+00:00",
+   "site": "Card Cavern",
+   "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
+   "url": "https://cardcavern.co.uk/"
+  },
+  {
    "time": "2026-11-02T20:28:50+00:00",
    "site": "120HP",
    "text": "BACK IN STOCK: Pok\u00e9mon TCG: 30th Celebration Tin (Sylveon ex) \u00a344.95",
@@ -9750,13 +9761,136 @@
  ],
  "auto_drops": [
   {
+   "shop": "Evolvault",
+   "name": "Pok\u00e9mon 30th Celebration Tech Sticker Collection \u2014 Alolan Exeggutor (Pre-Order)",
+   "url": "https://evolvault.com/products/pokemon-30th-celebration-tech-sticker-alolan-exeggutor",
+   "closes": null,
+   "type": "pre-order",
+   "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
+   "found": "2026-11-02T20:45:49+00:00",
+   "expected": null,
+   "date_checked": "2026-11-02T20:45:49+00:00"
+  },
+  {
+   "shop": "Evolvault",
+   "name": "Pok\u00e9mon 30th Celebration Tech Sticker Collection \u2014 Lucario (Pre-Order)",
+   "url": "https://evolvault.com/products/pokemon-30th-celebration-tech-sticker-lucario",
+   "closes": null,
+   "type": "pre-order",
+   "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
+   "found": "2026-11-02T20:45:49+00:00",
+   "expected": "2026-09-16",
+   "date_checked": "2026-11-02T20:45:49+00:00"
+  },
+  {
+   "shop": "TCGora",
+   "name": "Pok\u00e9mon TCG: 30th Celebration Eevee 2-Pack Blister (Pre-Order)",
+   "url": "https://tcgora.com/products/pokemon-tcg-30th-celebration-eevee-2-pack-blister-pre-order",
+   "closes": null,
+   "type": "pre-order",
+   "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
+   "found": "2026-11-02T20:45:49+00:00",
+   "expected": null,
+   "date_checked": "2026-11-02T20:45:49+00:00"
+  },
+  {
+   "shop": "TCGora",
+   "name": "Pok\u00e9mon TCG: 30th Celebration Ditto Premium Collection (Pre-Order)",
+   "url": "https://tcgora.com/products/pokemon-tcg-30th-celebration-ditto-premium-collection-pre-order",
+   "closes": null,
+   "type": "pre-order",
+   "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
+   "found": "2026-11-02T20:45:49+00:00",
+   "expected": null,
+   "date_checked": "2026-11-02T20:45:49+00:00"
+  },
+  {
+   "shop": "TCGora",
+   "name": "Pok\u00e9mon TCG: 30th Celebration Figure Collection\u2014Mewtwo (Pre-Order)",
+   "url": "https://tcgora.com/products/pokemon-tcg-30th-celebration-figure-collection-mewtwo-pre-order",
+   "closes": null,
+   "type": "pre-order",
+   "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
+   "found": "2026-11-02T20:45:49+00:00",
+   "expected": null,
+   "date_checked": "2026-11-02T20:45:49+00:00"
+  },
+  {
+   "shop": "TCGora",
+   "name": "Pok\u00e9mon TCG: 30th Celebration Figure Collection\u2014Mew (Pre-Order)",
+   "url": "https://tcgora.com/products/pokemon-tcg-30th-celebration-figure-collection-mew-pre-order",
+   "closes": null,
+   "type": "pre-order",
+   "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
+   "found": "2026-11-02T20:45:49+00:00",
+   "expected": null,
+   "date_checked": "2026-11-02T20:45:49+00:00"
+  },
+  {
+   "shop": "TCGora",
+   "name": "Pok\u00e9mon TCG: 30th Celebration Knock Out Collection (Pre-Order)",
+   "url": "https://tcgora.com/products/pokemon-tcg-30th-celebration-knock-out-collection-pre-order",
+   "closes": null,
+   "type": "pre-order",
+   "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
+   "found": "2026-11-02T20:45:49+00:00",
+   "expected": null,
+   "date_checked": "2026-11-02T20:45:49+00:00"
+  },
+  {
+   "shop": "TCGora",
+   "name": "Pok\u00e9mon TCG: 30th Celebration Mini Tin (Pre-Order)",
+   "url": "https://tcgora.com/products/pokemon-tcg-30th-celebration-mini-tin-pre-order",
+   "closes": null,
+   "type": "pre-order",
+   "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
+   "found": "2026-11-02T20:45:49+00:00",
+   "expected": null,
+   "date_checked": "2026-11-02T20:45:49+00:00"
+  },
+  {
+   "shop": "TCGora",
+   "name": "Pok\u00e9mon TCG: 30th Celebration Poster Collection (Pre-Order)",
+   "url": "https://tcgora.com/products/pokemon-tcg-30th-celebration-poster-collection-pre-order",
+   "closes": null,
+   "type": "pre-order",
+   "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
+   "found": "2026-11-02T20:45:49+00:00",
+   "expected": null,
+   "date_checked": "2026-11-02T20:45:49+00:00"
+  },
+  {
+   "shop": "TCGora",
+   "name": "Pok\u00e9mon TCG: 30th Celebration Tech Sticker Collection\u2014Lucario (Pre-Order)",
+   "url": "https://tcgora.com/products/pokemon-tcg-30th-celebration-tech-sticker-collection-lucario-pre-order",
+   "closes": null,
+   "type": "pre-order",
+   "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
+   "found": "2026-11-02T20:45:49+00:00",
+   "expected": null,
+   "date_checked": "2026-11-02T20:45:49+00:00"
+  },
+  {
+   "shop": "TCGora",
+   "name": "Pok\u00e9mon TCG: 30th Celebration Tech Sticker Collection\u2014Alolan Exeggutor (Pre-Order)",
+   "url": "https://tcgora.com/products/pokemon-tcg-30th-celebration-tech-sticker-collection-alolan-exeggutor-pre-order",
+   "closes": null,
+   "type": "pre-order",
+   "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
+   "found": "2026-11-02T20:45:49+00:00",
+   "expected": null,
+   "date_checked": "2026-11-02T20:45:49+00:00"
+  },
+  {
    "shop": "Monster Card Corner",
    "name": "Pokemon TCG - 30th Celebration - Ditto Premium Collection (Pre-Order)",
    "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-ditto-premium-collection",
    "closes": null,
    "type": "pre-order",
    "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
-   "found": "2026-11-02T20:28:50+00:00"
+   "found": "2026-11-02T20:28:50+00:00",
+   "expected": null,
+   "date_checked": "2026-11-02T20:45:49+00:00"
   },
   {
    "shop": "Monster Card Corner",
@@ -9765,7 +9899,9 @@
    "closes": null,
    "type": "pre-order",
    "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
-   "found": "2026-11-02T20:28:50+00:00"
+   "found": "2026-11-02T20:28:50+00:00",
+   "expected": null,
+   "date_checked": "2026-11-02T20:45:49+00:00"
   },
   {
    "shop": "Monster Card Corner",
@@ -9774,7 +9910,9 @@
    "closes": null,
    "type": "pre-order",
    "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
-   "found": "2026-11-02T20:28:50+00:00"
+   "found": "2026-11-02T20:28:50+00:00",
+   "expected": null,
+   "date_checked": "2026-11-02T20:45:49+00:00"
   },
   {
    "shop": "Monster Card Corner",
@@ -9783,7 +9921,9 @@
    "closes": null,
    "type": "pre-order",
    "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
-   "found": "2026-11-02T20:28:50+00:00"
+   "found": "2026-11-02T20:28:50+00:00",
+   "expected": null,
+   "date_checked": "2026-11-02T20:45:49+00:00"
   },
   {
    "shop": "Monster Card Corner",
