@@ -60,9 +60,10 @@ assert alerts == [], alerts  # nothing changed, no repeat alerts
 
 # Non-Shopify page: diff of matching lines
 site = {"name": "p", "url": f"http://127.0.0.1:{PAGE_PORT}/pokemon"}
-PAGE["html"] = "<html><script>elite trainer</script><a>Old Elite Trainer Box</a><p>Sleeves</p></html>"
+CFG["sets"] = ["delta reign"]
+PAGE["html"] = "<html><script>elite trainer</script><a>Pokemon Old Elite Trainer Box</a><p>Sleeves</p><a>Lorcana Booster Bundle</a></html>"
 st, alerts = check.check_site(site, CFG, None)
-assert st == {"mode": "page", "lines": ["Old Elite Trainer Box"]} and alerts == [], st
+assert st == {"mode": "page", "lines": ["Pokemon Old Elite Trainer Box"]} and alerts == [], st  # non-Pokemon lines hidden
 PAGE["html"] += '<a>Delta Reign Booster Bundle</a><script>x={\\"name\\":\\"ME Delta Reign Elite Trainer Box\\"}</script>'
 st, alerts = check.check_site(site, CFG, st)
 # product names inside page JSON (escaped, as BigCommerce embeds them) count too
@@ -70,7 +71,7 @@ assert [t for t, _ in alerts] == ["New on page: Delta Reign Booster Bundle", "Ne
 
 # Dashboard rows: Shopify items keep stock/price; page lines are listed
 rows = check.site_status({"name": "p", "url": "u"}, st, None, CFG)
-assert [i["title"] for i in rows["items"]] == ["Delta Reign Booster Bundle", "ME Delta Reign Elite Trainer Box", "Old Elite Trainer Box"], rows
+assert [i["title"] for i in rows["items"]] == ["Delta Reign Booster Bundle", "ME Delta Reign Elite Trainer Box", "Pokemon Old Elite Trainer Box"], rows
 shop = check.site_status({"name": "s", "url": "u"}, {"mode": "shopify", "items": {"4": ["Some Elite Trainer Box", 89.99, True, "x"]}}, None, CFG)
 shop = check.site_status({"name": "s", "url": "u"}, {"mode": "shopify", "items": {"4": ["Some Elite Trainer Box", 89.99, True, "https://shop.uk/products/etb"]}}, None, CFG)
 assert shop["items"] == [{"title": "Some Elite Trainer Box", "price": 89.99, "available": True, "url": "https://shop.uk/products/etb",

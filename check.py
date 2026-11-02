@@ -88,7 +88,9 @@ def page_lines(html, cfg):
     p.feed(html)
     # Many shops (e.g. BigCommerce, Next.js) put the product list in page JSON rather than visible HTML.
     names = re.findall(r'"name":"([^"]{3,150})"', html.replace('\\"', '"'))
-    return sorted({s[:150] for s in p.parts + names if len(s) < 200 and wanted(s, cfg)})
+    # Pages mix in other TCGs and menus: keep lines naming Pokemon or a Pokemon set from releases.json.
+    marks = ["pok"] + cfg.get("sets", [])
+    return sorted({s[:150] for s in p.parts + names if len(s) < 200 and wanted(s, cfg) and any(m in s.lower() for m in marks)})
 
 
 def page_links(html, page_url, cfg):
@@ -213,6 +215,7 @@ def main():
         return
     wl_path = os.path.join(HERE, "wishlist.json")  # edited from the dashboard
     cfg["wishlist"] = json.load(open(wl_path)) if os.path.exists(wl_path) else []
+    cfg["sets"] = [r["set"].lower() for r in releases.get("releases", []) if r.get("set")]
     state = json.load(open(STATE)) if os.path.exists(STATE) else {}
     status = json.load(open(STATUS)) if os.path.exists(STATUS) else {}
     drops = releases.get("drops", [])
