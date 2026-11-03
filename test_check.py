@@ -169,11 +169,3 @@ gaps = check.amazon_gaps([{"name": "S1 Booster Box", "match": ["s1", "booster bo
                           {"name": "S2 ETB", "match": ["s2", "elite trainer"], "got": {"shop": "X"}}], [{"name": "S1 Elite Trainer Box"}])
 assert gaps == [{"name": "S1 Booster Box"}], gaps
 print("amazon gap checks passed")
-
-# Discord feed: content + embeds become one row with the first link; empty posts dropped
-rows = check.discord_posts([{"timestamp": "2026-11-03T16:00:00+00:00", "author": {"username": "PokeAlerts #restocks"}, "content": "ETB live",
-                             "embeds": [{"title": "Delta Reign ETB", "description": "£49.99", "url": "https://shop/x"}]},
-                            {"timestamp": "t", "content": "see https://a.b/c now"}, {"timestamp": "t", "content": ""}])
-assert rows[0] == {"time": "2026-11-03T16:00:00+00:00", "from": "PokeAlerts #restocks", "text": "ETB live\nDelta Reign ETB £49.99", "url": "https://shop/x"}, rows
-assert rows[1]["url"] == "https://a.b/c" and len(rows) == 2
-print("discord feed checks passed")
