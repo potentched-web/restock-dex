@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T12:09:44+00:00",
+ "updated": "2026-11-03T12:22:31+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -291,7 +291,7 @@
      "cart": "https://zatu.com/cart/56783225094522:1"
     }
    ],
-   "uptime": 0.9846
+   "uptime": 0.9849
   },
   {
    "name": "Hokey Poke Games",
@@ -409,15 +409,6 @@
      "cart": "https://hokeypokegames.co.uk/cart/54575778234715:1"
     },
     {
-     "title": "Pokemon TCG: Destined Rivals - Elite Trainer Box",
-     "price": 96.99,
-     "available": true,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-destined-rivals-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 49.99,
-     "cart": "https://hokeypokegames.co.uk/cart/53752278057307:1"
-    },
-    {
      "title": "Pokemon TCG: First Partner Illustration Collection Series 1 - Booster Pack",
      "price": 58.99,
      "available": true,
@@ -499,15 +490,6 @@
      "cart": "https://hokeypokegames.co.uk/cart/54575777907035:1"
     },
     {
-     "title": "Pokemon TCG: Scarlet & Violet Base - Booster Box",
-     "price": 134.99,
-     "available": false,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-scarlet-violet-base-booster-box",
-     "over_rrp": true,
-     "rrp": 130.0,
-     "cart": "https://hokeypokegames.co.uk/cart/53752278188379:1"
-    },
-    {
      "title": "Pokemon TCG: Silver Tempest - Booster Box",
      "price": 671.99,
      "available": false,
@@ -535,7 +517,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54575778005339:1"
     }
    ],
-   "uptime": 0.9846
+   "uptime": 0.9849
   },
   {
    "name": "Collectors Edge",
@@ -1095,7 +1077,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9846
+   "uptime": 0.9849
   },
   {
    "name": "Packrat",
@@ -1918,7 +1900,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9846
+   "uptime": 0.9849
   },
   {
    "name": "TCGora",
@@ -2306,7 +2288,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.9677
+   "uptime": 0.9683
   },
   {
    "name": "Pixel Hub",
@@ -3141,7 +3123,7 @@
    "name": "Poke Collect",
    "url": "https://poke-collect.com/",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -3217,7 +3199,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 1.0
+   "uptime": 0.98
   },
   {
    "name": "Card Cavern",
@@ -3509,7 +3491,7 @@
    "name": "Iconic TCG",
    "url": "https://iconic-tcg.com/collections/pokemon",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -4890,7 +4872,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.98
+   "uptime": 0.9804
   },
   {
    "name": "Evolvault",
@@ -5197,7 +5179,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9499
+   "uptime": 0.9509
   },
   {
    "name": "Hobby Addicts",
@@ -6377,7 +6359,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9846
+   "uptime": 0.9849
   },
   {
    "name": "Hoodlums UK",
@@ -6720,7 +6702,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9683
+   "uptime": 0.9689
   },
   {
    "name": "The TCG Shop",
@@ -9198,9 +9180,18 @@
      "over_rrp": false,
      "rrp": null,
      "cart": "https://www.japan2uk.com/cart/65080776327545:1"
+    },
+    {
+     "title": "Pokemon Shining Legends Pikachu English Pin Collection Box",
+     "price": 429.99,
+     "available": true,
+     "url": "https://www.japan2uk.com/products/pokemon-shining-legends-pikachu-pin-english-collection-box",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.japan2uk.com/cart/65092183163257:1"
     }
    ],
-   "uptime": 0.9816
+   "uptime": 0.982
   },
   {
    "name": "Asmodee UK",
@@ -9456,6 +9447,12 @@
   }
  ],
  "alerts": [
+  {
+   "time": "2026-11-03T12:22:31+00:00",
+   "site": "Japan2UK",
+   "text": "NEW: Pokemon Shining Legends Pikachu English Pin Collection Box \u00a3429.99",
+   "url": "https://www.japan2uk.com/cart/65092183163257:1"
+  },
   {
    "time": "2026-11-03T06:15:35+00:00",
    "site": "Card Cavern",

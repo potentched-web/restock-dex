@@ -1819,18 +1819,6 @@
  },
  "Hokey Poke Games": {
   "items": {
-   "53752278057307": [
-    "Pokemon TCG: Destined Rivals - Elite Trainer Box",
-    96.99,
-    true,
-    "https://hokeypokegames.co.uk/products/pokemon-tcg-destined-rivals-elite-trainer-box"
-   ],
-   "53752278188379": [
-    "Pokemon TCG: Scarlet & Violet Base - Booster Box",
-    134.99,
-    false,
-    "https://hokeypokegames.co.uk/products/pokemon-tcg-scarlet-violet-base-booster-box"
-   ],
    "53752279466331": [
     "Pokemon TCG: Silver Tempest - Booster Box",
     671.99,
@@ -3218,6 +3206,12 @@
     0.01,
     false,
     "https://www.japan2uk.com/products/pokemon-delta-reign-english-premium-checklane-blister"
+   ],
+   "65092183163257": [
+    "Pokemon Shining Legends Pikachu English Pin Collection Box",
+    429.99,
+    true,
+    "https://www.japan2uk.com/products/pokemon-shining-legends-pikachu-pin-english-collection-box"
    ]
   },
   "mode": "shopify"
@@ -6142,27 +6136,27 @@
   "Collectors Edge": 1.0,
   "Dice Cup Cafe": 1.0,
   "Double Sleeved": 1.0,
-  "Evolvault": 0.9499,
+  "Evolvault": 0.9509,
   "Firestorm Games": 1.0,
-  "Hobby Addicts": 0.9846,
-  "Hokey Poke Games": 0.9846,
-  "Hoodlums UK": 0.9683,
-  "Iconic TCG": 0.98,
+  "Hobby Addicts": 0.9849,
+  "Hokey Poke Games": 0.9849,
+  "Hoodlums UK": 0.9689,
+  "Iconic TCG": 0.9804,
   "JET Cards": 1.0,
-  "Japan2UK": 0.9816,
+  "Japan2UK": 0.982,
   "Magic Madhouse": 1.0,
   "Monster Card Corner": 1.0,
   "Mystic Games": 1.0,
   "Packrat": 1.0,
   "Pixel Hub": 1.0,
-  "Poke Collect": 1.0,
-  "TCG Paradise": 0.9846,
-  "TCGora": 0.9677,
+  "Poke Collect": 0.98,
+  "TCG Paradise": 0.9849,
+  "TCGora": 0.9683,
   "The Card Vault": 1.0,
-  "The Dice Dungeon": 0.9846,
+  "The Dice Dungeon": 0.9849,
   "The TCG Shop": 1.0,
   "Titan Cards": 1.0,
   "Total Cards": 1.0,
-  "Zatu Games": 0.9846
+  "Zatu Games": 0.9849
  }
 }
