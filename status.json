@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T13:13:22+00:00",
+ "updated": "2026-11-03T13:26:12+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -291,7 +291,7 @@
      "cart": "https://zatu.com/cart/56783225094522:1"
     }
    ],
-   "uptime": 0.9861
+   "uptime": 0.9864
   },
   {
    "name": "Hokey Poke Games",
@@ -312,7 +312,7 @@
     {
      "title": "Pokemon TCG: 151 Booster Bundle",
      "price": 206.99,
-     "available": true,
+     "available": false,
      "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-151-booster-bundle",
      "over_rrp": true,
      "rrp": 24.99,
@@ -384,7 +384,7 @@
     {
      "title": "Pokemon TCG: Chaos Rising - 3-Pack Blister",
      "price": 22.99,
-     "available": true,
+     "available": false,
      "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-chaos-rising-3-pack-blister",
      "over_rrp": false,
      "rrp": null,
@@ -411,7 +411,7 @@
     {
      "title": "Pokemon TCG: First Partner Illustration Collection Series 1 - Booster Pack",
      "price": 58.99,
-     "available": true,
+     "available": false,
      "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-first-partner-illustration-collection-series-1-booster-pack",
      "over_rrp": false,
      "rrp": null,
@@ -447,7 +447,7 @@
     {
      "title": "Pokemon TCG: Mega Pitch Black - Checklane Blister (SlowPoke)",
      "price": 7.99,
-     "available": true,
+     "available": false,
      "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-mega-pitch-black-checklane-blister-slowpoke",
      "over_rrp": false,
      "rrp": null,
@@ -508,7 +508,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54575778005339:1"
     }
    ],
-   "uptime": 0.9861
+   "uptime": 0.9864
   },
   {
    "name": "Collectors Edge",
@@ -1068,7 +1068,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9669
+   "uptime": 0.9676
   },
   {
    "name": "Packrat",
@@ -1891,7 +1891,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9861
+   "uptime": 0.9864
   },
   {
    "name": "TCGora",
@@ -2279,7 +2279,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.9707
+   "uptime": 0.9713
   },
   {
    "name": "Pixel Hub",
@@ -3190,7 +3190,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9816
+   "uptime": 0.982
   },
   {
    "name": "Card Cavern",
@@ -3502,15 +3502,6 @@
      "over_rrp": true,
      "rrp": 24.99,
      "cart": "https://iconic-tcg.com/cart/58394759299404:1"
-    },
-    {
-     "title": "Pok\u00e9mon TCG: 151 - Mini Tin - Arcanine & Omanyte",
-     "price": 26.5,
-     "available": false,
-     "url": "https://iconic-tcg.com/products/pokemon-scarlet-violet-151-mini-tin-arcanine-omanyte",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://iconic-tcg.com/cart/58325782856012:1"
     },
     {
      "title": "Pok\u00e9mon TCG: 151 - Mini Tin - Dragonite & Vileplume",
@@ -3961,6 +3952,15 @@
      "over_rrp": true,
      "rrp": 130.0,
      "cart": "https://iconic-tcg.com/cart/58394755891532:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Charizard ex Special Collection",
+     "price": 50.0,
+     "available": false,
+     "url": "https://iconic-tcg.com/products/pokemon-tcg-charizard-ex-special-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://iconic-tcg.com/cart/58325740421452:1"
     },
     {
      "title": "Pok\u00e9mon TCG: Crown Zenith - 4-Booster Tin - Galarian Articuno",
@@ -4863,7 +4863,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.982
+   "uptime": 0.9824
   },
   {
    "name": "Evolvault",
@@ -5170,7 +5170,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9547
+   "uptime": 0.9556
   },
   {
    "name": "Hobby Addicts",
@@ -6350,7 +6350,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9861
+   "uptime": 0.9864
   },
   {
    "name": "Hoodlums UK",
@@ -6693,7 +6693,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9713
+   "uptime": 0.9719
   },
   {
    "name": "The TCG Shop",
@@ -6823,7 +6823,7 @@
      "title": "Pok\u00e9mon TCG: 30th Celebration Poster Collection",
      "price": 54.99,
      "available": false,
-     "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-30th-celebration-greninja-ex-box-copy",
+     "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-30th-celebration-poster-collection",
      "over_rrp": false,
      "rrp": null,
      "cart": "https://www.thetcgshop.co.uk/cart/58899291373952:1"
@@ -9182,7 +9182,7 @@
      "cart": "https://www.japan2uk.com/cart/65092183163257:1"
     }
    ],
-   "uptime": 0.9834
+   "uptime": 0.9837
   },
   {
    "name": "Asmodee UK",

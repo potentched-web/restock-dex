@@ -1828,7 +1828,7 @@
    "53872280142171": [
     "Pokemon TCG: Chaos Rising - 3-Pack Blister",
     22.99,
-    true,
+    false,
     "https://hokeypokegames.co.uk/products/pokemon-tcg-chaos-rising-3-pack-blister"
    ],
    "53986334605659": [
@@ -1852,13 +1852,13 @@
    "54574966767963": [
     "Pokemon TCG: First Partner Illustration Collection Series 1 - Booster Pack",
     58.99,
-    true,
+    false,
     "https://hokeypokegames.co.uk/products/pokemon-tcg-first-partner-illustration-collection-series-1-booster-pack"
    ],
    "54574983676251": [
     "Pokemon TCG: Mega Pitch Black - Checklane Blister (SlowPoke)",
     7.99,
-    true,
+    false,
     "https://hokeypokegames.co.uk/products/pokemon-tcg-mega-pitch-black-checklane-blister-slowpoke"
    ],
    "54575761326427": [
@@ -1930,7 +1930,7 @@
    "54575794553179": [
     "Pokemon TCG: 151 Booster Bundle",
     206.99,
-    true,
+    false,
     "https://hokeypokegames.co.uk/products/pokemon-tcg-151-booster-bundle"
    ],
    "54575794585947": [
@@ -2243,6 +2243,12 @@
     true,
     "https://iconic-tcg.com/products/pokemon-tcg-destined-rivals-3-pack-blister-zebstrika"
    ],
+   "58325740421452": [
+    "Pok\u00e9mon TCG: Charizard ex Special Collection",
+    50.0,
+    false,
+    "https://iconic-tcg.com/products/pokemon-tcg-charizard-ex-special-collection"
+   ],
    "58325746483532": [
     "Pok\u00e9mon TCG: Mega Charizard X ex Ultra Premium Collection",
     220.0,
@@ -2290,12 +2296,6 @@
     140.0,
     false,
     "https://iconic-tcg.com/products/pokemon-tcg-temporal-forces-elite-trainer-box-walking-wake-pokemon-centre-stamped"
-   ],
-   "58325782856012": [
-    "Pok\u00e9mon TCG: 151 - Mini Tin - Arcanine & Omanyte",
-    26.5,
-    false,
-    "https://iconic-tcg.com/products/pokemon-scarlet-violet-151-mini-tin-arcanine-omanyte"
    ],
    "58325782954316": [
     "Pok\u00e9mon TCG: 151 - Mini Tin - Dragonite & Vileplume",
@@ -5894,7 +5894,7 @@
     "Pok\u00e9mon TCG: 30th Celebration Poster Collection",
     54.99,
     false,
-    "https://www.thetcgshop.co.uk/products/pokemon-tcg-30th-celebration-greninja-ex-box-copy"
+    "https://www.thetcgshop.co.uk/products/pokemon-tcg-30th-celebration-poster-collection"
    ],
    "59987454099840": [
     "Pok\u00e9mon TCG: 30th Celebration Tech Sticker Collection",
@@ -6130,27 +6130,27 @@
   "Collectors Edge": 1.0,
   "Dice Cup Cafe": 1.0,
   "Double Sleeved": 1.0,
-  "Evolvault": 0.9547,
+  "Evolvault": 0.9556,
   "Firestorm Games": 1.0,
-  "Hobby Addicts": 0.9861,
-  "Hokey Poke Games": 0.9861,
-  "Hoodlums UK": 0.9713,
-  "Iconic TCG": 0.982,
+  "Hobby Addicts": 0.9864,
+  "Hokey Poke Games": 0.9864,
+  "Hoodlums UK": 0.9719,
+  "Iconic TCG": 0.9824,
   "JET Cards": 1.0,
-  "Japan2UK": 0.9834,
+  "Japan2UK": 0.9837,
   "Magic Madhouse": 1.0,
   "Monster Card Corner": 1.0,
   "Mystic Games": 1.0,
   "Packrat": 1.0,
   "Pixel Hub": 1.0,
-  "Poke Collect": 0.9816,
-  "TCG Paradise": 0.9861,
-  "TCGora": 0.9707,
+  "Poke Collect": 0.982,
+  "TCG Paradise": 0.9864,
+  "TCGora": 0.9713,
   "The Card Vault": 1.0,
-  "The Dice Dungeon": 0.9669,
+  "The Dice Dungeon": 0.9676,
   "The TCG Shop": 1.0,
   "Titan Cards": 1.0,
   "Total Cards": 1.0,
-  "Zatu Games": 0.9861
+  "Zatu Games": 0.9864
  }
 }
