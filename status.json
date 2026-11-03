@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T19:48:10+00:00",
+ "updated": "2026-11-03T19:53:02+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -91,7 +91,7 @@
    "name": "Double Sleeved",
    "url": "https://www.doublesleeved.co.uk/collections/pre-orders",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -113,7 +113,7 @@
      "cart": "https://www.doublesleeved.co.uk/cart/65002043113849:1"
     }
    ],
-   "uptime": 0.98
+   "uptime": 0.9804
   },
   {
    "name": "Magic Madhouse",
@@ -291,7 +291,7 @@
      "cart": "https://zatu.com/cart/56783225094522:1"
     }
    ],
-   "uptime": 0.9956
+   "uptime": 0.9957
   },
   {
    "name": "Hokey Poke Games",
@@ -373,15 +373,6 @@
      "cart": "https://hokeypokegames.co.uk/cart/54575794520411:1"
     },
     {
-     "title": "Pokemon TCG: Scarlet & Violet 6 - Twilight Masquerade - Elite Trainer Box",
-     "price": 59.99,
-     "available": false,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-scarlet-violet-6-twilight-masquerade-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 49.99,
-     "cart": "https://hokeypokegames.co.uk/cart/54575761621339:1"
-    },
-    {
      "title": "Pokemon TCG: Scarlet & Violet 7 - Stellar Crown - Elite Trainer Box",
      "price": 59.99,
      "available": false,
@@ -400,7 +391,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54575778005339:1"
     }
    ],
-   "uptime": 0.9764
+   "uptime": 0.9769
   },
   {
    "name": "Collectors Edge",
@@ -978,7 +969,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.99
+   "uptime": 0.9902
   },
   {
    "name": "Packrat",
@@ -1801,7 +1792,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.989
+   "uptime": 0.9892
   },
   {
    "name": "TCGora",
@@ -2189,7 +2180,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.9912
+   "uptime": 0.9914
   },
   {
    "name": "Pixel Hub",
@@ -3024,7 +3015,7 @@
    "name": "Poke Collect",
    "url": "https://poke-collect.com/",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -3100,7 +3091,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.946
+   "uptime": 0.9471
   },
   {
    "name": "Card Cavern",
@@ -3232,7 +3223,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.9476
+   "uptime": 0.9486
   },
   {
    "name": "The Card Vault",
@@ -4773,7 +4764,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9943
+   "uptime": 0.9944
   },
   {
    "name": "Evolvault",
@@ -5080,13 +5071,13 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9603
+   "uptime": 0.9611
   },
   {
    "name": "Hobby Addicts",
    "url": "https://www.hobby-addicts.com/collections/pokemon-tcg",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -5937,21 +5928,21 @@
     },
     {
      "title": "Pokemon: Scarlet & Violet Build & Battle Box",
-     "price": 26.99,
-     "available": false,
-     "url": "https://www.hobby-addicts.com/products/pokemon-scarlet-violet-build-battle-box",
-     "over_rrp": true,
-     "rrp": 19.99,
-     "cart": "https://www.hobby-addicts.com/cart/51666068275507:1"
-    },
-    {
-     "title": "Pokemon: Scarlet & Violet Build & Battle Box",
      "price": 24.99,
      "available": false,
      "url": "https://www.hobby-addicts.com/products/pokemon-scarlet-violet-build-battle-box-1",
      "over_rrp": true,
      "rrp": 19.99,
      "cart": "https://www.hobby-addicts.com/cart/44835975561523:1"
+    },
+    {
+     "title": "Pokemon: Scarlet & Violet Build & Battle Box",
+     "price": 26.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-scarlet-violet-build-battle-box",
+     "over_rrp": true,
+     "rrp": 19.99,
+     "cart": "https://www.hobby-addicts.com/cart/51666068275507:1"
     },
     {
      "title": "Pokemon: Scarlet & Violet Build & Battle Stadium",
@@ -6260,7 +6251,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9956
+   "uptime": 0.9757
   },
   {
    "name": "Hoodlums UK",
@@ -6603,13 +6594,13 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9914
+   "uptime": 0.9916
   },
   {
    "name": "The TCG Shop",
    "url": "https://www.thetcgshop.co.uk/collections/pokemon",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -6874,7 +6865,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.9616
+   "uptime": 0.9624
   },
   {
    "name": "120HP",
@@ -7583,7 +7574,7 @@
    "name": "JET Cards",
    "url": "https://jetcards.uk/",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -7641,7 +7632,7 @@
      "cart": "https://jetcards.uk/cart/58903348871549:1"
     }
    ],
-   "uptime": 0.9804
+   "uptime": 0.9608
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -9137,7 +9128,7 @@
      "cart": "https://www.japan2uk.com/cart/63985005068665:1"
     }
    ],
-   "uptime": 0.9826
+   "uptime": 0.9829
   },
   {
    "name": "Asmodee UK",
