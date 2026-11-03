@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T18:49:57+00:00",
+ "updated": "2026-11-03T18:54:58+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -256,7 +256,7 @@
     },
     {
      "title": "Pokemon TCG: First Partner Illustration Collection - Series 2",
-     "price": 39.99,
+     "price": 29.99,
      "available": true,
      "url": "https://zatu.com/products/pokemon-tcg-first-partner-illustration-collection-series-2",
      "over_rrp": false,
@@ -291,7 +291,7 @@
      "cart": "https://zatu.com/cart/56783225094522:1"
     }
    ],
-   "uptime": 0.9944
+   "uptime": 0.9945
   },
   {
    "name": "Hokey Poke Games",
@@ -355,15 +355,6 @@
      "cart": "https://hokeypokegames.co.uk/cart/54575761457499:1"
     },
     {
-     "title": "Pokemon TCG: Black Bolt Elite Trainer Box",
-     "price": 47.99,
-     "available": false,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-black-bolt-elite-trainer-box",
-     "over_rrp": false,
-     "rrp": 49.99,
-     "cart": "https://hokeypokegames.co.uk/cart/54575761359195:1"
-    },
-    {
      "title": "Pokemon TCG: Black Bolt Tech Poster Collection",
      "price": 26.99,
      "available": false,
@@ -371,15 +362,6 @@
      "over_rrp": false,
      "rrp": null,
      "cart": "https://hokeypokegames.co.uk/cart/54575761391963:1"
-    },
-    {
-     "title": "Pokemon TCG: Black Bolt and White Flare Mini Tin",
-     "price": 12.99,
-     "available": false,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-black-bolt-and-white-flare-mini-tin",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://hokeypokegames.co.uk/cart/54575761326427:1"
     },
     {
      "title": "Pokemon TCG: Combined Powers - Premium Collection",
@@ -445,7 +427,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54575778005339:1"
     }
    ],
-   "uptime": 0.9944
+   "uptime": 0.9945
   },
   {
    "name": "Collectors Edge",
@@ -1023,7 +1005,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9875
+   "uptime": 0.9878
   },
   {
    "name": "Packrat",
@@ -1846,7 +1828,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9861
+   "uptime": 0.9864
   },
   {
    "name": "TCGora",
@@ -2234,7 +2216,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.9888
+   "uptime": 0.989
   },
   {
    "name": "Pixel Hub",
@@ -3145,7 +3127,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9566
+   "uptime": 0.9575
   },
   {
    "name": "Card Cavern",
@@ -4818,7 +4800,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9931
+   "uptime": 0.9932
   },
   {
    "name": "Evolvault",
@@ -5125,7 +5107,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9745
+   "uptime": 0.975
   },
   {
    "name": "Hobby Addicts",
@@ -6305,7 +6287,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9944
+   "uptime": 0.9945
   },
   {
    "name": "Hoodlums UK",
@@ -6648,7 +6630,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.989
+   "uptime": 0.9892
   },
   {
    "name": "The TCG Shop",
@@ -9182,7 +9164,7 @@
      "cart": "https://www.japan2uk.com/cart/63985005068665:1"
     }
    ],
-   "uptime": 0.9778
+   "uptime": 0.9782
   },
   {
    "name": "Asmodee UK",
