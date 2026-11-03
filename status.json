@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T11:30:47+00:00",
+ "updated": "2026-11-03T11:43:26+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -291,7 +291,7 @@
      "cart": "https://zatu.com/cart/56783225094522:1"
     }
    ],
-   "uptime": 0.9837
+   "uptime": 0.984
   },
   {
    "name": "Hokey Poke Games",
@@ -409,33 +409,6 @@
      "cart": "https://hokeypokegames.co.uk/cart/54575778234715:1"
     },
     {
-     "title": "Pokemon TCG: Crown Zenith - Pokemon Center Elite Trainer Box Plus",
-     "price": 584.99,
-     "available": false,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-crown-zenith-pokemon-center-elite-trainer-box-plus",
-     "over_rrp": true,
-     "rrp": 56.99,
-     "cart": "https://hokeypokegames.co.uk/cart/53752267931995:1"
-    },
-    {
-     "title": "Pokemon TCG: Destined Rivals - Booster Box",
-     "price": 335.99,
-     "available": true,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-destined-rivals-booster-box",
-     "over_rrp": true,
-     "rrp": 130.0,
-     "cart": "https://hokeypokegames.co.uk/cart/53752269734235:1"
-    },
-    {
-     "title": "Pokemon TCG: Destined Rivals - Booster Bundle",
-     "price": 65.99,
-     "available": false,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-destined-rivals-booster-bundle",
-     "over_rrp": true,
-     "rrp": 24.99,
-     "cart": "https://hokeypokegames.co.uk/cart/53752269898075:1"
-    },
-    {
      "title": "Pokemon TCG: Destined Rivals - Elite Trainer Box",
      "price": 96.99,
      "available": true,
@@ -454,15 +427,6 @@
      "cart": "https://hokeypokegames.co.uk/cart/54574966767963:1"
     },
     {
-     "title": "Pokemon TCG: Mega Ascended Heroes - Booster Bundle",
-     "price": 110.99,
-     "available": false,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-mega-ascended-heroes-booster-bundle",
-     "over_rrp": true,
-     "rrp": 24.99,
-     "cart": "https://hokeypokegames.co.uk/cart/53752274551131:1"
-    },
-    {
      "title": "Pokemon TCG: Mega Evolution - Elite Trainer Box",
      "price": 62.99,
      "available": false,
@@ -472,33 +436,6 @@
      "cart": "https://hokeypokegames.co.uk/cart/54575778103643:1"
     },
     {
-     "title": "Pokemon TCG: Mega Evolution Ascended Heroes - Collection",
-     "price": 11.99,
-     "available": false,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-mega-evolution-ascended-heroes-collection",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://hokeypokegames.co.uk/cart/53752275501403:1"
-    },
-    {
-     "title": "Pokemon TCG: Mega Evolution Ascended Heroes - Elite Trainer Box",
-     "price": 59.99,
-     "available": false,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-mega-evolution-ascended-heroes-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 49.99,
-     "cart": "https://hokeypokegames.co.uk/cart/53752275534171:1"
-    },
-    {
-     "title": "Pokemon TCG: Mega Evolution Ascended Heroes - Mini Tin",
-     "price": 12.99,
-     "available": false,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-mega-evolution-ascended-heroes-mini-tin",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://hokeypokegames.co.uk/cart/53752275566939:1"
-    },
-    {
      "title": "Pokemon TCG: Mega Evolution Ascended Heroes - Tech Sticker Collection",
      "price": 20.99,
      "available": false,
@@ -506,69 +443,6 @@
      "over_rrp": false,
      "rrp": null,
      "cart": "https://hokeypokegames.co.uk/cart/54575794520411:1"
-    },
-    {
-     "title": "Pokemon TCG: Mega Evolution Chaos Rising - Booster Box",
-     "price": 213.99,
-     "available": false,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-mega-evolution-chaos-rising-booster-box",
-     "over_rrp": true,
-     "rrp": 130.0,
-     "cart": "https://hokeypokegames.co.uk/cart/53752275632475:1"
-    },
-    {
-     "title": "Pokemon TCG: Mega Evolution Chaos Rising - Booster Bundle",
-     "price": 29.99,
-     "available": false,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-mega-evolution-chaos-rising-booster-bundle",
-     "over_rrp": true,
-     "rrp": 24.99,
-     "cart": "https://hokeypokegames.co.uk/cart/53752275665243:1"
-    },
-    {
-     "title": "Pokemon TCG: Mega Evolution Perfect Order - Elite Trainer Box",
-     "price": 61.99,
-     "available": false,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-mega-evolution-perfect-order-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 49.99,
-     "cart": "https://hokeypokegames.co.uk/cart/53752275796315:1"
-    },
-    {
-     "title": "Pokemon TCG: Mega Evolution Phantasmal Flames - Booster Box",
-     "price": 400.0,
-     "available": false,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-mega-evolution-phantasmal-flames-booster-box",
-     "over_rrp": true,
-     "rrp": 130.0,
-     "cart": "https://hokeypokegames.co.uk/cart/53752275829083:1"
-    },
-    {
-     "title": "Pokemon TCG: Mega Evolution Phantasmal Flames - Booster Bundle",
-     "price": 57.99,
-     "available": false,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-mega-evolution-phantasmal-flames-booster-bundle",
-     "over_rrp": true,
-     "rrp": 24.99,
-     "cart": "https://hokeypokegames.co.uk/cart/53752275861851:1"
-    },
-    {
-     "title": "Pokemon TCG: Mega Evolution Phantasmal Flames - Elite Trainer Box",
-     "price": 64.99,
-     "available": false,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-mega-evolution-phantasmal-flames-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 49.99,
-     "cart": "https://hokeypokegames.co.uk/cart/53752276025691:1"
-    },
-    {
-     "title": "Pokemon TCG: Mega Evolution Phantasmal Flames - Half Booster Box",
-     "price": 331.99,
-     "available": false,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-mega-evolution-phantasmal-flames-half-booster-box",
-     "over_rrp": true,
-     "rrp": 130.0,
-     "cart": "https://hokeypokegames.co.uk/cart/53752275894619:1"
     },
     {
      "title": "Pokemon TCG: Mega Evolution Pitch Black Booster Bundle",
@@ -587,15 +461,6 @@
      "over_rrp": false,
      "rrp": null,
      "cart": "https://hokeypokegames.co.uk/cart/54574983676251:1"
-    },
-    {
-     "title": "Pokemon TCG: Perfect Order - 3-Pack Blister",
-     "price": 20.99,
-     "available": false,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-perfect-order-3-pack-blister",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://hokeypokegames.co.uk/cart/53752277041499:1"
     },
     {
      "title": "Pokemon TCG: Perfect Order - Booster Box",
@@ -715,7 +580,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54575778005339:1"
     }
    ],
-   "uptime": 0.9837
+   "uptime": 0.984
   },
   {
    "name": "Collectors Edge",
@@ -1275,7 +1140,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9837
+   "uptime": 0.984
   },
   {
    "name": "Packrat",
@@ -2098,7 +1963,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9837
+   "uptime": 0.984
   },
   {
    "name": "TCGora",
@@ -2486,7 +2351,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.9656
+   "uptime": 0.9663
   },
   {
    "name": "Pixel Hub",
@@ -5377,7 +5242,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9468
+   "uptime": 0.9479
   },
   {
    "name": "Hobby Addicts",
@@ -6557,7 +6422,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9837
+   "uptime": 0.984
   },
   {
    "name": "Hoodlums UK",
@@ -6900,7 +6765,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9663
+   "uptime": 0.967
   },
   {
    "name": "The TCG Shop",
@@ -9380,7 +9245,7 @@
      "cart": "https://www.japan2uk.com/cart/65080776327545:1"
     }
    ],
-   "uptime": 0.9804
+   "uptime": 0.9808
   },
   {
    "name": "Asmodee UK",
