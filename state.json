@@ -1952,7 +1952,7 @@
    ],
    "56333423182089": [
     "Pok\u00e9mon TCG Prismatic Evolutions Premium Figure Collection",
-    302.0,
+    301.0,
     true,
     "https://hoodlumsuk.com/products/pokemon-tcg-prismatic-evolution-premium-figure-collection"
    ],
@@ -4302,7 +4302,7 @@
    ],
    "51399547650390": [
     "Pok\u00e9mon TCG: Scarlet & Violet 3.5: 151 \u2013 Full Booster Bundle Display",
-    3148.0,
+    3147.0,
     false,
     "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-3-5-151-full-booster-bundle-display"
    ],
@@ -4332,7 +4332,7 @@
    ],
    "51573165293910": [
     "Pokemon - Destined Rivals - Booster Box Case (6 Booster Boxes)",
-    3935.0,
+    3934.0,
     false,
     "https://pixel-hub.co.uk/products/pokemon-destined-rivals-booster-box-case-6-booster-boxes"
    ],
@@ -4344,7 +4344,7 @@
    ],
    "51573178696022": [
     "Pok\u00e9mon - Prismatic Evolutions Booster Bundle Master Case (60 bundles)",
-    9442.0,
+    9441.0,
     false,
     "https://pixel-hub.co.uk/products/pokemon-prismatic-evolutions-booster-bundle-master-case-60-bundles"
    ],
@@ -4446,7 +4446,7 @@
    ],
    "51979323212118": [
     "Pok\u00e9mon TCG: Scarlet & Violet-Obsidian Flames Booster Display Box (36 Packs)",
-    536.0,
+    535.0,
     false,
     "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-obsidian-flames-booster-display-box-36-packs"
    ],
@@ -4470,7 +4470,7 @@
    ],
    "52311413915990": [
     "Pokemon Prismatic Evolutions Elite Trainer Box + Booster Costco Bundle",
-    333.0,
+    332.0,
     false,
     "https://pixel-hub.co.uk/products/pokemon-prismatic-evolutions-elite-trainer-box-booster-costco-bundle"
    ],
@@ -4542,7 +4542,7 @@
    ],
    "54125462585686": [
     "Pok\u00e9mon TCG: Mega Evolution Pitch Black - Elite Trainer Box",
-    119.0,
+    118.0,
     false,
     "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolution-pitch-black-elite-trainer-box"
    ],
@@ -6099,35 +6099,35 @@
  "_ping_fixed": "2026-11-03T18:16:58+00:00",
  "_reminded": [],
  "_uptime": {
-  "120HP": 1.0,
+  "120HP": 0.98,
   "Berry Brand Supply TCG": 1.0,
   "Card Cavern": 1.0,
   "CardDeckr": 1.0,
   "Chaos Cards": 1.0,
-  "Collectors Edge": 0.9828,
-  "Dice Cup Cafe": 0.9612,
-  "Double Sleeved": 0.9852,
-  "Evolvault": 0.9706,
+  "Collectors Edge": 0.9831,
+  "Dice Cup Cafe": 0.962,
+  "Double Sleeved": 0.9855,
+  "Evolvault": 0.9712,
   "Firestorm Games": 1.0,
-  "Hobby Addicts": 0.9657,
-  "Hokey Poke Games": 0.9659,
-  "Hoodlums UK": 0.9771,
-  "Iconic TCG": 0.9958,
-  "JET Cards": 0.9521,
-  "Japan2UK": 0.9871,
+  "Hobby Addicts": 0.9664,
+  "Hokey Poke Games": 0.9666,
+  "Hoodlums UK": 0.9776,
+  "Iconic TCG": 0.9959,
+  "JET Cards": 0.9531,
+  "Japan2UK": 0.9874,
   "Magic Madhouse": 1.0,
   "Monster Card Corner": 1.0,
   "Mystic Games": 1.0,
   "Packrat": 1.0,
   "Pixel Hub": 1.0,
-  "Poke Collect": 0.9601,
-  "TCG Paradise": 0.9758,
-  "TCGora": 0.9758,
-  "The Card Vault": 0.9812,
-  "The Dice Dungeon": 0.9763,
-  "The TCG Shop": 0.9717,
+  "Poke Collect": 0.9609,
+  "TCG Paradise": 0.9763,
+  "TCGora": 0.9763,
+  "The Card Vault": 0.9816,
+  "The Dice Dungeon": 0.9768,
+  "The TCG Shop": 0.9723,
   "Titan Cards": 1.0,
   "Total Cards": 1.0,
-  "Zatu Games": 0.9791
+  "Zatu Games": 0.9795
  }
 }
