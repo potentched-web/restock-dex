@@ -54,7 +54,13 @@
   .stat .k { font-size:13px; color:var(--muted); font-weight:700 }
   .stat .v { font:20px/1.6 var(--pixel); margin-top:4px }
   .bar { height:8px; border-radius:99px; background:#05090c; overflow:hidden; margin-top:6px; border:1px solid var(--line) }
-  .bar i { display:block; height:100% }
+  .bar i { display:block; height:100%; transition:width .4s }
+  .arena { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:12px 0 }
+  .mon { background:var(--screen-2); border:1px solid var(--line); border-radius:12px; padding:12px; text-align:center; min-width:0 }
+  .mon .art { font-size:56px; line-height:1.2 } .mon.foe .art { transform:scaleX(-1) }
+  .mon.hit .art { animation:shake .35s } @keyframes shake { 25% { translate:-6px } 75% { translate:6px } }
+  .moves { display:grid; grid-template-columns:1fr 1fr; gap:8px } .moves .btn { width:100% }
+  #dip-log { min-height:3em; font-weight:700; margin:10px 0 }
 
   .feed { list-style:none; margin:0; padding:0 }
   .feed li { display:flex; gap:10px; align-items:baseline; flex-wrap:wrap; padding:9px 0; border-top:1px dashed var(--line) }
@@ -342,6 +348,7 @@ html[data-skin="deepsea"] footer{ color:var(--muted) }
     <button class="tab" role="tab" id="t-orders" aria-controls="tab-orders" aria-selected="false" data-tab="orders">My orders<span class="badge" id="b-orders" hidden></span></button>
     <button class="tab" role="tab" id="t-amazon" aria-controls="tab-amazon" aria-selected="false" data-tab="amazon">Amazon<span class="badge" id="b-amazon" hidden></span></button>
     <button class="tab" role="tab" id="t-notifs" aria-controls="tab-notifs" aria-selected="false" data-tab="notifs">Notifications<span class="badge" id="b-notifs" hidden></span></button>
+    <button class="tab" role="tab" id="t-dip" aria-controls="tab-dip" aria-selected="false" data-tab="dip">Lucky Dip</button>
     <button class="tab" role="tab" id="t-patterns" aria-controls="tab-patterns" aria-selected="false" data-tab="patterns">Patterns<span class="badge" id="b-patterns" hidden></span></button>
   </nav>
 
@@ -459,6 +466,16 @@ html[data-skin="deepsea"] footer{ color:var(--muted) }
 <section class="screen" aria-labelledby="nlog-h">
     <h2 id="nlog-h">▶ NOTIFICATIONS SENT</h2>
     <ul class="feed" id="nlog"></ul>
+  </section>
+  </div>
+  <div class="panel" id="tab-dip" role="tabpanel" aria-labelledby="t-dip">
+  <section class="screen" aria-labelledby="dip-h">
+    <h2 id="dip-h">▶ LUCKY DIP BATTLE</h2>
+    <p class="note" style="margin-top:0">Dip for a random critter, then battle a random wild one. Fire beats Grass, Grass beats Water, Water beats Fire, Spark beats Water. <span id="dip-score"></span></p>
+    <button class="btn primary" id="dip-go">🎲 Lucky dip!</button>
+    <div class="arena" id="dip-arena" hidden><div class="mon" id="dip-me"></div><div class="mon foe" id="dip-foe"></div></div>
+    <div id="dip-log" role="status" aria-live="polite"></div>
+    <div class="moves" id="dip-moves"></div>
   </section>
   </div>
 
@@ -1090,6 +1107,62 @@ function loadHistory() {
 /* Theme picker: remembered on this device */
 $("skin").value = document.documentElement.dataset.skin;
 $("skin").onchange = e => { document.documentElement.dataset.skin = e.target.value; store("skin", e.target.value); };
+
+/* Lucky Dip: a tiny turn-based battle between two random made-up critters. Score kept per browser. */
+const CRITTERS = [
+  ["Emberpup", "fire", "🐕", 48, 13], ["Cindermoth", "fire", "🦋", 40, 16], ["Blazetoad", "fire", "🐸", 56, 11],
+  ["Ripplefin", "water", "🐟", 50, 12], ["Bubbleshell", "water", "🐢", 60, 10], ["Tidecrab", "water", "🦀", 46, 14],
+  ["Sproutle", "grass", "🌱", 52, 12], ["Thornhog", "grass", "🦔", 58, 10], ["Mossbat", "grass", "🦇", 44, 15],
+  ["Zapkit", "spark", "🐱", 42, 15], ["Voltbug", "spark", "🐞", 46, 13], ["Boltowl", "spark", "🦉", 50, 12]];
+const TYPE_ICON = {fire: "🔥", water: "💧", grass: "🌿", spark: "⚡"};
+const MOVES = {fire: ["Flame Nip", "Ember Burst"], water: ["Splash Jab", "Tide Crash"], grass: ["Leaf Flick", "Vine Lash"], spark: ["Static Tap", "Thunder Pop"]};
+const BEATS = {fire: ["grass"], grass: ["water"], water: ["fire"], spark: ["water"]};
+let dip = null, dipScore = (() => { try { return JSON.parse(store("dip") || "") } catch { return null } })() || {win: 0, loss: 0, streak: 0};
+const pick = () => { const [name, type, art, hp, atk] = CRITTERS[Math.floor(Math.random() * CRITTERS.length)]; return {name, type, art, hp, max: hp, atk}; };
+function hitFor(a, d, big) {
+  const mult = BEATS[a.type].includes(d.type) ? 2 : BEATS[d.type].includes(a.type) ? 0.5 : 1;
+  if (big && Math.random() < 0.35) return {dmg: 0, note: "It missed!"};  // the strong move is a gamble
+  const dmg = Math.max(1, Math.round(a.atk * (big ? 1.6 : 1) * mult * (0.85 + Math.random() * 0.3)));
+  return {dmg, note: mult > 1 ? "It's super effective!" : mult < 1 ? "It's not very effective…" : ""};
+}
+function monCard(m) {
+  const pct = Math.max(0, m.hp / m.max * 100), col = pct > 50 ? "--grass" : pct > 20 ? "--electric" : "--fire";
+  return `<div class="art" aria-hidden="true">${m.art}</div><b>${esc(m.name)}</b> <span class="note">${TYPE_ICON[m.type]} ${m.type}</span>
+    <div class="bar" aria-hidden="true"><i style="width:${pct}%;background:var(${col})"></i></div><div class="note">HP ${Math.max(0, m.hp)}/${m.max}</div>`;
+}
+function renderDip(log) {
+  $("dip-score").textContent = `Wins ${dipScore.win} · Losses ${dipScore.loss} · Streak ${dipScore.streak}`;
+  if (log != null) $("dip-log").textContent = log;
+  if (!dip) return;
+  $("dip-arena").hidden = false; $("dip-me").innerHTML = monCard(dip.me); $("dip-foe").innerHTML = monCard(dip.foe);
+  const over = dip.me.hp <= 0 || dip.foe.hp <= 0;
+  $("dip-moves").innerHTML = over ? "" : MOVES[dip.me.type].map((m, i) => `<button class="btn" data-move="${i}">${m}${i ? " (strong, may miss)" : ""}</button>`).join("");
+}
+function shake(id) { const el = $(id); el.classList.remove("hit"); void el.offsetWidth; el.classList.add("hit"); }
+$("dip-go").addEventListener("click", () => {
+  const me = pick(); let foe = pick();
+  while (foe.name === me.name) foe = pick();
+  dip = {me, foe};
+  renderDip(`You dipped ${dip.me.name}! A wild ${dip.foe.name} appeared!`);
+});
+$("dip-moves").addEventListener("click", e => {
+  const b = e.target.closest("button[data-move]"); if (!b || !dip) return;
+  const big = b.dataset.move === "1", me = dip.me, foe = dip.foe;
+  let h = hitFor(me, foe, big), log = `${me.name} used ${MOVES[me.type][+big]}! ${h.note}`;
+  foe.hp -= h.dmg; if (h.dmg) shake("dip-foe");
+  if (foe.hp <= 0) {
+    Object.assign(dipScore, {win: dipScore.win + 1, streak: dipScore.streak + 1});
+    log += ` Wild ${foe.name} fainted! You win! 🏆`;
+  } else {
+    const fb = Math.random() < 0.4; h = hitFor(foe, me, fb);
+    me.hp -= h.dmg; if (h.dmg) shake("dip-me");
+    log += ` Wild ${foe.name} used ${MOVES[foe.type][+fb]}! ${h.note}`;
+    if (me.hp <= 0) { Object.assign(dipScore, {loss: dipScore.loss + 1, streak: 0}); log += ` ${me.name} fainted… Dip again!`; }
+  }
+  store("dip", JSON.stringify(dipScore));
+  renderDip(log);
+});
+renderDip("");
 </script>
 </body>
 </html>
