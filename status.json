@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T20:36:51+00:00",
+ "updated": "2026-11-03T20:41:52+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -113,7 +113,7 @@
      "cart": "https://www.doublesleeved.co.uk/cart/65002043113849:1"
     }
    ],
-   "uptime": 0.9837
+   "uptime": 0.984
   },
   {
    "name": "Magic Madhouse",
@@ -291,7 +291,7 @@
      "cart": "https://zatu.com/cart/56783225094522:1"
     }
    ],
-   "uptime": 0.977
+   "uptime": 0.9775
   },
   {
    "name": "Hokey Poke Games",
@@ -373,15 +373,6 @@
      "cart": "https://hokeypokegames.co.uk/cart/54575794520411:1"
     },
     {
-     "title": "Pokemon TCG: Scarlet & Violet 7 - Stellar Crown - Elite Trainer Box",
-     "price": 59.99,
-     "available": false,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-scarlet-violet-7-stellar-crown-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 49.99,
-     "cart": "https://hokeypokegames.co.uk/cart/54575777907035:1"
-    },
-    {
      "title": "Pok\u00e9mon TCG: Scarlet & Violet - Temporal Forces - Elite Trainer Box",
      "price": 56.99,
      "available": false,
@@ -391,7 +382,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54575778005339:1"
     }
    ],
-   "uptime": 0.9623
+   "uptime": 0.9631
   },
   {
    "name": "Collectors Edge",
@@ -482,7 +473,7 @@
      "cart": "https://collectorsedge.co.uk/cart/55096695783763:1"
     }
    ],
-   "uptime": 0.9808
+   "uptime": 0.9812
   },
   {
    "name": "The Dice Dungeon",
@@ -969,7 +960,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9738
+   "uptime": 0.9743
   },
   {
    "name": "Packrat",
@@ -1792,7 +1783,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9733
+   "uptime": 0.9738
   },
   {
    "name": "TCGora",
@@ -2180,7 +2171,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.9733
+   "uptime": 0.9738
   },
   {
    "name": "Pixel Hub",
@@ -3091,7 +3082,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9559
+   "uptime": 0.9568
   },
   {
    "name": "Card Cavern",
@@ -3223,7 +3214,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.9571
+   "uptime": 0.958
   },
   {
    "name": "The Card Vault",
@@ -4764,7 +4755,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9953
+   "uptime": 0.9954
   },
   {
    "name": "Evolvault",
@@ -5071,7 +5062,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9676
+   "uptime": 0.9682
   },
   {
    "name": "Hobby Addicts",
@@ -6251,7 +6242,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9621
+   "uptime": 0.9629
   },
   {
    "name": "Hoodlums UK",
@@ -6594,7 +6585,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9746
+   "uptime": 0.9751
   },
   {
    "name": "The TCG Shop",
@@ -6865,7 +6856,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.9687
+   "uptime": 0.9693
   },
   {
    "name": "120HP",
@@ -7574,7 +7565,7 @@
    "name": "JET Cards",
    "url": "https://jetcards.uk/",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -7632,7 +7623,7 @@
      "cart": "https://jetcards.uk/cart/58903348871549:1"
     }
    ],
-   "uptime": 0.9674
+   "uptime": 0.9481
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -9128,7 +9119,7 @@
      "cart": "https://www.japan2uk.com/cart/63985005068665:1"
     }
    ],
-   "uptime": 0.9856
+   "uptime": 0.9859
   },
   {
    "name": "Asmodee UK",
