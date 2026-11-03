@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T22:46:34+00:00",
+ "updated": "2026-11-03T22:51:34+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -113,7 +113,7 @@
      "cart": "https://www.doublesleeved.co.uk/cart/65002043113849:1"
     }
    ],
-   "uptime": 0.957
+   "uptime": 0.9579
   },
   {
    "name": "Magic Madhouse",
@@ -291,7 +291,7 @@
      "cart": "https://zatu.com/cart/56783225094522:1"
     }
    ],
-   "uptime": 0.9674
+   "uptime": 0.9681
   },
   {
    "name": "Hokey Poke Games",
@@ -310,34 +310,25 @@
      "cart": "https://hokeypokegames.co.uk/cart/54181549474139:1"
     },
     {
-     "title": "Pokemon TCG: First Partner - Series 2 Collection Box",
-     "price": 11.99,
+     "title": "Pok\u00e9mon TCG: 30th Anniversary First Partner Illustration Series 1 Blind Collection Box",
+     "price": 13.99,
      "available": false,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-30th-anniversary-first-partner-illustration-series-2-collection-box",
+     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-30th-anniversary-first-partner-illustration-series-1-blind-collection-box",
      "over_rrp": false,
      "rrp": null,
-     "cart": "https://hokeypokegames.co.uk/cart/54027900125531:1"
+     "cart": "https://hokeypokegames.co.uk/cart/54027900158299:1"
     },
     {
-     "title": "Pokemon TCG: Greninja Ex - Collection box",
-     "price": 47.99,
+     "title": "Pok\u00e9mon TCG: Deck Crafter's Collection",
+     "price": 9.99,
      "available": false,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-mega-greninja-ex-premium-collection-box",
+     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-deck-crafters-collection",
      "over_rrp": false,
      "rrp": null,
-     "cart": "https://hokeypokegames.co.uk/cart/54001596367195:1"
-    },
-    {
-     "title": "Pokemon TCG: Journey Together - Booster Bundle",
-     "price": 55.99,
-     "available": false,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-journey-together-booster-bundle-copy",
-     "over_rrp": true,
-     "rrp": 24.99,
-     "cart": "https://hokeypokegames.co.uk/cart/54246708314459:1"
+     "cart": "https://hokeypokegames.co.uk/cart/54477444776283:1"
     }
    ],
-   "uptime": 0.9628
+   "uptime": 0.9635
   },
   {
    "name": "Collectors Edge",
@@ -428,7 +419,7 @@
      "cart": "https://collectorsedge.co.uk/cart/55096695783763:1"
     }
    ],
-   "uptime": 0.9527
+   "uptime": 0.9536
   },
   {
    "name": "The Dice Dungeon",
@@ -915,7 +906,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9847
+   "uptime": 0.985
   },
   {
    "name": "Packrat",
@@ -1188,7 +1179,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.9828
+   "uptime": 0.9831
   },
   {
    "name": "TCG Paradise",
@@ -1738,7 +1729,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9528
+   "uptime": 0.9537
   },
   {
    "name": "TCGora",
@@ -2126,13 +2117,13 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.9844
+   "uptime": 0.9847
   },
   {
    "name": "Pixel Hub",
    "url": "https://pixel-hub.co.uk/collections/pokemon",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -2955,7 +2946,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 1.0
+   "uptime": 0.98
   },
   {
    "name": "Poke Collect",
@@ -3037,7 +3028,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9603
+   "uptime": 0.9611
   },
   {
    "name": "Card Cavern",
@@ -3164,7 +3155,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.9751
+   "uptime": 0.9756
   },
   {
    "name": "The Card Vault",
@@ -3318,7 +3309,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.988
+   "uptime": 0.9882
   },
   {
    "name": "Iconic TCG",
@@ -4705,7 +4696,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9818
+   "uptime": 0.9822
   },
   {
    "name": "Evolvault",
@@ -5012,7 +5003,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9811
+   "uptime": 0.9815
   },
   {
    "name": "Hobby Addicts",
@@ -6192,7 +6183,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9641
+   "uptime": 0.9648
   },
   {
    "name": "Hoodlums UK",
@@ -6535,7 +6526,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9852
+   "uptime": 0.9855
   },
   {
    "name": "The TCG Shop",
@@ -6806,7 +6797,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.9819
+   "uptime": 0.9823
   },
   {
    "name": "120HP",
@@ -7509,7 +7500,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.9729
+   "uptime": 0.9734
   },
   {
    "name": "JET Cards",
@@ -7573,7 +7564,7 @@
      "cart": "https://jetcards.uk/cart/58903348871549:1"
     }
    ],
-   "uptime": 0.9519
+   "uptime": 0.9529
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -9069,7 +9060,7 @@
      "cart": "https://www.japan2uk.com/cart/63985005068665:1"
     }
    ],
-   "uptime": 0.9543
+   "uptime": 0.9552
   },
   {
    "name": "Asmodee UK",
