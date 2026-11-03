@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T10:39:05+00:00",
+ "updated": "2026-11-03T10:51:56+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -291,7 +291,7 @@
      "cart": "https://zatu.com/cart/56783225094522:1"
     }
    ],
-   "uptime": 0.9824
+   "uptime": 0.9828
   },
   {
    "name": "Hokey Poke Games",
@@ -715,7 +715,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54575778005339:1"
     }
    ],
-   "uptime": 0.9824
+   "uptime": 0.9828
   },
   {
    "name": "Collectors Edge",
@@ -1275,7 +1275,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9824
+   "uptime": 0.9828
   },
   {
    "name": "Packrat",
@@ -2098,7 +2098,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9824
+   "uptime": 0.9828
   },
   {
    "name": "TCGora",
@@ -2486,7 +2486,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.9628
+   "uptime": 0.9635
   },
   {
    "name": "Pixel Hub",
@@ -5076,7 +5076,7 @@
    "name": "Evolvault",
    "url": "https://evolvault.com/",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -5377,7 +5377,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9628
+   "uptime": 0.9435
   },
   {
    "name": "Hobby Addicts",
@@ -6557,7 +6557,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9824
+   "uptime": 0.9828
   },
   {
    "name": "Hoodlums UK",
@@ -6900,7 +6900,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9635
+   "uptime": 0.9642
   },
   {
    "name": "The TCG Shop",
