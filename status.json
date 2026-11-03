@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T14:31:07+00:00",
+ "updated": "2026-11-03T14:43:52+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -291,7 +291,7 @@
      "cart": "https://zatu.com/cart/56783225094522:1"
     }
    ],
-   "uptime": 0.9878
+   "uptime": 0.988
   },
   {
    "name": "Hokey Poke Games",
@@ -508,7 +508,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54575778005339:1"
     }
    ],
-   "uptime": 0.9878
+   "uptime": 0.988
   },
   {
    "name": "Collectors Edge",
@@ -760,6 +760,15 @@
      "over_rrp": false,
      "rrp": null,
      "cart": "https://thedicedungeon.co.uk/cart/56559652995451:1"
+    },
+    {
+     "title": "Pokemon TCG: Figure Collection Mewtwo 30th Celebration",
+     "price": 45.16,
+     "available": false,
+     "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-figure-collection-mewtwo-30th-celebration",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://thedicedungeon.co.uk/cart/56559733703035:1"
     },
     {
      "title": "Pokemon TCG: First Partner Illustration Collection - Series 1",
@@ -1077,7 +1086,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9706
+   "uptime": 0.9712
   },
   {
    "name": "Packrat",
@@ -1356,7 +1365,7 @@
    "name": "TCG Paradise",
    "url": "https://tcgparadise.co.uk/",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -1900,7 +1909,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9678
+   "uptime": 0.9684
   },
   {
    "name": "TCGora",
@@ -2288,7 +2297,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.9741
+   "uptime": 0.9746
   },
   {
    "name": "Pixel Hub",
@@ -3199,7 +3208,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9641
+   "uptime": 0.9648
   },
   {
    "name": "Card Cavern",
@@ -4872,7 +4881,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.984
+   "uptime": 0.9843
   },
   {
    "name": "Evolvault",
@@ -5179,7 +5188,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9403
+   "uptime": 0.9415
   },
   {
    "name": "Hobby Addicts",
@@ -6359,97 +6368,350 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9878
+   "uptime": 0.988
   },
   {
    "name": "Hoodlums UK",
    "url": "https://hoodlumsuk.com/collections/pokemon",
    "skip": null,
    "error": null,
-   "mode": "page",
+   "mode": "shopify",
    "items": [
     {
      "title": "Pok\u00e9mon Center Ascended Heroes Elite Trainer Box",
-     "url": "https://hoodlumsuk.com/collections/pokemon"
+     "price": 480.0,
+     "available": true,
+     "url": "https://hoodlumsuk.com/products/pokemon-centre-mega-evolution-ascended-heroes-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://hoodlumsuk.com/cart/56859591278857:1"
+    },
+    {
+     "title": "Pok\u00e9mon Center Chaos Rising Elite Trainer Box",
+     "price": 206.0,
+     "available": true,
+     "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-chaos-rising-pokemon-center-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://hoodlumsuk.com/cart/57086168531209:1"
     },
     {
      "title": "Pok\u00e9mon TCG 30Th Celebration Booster Bundle",
-     "url": "https://hoodlumsuk.com/collections/pokemon"
+     "price": 131.0,
+     "available": true,
+     "url": "https://hoodlumsuk.com/products/pokemon-tcg-30th-celebration-booster-bundle",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://hoodlumsuk.com/cart/57372567994633:1"
     },
     {
      "title": "Pok\u00e9mon TCG 30th Celebration Elite Trainer Box",
-     "url": "https://hoodlumsuk.com/collections/pokemon"
+     "price": 247.0,
+     "available": true,
+     "url": "https://hoodlumsuk.com/products/pokemon-tcg-elite-trainer-box-30th-celebration",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://hoodlumsuk.com/cart/57337486278921:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG 30th Celebration Greninja ex Tin",
+     "price": 117.0,
+     "available": true,
+     "url": "https://hoodlumsuk.com/products/pokemon-tcg-30th-celebration-greninja-ex-tin",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://hoodlumsuk.com/cart/57363307495689:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG 30th Celebration Poster Collection",
+     "price": 96.0,
+     "available": true,
+     "url": "https://hoodlumsuk.com/products/pokemon-tcg-30th-celebration-poster-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://hoodlumsuk.com/cart/57339606991113:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG 30th Celebration Sylveon ex Tin",
+     "price": 117.0,
+     "available": false,
+     "url": "https://hoodlumsuk.com/products/pokemon-tcg-30th-celebration-sylveon-ex-tin",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://hoodlumsuk.com/cart/57363304808713:1"
     },
     {
      "title": "Pok\u00e9mon TCG Ascended Heroes Booster Bundle (6 Packs)",
-     "url": "https://hoodlumsuk.com/collections/pokemon"
+     "price": 131.0,
+     "available": true,
+     "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-ascended-heroes-booster-bundle-6-packs",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://hoodlumsuk.com/cart/57037116932361:1"
     },
     {
      "title": "Pok\u00e9mon TCG Ascended Heroes Elite Trainer Box",
-     "url": "https://hoodlumsuk.com/collections/pokemon"
+     "price": 261.0,
+     "available": true,
+     "url": "https://hoodlumsuk.com/products/pokemon-mega-evolution-ascended-heroes-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://hoodlumsuk.com/cart/56835207299337:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG Ascended Heroes First Partners Deluxe Pin Collection",
+     "price": 124.0,
+     "available": true,
+     "url": "https://hoodlumsuk.com/products/pokemon-tcg-ascended-heroes-first-partners-deluxe-pin-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://hoodlumsuk.com/cart/57023455265033:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG Ascended Heroes Mega Gardevoir Premium Poster Collection",
+     "price": 261.0,
+     "available": true,
+     "url": "https://hoodlumsuk.com/products/pokemon-tcg-ascended-heroes-mega-gardevoir-premium-poster-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://hoodlumsuk.com/cart/57023446319369:1"
     },
     {
      "title": "Pok\u00e9mon TCG Ascended Heroes Mega Lucario Premium Poster Collection",
-     "url": "https://hoodlumsuk.com/collections/pokemon"
+     "price": 261.0,
+     "available": true,
+     "url": "https://hoodlumsuk.com/products/pokemon-tcg-ascended-heroes-mega-lucario-premium-poster-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://hoodlumsuk.com/cart/57023448547593:1"
     },
     {
      "title": "Pok\u00e9mon TCG Black Bolt Booster Bundle (6 Packs)",
-     "url": "https://hoodlumsuk.com/collections/pokemon"
+     "price": 144.0,
+     "available": true,
+     "url": "https://hoodlumsuk.com/products/pokemon-scarlet-violet-black-bolt-booster-bundle",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://hoodlumsuk.com/cart/56095439749385:1"
     },
     {
      "title": "Pok\u00e9mon TCG Black Bolt Elite Trainer Box",
-     "url": "https://hoodlumsuk.com/collections/pokemon"
+     "price": 261.0,
+     "available": true,
+     "url": "https://hoodlumsuk.com/products/pokemon-scarlet-violet-black-bolt-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://hoodlumsuk.com/cart/55920133177609:1"
     },
     {
      "title": "Pok\u00e9mon TCG Chaos Rising Booster Bundle",
-     "url": "https://hoodlumsuk.com/collections/pokemon"
+     "price": 103.0,
+     "available": true,
+     "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-chaos-rising-booster-bundle",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://hoodlumsuk.com/cart/57086169317641:1"
     },
     {
      "title": "Pok\u00e9mon TCG Chaos Rising Booster Display Box (36 Packs)",
-     "url": "https://hoodlumsuk.com/collections/pokemon"
+     "price": 343.0,
+     "available": true,
+     "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-chaos-rising-boosters-display-36",
+     "over_rrp": true,
+     "rrp": 130.0,
+     "cart": "https://hoodlumsuk.com/cart/57086170923273:1"
     },
     {
      "title": "Pok\u00e9mon TCG Chaos Rising Elite Trainer Box",
-     "url": "https://hoodlumsuk.com/collections/pokemon"
+     "price": 151.0,
+     "available": true,
+     "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-chaos-rising-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://hoodlumsuk.com/cart/57086171709705:1"
     },
     {
      "title": "Pok\u00e9mon TCG Destined Rivals Elite Trainer Box",
-     "url": "https://hoodlumsuk.com/collections/pokemon"
+     "price": 165.0,
+     "available": true,
+     "url": "https://hoodlumsuk.com/products/pokemon-scarlet-violet-destined-rivals-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://hoodlumsuk.com/cart/55920150642953:1"
     },
     {
      "title": "Pok\u00e9mon TCG Mega Charizard X ex Ultra Premium Collection",
-     "url": "https://hoodlumsuk.com/collections/pokemon"
+     "price": 370.0,
+     "available": true,
+     "url": "https://hoodlumsuk.com/products/pokemon-mega-charizard-x-ex-ultra-premium-collection",
+     "over_rrp": true,
+     "rrp": 169.99,
+     "cart": "https://hoodlumsuk.com/cart/56456644722953:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG Mega Evolution Booster Box (36 Packs)",
+     "price": 452.0,
+     "available": false,
+     "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-booster-box-36-pack",
+     "over_rrp": true,
+     "rrp": 130.0,
+     "cart": "https://hoodlumsuk.com/cart/56241113825545:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG Mega Evolution Gardevoir Elite Trainer Box",
+     "price": 178.0,
+     "available": false,
+     "url": "https://hoodlumsuk.com/products/pokemon-trading-card-game-tcg-mega-evolution-mega-gardevoir-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://hoodlumsuk.com/cart/56280231215369:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG Mega Evolution Half Booster Box (18 Packs)",
+     "price": 206.0,
+     "available": false,
+     "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-half-booster-box",
+     "over_rrp": true,
+     "rrp": 130.0,
+     "cart": "https://hoodlumsuk.com/cart/56332023169289:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG Mega Evolution Lucario Elite Trainer Box",
+     "price": 261.0,
+     "available": false,
+     "url": "https://hoodlumsuk.com/products/untitled-oct16_20-04",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://hoodlumsuk.com/cart/56300413223177:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG Perfect Order Booster Bundle (6 Packs)",
+     "price": 103.0,
+     "available": true,
+     "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-perfect-order-booster-bundle",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://hoodlumsuk.com/cart/56928628343049:1"
     },
     {
      "title": "Pok\u00e9mon TCG Perfect Order Booster Display Box (36 Packs)",
-     "url": "https://hoodlumsuk.com/collections/pokemon"
+     "price": 315.0,
+     "available": true,
+     "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-perfect-order-booster-display-box-36-packs",
+     "over_rrp": true,
+     "rrp": 130.0,
+     "cart": "https://hoodlumsuk.com/cart/56928582566153:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG Perfect Order Elite Trainer Box",
+     "price": 137.0,
+     "available": true,
+     "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-perfect-order-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://hoodlumsuk.com/cart/56928568148233:1"
     },
     {
      "title": "Pok\u00e9mon TCG Perfect Order Half Booster Box (18 Packs)",
-     "url": "https://hoodlumsuk.com/collections/pokemon"
+     "price": 165.0,
+     "available": true,
+     "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-perfect-order-half-booster-box-18-packs",
+     "over_rrp": true,
+     "rrp": 130.0,
+     "cart": "https://hoodlumsuk.com/cart/56928642236681:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG Phantasmal Flames Booster Box (36 Packs)",
+     "price": 548.0,
+     "available": false,
+     "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-phantasmal-flames-booster-box-36-pack",
+     "over_rrp": true,
+     "rrp": 130.0,
+     "cart": "https://hoodlumsuk.com/cart/56389228626185:1"
     },
     {
      "title": "Pok\u00e9mon TCG Phantasmal Flames Booster Bundle (6 Packs)",
-     "url": "https://hoodlumsuk.com/collections/pokemon"
+     "price": 131.0,
+     "available": true,
+     "url": "https://hoodlumsuk.com/products/pokemon-mega-evolution-phantasmal-flames-booster-bundle-pk6",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://hoodlumsuk.com/cart/56390982140169:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG Phantasmal Flames Elite Trainer Box",
+     "price": 206.0,
+     "available": false,
+     "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-phantasmal-flames-elite-trainer-box-pre-order",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://hoodlumsuk.com/cart/56389206638857:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG Phantasmal Flames Half Booster Box (18 Packs)",
+     "price": 206.0,
+     "available": false,
+     "url": "https://hoodlumsuk.com/products/pokemon-mega-evolution-phantasmal-flames-half-booster-box-18-packs",
+     "over_rrp": true,
+     "rrp": 130.0,
+     "cart": "https://hoodlumsuk.com/cart/56456644821257:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG Prismatic Evolutions Booster Bundle (6 Packs)",
+     "price": 131.0,
+     "available": false,
+     "url": "https://hoodlumsuk.com/products/pokemon-tcg-scarlet-violet-prismatic-evolutions-booster-bundle-6-packs",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://hoodlumsuk.com/cart/56022770417929:1"
     },
     {
      "title": "Pok\u00e9mon TCG Prismatic Evolutions Elite Trainer Box",
-     "url": "https://hoodlumsuk.com/collections/pokemon"
+     "price": 329.0,
+     "available": true,
+     "url": "https://hoodlumsuk.com/products/pokemon-tcg-scarlet-violet-prismatic-evolution-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://hoodlumsuk.com/cart/55920156541193:1"
     },
     {
      "title": "Pok\u00e9mon TCG Prismatic Evolutions Premium Figure Collection",
-     "url": "https://hoodlumsuk.com/collections/pokemon"
+     "price": 302.0,
+     "available": true,
+     "url": "https://hoodlumsuk.com/products/pokemon-tcg-prismatic-evolution-premium-figure-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://hoodlumsuk.com/cart/56333423182089:1"
     },
     {
      "title": "Pok\u00e9mon TCG Prismatic Evolutions Super-Premium Collection",
-     "url": "https://hoodlumsuk.com/collections/pokemon"
+     "price": 384.0,
+     "available": true,
+     "url": "https://hoodlumsuk.com/products/pokemon-scarlet-violet-prismatic-evolutions-super-premium-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://hoodlumsuk.com/cart/56007068123401:1"
     },
     {
-     "title": "Pok\u00e9mon TCG: Booster Boxes and ETBs | Hoodlums UK",
-     "url": "https://hoodlumsuk.com/collections/pokemon"
+     "title": "Pok\u00e9mon TCG White Flare Booster Bundle (6 Packs)",
+     "price": 96.0,
+     "available": false,
+     "url": "https://hoodlumsuk.com/products/pokemon-scarlet-violet-white-flare-booster-bundle",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://hoodlumsuk.com/cart/56095443845385:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG White Flare Elite Trainer Box",
+     "price": 178.0,
+     "available": false,
+     "url": "https://hoodlumsuk.com/products/pokemon-scarlet-violet-white-flare-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9746
+   "uptime": 0.9751
   },
   {
    "name": "The TCG Shop",
@@ -8956,7 +9218,7 @@
      "cart": "https://www.japan2uk.com/cart/65092183163257:1"
     }
    ],
-   "uptime": 0.9852
+   "uptime": 0.9855
   },
   {
    "name": "Asmodee UK",
@@ -9212,6 +9474,162 @@
   }
  ],
  "alerts": [
+  {
+   "time": "2026-11-03T14:43:52+00:00",
+   "site": "Hoodlums UK",
+   "text": "NEW: Pok\u00e9mon TCG 30Th Celebration Booster Bundle \u00a3131.00 (over RRP)",
+   "url": "https://hoodlumsuk.com/cart/57372567994633:1"
+  },
+  {
+   "time": "2026-11-03T14:43:52+00:00",
+   "site": "Hoodlums UK",
+   "text": "NEW: Pok\u00e9mon TCG 30th Celebration Elite Trainer Box \u00a3247.00 (over RRP)",
+   "url": "https://hoodlumsuk.com/cart/57337486278921:1"
+  },
+  {
+   "time": "2026-11-03T14:43:52+00:00",
+   "site": "Hoodlums UK",
+   "text": "NEW: Pok\u00e9mon TCG Destined Rivals Elite Trainer Box \u00a3165.00 (over RRP)",
+   "url": "https://hoodlumsuk.com/cart/55920150642953:1"
+  },
+  {
+   "time": "2026-11-03T14:43:52+00:00",
+   "site": "Hoodlums UK",
+   "text": "NEW: Pok\u00e9mon TCG Ascended Heroes Booster Bundle (6 Packs) \u00a3131.00 (over RRP)",
+   "url": "https://hoodlumsuk.com/cart/57037116932361:1"
+  },
+  {
+   "time": "2026-11-03T14:43:52+00:00",
+   "site": "Hoodlums UK",
+   "text": "NEW: Pok\u00e9mon TCG Ascended Heroes Elite Trainer Box \u00a3261.00 (over RRP)",
+   "url": "https://hoodlumsuk.com/cart/56835207299337:1"
+  },
+  {
+   "time": "2026-11-03T14:43:52+00:00",
+   "site": "Hoodlums UK",
+   "text": "NEW: Pok\u00e9mon TCG Phantasmal Flames Booster Bundle (6 Packs) \u00a3131.00 (over RRP)",
+   "url": "https://hoodlumsuk.com/cart/56390982140169:1"
+  },
+  {
+   "time": "2026-11-03T14:43:52+00:00",
+   "site": "Hoodlums UK",
+   "text": "NEW: Pok\u00e9mon TCG Mega Charizard X ex Ultra Premium Collection \u00a3370.00 (over RRP)",
+   "url": "https://hoodlumsuk.com/cart/56456644722953:1"
+  },
+  {
+   "time": "2026-11-03T14:43:52+00:00",
+   "site": "Hoodlums UK",
+   "text": "NEW: Pok\u00e9mon TCG Prismatic Evolutions Super-Premium Collection \u00a3384.00",
+   "url": "https://hoodlumsuk.com/cart/56007068123401:1"
+  },
+  {
+   "time": "2026-11-03T14:43:52+00:00",
+   "site": "Hoodlums UK",
+   "text": "NEW: Pok\u00e9mon TCG Black Bolt Elite Trainer Box \u00a3261.00 (over RRP)",
+   "url": "https://hoodlumsuk.com/cart/55920133177609:1"
+  },
+  {
+   "time": "2026-11-03T14:43:52+00:00",
+   "site": "Hoodlums UK",
+   "text": "NEW: Pok\u00e9mon TCG Prismatic Evolutions Premium Figure Collection \u00a3302.00",
+   "url": "https://hoodlumsuk.com/cart/56333423182089:1"
+  },
+  {
+   "time": "2026-11-03T14:43:52+00:00",
+   "site": "Hoodlums UK",
+   "text": "NEW: Pok\u00e9mon TCG Prismatic Evolutions Elite Trainer Box \u00a3329.00 (over RRP)",
+   "url": "https://hoodlumsuk.com/cart/55920156541193:1"
+  },
+  {
+   "time": "2026-11-03T14:43:52+00:00",
+   "site": "Hoodlums UK",
+   "text": "NEW: Pok\u00e9mon TCG Ascended Heroes Mega Lucario Premium Poster Collection \u00a3261.00",
+   "url": "https://hoodlumsuk.com/cart/57023448547593:1"
+  },
+  {
+   "time": "2026-11-03T14:43:52+00:00",
+   "site": "Hoodlums UK",
+   "text": "NEW: Pok\u00e9mon TCG Perfect Order Half Booster Box (18 Packs) \u00a3165.00 (over RRP)",
+   "url": "https://hoodlumsuk.com/cart/56928642236681:1"
+  },
+  {
+   "time": "2026-11-03T14:43:52+00:00",
+   "site": "Hoodlums UK",
+   "text": "NEW: Pok\u00e9mon Center Ascended Heroes Elite Trainer Box \u00a3480.00 (over RRP)",
+   "url": "https://hoodlumsuk.com/cart/56859591278857:1"
+  },
+  {
+   "time": "2026-11-03T14:43:52+00:00",
+   "site": "Hoodlums UK",
+   "text": "NEW: Pok\u00e9mon TCG Black Bolt Booster Bundle (6 Packs) \u00a3144.00 (over RRP)",
+   "url": "https://hoodlumsuk.com/cart/56095439749385:1"
+  },
+  {
+   "time": "2026-11-03T14:43:52+00:00",
+   "site": "Hoodlums UK",
+   "text": "NEW: Pok\u00e9mon TCG Chaos Rising Elite Trainer Box \u00a3151.00 (over RRP)",
+   "url": "https://hoodlumsuk.com/cart/57086171709705:1"
+  },
+  {
+   "time": "2026-11-03T14:43:52+00:00",
+   "site": "Hoodlums UK",
+   "text": "NEW: Pok\u00e9mon TCG Chaos Rising Booster Display Box (36 Packs) \u00a3343.00 (over RRP)",
+   "url": "https://hoodlumsuk.com/cart/57086170923273:1"
+  },
+  {
+   "time": "2026-11-03T14:43:52+00:00",
+   "site": "Hoodlums UK",
+   "text": "NEW: Pok\u00e9mon TCG Chaos Rising Booster Bundle \u00a3103.00 (over RRP)",
+   "url": "https://hoodlumsuk.com/cart/57086169317641:1"
+  },
+  {
+   "time": "2026-11-03T14:43:52+00:00",
+   "site": "Hoodlums UK",
+   "text": "NEW: Pok\u00e9mon TCG Perfect Order Booster Display Box (36 Packs) \u00a3315.00 (over RRP)",
+   "url": "https://hoodlumsuk.com/cart/56928582566153:1"
+  },
+  {
+   "time": "2026-11-03T14:43:52+00:00",
+   "site": "Hoodlums UK",
+   "text": "NEW: Pok\u00e9mon TCG Ascended Heroes Mega Gardevoir Premium Poster Collection \u00a3261.00",
+   "url": "https://hoodlumsuk.com/cart/57023446319369:1"
+  },
+  {
+   "time": "2026-11-03T14:43:52+00:00",
+   "site": "Hoodlums UK",
+   "text": "NEW: Pok\u00e9mon TCG Perfect Order Elite Trainer Box \u00a3137.00 (over RRP)",
+   "url": "https://hoodlumsuk.com/cart/56928568148233:1"
+  },
+  {
+   "time": "2026-11-03T14:43:52+00:00",
+   "site": "Hoodlums UK",
+   "text": "NEW: Pok\u00e9mon TCG 30th Celebration Greninja ex Tin \u00a3117.00",
+   "url": "https://hoodlumsuk.com/cart/57363307495689:1"
+  },
+  {
+   "time": "2026-11-03T14:43:52+00:00",
+   "site": "Hoodlums UK",
+   "text": "NEW: Pok\u00e9mon TCG 30th Celebration Poster Collection \u00a396.00",
+   "url": "https://hoodlumsuk.com/cart/57339606991113:1"
+  },
+  {
+   "time": "2026-11-03T14:43:52+00:00",
+   "site": "Hoodlums UK",
+   "text": "NEW: Pok\u00e9mon Center Chaos Rising Elite Trainer Box \u00a3206.00 (over RRP)",
+   "url": "https://hoodlumsuk.com/cart/57086168531209:1"
+  },
+  {
+   "time": "2026-11-03T14:43:52+00:00",
+   "site": "Hoodlums UK",
+   "text": "NEW: Pok\u00e9mon TCG Ascended Heroes First Partners Deluxe Pin Collection \u00a3124.00",
+   "url": "https://hoodlumsuk.com/cart/57023455265033:1"
+  },
+  {
+   "time": "2026-11-03T14:43:52+00:00",
+   "site": "Hoodlums UK",
+   "text": "NEW: Pok\u00e9mon TCG Perfect Order Booster Bundle (6 Packs) \u00a3103.00 (over RRP)",
+   "url": "https://hoodlumsuk.com/cart/56928628343049:1"
+  },
   {
    "time": "2026-11-03T14:31:07+00:00",
    "site": "Hoodlums UK",
