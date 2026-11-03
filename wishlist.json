@@ -23,17 +23,71 @@
       "delta reign",
       "booster box"
     ],
-    "max": 130.0,
+    "max": 155.0,
+    "rrp_status": "confirmed"
+  },
+  {
+    "name": "Delta Reign Build & Battle Box",
+    "match": [
+      "delta reign",
+      "build & battle"
+    ],
+    "max": 19.99,
     "rrp_status": "estimate"
   },
   {
-    "name": "30th Celebration Ultra-Premium Collection",
+    "name": "Delta Reign 3-pack blisters",
+    "match": [
+      "delta reign",
+      "blister"
+    ],
+    "max": 14.99,
+    "rrp_status": "estimate"
+  },
+  {
+    "name": "30th Celebration Ditto Premium Collection",
+    "match": [
+      "30th celebration",
+      "ditto"
+    ],
+    "max": null,
+    "rrp_status": "unknown"
+  },
+  {
+    "name": "30th Celebration Mew / Mewtwo Figure Collections",
+    "match": [
+      "30th celebration",
+      "figure collection"
+    ],
+    "max": null,
+    "rrp_status": "unknown"
+  },
+  {
+    "name": "30th Celebration Day & Night Ultra-Premium Collections",
     "match": [
       "30th celebration",
       "ultra"
     ],
     "max": 169.99,
     "rrp_status": "reported"
+  },
+  {
+    "name": "30th Celebration Elite Trainer Box",
+    "match": [
+      "30th celebration",
+      "elite trainer"
+    ],
+    "max": 49.99,
+    "rrp_status": "confirmed"
+  },
+  {
+    "name": "30th Celebration Booster Bundle",
+    "match": [
+      "30th celebration",
+      "booster bundle"
+    ],
+    "max": 24.99,
+    "rrp_status": "confirmed"
   },
   {
     "name": "Pitch Black Elite Trainer Box",
@@ -59,8 +113,8 @@
       "pitch black",
       "booster box"
     ],
-    "max": 130.0,
-    "rrp_status": "estimate"
+    "max": 155.0,
+    "rrp_status": "confirmed"
   },
   {
     "name": "Chaos Rising Elite Trainer Box",
@@ -86,8 +140,8 @@
       "chaos rising",
       "booster box"
     ],
-    "max": 130.0,
-    "rrp_status": "estimate"
+    "max": 155.0,
+    "rrp_status": "confirmed"
   },
   {
     "name": "Perfect Order Elite Trainer Box",
@@ -113,25 +167,7 @@
       "perfect order",
       "booster box"
     ],
-    "max": 130.0,
-    "rrp_status": "estimate"
-  },
-  {
-    "name": "30th Celebration Elite Trainer Box",
-    "match": [
-      "30th celebration",
-      "elite trainer"
-    ],
-    "max": 49.99,
-    "rrp_status": "confirmed"
-  },
-  {
-    "name": "30th Celebration Booster Bundle",
-    "match": [
-      "30th celebration",
-      "booster bundle"
-    ],
-    "max": 24.99,
+    "max": 155.0,
     "rrp_status": "confirmed"
   },
   {
@@ -176,7 +212,7 @@
       "phantasmal flames",
       "booster box"
     ],
-    "max": 130.0,
-    "rrp_status": "estimate"
+    "max": 155.0,
+    "rrp_status": "confirmed"
   }
 ]

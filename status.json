@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T15:48:07+00:00",
+ "updated": "2026-11-03T16:00:57+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -99,8 +99,8 @@
      "price": 154.44,
      "available": true,
      "url": "https://www.doublesleeved.co.uk/products/pokemon-tcg-delta-reign-booster-box",
-     "over_rrp": true,
-     "rrp": 130.0,
+     "over_rrp": false,
+     "rrp": 155.0,
      "cart": "https://www.doublesleeved.co.uk/cart/65001978134905:1"
     },
     {
@@ -291,7 +291,7 @@
      "cart": "https://zatu.com/cart/56783225094522:1"
     }
    ],
-   "uptime": 0.989
+   "uptime": 0.9892
   },
   {
    "name": "Hokey Poke Games",
@@ -389,15 +389,6 @@
      "over_rrp": false,
      "rrp": null,
      "cart": "https://hokeypokegames.co.uk/cart/53872280142171:1"
-    },
-    {
-     "title": "Pokemon TCG: Chaos Rising - Elite Trainer Box",
-     "price": 98.99,
-     "available": false,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-chaos-rising-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 49.99,
-     "cart": "https://hokeypokegames.co.uk/cart/53752290443611:1"
     },
     {
      "title": "Pokemon TCG: Combined Powers - Premium Collection",
@@ -508,7 +499,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54575778005339:1"
     }
    ],
-   "uptime": 0.989
+   "uptime": 0.9892
   },
   {
    "name": "Collectors Edge",
@@ -577,7 +568,7 @@
      "available": true,
      "url": "https://collectorsedge.co.uk/products/pokemon-scarlet-violet-journey-together-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://collectorsedge.co.uk/cart/50107219575123:1"
     },
     {
@@ -614,7 +605,7 @@
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-mega-evolution-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://thedicedungeon.co.uk/cart/55839999361403:1"
     },
     {
@@ -650,7 +641,7 @@
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-mega-evolution-phantasmal-flames-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://thedicedungeon.co.uk/cart/55906040873339:1"
     },
     {
@@ -686,7 +677,7 @@
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-scarlet-violet-journey-together-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://thedicedungeon.co.uk/cart/54939289190779:1"
     },
     {
@@ -695,7 +686,7 @@
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-scarlet-violet-surging-sparks-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://thedicedungeon.co.uk/cart/55275989172603:1"
     },
     {
@@ -884,7 +875,7 @@
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-chaos-rising-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://thedicedungeon.co.uk/cart/56263061012859:1"
     },
     {
@@ -911,7 +902,7 @@
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-delta-reign-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://thedicedungeon.co.uk/cart/56559574450555:1"
     },
     {
@@ -929,7 +920,7 @@
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-perfect-order-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://thedicedungeon.co.uk/cart/56166599491963:1"
     },
     {
@@ -947,7 +938,7 @@
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-pitch-black-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://thedicedungeon.co.uk/cart/56339095978363:1"
     },
     {
@@ -1086,7 +1077,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.974
+   "uptime": 0.9745
   },
   {
    "name": "Packrat",
@@ -1355,7 +1346,7 @@
      "available": true,
      "url": "https://titancards.co.uk/products/pokemon-future-flash-sv4m-booster-box-30-booster-packs",
      "over_rrp": false,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
@@ -1536,7 +1527,7 @@
      "available": true,
      "url": "https://tcgparadise.co.uk/products/pokemon-tcg-journey-together-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://tcgparadise.co.uk/cart/54600136524121:1"
     },
     {
@@ -1590,7 +1581,7 @@
      "available": true,
      "url": "https://tcgparadise.co.uk/products/pokemon-tcg-mega-evolution-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://tcgparadise.co.uk/cart/56723365134681:1"
     },
     {
@@ -1652,8 +1643,8 @@
      "price": 150.0,
      "available": false,
      "url": "https://tcgparadise.co.uk/products/pokemon-tcg-paradox-rift-booster-box",
-     "over_rrp": true,
-     "rrp": 130.0,
+     "over_rrp": false,
+     "rrp": 155.0,
      "cart": "https://tcgparadise.co.uk/cart/54600247148889:1"
     },
     {
@@ -1662,7 +1653,7 @@
      "available": true,
      "url": "https://tcgparadise.co.uk/products/pokemon-tcg-perfect-order-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://tcgparadise.co.uk/cart/58807735812441:1"
     },
     {
@@ -1689,7 +1680,7 @@
      "available": false,
      "url": "https://tcgparadise.co.uk/products/pokemon-tcg-phantasmal-flames-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://tcgparadise.co.uk/cart/56723354124633:1"
     },
     {
@@ -1716,7 +1707,7 @@
      "available": true,
      "url": "https://tcgparadise.co.uk/products/pokemon-tcg-pitch-black-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://tcgparadise.co.uk/cart/59172653203801:1"
     },
     {
@@ -1805,8 +1796,8 @@
      "price": 150.0,
      "available": false,
      "url": "https://tcgparadise.co.uk/products/pokemon-tcg-scarlet-violet-booster-box",
-     "over_rrp": true,
-     "rrp": 130.0,
+     "over_rrp": false,
+     "rrp": 155.0,
      "cart": "https://tcgparadise.co.uk/cart/54600260682073:1"
     },
     {
@@ -1814,8 +1805,8 @@
      "price": 150.0,
      "available": false,
      "url": "https://tcgparadise.co.uk/products/pokemon-tcg-stellar-crown-booster-box",
-     "over_rrp": true,
-     "rrp": 130.0,
+     "over_rrp": false,
+     "rrp": 155.0,
      "cart": "https://tcgparadise.co.uk/cart/54600198062425:1"
     },
     {
@@ -1824,7 +1815,7 @@
      "available": false,
      "url": "https://tcgparadise.co.uk/products/pokemon-tcg-surging-sparks-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://tcgparadise.co.uk/cart/54600186560857:1"
     },
     {
@@ -1868,8 +1859,8 @@
      "price": 150.0,
      "available": false,
      "url": "https://tcgparadise.co.uk/products/pokemon-tcg-temporal-forces-booster-box",
-     "over_rrp": true,
-     "rrp": 130.0,
+     "over_rrp": false,
+     "rrp": 155.0,
      "cart": "https://tcgparadise.co.uk/cart/54600230633817:1"
     },
     {
@@ -1878,7 +1869,7 @@
      "available": false,
      "url": "https://tcgparadise.co.uk/products/pokemon-tcg-twilight-masquerade-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://tcgparadise.co.uk/cart/54600224735577:1"
     },
     {
@@ -1909,7 +1900,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9714
+   "uptime": 0.972
   },
   {
    "name": "TCGora",
@@ -2104,7 +2095,7 @@
      "available": true,
      "url": "https://tcgora.com/products/pokemon-tcg-mega-evolution-delta-reign-booster-box-36-packs-pre-order",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://tcgora.com/cart/56890857685316:1"
     },
     {
@@ -2297,7 +2288,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.9771
+   "uptime": 0.9776
   },
   {
    "name": "Pixel Hub",
@@ -2357,7 +2348,7 @@
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-destined-rivals-booster-box-case-6-booster-boxes",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://pixel-hub.co.uk/cart/51573165293910:1"
     },
     {
@@ -2375,7 +2366,7 @@
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-destined-rivals-booster-box-36-packs",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://pixel-hub.co.uk/cart/50259136708950:1"
     },
     {
@@ -2393,7 +2384,7 @@
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-scarlet-violet-destined-rivals-half-booster-box-18-boosters",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://pixel-hub.co.uk/cart/50524277277014:1"
     },
     {
@@ -2429,7 +2420,7 @@
      "available": false,
      "url": "https://pixel-hub.co.uk/products/surging-sparks-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://pixel-hub.co.uk/cart/50166252863830:1"
     },
     {
@@ -2474,7 +2465,7 @@
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolutions-half-booster-box-18-packs",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://pixel-hub.co.uk/cart/51573118959958:1"
     },
     {
@@ -2591,7 +2582,7 @@
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-journey-together-sv09-booster-box-36-packs-sealed-case-of-6",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://pixel-hub.co.uk/cart/51573169848662:1"
     },
     {
@@ -2654,7 +2645,7 @@
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolution-booster-display",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://pixel-hub.co.uk/cart/51834793460054:1"
     },
     {
@@ -2690,7 +2681,7 @@
      "available": true,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolution-chaos-rising-boosters-display-cdu-36",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://pixel-hub.co.uk/cart/53661978919254:1"
     },
     {
@@ -2726,7 +2717,7 @@
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolution-perfect-order-booster-display-cdu-36",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://pixel-hub.co.uk/cart/52909781746006:1"
     },
     {
@@ -2735,7 +2726,7 @@
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolution-phantasmal-flames-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://pixel-hub.co.uk/cart/51775840256342:1"
     },
     {
@@ -2762,7 +2753,7 @@
      "available": true,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolution-pitch-black-booster-display-cdu",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://pixel-hub.co.uk/cart/54125464093014:1"
     },
     {
@@ -2780,7 +2771,7 @@
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolution-chaos-rising-half-booster-box-18-packs",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://pixel-hub.co.uk/cart/54025009070422:1"
     },
     {
@@ -2987,7 +2978,7 @@
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-obsidian-flames-booster-display-box-36-packs",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://pixel-hub.co.uk/cart/51979323212118:1"
     },
     {
@@ -2996,7 +2987,7 @@
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-paldea-evolved-booster-display-box-36-packs",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://pixel-hub.co.uk/cart/51045010669910:1"
     },
     {
@@ -3023,7 +3014,7 @@
      "available": true,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-storm-emeralda-m6-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://pixel-hub.co.uk/cart/54935607411030:1"
     },
     {
@@ -3094,8 +3085,8 @@
      "price": 145.0,
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-journey-together-half-booster-display",
-     "over_rrp": true,
-     "rrp": 130.0,
+     "over_rrp": false,
+     "rrp": 155.0,
      "cart": "https://pixel-hub.co.uk/cart/49812620673366:1"
     },
     {
@@ -3132,7 +3123,7 @@
    "name": "Poke Collect",
    "url": "https://poke-collect.com/",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -3208,7 +3199,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9101
+   "uptime": 0.9119
   },
   {
    "name": "Card Cavern",
@@ -3273,7 +3264,7 @@
      "available": false,
      "url": "https://dicecupcafe.co.uk/products/pokemon-delta-reign-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://dicecupcafe.co.uk/cart/67610206470535:1"
     },
     {
@@ -3309,7 +3300,7 @@
      "available": false,
      "url": "https://dicecupcafe.co.uk/products/pokemon-paradox-rift-booster-box",
      "over_rrp": false,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://dicecupcafe.co.uk/cart/44562032754902:1"
     },
     {
@@ -3318,7 +3309,7 @@
      "available": false,
      "url": "https://dicecupcafe.co.uk/products/pkm-phantasmal-flames-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://dicecupcafe.co.uk/cart/56092099412345:1"
     },
     {
@@ -3327,7 +3318,7 @@
      "available": false,
      "url": "https://dicecupcafe.co.uk/products/pokemon-surging-sparks-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://dicecupcafe.co.uk/cart/53484803260793:1"
     },
     {
@@ -3336,7 +3327,7 @@
      "available": false,
      "url": "https://dicecupcafe.co.uk/products/pokemon-temporal-forces-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
@@ -3363,8 +3354,8 @@
      "price": 154.25,
      "available": false,
      "url": "https://thecardvault.co.uk/products/pokemon-tcg-mega-evolution-base-set-booster-box-display-36-packs",
-     "over_rrp": true,
-     "rrp": 130.0,
+     "over_rrp": false,
+     "rrp": 155.0,
      "cart": "https://thecardvault.co.uk/cart/46674194956526:1"
     },
     {
@@ -3372,8 +3363,8 @@
      "price": 154.25,
      "available": false,
      "url": "https://thecardvault.co.uk/products/pokemon-tcg-mega-evolution-perfect-order-booster-box-36x-packs",
-     "over_rrp": true,
-     "rrp": 130.0,
+     "over_rrp": false,
+     "rrp": 155.0,
      "cart": "https://thecardvault.co.uk/cart/47493389123822:1"
     },
     {
@@ -3923,7 +3914,7 @@
      "available": true,
      "url": "https://iconic-tcg.com/products/pokemon-tcg-chaos-rising-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://iconic-tcg.com/cart/58325669871948:1"
     },
     {
@@ -3968,7 +3959,7 @@
      "available": true,
      "url": "https://iconic-tcg.com/products/chaos-rising-booster-box-case",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://iconic-tcg.com/cart/58394755891532:1"
     },
     {
@@ -4049,7 +4040,7 @@
      "available": true,
      "url": "https://iconic-tcg.com/products/destined-rivals-booster-box-case",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://iconic-tcg.com/cart/58394758381900:1"
     },
     {
@@ -4229,7 +4220,7 @@
      "available": false,
      "url": "https://iconic-tcg.com/products/pokemon-tcg-delta-reign-booster-box-36-packs",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://iconic-tcg.com/cart/58980531732812:1"
     },
     {
@@ -4481,7 +4472,7 @@
      "available": true,
      "url": "https://iconic-tcg.com/products/pokemon-tcg-phantasmal-flames-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://iconic-tcg.com/cart/58325676228940:1"
     },
     {
@@ -4499,7 +4490,7 @@
      "available": true,
      "url": "https://iconic-tcg.com/products/pokemon-tcg-phantasmal-flames-half-booster-box-18-packs",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://iconic-tcg.com/cart/58325676687692:1"
     },
     {
@@ -4508,7 +4499,7 @@
      "available": true,
      "url": "https://iconic-tcg.com/products/phantasmal-flames-booster-box-case",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://iconic-tcg.com/cart/58394757857612:1"
     },
     {
@@ -4881,7 +4872,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9858
+   "uptime": 0.9861
   },
   {
    "name": "Evolvault",
@@ -4977,7 +4968,7 @@
      "available": false,
      "url": "https://evolvault.com/products/pokemon-chaos-rising-booster-box-36-packs",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://evolvault.com/cart/61600152846666:1"
     },
     {
@@ -4995,7 +4986,7 @@
      "available": true,
      "url": "https://evolvault.com/products/pokemon-delta-reign-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://evolvault.com/cart/63738003161418:1"
     },
     {
@@ -5022,7 +5013,7 @@
      "available": false,
      "url": "https://evolvault.com/products/destined-rivals-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://evolvault.com/cart/52921980551498:1"
     },
     {
@@ -5085,7 +5076,7 @@
      "available": false,
      "url": "https://evolvault.com/products/mega-evolutions-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://evolvault.com/cart/52860601762122:1"
     },
     {
@@ -5112,7 +5103,7 @@
      "available": false,
      "url": "https://evolvault.com/products/phantasmal-flames-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://evolvault.com/cart/52855657693514:1"
     },
     {
@@ -5139,7 +5130,7 @@
      "available": false,
      "url": "https://evolvault.com/products/pitch-black-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://evolvault.com/cart/62228340670794:1"
     },
     {
@@ -5188,7 +5179,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9471
+   "uptime": 0.9482
   },
   {
    "name": "Hobby Addicts",
@@ -5302,7 +5293,7 @@
      "available": false,
      "url": "https://www.hobby-addicts.com/products/pokemon-chaos-rising-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://www.hobby-addicts.com/cart/53363835732275:1"
     },
     {
@@ -5320,7 +5311,7 @@
      "available": false,
      "url": "https://www.hobby-addicts.com/products/pokemon-chilling-reign-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://www.hobby-addicts.com/cart/39847901790393:1"
     },
     {
@@ -5356,7 +5347,7 @@
      "available": false,
      "url": "https://www.hobby-addicts.com/products/pokemon-darkness-ablaze-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://www.hobby-addicts.com/cart/39332547526841:1"
     },
     {
@@ -5437,7 +5428,7 @@
      "available": false,
      "url": "https://www.hobby-addicts.com/products/pokemon-evolving-skies-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://www.hobby-addicts.com/cart/40372077953209:1"
     },
     {
@@ -5455,7 +5446,7 @@
      "available": false,
      "url": "https://www.hobby-addicts.com/products/pokemon-fusion-strike-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://www.hobby-addicts.com/cart/41489093361849:1"
     },
     {
@@ -5527,7 +5518,7 @@
      "available": false,
      "url": "https://www.hobby-addicts.com/products/pokemon-journey-together-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://www.hobby-addicts.com/cart/50957325304115:1"
     },
     {
@@ -5608,7 +5599,7 @@
      "available": false,
      "url": "https://www.hobby-addicts.com/products/pokemon-mega-evolution-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://www.hobby-addicts.com/cart/52443024097587:1"
     },
     {
@@ -5626,7 +5617,7 @@
      "available": false,
      "url": "https://www.hobby-addicts.com/products/pokemon-mega-evolution-enhanced-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://www.hobby-addicts.com/cart/52397325091123:1"
     },
     {
@@ -5671,7 +5662,7 @@
      "available": false,
      "url": "https://www.hobby-addicts.com/products/pokemon-obsidian-flames-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://www.hobby-addicts.com/cart/45226437181747:1"
     },
     {
@@ -5860,7 +5851,7 @@
      "available": false,
      "url": "https://www.hobby-addicts.com/products/pokemon-paradox-rift-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://www.hobby-addicts.com/cart/46368157532467:1"
     },
     {
@@ -5878,7 +5869,7 @@
      "available": false,
      "url": "https://www.hobby-addicts.com/products/pokemon-perfect-order-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://www.hobby-addicts.com/cart/53108537426227:1"
     },
     {
@@ -5914,7 +5905,7 @@
      "available": false,
      "url": "https://www.hobby-addicts.com/products/pokemon-pitch-black-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://www.hobby-addicts.com/cart/53645858079027:1"
     },
     {
@@ -6040,7 +6031,7 @@
      "available": false,
      "url": "https://www.hobby-addicts.com/products/pokemon-scarlet-violet-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://www.hobby-addicts.com/cart/44257819820339:1"
     },
     {
@@ -6210,8 +6201,8 @@
      "price": 144.99,
      "available": false,
      "url": "https://www.hobby-addicts.com/products/pokemon-stellar-crown-booster-box",
-     "over_rrp": true,
-     "rrp": 130.0,
+     "over_rrp": false,
+     "rrp": 155.0,
      "cart": "https://www.hobby-addicts.com/cart/49819982463283:1"
     },
     {
@@ -6247,7 +6238,7 @@
      "available": false,
      "url": "https://www.hobby-addicts.com/products/pokemon-surging-sparks-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://www.hobby-addicts.com/cart/50133272199475:1"
     },
     {
@@ -6283,7 +6274,7 @@
      "available": false,
      "url": "https://www.hobby-addicts.com/products/pokemon-temporal-forces-booster-box",
      "over_rrp": false,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://www.hobby-addicts.com/cart/48126927733043:1"
     },
     {
@@ -6319,7 +6310,7 @@
      "available": false,
      "url": "https://www.hobby-addicts.com/products/pokemon-twilight-masquerade-booster-box",
      "over_rrp": false,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://www.hobby-addicts.com/cart/48852174143795:1"
     },
     {
@@ -6355,7 +6346,7 @@
      "available": false,
      "url": "https://www.hobby-addicts.com/products/pokemon-vivid-voltage-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://www.hobby-addicts.com/cart/38639541780665:1"
     },
     {
@@ -6368,7 +6359,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.989
+   "uptime": 0.9892
   },
   {
    "name": "Hoodlums UK",
@@ -6518,7 +6509,7 @@
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-chaos-rising-boosters-display-36",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://hoodlumsuk.com/cart/57086170923273:1"
     },
     {
@@ -6554,7 +6545,7 @@
      "available": false,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-booster-box-36-pack",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://hoodlumsuk.com/cart/56241113825545:1"
     },
     {
@@ -6572,7 +6563,7 @@
      "available": false,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-half-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://hoodlumsuk.com/cart/56332023169289:1"
     },
     {
@@ -6599,7 +6590,7 @@
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-perfect-order-booster-display-box-36-packs",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://hoodlumsuk.com/cart/56928582566153:1"
     },
     {
@@ -6617,7 +6608,7 @@
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-perfect-order-half-booster-box-18-packs",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://hoodlumsuk.com/cart/56928642236681:1"
     },
     {
@@ -6626,7 +6617,7 @@
      "available": false,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-phantasmal-flames-booster-box-36-pack",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://hoodlumsuk.com/cart/56389228626185:1"
     },
     {
@@ -6653,7 +6644,7 @@
      "available": false,
      "url": "https://hoodlumsuk.com/products/pokemon-mega-evolution-phantasmal-flames-half-booster-box-18-packs",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://hoodlumsuk.com/cart/56456644821257:1"
     },
     {
@@ -6711,7 +6702,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9776
+   "uptime": 0.978
   },
   {
    "name": "The TCG Shop",
@@ -6771,7 +6762,7 @@
      "available": false,
      "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-scarlet-violet-destined-rivals-booster-box-36",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://www.thetcgshop.co.uk/cart/56994043822464:1"
     },
     {
@@ -6789,7 +6780,7 @@
      "available": false,
      "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-scarlet-violet-journey-together-booster-box-18",
      "over_rrp": false,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://www.thetcgshop.co.uk/cart/56994028192128:1"
     },
     {
@@ -6798,7 +6789,7 @@
      "available": false,
      "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-scarlet-violet-journey-together-booster-box-36",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://www.thetcgshop.co.uk/cart/57143374053760:1"
     },
     {
@@ -6807,7 +6798,7 @@
      "available": false,
      "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-scarlet-violet-surging-sparks-booster-box-36",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://www.thetcgshop.co.uk/cart/58074791248256:1"
     },
     {
@@ -6906,7 +6897,7 @@
      "available": false,
      "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-mega-evolution-delta-reign-booster-display-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://www.thetcgshop.co.uk/cart/60224672661888:1"
     },
     {
@@ -7420,7 +7411,7 @@
      "available": false,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-mega-evolution-phantasmal-flames-booster-display-box-36-packs",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://www.120hp.co.uk/cart/56192299598199:1"
     },
     {
@@ -7573,7 +7564,7 @@
      "available": false,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-perfect-order-booster-display-box-36-packs",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://www.120hp.co.uk/cart/57086059151735:1"
     },
     {
@@ -7717,8 +7708,8 @@
      "price": 154.44,
      "available": false,
      "url": "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-booster-box-36-boosters",
-     "over_rrp": true,
-     "rrp": 130.0,
+     "over_rrp": false,
+     "rrp": 155.0,
      "cart": "https://jetcards.uk/cart/58915278258557:1"
     },
     {
@@ -7800,7 +7791,7 @@
      "available": false,
      "url": "https://www.bbstcg.co.uk/products/pokemon-mega-evolution-pitch-black-booster-box-english-36-packs",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://www.bbstcg.co.uk/cart/57248240796026:1"
     },
     {
@@ -8287,7 +8278,7 @@
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://monstercardcorner.co.uk/cart/58783337185624:1"
     },
     {
@@ -8332,7 +8323,7 @@
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-half-booster-box-18-packs",
      "over_rrp": false,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://monstercardcorner.co.uk/cart/58783337316696:1"
     },
     {
@@ -8521,7 +8512,7 @@
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-mega-evolution-booster-box-36-packs",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://monstercardcorner.co.uk/cart/55939440640344:1"
     },
     {
@@ -8539,7 +8530,7 @@
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-mega-evolution-phantasmal-flames-booster-display-box-36-packs",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://monstercardcorner.co.uk/cart/56037175427416:1"
     },
     {
@@ -8755,7 +8746,7 @@
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-scarlet-violet-destined-rivals-elite-trainer-box-copy",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://monstercardcorner.co.uk/cart/55095076684120:1"
     },
     {
@@ -8772,8 +8763,8 @@
      "price": 139.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-violet-paldea-evolved-half-booster-box-18-packs",
-     "over_rrp": true,
-     "rrp": 130.0,
+     "over_rrp": false,
+     "rrp": 155.0,
      "cart": "https://monstercardcorner.co.uk/cart/55491126165848:1"
     },
     {
@@ -8782,7 +8773,7 @@
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-violet-paradox-rift-booster-box-36-packs-damaged-boxes",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://monstercardcorner.co.uk/cart/56300532695384:1"
     },
     {
@@ -8917,7 +8908,7 @@
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-and-violet-booster-box-36-packs",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://monstercardcorner.co.uk/cart/56099358343512:1"
     },
     {
@@ -8926,7 +8917,7 @@
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/scarlet-and-violet-journey-together-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://monstercardcorner.co.uk/cart/55243025580376:1"
     },
     {
@@ -8998,7 +8989,7 @@
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-and-violet-surging-sparks-booster-box",
      "over_rrp": true,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://monstercardcorner.co.uk/cart/56661849669976:1"
     },
     {
@@ -9133,7 +9124,7 @@
      "available": false,
      "url": "https://www.japan2uk.com/products/pokemon-delta-reign-english-booster-box",
      "over_rrp": false,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://www.japan2uk.com/cart/65088618070393:1"
     },
     {
@@ -9218,7 +9209,7 @@
      "cart": "https://www.japan2uk.com/cart/65092183163257:1"
     }
    ],
-   "uptime": 0.987
+   "uptime": 0.9873
   },
   {
    "name": "Asmodee UK",
@@ -9314,7 +9305,7 @@
      "available": true,
      "url": "https://www.asmodee.co.uk/products/pok1010446101-pokemon-tcg-mega-evolution-delta-reign-booster-display-cdu",
      "over_rrp": false,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://www.asmodee.co.uk/cart/55612038775160:1"
     },
     {
@@ -9332,7 +9323,7 @@
      "available": false,
      "url": "https://www.asmodee.co.uk/products/pok1010425120-pokemon-tcg-mega-evolution-pitch-black-booster-display-cdu",
      "over_rrp": false,
-     "rrp": 130.0,
+     "rrp": 155.0,
      "cart": "https://www.asmodee.co.uk/cart/55519513051512:1"
     },
     {
@@ -9474,6 +9465,18 @@
   }
  ],
  "alerts": [
+  {
+   "time": "2026-11-03T16:00:57+00:00",
+   "site": "Double Sleeved",
+   "text": "New pre-order spotted: Pokemon TCG: Delta Reign - Booster Box (PRE-ORDER)",
+   "url": "https://www.doublesleeved.co.uk/products/pokemon-tcg-delta-reign-booster-box"
+  },
+  {
+   "time": "2026-11-03T16:00:57+00:00",
+   "site": "JET Cards",
+   "text": "New pre-order spotted: Pokemon - Mega Evolution - Delta Reign - Booster Box (36 Boosters) (Preorder)",
+   "url": "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-booster-box-36-boosters"
+  },
   {
    "time": "2026-11-03T14:43:52+00:00",
    "site": "Hoodlums UK",
@@ -9716,17 +9719,71 @@
     "delta reign",
     "booster box"
    ],
-   "max": 130.0,
+   "max": 155.0,
+   "rrp_status": "confirmed"
+  },
+  {
+   "name": "Delta Reign Build & Battle Box",
+   "match": [
+    "delta reign",
+    "build & battle"
+   ],
+   "max": 19.99,
    "rrp_status": "estimate"
   },
   {
-   "name": "30th Celebration Ultra-Premium Collection",
+   "name": "Delta Reign 3-pack blisters",
+   "match": [
+    "delta reign",
+    "blister"
+   ],
+   "max": 14.99,
+   "rrp_status": "estimate"
+  },
+  {
+   "name": "30th Celebration Ditto Premium Collection",
+   "match": [
+    "30th celebration",
+    "ditto"
+   ],
+   "max": null,
+   "rrp_status": "unknown"
+  },
+  {
+   "name": "30th Celebration Mew / Mewtwo Figure Collections",
+   "match": [
+    "30th celebration",
+    "figure collection"
+   ],
+   "max": null,
+   "rrp_status": "unknown"
+  },
+  {
+   "name": "30th Celebration Day & Night Ultra-Premium Collections",
    "match": [
     "30th celebration",
     "ultra"
    ],
    "max": 169.99,
    "rrp_status": "reported"
+  },
+  {
+   "name": "30th Celebration Elite Trainer Box",
+   "match": [
+    "30th celebration",
+    "elite trainer"
+   ],
+   "max": 49.99,
+   "rrp_status": "confirmed"
+  },
+  {
+   "name": "30th Celebration Booster Bundle",
+   "match": [
+    "30th celebration",
+    "booster bundle"
+   ],
+   "max": 24.99,
+   "rrp_status": "confirmed"
   },
   {
    "name": "Pitch Black Elite Trainer Box",
@@ -9752,8 +9809,8 @@
     "pitch black",
     "booster box"
    ],
-   "max": 130.0,
-   "rrp_status": "estimate"
+   "max": 155.0,
+   "rrp_status": "confirmed"
   },
   {
    "name": "Chaos Rising Elite Trainer Box",
@@ -9779,8 +9836,8 @@
     "chaos rising",
     "booster box"
    ],
-   "max": 130.0,
-   "rrp_status": "estimate"
+   "max": 155.0,
+   "rrp_status": "confirmed"
   },
   {
    "name": "Perfect Order Elite Trainer Box",
@@ -9806,25 +9863,7 @@
     "perfect order",
     "booster box"
    ],
-   "max": 130.0,
-   "rrp_status": "estimate"
-  },
-  {
-   "name": "30th Celebration Elite Trainer Box",
-   "match": [
-    "30th celebration",
-    "elite trainer"
-   ],
-   "max": 49.99,
-   "rrp_status": "confirmed"
-  },
-  {
-   "name": "30th Celebration Booster Bundle",
-   "match": [
-    "30th celebration",
-    "booster bundle"
-   ],
-   "max": 24.99,
+   "max": 155.0,
    "rrp_status": "confirmed"
   },
   {
@@ -9869,11 +9908,22 @@
     "phantasmal flames",
     "booster box"
    ],
-   "max": 130.0,
-   "rrp_status": "estimate"
+   "max": 155.0,
+   "rrp_status": "confirmed"
   }
  ],
  "auto_drops": [
+  {
+   "shop": "JET Cards",
+   "name": "Pokemon - Mega Evolution - Delta Reign - Booster Box (36 Boosters) (Preorder)",
+   "url": "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-booster-box-36-boosters",
+   "closes": null,
+   "type": "pre-order",
+   "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
+   "found": "2026-11-03T16:00:57+00:00",
+   "expected": "2026-11-06",
+   "date_checked": "2026-11-03T16:00:57+00:00"
+  },
   {
    "shop": "Evolvault",
    "name": "Pok\u00e9mon 30th Celebration Tech Sticker Collection \u2014 Alolan Exeggutor (Pre-Order)",

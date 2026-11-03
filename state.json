@@ -1819,12 +1819,6 @@
  },
  "Hokey Poke Games": {
   "items": {
-   "53752290443611": [
-    "Pokemon TCG: Chaos Rising - Elite Trainer Box",
-    98.99,
-    false,
-    "https://hokeypokegames.co.uk/products/pokemon-tcg-chaos-rising-elite-trainer-box"
-   ],
    "53872280142171": [
     "Pokemon TCG: Chaos Rising - 3-Pack Blister",
     22.99,
@@ -6093,6 +6087,7 @@
   "Collectors Edge": [],
   "Dice Cup Cafe": [],
   "Double Sleeved": [
+   "https://www.doublesleeved.co.uk/products/pokemon-tcg-delta-reign-booster-box",
    "https://www.doublesleeved.co.uk/products/pokemon-tcg-delta-reign-elite-trainer-box-etb"
   ],
   "Evolvault": [
@@ -6106,6 +6101,7 @@
   "Iconic TCG": [],
   "JET Cards": [
    "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-3-pack-blister-seel",
+   "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-booster-box-36-boosters",
    "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-booster-bundle",
    "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-elite-trainer-box"
   ],
@@ -6154,27 +6150,27 @@
   "Collectors Edge": 1.0,
   "Dice Cup Cafe": 1.0,
   "Double Sleeved": 1.0,
-  "Evolvault": 0.9471,
+  "Evolvault": 0.9482,
   "Firestorm Games": 1.0,
-  "Hobby Addicts": 0.989,
-  "Hokey Poke Games": 0.989,
-  "Hoodlums UK": 0.9776,
-  "Iconic TCG": 0.9858,
+  "Hobby Addicts": 0.9892,
+  "Hokey Poke Games": 0.9892,
+  "Hoodlums UK": 0.978,
+  "Iconic TCG": 0.9861,
   "JET Cards": 1.0,
-  "Japan2UK": 0.987,
+  "Japan2UK": 0.9873,
   "Magic Madhouse": 1.0,
   "Monster Card Corner": 1.0,
   "Mystic Games": 1.0,
   "Packrat": 1.0,
   "Pixel Hub": 1.0,
-  "Poke Collect": 0.9101,
-  "TCG Paradise": 0.9714,
-  "TCGora": 0.9771,
+  "Poke Collect": 0.9119,
+  "TCG Paradise": 0.972,
+  "TCGora": 0.9776,
   "The Card Vault": 1.0,
-  "The Dice Dungeon": 0.974,
+  "The Dice Dungeon": 0.9745,
   "The TCG Shop": 1.0,
   "Titan Cards": 1.0,
   "Total Cards": 1.0,
-  "Zatu Games": 0.989
+  "Zatu Games": 0.9892
  }
 }
