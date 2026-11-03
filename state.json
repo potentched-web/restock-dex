@@ -1961,231 +1961,29 @@
   "mode": "shopify"
  },
  "Hoodlums UK": {
-  "items": {
-   "55920133177609": [
-    "Pok\u00e9mon TCG Black Bolt Elite Trainer Box",
-    261.0,
-    true,
-    "https://hoodlumsuk.com/products/pokemon-scarlet-violet-black-bolt-elite-trainer-box"
-   ],
-   "55920150642953": [
-    "Pok\u00e9mon TCG Destined Rivals Elite Trainer Box",
-    165.0,
-    true,
-    "https://hoodlumsuk.com/products/pokemon-scarlet-violet-destined-rivals-elite-trainer-box"
-   ],
-   "55920156541193": [
-    "Pok\u00e9mon TCG Prismatic Evolutions Elite Trainer Box",
-    329.0,
-    true,
-    "https://hoodlumsuk.com/products/pokemon-tcg-scarlet-violet-prismatic-evolution-elite-trainer-box"
-   ],
-   "55989904113929": [
-    "Pok\u00e9mon TCG White Flare Elite Trainer Box",
-    178.0,
-    false,
-    "https://hoodlumsuk.com/products/pokemon-scarlet-violet-white-flare-elite-trainer-box"
-   ],
-   "56007068123401": [
-    "Pok\u00e9mon TCG Prismatic Evolutions Super-Premium Collection",
-    384.0,
-    true,
-    "https://hoodlumsuk.com/products/pokemon-scarlet-violet-prismatic-evolutions-super-premium-collection"
-   ],
-   "56022770417929": [
-    "Pok\u00e9mon TCG Prismatic Evolutions Booster Bundle (6 Packs)",
-    131.0,
-    false,
-    "https://hoodlumsuk.com/products/pokemon-tcg-scarlet-violet-prismatic-evolutions-booster-bundle-6-packs"
-   ],
-   "56095439749385": [
-    "Pok\u00e9mon TCG Black Bolt Booster Bundle (6 Packs)",
-    144.0,
-    true,
-    "https://hoodlumsuk.com/products/pokemon-scarlet-violet-black-bolt-booster-bundle"
-   ],
-   "56095443845385": [
-    "Pok\u00e9mon TCG White Flare Booster Bundle (6 Packs)",
-    96.0,
-    false,
-    "https://hoodlumsuk.com/products/pokemon-scarlet-violet-white-flare-booster-bundle"
-   ],
-   "56241113825545": [
-    "Pok\u00e9mon TCG Mega Evolution Booster Box (36 Packs)",
-    452.0,
-    false,
-    "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-booster-box-36-pack"
-   ],
-   "56280231215369": [
-    "Pok\u00e9mon TCG Mega Evolution Gardevoir Elite Trainer Box",
-    178.0,
-    false,
-    "https://hoodlumsuk.com/products/pokemon-trading-card-game-tcg-mega-evolution-mega-gardevoir-elite-trainer-box"
-   ],
-   "56300413223177": [
-    "Pok\u00e9mon TCG Mega Evolution Lucario Elite Trainer Box",
-    261.0,
-    false,
-    "https://hoodlumsuk.com/products/untitled-oct16_20-04"
-   ],
-   "56332023169289": [
-    "Pok\u00e9mon TCG Mega Evolution Half Booster Box (18 Packs)",
-    206.0,
-    false,
-    "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-half-booster-box"
-   ],
-   "56333423182089": [
-    "Pok\u00e9mon TCG Prismatic Evolutions Premium Figure Collection",
-    302.0,
-    true,
-    "https://hoodlumsuk.com/products/pokemon-tcg-prismatic-evolution-premium-figure-collection"
-   ],
-   "56389206638857": [
-    "Pok\u00e9mon TCG Phantasmal Flames Elite Trainer Box",
-    206.0,
-    false,
-    "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-phantasmal-flames-elite-trainer-box-pre-order"
-   ],
-   "56389228626185": [
-    "Pok\u00e9mon TCG Phantasmal Flames Booster Box (36 Packs)",
-    548.0,
-    false,
-    "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-phantasmal-flames-booster-box-36-pack"
-   ],
-   "56390982140169": [
-    "Pok\u00e9mon TCG Phantasmal Flames Booster Bundle (6 Packs)",
-    131.0,
-    true,
-    "https://hoodlumsuk.com/products/pokemon-mega-evolution-phantasmal-flames-booster-bundle-pk6"
-   ],
-   "56456644722953": [
-    "Pok\u00e9mon TCG Mega Charizard X ex Ultra Premium Collection",
-    370.0,
-    true,
-    "https://hoodlumsuk.com/products/pokemon-mega-charizard-x-ex-ultra-premium-collection"
-   ],
-   "56456644821257": [
-    "Pok\u00e9mon TCG Phantasmal Flames Half Booster Box (18 Packs)",
-    206.0,
-    false,
-    "https://hoodlumsuk.com/products/pokemon-mega-evolution-phantasmal-flames-half-booster-box-18-packs"
-   ],
-   "56835207299337": [
-    "Pok\u00e9mon TCG Ascended Heroes Elite Trainer Box",
-    261.0,
-    true,
-    "https://hoodlumsuk.com/products/pokemon-mega-evolution-ascended-heroes-elite-trainer-box"
-   ],
-   "56859591278857": [
-    "Pok\u00e9mon Center Ascended Heroes Elite Trainer Box",
-    480.0,
-    true,
-    "https://hoodlumsuk.com/products/pokemon-centre-mega-evolution-ascended-heroes-elite-trainer-box"
-   ],
-   "56928568148233": [
-    "Pok\u00e9mon TCG Perfect Order Elite Trainer Box",
-    137.0,
-    true,
-    "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-perfect-order-elite-trainer-box"
-   ],
-   "56928582566153": [
-    "Pok\u00e9mon TCG Perfect Order Booster Display Box (36 Packs)",
-    315.0,
-    true,
-    "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-perfect-order-booster-display-box-36-packs"
-   ],
-   "56928628343049": [
-    "Pok\u00e9mon TCG Perfect Order Booster Bundle (6 Packs)",
-    103.0,
-    true,
-    "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-perfect-order-booster-bundle"
-   ],
-   "56928642236681": [
-    "Pok\u00e9mon TCG Perfect Order Half Booster Box (18 Packs)",
-    165.0,
-    true,
-    "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-perfect-order-half-booster-box-18-packs"
-   ],
-   "57023446319369": [
-    "Pok\u00e9mon TCG Ascended Heroes Mega Gardevoir Premium Poster Collection",
-    261.0,
-    true,
-    "https://hoodlumsuk.com/products/pokemon-tcg-ascended-heroes-mega-gardevoir-premium-poster-collection"
-   ],
-   "57023448547593": [
-    "Pok\u00e9mon TCG Ascended Heroes Mega Lucario Premium Poster Collection",
-    261.0,
-    true,
-    "https://hoodlumsuk.com/products/pokemon-tcg-ascended-heroes-mega-lucario-premium-poster-collection"
-   ],
-   "57023455265033": [
-    "Pok\u00e9mon TCG Ascended Heroes First Partners Deluxe Pin Collection",
-    124.0,
-    true,
-    "https://hoodlumsuk.com/products/pokemon-tcg-ascended-heroes-first-partners-deluxe-pin-collection"
-   ],
-   "57037116932361": [
-    "Pok\u00e9mon TCG Ascended Heroes Booster Bundle (6 Packs)",
-    131.0,
-    true,
-    "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-ascended-heroes-booster-bundle-6-packs"
-   ],
-   "57086168531209": [
-    "Pok\u00e9mon Center Chaos Rising Elite Trainer Box",
-    206.0,
-    true,
-    "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-chaos-rising-pokemon-center-elite-trainer-box"
-   ],
-   "57086169317641": [
-    "Pok\u00e9mon TCG Chaos Rising Booster Bundle",
-    103.0,
-    true,
-    "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-chaos-rising-booster-bundle"
-   ],
-   "57086170923273": [
-    "Pok\u00e9mon TCG Chaos Rising Booster Display Box (36 Packs)",
-    343.0,
-    true,
-    "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-chaos-rising-boosters-display-36"
-   ],
-   "57086171709705": [
-    "Pok\u00e9mon TCG Chaos Rising Elite Trainer Box",
-    151.0,
-    true,
-    "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-chaos-rising-elite-trainer-box"
-   ],
-   "57337486278921": [
-    "Pok\u00e9mon TCG 30th Celebration Elite Trainer Box",
-    247.0,
-    true,
-    "https://hoodlumsuk.com/products/pokemon-tcg-elite-trainer-box-30th-celebration"
-   ],
-   "57339606991113": [
-    "Pok\u00e9mon TCG 30th Celebration Poster Collection",
-    96.0,
-    true,
-    "https://hoodlumsuk.com/products/pokemon-tcg-30th-celebration-poster-collection"
-   ],
-   "57363304808713": [
-    "Pok\u00e9mon TCG 30th Celebration Sylveon ex Tin",
-    117.0,
-    false,
-    "https://hoodlumsuk.com/products/pokemon-tcg-30th-celebration-sylveon-ex-tin"
-   ],
-   "57363307495689": [
-    "Pok\u00e9mon TCG 30th Celebration Greninja ex Tin",
-    117.0,
-    true,
-    "https://hoodlumsuk.com/products/pokemon-tcg-30th-celebration-greninja-ex-tin"
-   ],
-   "57372567994633": [
-    "Pok\u00e9mon TCG 30Th Celebration Booster Bundle",
-    131.0,
-    true,
-    "https://hoodlumsuk.com/products/pokemon-tcg-30th-celebration-booster-bundle"
-   ]
-  },
-  "mode": "shopify"
+  "lines": [
+   "Pok\u00e9mon Center Ascended Heroes Elite Trainer Box",
+   "Pok\u00e9mon TCG 30Th Celebration Booster Bundle",
+   "Pok\u00e9mon TCG 30th Celebration Elite Trainer Box",
+   "Pok\u00e9mon TCG Ascended Heroes Booster Bundle (6 Packs)",
+   "Pok\u00e9mon TCG Ascended Heroes Elite Trainer Box",
+   "Pok\u00e9mon TCG Ascended Heroes Mega Lucario Premium Poster Collection",
+   "Pok\u00e9mon TCG Black Bolt Booster Bundle (6 Packs)",
+   "Pok\u00e9mon TCG Black Bolt Elite Trainer Box",
+   "Pok\u00e9mon TCG Chaos Rising Booster Bundle",
+   "Pok\u00e9mon TCG Chaos Rising Booster Display Box (36 Packs)",
+   "Pok\u00e9mon TCG Chaos Rising Elite Trainer Box",
+   "Pok\u00e9mon TCG Destined Rivals Elite Trainer Box",
+   "Pok\u00e9mon TCG Mega Charizard X ex Ultra Premium Collection",
+   "Pok\u00e9mon TCG Perfect Order Booster Display Box (36 Packs)",
+   "Pok\u00e9mon TCG Perfect Order Half Booster Box (18 Packs)",
+   "Pok\u00e9mon TCG Phantasmal Flames Booster Bundle (6 Packs)",
+   "Pok\u00e9mon TCG Prismatic Evolutions Elite Trainer Box",
+   "Pok\u00e9mon TCG Prismatic Evolutions Premium Figure Collection",
+   "Pok\u00e9mon TCG Prismatic Evolutions Super-Premium Collection",
+   "Pok\u00e9mon TCG: Booster Boxes and ETBs | Hoodlums UK"
+  ],
+  "mode": "page"
  },
  "Iconic TCG": {
   "items": {
@@ -3206,6 +3004,18 @@
     429.99,
     true,
     "https://www.japan2uk.com/products/pokemon-shining-legends-pikachu-pin-english-collection-box"
+   ],
+   "65092808278393": [
+    "Pokemon Hidden Fates Mewtwo English Pin Collection Box",
+    0.01,
+    false,
+    "https://www.japan2uk.com/products/pokemon-hidden-fates-mewtwo-english-pin-collection-box"
+   ],
+   "65092823220601": [
+    "Pokemon Hidden Fates Mew English Pin Collection Box",
+    0.01,
+    false,
+    "https://www.japan2uk.com/products/pokemon-hidden-fates-mew-english-pin-collection-box"
    ]
   },
   "mode": "shopify"
@@ -5525,23 +5335,11 @@
     false,
     "https://thedicedungeon.co.uk/products/terapagos-ex-ultra-premium-collection"
    ],
-   "55954831212923": [
-    "Pokemon TCG: Combined Powers Premium Collection",
-    90.34,
-    false,
-    "https://thedicedungeon.co.uk/products/pokemon-tcg-combined-powers-premium-collection"
-   ],
    "55954832818555": [
     "Pok\u00e9mon TCG: Scarlet & Violet - 151 Mini Tin",
     37.63,
     false,
     "https://thedicedungeon.co.uk/products/pokemon-tcg-151-mini-tin"
-   ],
-   "55958567354747": [
-    "Pok\u00e9mon TCG: Mega Charizard Ultra-Premium Collection",
-    240.93,
-    false,
-    "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-charizard-ultra-premium-collection"
    ],
    "56022881010043": [
     "Pokemon TCG: Team Rocket's Moltres ex Ultra-Premium Collection (Retail Exclusive)",
@@ -5752,6 +5550,24 @@
     30.1,
     false,
     "https://thedicedungeon.co.uk/products/pokemon-tcg-30th-celebration-2-pack-blister"
+   ],
+   "56559444722043": [
+    "Pokemon TCG: Mega Evolution - Delta Reign Elite Trainer Box",
+    75.28,
+    false,
+    "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-delta-reign-elite-trainer-box"
+   ],
+   "56559574450555": [
+    "Pokemon TCG: Mega Evolution - Delta Reign Booster Box",
+    232.55,
+    false,
+    "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-delta-reign-booster-box"
+   ],
+   "56559652995451": [
+    "Pokemon TCG: Figure Collection Mew 30th Celebration",
+    45.16,
+    false,
+    "https://thedicedungeon.co.uk/products/pokemon-tcg-figure-collection-mew-30th-celebration"
    ]
   },
   "mode": "shopify"
@@ -6130,27 +5946,27 @@
   "Collectors Edge": 1.0,
   "Dice Cup Cafe": 1.0,
   "Double Sleeved": 1.0,
-  "Evolvault": 0.9391,
+  "Evolvault": 0.9403,
   "Firestorm Games": 1.0,
-  "Hobby Addicts": 0.9876,
-  "Hokey Poke Games": 0.9876,
-  "Hoodlums UK": 0.9741,
-  "Iconic TCG": 0.9837,
+  "Hobby Addicts": 0.9878,
+  "Hokey Poke Games": 0.9878,
+  "Hoodlums UK": 0.9746,
+  "Iconic TCG": 0.984,
   "JET Cards": 1.0,
-  "Japan2UK": 0.9849,
+  "Japan2UK": 0.9852,
   "Magic Madhouse": 1.0,
   "Monster Card Corner": 1.0,
   "Mystic Games": 1.0,
   "Packrat": 1.0,
   "Pixel Hub": 1.0,
-  "Poke Collect": 0.9634,
-  "TCG Paradise": 0.9876,
-  "TCGora": 0.9736,
+  "Poke Collect": 0.9641,
+  "TCG Paradise": 0.9678,
+  "TCGora": 0.9741,
   "The Card Vault": 1.0,
-  "The Dice Dungeon": 0.97,
+  "The Dice Dungeon": 0.9706,
   "The TCG Shop": 1.0,
   "Titan Cards": 1.0,
   "Total Cards": 1.0,
-  "Zatu Games": 0.9876
+  "Zatu Games": 0.9878
  }
 }
