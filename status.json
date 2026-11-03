@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T19:38:05+00:00",
+ "updated": "2026-11-03T19:43:12+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -291,13 +291,13 @@
      "cart": "https://zatu.com/cart/56783225094522:1"
     }
    ],
-   "uptime": 0.9954
+   "uptime": 0.9955
   },
   {
    "name": "Hokey Poke Games",
    "url": "https://hokeypokegames.co.uk/collections/all-pokemon",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -373,24 +373,6 @@
      "cart": "https://hokeypokegames.co.uk/cart/54575794520411:1"
     },
     {
-     "title": "Pokemon TCG: Scarlet & Violet 4 - Paradox Rift - Elite Trainer Box",
-     "price": 59.99,
-     "available": false,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-scarlet-violet-4-paradox-rift-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 49.99,
-     "cart": "https://hokeypokegames.co.uk/cart/54575761588571:1"
-    },
-    {
-     "title": "Pokemon TCG: Scarlet & Violet 6 - Twilight Masquerade - Elite Trainer Box",
-     "price": 59.99,
-     "available": false,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-scarlet-violet-6-twilight-masquerade-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 49.99,
-     "cart": "https://hokeypokegames.co.uk/cart/54575761621339:1"
-    },
-    {
      "title": "Pokemon TCG: Scarlet & Violet 7 - Stellar Crown - Elite Trainer Box",
      "price": 59.99,
      "available": false,
@@ -409,7 +391,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54575778005339:1"
     }
    ],
-   "uptime": 0.9754
+   "uptime": 0.9759
   },
   {
    "name": "Collectors Edge",
@@ -987,7 +969,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9896
+   "uptime": 0.9898
   },
   {
    "name": "Packrat",
@@ -1810,7 +1792,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9886
+   "uptime": 0.9888
   },
   {
    "name": "TCGora",
@@ -2198,7 +2180,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.9908
+   "uptime": 0.991
   },
   {
    "name": "Pixel Hub",
@@ -3109,7 +3091,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9646
+   "uptime": 0.9653
   },
   {
    "name": "Card Cavern",
@@ -3241,7 +3223,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.9454
+   "uptime": 0.9465
   },
   {
    "name": "The Card Vault",
@@ -4782,13 +4764,13 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9941
+   "uptime": 0.9942
   },
   {
    "name": "Evolvault",
    "url": "https://evolvault.com/",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -5089,7 +5071,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9791
+   "uptime": 0.9595
   },
   {
    "name": "Hobby Addicts",
@@ -6269,7 +6251,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9954
+   "uptime": 0.9955
   },
   {
    "name": "Hoodlums UK",
@@ -6612,7 +6594,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.991
+   "uptime": 0.9912
   },
   {
    "name": "The TCG Shop",
@@ -6883,7 +6865,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.9808
+   "uptime": 0.9812
   },
   {
    "name": "120HP",
@@ -7592,7 +7574,7 @@
    "name": "JET Cards",
    "url": "https://jetcards.uk/",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -7650,7 +7632,7 @@
      "cart": "https://jetcards.uk/cart/58903348871549:1"
     }
    ],
-   "uptime": 1.0
+   "uptime": 0.98
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -9146,7 +9128,7 @@
      "cart": "https://www.japan2uk.com/cart/63985005068665:1"
     }
    ],
-   "uptime": 0.9818
+   "uptime": 0.9822
   },
   {
    "name": "Asmodee UK",

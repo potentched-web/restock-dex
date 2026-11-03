@@ -1819,18 +1819,6 @@
  },
  "Hokey Poke Games": {
   "items": {
-   "54575761588571": [
-    "Pokemon TCG: Scarlet & Violet 4 - Paradox Rift - Elite Trainer Box",
-    59.99,
-    false,
-    "https://hokeypokegames.co.uk/products/pokemon-tcg-scarlet-violet-4-paradox-rift-elite-trainer-box"
-   ],
-   "54575761621339": [
-    "Pokemon TCG: Scarlet & Violet 6 - Twilight Masquerade - Elite Trainer Box",
-    59.99,
-    false,
-    "https://hokeypokegames.co.uk/products/pokemon-tcg-scarlet-violet-6-twilight-masquerade-elite-trainer-box"
-   ],
    "54575777907035": [
     "Pokemon TCG: Scarlet & Violet 7 - Stellar Crown - Elite Trainer Box",
     59.99,
@@ -6123,29 +6111,29 @@
   "CardDeckr": 1.0,
   "Chaos Cards": 1.0,
   "Collectors Edge": 1.0,
-  "Dice Cup Cafe": 0.9454,
+  "Dice Cup Cafe": 0.9465,
   "Double Sleeved": 1.0,
-  "Evolvault": 0.9791,
+  "Evolvault": 0.9595,
   "Firestorm Games": 1.0,
-  "Hobby Addicts": 0.9954,
-  "Hokey Poke Games": 0.9754,
-  "Hoodlums UK": 0.991,
-  "Iconic TCG": 0.9941,
-  "JET Cards": 1.0,
-  "Japan2UK": 0.9818,
+  "Hobby Addicts": 0.9955,
+  "Hokey Poke Games": 0.9759,
+  "Hoodlums UK": 0.9912,
+  "Iconic TCG": 0.9942,
+  "JET Cards": 0.98,
+  "Japan2UK": 0.9822,
   "Magic Madhouse": 1.0,
   "Monster Card Corner": 1.0,
   "Mystic Games": 1.0,
   "Packrat": 1.0,
   "Pixel Hub": 1.0,
-  "Poke Collect": 0.9646,
-  "TCG Paradise": 0.9886,
-  "TCGora": 0.9908,
+  "Poke Collect": 0.9653,
+  "TCG Paradise": 0.9888,
+  "TCGora": 0.991,
   "The Card Vault": 1.0,
-  "The Dice Dungeon": 0.9896,
-  "The TCG Shop": 0.9808,
+  "The Dice Dungeon": 0.9898,
+  "The TCG Shop": 0.9812,
   "Titan Cards": 1.0,
   "Total Cards": 1.0,
-  "Zatu Games": 0.9954
+  "Zatu Games": 0.9955
  }
 }
