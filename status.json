@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T16:11:23+00:00",
+ "updated": "2026-11-03T16:16:22+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -291,7 +291,7 @@
      "cart": "https://zatu.com/cart/56783225094522:1"
     }
    ],
-   "uptime": 0.9896
+   "uptime": 0.9898
   },
   {
    "name": "Hokey Poke Games",
@@ -499,7 +499,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54575778005339:1"
     }
    ],
-   "uptime": 0.9896
+   "uptime": 0.9898
   },
   {
    "name": "Collectors Edge",
@@ -748,8 +748,8 @@
      "price": 45.14,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-figure-collection-mew-30th-celebration",
-     "over_rrp": false,
-     "rrp": null,
+     "over_rrp": true,
+     "rrp": 29.99,
      "cart": "https://thedicedungeon.co.uk/cart/56559652995451:1"
     },
     {
@@ -757,8 +757,8 @@
      "price": 45.14,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-figure-collection-mewtwo-30th-celebration",
-     "over_rrp": false,
-     "rrp": null,
+     "over_rrp": true,
+     "rrp": 29.99,
      "cart": "https://thedicedungeon.co.uk/cart/56559733703035:1"
     },
     {
@@ -1077,7 +1077,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9755
+   "uptime": 0.976
   },
   {
    "name": "Packrat",
@@ -1900,7 +1900,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9731
+   "uptime": 0.9736
   },
   {
    "name": "TCGora",
@@ -1977,8 +1977,8 @@
      "price": 99.9,
      "available": true,
      "url": "https://tcgora.com/products/pokemon-tcg-30th-celebration-ditto-premium-collection-pre-order",
-     "over_rrp": false,
-     "rrp": null,
+     "over_rrp": true,
+     "rrp": 39.99,
      "cart": "https://tcgora.com/cart/56909432029508:1"
     },
     {
@@ -2004,8 +2004,8 @@
      "price": 59.9,
      "available": true,
      "url": "https://tcgora.com/products/pokemon-tcg-30th-celebration-figure-collection-mew-pre-order",
-     "over_rrp": false,
-     "rrp": null,
+     "over_rrp": true,
+     "rrp": 29.99,
      "cart": "https://tcgora.com/cart/56909443858756:1"
     },
     {
@@ -2013,8 +2013,8 @@
      "price": 59.9,
      "available": false,
      "url": "https://tcgora.com/products/pokemon-tcg-30th-celebration-figure-collection-mewtwo-pre-order",
-     "over_rrp": false,
-     "rrp": null,
+     "over_rrp": true,
+     "rrp": 29.99,
      "cart": "https://tcgora.com/cart/56909441728836:1"
     },
     {
@@ -2288,7 +2288,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.9784
+   "uptime": 0.9788
   },
   {
    "name": "Pixel Hub",
@@ -2806,8 +2806,8 @@
      "price": 473.0,
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-lucario-ex-figure-collection-sealed-case-of-6",
-     "over_rrp": false,
-     "rrp": null,
+     "over_rrp": true,
+     "rrp": 29.99,
      "cart": "https://pixel-hub.co.uk/cart/51774878089558:1"
     },
     {
@@ -2950,8 +2950,8 @@
      "price": 205.0,
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-8-5-prismatic-evolutions-premium-figure-collection",
-     "over_rrp": false,
-     "rrp": null,
+     "over_rrp": true,
+     "rrp": 29.99,
      "cart": "https://pixel-hub.co.uk/cart/51935715983702:1"
     },
     {
@@ -3199,7 +3199,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9154
+   "uptime": 0.9171
   },
   {
    "name": "Card Cavern",
@@ -3453,8 +3453,8 @@
      "price": 69.95,
      "available": false,
      "url": "https://thecardvault.co.uk/products/pokemon-tcg-scarlet-violet-prismatic-evolutions-premium-figure-collection-box",
-     "over_rrp": false,
-     "rrp": null,
+     "over_rrp": true,
+     "rrp": 29.99,
      "cart": "https://thecardvault.co.uk/cart/47347913294062:1"
     },
     {
@@ -4872,7 +4872,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9867
+   "uptime": 0.987
   },
   {
    "name": "Evolvault",
@@ -5179,7 +5179,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9502
+   "uptime": 0.9512
   },
   {
    "name": "Hobby Addicts",
@@ -5985,8 +5985,8 @@
      "price": 89.99,
      "available": false,
      "url": "https://www.hobby-addicts.com/products/pokemon-prismatic-evolutions-premium-figure-collection",
-     "over_rrp": false,
-     "rrp": null,
+     "over_rrp": true,
+     "rrp": 29.99,
      "cart": "https://www.hobby-addicts.com/cart/52730669170995:1"
     },
     {
@@ -6102,8 +6102,8 @@
      "price": 199.99,
      "available": false,
      "url": "https://www.hobby-addicts.com/products/pokemon-shining-legends-figure-collection-shiny-darkrai-gx",
-     "over_rrp": false,
-     "rrp": null,
+     "over_rrp": true,
+     "rrp": 29.99,
      "cart": "https://www.hobby-addicts.com/cart/51317227782451:1"
     },
     {
@@ -6359,7 +6359,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9896
+   "uptime": 0.9898
   },
   {
    "name": "Hoodlums UK",
@@ -6670,8 +6670,8 @@
      "price": 301.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-prismatic-evolution-premium-figure-collection",
-     "over_rrp": false,
-     "rrp": null,
+     "over_rrp": true,
+     "rrp": 29.99,
      "cart": "https://hoodlumsuk.com/cart/56333423182089:1"
     },
     {
@@ -6702,7 +6702,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9788
+   "uptime": 0.9792
   },
   {
    "name": "The TCG Shop",
@@ -7509,8 +7509,8 @@
      "price": 39.99,
      "available": false,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-mega-lucario-ex-figure-collection",
-     "over_rrp": false,
-     "rrp": null,
+     "over_rrp": true,
+     "rrp": 29.99,
      "cart": "https://www.120hp.co.uk/cart/56192351142263:1"
     },
     {
@@ -7608,8 +7608,8 @@
      "price": 169.99,
      "available": false,
      "url": "https://www.120hp.co.uk/products/prismatic-evolutions-premium-figure-collection",
-     "over_rrp": false,
-     "rrp": null,
+     "over_rrp": true,
+     "rrp": 29.99,
      "cart": "https://www.120hp.co.uk/cart/56691547505015:1"
     },
     {
@@ -7872,8 +7872,8 @@
      "price": 69.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-ditto-premium-collection",
-     "over_rrp": false,
-     "rrp": null,
+     "over_rrp": true,
+     "rrp": 39.99,
      "cart": "https://monstercardcorner.co.uk/cart/57962862412120:1"
     },
     {
@@ -7890,8 +7890,8 @@
      "price": 54.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-figure-collection-mew",
-     "over_rrp": false,
-     "rrp": null,
+     "over_rrp": true,
+     "rrp": 29.99,
      "cart": "https://monstercardcorner.co.uk/cart/57962863329624:1"
     },
     {
@@ -7899,8 +7899,8 @@
      "price": 54.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-figure-collection-mewtwo",
-     "over_rrp": false,
-     "rrp": null,
+     "over_rrp": true,
+     "rrp": 29.99,
      "cart": "https://monstercardcorner.co.uk/cart/57962863559000:1"
     },
     {
@@ -8610,8 +8610,8 @@
      "price": 57.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-mega-lucario-ex-figure-collection-box",
-     "over_rrp": false,
-     "rrp": null,
+     "over_rrp": true,
+     "rrp": 29.99,
      "cart": "https://monstercardcorner.co.uk/cart/56328599306584:1"
     },
     {
@@ -8952,8 +8952,8 @@
      "price": 174.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-and-violet-prismatic-evolutions-premium-figure-collection",
-     "over_rrp": false,
-     "rrp": null,
+     "over_rrp": true,
+     "rrp": 29.99,
      "cart": "https://monstercardcorner.co.uk/cart/56119296098648:1"
     },
     {
@@ -8961,8 +8961,8 @@
      "price": 161.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-and-violet-prismatic-evolutions-premium-figure-collection-copy",
-     "over_rrp": false,
-     "rrp": null,
+     "over_rrp": true,
+     "rrp": 29.99,
      "cart": "https://monstercardcorner.co.uk/cart/56038313034072:1"
     },
     {
@@ -9209,7 +9209,7 @@
      "cart": "https://www.japan2uk.com/cart/65092183163257:1"
     }
    ],
-   "uptime": 0.9878
+   "uptime": 0.988
   },
   {
    "name": "Asmodee UK",
@@ -9259,8 +9259,8 @@
      "price": 97.2,
      "available": false,
      "url": "https://www.asmodee.co.uk/products/pok1010452108-pokemon-tcg-figure-collection-mew-30th-celebration-6",
-     "over_rrp": false,
-     "rrp": null,
+     "over_rrp": true,
+     "rrp": 29.99,
      "cart": "https://www.asmodee.co.uk/cart/55613562618232:1"
     },
     {
@@ -9268,8 +9268,8 @@
      "price": 97.2,
      "available": false,
      "url": "https://www.asmodee.co.uk/products/pok1010452114-pokemon-tcg-figure-collection-mewtwo-30th-celebration-6",
-     "over_rrp": false,
-     "rrp": null,
+     "over_rrp": true,
+     "rrp": 29.99,
      "cart": "https://www.asmodee.co.uk/cart/55613562782072:1"
     },
     {
@@ -9746,8 +9746,8 @@
     "30th celebration",
     "ditto"
    ],
-   "max": null,
-   "rrp_status": "unknown"
+   "max": 39.99,
+   "rrp_status": "reported"
   },
   {
    "name": "30th Celebration Mew / Mewtwo Figure Collections",
@@ -9755,8 +9755,8 @@
     "30th celebration",
     "figure collection"
    ],
-   "max": null,
-   "rrp_status": "unknown"
+   "max": 29.99,
+   "rrp_status": "estimate"
   },
   {
    "name": "30th Celebration Day & Night Ultra-Premium Collections",
@@ -10303,40 +10303,10 @@
  ],
  "amazon_auto": [
   {
-   "name": "Delta Reign Booster Box",
-   "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Delta+Reign+Booster+Box",
-   "kind": "search",
-   "auto": true
+   "name": "Pitch Black Booster Box"
   },
   {
-   "name": "30th Celebration Booster Bundle",
-   "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Booster+Bundle",
-   "kind": "search",
-   "auto": true
-  },
-  {
-   "name": "Pitch Black Booster Box",
-   "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Pitch+Black+Booster+Box",
-   "kind": "search",
-   "auto": true
-  },
-  {
-   "name": "Chaos Rising Booster Box",
-   "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Chaos+Rising+Booster+Box",
-   "kind": "search",
-   "auto": true
-  },
-  {
-   "name": "Perfect Order Booster Box",
-   "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Perfect+Order+Booster+Box",
-   "kind": "search",
-   "auto": true
-  },
-  {
-   "name": "Phantasmal Flames Booster Box",
-   "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Phantasmal+Flames+Booster+Box",
-   "kind": "search",
-   "auto": true
+   "name": "Phantasmal Flames Booster Box"
   }
  ]
 }

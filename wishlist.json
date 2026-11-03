@@ -50,8 +50,8 @@
       "30th celebration",
       "ditto"
     ],
-    "max": null,
-    "rrp_status": "unknown"
+    "max": 39.99,
+    "rrp_status": "reported"
   },
   {
     "name": "30th Celebration Mew / Mewtwo Figure Collections",
@@ -59,8 +59,8 @@
       "30th celebration",
       "figure collection"
     ],
-    "max": null,
-    "rrp_status": "unknown"
+    "max": 29.99,
+    "rrp_status": "estimate"
   },
   {
     "name": "30th Celebration Day & Night Ultra-Premium Collections",
