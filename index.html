@@ -64,8 +64,8 @@
   .pad { position:absolute; border-radius:50%; background:radial-gradient(ellipse at center, rgba(0,0,0,.35) 0, rgba(0,0,0,.18) 55%, transparent 70%) }
   .pad.foe { right:6%; top:38%; width:150px; height:34px } .pad.me { left:4%; bottom:6%; width:190px; height:42px }
   .sprite { position:absolute; line-height:1; filter:drop-shadow(0 6px 4px rgba(0,0,0,.35)); will-change:transform }
-  .sprite.foe { right:calc(6% + 38px); top:calc(38% - 62px); font-size:72px }
-  .sprite.me { left:calc(4% + 40px); bottom:calc(6% + 16px); font-size:96px; transform:scaleX(-1) }  /* emoji mostly face left: flip yours to face the foe */
+  .sprite.foe { right:calc(6% + 20px); top:calc(38% - 92px); width:110px; height:110px }
+  .sprite.me { left:calc(4% + 22px); bottom:calc(6% + 2px); width:146px; height:146px; transform:scaleX(-1) }  /* faces the foe */
   .sprite.idle { animation:bob 2.4s ease-in-out infinite } .sprite.me.idle { animation-name:bobme }
   @keyframes bob { 50% { translate:0 -5px } } @keyframes bobme { 50% { translate:0 -4px } }
   .hud { position:absolute; background:rgba(16,16,20,.88); color:#fff; border:2px solid #000; border-radius:10px 10px 10px 2px; padding:7px 10px; width:min(48%, 210px); font-size:14px; box-shadow:3px 3px 0 rgba(0,0,0,.35) }
@@ -82,7 +82,7 @@
   .moves { display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-top:10px } .moves .btn { width:100%; text-align:left; display:flex; flex-direction:column; align-items:flex-start; gap:2px }
   .moves .btn small { opacity:.75; font-weight:600 } .moves .btn:disabled { opacity:.45; cursor:default }
   .dip-top { display:flex; gap:10px; align-items:center; flex-wrap:wrap }
-  @media (max-width:520px) { .hud { width:min(52%, 200px) } .hud b { font-size:14px } .stage { height:250px } .sprite.foe { font-size:58px; top:calc(38% - 50px); right:calc(6% + 30px) } .sprite.me { font-size:76px } .pad.foe { width:120px } .pad.me { width:150px } .hud { font-size:13px; padding:6px 8px } }
+  @media (max-width:520px) { .hud { width:min(52%, 200px) } .hud b { font-size:14px } .stage { height:250px } .sprite.foe { width:92px; height:92px; top:calc(38% - 76px); right:calc(6% + 14px) } .sprite.me { width:118px; height:118px } .pad.foe { width:120px } .pad.me { width:150px } .hud { font-size:13px; padding:6px 8px } }
 
   .feed { list-style:none; margin:0; padding:0 }
   .feed li { display:flex; gap:10px; align-items:baseline; flex-wrap:wrap; padding:9px 0; border-top:1px dashed var(--line) }
@@ -1136,10 +1136,73 @@ $("skin").onchange = e => { document.documentElement.dataset.skin = e.target.val
 
 /* Lucky Dip: a small turn-based battle between two random made-up critters, with animated moves. Score kept per browser. */
 const CRITTERS = [
-  ["Emberpup", "fire", "🐕", 48, 13], ["Cindermoth", "fire", "🦋", 40, 16], ["Blazetoad", "fire", "🐸", 56, 11],
-  ["Ripplefin", "water", "🐟", 50, 12], ["Bubbleshell", "water", "🐢", 60, 10], ["Tidecrab", "water", "🦀", 46, 14],
-  ["Sproutle", "grass", "🌱", 52, 12], ["Thornhog", "grass", "🦔", 58, 10], ["Mossbat", "grass", "🦇", 44, 15],
-  ["Zapkit", "spark", "🐱", 42, 15], ["Voltbug", "spark", "🐞", 46, 13], ["Boltowl", "spark", "🦉", 50, 12]];
+  // name, type, hp, atk, look
+  ["Pyrram", "fire", 56, 11, {form: "quad", pal: ["#e4572e", "#9e2a14", "#ffb38a", "#ffd23f"], ears: "horns", tail: "flame", extra: ["mane"], eye: "#7a1d0a"}],
+  ["Cindrix", "fire", 44, 15, {form: "quad", pal: ["#f08a24", "#a8500c", "#ffe0b5", "#ffd23f"], ears: "pointy", tail: "flame", extra: ["belly"], eye: "#5a2a00"}],
+  ["Magmole", "fire", 50, 13, {form: "blob", pal: ["#7d4e57", "#4a2a31", "#c98f8f", "#ff7b39"], ears: "round", tail: "none", extra: ["embers", "nose"], eye: "#2b0f14"}],
+  ["Axolume", "water", 48, 13, {form: "blob", pal: ["#7ec8e3", "#3d7fa6", "#d6f1fa", "#ff8fab"], ears: "gills", tail: "fin", extra: ["belly"], eye: "#123b52"}],
+  ["Shelluk", "water", 60, 10, {form: "quad", pal: ["#4ea8de", "#1f5f8b", "#cdeeff", "#2ec4b6"], ears: "fins", tail: "none", extra: ["shell"], eye: "#0b3047"}],
+  ["Finnip", "water", 46, 14, {form: "blob", pal: ["#5e7ce2", "#2c3e8f", "#dfe6ff", "#9bf6ff"], ears: "none", tail: "fin", extra: ["whiskers", "belly"], eye: "#101a4a"}],
+  ["Fernfawn", "grass", 52, 12, {form: "quad", pal: ["#c58b4e", "#7a4f24", "#f2dcb8", "#59a14f"], ears: "leaf", tail: "leaf", extra: ["spots"], eye: "#3a2410"}],
+  ["Budbun", "grass", 46, 14, {form: "blob", pal: ["#9ad17b", "#4f8a3a", "#e6f7d9", "#ff8fb1"], ears: "long", tail: "puff", extra: ["flower"], eye: "#1e3a12"}],
+  ["Mosslug", "grass", 60, 10, {form: "blob", pal: ["#6b8f4e", "#3b5428", "#c7dcb0", "#a7c957"], ears: "none", tail: "none", extra: ["moss", "antenna"], eye: "#1a2610"}],
+  ["Voltaroo", "spark", 44, 15, {form: "quad", pal: ["#3a86ff", "#1b3f8f", "#d7e6ff", "#ffd60a"], ears: "long", tail: "bolt", extra: ["belly", "stripes"], eye: "#0b1d4a"}],
+  ["Zapowl", "spark", 48, 13, {form: "blob", pal: ["#6c5b7b", "#3b2f48", "#e0d7ea", "#ffd60a"], ears: "tufts", tail: "none", extra: ["wings", "brows"], eye: "#ffd60a"}],
+  ["Coilcoon", "spark", 52, 12, {form: "blob", pal: ["#2ec4b6", "#127a70", "#d4fbf6", "#ffe347"], ears: "round", tail: "puff", extra: ["mask", "coils"], eye: "#06302b"}],
+];
+function critterSVG(name, type, l) {
+  const [m, d, li, ac] = l.pal, g = "g" + name, quad = l.form === "quad";
+  const hx = 50, hy = quad ? 42 : 52, hr = quad ? 21 : 27;  // head centre/radius
+  const by = quad ? 70 : 60, brx = quad ? 22 : 30, bry = quad ? 18 : 29;  // body
+  const back = [], front = [], top = [];
+  const sym = f => f(-1) + f(1);
+  const leaf = (x, y, rot, s, col) => `<path transform="translate(${x} ${y}) rotate(${rot}) scale(${s})" d="M0 0 C6 -6 6 -16 0 -24 C-6 -16 -6 -6 0 0Z" fill="${col}" stroke="${d}" stroke-width="1.2"/><path transform="translate(${x} ${y}) rotate(${rot}) scale(${s})" d="M0 -2 L0 -20" stroke="${d}" stroke-width="1" opacity=".5"/>`;
+  // tail (behind everything)
+  if (l.tail === "flame") back.push(`<path d="M${hx + brx - 4} ${by + 4} C${hx + brx + 14} ${by} ${hx + brx + 10} ${by - 18} ${hx + brx + 22} ${by - 28} C${hx + brx + 16} ${by - 14} ${hx + brx + 30} ${by - 10} ${hx + brx + 20} ${by + 8}Z" fill="${ac}" stroke="${d}" stroke-width="1.5"/><path d="M${hx + brx + 4} ${by + 2} C${hx + brx + 12} ${by - 4} ${hx + brx + 12} ${by - 12} ${hx + brx + 18} ${by - 18} C${hx + brx + 18} ${by - 8} ${hx + brx + 22} ${by - 2} ${hx + brx + 14} ${by + 6}Z" fill="#fff4b0"/>`);
+  if (l.tail === "leaf") back.push(leaf(hx + brx - 2, by + 2, 60, 1.1, ac));
+  if (l.tail === "bolt") back.push(`<path d="M${hx + brx - 6} ${by + 4} L${hx + brx + 10} ${by - 4} L${hx + brx + 6} ${by - 10} L${hx + brx + 24} ${by - 26} L${hx + brx + 16} ${by - 12} L${hx + brx + 20} ${by - 8} L${hx + brx + 2} ${by + 10}Z" fill="${ac}" stroke="${d}" stroke-width="1.5" stroke-linejoin="round"/>`);
+  if (l.tail === "fin") back.push(`<path d="M${hx + brx - 6} ${by + 10} C${hx + brx + 8} ${by + 6} ${hx + brx + 14} ${by - 6} ${hx + brx + 22} ${by - 4} C${hx + brx + 16} ${by + 6} ${hx + brx + 22} ${by + 16} ${hx + brx + 26} ${by + 22} C${hx + brx + 14} ${by + 22} ${hx + brx + 6} ${by + 20} ${hx + brx - 4} ${by + 20}Z" fill="${ac}" stroke="${d}" stroke-width="1.5"/>`);
+  if (l.tail === "puff") back.push(`<circle cx="${hx + brx + 2}" cy="${by + 8}" r="8" fill="${li}" stroke="${d}" stroke-width="1.5"/>`);
+  // back extras
+  if (l.extra.includes("shell")) back.push(`<ellipse cx="${hx}" cy="${by - 4}" rx="${brx + 6}" ry="${bry + 2}" fill="${ac}" stroke="${d}" stroke-width="2"/><path d="M${hx - brx} ${by - 4} Q${hx} ${by - 30} ${hx + brx} ${by - 4} M${hx - 12} ${by - 18} L${hx - 12} ${by + 6} M${hx + 12} ${by - 18} L${hx + 12} ${by + 6}" stroke="${d}" stroke-width="1.5" fill="none" opacity=".6"/>`);
+  if (l.extra.includes("wings")) back.push(sym(s => `<path d="M${hx + s * (brx - 6)} ${by - 10} C${hx + s * (brx + 18)} ${by - 18} ${hx + s * (brx + 22)} ${by + 4} ${hx + s * (brx + 8)} ${by + 18} C${hx + s * (brx + 10)} ${by + 6} ${hx + s * (brx + 2)} ${by + 4} ${hx + s * (brx - 4)} ${by + 8}Z" fill="${d}" stroke="#1d1626" stroke-width="1.2"/>`));
+  if (l.extra.includes("mane")) back.push(`<path d="${Array.from({length: 12}, (_, i) => { const a = i / 12 * Math.PI * 2, r = i % 2 ? hr + 4 : hr + 11; return (i ? "L" : "M") + (hx + Math.cos(a) * r).toFixed(1) + " " + (hy + Math.sin(a) * r * .9).toFixed(1); }).join(" ")}Z" fill="${ac}" stroke="${d}" stroke-width="1.5" stroke-linejoin="round"/>`);
+  // ears behind the head
+  const e = l.ears;
+  if (e === "pointy") back.push(sym(s => `<path d="M${hx + s * hr * .25} ${hy - hr * .7} L${hx + s * hr * 1.05} ${hy - hr * 1.45} L${hx + s * hr * .9} ${hy - hr * .25}Z" fill="${m}" stroke="${d}" stroke-width="1.5" stroke-linejoin="round"/><path d="M${hx + s * hr * .45} ${hy - hr * .65} L${hx + s * hr * .93} ${hy - hr * 1.15} L${hx + s * hr * .82} ${hy - hr * .45}Z" fill="${li}"/>`));
+  if (e === "long") back.push(sym(s => `<ellipse cx="${hx + s * hr * .45}" cy="${hy - hr * 1.25}" rx="${hr * .22}" ry="${hr * .62}" transform="rotate(${s * 14} ${hx + s * hr * .45} ${hy - hr * .7})" fill="${m}" stroke="${d}" stroke-width="1.5"/><ellipse cx="${hx + s * hr * .45}" cy="${hy - hr * 1.22}" rx="${hr * .1}" ry="${hr * .45}" transform="rotate(${s * 14} ${hx + s * hr * .45} ${hy - hr * .7})" fill="${ac}" opacity=".7"/>`));
+  if (e === "round") back.push(sym(s => `<circle cx="${hx + s * hr * .72}" cy="${hy - hr * .72}" r="${hr * .3}" fill="${m}" stroke="${d}" stroke-width="1.5"/><circle cx="${hx + s * hr * .72}" cy="${hy - hr * .72}" r="${hr * .16}" fill="${li}"/>`));
+  if (e === "leaf") back.push(leaf(hx - hr * .55, hy - hr * .55, -55, 1, ac) + leaf(hx + hr * .55, hy - hr * .55, 55, 1, ac));
+  if (e === "tufts") back.push(sym(s => `<path d="M${hx + s * hr * .4} ${hy - hr * .8} L${hx + s * hr * .95} ${hy - hr * 1.35} L${hx + s * hr * .85} ${hy - hr * .5}Z" fill="${d}" stroke="#1d1626" stroke-width="1.2"/>`));
+  if (e === "fins") back.push(sym(s => `<path d="M${hx + s * hr * .8} ${hy - hr * .2} C${hx + s * hr * 1.5} ${hy - hr * .6} ${hx + s * hr * 1.5} ${hy + hr * .2} ${hx + s * hr * .85} ${hy + hr * .35}Z" fill="${ac}" stroke="${d}" stroke-width="1.5"/>`));
+  if (e === "gills") back.push(sym(s => [-.45, 0, .45].map(t => `<path d="M${hx + s * hr * .8} ${hy + t * hr * .5} Q${hx + s * hr * 1.3} ${hy + t * hr * 1.1 - 4} ${hx + s * hr * 1.45} ${hy + t * hr * 1.4}" stroke="${ac}" stroke-width="4" stroke-linecap="round" fill="none"/><circle cx="${hx + s * hr * 1.45}" cy="${hy + t * hr * 1.4}" r="2.6" fill="${ac}"/>`).join("")));
+  if (e === "horns") back.push(sym(s => `<path d="M${hx + s * hr * .45} ${hy - hr * .75} C${hx + s * hr * 1.4} ${hy - hr * 1.5} ${hx + s * hr * 1.7} ${hy - hr * .2} ${hx + s * hr * 1.1} ${hy - hr * .05} C${hx + s * hr * 1.4} ${hy - hr * .55} ${hx + s * hr * 1.1} ${hy - hr * .9} ${hx + s * hr * .75} ${hy - hr * .5}Z" fill="#f4e3c1" stroke="#7a5c2e" stroke-width="1.5"/>`));
+  // body, feet, belly
+  const feet = quad ? sym(s => `<ellipse cx="${hx + s * 13}" cy="${by + bry - 2}" rx="7" ry="5" fill="${d}"/>`) : sym(s => `<ellipse cx="${hx + s * 15}" cy="${by + bry - 3}" rx="8" ry="5" fill="${d}"/>`);
+  const body = quad ? `<ellipse cx="${hx}" cy="${by}" rx="${brx}" ry="${bry}" fill="url(#${g})" stroke="${d}" stroke-width="2"/>` : "";
+  const belly = l.extra.includes("belly") ? `<ellipse cx="${hx}" cy="${quad ? by + 4 : hy + hr * .55}" rx="${quad ? brx * .55 : hr * .55}" ry="${quad ? bry * .55 : hr * .35}" fill="${li}" opacity=".85"/>` : "";
+  const head = `<circle cx="${hx}" cy="${hy}" r="${hr}" fill="url(#${g})" stroke="${d}" stroke-width="2"/>`;
+  // face
+  const ey = hy - hr * .02, ex = hr * .38, er = hr * .17;
+  if (l.extra.includes("mask")) front.push(`<path d="M${hx - hr * .85} ${ey - er * 1.4} Q${hx} ${ey - er * .2} ${hx + hr * .85} ${ey - er * 1.4} L${hx + hr * .78} ${ey + er * 1.3} Q${hx} ${ey + er * 2} ${hx - hr * .78} ${ey + er * 1.3}Z" fill="${d}" opacity=".85"/>`);
+  front.push(sym(s => `<ellipse cx="${hx + s * ex}" cy="${ey}" rx="${er}" ry="${er * 1.35}" fill="#14141f"/><ellipse cx="${hx + s * ex}" cy="${ey + er * .35}" rx="${er * .6}" ry="${er * .75}" fill="${l.eye}"/><circle cx="${hx + s * ex - er * .35}" cy="${ey - er * .5}" r="${er * .42}" fill="#fff"/><circle cx="${hx + s * ex + er * .35}" cy="${ey + er * .55}" r="${er * .18}" fill="#fff" opacity=".8"/>`));
+  if (l.extra.includes("brows")) front.push(sym(s => `<path d="M${hx + s * ex * .4} ${ey - er * 1.5} L${hx + s * ex * 1.6} ${ey - er * 2.1} L${hx + s * ex * 1.3} ${ey - er * 1.4}Z" fill="${ac}" stroke="${d}" stroke-width="1"/>`));
+  front.push(sym(s => `<ellipse cx="${hx + s * hr * .66}" cy="${hy + hr * .38}" rx="${hr * .14}" ry="${hr * .08}" fill="#ff7b9c" opacity=".55"/>`));
+  if (l.extra.includes("nose")) front.push(`<ellipse cx="${hx}" cy="${hy + hr * .32}" rx="${hr * .2}" ry="${hr * .14}" fill="#ff9aa2" stroke="${d}" stroke-width="1.2"/>`);
+  front.push(l.ears === "tufts" ? `<path d="M${hx - 4} ${hy + hr * .3} L${hx + 4} ${hy + hr * .3} L${hx} ${hy + hr * .48}Z" fill="#ffb703" stroke="${d}" stroke-width="1"/>`
+    : `<path d="M${hx - 5} ${hy + hr * .44} Q${hx - 2.5} ${hy + hr * .58} ${hx} ${hy + hr * .46} Q${hx + 2.5} ${hy + hr * .58} ${hx + 5} ${hy + hr * .44}" stroke="${d}" stroke-width="1.6" fill="none" stroke-linecap="round"/>`);
+  if (l.extra.includes("whiskers")) front.push(sym(s => `<path d="M${hx + s * hr * .3} ${hy + hr * .4} L${hx + s * hr * .95} ${hy + hr * .3} M${hx + s * hr * .3} ${hy + hr * .5} L${hx + s * hr * .95} ${hy + hr * .55}" stroke="${d}" stroke-width="1" opacity=".6"/>`));
+  // markings and head-top extras
+  if (l.extra.includes("spots")) front.push([[-.5, -.55], [.55, -.6], [.1, -.85]].map(([x, y]) => `<circle cx="${hx + x * hr}" cy="${hy + y * hr}" r="${hr * .09}" fill="${li}"/>`).join("") + (quad ? `<circle cx="${hx - 10}" cy="${by - 4}" r="2.5" fill="${li}"/><circle cx="${hx + 12}" cy="${by - 6}" r="2" fill="${li}"/>` : ""));
+  if (l.extra.includes("stripes")) front.push(sym(s => `<path d="M${hx + s * hr * .9} ${hy - hr * .1} l${-s * 7} 3 l${s * 5} 3" stroke="${ac}" stroke-width="2.4" fill="none" stroke-linejoin="round"/>`));
+  if (l.extra.includes("embers")) front.push([[-.55, .78], [.4, .9], [.75, .45], [-.8, .3]].map(([x, y]) => `<circle cx="${hx + x * hr}" cy="${hy + y * hr}" r="${hr * .07}" fill="${ac}"/>`).join(""));
+  if (l.extra.includes("flower")) top.push(Array.from({length: 5}, (_, i) => { const a = i / 5 * Math.PI * 2 - Math.PI / 2; return `<ellipse cx="${hx + 9 + Math.cos(a) * 5}" cy="${hy - hr - 1 + Math.sin(a) * 5}" rx="4" ry="3" transform="rotate(${a * 57.3} ${hx + 9 + Math.cos(a) * 5} ${hy - hr - 1 + Math.sin(a) * 5})" fill="${ac}" stroke="${d}" stroke-width=".8"/>`; }).join("") + `<circle cx="${hx + 9}" cy="${hy - hr - 1}" r="3" fill="#ffd23f"/>`);
+  if (l.extra.includes("moss")) top.push(`<path d="M${hx - hr * .9} ${hy - hr * .35} ${Array.from({length: 9}, (_, i) => `Q${hx - hr * .9 + (i + .5) * hr * .2} ${hy - hr * (i % 2 ? 1.2 : 1.35)} ${hx - hr * .9 + (i + 1) * hr * .2} ${hy - hr * (Math.abs(i - 4) < 3 ? .95 : .6)}`).join(" ")} Q${hx} ${hy - hr * .6} ${hx - hr * .9} ${hy - hr * .35}Z" fill="${ac}" stroke="${d}" stroke-width="1.2"/>`);
+  if (l.extra.includes("antenna")) top.push(sym(s => `<path d="M${hx + s * 6} ${hy - hr * .9} Q${hx + s * 10} ${hy - hr * 1.4} ${hx + s * 14} ${hy - hr * 1.45}" stroke="${d}" stroke-width="2" fill="none"/><circle cx="${hx + s * 14}" cy="${hy - hr * 1.45}" r="3" fill="#ffd23f" stroke="${d}"/>`));
+  if (l.extra.includes("coils")) top.push(sym(s => `<path d="M${hx + s * 8} ${hy - hr * .92} q${s * 4} -5 0 -8 q${-s * 4} -3 0 -7 q${s * 4} -3 ${s * 2} -7" stroke="${ac}" stroke-width="2.6" fill="none" stroke-linecap="round"/>`));
+  return `<svg viewBox="-10 -10 120 120" width="100%" height="100%" role="img" aria-label="${name}"><defs><radialGradient id="${g}" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="${li}"/><stop offset=".45" stop-color="${m}"/><stop offset="1" stop-color="${d}"/></radialGradient></defs>
+    ${back.join("")}${feet}${body}${quad ? "" : ""}${head}${belly}${front.join("")}${top.join("")}</svg>`;
+}
 const TYPE_ICON = {fire: "🔥", water: "💧", grass: "🌿", spark: "⚡"};
 const MOVES = {fire: ["Flame Nip", "Ember Burst"], water: ["Splash Jab", "Tide Crash"], grass: ["Leaf Flick", "Vine Lash"], spark: ["Static Tap", "Thunder Pop"]};
 const FX = {fire: ["🔥", "💥"], water: ["💧", "🌊"], grass: ["🍃", "🌿"], spark: ["⚡", "✨"]};
@@ -1147,7 +1210,7 @@ const BEATS = {fire: ["grass"], grass: ["water"], water: ["fire"], spark: ["wate
 const CALM = matchMedia("(prefers-reduced-motion: reduce)").matches;
 const wait = ms => new Promise(r => setTimeout(r, CALM ? Math.min(ms, 150) : ms));
 let dip = null, busy = false, dipScore = (() => { try { return JSON.parse(store("dip") || "") } catch { return null } })() || {win: 0, loss: 0, streak: 0};
-const pick = () => { const [name, type, art, hp, atk] = CRITTERS[Math.floor(Math.random() * CRITTERS.length)]; return {name, type, art, hp, max: hp, atk, lv: 5 + Math.floor(Math.random() * 6)}; };
+const pick = () => { const [name, type, hp, atk, look] = CRITTERS[Math.floor(Math.random() * CRITTERS.length)]; return {name, type, art: critterSVG(name, type, look), hp, max: hp, atk, lv: 5 + Math.floor(Math.random() * 6)}; };
 function hitFor(a, d, big) {
   const mult = BEATS[a.type].includes(d.type) ? 2 : BEATS[d.type].includes(a.type) ? 0.5 : 1;
   if (big && Math.random() < 0.35) return {dmg: 0, miss: true, mult};  // the strong move is a gamble: the target can dodge
@@ -1225,7 +1288,7 @@ async function faint(side) {
 async function enter() {
   const me = $("spr-me"), foe = $("spr-foe");
   [me, foe].forEach(e => { e.getAnimations().forEach(a => a.cancel()); e.classList.add("idle"); });
-  me.textContent = dip.me.art; foe.textContent = dip.foe.art; drawHuds();
+  me.innerHTML = dip.me.art; foe.innerHTML = dip.foe.art; drawHuds();
   foe.animate([{transform: "translateX(-260px)", opacity: 0}, {transform: "translateX(0)", opacity: 1}], {duration: CALM ? 150 : 700, easing: "cubic-bezier(.2,.8,.3,1)"});
   me.animate([{transform: "translateX(260px) scaleX(-1)", opacity: 0}, {transform: "translateX(0) scaleX(-1)", opacity: 1}], {duration: CALM ? 150 : 700, easing: "cubic-bezier(.2,.8,.3,1)"});
   await say(`A wild ${dip.foe.name} appeared!`, 1000);
