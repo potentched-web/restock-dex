@@ -1819,12 +1819,6 @@
  },
  "Hokey Poke Games": {
   "items": {
-   "54514584387931": [
-    "Pokemon TCG: Mega Evolution Pitch Black Booster Bundle",
-    36.99,
-    false,
-    "https://hokeypokegames.co.uk/products/pokemon-tcg-mega-evolution-pitch-black-booster-bundle"
-   ],
    "54574966767963": [
     "Pokemon TCG: First Partner Illustration Collection Series 1 - Booster Pack",
     58.99,
@@ -6166,27 +6160,27 @@
   "Collectors Edge": 1.0,
   "Dice Cup Cafe": 1.0,
   "Double Sleeved": 1.0,
-  "Evolvault": 0.9654,
+  "Evolvault": 0.9661,
   "Firestorm Games": 1.0,
-  "Hobby Addicts": 0.9929,
-  "Hokey Poke Games": 0.9929,
-  "Hoodlums UK": 0.9852,
-  "Iconic TCG": 0.9906,
+  "Hobby Addicts": 0.993,
+  "Hokey Poke Games": 0.993,
+  "Hoodlums UK": 0.9855,
+  "Iconic TCG": 0.9908,
   "JET Cards": 1.0,
-  "Japan2UK": 0.9914,
+  "Japan2UK": 0.9916,
   "Magic Madhouse": 1.0,
   "Monster Card Corner": 1.0,
   "Mystic Games": 1.0,
   "Packrat": 1.0,
   "Pixel Hub": 1.0,
-  "Poke Collect": 0.9412,
-  "TCG Paradise": 0.9812,
-  "TCGora": 0.9849,
+  "Poke Collect": 0.9424,
+  "TCG Paradise": 0.9816,
+  "TCGora": 0.9852,
   "The Card Vault": 1.0,
-  "The Dice Dungeon": 0.983,
+  "The Dice Dungeon": 0.9833,
   "The TCG Shop": 1.0,
   "Titan Cards": 1.0,
   "Total Cards": 1.0,
-  "Zatu Games": 0.9929
+  "Zatu Games": 0.993
  }
 }
