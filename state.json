@@ -1819,12 +1819,6 @@
  },
  "Hokey Poke Games": {
   "items": {
-   "54574983676251": [
-    "Pokemon TCG: Mega Pitch Black - Checklane Blister (SlowPoke)",
-    7.99,
-    false,
-    "https://hokeypokegames.co.uk/products/pokemon-tcg-mega-pitch-black-checklane-blister-slowpoke"
-   ],
    "54575761326427": [
     "Pokemon TCG: Black Bolt and White Flare Mini Tin",
     12.99,
@@ -6154,27 +6148,27 @@
   "Collectors Edge": 1.0,
   "Dice Cup Cafe": 1.0,
   "Double Sleeved": 1.0,
-  "Evolvault": 0.9694,
+  "Evolvault": 0.97,
   "Firestorm Games": 1.0,
-  "Hobby Addicts": 0.9935,
-  "Hokey Poke Games": 0.9935,
-  "Hoodlums UK": 0.987,
-  "Iconic TCG": 0.9918,
+  "Hobby Addicts": 0.9936,
+  "Hokey Poke Games": 0.9936,
+  "Hoodlums UK": 0.9873,
+  "Iconic TCG": 0.992,
   "JET Cards": 1.0,
-  "Japan2UK": 0.9733,
+  "Japan2UK": 0.9738,
   "Magic Madhouse": 1.0,
   "Monster Card Corner": 1.0,
   "Mystic Games": 1.0,
   "Packrat": 1.0,
   "Pixel Hub": 1.0,
-  "Poke Collect": 0.948,
-  "TCG Paradise": 0.9834,
-  "TCGora": 0.9867,
+  "Poke Collect": 0.949,
+  "TCG Paradise": 0.9837,
+  "TCGora": 0.987,
   "The Card Vault": 1.0,
-  "The Dice Dungeon": 0.9848,
+  "The Dice Dungeon": 0.9851,
   "The TCG Shop": 1.0,
   "Titan Cards": 1.0,
   "Total Cards": 1.0,
-  "Zatu Games": 0.9935
+  "Zatu Games": 0.9936
  }
 }
