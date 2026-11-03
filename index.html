@@ -592,9 +592,10 @@ function render() {
   renderReliability(rel);
   const order = s => s.skip ? 3 : s.error ? 2 : s.items.some(i => i.available) ? 0 : 1;
   $("shops").innerHTML = [...data.sites].filter(s => shopOk(s.name, f)).sort((a, b) => order(a) - order(b) || (rel[b.name]?.score ?? 0) - (rel[a.name]?.score ?? 0)).map(s => {
-    // Shops tab lists everything, over-RRP included; at-RRP stock first. The wishlist stays RRP-only.
-    const n = s.items.filter(i => i.available).length;
-    const items = s.items.filter(i => itemOk(i, s.name, f))
+    // Shops tab lists at-RRP stock first and hides anything priced more than £10 over RRP. The wishlist stays RRP-only.
+    const shown = s.items.filter(i => !(i.price != null && i.rrp != null && i.price > i.rrp + 10));
+    const n = shown.filter(i => i.available).length;
+    const items = shown.filter(i => itemOk(i, s.name, f))
       .sort((a, b) => (b.available === true) - (a.available === true) || atRrp(b) - atRrp(a));
     if (filtering(f) && !items.length) return "";
     const badge = s.skip ? '<span class="pill t-normal">not scanned</span>' : s.error ? '<span class="pill t-fire">fainted</span>'
