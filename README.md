@@ -81,7 +81,7 @@ change the shop links.
 - **Ready for drops** on the dashboard: tick off account, card saved,
   newsletter and notify-me for each shop. Ticks are saved on that device only.
 
-## Release day, baskets, resale, patterns, orders
+## Release day, baskets, resale, patterns
 
 - **Release-day mode** switches on automatically the day before and the day
   of a release in `releases.json`. You get a big countdown, one-tap links to
@@ -92,10 +92,6 @@ change the shop links.
 - **Resale:** each wishlist card links to eBay UK sold listings.
 - **Restock patterns:** the checker logs every restock to `history.json`.
   The dashboard shows a day-by-hour heatmap in UK time, for all shops or one.
-- **My orders:** log pre-orders and purchases. It warns about items ordered
-  twice and cancel windows ending within 3 days, and totals what's committed
-  and spent. Orders save to `orders.json` in your repo when the GitHub key
-  is set (otherwise only on that device).
 
 ## Faster buying
 

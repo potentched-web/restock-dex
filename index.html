@@ -135,8 +135,6 @@
   .chip small { color:var(--muted); font-weight:500 }
   .chip[aria-pressed=true] { border-color:var(--electric); color:var(--electric) }
   #drop-shops { margin:0 0 12px } #drop-shops .chip { cursor:pointer; font-family:inherit; color:inherit }
-  .set { border-top:1px solid var(--line); padding:6px 0 } .set summary { cursor:pointer; display:grid; grid-template-columns:auto auto 1fr; gap:8px; align-items:center }
-  .set .feed li { display:flex; justify-content:space-between; align-items:center; gap:10px }
   .rel { margin:0 0 12px } .rel summary { cursor:pointer; padding:4px 0 }
   .rel-list { list-style:none; margin:6px 0 0; padding:0; max-height:300px; overflow:auto }
   .rel-list li { display:grid; grid-template-columns:minmax(0,9em) 1fr 2.5em; gap:4px 10px; align-items:center; padding:5px 0; border-top:1px solid var(--line); font-size:14px }
@@ -200,12 +198,10 @@
   .heat .h { text-align:center } .heat .d { align-self:center }
   .orders { display:grid; gap:8px }
   .order { display:flex; flex-wrap:wrap; gap:6px 12px; align-items:center; background:var(--screen-2); border:1px solid var(--line); border-radius:10px; padding:10px 14px }
-  .order.warn { border-color:var(--electric) } .order.dupe { border-color:var(--fire) }
   .order .what { flex:1 1 220px; min-width:0 } .order .what b { overflow-wrap:anywhere }
   .order select, .oform input, .oform select { padding:7px 8px; border-radius:8px; border:2px solid var(--line); background:#05090c; color:var(--text); font:inherit; font-size:14px; min-width:0 }
   .oform { display:grid; grid-template-columns:repeat(auto-fit, minmax(150px, 1fr)); gap:8px; margin:12px 0 }
   .oform label { display:grid; gap:4px; font-size:12px; font-weight:700; color:var(--muted) }
-  .flag { font-size:13px; font-weight:800; color:var(--electric) } .order.dupe .flag { color:#ff9a8a }
   .tabs { position:sticky; top:env(safe-area-inset-top, 0px); z-index:5; display:flex; gap:6px; overflow-x:auto; margin-top:18px; padding:8px; background:var(--shell-dark); border:3px solid #e6e6e6; border-radius:14px; box-shadow:0 6px 14px rgba(0,0,0,.35); scrollbar-width:none }
   .tab { flex:none; font:11px/1.4 var(--pixel); color:var(--text); background:var(--screen); border:2px solid var(--line); border-radius:10px; padding:10px 12px; cursor:pointer; display:inline-flex; gap:8px; align-items:center }
   .tab:hover { border-color:var(--muted) }
@@ -295,8 +291,6 @@ html[data-skin="battle"] #t-buy{ --c:#e2443a }
 html[data-skin="battle"] #t-drops{ --c:#e8a02c }
 html[data-skin="battle"] #t-releases{ --c:#3f86d6 }
 html[data-skin="battle"] #t-shops{ --c:#3caa4c }
-html[data-skin="battle"] #t-got{ --c:#8b5bd1 }
-html[data-skin="battle"] #t-orders{ --c:#d1508f }
 html[data-skin="battle"] #t-amazon{ --c:#6b7d89 }
 html[data-skin="battle"] #t-patterns{ --c:#2a9d9a }
 html[data-skin="battle"] .tab[aria-selected=true]{ background:linear-gradient(180deg, color-mix(in srgb, var(--c) 75%, #fff), var(--c)); color:#fff; border-color:#fff; box-shadow:0 0 0 3px var(--c), 0 4px 10px rgba(0,0,0,.4); transform:translateY(-2px) }
@@ -366,8 +360,6 @@ html[data-skin="deepsea"] footer{ color:var(--muted) }
     <button class="tab" role="tab" id="t-drops" aria-controls="tab-drops" aria-selected="false" data-tab="drops">Drops<span class="badge" id="b-drops" hidden></span></button>
     <button class="tab" role="tab" id="t-releases" aria-controls="tab-releases" aria-selected="false" data-tab="releases">Releases<span class="badge" id="b-releases" hidden></span></button>
     <button class="tab" role="tab" id="t-shops" aria-controls="tab-shops" aria-selected="false" data-tab="shops">Shops<span class="badge" id="b-shops" hidden></span></button>
-    <button class="tab" role="tab" id="t-got" aria-controls="tab-got" aria-selected="false" data-tab="got">Got drop<span class="badge" id="b-got" hidden></span></button>
-    <button class="tab" role="tab" id="t-orders" aria-controls="tab-orders" aria-selected="false" data-tab="orders">My orders<span class="badge" id="b-orders" hidden></span></button>
     <button class="tab" role="tab" id="t-amazon" aria-controls="tab-amazon" aria-selected="false" data-tab="amazon">Amazon<span class="badge" id="b-amazon" hidden></span></button>
     <button class="tab" role="tab" id="t-notifs" aria-controls="tab-notifs" aria-selected="false" data-tab="notifs">Notifications<span class="badge" id="b-notifs" hidden></span></button>
     <button class="tab" role="tab" id="t-dip" aria-controls="tab-dip" aria-selected="false" data-tab="dip">Lucky Dip</button>
@@ -454,25 +446,6 @@ html[data-skin="deepsea"] footer{ color:var(--muted) }
   </section>
   </div>
 
-  <div class="panel" id="tab-got" role="tabpanel" aria-labelledby="t-got">
-<section class="screen" aria-labelledby="got-h">
-    <h2 id="got-h">▶ GOT DROP</h2>
-    <p class="note" style="margin-top:0">Got something? Mark it here and alerts for it stop from the next scan.</p>
-    <form class="oform" id="gform">
-      <label for="g-item">Product<select id="g-item" required></select></label>
-      <label for="g-shop">From shop<select id="g-shop" required></select></label>
-      <button class="btn primary" type="submit" style="align-self:end">✓ Got it</button>
-    </form>
-    <span id="got-msg" role="status" class="note"></span>
-    <div class="orders" id="got" style="margin-top:10px"></div>
-  </section>
-<section class="screen" aria-labelledby="sets-h">
-    <h2 id="sets-h">▶ SET CHECKLIST</h2>
-    <p class="note" style="margin-top:0">Every sealed product in the sets you track. Tap "Got it" to record where you got it (this also stops its alerts).</p>
-    <div id="sets"></div>
-  </section>
-  </div>
-
   <div class="panel" id="tab-notifs" role="tabpanel" aria-labelledby="t-notifs">
 <section class="screen" aria-labelledby="push-h">
     <h2 id="push-h">▶ PUSH NOTIFICATIONS</h2>
@@ -503,28 +476,6 @@ html[data-skin="deepsea"] footer{ color:var(--muted) }
       <div class="textbox" id="dip-log" role="status" aria-live="polite"></div>
     </div>
     <div class="moves" id="dip-moves"></div>
-  </section>
-  </div>
-
-  <div class="panel" id="tab-orders" role="tabpanel" aria-labelledby="t-orders">
-<section class="screen" aria-labelledby="orders-h">
-    <h2 id="orders-h">▶ MY ORDERS</h2>
-    <div class="best" id="orders-sum"></div>
-    <details id="oadd">
-      <summary class="btn" style="display:inline-block;margin-top:10px">+ Add order</summary>
-      <form class="oform" id="oform">
-        <label for="o-item">Item<input id="o-item" required placeholder="Delta Reign Elite Trainer Box"></label>
-        <label for="o-shop">Shop<input id="o-shop" required list="shoplist" placeholder="Double Sleeved"></label>
-        <label for="o-price">Price £<input id="o-price" type="number" min="0" step="0.01" inputmode="decimal" required></label>
-        <label for="o-status">Status<select id="o-status"><option>pre-order</option><option>ordered</option><option>dispatched</option><option>delivered</option><option>cancelled</option></select></label>
-        <label for="o-dispatch">Expected dispatch<input id="o-dispatch" type="date"></label>
-        <label for="o-cancel">Cancel by<input id="o-cancel" type="date"></label>
-        <button class="btn primary" type="submit" style="align-self:end">Save order</button>
-      </form>
-      <datalist id="shoplist"></datalist>
-    </details>
-    <span id="orders-msg" role="status" class="note"></span>
-    <div class="orders" id="orders" style="margin-top:10px"></div>
   </section>
   </div>
 
@@ -616,7 +567,6 @@ function renderReliability(rel) {
 function render() {
   if (!data) return;
   renderWishlist();
-  renderGot();
   renderDrops(allDrops());
   renderAmazon();
   const f = F();
@@ -870,7 +820,6 @@ function renderPatterns() {
       `<span class="c" title="${DAYS[d]} ${h}:00, ${n} restocks" style="${n ? `background:var(--grass);opacity:${(0.25 + 0.75 * n / max).toFixed(2)}` : ""}"></span>`).join("")).join("");
 }
 
-/* My orders */
 /* Amazon invites: list from releases.json + your own links; opted-in state in amazon.json */
 let amazonList = [], amz = {added: [], opted: {}};
 function renderAmazon() {
@@ -914,121 +863,17 @@ fetch("amazon.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.ok ? r.jso
   .catch(() => { try { return JSON.parse(store("amazon") || "null"); } catch { return null; } })
   .then(d => { if (d && d.opted) amz = {added: d.added || [], opted: d.opted}; renderAmazon(); });
 
-let orders = [];
-const ACTIVE = ["pre-order", "ordered"];
-/* Got drop: marks a wishlist item as got (saved in wishlist.json) so the checker stops alerting for it */
-// Sealed products per tracked set, from releases.json: [{set, items: [{name, match, max, rrp_status}]}]
-function setProducts() {
-  return (lastReleases?.releases || []).filter(r => r.set).map(r => ({set: r.set, items: r.products.map(p => {
-    const t = rrpTable[p] || {};
-    return {name: `${r.set} ${p}`, match: [r.set.toLowerCase(), ...(t.match || [p.toLowerCase()])], max: t.price ?? null, rrp_status: t.status || "unknown"};
-  })}));
-}
-function renderSets(wl) {
-  const got = Object.fromEntries(wl.filter(w => w.got).map(w => [w.name, w.got]));
-  $("sets").innerHTML = setProducts().map(({set, items}) => {
-    const n = items.filter(i => got[i.name]).length;
-    return `<details class="set" ${n < items.length ? "open" : ""}><summary><b>${esc(set)}</b> <span class="note">${n}/${items.length} got</span>${bar(n, items.length, "--grass")}</summary>
-      <ul class="feed">${items.map(i => `<li><span>${got[i.name] ? "✅" : "⬜"} ${esc(i.name.slice(set.length + 1))}</span>
-        ${got[i.name] ? `<span class="note">${esc(got[i.name].shop)} · ${esc(got[i.name].date)}</span>` : `<button class="btn small" data-pick="${esc(i.name)}">Got it</button>`}</li>`).join("")}</ul></details>`;
-  }).join("") || '<p class="empty">No sets in releases.json yet.</p>';
-}
-$("sets").addEventListener("click", e => {
-  const n = e.target.dataset.pick; if (!n) return;
-  $("g-item").value = n; $("g-shop").focus(); $("gform").scrollIntoView({behavior: "smooth", block: "center"});
-});
-
-function renderGot() {
-  const wl = wishlist || data?.wishlist || [];
-  renderSets(wl);
-  const names = new Set(wl.map(w => w.name)), extra = setProducts().flatMap(s => s.items).filter(i => !names.has(i.name));
-  const pick = $("g-item").value;  // keep the choice across the minute-by-minute refresh
-  $("g-item").innerHTML = wl.filter(w => !w.got).concat(extra).map(w => `<option ${w.name === pick ? "selected" : ""}>${esc(w.name)}</option>`).join("") || "<option value=''>Nothing left to get</option>";
-  const keep = $("g-shop").value;
-  $("g-shop").innerHTML = (data?.sites || []).map(s => `<option ${s.name === keep ? "selected" : ""}>${esc(s.name)}</option>`).join("");
-  $("got").innerHTML = wl.filter(w => w.got).map(w => `<div class="order"><div class="what"><b>${esc(w.name)}</b> · ${esc(w.got.shop)} · ${esc(w.got.date)}</div>
-    <button class="btn small" data-ungot="${esc(w.name)}" aria-label="Undo got ${esc(w.name)}">Undo</button></div>`).join("")
-    || '<p class="empty">Nothing marked as got yet.</p>';
-}
-async function setGot(name, got) {
-  const msg = $("got-msg");
-  if (!ghReady()) { msg.textContent = "Add your GitHub repo and token first (Buy → Edit wishlist → GitHub connection)."; return; }
-  let list = (wishlist || data?.wishlist || []).map(w => w.name !== name ? w : got ? {...w, got} : (({got, ...rest}) => rest)(w));
-  // A set product that wasn't on the wishlist is added already got, so it never alerts.
-  const extra = got && !list.some(w => w.name === name) && setProducts().flatMap(s => s.items).find(i => i.name === name);
-  if (extra) list = list.concat({...extra, got});
-  msg.textContent = "Saving…";
-  try {
-    await saveToRepo("wishlist.json", list, (got ? "Got " : "Undo got ") + name);
-    wishlist = list; $("wrows").innerHTML = "";
-    msg.textContent = got ? `✓ Saved. Alerts for ${name} stop from the next scan.` : "✓ Undone. Alerts are back on.";
-    render();
-  } catch (e) { msg.textContent = "✕ " + e.message; }
-}
-$("gform").addEventListener("submit", e => {
-  e.preventDefault();
-  if ($("g-item").value) setGot($("g-item").value, {shop: $("g-shop").value, date: new Date().toISOString().slice(0, 10)});
-});
-$("got").addEventListener("click", e => { const n = e.target.dataset.ungot; if (n) setGot(n, null); });
-
-function renderOrders() {
-  const today = new Date(new Date().toDateString());
-  const count = {};
-  orders.filter(o => o.status !== "cancelled").forEach(o => count[o.item.toLowerCase()] = (count[o.item.toLowerCase()] || 0) + 1);
-  const sum = st => orders.filter(o => st.includes(o.status)).reduce((t, o) => t + (o.price || 0), 0);
-  $("orders-sum").textContent = orders.length ? `Committed £${sum(ACTIVE).toFixed(2)} · Spent £${sum(["dispatched", "delivered"]).toFixed(2)}` : "";
-  const f = NOF;
-  $("orders").innerHTML = orders.filter(o => shopOk(o.shop, f) && textOk(o.item, f)).sort((a, b) => (a.cancel_by || "9") .localeCompare(b.cancel_by || "9")).map(o => {
-    const left = o.cancel_by ? Math.round((new Date(o.cancel_by + "T00:00:00") - today) / 864e5) : null;
-    const warn = ACTIVE.includes(o.status) && left != null && left >= 0 && left <= 3, dupe = o.status !== "cancelled" && count[o.item.toLowerCase()] > 1;
-    const flags = [dupe ? "⚠ Ordered more than once" : "", warn ? `⚠ Cancel window ends ${left === 0 ? "today" : left === 1 ? "tomorrow" : `in ${left} days`}` : ""].filter(Boolean).join(" · ");
-    return `<div class="order ${dupe ? "dupe" : warn ? "warn" : ""}"><div class="what"><b>${esc(o.item)}</b> · ${esc(o.shop)} · £${(+o.price).toFixed(2)}
-      <div class="note" style="margin:2px 0 0">${o.dispatch ? `Dispatch ${esc(o.dispatch)}` : ""}${o.dispatch && o.cancel_by ? " · " : ""}${o.cancel_by ? `Cancel by ${esc(o.cancel_by)}` : ""}</div>
-      ${flags ? `<div class="flag">${flags}</div>` : ""}</div>
-      <select data-id="${esc(o.id)}" aria-label="Status of ${esc(o.item)}">${["pre-order", "ordered", "dispatched", "delivered", "cancelled"].map(s => `<option ${s === o.status ? "selected" : ""}>${s}</option>`).join("")}</select>
-      <button class="btn small" data-del="${esc(o.id)}" aria-label="Delete ${esc(o.item)}">✕</button></div>`;
-  }).join("") || '<p class="empty">No orders yet. Tap "+ Add order" after you buy or pre-order something.</p>';
-}
-async function persistOrders() {
-  store("orders", JSON.stringify(orders));
-  renderOrders();
-  if (!ghReady()) { $("orders-msg").textContent = "Saved on this device. Add your GitHub key (Edit wishlist → GitHub connection) to sync everywhere."; return; }
-  $("orders-msg").textContent = "Saving…";
-  try { await saveToRepo("orders.json", orders, "Update orders from dashboard"); $("orders-msg").textContent = "✓ Saved."; }
-  catch (e) { $("orders-msg").textContent = "Saved on this device only. ✕ " + e.message; }
-}
-$("oform").addEventListener("submit", e => {
-  e.preventDefault();
-  orders.push({id: Date.now().toString(36), item: $("o-item").value.trim(), shop: $("o-shop").value.trim(), price: parseFloat($("o-price").value),
-    status: $("o-status").value, dispatch: $("o-dispatch").value || null, cancel_by: $("o-cancel").value || null});
-  e.target.reset();
-  persistOrders();
-});
-$("orders").addEventListener("change", e => {
-  const o = orders.find(o => o.id === e.target.dataset.id);
-  if (o) { o.status = e.target.value; persistOrders(); }
-});
-$("orders").addEventListener("click", e => {
-  const id = e.target.dataset.del;
-  if (id) { orders = orders.filter(o => o.id !== id); persistOrders(); }
-});
-fetch("orders.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.ok ? r.json() : Promise.reject())
-  .catch(() => { try { return JSON.parse(store("orders") || "[]"); } catch { return []; } })
-  .then(o => { orders = Array.isArray(o) ? o : []; renderOrders(); });
-
 let releaseDrops = [];
 const allDrops = () => releaseDrops.concat(data?.auto_drops || []);
 
 let lastReleases = null;
 function renderReleases(r) {
   lastReleases = r;
-  if (data) renderGot();
   rrpTable = r.rrp || {};
   releaseDrops = r.drops || [];
   shopLinks = r.shops;
   amazonList = r.amazon || []; renderAmazon();
   rdayList = r.releases.filter(x => releaseDays(x.date) >= 0 && releaseDays(x.date) <= 1);
-  $("shoplist").innerHTML = r.shops.map(s => `<option value="${esc(s.name)}">`).join("");
   renderRday();
   renderDrops(allDrops());
   renderReady(r.shops);
@@ -1099,7 +944,6 @@ function badge(id, n, label) { const b = $("b-" + id); b.hidden = !n; b.textCont
 function updateBadges() {
   badge("buy", document.querySelectorAll(".wish.buy").length, "deals within your max");
   badge("drops", document.querySelectorAll("#drops .drop:not(.done)").length, "drops not entered");
-  badge("orders", document.querySelectorAll(".order.warn, .order.dupe").length, "orders need attention");
 }
 setInterval(updateBadges, 1000);
 
