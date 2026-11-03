@@ -5112,28 +5112,261 @@
   "mode": "shopify"
  },
  "TCGora": {
-  "lines": [
-   "Mega Evolution \u2014 Perfect Order Pok\u00e9mon Center Elite Trainer Box",
-   "Mega Evolution \u2014 Pitch Black Booster Box (Pre-Order)",
-   "Mega Evolution \u2014 Pitch Black Booster Box (Pre-Order) - https://tcgora.com/products/mega-evolution-pitch-black-booster-box-pre-order",
-   "Mega Evolution\u2014Pitch Black Booster Box",
-   "Mega Evolution\u2014Pitch Black Booster Bundle (Pre-Order)",
-   "Mega Evolution\u2014Pitch Black Build & Battle Bundle (Pre-Order)",
-   "Mega Evolution\u2014Pitch Black Elite Trainer Box (Pre-Order)",
-   "Mega Evolution\u2014Pitch Black Pok\u00e9mon Center Elite Trainer Box (Pre-Order)",
-   "Pok\u00e9mon TCG: 30th Celebration Booster Bundle (Pre-Order)",
-   "Pok\u00e9mon TCG: 30th Celebration Ditto Premium Collection (Pre-Order)",
-   "Pok\u00e9mon TCG: 30th Celebration Elite Trainer Box (Pre-Order)",
-   "Pok\u00e9mon TCG: 30th Celebration Figure Collection\u2014Mew (Pre-Order)",
-   "Pok\u00e9mon TCG: 30th Celebration Figure Collection\u2014Mewtwo (Pre-Order)",
-   "Pok\u00e9mon TCG: 30th Celebration Mini Tin (Pre-Order)",
-   "Pok\u00e9mon TCG: 30th Celebration Ultra-Premium Collection\u2014Day Edition (Pre-Order)",
-   "Pok\u00e9mon TCG: 30th Celebration Ultra-Premium Collection\u2014Night Edition (Pre-Order)",
-   "Pok\u00e9mon TCG: Mega Evolution\u2014Delta Reign Booster Box (36 Packs) (Pre-Order)",
-   "Pok\u00e9mon TCG: Mega Evolution\u2014Delta Reign Elite Trainer Box (Pre-Order)",
-   "Scarlet & Violet: Twilight Masquerade \u2014 Pok\u00e9mon Center Elite Trainer Box"
-  ],
-  "mode": "page"
+  "items": {
+   "56544454279492": [
+    "Pok\u00e9mon TCG: Galar Pals \u2014 Grookey Mini Tin",
+    29.0,
+    false,
+    "https://tcgora.com/products/pokemon-tcg-galar-pals-grookey-mini-tin"
+   ],
+   "56549814960452": [
+    "Scarlet & Violet: Temporal Forces \u2014 Pok\u00e9mon Center Elite Trainer Box \u2014 Walking Wake",
+    69.0,
+    false,
+    "https://tcgora.com/products/scarlet-violet-temporal-forces-pokemon-center-elite-trainer-box-walking-wake"
+   ],
+   "56549820301636": [
+    "Scarlet & Violet: Twilight Masquerade \u2014 Pok\u00e9mon Center Elite Trainer Box",
+    69.0,
+    false,
+    "https://tcgora.com/products/scarlet-violet-twilight-masquerade-pokemon-center-elite-trainer-box"
+   ],
+   "56549824463172": [
+    "Scarlet & Violet \u2014 Pok\u00e9mon Center Elite Trainer Box \u2014 Miraidon",
+    69.0,
+    false,
+    "https://tcgora.com/products/scarlet-violet-pokemon-center-elite-trainer-box-miraidon"
+   ],
+   "56549826199876": [
+    "Sword & Shield: Silver Tempest \u2014 Pok\u00e9mon Center Elite Trainer Box",
+    69.0,
+    false,
+    "https://tcgora.com/products/sword-shield-silver-tempest-pokemon-center-elite-trainer-box"
+   ],
+   "56549827739972": [
+    "Sword & Shield: Brilliant Stars \u2014 Pok\u00e9mon Center Elite Trainer Box",
+    69.0,
+    false,
+    "https://tcgora.com/products/sword-shield-brilliant-stars-pokemon-center-elite-trainer-box"
+   ],
+   "56549830000964": [
+    "Sword & Shield: Astral Radiance \u2014 Pok\u00e9mon Center Elite Trainer Box",
+    69.0,
+    false,
+    "https://tcgora.com/products/sword-shield-astral-radiance-pokemon-center-elite-trainer-box"
+   ],
+   "56549831409988": [
+    "Scarlet & Violet: Temporal Forces \u2014 Pok\u00e9mon Center Elite Trainer Box \u2014 Iron Leaves",
+    69.0,
+    false,
+    "https://tcgora.com/products/scarlet-violet-temporal-forces-pokemon-center-elite-trainer-box-iron-leaves"
+   ],
+   "56549831901508": [
+    "Scarlet & Violet: Paldea Evolved \u2014 Pok\u00e9mon Center Elite Trainer Box",
+    69.0,
+    false,
+    "https://tcgora.com/products/scarlet-violet-paldea-evolved-pokemon-center-elite-trainer-box"
+   ],
+   "56549833867588": [
+    "Scarlet & Violet: Shrouded Fable \u2014 Pok\u00e9mon Center Elite Trainer Box",
+    69.0,
+    false,
+    "https://tcgora.com/products/scarlet-violet-shrouded-fable-pokemon-center-elite-trainer-box"
+   ],
+   "56549836390724": [
+    "Scarlet & Violet: Stellar Crown \u2014 Pok\u00e9mon Center Elite Trainer Box",
+    69.0,
+    false,
+    "https://tcgora.com/products/scarlet-violet-stellar-crown-pokemon-center-elite-trainer-box"
+   ],
+   "56549837996356": [
+    "Scarlet & Violet \u2014 Pok\u00e9mon Center Elite Trainer Box \u2014 Koraidon",
+    69.0,
+    false,
+    "https://tcgora.com/products/scarlet-violet-pokemon-center-elite-trainer-box-koraidon"
+   ],
+   "56549839307076": [
+    "Sword & Shield: Fusion Strike \u2014 Pok\u00e9mon Center Elite Trainer Box",
+    69.0,
+    false,
+    "https://tcgora.com/products/sword-shield-fusion-strike-pokemon-center-elite-trainer-box"
+   ],
+   "56549841436996": [
+    "Scarlet & Violet: Journey Together \u2014 Pok\u00e9mon Center Elite Trainer Box",
+    69.0,
+    false,
+    "https://tcgora.com/products/scarlet-violet-journey-together-pokemon-center-elite-trainer-box"
+   ],
+   "56551438188868": [
+    "Mega Evolution \u2014 Pok\u00e9mon Center Elite Trainer Box \u2014 Mega Gardevoir",
+    69.0,
+    false,
+    "https://tcgora.com/products/xy-mega-evolution-pokemon-center-elite-trainer-box-mega-gardevoir"
+   ],
+   "56551446741316": [
+    "Scarlet & Violet: White Flare \u2014 Pok\u00e9mon Center Elite Trainer Box",
+    69.0,
+    false,
+    "https://tcgora.com/products/scarlet-violet-white-flare-pokemon-center-elite-trainer-box"
+   ],
+   "56551452344644": [
+    "Sword & Shield: Crown Zenith \u2014 Pok\u00e9mon Center Elite Trainer Box Plus",
+    69.0,
+    false,
+    "https://tcgora.com/products/sword-shield-crown-zenith-pokemon-center-elite-trainer-box-plus"
+   ],
+   "56551467811140": [
+    "Scarlet & Violet: Obsidian Flames \u2014 Pok\u00e9mon Center Elite Trainer Box",
+    69.0,
+    false,
+    "https://tcgora.com/products/scarlet-violet-obsidian-flames-pokemon-center-elite-trainer-box"
+   ],
+   "56551472300356": [
+    "Scarlet & Violet: Black Bolt \u2014 Pok\u00e9mon Center Elite Trainer Box",
+    69.0,
+    false,
+    "https://tcgora.com/products/scarlet-violet-black-bolt-pokemon-center-elite-trainer-box"
+   ],
+   "56551480426820": [
+    "Scarlet & Violet: Surging Sparks \u2014 Pok\u00e9mon Center Elite Trainer Box",
+    69.0,
+    false,
+    "https://tcgora.com/products/scarlet-violet-surging-sparks-pokemon-center-elite-trainer-box"
+   ],
+   "56551485866308": [
+    "Scarlet & Violet: Paldean Fates \u2014 Pok\u00e9mon Center Elite Trainer Box",
+    69.0,
+    false,
+    "https://tcgora.com/products/scarlet-violet-paldean-fates-pokemon-center-elite-trainer-box"
+   ],
+   "56551491404100": [
+    "Mega Evolution \u2014 Pok\u00e9mon Center Elite Trainer Box \u2014 Mega Lucario",
+    69.0,
+    false,
+    "https://tcgora.com/products/xy-mega-evolution-pokemon-center-elite-trainer-box-mega-lucario"
+   ],
+   "56551493697860": [
+    "Scarlet & Violet: Destined Rivals \u2014 Pok\u00e9mon Center Elite Trainer Box",
+    69.0,
+    false,
+    "https://tcgora.com/products/scarlet-violet-destined-rivals-pokemon-center-elite-trainer-box"
+   ],
+   "56551583875396": [
+    "Mega Evolution \u2014 Phantasmal Flames Pok\u00e9mon Center Elite Trainer Box",
+    69.0,
+    false,
+    "https://tcgora.com/products/xy-mega-evolution-phantasmal-flames-pokemon-center-elite-trainer-box"
+   ],
+   "56551599636804": [
+    "Mega Evolution \u2014 Ascended Heroes Pok\u00e9mon Center Elite Trainer Box",
+    69.0,
+    false,
+    "https://tcgora.com/products/xy-mega-evolution-ascended-heroes-pokemon-center-elite-trainer-box"
+   ],
+   "56551603831108": [
+    "Mega Evolution \u2014 Perfect Order Pok\u00e9mon Center Elite Trainer Box",
+    69.0,
+    false,
+    "https://tcgora.com/products/xy-mega-evolution-perfect-order-pokemon-center-elite-trainer-box"
+   ],
+   "56752372220228": [
+    "Mega Evolution\u2014Pitch Black Pok\u00e9mon Center Elite Trainer Box (Pre-Order)",
+    99.0,
+    true,
+    "https://tcgora.com/products/mega-evolution-pitch-black-pokemon-center-elite-trainer-box-pre-order"
+   ],
+   "56890826621252": [
+    "Pok\u00e9mon TCG: Mega Evolution\u2014Delta Reign Elite Trainer Box (Pre-Order)",
+    99.9,
+    true,
+    "https://tcgora.com/products/pokemon-tcg-mega-evolution-delta-reign-elite-trainer-box-pre-order"
+   ],
+   "56890857685316": [
+    "Pok\u00e9mon TCG: Mega Evolution\u2014Delta Reign Booster Box (36 Packs) (Pre-Order)",
+    199.9,
+    true,
+    "https://tcgora.com/products/pokemon-tcg-mega-evolution-delta-reign-booster-box-36-packs-pre-order"
+   ],
+   "56909420298564": [
+    "Pok\u00e9mon TCG: 30th Celebration Eevee 2-Pack Blister (Pre-Order)",
+    29.9,
+    false,
+    "https://tcgora.com/products/pokemon-tcg-30th-celebration-eevee-2-pack-blister-pre-order"
+   ],
+   "56909429637444": [
+    "Pok\u00e9mon TCG: 30th Celebration Booster Bundle (Pre-Order)",
+    79.9,
+    true,
+    "https://tcgora.com/products/pokemon-tcg-30th-celebration-booster-bundle-pre-order"
+   ],
+   "56909432029508": [
+    "Pok\u00e9mon TCG: 30th Celebration Ditto Premium Collection (Pre-Order)",
+    99.9,
+    true,
+    "https://tcgora.com/products/pokemon-tcg-30th-celebration-ditto-premium-collection-pre-order"
+   ],
+   "56909438648644": [
+    "Pok\u00e9mon TCG: 30th Celebration Elite Trainer Box (Pre-Order)",
+    129.9,
+    true,
+    "https://tcgora.com/products/pokemon-tcg-30th-celebration-elite-trainer-box-pre-order"
+   ],
+   "56909441728836": [
+    "Pok\u00e9mon TCG: 30th Celebration Figure Collection\u2014Mewtwo (Pre-Order)",
+    59.9,
+    false,
+    "https://tcgora.com/products/pokemon-tcg-30th-celebration-figure-collection-mewtwo-pre-order"
+   ],
+   "56909443858756": [
+    "Pok\u00e9mon TCG: 30th Celebration Figure Collection\u2014Mew (Pre-Order)",
+    59.9,
+    true,
+    "https://tcgora.com/products/pokemon-tcg-30th-celebration-figure-collection-mew-pre-order"
+   ],
+   "56909445038404": [
+    "Pok\u00e9mon TCG: 30th Celebration Knock Out Collection (Pre-Order)",
+    24.9,
+    false,
+    "https://tcgora.com/products/pokemon-tcg-30th-celebration-knock-out-collection-pre-order"
+   ],
+   "56909445660996": [
+    "Pok\u00e9mon TCG: 30th Celebration Mini Tin (Pre-Order)",
+    29.9,
+    false,
+    "https://tcgora.com/products/pokemon-tcg-30th-celebration-mini-tin-pre-order"
+   ],
+   "56909452804420": [
+    "Pok\u00e9mon TCG: 30th Celebration Poster Collection (Pre-Order)",
+    59.9,
+    false,
+    "https://tcgora.com/products/pokemon-tcg-30th-celebration-poster-collection-pre-order"
+   ],
+   "56909459161412": [
+    "Pok\u00e9mon TCG: 30th Celebration Tech Sticker Collection\u2014Lucario (Pre-Order)",
+    39.9,
+    true,
+    "https://tcgora.com/products/pokemon-tcg-30th-celebration-tech-sticker-collection-lucario-pre-order"
+   ],
+   "56909460635972": [
+    "Pok\u00e9mon TCG: 30th Celebration Tech Sticker Collection\u2014Alolan Exeggutor (Pre-Order)",
+    39.9,
+    false,
+    "https://tcgora.com/products/pokemon-tcg-30th-celebration-tech-sticker-collection-alolan-exeggutor-pre-order"
+   ],
+   "56909466239300": [
+    "Pok\u00e9mon TCG: 30th Celebration Ultra-Premium Collection\u2014Night Edition (Pre-Order)",
+    399.9,
+    true,
+    "https://tcgora.com/products/pokemon-tcg-30th-celebration-ultra-premium-collection-night-edition-pre-order"
+   ],
+   "56909468401988": [
+    "Pok\u00e9mon TCG: 30th Celebration Ultra-Premium Collection\u2014Day Edition (Pre-Order)",
+    399.9,
+    false,
+    "https://tcgora.com/products/pokemon-tcg-30th-celebration-ultra-premium-collection-day-edition-pre-order"
+   ]
+  },
+  "mode": "shopify"
  },
  "The Card Vault": {
   "items": {
@@ -5951,27 +6184,27 @@
   "Collectors Edge": 1.0,
   "Dice Cup Cafe": 1.0,
   "Double Sleeved": 1.0,
-  "Evolvault": 0.9633,
+  "Evolvault": 0.964,
   "Firestorm Games": 1.0,
-  "Hobby Addicts": 0.9926,
-  "Hokey Poke Games": 0.9926,
-  "Hoodlums UK": 0.9843,
-  "Iconic TCG": 0.99,
+  "Hobby Addicts": 0.9927,
+  "Hokey Poke Games": 0.9927,
+  "Hoodlums UK": 0.9846,
+  "Iconic TCG": 0.9902,
   "JET Cards": 1.0,
-  "Japan2UK": 0.9908,
+  "Japan2UK": 0.991,
   "Magic Madhouse": 1.0,
   "Monster Card Corner": 1.0,
   "Mystic Games": 1.0,
   "Packrat": 1.0,
   "Pixel Hub": 1.0,
-  "Poke Collect": 0.9376,
-  "TCG Paradise": 0.98,
-  "TCGora": 0.984,
+  "Poke Collect": 0.9388,
+  "TCG Paradise": 0.9804,
+  "TCGora": 0.9843,
   "The Card Vault": 1.0,
-  "The Dice Dungeon": 0.9819,
+  "The Dice Dungeon": 0.9823,
   "The TCG Shop": 1.0,
   "Titan Cards": 1.0,
   "Total Cards": 1.0,
-  "Zatu Games": 0.9926
+  "Zatu Games": 0.9927
  }
 }
