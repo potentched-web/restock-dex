@@ -38,10 +38,11 @@
   .led { width:14px; height:14px; border-radius:50%; border:2px solid #222 }
   .led.r { background:#ff4d4d } .led.y { background:var(--electric) } .led.g { background:var(--grass) }
   .led.off { filter:brightness(.4) }
-  .titles { margin-left:auto; text-align:right; min-width:0 }
-  h1 { font:16px/1.4 var(--pixel); margin:0; text-shadow:3px 3px 0 var(--shell-dark); letter-spacing:1px }
+  .titles { flex:1; text-align:right; min-width:0 }
+  .titles h1 { text-align:center }
+  h1 { font:20px/1.4 var(--pixel); margin:0; text-shadow:3px 3px 0 var(--shell-dark); letter-spacing:1px }
   .status-line { font-size:13px; opacity:.9; margin-top:6px }
-  @media (max-width:520px) { h1 { font-size:12px } .lens { width:48px; height:48px } .top { flex-wrap:wrap } }
+  @media (max-width:520px) { h1 { font-size:15px } .lens { width:48px; height:48px } .top { flex-wrap:wrap } }
 
   /* Screens */
   .screen { background:var(--screen); border:6px solid #e6e6e6; border-radius:14px 14px 14px 36px; padding:16px;
@@ -189,6 +190,7 @@
   .amz-go { text-decoration:none }
   footer { text-align:center; font-size:12px; opacity:.85; margin-top:22px }
 .skin { margin-top:8px; font:inherit; font-size:13px; font-weight:700; padding:4px 8px; border-radius:8px; border:2px solid var(--line); background:var(--screen); color:var(--text) }
+@media (max-width:520px) { html:not([data-skin="dex"]) h1 { font-size:28px } .titles { flex-basis:100% } }
 </style>
 <style>
 /* Flame */
@@ -203,7 +205,7 @@ html[data-skin="flame"] body::after{ content:""; position:fixed; inset:0; pointe
 html[data-skin="flame"] .top{ border-bottom:0 }
 html[data-skin="flame"] .lens{ background:radial-gradient(circle at 40% 35%, #fff3c4 0 10%, #ffb02e 12% 45%, #c4501b 70%, #5a210c); border-color:#2a1a10; box-shadow:0 0 22px 6px rgba(255,138,61,.5) }
 html[data-skin="flame"] .lens.fresh{ animation:none }
-html[data-skin="flame"] h1{ font:400 26px/1 var(--head); color:var(--electric); text-shadow:0 3px 0 #5a210c, 0 0 20px rgba(255,138,61,.5) }
+html[data-skin="flame"] h1{ font:400 34px/1 var(--head); color:var(--electric); text-shadow:0 3px 0 #5a210c, 0 0 20px rgba(255,138,61,.5) }
 html[data-skin="flame"] .screen{ border:0; border-radius:16px; background:var(--screen); box-shadow:inset 0 0 0 2px var(--line), 0 8px 24px rgba(0,0,0,.5); position:relative; overflow:hidden }
 html[data-skin="flame"] .screen::before{ content:""; position:absolute; inset:0 0 auto; height:4px; background:linear-gradient(90deg, #c4501b, #ffb02e, #fff1a8, #ffb02e, #c4501b) }
 html[data-skin="flame"] h2{ font:400 14px/1.3 var(--head); color:var(--electric) }
@@ -226,7 +228,7 @@ html[data-skin="ghost"] .top{ border-bottom-color:#3a2858 }
 html[data-skin="ghost"] .lens{ background:radial-gradient(circle at 50% 50%, #fff 0 10%, var(--eye) 12% 55%, #6d0f1c); border-color:#2a1a44; box-shadow:0 0 18px 4px rgba(255,59,59,.45) }
 html[data-skin="ghost"] .lens.fresh{ animation:none }
 html[data-skin="ghost"] .leds .led{ border-color:#2a1a44 }
-html[data-skin="ghost"] h1{ font:400 34px/1 "Creepster", cursive; letter-spacing:3px; color:var(--electric); text-shadow:0 0 14px rgba(201,164,255,.6) }
+html[data-skin="ghost"] h1{ font:400 44px/1 "Creepster", cursive; letter-spacing:3px; color:var(--electric); text-shadow:0 0 14px rgba(201,164,255,.6) }
 html[data-skin="ghost"] .screen{ border:3px solid var(--line); border-radius:22px; box-shadow:0 0 0 1px #000, 0 10px 30px rgba(0,0,0,.5) }
 html[data-skin="ghost"] .screen{ position:relative; margin-top:34px }
 html[data-skin="ghost"] .screen::before{ content:""; position:absolute; top:-16px; left:22px; width:120px; height:16px; background:var(--line);
@@ -246,7 +248,7 @@ html[data-skin="battle"]{ --sky:#9fd8ff; --field:#a4dc7c; --box:#ffffff; --rim:#
   --head:"Rubik", system-ui, sans-serif; color-scheme:light }
 html[data-skin="battle"] body{ color:var(--text); font-family:var(--head); background:linear-gradient(180deg, var(--sky) 0, #d6f0ff 320px, var(--field) 320px, #7fc35a) fixed }
 html[data-skin="battle"] .top{ border:0; background:transparent }
-html[data-skin="battle"] h1{ font:900 italic 30px/1 var(--head); color:#fff; text-shadow:0 3px 0 var(--rim), 3px 0 0 var(--rim), -2px 0 0 var(--rim), 0 -2px 0 var(--rim); letter-spacing:1px }
+html[data-skin="battle"] h1{ font:900 italic 38px/1 var(--head); color:#fff; text-shadow:0 3px 0 var(--rim), 3px 0 0 var(--rim), -2px 0 0 var(--rim), 0 -2px 0 var(--rim); letter-spacing:1px }
 html[data-skin="battle"] .status-line{ color:var(--rim); font-weight:700 }
 html[data-skin="battle"] .lens{ border-color:#fff; box-shadow:0 0 0 3px var(--rim) }
 html[data-skin="battle"] .screen{ background:var(--box); border:4px solid var(--rim); border-radius:18px; box-shadow:inset 0 0 0 4px var(--rim-2), 0 6px 0 rgba(30,60,80,.35) }
@@ -299,7 +301,7 @@ html[data-skin="deepsea"] body{ background-color:#04111c;
   background-size:32px 18px; background-attachment:fixed }
 html[data-skin="deepsea"] .top{ border-bottom:3px solid var(--line) }
 html[data-skin="deepsea"] .lens{ background:radial-gradient(circle at 35% 30%, #c9f0ff 0 12%, var(--shell-light) 14% 55%, #0b3f6e); border-color:var(--electric); box-shadow:0 0 0 3px #04111c, 0 0 24px rgba(45,138,214,.5) }
-html[data-skin="deepsea"] h1{ font:400 30px/1 var(--head); letter-spacing:2px; color:#fff; text-shadow:0 0 18px rgba(45,138,214,.8) }
+html[data-skin="deepsea"] h1{ font:400 38px/1 var(--head); letter-spacing:2px; color:#fff; text-shadow:0 0 18px rgba(45,138,214,.8) }
 html[data-skin="deepsea"] .screen{ border:2px solid var(--line); border-radius:20px 4px 20px 4px; box-shadow:0 10px 30px rgba(0,0,0,.5); background:linear-gradient(180deg, var(--screen), #071722) }
 html[data-skin="deepsea"] h2{ font:400 16px/1.3 var(--head); color:var(--electric); padding-left:12px; border-left:4px solid var(--fin) }
 html[data-skin="deepsea"] .tabs{ background:#071722; border:2px solid var(--shell-light); box-shadow:0 0 24px rgba(31,111,181,.35) }
