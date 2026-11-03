@@ -1,6 +1,6 @@
 # Pokemon TCG UK stock alerts
 
-Checks UK shops about every 15 minutes (every 5 on release days), shows everything on a live dashboard
+Checks every UK shop every 5 minutes, shows everything on a live dashboard
 (`index.html`, refreshes itself every minute), and emails you plus pings your phone when a
 Pokemon product you care about is **newly listed** or **back in stock**. It
 shows the price and flags anything **over RRP**. It never buys anything.
@@ -13,9 +13,9 @@ shows the price and flags anything **over RRP**. It never buys anything.
 2. **GitHub:** create a new repository and upload these files, keeping
    `.github/workflows/check.yml` in place. A **public** repo gets unlimited
    free Actions minutes (your secrets stay hidden), so use public. The
-   workflow wakes every 5 minutes: on release days (the day before and the
-   day of) it scans every time, otherwise every 15 minutes. A private repo's
-   2,000 free minutes won't cover that.
+   workflow scans every shop every 5 minutes (each run loops for ~45 minutes,
+   because GitHub's timer is often late). A private repo's 2,000 free minutes
+   won't cover that.
 3. In the repo go to **Settings > Secrets and variables > Actions** and add
    `DISCORD_WEBHOOK` if you want Discord alerts. Phone push uses the public ntfy
    topic in `sites.json` (`ntfy_topic`); anyone can subscribe from the dashboard's

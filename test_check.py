@@ -118,10 +118,6 @@ assert [(d["name"], d["url"], d["type"], d["seeded"]) for d in new] == [("Delta 
 st, new = check.check_drop_page(dp, CFG, st)
 assert new == []
 
-# Release window: day before and day of
-from datetime import date
-R = [{"date": "2026-11-06"}]
-assert [check.release_window(R, date(2026, 11, d)) for d in (4, 5, 6, 7)] == [False, True, True, False]
 print("all checks passed")
 
 # RRP: longest matching key wins; got items stop alerting
@@ -167,3 +163,9 @@ wl = check.auto_wishlist(R, date(2026, 8, 15), cur)  # S9 is out 1 Sep (within 3
 assert [w["name"] for w in wl] == [f"S{n} Booster Box" for n in range(9, 2, -1)] + ["My Tin"], wl
 assert wl[0]["got"] == {"shop": "X"} and wl[0]["max"] == 155.0 and wl[0]["match"] == ["s9", "booster box"]
 print("auto wishlist checks passed")
+
+# Amazon gaps: wishlist products without an Amazon entry get a search link
+gaps = check.amazon_gaps([{"name": "S1 Booster Box", "match": ["s1", "booster box"]}, {"name": "S1 ETB", "match": ["s1", "elite trainer"]},
+                          {"name": "S2 ETB", "match": ["s2", "elite trainer"], "got": {"shop": "X"}}], [{"name": "S1 Elite Trainer Box"}])
+assert [g["name"] for g in gaps] == ["S1 Booster Box"] and gaps[0]["url"].endswith("?k=pokemon+tcg+S1+Booster+Box"), gaps
+print("amazon gap checks passed")

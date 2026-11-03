@@ -571,6 +571,7 @@ function render() {
   renderWishlist();
   renderGot();
   renderDrops(allDrops());
+  renderAmazon();
   const f = F();
   const mins = Math.round((Date.now() - new Date(data.updated)) / 60000), fresh = mins <= 45;
   $("updated").textContent = `Last scan ${when(data.updated)} · ${mins} min ago${fresh ? "" : " · checker may have stopped"}`;
@@ -827,7 +828,7 @@ function renderPatterns() {
 let amazonList = [], amz = {added: [], opted: {}};
 function renderAmazon() {
   amazonList.forEach(a => { if (a.old && amz.opted[a.old] && !amz.opted[a.url]) amz.opted[a.url] = amz.opted[a.old]; }); // keep opt-ins made on the old search links
-  const all = amazonList.concat(amz.added.map(a => ({...a, mine: true})));
+  const all = amazonList.concat(data?.amazon_auto || [], amz.added.map(a => ({...a, mine: true})));
   const done = all.filter(a => amz.opted[a.url]).length;
   $("amz-sum").textContent = all.length ? `${done} of ${all.length} opted in` : "";
   $("amz").innerHTML = [...all].sort((a, b) => !!amz.opted[a.url] - !!amz.opted[b.url]).map(a => { const on = !!amz.opted[a.url];

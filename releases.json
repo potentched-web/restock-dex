@@ -420,6 +420,26 @@
       "url": "https://www.amazon.co.uk/dp/B0FTF6TC43",
       "kind": "product",
       "old": "https://www.amazon.co.uk/s?k=pokemon+tcg+Phantasmal+Flames+Booster+Bundle"
+    },
+    {
+      "name": "Mega Greninja ex Premium Collection",
+      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Mega+Greninja+ex+Premium+Collection",
+      "kind": "search"
+    },
+    {
+      "name": "Mega Charizard Tin",
+      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Mega+Charizard+Tin",
+      "kind": "search"
+    },
+    {
+      "name": "Snorlax ex & Blissey ex Special Collection",
+      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Snorlax+ex+%26+Blissey+ex+Special+Collection",
+      "kind": "search"
+    },
+    {
+      "name": "Pokemon Day 2026 Collection",
+      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Pokemon+Day+2026+Collection",
+      "kind": "search"
     }
   ]
 }

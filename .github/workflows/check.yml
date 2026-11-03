@@ -12,7 +12,7 @@ jobs:
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
-      # Each run keeps checking every 5 min for ~45 min; check.py decides when a full scan is due.
+      # Each run scans every shop every 5 min (start to start) for ~45 min.
       # The next scheduled run queues behind this one (concurrency), so scans keep going even when GitHub's cron is late.
       - name: Check shops in a loop
         env:
@@ -27,10 +27,11 @@ jobs:
           git config user.email "stock-bot@users.noreply.github.com"
           end=$((SECONDS + 45*60))
           while :; do
+            t0=$SECONDS
             git pull --rebase -q -X theirs || true   # pick up wishlist/sites edits made meanwhile
             python3 check.py || echo "check.py failed, trying again next round"
             git add state.json status.json history.json notifications.json wishlist.json
             git diff --cached --quiet || (git commit -m "Update stock state" && (git push || (git pull --rebase -X theirs && git push)))
             [ $SECONDS -lt $end ] || break
-            sleep 300
+            [ $((SECONDS - t0)) -ge 300 ] || sleep $((300 - (SECONDS - t0)))
           done

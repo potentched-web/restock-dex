@@ -7,10 +7,10 @@ digest per run (SMTP_USER/SMTP_PASS, optional SMTP_HOST, EMAIL_TO).
 Writes status.json, which dashboard.html displays.
 """
 import json, os, re, smtplib, sys, time, urllib.error, urllib.request
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timezone
 from email.message import EmailMessage
 from html.parser import HTMLParser
-from urllib.parse import urljoin, urlsplit
+from urllib.parse import quote_plus, urljoin, urlsplit
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 STATE = os.path.join(HERE, "state.json")
@@ -269,11 +269,6 @@ def site_status(site, st, err, cfg):
     return row
 
 
-def release_window(releases, today):
-    """True on the day before and the day of any release."""
-    return any(0 <= (datetime.fromisoformat(r["date"]).date() - today).days <= 1 for r in releases)
-
-
 def auto_wishlist(releases, today, current):
     """Wishlist = every product of the 6 newest released sets plus sets out within 30 days, at RRP from releases.json.
     Keeps "got" marks and entries that aren't from any set; drops products of sets that fell out of the window."""
@@ -295,18 +290,18 @@ def auto_wishlist(releases, today, current):
     return out + [w for w in current if w["name"] not in names and (w.get("got") or not w["name"].startswith(set_names))]
 
 
+def amazon_gaps(wishlist, amazon):
+    """Amazon UK search links for wishlist products with no entry in releases.json "amazon". Builds links only, never fetches Amazon."""
+    names = [a["name"].lower() for a in amazon]
+    return [{"name": w["name"], "url": "https://www.amazon.co.uk/s?k=" + quote_plus("pokemon tcg " + w["name"]), "kind": "search", "auto": True}
+            for w in wishlist if not w.get("got") and not any(all(k in n for k in w["match"]) for n in names)]
+
+
 def main():
     cfg = json.load(open(os.path.join(HERE, "sites.json")))
     rel_path = os.path.join(HERE, "releases.json")
     releases = json.load(open(rel_path)) if os.path.exists(rel_path) else {}
     now_dt = datetime.now(timezone.utc)
-    # The workflow calls this every 5 min; outside release days only scan if the last scan is 12+ min old.
-    # Elapsed time, not the clock minute: GitHub often starts scheduled runs late, which used to skip scans for hours.
-    last = (json.load(open(STATUS)) if os.path.exists(STATUS) else {}).get("updated")
-    if os.environ.get("GITHUB_ACTIONS") and last and now_dt - datetime.fromisoformat(last) < timedelta(minutes=12) \
-            and not release_window(releases.get("releases", []), now_dt.date()):
-        print("Not a release day and scanned recently: skipping this 5-minute slot")
-        return
     wl_path = os.path.join(HERE, "wishlist.json")  # edited from the dashboard
     cfg["wishlist"] = json.load(open(wl_path)) if os.path.exists(wl_path) else []
     # shortcut: the workflow pushes this with -X theirs, so a dashboard edit in the same minute can be overwritten; rare.
@@ -379,6 +374,11 @@ def main():
             and (not cfg.get("wishlist") or wish_hit(a[1], cfg) or " spotted: " in a[1])]
     reminders = [r for r in drop_reminders(drops, now_dt, state.setdefault("_reminded", [])) if not got_it(r[1], cfg)]
     push += reminders
+    # New Amazon invite links (a new set entering the wishlist window) ping once; the first run only seeds the list.
+    amazon_auto = amazon_gaps(cfg["wishlist"], releases.get("amazon", []))
+    if "amazon_auto" in status:
+        known = {a["name"] for a in status["amazon_auto"]}
+        push += [("Amazon", f"New Amazon invite to request: {a['name']}", a["url"]) for a in amazon_auto if a["name"] not in known]
     run_alerts += reminders
     # The public topic in sites.json is what the dashboard's "Push notifications" button subscribes people to.
     topic = cfg.get("ntfy_topic") or os.environ.get("NTFY_TOPIC")
@@ -410,7 +410,7 @@ def main():
     json.dump(history[-3000:], open(HISTORY, "w"))
     json.dump(state, open(STATE, "w"), indent=1, sort_keys=True)
     json.dump({"updated": now, "sites": rows, "alerts": feed[:100], "wishlist": cfg.get("wishlist", []),
-               "auto_drops": auto_drops[:150]}, open(STATUS, "w"), indent=1)
+               "auto_drops": auto_drops[:150], "amazon_auto": amazon_auto}, open(STATUS, "w"), indent=1)
 
 
 if __name__ == "__main__":
