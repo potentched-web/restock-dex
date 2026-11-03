@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T17:28:55+00:00",
+ "updated": "2026-11-03T17:33:56+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -291,7 +291,7 @@
      "cart": "https://zatu.com/cart/56783225094522:1"
     }
    ],
-   "uptime": 0.9927
+   "uptime": 0.9928
   },
   {
    "name": "Hokey Poke Games",
@@ -382,15 +382,6 @@
      "cart": "https://hokeypokegames.co.uk/cart/54575761326427:1"
     },
     {
-     "title": "Pokemon TCG: Chaos Rising - 3-Pack Blister",
-     "price": 22.99,
-     "available": false,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-chaos-rising-3-pack-blister",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://hokeypokegames.co.uk/cart/53872280142171:1"
-    },
-    {
      "title": "Pokemon TCG: Combined Powers - Premium Collection",
      "price": 70.99,
      "available": false,
@@ -445,15 +436,6 @@
      "cart": "https://hokeypokegames.co.uk/cart/54574983676251:1"
     },
     {
-     "title": "Pokemon TCG: Pitch Black - Elite Trainer Box",
-     "price": 65.0,
-     "available": false,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-pitch-black-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 49.99,
-     "cart": "https://hokeypokegames.co.uk/cart/53986334605659:1"
-    },
-    {
      "title": "Pokemon TCG: Scarlet & Violet 4 - Paradox Rift - Elite Trainer Box",
      "price": 59.99,
      "available": false,
@@ -481,15 +463,6 @@
      "cart": "https://hokeypokegames.co.uk/cart/54575777907035:1"
     },
     {
-     "title": "Pok\u00e9mon TCG: 30th Anniversary First Partner Illustration Series 2 Collection Box.",
-     "price": 11.99,
-     "available": false,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-30th-anniversary-first-partner-illustration-series-2-collection-box-copy",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://hokeypokegames.co.uk/cart/54018354643291:1"
-    },
-    {
      "title": "Pok\u00e9mon TCG: Scarlet & Violet - Temporal Forces - Elite Trainer Box",
      "price": 56.99,
      "available": false,
@@ -499,7 +472,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54575778005339:1"
     }
    ],
-   "uptime": 0.9927
+   "uptime": 0.9928
   },
   {
    "name": "Collectors Edge",
@@ -1077,7 +1050,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9823
+   "uptime": 0.9827
   },
   {
    "name": "Packrat",
@@ -1900,7 +1873,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9804
+   "uptime": 0.9808
   },
   {
    "name": "TCGora",
@@ -2288,7 +2261,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.9843
+   "uptime": 0.9846
   },
   {
    "name": "Pixel Hub",
@@ -3199,7 +3172,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9388
+   "uptime": 0.94
   },
   {
    "name": "Card Cavern",
@@ -4872,7 +4845,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9902
+   "uptime": 0.9904
   },
   {
    "name": "Evolvault",
@@ -5179,7 +5152,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.964
+   "uptime": 0.9647
   },
   {
    "name": "Hobby Addicts",
@@ -6359,7 +6332,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9927
+   "uptime": 0.9928
   },
   {
    "name": "Hoodlums UK",
@@ -6702,7 +6675,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9846
+   "uptime": 0.9849
   },
   {
    "name": "The TCG Shop",
@@ -9236,7 +9209,7 @@
      "cart": "https://www.japan2uk.com/cart/63985005068665:1"
     }
    ],
-   "uptime": 0.991
+   "uptime": 0.9912
   },
   {
    "name": "Asmodee UK",
