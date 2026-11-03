@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T12:35:32+00:00",
+ "updated": "2026-11-03T12:47:58+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -291,7 +291,7 @@
      "cart": "https://zatu.com/cart/56783225094522:1"
     }
    ],
-   "uptime": 0.9852
+   "uptime": 0.9855
   },
   {
    "name": "Hokey Poke Games",
@@ -490,15 +490,6 @@
      "cart": "https://hokeypokegames.co.uk/cart/54575777907035:1"
     },
     {
-     "title": "Pokemon TCG: Silver Tempest - Booster Box",
-     "price": 671.99,
-     "available": false,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-silver-tempest-booster-box",
-     "over_rrp": true,
-     "rrp": 130.0,
-     "cart": "https://hokeypokegames.co.uk/cart/53752279466331:1"
-    },
-    {
      "title": "Pok\u00e9mon TCG: 30th Anniversary First Partner Illustration Series 2 Collection Box.",
      "price": 11.99,
      "available": false,
@@ -517,7 +508,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54575778005339:1"
     }
    ],
-   "uptime": 0.9852
+   "uptime": 0.9855
   },
   {
    "name": "Collectors Edge",
@@ -614,7 +605,7 @@
    "name": "The Dice Dungeon",
    "url": "https://thedicedungeon.co.uk/collections/all",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -1077,7 +1068,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9852
+   "uptime": 0.9655
   },
   {
    "name": "Packrat",
@@ -1900,7 +1891,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9852
+   "uptime": 0.9855
   },
   {
    "name": "TCGora",
@@ -2288,7 +2279,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.9689
+   "uptime": 0.9695
   },
   {
    "name": "Pixel Hub",
@@ -3199,7 +3190,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9804
+   "uptime": 0.9808
   },
   {
    "name": "Card Cavern",
@@ -3511,15 +3502,6 @@
      "over_rrp": true,
      "rrp": 24.99,
      "cart": "https://iconic-tcg.com/cart/58394759299404:1"
-    },
-    {
-     "title": "Pok\u00e9mon TCG: 151 - Mini Tin - Arcanine & Omanyte",
-     "price": 26.5,
-     "available": false,
-     "url": "https://iconic-tcg.com/products/pokemon-scarlet-violet-151-mini-tin-arcanine-omanyte",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://iconic-tcg.com/cart/58325782856012:1"
     },
     {
      "title": "Pok\u00e9mon TCG: 151 - Mini Tin - Dragonite & Vileplume",
@@ -3970,6 +3952,15 @@
      "over_rrp": true,
      "rrp": 130.0,
      "cart": "https://iconic-tcg.com/cart/58394755891532:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Charizard ex Special Collection",
+     "price": 50.0,
+     "available": false,
+     "url": "https://iconic-tcg.com/products/pokemon-tcg-charizard-ex-special-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://iconic-tcg.com/cart/58325740421452:1"
     },
     {
      "title": "Pok\u00e9mon TCG: Crown Zenith - 4-Booster Tin - Galarian Articuno",
@@ -4872,7 +4863,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9808
+   "uptime": 0.9812
   },
   {
    "name": "Evolvault",
@@ -5179,7 +5170,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9519
+   "uptime": 0.9529
   },
   {
    "name": "Hobby Addicts",
@@ -6359,7 +6350,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9852
+   "uptime": 0.9855
   },
   {
    "name": "Hoodlums UK",
@@ -6702,7 +6693,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9695
+   "uptime": 0.9701
   },
   {
    "name": "The TCG Shop",
@@ -9191,7 +9182,7 @@
      "cart": "https://www.japan2uk.com/cart/65092183163257:1"
     }
    ],
-   "uptime": 0.9824
+   "uptime": 0.9828
   },
   {
    "name": "Asmodee UK",

@@ -1819,12 +1819,6 @@
  },
  "Hokey Poke Games": {
   "items": {
-   "53752279466331": [
-    "Pokemon TCG: Silver Tempest - Booster Box",
-    671.99,
-    false,
-    "https://hokeypokegames.co.uk/products/pokemon-tcg-silver-tempest-booster-box"
-   ],
    "53752290443611": [
     "Pokemon TCG: Chaos Rising - Elite Trainer Box",
     98.99,
@@ -2249,6 +2243,12 @@
     true,
     "https://iconic-tcg.com/products/pokemon-tcg-destined-rivals-3-pack-blister-zebstrika"
    ],
+   "58325740421452": [
+    "Pok\u00e9mon TCG: Charizard ex Special Collection",
+    50.0,
+    false,
+    "https://iconic-tcg.com/products/pokemon-tcg-charizard-ex-special-collection"
+   ],
    "58325746483532": [
     "Pok\u00e9mon TCG: Mega Charizard X ex Ultra Premium Collection",
     220.0,
@@ -2296,12 +2296,6 @@
     140.0,
     false,
     "https://iconic-tcg.com/products/pokemon-tcg-temporal-forces-elite-trainer-box-walking-wake-pokemon-centre-stamped"
-   ],
-   "58325782856012": [
-    "Pok\u00e9mon TCG: 151 - Mini Tin - Arcanine & Omanyte",
-    26.5,
-    false,
-    "https://iconic-tcg.com/products/pokemon-scarlet-violet-151-mini-tin-arcanine-omanyte"
    ],
    "58325782954316": [
     "Pok\u00e9mon TCG: 151 - Mini Tin - Dragonite & Vileplume",
@@ -6136,27 +6130,27 @@
   "Collectors Edge": 1.0,
   "Dice Cup Cafe": 1.0,
   "Double Sleeved": 1.0,
-  "Evolvault": 0.9519,
+  "Evolvault": 0.9529,
   "Firestorm Games": 1.0,
-  "Hobby Addicts": 0.9852,
-  "Hokey Poke Games": 0.9852,
-  "Hoodlums UK": 0.9695,
-  "Iconic TCG": 0.9808,
+  "Hobby Addicts": 0.9855,
+  "Hokey Poke Games": 0.9855,
+  "Hoodlums UK": 0.9701,
+  "Iconic TCG": 0.9812,
   "JET Cards": 1.0,
-  "Japan2UK": 0.9824,
+  "Japan2UK": 0.9828,
   "Magic Madhouse": 1.0,
   "Monster Card Corner": 1.0,
   "Mystic Games": 1.0,
   "Packrat": 1.0,
   "Pixel Hub": 1.0,
-  "Poke Collect": 0.9804,
-  "TCG Paradise": 0.9852,
-  "TCGora": 0.9689,
+  "Poke Collect": 0.9808,
+  "TCG Paradise": 0.9855,
+  "TCGora": 0.9695,
   "The Card Vault": 1.0,
-  "The Dice Dungeon": 0.9852,
+  "The Dice Dungeon": 0.9655,
   "The TCG Shop": 1.0,
   "Titan Cards": 1.0,
   "Total Cards": 1.0,
-  "Zatu Games": 0.9852
+  "Zatu Games": 0.9855
  }
 }
