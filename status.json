@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T21:53:24+00:00",
+ "updated": "2026-11-03T21:58:24+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -113,7 +113,7 @@
      "cart": "https://www.doublesleeved.co.uk/cart/65002043113849:1"
     }
    ],
-   "uptime": 0.9708
+   "uptime": 0.9714
   },
   {
    "name": "Magic Madhouse",
@@ -291,7 +291,7 @@
      "cart": "https://zatu.com/cart/56783225094522:1"
     }
    ],
-   "uptime": 0.9833
+   "uptime": 0.9836
   },
   {
    "name": "Hokey Poke Games",
@@ -373,7 +373,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54575794520411:1"
     }
    ],
-   "uptime": 0.9535
+   "uptime": 0.9544
   },
   {
    "name": "Collectors Edge",
@@ -464,7 +464,7 @@
      "cart": "https://collectorsedge.co.uk/cart/55096695783763:1"
     }
    ],
-   "uptime": 0.9861
+   "uptime": 0.9864
   },
   {
    "name": "The Dice Dungeon",
@@ -951,7 +951,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.981
+   "uptime": 0.9814
   },
   {
    "name": "Packrat",
@@ -1212,16 +1212,19 @@
    "url": "https://titancards.co.uk/collections/pokemon",
    "skip": null,
    "error": null,
-   "mode": "shopify",
+   "mode": "page",
    "items": [
     {
-     "title": "Pokemon Future Flash SV4M Booster Box (30 Booster Packs)",
-     "price": 105.0,
-     "available": true,
-     "url": "https://titancards.co.uk/products/pokemon-future-flash-sv4m-booster-box-30-booster-packs",
-     "over_rrp": false,
-     "rrp": 155.0,
-     "cart": "https://titancards.co.uk/cart/47740741189962:1"
+     "title": "Pokemon Booster Packs & Booster Boxes",
+     "url": "https://titancards.co.uk/collections/pokemon"
+    },
+    {
+     "title": "Protect Your Pokemon Card Collection",
+     "url": "https://titancards.co.uk/collections/pokemon"
+    },
+    {
+     "title": "Unleash the ultimate power with the Pokemon TCG Supercharged Breaker (Super Electric Breaker) SV8 Booster Box! With 30 Supercharged Breaker Booster...",
+     "url": "https://titancards.co.uk/collections/pokemon"
     }
    ],
    "uptime": 1.0
@@ -1774,7 +1777,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.964
+   "uptime": 0.9647
   },
   {
    "name": "TCGora",
@@ -2162,7 +2165,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.9806
+   "uptime": 0.981
   },
   {
    "name": "Pixel Hub",
@@ -3073,7 +3076,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9504
+   "uptime": 0.9514
   },
   {
    "name": "Card Cavern",
@@ -3205,7 +3208,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.9689
+   "uptime": 0.9695
   },
   {
    "name": "The Card Vault",
@@ -3359,7 +3362,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.9849
+   "uptime": 0.9852
   },
   {
    "name": "Iconic TCG",
@@ -4746,7 +4749,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9773
+   "uptime": 0.9778
   },
   {
    "name": "Evolvault",
@@ -5053,7 +5056,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9765
+   "uptime": 0.977
   },
   {
    "name": "Hobby Addicts",
@@ -6233,7 +6236,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9552
+   "uptime": 0.9561
   },
   {
    "name": "Hoodlums UK",
@@ -6576,7 +6579,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9816
+   "uptime": 0.982
   },
   {
    "name": "The TCG Shop",
@@ -6847,7 +6850,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.9774
+   "uptime": 0.9779
   },
   {
    "name": "120HP",
@@ -7550,71 +7553,16 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.966
+   "uptime": 0.9667
   },
   {
    "name": "JET Cards",
    "url": "https://jetcards.uk/",
    "skip": null,
    "error": null,
-   "mode": "shopify",
-   "items": [
-    {
-     "title": "Pokemon - Deck Crafter's Collection - Meowth ex",
-     "price": 9.99,
-     "available": false,
-     "url": "https://jetcards.uk/products/pokemon-deck-crafters-collection-meowth-ex",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://jetcards.uk/cart/58976515359101:1"
-    },
-    {
-     "title": "Pokemon - Mega Evolution - Delta Reign - 3-Pack Blister - Seel (Preorder)",
-     "price": 13.99,
-     "available": false,
-     "url": "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-3-pack-blister-seel",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://jetcards.uk/cart/58943354110333:1"
-    },
-    {
-     "title": "Pokemon - Mega Evolution - Delta Reign - Booster Box (36 Boosters) (Preorder)",
-     "price": 154.44,
-     "available": false,
-     "url": "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-booster-box-36-boosters",
-     "over_rrp": false,
-     "rrp": 155.0,
-     "cart": "https://jetcards.uk/cart/58915278258557:1"
-    },
-    {
-     "title": "Pokemon - Mega Evolution - Delta Reign - Booster Bundle (Preorder)",
-     "price": 24.99,
-     "available": false,
-     "url": "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-booster-bundle",
-     "over_rrp": false,
-     "rrp": 24.99,
-     "cart": "https://jetcards.uk/cart/58943314690429:1"
-    },
-    {
-     "title": "Pokemon - Mega Evolution - Delta Reign - Elite Trainer Box (Preorder)",
-     "price": 49.99,
-     "available": false,
-     "url": "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-elite-trainer-box",
-     "over_rrp": false,
-     "rrp": 49.99,
-     "cart": "https://jetcards.uk/cart/58943300075901:1"
-    },
-    {
-     "title": "Pokemon - Scarlet & Violet - Destined Rivals - Booster Bundle",
-     "price": 59.95,
-     "available": true,
-     "url": "https://jetcards.uk/products/pokemon-scarlet-violet-destined-rivals-booster-bundle",
-     "over_rrp": true,
-     "rrp": 24.99,
-     "cart": "https://jetcards.uk/cart/58903348871549:1"
-    }
-   ],
-   "uptime": 0.9616
+   "mode": "page",
+   "items": [],
+   "uptime": 0.9624
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -9110,7 +9058,7 @@
      "cart": "https://www.japan2uk.com/cart/63985005068665:1"
     }
    ],
-   "uptime": 0.9895
+   "uptime": 0.9897
   },
   {
    "name": "Asmodee UK",
@@ -9366,6 +9314,24 @@
   }
  ],
  "alerts": [
+  {
+   "time": "2026-11-03T21:58:24+00:00",
+   "site": "Titan Cards",
+   "text": "New on page: Pokemon Booster Packs & Booster Boxes",
+   "url": "https://titancards.co.uk/collections/pokemon"
+  },
+  {
+   "time": "2026-11-03T21:58:24+00:00",
+   "site": "Titan Cards",
+   "text": "New on page: Protect Your Pokemon Card Collection",
+   "url": "https://titancards.co.uk/collections/pokemon"
+  },
+  {
+   "time": "2026-11-03T21:58:24+00:00",
+   "site": "Titan Cards",
+   "text": "New on page: Unleash the ultimate power with the Pokemon TCG Supercharged Breaker (Super Electric Breaker) SV8 Booster Box! With 30 Supercharged Breaker Booster...",
+   "url": "https://titancards.co.uk/collections/pokemon"
+  },
   {
    "time": "2026-11-03T17:28:55+00:00",
    "site": "TCGora",
