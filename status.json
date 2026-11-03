@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T20:45:49+00:00",
+ "updated": "2026-11-03T02:04:42+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -300,7 +300,7 @@
      "cart": "https://zatu.com/cart/56783225094522:1"
     }
    ],
-   "uptime": 0.9804
+   "uptime": 0.9808
   },
   {
    "name": "Hokey Poke Games",
@@ -724,7 +724,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54575778005339:1"
     }
    ],
-   "uptime": 0.9804
+   "uptime": 0.9808
   },
   {
    "name": "Collectors Edge",
@@ -907,7 +907,7 @@
     },
     {
      "title": "Pokemon Scarlet & Violet Surging Sparks Booster Box",
-     "price": 376.1,
+     "price": 376.09,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-scarlet-violet-surging-sparks-booster-box",
      "over_rrp": true,
@@ -916,7 +916,7 @@
     },
     {
      "title": "Pokemon TCG: 30th Celebration 2 Pack Blister",
-     "price": 30.08,
+     "price": 30.07,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-30th-celebration-2-pack-blister",
      "over_rrp": false,
@@ -934,7 +934,7 @@
     },
     {
      "title": "Pokemon TCG: 30th Celebration Poster Collection",
-     "price": 782.3,
+     "price": 782.28,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-30th-celebration-poster-collection",
      "over_rrp": false,
@@ -1015,7 +1015,7 @@
     },
     {
      "title": "Pokemon TCG: Lumiose City Mini Tin",
-     "price": 16.54,
+     "price": 16.53,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-lumiose-city-mini-tin",
      "over_rrp": false,
@@ -1024,7 +1024,7 @@
     },
     {
      "title": "Pokemon TCG: Lumiose City Mini Tin Display",
-     "price": 165.48,
+     "price": 165.47,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-lumiose-city-mini-tin-display",
      "over_rrp": false,
@@ -1051,7 +1051,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Evolution - Ascended Heroes Booster Bundle",
-     "price": 90.27,
+     "price": 90.26,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-ascended-heroes-booster-bundle",
      "over_rrp": true,
@@ -1087,7 +1087,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Evolution - Chaos Rising Booster Box",
-     "price": 984.57,
+     "price": 984.54,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-chaos-rising-booster-box",
      "over_rrp": true,
@@ -1132,7 +1132,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Evolution - Pitch Black Booster Box",
-     "price": 984.57,
+     "price": 984.54,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-pitch-black-booster-box",
      "over_rrp": true,
@@ -1177,7 +1177,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Greninja ex Premium Collection",
-     "price": 812.39,
+     "price": 812.37,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-greninja-ex-premium-collection",
      "over_rrp": false,
@@ -1186,7 +1186,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Heroes - Mini Tins",
-     "price": 16.54,
+     "price": 16.53,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-heroes-mini-tins",
      "over_rrp": false,
@@ -1195,7 +1195,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Moonlit Tin",
-     "price": 785.31,
+     "price": 785.29,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-moonlit-tins",
      "over_rrp": false,
@@ -1213,7 +1213,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Zygarde ex Premium Collection + 2 Lumiose Mini Tin Bundle",
-     "price": 138.4,
+     "price": 138.39,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-zygarde-ex-lumiose-mini-tin-bundle",
      "over_rrp": false,
@@ -1284,7 +1284,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9804
+   "uptime": 0.9808
   },
   {
    "name": "Packrat",
@@ -2107,7 +2107,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9804
+   "uptime": 0.9808
   },
   {
    "name": "TCGora",
@@ -2495,7 +2495,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.9804
+   "uptime": 0.9808
   },
   {
    "name": "Pixel Hub",
@@ -2551,7 +2551,7 @@
     },
     {
      "title": "Pokemon - Destined Rivals - Booster Box Case (6 Booster Boxes)",
-     "price": 3933.0,
+     "price": 3932.0,
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-destined-rivals-booster-box-case-6-booster-boxes",
      "over_rrp": true,
@@ -2740,7 +2740,7 @@
     },
     {
      "title": "Pok\u00e9mon - Prismatic Evolutions Booster Bundle Master Case (60 bundles)",
-     "price": 9438.0,
+     "price": 9437.0,
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-prismatic-evolutions-booster-bundle-master-case-60-bundles",
      "over_rrp": true,
@@ -3381,7 +3381,7 @@
     {
      "title": "Scarlet & Violet: Prismatic Evolutions Pokemon Center Elite Trainer Box (Exclusive)",
      "price": 404.95,
-     "available": true,
+     "available": false,
      "url": "https://poke-collect.com/products/scarlet-violet-prismatic-evolutions-pokemon-center-elite-trainer-box-exclusive",
      "over_rrp": true,
      "rrp": 56.99,
@@ -5386,7 +5386,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9804
+   "uptime": 0.9808
   },
   {
    "name": "Hobby Addicts",
@@ -6566,7 +6566,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9804
+   "uptime": 0.9808
   },
   {
    "name": "Hoodlums UK",
@@ -6820,7 +6820,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Phantasmal Flames Booster Box (36 Packs)",
-     "price": 548.0,
+     "price": 547.0,
      "available": false,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-phantasmal-flames-booster-box-36-pack",
      "over_rrp": true,
@@ -6909,7 +6909,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9804
+   "uptime": 0.9808
   },
   {
    "name": "The TCG Shop",
@@ -7829,7 +7829,7 @@
      "cart": "https://www.120hp.co.uk/cart/40071230816390:1"
     },
     {
-     "title": "Pok\u00e9mon TCG: Team Rocket Tin (Mewtwo)",
+     "title": "Pok\u00e9mon TCG: Team Rocket Tin (Team Rocket's Mewtwo ex)",
      "price": 27.99,
      "available": false,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-team-rocket-tin-mewtwo",
@@ -7838,8 +7838,8 @@
      "cart": "https://www.120hp.co.uk/cart/56192173998455:1"
     },
     {
-     "title": "Pok\u00e9mon TCG: Team Rocket Tin (Nidoking)",
-     "price": 24.99,
+     "title": "Pok\u00e9mon TCG: Team Rocket Tin (Team Rocket's Nidoking ex)",
+     "price": 33.95,
      "available": false,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-team-rocket-tin-nidoking",
      "over_rrp": false,
@@ -7847,7 +7847,7 @@
      "cart": "https://www.120hp.co.uk/cart/56192176882039:1"
     },
     {
-     "title": "Pok\u00e9mon TCG: Team Rocket Tin (Persian)",
+     "title": "Pok\u00e9mon TCG: Team Rocket Tin (Team Rocket's Persian ex)",
      "price": 24.99,
      "available": false,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-team-rocket-tin-persian",
@@ -8580,7 +8580,7 @@
     },
     {
      "title": "Pokemon TCG - Mega Evolution Elite Trainer Box - Mega Gardevoir",
-     "price": 99.0,
+     "price": 98.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-mega-evolution-elite-trainer-box-mega-gardevoir",
      "over_rrp": true,
@@ -9120,7 +9120,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Scarlet and Violet Booster Box (36 Packs) + Acrylic Display Case Bundle",
-     "price": 269.0,
+     "price": 268.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-and-violet-booster-box-36-packs",
      "over_rrp": true,
@@ -9325,6 +9325,33 @@
    "error": null,
    "mode": "shopify",
    "items": [
+    {
+     "title": "Pokemon Delta Reign English Booster Box",
+     "price": 0.01,
+     "available": false,
+     "url": "https://www.japan2uk.com/products/pokemon-delta-reign-english-booster-box",
+     "over_rrp": false,
+     "rrp": 130.0,
+     "cart": "https://www.japan2uk.com/cart/65088618070393:1"
+    },
+    {
+     "title": "Pokemon Delta Reign English Booster Bundle Box",
+     "price": 0.01,
+     "available": false,
+     "url": "https://www.japan2uk.com/products/pokemon-delta-reign-english-booster-bundle-box",
+     "over_rrp": false,
+     "rrp": 24.99,
+     "cart": "https://www.japan2uk.com/cart/65088699367801:1"
+    },
+    {
+     "title": "Pokemon Delta Reign English Elite Trainer Box",
+     "price": 0.01,
+     "available": false,
+     "url": "https://www.japan2uk.com/products/pokemon-delta-reign-english-elite-trainer-box",
+     "over_rrp": false,
+     "rrp": 49.99,
+     "cart": "https://www.japan2uk.com/cart/65088690946425:1"
+    },
     {
      "title": "Pokemon Hidden Fates Charizard GX English Tin",
      "price": 149.99,
@@ -9757,6 +9784,51 @@
    ],
    "max": 24.99,
    "rrp_status": "confirmed"
+  },
+  {
+   "name": "Ascended Heroes Elite Trainer Box",
+   "match": [
+    "ascended heroes",
+    "elite trainer"
+   ],
+   "max": 49.99,
+   "rrp_status": "confirmed"
+  },
+  {
+   "name": "Ascended Heroes Booster Bundle",
+   "match": [
+    "ascended heroes",
+    "booster bundle"
+   ],
+   "max": 24.99,
+   "rrp_status": "confirmed"
+  },
+  {
+   "name": "Phantasmal Flames Elite Trainer Box",
+   "match": [
+    "phantasmal flames",
+    "elite trainer"
+   ],
+   "max": 49.99,
+   "rrp_status": "confirmed"
+  },
+  {
+   "name": "Phantasmal Flames Booster Bundle",
+   "match": [
+    "phantasmal flames",
+    "booster bundle"
+   ],
+   "max": 24.99,
+   "rrp_status": "confirmed"
+  },
+  {
+   "name": "Phantasmal Flames Booster Box",
+   "match": [
+    "phantasmal flames",
+    "booster box"
+   ],
+   "max": 130.0,
+   "rrp_status": "estimate"
   }
  ],
  "auto_drops": [
@@ -9932,7 +10004,9 @@
    "closes": null,
    "type": "pre-order",
    "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
-   "found": "2026-11-02T20:28:50+00:00"
+   "found": "2026-11-02T20:28:50+00:00",
+   "expected": null,
+   "date_checked": "2026-11-03T02:04:42+00:00"
   },
   {
    "shop": "Monster Card Corner",
@@ -9941,7 +10015,9 @@
    "closes": null,
    "type": "pre-order",
    "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
-   "found": "2026-11-02T20:28:50+00:00"
+   "found": "2026-11-02T20:28:50+00:00",
+   "expected": null,
+   "date_checked": "2026-11-03T02:04:42+00:00"
   },
   {
    "shop": "Monster Card Corner",
@@ -9950,7 +10026,9 @@
    "closes": null,
    "type": "pre-order",
    "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
-   "found": "2026-11-02T20:28:50+00:00"
+   "found": "2026-11-02T20:28:50+00:00",
+   "expected": null,
+   "date_checked": "2026-11-03T02:04:42+00:00"
   },
   {
    "shop": "Monster Card Corner",
@@ -9959,7 +10037,9 @@
    "closes": null,
    "type": "pre-order",
    "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
-   "found": "2026-11-02T20:28:50+00:00"
+   "found": "2026-11-02T20:28:50+00:00",
+   "expected": null,
+   "date_checked": "2026-11-03T02:04:42+00:00"
   },
   {
    "shop": "JET Cards",
@@ -9968,7 +10048,9 @@
    "closes": null,
    "type": "pre-order",
    "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
-   "found": "2026-11-02T20:28:50+00:00"
+   "found": "2026-11-02T20:28:50+00:00",
+   "expected": "2026-11-06",
+   "date_checked": "2026-11-03T02:04:42+00:00"
   },
   {
    "shop": "JET Cards",
@@ -9977,7 +10059,9 @@
    "closes": null,
    "type": "pre-order",
    "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
-   "found": "2026-11-02T20:28:50+00:00"
+   "found": "2026-11-02T20:28:50+00:00",
+   "expected": "2026-11-06",
+   "date_checked": "2026-11-03T02:04:42+00:00"
   },
   {
    "shop": "JET Cards",
@@ -9986,7 +10070,9 @@
    "closes": null,
    "type": "pre-order",
    "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
-   "found": "2026-11-02T20:28:50+00:00"
+   "found": "2026-11-02T20:28:50+00:00",
+   "expected": "2026-11-06",
+   "date_checked": "2026-11-03T02:04:42+00:00"
   },
   {
    "shop": "Double Sleeved",
@@ -9996,7 +10082,9 @@
    "closes": null,
    "seeded": true,
    "note": "Spotted automatically. Open it to check if it's open and when it closes.",
-   "found": "2026-11-02T20:16:10+00:00"
+   "found": "2026-11-02T20:16:10+00:00",
+   "expected": null,
+   "date_checked": "2026-11-03T02:04:42+00:00"
   },
   {
    "shop": "Double Sleeved",
@@ -10006,7 +10094,9 @@
    "closes": null,
    "seeded": true,
    "note": "Spotted automatically. Open it to check if it's open and when it closes.",
-   "found": "2026-11-02T20:16:10+00:00"
+   "found": "2026-11-02T20:16:10+00:00",
+   "expected": null,
+   "date_checked": "2026-11-03T02:04:42+00:00"
   },
   {
    "shop": "Chaos Cards",
@@ -10016,7 +10106,8 @@
    "closes": null,
    "seeded": true,
    "note": "Spotted automatically. Open it to check if it's open and when it closes.",
-   "found": "2026-11-02T20:16:10+00:00"
+   "found": "2026-11-02T20:16:10+00:00",
+   "date_checked": "2026-11-03T02:04:42+00:00"
   },
   {
    "shop": "Chaos Cards",
@@ -10026,7 +10117,8 @@
    "closes": null,
    "seeded": true,
    "note": "Spotted automatically. Open it to check if it's open and when it closes.",
-   "found": "2026-11-02T20:16:10+00:00"
+   "found": "2026-11-02T20:16:10+00:00",
+   "date_checked": "2026-11-03T02:04:42+00:00"
   },
   {
    "shop": "Chaos Cards",
@@ -10036,7 +10128,8 @@
    "closes": null,
    "seeded": true,
    "note": "Spotted automatically. Open it to check if it's open and when it closes.",
-   "found": "2026-11-02T20:16:10+00:00"
+   "found": "2026-11-02T20:16:10+00:00",
+   "date_checked": "2026-11-03T02:04:42+00:00"
   },
   {
    "shop": "Chaos Cards",
@@ -10046,7 +10139,8 @@
    "closes": null,
    "seeded": true,
    "note": "Spotted automatically. Open it to check if it's open and when it closes.",
-   "found": "2026-11-02T20:16:10+00:00"
+   "found": "2026-11-02T20:16:10+00:00",
+   "date_checked": "2026-11-03T02:04:42+00:00"
   },
   {
    "shop": "Chaos Cards",
@@ -10056,7 +10150,8 @@
    "closes": null,
    "seeded": true,
    "note": "Spotted automatically. Open it to check if it's open and when it closes.",
-   "found": "2026-11-02T20:16:10+00:00"
+   "found": "2026-11-02T20:16:10+00:00",
+   "date_checked": "2026-11-03T02:04:42+00:00"
   },
   {
    "shop": "Chaos Cards",
@@ -10066,7 +10161,8 @@
    "closes": null,
    "seeded": true,
    "note": "Spotted automatically. Open it to check if it's open and when it closes.",
-   "found": "2026-11-02T20:16:10+00:00"
+   "found": "2026-11-02T20:16:10+00:00",
+   "date_checked": "2026-11-03T02:04:42+00:00"
   },
   {
    "shop": "Chaos Cards",
