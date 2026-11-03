@@ -1,6 +1,6 @@
 # Pokemon TCG UK stock alerts
 
-Checks 15 UK shops every 15 minutes (every 5 on release days), shows everything on a live dashboard
+Checks UK shops about every 15 minutes (every 5 on release days), shows everything on a live dashboard
 (`index.html`, refreshes itself every minute), and emails you plus pings your phone when a
 Pokemon product you care about is **newly listed** or **back in stock**. It
 shows the price and flags anything **over RRP**. It never buys anything.

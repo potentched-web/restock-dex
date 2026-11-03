@@ -1,7 +1,7 @@
 name: Pokemon stock check
 on:
   schedule:
-    - cron: "*/5 * * * *"   # check.py only does a full scan every 15 min, except on release days
+    - cron: "*/5 * * * *"   # GitHub often fires this only hourly, so each run loops for ~45 min (below)
   workflow_dispatch:
 permissions:
   contents: write
@@ -9,10 +9,12 @@ concurrency: stock-check
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
-      - run: python3 check.py
+      # Each run keeps checking every 5 min for ~45 min; check.py decides when a full scan is due.
+      # The next scheduled run queues behind this one (concurrency), so scans keep going even when GitHub's cron is late.
+      - name: Check shops in a loop
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
@@ -20,9 +22,15 @@ jobs:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
-      - name: Save what was seen
         run: |
           git config user.name "stock-bot"
           git config user.email "stock-bot@users.noreply.github.com"
-          git add state.json status.json history.json notifications.json
-          git diff --cached --quiet || (git commit -m "Update stock state" && (git push || (git pull --rebase -X theirs && git push)))
+          end=$((SECONDS + 45*60))
+          while :; do
+            git pull --rebase -q -X theirs || true   # pick up wishlist/sites edits made meanwhile
+            python3 check.py || echo "check.py failed, trying again next round"
+            git add state.json status.json history.json notifications.json
+            git diff --cached --quiet || (git commit -m "Update stock state" && (git push || (git pull --rebase -X theirs && git push)))
+            [ $SECONDS -lt $end ] || break
+            sleep 300
+          done

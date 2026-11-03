@@ -7,7 +7,7 @@ digest per run (SMTP_USER/SMTP_PASS, optional SMTP_HOST, EMAIL_TO).
 Writes status.json, which dashboard.html displays.
 """
 import json, os, re, smtplib, sys, time, urllib.error, urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from email.message import EmailMessage
 from html.parser import HTMLParser
 from urllib.parse import urljoin, urlsplit
@@ -279,11 +279,12 @@ def main():
     rel_path = os.path.join(HERE, "releases.json")
     releases = json.load(open(rel_path)) if os.path.exists(rel_path) else {}
     now_dt = datetime.now(timezone.utc)
-    # The workflow fires every 5 min; outside release days only every third slot does a full scan.
-    # shortcut: uses the clock minute, so a delayed GitHub run can skip a slot; fine at this cadence.
-    if os.environ.get("GITHUB_EVENT_NAME") == "schedule" and now_dt.minute % 15 >= 5 \
+    # The workflow calls this every 5 min; outside release days only scan if the last scan is 12+ min old.
+    # Elapsed time, not the clock minute: GitHub often starts scheduled runs late, which used to skip scans for hours.
+    last = (json.load(open(STATUS)) if os.path.exists(STATUS) else {}).get("updated")
+    if os.environ.get("GITHUB_ACTIONS") and last and now_dt - datetime.fromisoformat(last) < timedelta(minutes=12) \
             and not release_window(releases.get("releases", []), now_dt.date()):
-        print("Not a release day: skipping this 5-minute slot")
+        print("Not a release day and scanned recently: skipping this 5-minute slot")
         return
     wl_path = os.path.join(HERE, "wishlist.json")  # edited from the dashboard
     cfg["wishlist"] = json.load(open(wl_path)) if os.path.exists(wl_path) else []
