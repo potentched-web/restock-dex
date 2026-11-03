@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T16:21:23+00:00",
+ "updated": "2026-11-03T16:26:23+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -291,7 +291,7 @@
      "cart": "https://zatu.com/cart/56783225094522:1"
     }
    ],
-   "uptime": 0.99
+   "uptime": 0.9902
   },
   {
    "name": "Hokey Poke Games",
@@ -499,7 +499,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54575778005339:1"
     }
    ],
-   "uptime": 0.99
+   "uptime": 0.9902
   },
   {
    "name": "Collectors Edge",
@@ -1077,7 +1077,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9765
+   "uptime": 0.977
   },
   {
    "name": "Packrat",
@@ -1900,7 +1900,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9741
+   "uptime": 0.9746
   },
   {
    "name": "TCGora",
@@ -2288,7 +2288,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.9792
+   "uptime": 0.9796
   },
   {
    "name": "Pixel Hub",
@@ -3199,7 +3199,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9188
+   "uptime": 0.9204
   },
   {
    "name": "Card Cavern",
@@ -4872,7 +4872,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9873
+   "uptime": 0.9876
   },
   {
    "name": "Evolvault",
@@ -5179,7 +5179,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9522
+   "uptime": 0.9532
   },
   {
    "name": "Hobby Addicts",
@@ -6359,7 +6359,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.99
+   "uptime": 0.9902
   },
   {
    "name": "Hoodlums UK",
@@ -6702,7 +6702,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9796
+   "uptime": 0.98
   },
   {
    "name": "The TCG Shop",
@@ -9207,9 +9207,18 @@
      "over_rrp": false,
      "rrp": null,
      "cart": "https://www.japan2uk.com/cart/65092183163257:1"
+    },
+    {
+     "title": "Pokemon Unified Minds English Booster Box",
+     "price": 2999.99,
+     "available": true,
+     "url": "https://www.japan2uk.com/products/pokemon-unified-minds-english-booster-box",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://www.japan2uk.com/cart/63985005068665:1"
     }
    ],
-   "uptime": 0.9882
+   "uptime": 0.9884
   },
   {
    "name": "Asmodee UK",
@@ -9465,6 +9474,12 @@
   }
  ],
  "alerts": [
+  {
+   "time": "2026-11-03T16:26:23+00:00",
+   "site": "Japan2UK",
+   "text": "NEW: Pokemon Unified Minds English Booster Box \u00a32999.99 (over RRP)",
+   "url": "https://www.japan2uk.com/cart/63985005068665:1"
+  },
   {
    "time": "2026-11-03T16:00:57+00:00",
    "site": "Double Sleeved",
