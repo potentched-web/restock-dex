@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T12:47:58+00:00",
+ "updated": "2026-11-03T13:00:32+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -291,7 +291,7 @@
      "cart": "https://zatu.com/cart/56783225094522:1"
     }
    ],
-   "uptime": 0.9855
+   "uptime": 0.9858
   },
   {
    "name": "Hokey Poke Games",
@@ -508,7 +508,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54575778005339:1"
     }
    ],
-   "uptime": 0.9855
+   "uptime": 0.9858
   },
   {
    "name": "Collectors Edge",
@@ -605,7 +605,7 @@
    "name": "The Dice Dungeon",
    "url": "https://thedicedungeon.co.uk/collections/all",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -1068,7 +1068,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9655
+   "uptime": 0.9662
   },
   {
    "name": "Packrat",
@@ -1891,7 +1891,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9855
+   "uptime": 0.9858
   },
   {
    "name": "TCGora",
@@ -2279,7 +2279,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.9695
+   "uptime": 0.9701
   },
   {
    "name": "Pixel Hub",
@@ -3190,7 +3190,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9808
+   "uptime": 0.9812
   },
   {
    "name": "Card Cavern",
@@ -4863,7 +4863,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9812
+   "uptime": 0.9816
   },
   {
    "name": "Evolvault",
@@ -5170,7 +5170,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9529
+   "uptime": 0.9538
   },
   {
    "name": "Hobby Addicts",
@@ -6350,7 +6350,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9855
+   "uptime": 0.9858
   },
   {
    "name": "Hoodlums UK",
@@ -6693,7 +6693,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9701
+   "uptime": 0.9707
   },
   {
    "name": "The TCG Shop",
@@ -9182,7 +9182,7 @@
      "cart": "https://www.japan2uk.com/cart/65092183163257:1"
     }
    ],
-   "uptime": 0.9828
+   "uptime": 0.9831
   },
   {
    "name": "Asmodee UK",
