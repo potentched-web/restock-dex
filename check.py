@@ -290,6 +290,28 @@ def auto_wishlist(releases, today, current):
     return out + [w for w in current if w["name"] not in names and (w.get("got") or not w["name"].startswith(set_names))]
 
 
+def discord_posts(msgs):
+    """Dashboard rows from Discord API messages: text from content plus embed title/description, first link found."""
+    out = []
+    for m in msgs:
+        embeds = m.get("embeds") or []
+        text = "\n".join(p for p in [m.get("content") or ""] + [" ".join(filter(None, (e.get("title"), e.get("description")))) for e in embeds] if p).strip()
+        link = re.search(r"https?://\S+", text)
+        url = next((e["url"] for e in embeds if e.get("url")), None) or (link.group(0) if link else None)
+        if text:
+            safe = url if url and url.startswith(("https://", "http://")) else None  # other people's posts: links only, no javascript:
+            out.append({"time": m["timestamp"], "from": (m.get("author") or {}).get("username", "?"), "text": text[:500], "url": safe})
+    return out
+
+
+def discord_feed(token, channel):
+    """Latest 50 posts in a channel of Kyle's own server, read by his own bot. Followed announcement channels post there."""
+    req = urllib.request.Request(f"https://discord.com/api/v10/channels/{channel}/messages?limit=50",
+                                 headers={"Authorization": f"Bot {token}", "User-Agent": "DiscordBot (https://github.com/potentched-web/restock-dex, 1)"})
+    with urllib.request.urlopen(req, timeout=20) as r:
+        return discord_posts(json.load(r))
+
+
 def amazon_gaps(wishlist, amazon):
     """Wishlist products with no Amazon UK product page in releases.json "amazon" (pages are added by hand; never fetches Amazon)."""
     names = [a["name"].lower() for a in amazon]
@@ -374,6 +396,12 @@ def main():
     reminders = [r for r in drop_reminders(drops, now_dt, state.setdefault("_reminded", [])) if not got_it(r[1], cfg)]
     push += reminders
     # New Amazon invite links (a new set entering the wishlist window) ping once; the first run only seeds the list.
+    dfeed = status.get("discord_feed", [])
+    if os.environ.get("DISCORD_BOT_TOKEN") and os.environ.get("DISCORD_FEED_CHANNEL"):
+        try:
+            dfeed = discord_feed(os.environ["DISCORD_BOT_TOKEN"], os.environ["DISCORD_FEED_CHANNEL"])
+        except Exception as e:
+            print(f"discord feed failed: {e}", file=sys.stderr)  # keep the last feed
     amazon_auto = amazon_gaps(cfg["wishlist"], releases.get("amazon", []))
     if "amazon_auto" in status:
         known = {a["name"] for a in status["amazon_auto"]}
@@ -410,7 +438,7 @@ def main():
     json.dump(history[-3000:], open(HISTORY, "w"))
     json.dump(state, open(STATE, "w"), indent=1, sort_keys=True)
     json.dump({"updated": now, "sites": rows, "alerts": feed[:100], "wishlist": cfg.get("wishlist", []),
-               "auto_drops": auto_drops[:150], "amazon_auto": amazon_auto}, open(STATUS, "w"), indent=1)
+               "auto_drops": auto_drops[:150], "amazon_auto": amazon_auto, "discord_feed": dfeed}, open(STATUS, "w"), indent=1)
 
 
 if __name__ == "__main__":

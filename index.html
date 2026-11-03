@@ -456,6 +456,10 @@ html[data-skin="deepsea"] footer{ color:var(--muted) }
       <li><b>Computer:</b> tap 🔔 Push notifications, then Subscribe and allow notifications in your browser.</li>
     </ol>
   </section>
+<section class="screen" aria-labelledby="dfeed-h">
+    <h2 id="dfeed-h">▶ FROM DISCORD</h2>
+    <ul class="feed" id="dfeed"></ul>
+  </section>
 <section class="screen" aria-labelledby="nlog-h">
     <h2 id="nlog-h">▶ NOTIFICATIONS SENT</h2>
     <ul class="feed" id="nlog"></ul>
@@ -575,6 +579,9 @@ function render() {
   renderGot();
   renderDrops(allDrops());
   renderAmazon();
+  $("dfeed").innerHTML = (data.discord_feed || []).map(x => `<li><time>${when(x.time)}</time><span class="who">${esc(x.from)}</span>
+    ${x.url ? `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.text)}</a>` : `<span>${esc(x.text)}</span>`}</li>`).join("")
+    || '<li class="empty">Nothing yet. Follow other servers\' restock channels into your own server and the posts show up here.</li>';
   const f = F();
   const mins = Math.round((Date.now() - new Date(data.updated)) / 60000), fresh = mins <= 45;
   $("updated").textContent = `Last scan ${when(data.updated)} · ${mins} min ago${fresh ? "" : " · checker may have stopped"}`;
