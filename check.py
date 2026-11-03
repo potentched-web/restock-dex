@@ -165,14 +165,15 @@ def expected_date(html):
     return None
 
 
-def notify(site, text, url, topic=None):
+def notify(site, text, url, topics=()):
     """Sends to every configured channel; returns the names of the ones that worked."""
     print(f"[{site}] {text} {url}")
     sent = []
-    if topic:
+    for topic in topics:
         req = urllib.request.Request(f"https://ntfy.sh/{topic}", data=text.encode(),
                                      headers={"Title": site, "Click": url, "Tags": "rotating_light"})
         urllib.request.urlopen(req, timeout=20)
+    if topics:
         sent.append("push")
     if os.environ.get("DISCORD_WEBHOOK"):
         body = json.dumps({"content": f"**{site}**: {text}\n{url}"}).encode()
@@ -381,11 +382,15 @@ def main():
                  for a in amazon_auto if a["name"] not in known]
     run_alerts += reminders
     # The public topic in sites.json is what the dashboard's "Push notifications" button subscribes people to.
-    topic = cfg.get("ntfy_topic") or os.environ.get("NTFY_TOPIC")
+    # Also the private NTFY_TOPIC secret: Kyle's phone app is subscribed to that one, not the public topic.
+    topics = list(dict.fromkeys(t for t in (cfg.get("ntfy_topic"), os.environ.get("NTFY_TOPIC")) if t))
+    if "_ping_fixed" not in state:  # one-off test ping after the 3 Nov topic fix
+        push.append(("Restock Dex", "Test: alerts reach this phone again", "https://potentched-web.github.io/restock-dex/"))
+        state["_ping_fixed"] = now
     log = []
     for name, text, url in push:
         try:
-            via = notify(name, text, url, topic)
+            via = notify(name, text, url, topics)
         except Exception as e:
             via = []
             print(f"[{name}] notify failed: {e}", file=sys.stderr)
