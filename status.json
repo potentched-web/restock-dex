@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T11:17:39+00:00",
+ "updated": "2026-11-03T11:30:47+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -291,7 +291,7 @@
      "cart": "https://zatu.com/cart/56783225094522:1"
     }
    ],
-   "uptime": 0.9834
+   "uptime": 0.9837
   },
   {
    "name": "Hokey Poke Games",
@@ -715,7 +715,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54575778005339:1"
     }
    ],
-   "uptime": 0.9834
+   "uptime": 0.9837
   },
   {
    "name": "Collectors Edge",
@@ -1275,7 +1275,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9834
+   "uptime": 0.9837
   },
   {
    "name": "Packrat",
@@ -2098,7 +2098,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9834
+   "uptime": 0.9837
   },
   {
    "name": "TCGora",
@@ -2486,7 +2486,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.9649
+   "uptime": 0.9656
   },
   {
    "name": "Pixel Hub",
@@ -5377,7 +5377,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9457
+   "uptime": 0.9468
   },
   {
    "name": "Hobby Addicts",
@@ -6557,7 +6557,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9834
+   "uptime": 0.9837
   },
   {
    "name": "Hoodlums UK",
@@ -6900,7 +6900,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9656
+   "uptime": 0.9663
   },
   {
    "name": "The TCG Shop",
@@ -9304,7 +9304,7 @@
    "name": "Japan2UK",
    "url": "https://www.japan2uk.com/",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -9380,7 +9380,7 @@
      "cart": "https://www.japan2uk.com/cart/65080776327545:1"
     }
    ],
-   "uptime": 0.98
+   "uptime": 0.9804
   },
   {
    "name": "Asmodee UK",
