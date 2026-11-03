@@ -104,4 +104,5 @@ change the shop links.
   find (`amazon` in `releases.json`). Tap **Request invite →**, then **Mark
   opted in**. You can add your own amazon.co.uk links. Opt-ins save to
   `amazon.json` (with your GitHub key) or to the device. Amazon isn't scanned
-  automatically, because its terms forbid it.
+  automatically, because its terms forbid it. Every Monday `amazon_sync.py`
+  re-reads tcgcompare.com/amazon, adds any new invite product pages and pings you.

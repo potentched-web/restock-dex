@@ -1,0 +1,24 @@
+name: Weekly Amazon invite re-check
+on:
+  schedule:
+    - cron: "0 8 * * 1"   # Mondays 08:00 UTC
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: amazon-sync   # own group: sharing stock-check's would get this run cancelled by the next queued scan
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Add new TCG Compare invite products
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          python3 amazon_sync.py
+          git config user.name "stock-bot"
+          git config user.email "stock-bot@users.noreply.github.com"
+          git add releases.json
+          git diff --cached --quiet || (git commit -m "Add new Amazon invite products" && (git push || (git pull --rebase && git push)))

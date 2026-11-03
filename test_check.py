@@ -169,3 +169,17 @@ gaps = check.amazon_gaps([{"name": "S1 Booster Box", "match": ["s1", "booster bo
                           {"name": "S2 ETB", "match": ["s2", "elite trainer"], "got": {"shop": "X"}}], [{"name": "S1 Elite Trainer Box"}])
 assert gaps == [{"name": "S1 Booster Box"}], gaps
 print("amazon gap checks passed")
+
+# Amazon invite sync: new UK invite products added with short names, missing ones reported, never removed
+import amazon_sync
+card = lambda asin, name, badge="Invite Only", host="co.uk": (f'<div id="{asin}" class="group relative"><a href="https://www.amazon.{host}/dp/{asin}?tag=x">'
+                                                             f'<span> {badge} </span><h3 class="t">{name}</h3><p class="text-xs">Pokémon TCG</p></a></div>')
+page = (card("B0AAAAAAA1", "Pokemon - Mega Evolution - Pitch Black - Half Booster Box") + card("B0AAAAAAA2", "Pokémon - Mega Evolution - Booster Bundle")
+        + card("B0AAAAAAA3", "Pokemon - Scarlet &amp; Violet - Black Bolt - Booster Bundle") + card("B0AAAAAAA4", "Not invite", "Sale")
+        + card("B0AAAAAAA5", "Pokemon - US only", host="com"))
+new, gone = amazon_sync.sync(page, [{"name": "Old", "url": "https://www.amazon.co.uk/dp/B0OLDOLD01"}, {"name": "Have", "url": "https://www.amazon.co.uk/dp/B0AAAAAAA3"}])
+assert [e["name"] for e in new] == ["Pitch Black Half Booster Box", "Mega Evolution Booster Bundle"], new
+assert new[0] == {"name": "Pitch Black Half Booster Box", "url": "https://www.amazon.co.uk/dp/B0AAAAAAA1", "kind": "product"} and gone == ["Old"], (new, gone)
+try: amazon_sync.sync("<html></html>", []); assert False
+except ValueError: pass
+print("amazon sync checks passed")
