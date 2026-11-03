@@ -486,8 +486,9 @@ html[data-skin="deepsea"] footer{ color:var(--muted) }
   <section class="screen" aria-labelledby="amz-h">
     <h2 id="amz-h">▶ AMAZON INVITES</h2>
     <div class="best" id="amz-sum"></div>
-    <p class="note">Open each link and tap <b>Request invitation</b> on the item sold by Amazon (it says "Available by invitation"). Then tap <b>Mark opted in</b> here. You can request each item once. If you're picked, Amazon emails a buy link that lasts 72 hours, so check your Promotions folder too. Links marked <i>search</i> open an Amazon search, so pick the listing sold by Amazon.</p>
+    <p class="note">Open each link and tap <b>Request invitation</b> on the item sold by Amazon (it says "Available by invitation"). Then tap <b>Mark opted in</b> here. You can request each item once. If you're picked, Amazon emails a buy link that lasts 72 hours, so check your Promotions folder too.</p>
     <div class="orders" id="amz"></div>
+    <p class="note" id="amz-missing"></p>
     <form class="oform" id="amz-form">
       <label for="amz-name">Product<input id="amz-name" required placeholder="e.g. Delta Reign Booster Bundle"></label>
       <label for="amz-url">Amazon link<input id="amz-url" type="url" required placeholder="https://www.amazon.co.uk/dp/…"></label>
@@ -828,12 +829,14 @@ function renderPatterns() {
 let amazonList = [], amz = {added: [], opted: {}};
 function renderAmazon() {
   amazonList.forEach(a => { if (a.old && amz.opted[a.old] && !amz.opted[a.url]) amz.opted[a.url] = amz.opted[a.old]; }); // keep opt-ins made on the old search links
-  const all = amazonList.concat(data?.amazon_auto || [], amz.added.map(a => ({...a, mine: true})));
+  const all = amazonList.filter(a => a.kind !== "search").concat(amz.added.map(a => ({...a, mine: true})));
+  const missing = data?.amazon_auto || [];
+  $("amz-missing").textContent = missing.length ? "No Amazon UK product page found yet for: " + missing.map(a => a.name).join(", ") + "." : "";
   const done = all.filter(a => amz.opted[a.url]).length;
   $("amz-sum").textContent = all.length ? `${done} of ${all.length} opted in` : "";
   $("amz").innerHTML = [...all].sort((a, b) => !!amz.opted[a.url] - !!amz.opted[b.url]).map(a => { const on = !!amz.opted[a.url];
     return `<div class="order ${on ? "opted" : ""}"><div class="what"><b>${esc(a.name)}</b>
-      <div class="note" style="margin:2px 0 0">${a.kind === "search" ? "search" : "product page"}${a.mine ? " · added by you" : ""}</div></div>
+      <div class="note" style="margin:2px 0 0">product page${a.mine ? " · added by you" : ""}</div></div>
       <a class="btn small amz-go" href="${esc(a.url)}" target="_blank" rel="noopener">Request invite →</a>
       <button class="btn small ${on ? "" : "primary"}" data-opt="${esc(a.url)}" aria-pressed="${on}">${on ? "✓ Opted in" : "Mark opted in"}</button>
       ${a.mine ? `<button class="btn small" data-rm="${esc(a.url)}" aria-label="Remove ${esc(a.name)}">✕</button>` : ""}</div>`; }).join("")

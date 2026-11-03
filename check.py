@@ -10,7 +10,7 @@ import json, os, re, smtplib, sys, time, urllib.error, urllib.request
 from datetime import datetime, timezone
 from email.message import EmailMessage
 from html.parser import HTMLParser
-from urllib.parse import quote_plus, urljoin, urlsplit
+from urllib.parse import urljoin, urlsplit
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 STATE = os.path.join(HERE, "state.json")
@@ -291,10 +291,9 @@ def auto_wishlist(releases, today, current):
 
 
 def amazon_gaps(wishlist, amazon):
-    """Amazon UK search links for wishlist products with no entry in releases.json "amazon". Builds links only, never fetches Amazon."""
+    """Wishlist products with no Amazon UK product page in releases.json "amazon" (pages are added by hand; never fetches Amazon)."""
     names = [a["name"].lower() for a in amazon]
-    return [{"name": w["name"], "url": "https://www.amazon.co.uk/s?k=" + quote_plus("pokemon tcg " + w["name"]), "kind": "search", "auto": True}
-            for w in wishlist if not w.get("got") and not any(all(k in n for k in w["match"]) for n in names)]
+    return [{"name": w["name"]} for w in wishlist if not w.get("got") and not any(all(k in n for k in w["match"]) for n in names)]
 
 
 def main():
@@ -378,7 +377,8 @@ def main():
     amazon_auto = amazon_gaps(cfg["wishlist"], releases.get("amazon", []))
     if "amazon_auto" in status:
         known = {a["name"] for a in status["amazon_auto"]}
-        push += [("Amazon", f"New Amazon invite to request: {a['name']}", a["url"]) for a in amazon_auto if a["name"] not in known]
+        push += [("Amazon", f"New set product needs an Amazon page: {a['name']}", "https://potentched-web.github.io/restock-dex/#amazon")
+                 for a in amazon_auto if a["name"] not in known]
     run_alerts += reminders
     # The public topic in sites.json is what the dashboard's "Push notifications" button subscribes people to.
     topic = cfg.get("ntfy_topic") or os.environ.get("NTFY_TOPIC")

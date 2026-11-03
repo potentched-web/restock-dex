@@ -244,15 +244,15 @@
       ]
     },
     "Ditto Premium Collection": {
-      "price": null,
-      "status": "unknown",
+      "price": 39.99,
+      "status": "reported",
       "match": [
         "ditto"
       ]
     },
     "Mew / Mewtwo Figure Collections": {
-      "price": null,
-      "status": "unknown",
+      "price": 29.99,
+      "status": "estimate",
       "match": [
         "figure collection"
       ]
@@ -316,8 +316,9 @@
     },
     {
       "name": "30th Celebration Sylveon ex Box",
-      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Sylveon+ex+Box",
-      "kind": "search"
+      "url": "https://www.amazon.co.uk/dp/B0H8ST3H4D",
+      "kind": "product",
+      "old": "https://www.amazon.co.uk/s?k=pokemon+tcg+30th+Celebration+Sylveon+ex+Box"
     },
     {
       "name": "30th Celebration Mini Tin",
@@ -423,23 +424,41 @@
     },
     {
       "name": "Mega Greninja ex Premium Collection",
-      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Mega+Greninja+ex+Premium+Collection",
-      "kind": "search"
-    },
-    {
-      "name": "Mega Charizard Tin",
-      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Mega+Charizard+Tin",
-      "kind": "search"
+      "url": "https://www.amazon.co.uk/dp/B0GXJ8CSTY",
+      "kind": "product",
+      "old": "https://www.amazon.co.uk/s?k=pokemon+tcg+Mega+Greninja+ex+Premium+Collection"
     },
     {
       "name": "Snorlax ex & Blissey ex Special Collection",
-      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Snorlax+ex+%26+Blissey+ex+Special+Collection",
-      "kind": "search"
+      "url": "https://www.amazon.co.uk/dp/B0FPMT3SWJ",
+      "kind": "product",
+      "old": "https://www.amazon.co.uk/s?k=pokemon+tcg+Snorlax+ex+%26+Blissey+ex+Special+Collection"
     },
     {
       "name": "Pokemon Day 2026 Collection",
-      "url": "https://www.amazon.co.uk/s?k=pokemon+tcg+Pokemon+Day+2026+Collection",
-      "kind": "search"
+      "url": "https://www.amazon.co.uk/dp/B0G3XL9P92",
+      "kind": "product",
+      "old": "https://www.amazon.co.uk/s?k=pokemon+tcg+Pokemon+Day+2026+Collection"
+    },
+    {
+      "name": "30th Celebration Booster Bundle",
+      "url": "https://www.amazon.co.uk/dp/B0H8SV5DP7",
+      "kind": "product"
+    },
+    {
+      "name": "Delta Reign Booster Box",
+      "url": "https://www.amazon.co.uk/dp/B0HGTBCCXX",
+      "kind": "product"
+    },
+    {
+      "name": "Perfect Order Booster Box",
+      "url": "https://www.amazon.co.uk/dp/B0GG16Q4X1",
+      "kind": "product"
+    },
+    {
+      "name": "Chaos Rising Booster Box",
+      "url": "https://www.amazon.co.uk/dp/B0GSJMQ3QQ",
+      "kind": "product"
     }
   ]
 }

@@ -167,5 +167,5 @@ print("auto wishlist checks passed")
 # Amazon gaps: wishlist products without an Amazon entry get a search link
 gaps = check.amazon_gaps([{"name": "S1 Booster Box", "match": ["s1", "booster box"]}, {"name": "S1 ETB", "match": ["s1", "elite trainer"]},
                           {"name": "S2 ETB", "match": ["s2", "elite trainer"], "got": {"shop": "X"}}], [{"name": "S1 Elite Trainer Box"}])
-assert [g["name"] for g in gaps] == ["S1 Booster Box"] and gaps[0]["url"].endswith("?k=pokemon+tcg+S1+Booster+Box"), gaps
+assert gaps == [{"name": "S1 Booster Box"}], gaps
 print("amazon gap checks passed")
