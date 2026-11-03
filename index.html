@@ -104,6 +104,8 @@
   .chip { text-decoration:none; font-size:13px; font-weight:700; padding:6px 12px; border-radius:99px; border:2px solid var(--line); background:var(--screen-2) }
   .chip:hover, .chip:focus-visible { border-color:var(--electric); color:var(--electric) }
   .chip small { color:var(--muted); font-weight:500 }
+  .chip[aria-pressed=true] { border-color:var(--electric); color:var(--electric) }
+  #drop-shops { margin:0 0 12px } #drop-shops .chip { cursor:pointer; font-family:inherit; color:inherit }
   .set { border-top:1px solid var(--line); padding:6px 0 } .set summary { cursor:pointer; display:grid; grid-template-columns:auto auto 1fr; gap:8px; align-items:center }
   .set .feed li { display:flex; justify-content:space-between; align-items:center; gap:10px }
   .rel { margin:0 0 12px } .rel summary { cursor:pointer; padding:4px 0 }
@@ -121,6 +123,7 @@
   .drops { display:grid; gap:10px; margin-bottom:18px }
   .drop { display:flex; flex-wrap:wrap; gap:6px 14px; align-items:center; background:var(--screen-2); border:1px solid var(--line); border-left:5px solid var(--psychic); border-radius:10px; padding:10px 14px }
   .drop.done { border-left-color:var(--grass); opacity:.75 }
+  .drop[hidden] { display:none }
   .drop .what { flex:1 1 240px; min-width:0 }
   .drop .what a { font-weight:800; text-decoration:none } .drop .what a:hover { text-decoration:underline }
   .drop .closes { font:11px/1.6 var(--pixel); color:var(--electric) }
@@ -370,6 +373,7 @@ html[data-skin="deepsea"] footer{ color:var(--muted) }
   <div class="panel" id="tab-drops" role="tabpanel" aria-labelledby="t-drops">
   <section class="screen" aria-labelledby="drops-h">
     <h2 id="drops-h">▶ DROPS &amp; BALLOTS</h2>
+    <div class="chips" id="drop-shops" role="group" aria-label="Show drops for one shop"></div>
     <div class="drops" id="drops"></div>
   </section>
 <section class="screen" aria-labelledby="x-h">
@@ -538,6 +542,7 @@ const shopOk = (name, f) => !f.shop || name === f.shop;
 const itemOk = (i, shop, f) => textOk(i.title, f) && (!f.stock || i.available);
 // Only stock listed at or under its UK RRP is shown; unpriced page lines and unknown-RRP products are hidden.
 const atRrp = (i, max = i.rrp) => i.price != null && max != null && i.price <= max + 0.001;
+const WISH_SLACK = 5;  // wishlist also shows listings up to £5 over RRP
 const filtering = f => !!(f.q || f.stock);
 
 /* Shop reliability: score each live shop 0-100 from RRP pricing, recent RRP restocks and scan uptime */
@@ -618,13 +623,13 @@ function renderWishlist() {
   const wl = wishlist || data.wishlist || [], f = NOF;
   $("wishlist").innerHTML = wl.filter(w => textOk(w.name + " " + w.match.join(" "), f)).map(w => {
     if (w.got) return `<article class="wish"><h3>${esc(w.name)}</h3><div class="best">✓ Got it from ${esc(w.got.shop)} on ${esc(w.got.date)}. No more alerts.</div></article>`;
-    const hits = data.sites.filter(s => !s.skip && shopOk(s.name, f)).flatMap(s => s.items.filter(i => matches(w, i.title) && (!f.stock || i.available) && (w.max == null ? i.price != null : atRrp(i, w.max))).map(i => ({...i, shop: s.name})))
+    const hits = data.sites.filter(s => !s.skip && shopOk(s.name, f)).flatMap(s => s.items.filter(i => matches(w, i.title) && (!f.stock || i.available) && (w.max == null ? i.price != null : atRrp(i, w.max + WISH_SLACK))).map(i => ({...i, shop: s.name})))
       .sort((a, b) => priceOf(a) - priceOf(b) || (b.available === undefined) - (a.available === undefined));
-    const best = hits.find(i => i.available && (w.max == null || i.price <= w.max));
+    const best = hits.find(i => i.available && (w.max == null || i.price <= w.max + WISH_SLACK));
     if (f.max && !best) return "";
     const tag = {estimate: " (estimated)", reported: " (reported)"}[w.rrp_status] || "";
     const cap = w.max == null ? (w.rrp_status ? "RRP not announced yet, alerting at any price" : "any price")
-      : `${w.rrp_status ? "RRP" : "max"} £${w.max.toFixed(2)}${tag}`;
+      : `${w.rrp_status ? "RRP" : "max"} £${w.max.toFixed(2)}${tag} · showing up to £${(w.max + WISH_SLACK).toFixed(2)}`;
     return `<article class="wish ${best ? "buy" : ""}"><h3>${esc(w.name)}</h3><div class="note" style="margin:0 0 6px">${cap}</div>
       <div class="best">${best ? `Best: <a href="${esc(best.url)}" target="_blank" rel="noopener">£${best.price.toFixed(2)} at ${esc(best.shop)} →</a> ${basket(best)}`
         : hits.some(i => i.available) ? "In stock, but over your max"
@@ -720,11 +725,17 @@ function quickAdd(set, product) {
   $("editor").scrollIntoView({behavior: "smooth", block: "center"});
 }
 
+let dropShop = store("dropShop") || "";  // "" = all shops
 function renderDrops(drops) {
   const now = Date.now();
   const f = NOF;
   const open = drops.filter(d => (!d.closes || new Date(d.closes) > now) && shopOk(d.shop, f) && textOk(d.name, f))
     .sort((a, b) => (a.closes ? new Date(a.closes) : Infinity) - (b.closes ? new Date(b.closes) : Infinity));
+  const counts = {};
+  open.forEach(d => counts[d.shop] = (counts[d.shop] || 0) + 1);
+  if (!counts[dropShop]) dropShop = "";
+  $("drop-shops").innerHTML = [["", "All shops", open.length], ...Object.keys(counts).sort().map(k => [k, k, counts[k]])]
+    .map(([k, label, n]) => `<button type="button" class="chip" data-shop="${esc(k)}" aria-pressed="${k === dropShop}">${esc(label)} <small>${n}</small></button>`).join("");
   $("drops").innerHTML = open.map(d => {
     const key = "entered:" + d.shop + d.name + d.closes, done = store(key) === "1";
     const h = d.closes ? (new Date(d.closes) - now) / 36e5 : null;
@@ -732,7 +743,7 @@ function renderDrops(drops) {
     const rel = (lastReleases?.releases || []).find(r => r.set && d.name.toLowerCase().includes(r.set.toLowerCase()));
     const exp = d.expected || rel?.date;  // date read from the shop's own product page wins
     const left = h == null ? (exp ? `EXPECTED ${new Date(exp + "T00:00:00").toLocaleDateString("en-GB", {day: "numeric", month: "short"}).toUpperCase()} · CLOSING DATE TBC` : "NOT OPEN YET / DATE TBC") : h < 1 ? "CLOSES IN UNDER 1 HOUR" : h < 48 ? `CLOSES IN ${Math.round(h)}H` : `CLOSES IN ${Math.round(h / 24)} DAYS`;
-    return `<div class="drop ${done ? "done" : ""}"><div class="what"><div class="closes">${left}</div>
+    return `<div class="drop ${done ? "done" : ""}" ${dropShop && d.shop !== dropShop ? "hidden" : ""}><div class="what"><div class="closes">${left}</div>
       <a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.shop)}: ${esc(d.name)}</a>
       ${d.note ? `<div class="note" style="margin:2px 0 0">${esc(d.note)}${d.found ? ` Found ${when(d.found)}.` : ""}</div>` : ""}</div>
       <span class="pill ${d.type === "ballot" ? "t-psychic" : "t-water"}">${esc(d.type || "pre-order")}</span>
@@ -765,6 +776,10 @@ $("releases").addEventListener("click", e => {
   if (b) { quickAdd(b.dataset.set, b.dataset.product); b.disabled = true; b.textContent = "✓ wanted"; }
 });
 
+$("drop-shops").addEventListener("click", e => {
+  const b = e.target.closest("button[data-shop]"); if (!b) return;
+  dropShop = b.dataset.shop; store("dropShop", dropShop); renderDrops(allDrops());
+});
 $("drops").addEventListener("change", e => {
   if (!e.target.dataset.key) return;
   store(e.target.dataset.key, e.target.checked ? "1" : "0");

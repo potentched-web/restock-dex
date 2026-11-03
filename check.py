@@ -274,6 +274,27 @@ def release_window(releases, today):
     return any(0 <= (datetime.fromisoformat(r["date"]).date() - today).days <= 1 for r in releases)
 
 
+def auto_wishlist(releases, today, current):
+    """Wishlist = every product of the 6 newest released sets plus sets out within 30 days, at RRP from releases.json.
+    Keeps "got" marks and entries that aren't from any set; drops products of sets that fell out of the window."""
+    sets = sorted((r for r in releases.get("releases", []) if r.get("set")), key=lambda r: r["date"], reverse=True)
+    out_by = lambda r: (datetime.fromisoformat(r["date"]).date() - today).days
+    keep = [r for r in sets if 0 < out_by(r) <= 30] + [r for r in sets if out_by(r) <= 0][:6]
+    old = {w["name"]: w for w in current}
+    set_names = tuple(r["set"] + " " for r in sets)
+    rrp, out = releases.get("rrp", {}), []
+    for r in sorted(keep, key=lambda r: r["date"], reverse=True):
+        for p in r["products"]:
+            t, name = rrp.get(p, {}), f'{r["set"]} {p}'
+            w = {"name": name, "match": [r["set"].lower(), *(t.get("match") or [p.lower()])],
+                 "max": t.get("price"), "rrp_status": t.get("status", "unknown")}
+            if old.get(name, {}).get("got"):
+                w["got"] = old[name]["got"]
+            out.append(w)
+    names = {w["name"] for w in out}
+    return out + [w for w in current if w["name"] not in names and (w.get("got") or not w["name"].startswith(set_names))]
+
+
 def main():
     cfg = json.load(open(os.path.join(HERE, "sites.json")))
     rel_path = os.path.join(HERE, "releases.json")
@@ -288,6 +309,11 @@ def main():
         return
     wl_path = os.path.join(HERE, "wishlist.json")  # edited from the dashboard
     cfg["wishlist"] = json.load(open(wl_path)) if os.path.exists(wl_path) else []
+    # shortcut: the workflow pushes this with -X theirs, so a dashboard edit in the same minute can be overwritten; rare.
+    wl = auto_wishlist(releases, now_dt.date(), cfg["wishlist"])
+    if wl != cfg["wishlist"]:
+        json.dump(wl, open(wl_path, "w"), indent=2, ensure_ascii=False)
+        cfg["wishlist"] = wl
     cfg["sets"] = [r["set"].lower() for r in releases.get("releases", []) if r.get("set")]
     state = json.load(open(STATE)) if os.path.exists(STATE) else {}
     status = json.load(open(STATUS)) if os.path.exists(STATUS) else {}

@@ -223,8 +223,8 @@
       ]
     },
     "Booster Box": {
-      "price": 130.0,
-      "status": "estimate",
+      "price": 155.0,
+      "status": "confirmed",
       "match": [
         "booster box"
       ]

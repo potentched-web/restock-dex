@@ -157,3 +157,13 @@ assert check.expected_date("<p>Release date: 6th November 2026</p>") == "2026-11
 assert check.expected_date("Releases on 22 May 2026, ships fast") == "2026-05-22"
 assert check.expected_date("Pokemon ETB 49.99") is None
 print("date checks passed")
+
+# Auto wishlist: 6 newest released sets + sets out within 30 days; got marks and custom entries kept
+from datetime import date
+R = {"rrp": {"Booster Box": {"price": 155.0, "status": "confirmed", "match": ["booster box"]}},
+     "releases": [{"set": f"S{n}", "date": f"2026-0{n}-01", "products": ["Booster Box"]} for n in range(1, 10)]}
+cur = [{"name": "S9 Booster Box", "got": {"shop": "X"}}, {"name": "S1 Booster Box"}, {"name": "My Tin", "match": ["tin"]}]
+wl = check.auto_wishlist(R, date(2026, 8, 15), cur)  # S9 is out 1 Sep (within 30 days), S3-S8 released
+assert [w["name"] for w in wl] == [f"S{n} Booster Box" for n in range(9, 2, -1)] + ["My Tin"], wl
+assert wl[0]["got"] == {"shop": "X"} and wl[0]["max"] == 155.0 and wl[0]["match"] == ["s9", "booster box"]
+print("auto wishlist checks passed")

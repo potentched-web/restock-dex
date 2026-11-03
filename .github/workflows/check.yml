@@ -29,7 +29,7 @@ jobs:
           while :; do
             git pull --rebase -q -X theirs || true   # pick up wishlist/sites edits made meanwhile
             python3 check.py || echo "check.py failed, trying again next round"
-            git add state.json status.json history.json notifications.json
+            git add state.json status.json history.json notifications.json wishlist.json
             git diff --cached --quiet || (git commit -m "Update stock state" && (git push || (git pull --rebase -X theirs && git push)))
             [ $SECONDS -lt $end ] || break
             sleep 300
