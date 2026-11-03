@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T16:31:22+00:00",
+ "updated": "2026-11-03T16:36:22+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -291,21 +291,215 @@
      "cart": "https://zatu.com/cart/56783225094522:1"
     }
    ],
-   "uptime": 0.9904
+   "uptime": 0.9906
   },
   {
    "name": "Hokey Poke Games",
    "url": "https://hokeypokegames.co.uk/collections/all-pokemon",
    "skip": null,
    "error": null,
-   "mode": "page",
+   "mode": "shopify",
    "items": [
     {
+     "title": "Pokemon TCG: 151 - Mini Tin (random tin)",
+     "price": 61.99,
+     "available": false,
+     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-151-mini-tin-random-tin",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://hokeypokegames.co.uk/cart/54575833383259:1"
+    },
+    {
+     "title": "Pokemon TCG: 151 Booster Bundle",
+     "price": 206.99,
+     "available": false,
+     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-151-booster-bundle",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://hokeypokegames.co.uk/cart/54575794553179:1"
+    },
+    {
+     "title": "Pokemon TCG: Ascended Hero's Pin Collection",
+     "price": 65.99,
+     "available": false,
+     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-ascended-heros-pin-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://hokeypokegames.co.uk/cart/54575794618715:1"
+    },
+    {
+     "title": "Pokemon TCG: Ascended Heroes Poster Collection",
+     "price": 49.99,
+     "available": false,
+     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-ascended-heroes-poster-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://hokeypokegames.co.uk/cart/54575839150427:1"
+    },
+    {
+     "title": "Pokemon TCG: Black & White Unova Heavy Hitter Premium Collection",
+     "price": 112.99,
+     "available": false,
+     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-black-white-unova-heavy-hitter-premium-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://hokeypokegames.co.uk/cart/54575794585947:1"
+    },
+    {
+     "title": "Pokemon TCG: Black Bolt & White Flare Unova Victini Illustration Collection",
+     "price": 35.99,
+     "available": false,
+     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-black-bolt-white-flare-unova-victini-illustration-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://hokeypokegames.co.uk/cart/54575761457499:1"
+    },
+    {
+     "title": "Pokemon TCG: Black Bolt Elite Trainer Box",
+     "price": 47.99,
+     "available": false,
+     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-black-bolt-elite-trainer-box",
+     "over_rrp": false,
+     "rrp": 49.99,
+     "cart": "https://hokeypokegames.co.uk/cart/54575761359195:1"
+    },
+    {
+     "title": "Pokemon TCG: Black Bolt Tech Poster Collection",
+     "price": 26.99,
+     "available": false,
+     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-black-bolt-tech-poster-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://hokeypokegames.co.uk/cart/54575761391963:1"
+    },
+    {
+     "title": "Pokemon TCG: Black Bolt and White Flare Mini Tin",
+     "price": 12.99,
+     "available": false,
+     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-black-bolt-and-white-flare-mini-tin",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://hokeypokegames.co.uk/cart/54575761326427:1"
+    },
+    {
+     "title": "Pokemon TCG: Chaos Rising - 3-Pack Blister",
+     "price": 22.99,
+     "available": false,
+     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-chaos-rising-3-pack-blister",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://hokeypokegames.co.uk/cart/53872280142171:1"
+    },
+    {
+     "title": "Pokemon TCG: Combined Powers - Premium Collection",
+     "price": 70.99,
+     "available": false,
+     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-combined-powers-premium-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://hokeypokegames.co.uk/cart/54575778234715:1"
+    },
+    {
+     "title": "Pokemon TCG: First Partner Illustration Collection Series 1 - Booster Pack",
+     "price": 58.99,
+     "available": false,
+     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-first-partner-illustration-collection-series-1-booster-pack",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://hokeypokegames.co.uk/cart/54574966767963:1"
+    },
+    {
+     "title": "Pokemon TCG: Mega Evolution - Elite Trainer Box",
+     "price": 62.99,
+     "available": false,
+     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-mega-evolution-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://hokeypokegames.co.uk/cart/54575778103643:1"
+    },
+    {
+     "title": "Pokemon TCG: Mega Evolution Ascended Heroes - Tech Sticker Collection",
+     "price": 20.99,
+     "available": false,
+     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-mega-evolution-ascended-heroes-tech-sticker-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://hokeypokegames.co.uk/cart/54575794520411:1"
+    },
+    {
+     "title": "Pokemon TCG: Mega Evolution Pitch Black Booster Bundle",
+     "price": 36.99,
+     "available": false,
+     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-mega-evolution-pitch-black-booster-bundle",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://hokeypokegames.co.uk/cart/54514584387931:1"
+    },
+    {
+     "title": "Pokemon TCG: Mega Pitch Black - Checklane Blister (SlowPoke)",
+     "price": 7.99,
+     "available": false,
+     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-mega-pitch-black-checklane-blister-slowpoke",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://hokeypokegames.co.uk/cart/54574983676251:1"
+    },
+    {
+     "title": "Pokemon TCG: Pitch Black - Elite Trainer Box",
+     "price": 65.0,
+     "available": false,
+     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-pitch-black-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://hokeypokegames.co.uk/cart/53986334605659:1"
+    },
+    {
+     "title": "Pokemon TCG: Scarlet & Violet 4 - Paradox Rift - Elite Trainer Box",
+     "price": 59.99,
+     "available": false,
+     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-scarlet-violet-4-paradox-rift-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://hokeypokegames.co.uk/cart/54575761588571:1"
+    },
+    {
+     "title": "Pokemon TCG: Scarlet & Violet 6 - Twilight Masquerade - Elite Trainer Box",
+     "price": 59.99,
+     "available": false,
+     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-scarlet-violet-6-twilight-masquerade-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://hokeypokegames.co.uk/cart/54575761621339:1"
+    },
+    {
+     "title": "Pokemon TCG: Scarlet & Violet 7 - Stellar Crown - Elite Trainer Box",
+     "price": 59.99,
+     "available": false,
+     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-scarlet-violet-7-stellar-crown-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://hokeypokegames.co.uk/cart/54575777907035:1"
+    },
+    {
      "title": "Pok\u00e9mon TCG: 30th Anniversary First Partner Illustration Series 2 Collection Box.",
-     "url": "https://hokeypokegames.co.uk/collections/all-pokemon"
+     "price": 11.99,
+     "available": false,
+     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-30th-anniversary-first-partner-illustration-series-2-collection-box-copy",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://hokeypokegames.co.uk/cart/54018354643291:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Scarlet & Violet - Temporal Forces - Elite Trainer Box",
+     "price": 56.99,
+     "available": false,
+     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-scarlet-violet-temporal-forces-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://hokeypokegames.co.uk/cart/54575778005339:1"
     }
    ],
-   "uptime": 0.9904
+   "uptime": 0.9906
   },
   {
    "name": "Collectors Edge",
@@ -883,7 +1077,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9775
+   "uptime": 0.9779
   },
   {
    "name": "Packrat",
@@ -1706,7 +1900,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9751
+   "uptime": 0.9756
   },
   {
    "name": "TCGora",
@@ -2094,98 +2288,833 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.98
+   "uptime": 0.9804
   },
   {
    "name": "Pixel Hub",
    "url": "https://pixel-hub.co.uk/collections/pokemon",
    "skip": null,
    "error": null,
-   "mode": "page",
+   "mode": "shopify",
    "items": [
     {
-     "title": "Booster Box - Pokemon",
-     "url": "https://pixel-hub.co.uk/collections/pokemon"
+     "title": "(RIPPED SEAL) Pok\u00e9mon TCG: Mega Evolution - Elite Trainer Box - Lucario",
+     "price": 100.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/ripped-seal-pokemon-tcg-mega-evolution-elite-trainer-box-lucario-copy",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://pixel-hub.co.uk/cart/51891519652182:1"
     },
     {
-     "title": "If it\u2019s listed as sealed, it\u2019s factory sealed. Your Pokemon booster packs and booster boxes arrive exactly as intended by The Pokemon Company.",
-     "url": "https://pixel-hub.co.uk/collections/pokemon"
+     "title": "Charizard ex Special Collection",
+     "price": 49.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/charizard-ex-special-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://pixel-hub.co.uk/cart/49812554154326:1"
     },
     {
-     "title": "Looking to start your Pokemon collection but not sure where to buy Pokemon cards in the UK? Check out our",
-     "url": "https://pixel-hub.co.uk/collections/pokemon"
+     "title": "Iono\u2019s Bellibolt ex Premium Collection",
+     "price": 62.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/iono-bellibolt-ex-premium-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://pixel-hub.co.uk/cart/49812549828950:1"
     },
     {
-     "title": "Pokemon Booster Boxes:",
-     "url": "https://pixel-hub.co.uk/collections/pokemon"
+     "title": "POKEMON CENTRE Mega Evolution Ascended Heroes - Elite Trainer Box",
+     "price": 661.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-centre-mega-evolution-ascended-heroes-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://pixel-hub.co.uk/cart/51979298505046:1"
     },
     {
-     "title": "Pokemon Booster Packs vs. Booster Boxes: Which is Right for You?",
-     "url": "https://pixel-hub.co.uk/collections/pokemon"
+     "title": "Paldean Fates Booster Bundle",
+     "price": 134.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/paldean-fates-booster-bundle",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://pixel-hub.co.uk/cart/50714231275862:1"
+    },
+    {
+     "title": "Pokemon - Destined Rivals - Booster Box Case (6 Booster Boxes)",
+     "price": 3934.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-destined-rivals-booster-box-case-6-booster-boxes",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://pixel-hub.co.uk/cart/51573165293910:1"
+    },
+    {
+     "title": "Pokemon - Scarlet & Violet - Black Bolt - Elite Trainer Box",
+     "price": 237.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-scarlet-violet-black-bolt-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://pixel-hub.co.uk/cart/50385641079126:1"
+    },
+    {
+     "title": "Pokemon - Scarlet & Violet - Destined Rivals - Destined Rivals Booster Box (36 packs)",
+     "price": 567.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-destined-rivals-booster-box-36-packs",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://pixel-hub.co.uk/cart/50259136708950:1"
+    },
+    {
+     "title": "Pokemon - Scarlet & Violet - Destined Rivals - Elite Trainer Box",
+     "price": 174.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-destined-rivals-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://pixel-hub.co.uk/cart/50105953157462:1"
+    },
+    {
+     "title": "Pokemon - Scarlet & Violet - Destined Rivals - Half Booster Box (18 Boosters)",
+     "price": 268.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-scarlet-violet-destined-rivals-half-booster-box-18-boosters",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://pixel-hub.co.uk/cart/50524277277014:1"
+    },
+    {
+     "title": "Pokemon - Scarlet & Violet - Journey Together - Booster Bundle",
+     "price": 71.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-scarlet-violet-journey-together-booster-bundle",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://pixel-hub.co.uk/cart/50329151340886:1"
+    },
+    {
+     "title": "Pokemon - Scarlet & Violet - Journey Together - Elite Trainer Box",
+     "price": 158.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-journey-together-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://pixel-hub.co.uk/cart/49809115906390:1"
+    },
+    {
+     "title": "Pokemon - Scarlet & Violet - White Flare - Elite Trainer Box",
+     "price": 142.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-scarlet-violet-white-flare-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://pixel-hub.co.uk/cart/50385647567190:1"
+    },
+    {
+     "title": "Pokemon - Surging Sparks - Booster box",
+     "price": 378.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/surging-sparks-booster-box",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://pixel-hub.co.uk/cart/50166252863830:1"
+    },
+    {
+     "title": "Pokemon Center Hiroshima - Special Collection Box",
+     "price": 237.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-special-box-set-hiroshima",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://pixel-hub.co.uk/cart/51414632464726:1"
     },
     {
      "title": "Pokemon First Partner Illustration Collection Series 3 6-Box Sealed Case",
-     "url": "https://pixel-hub.co.uk/collections/pokemon"
+     "price": 362.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-first-partner-illustration-collection-series-3-6-box-sealed-case",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://pixel-hub.co.uk/cart/54924565348694:1"
     },
     {
-     "title": "Pokemon TCG: Mega Evolution Ascended Heroes - Elite Trainer Box",
-     "url": "https://pixel-hub.co.uk/collections/pokemon"
+     "title": "Pokemon Prismatic Evolutions Elite Trainer Box + Booster Costco Bundle",
+     "price": 332.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-prismatic-evolutions-elite-trainer-box-booster-costco-bundle",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://pixel-hub.co.uk/cart/52311413915990:1"
+    },
+    {
+     "title": "Pokemon Scarlet & Violet Surging Sparks Elite Trainer Box",
+     "price": 175.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-scarlet-violet-surging-sparks-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://pixel-hub.co.uk/cart/51935695995222:1"
+    },
+    {
+     "title": "Pokemon TCG - Mega Evolutions Half Booster Box (18 Packs)",
+     "price": 189.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolutions-half-booster-box-18-packs",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://pixel-hub.co.uk/cart/51573118959958:1"
+    },
+    {
+     "title": "Pokemon TCG: Cynthia\u2019s Garchomp ex Premium Collection Box",
+     "price": 57.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-cynthia-s-garchomp-ex-premium-collection-box",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://pixel-hub.co.uk/cart/50320809034070:1"
+    },
+    {
+     "title": "Pokemon TCG: Lillie Premium Tournament Collection",
+     "price": 78.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-lillie-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://pixel-hub.co.uk/cart/49821679976790:1"
+    },
+    {
+     "title": "Pokemon TCG: Mega Evolution - Booster Bundle",
+     "price": 95.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolution-booster-bundle",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://pixel-hub.co.uk/cart/52181707555158:1"
+    },
+    {
+     "title": "Pokemon TCG: Scarlet & Violet 4.5 Paldean Fates Tin - Great Tusk/Iron Treads/Charizard (All 3 Artworks)",
+     "price": 268.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-paldean-fates-tin-great-tusk-iron-treads-charizard",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://pixel-hub.co.uk/cart/50676291961174:1"
+    },
+    {
+     "title": "Pokemon TCG: Scarlet & Violet 4.5 Paldean Fates Tin - Great Tusk/Iron Treads/Charizard (Sealed case (x2 of each))",
+     "price": 661.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-paldean-fates-tin-great-tusk-iron-treads-charizard",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://pixel-hub.co.uk/cart/50809989923158:1"
+    },
+    {
+     "title": "Pokemon TCG: Scarlet & Violet 9 \u2013 Journey Together - Elite Trainer Box (CASE OF 10)",
+     "price": 945.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-9-journey-together-etb-case",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://pixel-hub.co.uk/cart/49812617494870:1"
+    },
+    {
+     "title": "Pokemon TCG: Surging Sparks - Booster Bundle",
+     "price": 74.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-surging-sparks-booster-bundle",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://pixel-hub.co.uk/cart/52077126353238:1"
+    },
+    {
+     "title": "Pok\u00e9mon - Prismatic Evolutions Booster Bundle Master Case (60 bundles)",
+     "price": 9441.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-prismatic-evolutions-booster-bundle-master-case-60-bundles",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://pixel-hub.co.uk/cart/51573178696022:1"
     },
     {
      "title": "Pok\u00e9mon Center TCG: Mega Evolution - Chaos Rising Elite Trainer Box",
-     "url": "https://pixel-hub.co.uk/collections/pokemon"
+     "price": 174.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-center-tcg-mega-evolution-chaos-rising-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://pixel-hub.co.uk/cart/53662008869206:1"
+    },
+    {
+     "title": "Pok\u00e9mon Center TCG: Mega Evolution-Perfect Order Elite Trainer Box (Pre-Order)",
+     "price": 144.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolution-perfect-order-pokemon-center-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://pixel-hub.co.uk/cart/52790690054486:1"
     },
     {
      "title": "Pok\u00e9mon Center TCG: Mega Evolution-Pitch Black Pok\u00e9mon Elite Trainer Box (PKC)",
-     "url": "https://pixel-hub.co.uk/collections/pokemon"
+     "price": 252.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-center-tcg-mega-evolution-pitch-black-pokemon-elite-trainer-box-pkc",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://pixel-hub.co.uk/cart/54370800599382:1"
+    },
+    {
+     "title": "Pok\u00e9mon Mega Greninja ex Premium Collection \u2014 Sealed 6-Box Case",
+     "price": 474.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-mega-greninja-ex-premium-collection-sealed-6-box-case",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://pixel-hub.co.uk/cart/54402327576918:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG - Journey Together SV09 Booster Box (36 Packs) - SEALED CASE OF 6",
+     "price": 1731.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-journey-together-sv09-booster-box-36-packs-sealed-case-of-6",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://pixel-hub.co.uk/cart/51573169848662:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: 151 Blooming Waters Premium Collection",
+     "price": 189.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-blooming-waters-premium-collection-4-foil-promo-cards-1-foil-oversize-card-12-booster-packs",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://pixel-hub.co.uk/cart/50329242534230:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: 2023-Q4 Evolving Powers Premium Collection",
+     "price": 95.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-2023-q4-evolving-powers-premium-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://pixel-hub.co.uk/cart/50632174829910:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Booster Bundle - 30th Celebration",
+     "price": 158.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-booster-bundle-30th-celebration",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://pixel-hub.co.uk/cart/55541691416918:1"
     },
     {
      "title": "Pok\u00e9mon TCG: Elite Trainer Box - 30th Celebration",
-     "url": "https://pixel-hub.co.uk/collections/pokemon"
+     "price": 221.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-elite-trainer-box-30th-celebration",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://pixel-hub.co.uk/cart/55387161559382:1"
     },
     {
      "title": "Pok\u00e9mon TCG: First Partner Illustration Collection - Series 2",
-     "url": "https://pixel-hub.co.uk/collections/pokemon"
+     "price": 79.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-first-partner-illustration-collection-series-2",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://pixel-hub.co.uk/cart/54269497540950:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Mega Charizard Ultra-Premium Collection",
+     "price": 394.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-charizard-ultra-premium-collection",
+     "over_rrp": true,
+     "rrp": 169.99,
+     "cart": "https://pixel-hub.co.uk/cart/51682267824470:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Mega Evolution - Booster Display",
+     "price": 394.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolution-booster-display",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://pixel-hub.co.uk/cart/51834793460054:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Mega Evolution - Elite Trainer Box - Gardevoir",
+     "price": 158.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolution-gardevoir-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://pixel-hub.co.uk/cart/51536417423702:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Mega Evolution - Elite Trainer Box - Lucario",
+     "price": 142.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolution-lucario-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://pixel-hub.co.uk/cart/51536426402134:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Mega Evolution Ascended Heroes - Elite Trainer Box",
+     "price": 252.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolution-ascended-heroes-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://pixel-hub.co.uk/cart/51934864245078:1"
     },
     {
      "title": "Pok\u00e9mon TCG: Mega Evolution Chaos Rising - Booster Box Display CDU (36)",
-     "url": "https://pixel-hub.co.uk/collections/pokemon"
+     "price": 315.0,
+     "available": true,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolution-chaos-rising-boosters-display-cdu-36",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://pixel-hub.co.uk/cart/53661978919254:1"
     },
     {
      "title": "Pok\u00e9mon TCG: Mega Evolution Chaos Rising - Booster Bundle",
-     "url": "https://pixel-hub.co.uk/collections/pokemon"
+     "price": 76.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolution-chaos-rising-booster-bundle",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://pixel-hub.co.uk/cart/53678422557014:1"
     },
     {
      "title": "Pok\u00e9mon TCG: Mega Evolution Chaos Rising - Elite Trainer Box",
-     "url": "https://pixel-hub.co.uk/collections/pokemon"
+     "price": 134.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolution-chaos-rising-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://pixel-hub.co.uk/cart/53593432654166:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Mega Evolution Perfect Order -  Elite Trainer Box",
+     "price": 126.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-perfect-order-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://pixel-hub.co.uk/cart/52909781320022:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Mega Evolution Perfect Order - Booster Display CDU (36)",
+     "price": 331.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolution-perfect-order-booster-display-cdu-36",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://pixel-hub.co.uk/cart/52909781746006:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Mega Evolution Phantasmal Flames - Booster Box",
+     "price": 551.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolution-phantasmal-flames-booster-box",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://pixel-hub.co.uk/cart/51775840256342:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Mega Evolution Phantasmal Flames - Booster Bundle",
+     "price": 84.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolution-phantasmal-flames-booster-bundle",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://pixel-hub.co.uk/cart/51935702942038:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Mega Evolution Phantasmal Flames - Elite Trainer Box",
+     "price": 158.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolution-phantasmal-flames-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://pixel-hub.co.uk/cart/51576115790166:1"
     },
     {
      "title": "Pok\u00e9mon TCG: Mega Evolution Pitch Black - Booster Box Display CDU",
-     "url": "https://pixel-hub.co.uk/collections/pokemon"
+     "price": 362.0,
+     "available": true,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolution-pitch-black-booster-display-cdu",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://pixel-hub.co.uk/cart/54125464093014:1"
     },
     {
      "title": "Pok\u00e9mon TCG: Mega Evolution Pitch Black - Elite Trainer Box",
-     "url": "https://pixel-hub.co.uk/collections/pokemon"
+     "price": 118.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolution-pitch-black-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://pixel-hub.co.uk/cart/54125462585686:1"
     },
     {
      "title": "Pok\u00e9mon TCG: Mega Evolution \u2014 Chaos Rising Half Booster Box (18 Packs)",
-     "url": "https://pixel-hub.co.uk/collections/pokemon"
+     "price": 205.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolution-chaos-rising-half-booster-box-18-packs",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://pixel-hub.co.uk/cart/54025009070422:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Mega Evolution-Ascended Heroes Booster Bundle (6 Packs)",
+     "price": 136.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolution-ascended-heroes-booster-bundle-6-packs",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://pixel-hub.co.uk/cart/51971556311382:1"
     },
     {
      "title": "Pok\u00e9mon TCG: Mega Evolution-Pitch Black Booster Bundle (6 Packs)",
-     "url": "https://pixel-hub.co.uk/collections/pokemon"
+     "price": 73.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolution-pitch-black-booster-bundle-6-packs",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://pixel-hub.co.uk/cart/54370819277142:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Mega Greninja ex Premium Collection",
+     "price": 78.0,
+     "available": true,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-greninja-ex-premium-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://pixel-hub.co.uk/cart/54430704992598:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Mega Lucario ex Figure Collection -  Sealed Case of 6",
+     "price": 473.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-lucario-ex-figure-collection-sealed-case-of-6",
+     "over_rrp": true,
+     "rrp": 29.99,
+     "cart": "https://pixel-hub.co.uk/cart/51774878089558:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Mega Venusaur ex Premium Collection",
+     "price": 95.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-venusaur-ex-premium-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://pixel-hub.co.uk/cart/51794526863702:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Paradox Wisdom Premium Collection",
+     "price": 65.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-paradox-wisdom-premium-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://pixel-hub.co.uk/cart/50353252630870:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Poke Ball Tin (2025)",
+     "price": 23.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-poke-ball-tin-2025",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://pixel-hub.co.uk/cart/52431329198422:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Scarlet & Violet 10.5 - Black Bolt & White Flare Unova Victini Illustration Collection",
+     "price": 63.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-10-5-black-bolt-white-flare-unova-victini-illustration-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://pixel-hub.co.uk/cart/51794525913430:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Scarlet & Violet 10.5 - Black Bolt - Booster Bundle",
+     "price": 82.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-10-5-black-bolt-booster-bundle",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://pixel-hub.co.uk/cart/51083690377558:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Scarlet & Violet 10.5 - Black Bolt - Booster Bundle CDU (10)",
+     "price": 709.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-10-5-black-bolt-boosterbundle-cdu",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://pixel-hub.co.uk/cart/51698485002582:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Scarlet & Violet 10.5 - White Flare - Booster Bundle",
+     "price": 71.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-10-5-white-flare-booster-bundle",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://pixel-hub.co.uk/cart/51124331315542:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Scarlet & Violet 10.5 - White Flare - Booster Bundle CDU (10)",
+     "price": 709.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-10-5-white-flare-booster-bundle-cdu-10",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://pixel-hub.co.uk/cart/51698498077014:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Scarlet & Violet 3.5: 151 \u2013 Booster Bundle",
+     "price": 189.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-3-5-151-booster-bundle",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://pixel-hub.co.uk/cart/50497888158038:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Scarlet & Violet 3.5: 151 \u2013 Full Booster Bundle Display",
+     "price": 3147.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-3-5-151-full-booster-bundle-display",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://pixel-hub.co.uk/cart/51399547650390:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Scarlet & Violet 3.5: 151 \u2013 Poster Collection",
+     "price": 95.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-3-5-151-poster-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://pixel-hub.co.uk/cart/50505756311894:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Scarlet & Violet 4 - Paradox Rift - Elite Trainer Box",
+     "price": 95.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/paradox",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://pixel-hub.co.uk/cart/50507783602518:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Scarlet & Violet 8.5 - Prismatic Evolutions - Booster Bundle",
+     "price": 141.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-8-5-prismatic-evolutions-booster-bundle",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://pixel-hub.co.uk/cart/50303554683222:1"
     },
     {
      "title": "Pok\u00e9mon TCG: Scarlet & Violet 8.5 - Prismatic Evolutions - Super-Premium Collection",
-     "url": "https://pixel-hub.co.uk/collections/pokemon"
+     "price": 394.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-8-5-prismatic-evolutions-super-premium-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://pixel-hub.co.uk/cart/50291705577814:1"
     },
     {
-     "title": "Pok\u00e9mon TCG: Scarlet \\u0026 Violet 8.5 - Prismatic Evolutions - Super-Premium Collection",
-     "url": "https://pixel-hub.co.uk/collections/pokemon"
+     "title": "Pok\u00e9mon TCG: Scarlet & Violet 8.5 - Prismatic Evolutions \u2013 Surprise Box Collection",
+     "price": 95.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-8-5-prismatic-evolutions-surprise-box-collection-1",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://pixel-hub.co.uk/cart/50346283827542:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Scarlet & Violet 8.5 Prismatic Evolutions - Premium Figure Collection",
+     "price": 205.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-8-5-prismatic-evolutions-premium-figure-collection",
+     "over_rrp": true,
+     "rrp": 29.99,
+     "cart": "https://pixel-hub.co.uk/cart/51935715983702:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Scarlet & Violet 8.5 \u2013 Prismatic Evolutions - Accessory Pouch Special Collection",
+     "price": 63.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-8-5-prismatic-evolutions-accessory-pouch-special-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://pixel-hub.co.uk/cart/50291740508502:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Scarlet & Violet-Journey Together Pok\u00e9mon Center Elite Trainer Box",
+     "price": 189.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-journey-together-pokemon-center-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 56.99,
+     "cart": "https://pixel-hub.co.uk/cart/50714288980310:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Scarlet & Violet-Obsidian Flames Booster Display Box (36 Packs)",
+     "price": 535.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-obsidian-flames-booster-display-box-36-packs",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://pixel-hub.co.uk/cart/51979323212118:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Scarlet & Violet-Paldea Evolved Booster Display Box (36 Packs)",
+     "price": 591.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-paldea-evolved-booster-display-box-36-packs",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://pixel-hub.co.uk/cart/51045010669910:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Scarlet & Violet-Prismatic Evolutions Pok\u00e9mon Center Elite Trainer Box",
+     "price": 410.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-prismatic-evolutions-pokemon-center-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 56.99,
+     "cart": "https://pixel-hub.co.uk/cart/50715125154134:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Shining Fates Elite Trainer Box",
+     "price": 142.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-shining-fates-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://pixel-hub.co.uk/cart/50714297893206:1"
     },
     {
      "title": "Pok\u00e9mon TCG: Storm Emeralda (m6) Booster Box",
-     "url": "https://pixel-hub.co.uk/collections/pokemon"
+     "price": 158.0,
+     "available": true,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-storm-emeralda-m6-booster-box",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://pixel-hub.co.uk/cart/54935607411030:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Team Rocket Tin (Random artwork)",
+     "price": 38.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-team-rocket-tin-random-artwork",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://pixel-hub.co.uk/cart/52077231800662:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Team Rocket's Moltres ex Ultra-Premium Collection",
+     "price": 315.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-team-rockets-moltres-ex-ultra-premium-collection",
+     "over_rrp": true,
+     "rrp": 169.99,
+     "cart": "https://pixel-hub.co.uk/cart/52431330869590:1"
+    },
+    {
+     "title": "Pok\u00e9mon Trading Card Game (TGC): Mega Evolution Delta Reign Elite Trainer Box (Pre-Order)",
+     "price": 175.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-trading-card-game-tgc-mega-evolution-delta-reign-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://pixel-hub.co.uk/cart/55711586779478:1"
+    },
+    {
+     "title": "Pok\u00e9mon first partner illustration collection",
+     "price": 111.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-first-partner-illustration-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://pixel-hub.co.uk/cart/53261512573270:1"
+    },
+    {
+     "title": "Scarlet & Violet 8.5 - Prismatic Evolutions - Elite Trainer Box",
+     "price": 252.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/scarlet-violet-8-5-prismatic-evolutions-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://pixel-hub.co.uk/cart/49810947080534:1"
+    },
+    {
+     "title": "Scarlet & Violet-Black Bolt Pok\u00e9mon Center Elite Trainer Box",
+     "price": 174.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/scarlet-violet-black-bolt-pokemon-center-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 56.99,
+     "cart": "https://pixel-hub.co.uk/cart/50385619943766:1"
+    },
+    {
+     "title": "Scarlet & Violet-Destined Rivals Booster Bundle (6 Packs)",
+     "price": 81.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/scarlet-violet-destined-rivals-booster-bundle-6-packs",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://pixel-hub.co.uk/cart/50539566956886:1"
+    },
+    {
+     "title": "Scarlet & Violet\u2014Journey Together Half Booster Display (18 Booster Packs)",
+     "price": 145.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-journey-together-half-booster-display",
+     "over_rrp": false,
+     "rrp": 155.0,
+     "cart": "https://pixel-hub.co.uk/cart/49812620673366:1"
+    },
+    {
+     "title": "Scarlet & Violet\u2014White Flare Pok\u00e9mon Center Elite Trainer Box",
+     "price": 237.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/scarlet-violet-white-flare-pokemon-center-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 56.99,
+     "cart": "https://pixel-hub.co.uk/cart/50385627644246:1"
+    },
+    {
+     "title": "Scarlet and Violet Temporal Forces Elite Trainer Box Walking Wake POKEMON CENTER",
+     "price": 252.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/scarlet-and-violet-temporal-forces-elite-trainer-box-walking-wake-pokemon-center",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://pixel-hub.co.uk/cart/50450683199830:1"
+    },
+    {
+     "title": "Scarlet and Violet Twilight Masquerade Elite Trainer Box POKEMON CENTER",
+     "price": 205.0,
+     "available": false,
+     "url": "https://pixel-hub.co.uk/products/scarlet-and-violet-twilight-masquerade-elite-trainer-box-pokemon-center",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
    "uptime": 1.0
@@ -2270,7 +3199,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.922
+   "uptime": 0.9236
   },
   {
    "name": "Card Cavern",
@@ -3943,7 +4872,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9878
+   "uptime": 0.988
   },
   {
    "name": "Evolvault",
@@ -4250,7 +5179,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9541
+   "uptime": 0.955
   },
   {
    "name": "Hobby Addicts",
@@ -5430,7 +6359,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9904
+   "uptime": 0.9906
   },
   {
    "name": "Hoodlums UK",
@@ -5773,7 +6702,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9804
+   "uptime": 0.9808
   },
   {
    "name": "The TCG Shop",
@@ -8307,7 +9236,7 @@
      "cart": "https://www.japan2uk.com/cart/63985005068665:1"
     }
    ],
-   "uptime": 0.9886
+   "uptime": 0.9888
   },
   {
    "name": "Asmodee UK",
@@ -8563,6 +9492,30 @@
   }
  ],
  "alerts": [
+  {
+   "time": "2026-11-03T16:36:22+00:00",
+   "site": "Pixel Hub",
+   "text": "NEW: Pok\u00e9mon TCG: Storm Emeralda (m6) Booster Box \u00a3158.00 (over RRP)",
+   "url": "https://pixel-hub.co.uk/cart/54935607411030:1"
+  },
+  {
+   "time": "2026-11-03T16:36:22+00:00",
+   "site": "Pixel Hub",
+   "text": "NEW: Pok\u00e9mon TCG: Mega Evolution Pitch Black - Booster Box Display CDU \u00a3362.00 (over RRP)",
+   "url": "https://pixel-hub.co.uk/cart/54125464093014:1"
+  },
+  {
+   "time": "2026-11-03T16:36:22+00:00",
+   "site": "Pixel Hub",
+   "text": "NEW: Pok\u00e9mon TCG: Mega Evolution Chaos Rising - Booster Box Display CDU (36) \u00a3315.00 (over RRP)",
+   "url": "https://pixel-hub.co.uk/cart/53661978919254:1"
+  },
+  {
+   "time": "2026-11-03T16:36:22+00:00",
+   "site": "Pixel Hub",
+   "text": "NEW: Pok\u00e9mon TCG: Mega Greninja ex Premium Collection \u00a378.00",
+   "url": "https://pixel-hub.co.uk/cart/54430704992598:1"
+  },
   {
    "time": "2026-11-03T16:31:22+00:00",
    "site": "Hokey Poke Games",
@@ -9466,5 +10419,6 @@
   {
    "name": "Phantasmal Flames Booster Box"
   }
- ]
+ ],
+ "discord_feed": []
 }
