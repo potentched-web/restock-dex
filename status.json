@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T12:54:41+00:00",
+ "updated": "2026-11-04T12:59:41+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -117,7 +117,7 @@
      "cart": "https://www.doublesleeved.co.uk/cart/65002043113849:1"
     }
    ],
-   "uptime": 0.982
+   "uptime": 0.9824
   },
   {
    "name": "Magic Madhouse",
@@ -217,7 +217,7 @@
      "cart": "https://www.totalcards.net/cart/59010459959677:1"
     }
    ],
-   "uptime": 0.9768
+   "uptime": 0.9773
   },
   {
    "name": "Firestorm Games",
@@ -235,7 +235,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9962
+   "uptime": 0.9963
   },
   {
    "name": "Zatu Games",
@@ -333,9 +333,18 @@
      "over_rrp": true,
      "rrp": 49.99,
      "cart": "https://zatu.com/cart/56047249097082:1"
+    },
+    {
+     "title": "Pokemon TCG: Scarlet & Violet - Prismatic Evolutions - Elite Trainer Box",
+     "price": 189.99,
+     "available": true,
+     "url": "https://zatu.com/products/pokemon-tcg-scarlet-violet-prismatic-evolution-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://zatu.com/cart/56047391179130:1"
     }
    ],
-   "uptime": 0.9744
+   "uptime": 0.9749
   },
   {
    "name": "Hokey Poke Games",
@@ -363,7 +372,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54477444776283:1"
     }
    ],
-   "uptime": 0.9728
+   "uptime": 0.9733
   },
   {
    "name": "Collectors Edge",
@@ -463,7 +472,7 @@
      "cart": "https://collectorsedge.co.uk/cart/55096695783763:1"
     }
    ],
-   "uptime": 0.9779
+   "uptime": 0.9783
   },
   {
    "name": "The Dice Dungeon",
@@ -950,7 +959,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9787
+   "uptime": 0.9791
   },
   {
    "name": "Packrat",
@@ -1223,7 +1232,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.9712
+   "uptime": 0.9718
   },
   {
    "name": "TCG Paradise",
@@ -1773,7 +1782,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9621
+   "uptime": 0.9629
   },
   {
    "name": "TCGora",
@@ -2161,7 +2170,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.9775
+   "uptime": 0.9779
   },
   {
    "name": "Pixel Hub",
@@ -2990,7 +2999,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.9699
+   "uptime": 0.9705
   },
   {
    "name": "Poke Collect",
@@ -3072,7 +3081,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9676
+   "uptime": 0.9682
   },
   {
    "name": "Card Cavern",
@@ -3204,7 +3213,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.9695
+   "uptime": 0.9701
   },
   {
    "name": "The Card Vault",
@@ -3358,7 +3367,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.9747
+   "uptime": 0.9752
   },
   {
    "name": "Iconic TCG",
@@ -4745,7 +4754,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.983
+   "uptime": 0.9833
   },
   {
    "name": "Evolvault",
@@ -5052,7 +5061,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9783
+   "uptime": 0.9787
   },
   {
    "name": "Hobby Addicts",
@@ -6232,7 +6241,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9815
+   "uptime": 0.9819
   },
   {
    "name": "Hoodlums UK",
@@ -6575,7 +6584,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9804
+   "uptime": 0.9808
   },
   {
    "name": "The TCG Shop",
@@ -6846,7 +6855,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.9839
+   "uptime": 0.9842
   },
   {
    "name": "120HP",
@@ -7549,7 +7558,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.9684
+   "uptime": 0.969
   },
   {
    "name": "JET Cards",
@@ -7613,7 +7622,7 @@
      "cart": "https://jetcards.uk/cart/58903348871549:1"
     }
    ],
-   "uptime": 0.9698
+   "uptime": 0.9704
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -7686,7 +7695,7 @@
      "cart": "https://www.bbstcg.co.uk/cart/57169842471290:1"
     }
    ],
-   "uptime": 0.9812
+   "uptime": 0.9816
   },
   {
    "name": "Monster Card Corner",
@@ -8929,7 +8938,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.9738
+   "uptime": 0.9743
   },
   {
    "name": "Mystic Games",
@@ -9109,7 +9118,7 @@
      "cart": "https://www.japan2uk.com/cart/63985005068665:1"
     }
    ],
-   "uptime": 0.9787
+   "uptime": 0.9791
   },
   {
    "name": "Asmodee UK",
@@ -9365,6 +9374,12 @@
   }
  ],
  "alerts": [
+  {
+   "time": "2026-11-04T12:59:41+00:00",
+   "site": "Zatu Games",
+   "text": "NEW: Pokemon TCG: Scarlet & Violet - Prismatic Evolutions - Elite Trainer Box \u00a3189.99 (over RRP)",
+   "url": "https://zatu.com/cart/56047391179130:1"
+  },
   {
    "time": "2026-11-04T12:44:41+00:00",
    "site": "Zatu Games",
@@ -9958,12 +9973,6 @@
    "site": "Double Sleeved",
    "text": "New pre-order spotted: Pokemon TCG: Delta Reign - Booster Box (PRE-ORDER)",
    "url": "https://www.doublesleeved.co.uk/products/pokemon-tcg-delta-reign-booster-box"
-  },
-  {
-   "time": "2026-11-03T16:00:57+00:00",
-   "site": "JET Cards",
-   "text": "New pre-order spotted: Pokemon - Mega Evolution - Delta Reign - Booster Box (36 Boosters) (Preorder)",
-   "url": "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-booster-box-36-boosters"
   }
  ],
  "wishlist": [
