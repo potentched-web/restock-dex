@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T22:43:35+00:00",
+ "updated": "2026-11-04T22:48:35+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -227,7 +227,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9837
+   "uptime": 0.984
   },
   {
    "name": "Zatu Games",
@@ -427,7 +427,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54477444776283:1"
     }
    ],
-   "uptime": 0.9974
+   "uptime": 0.9975
   },
   {
    "name": "Collectors Edge",
@@ -1287,7 +1287,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.9971
+   "uptime": 0.9972
   },
   {
    "name": "TCG Paradise",
@@ -1837,7 +1837,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9957
+   "uptime": 0.9958
   },
   {
    "name": "TCGora",
@@ -3054,7 +3054,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.9969
+   "uptime": 0.997
   },
   {
    "name": "Poke Collect",
@@ -3136,7 +3136,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9965
+   "uptime": 0.9966
   },
   {
    "name": "Card Cavern",
@@ -3268,7 +3268,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.9968
+   "uptime": 0.9969
   },
   {
    "name": "The Card Vault",
@@ -7613,7 +7613,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.9966
+   "uptime": 0.9967
   },
   {
    "name": "JET Cards",
@@ -7677,7 +7677,7 @@
      "cart": "https://jetcards.uk/cart/58903348871549:1"
     }
    ],
-   "uptime": 0.9969
+   "uptime": 0.997
   },
   {
    "name": "Berry Brand Supply TCG",
