@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T09:11:33+00:00",
+ "updated": "2026-11-04T09:16:33+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -113,7 +113,7 @@
      "cart": "https://www.doublesleeved.co.uk/cart/65002043113849:1"
     }
    ],
-   "uptime": 0.9597
+   "uptime": 0.9605
   },
   {
    "name": "Magic Madhouse",
@@ -191,7 +191,7 @@
      "cart": "https://www.totalcards.net/cart/59010459959677:1"
     }
    ],
-   "uptime": 0.9479
+   "uptime": 0.9489
   },
   {
    "name": "Firestorm Games",
@@ -209,7 +209,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9918
+   "uptime": 0.992
   },
   {
    "name": "Zatu Games",
@@ -291,7 +291,7 @@
      "cart": "https://zatu.com/cart/56783225094522:1"
     }
    ],
-   "uptime": 0.9425
+   "uptime": 0.9436
   },
   {
    "name": "Hokey Poke Games",
@@ -328,7 +328,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54477444776283:1"
     }
    ],
-   "uptime": 0.9387
+   "uptime": 0.9399
   },
   {
    "name": "Collectors Edge",
@@ -428,7 +428,7 @@
      "cart": "https://collectorsedge.co.uk/cart/55096695783763:1"
     }
    ],
-   "uptime": 0.9502
+   "uptime": 0.9512
   },
   {
    "name": "The Dice Dungeon",
@@ -915,7 +915,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9523
+   "uptime": 0.9533
   },
   {
    "name": "Packrat",
@@ -1188,7 +1188,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.9353
+   "uptime": 0.9366
   },
   {
    "name": "TCG Paradise",
@@ -1738,395 +1738,93 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.915
+   "uptime": 0.9167
   },
   {
    "name": "TCGora",
    "url": "https://tcgora.com/",
    "skip": null,
    "error": null,
-   "mode": "shopify",
+   "mode": "page",
    "items": [
     {
-     "title": "Mega Evolution \u2014 Ascended Heroes Pok\u00e9mon Center Elite Trainer Box",
-     "price": 69.0,
-     "available": false,
-     "url": "https://tcgora.com/products/xy-mega-evolution-ascended-heroes-pokemon-center-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 56.99,
-     "cart": "https://tcgora.com/cart/56551599636804:1"
-    },
-    {
      "title": "Mega Evolution \u2014 Perfect Order Pok\u00e9mon Center Elite Trainer Box",
-     "price": 69.0,
-     "available": false,
-     "url": "https://tcgora.com/products/xy-mega-evolution-perfect-order-pokemon-center-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 56.99,
-     "cart": "https://tcgora.com/cart/56551603831108:1"
+     "url": "https://tcgora.com/"
     },
     {
-     "title": "Mega Evolution \u2014 Phantasmal Flames Pok\u00e9mon Center Elite Trainer Box",
-     "price": 69.0,
-     "available": false,
-     "url": "https://tcgora.com/products/xy-mega-evolution-phantasmal-flames-pokemon-center-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 56.99,
-     "cart": "https://tcgora.com/cart/56551583875396:1"
+     "title": "Mega Evolution \u2014 Pitch Black Booster Box (Pre-Order)",
+     "url": "https://tcgora.com/"
     },
     {
-     "title": "Mega Evolution \u2014 Pok\u00e9mon Center Elite Trainer Box \u2014 Mega Gardevoir",
-     "price": 69.0,
-     "available": false,
-     "url": "https://tcgora.com/products/xy-mega-evolution-pokemon-center-elite-trainer-box-mega-gardevoir",
-     "over_rrp": true,
-     "rrp": 56.99,
-     "cart": "https://tcgora.com/cart/56551438188868:1"
+     "title": "Mega Evolution \u2014 Pitch Black Booster Box (Pre-Order) - https://tcgora.com/products/mega-evolution-pitch-black-booster-box-pre-order",
+     "url": "https://tcgora.com/"
     },
     {
-     "title": "Mega Evolution \u2014 Pok\u00e9mon Center Elite Trainer Box \u2014 Mega Lucario",
-     "price": 69.0,
-     "available": false,
-     "url": "https://tcgora.com/products/xy-mega-evolution-pokemon-center-elite-trainer-box-mega-lucario",
-     "over_rrp": true,
-     "rrp": 56.99,
-     "cart": "https://tcgora.com/cart/56551491404100:1"
+     "title": "Mega Evolution\u2014Pitch Black Booster Box",
+     "url": "https://tcgora.com/"
+    },
+    {
+     "title": "Mega Evolution\u2014Pitch Black Booster Bundle (Pre-Order)",
+     "url": "https://tcgora.com/"
+    },
+    {
+     "title": "Mega Evolution\u2014Pitch Black Build & Battle Bundle (Pre-Order)",
+     "url": "https://tcgora.com/"
+    },
+    {
+     "title": "Mega Evolution\u2014Pitch Black Elite Trainer Box (Pre-Order)",
+     "url": "https://tcgora.com/"
     },
     {
      "title": "Mega Evolution\u2014Pitch Black Pok\u00e9mon Center Elite Trainer Box (Pre-Order)",
-     "price": 99.0,
-     "available": true,
-     "url": "https://tcgora.com/products/mega-evolution-pitch-black-pokemon-center-elite-trainer-box-pre-order",
-     "over_rrp": true,
-     "rrp": 56.99,
-     "cart": "https://tcgora.com/cart/56752372220228:1"
+     "url": "https://tcgora.com/"
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Booster Bundle (Pre-Order)",
-     "price": 79.9,
-     "available": true,
-     "url": "https://tcgora.com/products/pokemon-tcg-30th-celebration-booster-bundle-pre-order",
-     "over_rrp": true,
-     "rrp": 24.99,
-     "cart": "https://tcgora.com/cart/56909429637444:1"
+     "url": "https://tcgora.com/"
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Ditto Premium Collection (Pre-Order)",
-     "price": 99.9,
-     "available": true,
-     "url": "https://tcgora.com/products/pokemon-tcg-30th-celebration-ditto-premium-collection-pre-order",
-     "over_rrp": true,
-     "rrp": 39.99,
-     "cart": "https://tcgora.com/cart/56909432029508:1"
-    },
-    {
-     "title": "Pok\u00e9mon TCG: 30th Celebration Eevee 2-Pack Blister (Pre-Order)",
-     "price": 29.9,
-     "available": false,
-     "url": "https://tcgora.com/products/pokemon-tcg-30th-celebration-eevee-2-pack-blister-pre-order",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://tcgora.com/cart/56909420298564:1"
+     "url": "https://tcgora.com/"
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Elite Trainer Box (Pre-Order)",
-     "price": 129.9,
-     "available": true,
-     "url": "https://tcgora.com/products/pokemon-tcg-30th-celebration-elite-trainer-box-pre-order",
-     "over_rrp": true,
-     "rrp": 49.99,
-     "cart": "https://tcgora.com/cart/56909438648644:1"
+     "url": "https://tcgora.com/"
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Figure Collection\u2014Mew (Pre-Order)",
-     "price": 59.9,
-     "available": true,
-     "url": "https://tcgora.com/products/pokemon-tcg-30th-celebration-figure-collection-mew-pre-order",
-     "over_rrp": true,
-     "rrp": 29.99,
-     "cart": "https://tcgora.com/cart/56909443858756:1"
+     "url": "https://tcgora.com/"
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Figure Collection\u2014Mewtwo (Pre-Order)",
-     "price": 59.9,
-     "available": false,
-     "url": "https://tcgora.com/products/pokemon-tcg-30th-celebration-figure-collection-mewtwo-pre-order",
-     "over_rrp": true,
-     "rrp": 29.99,
-     "cart": "https://tcgora.com/cart/56909441728836:1"
-    },
-    {
-     "title": "Pok\u00e9mon TCG: 30th Celebration Knock Out Collection (Pre-Order)",
-     "price": 24.9,
-     "available": false,
-     "url": "https://tcgora.com/products/pokemon-tcg-30th-celebration-knock-out-collection-pre-order",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://tcgora.com/cart/56909445038404:1"
+     "url": "https://tcgora.com/"
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Mini Tin (Pre-Order)",
-     "price": 29.9,
-     "available": false,
-     "url": "https://tcgora.com/products/pokemon-tcg-30th-celebration-mini-tin-pre-order",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://tcgora.com/cart/56909445660996:1"
-    },
-    {
-     "title": "Pok\u00e9mon TCG: 30th Celebration Poster Collection (Pre-Order)",
-     "price": 59.9,
-     "available": false,
-     "url": "https://tcgora.com/products/pokemon-tcg-30th-celebration-poster-collection-pre-order",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://tcgora.com/cart/56909452804420:1"
-    },
-    {
-     "title": "Pok\u00e9mon TCG: 30th Celebration Tech Sticker Collection\u2014Alolan Exeggutor (Pre-Order)",
-     "price": 39.9,
-     "available": false,
-     "url": "https://tcgora.com/products/pokemon-tcg-30th-celebration-tech-sticker-collection-alolan-exeggutor-pre-order",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://tcgora.com/cart/56909460635972:1"
-    },
-    {
-     "title": "Pok\u00e9mon TCG: 30th Celebration Tech Sticker Collection\u2014Lucario (Pre-Order)",
-     "price": 39.9,
-     "available": true,
-     "url": "https://tcgora.com/products/pokemon-tcg-30th-celebration-tech-sticker-collection-lucario-pre-order",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://tcgora.com/cart/56909459161412:1"
+     "url": "https://tcgora.com/"
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Ultra-Premium Collection\u2014Day Edition (Pre-Order)",
-     "price": 399.9,
-     "available": false,
-     "url": "https://tcgora.com/products/pokemon-tcg-30th-celebration-ultra-premium-collection-day-edition-pre-order",
-     "over_rrp": true,
-     "rrp": 169.99,
-     "cart": "https://tcgora.com/cart/56909468401988:1"
+     "url": "https://tcgora.com/"
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Ultra-Premium Collection\u2014Night Edition (Pre-Order)",
-     "price": 399.9,
-     "available": true,
-     "url": "https://tcgora.com/products/pokemon-tcg-30th-celebration-ultra-premium-collection-night-edition-pre-order",
-     "over_rrp": true,
-     "rrp": 169.99,
-     "cart": "https://tcgora.com/cart/56909466239300:1"
-    },
-    {
-     "title": "Pok\u00e9mon TCG: Galar Pals \u2014 Grookey Mini Tin",
-     "price": 29.0,
-     "available": false,
-     "url": "https://tcgora.com/products/pokemon-tcg-galar-pals-grookey-mini-tin",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://tcgora.com/cart/56544454279492:1"
+     "url": "https://tcgora.com/"
     },
     {
      "title": "Pok\u00e9mon TCG: Mega Evolution\u2014Delta Reign Booster Box (36 Packs) (Pre-Order)",
-     "price": 199.9,
-     "available": true,
-     "url": "https://tcgora.com/products/pokemon-tcg-mega-evolution-delta-reign-booster-box-36-packs-pre-order",
-     "over_rrp": true,
-     "rrp": 155.0,
-     "cart": "https://tcgora.com/cart/56890857685316:1"
+     "url": "https://tcgora.com/"
     },
     {
      "title": "Pok\u00e9mon TCG: Mega Evolution\u2014Delta Reign Elite Trainer Box (Pre-Order)",
-     "price": 99.9,
-     "available": true,
-     "url": "https://tcgora.com/products/pokemon-tcg-mega-evolution-delta-reign-elite-trainer-box-pre-order",
-     "over_rrp": true,
-     "rrp": 49.99,
-     "cart": "https://tcgora.com/cart/56890826621252:1"
-    },
-    {
-     "title": "Scarlet & Violet \u2014 Pok\u00e9mon Center Elite Trainer Box \u2014 Koraidon",
-     "price": 69.0,
-     "available": false,
-     "url": "https://tcgora.com/products/scarlet-violet-pokemon-center-elite-trainer-box-koraidon",
-     "over_rrp": true,
-     "rrp": 56.99,
-     "cart": "https://tcgora.com/cart/56549837996356:1"
-    },
-    {
-     "title": "Scarlet & Violet \u2014 Pok\u00e9mon Center Elite Trainer Box \u2014 Miraidon",
-     "price": 69.0,
-     "available": false,
-     "url": "https://tcgora.com/products/scarlet-violet-pokemon-center-elite-trainer-box-miraidon",
-     "over_rrp": true,
-     "rrp": 56.99,
-     "cart": "https://tcgora.com/cart/56549824463172:1"
-    },
-    {
-     "title": "Scarlet & Violet: Black Bolt \u2014 Pok\u00e9mon Center Elite Trainer Box",
-     "price": 69.0,
-     "available": false,
-     "url": "https://tcgora.com/products/scarlet-violet-black-bolt-pokemon-center-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 56.99,
-     "cart": "https://tcgora.com/cart/56551472300356:1"
-    },
-    {
-     "title": "Scarlet & Violet: Destined Rivals \u2014 Pok\u00e9mon Center Elite Trainer Box",
-     "price": 69.0,
-     "available": false,
-     "url": "https://tcgora.com/products/scarlet-violet-destined-rivals-pokemon-center-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 56.99,
-     "cart": "https://tcgora.com/cart/56551493697860:1"
-    },
-    {
-     "title": "Scarlet & Violet: Journey Together \u2014 Pok\u00e9mon Center Elite Trainer Box",
-     "price": 69.0,
-     "available": false,
-     "url": "https://tcgora.com/products/scarlet-violet-journey-together-pokemon-center-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 56.99,
-     "cart": "https://tcgora.com/cart/56549841436996:1"
-    },
-    {
-     "title": "Scarlet & Violet: Obsidian Flames \u2014 Pok\u00e9mon Center Elite Trainer Box",
-     "price": 69.0,
-     "available": false,
-     "url": "https://tcgora.com/products/scarlet-violet-obsidian-flames-pokemon-center-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 56.99,
-     "cart": "https://tcgora.com/cart/56551467811140:1"
-    },
-    {
-     "title": "Scarlet & Violet: Paldea Evolved \u2014 Pok\u00e9mon Center Elite Trainer Box",
-     "price": 69.0,
-     "available": false,
-     "url": "https://tcgora.com/products/scarlet-violet-paldea-evolved-pokemon-center-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 56.99,
-     "cart": "https://tcgora.com/cart/56549831901508:1"
-    },
-    {
-     "title": "Scarlet & Violet: Paldean Fates \u2014 Pok\u00e9mon Center Elite Trainer Box",
-     "price": 69.0,
-     "available": false,
-     "url": "https://tcgora.com/products/scarlet-violet-paldean-fates-pokemon-center-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 56.99,
-     "cart": "https://tcgora.com/cart/56551485866308:1"
-    },
-    {
-     "title": "Scarlet & Violet: Shrouded Fable \u2014 Pok\u00e9mon Center Elite Trainer Box",
-     "price": 69.0,
-     "available": false,
-     "url": "https://tcgora.com/products/scarlet-violet-shrouded-fable-pokemon-center-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 56.99,
-     "cart": "https://tcgora.com/cart/56549833867588:1"
-    },
-    {
-     "title": "Scarlet & Violet: Stellar Crown \u2014 Pok\u00e9mon Center Elite Trainer Box",
-     "price": 69.0,
-     "available": false,
-     "url": "https://tcgora.com/products/scarlet-violet-stellar-crown-pokemon-center-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 56.99,
-     "cart": "https://tcgora.com/cart/56549836390724:1"
-    },
-    {
-     "title": "Scarlet & Violet: Surging Sparks \u2014 Pok\u00e9mon Center Elite Trainer Box",
-     "price": 69.0,
-     "available": false,
-     "url": "https://tcgora.com/products/scarlet-violet-surging-sparks-pokemon-center-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 56.99,
-     "cart": "https://tcgora.com/cart/56551480426820:1"
-    },
-    {
-     "title": "Scarlet & Violet: Temporal Forces \u2014 Pok\u00e9mon Center Elite Trainer Box \u2014 Iron Leaves",
-     "price": 69.0,
-     "available": false,
-     "url": "https://tcgora.com/products/scarlet-violet-temporal-forces-pokemon-center-elite-trainer-box-iron-leaves",
-     "over_rrp": true,
-     "rrp": 56.99,
-     "cart": "https://tcgora.com/cart/56549831409988:1"
-    },
-    {
-     "title": "Scarlet & Violet: Temporal Forces \u2014 Pok\u00e9mon Center Elite Trainer Box \u2014 Walking Wake",
-     "price": 69.0,
-     "available": false,
-     "url": "https://tcgora.com/products/scarlet-violet-temporal-forces-pokemon-center-elite-trainer-box-walking-wake",
-     "over_rrp": true,
-     "rrp": 56.99,
-     "cart": "https://tcgora.com/cart/56549814960452:1"
+     "url": "https://tcgora.com/"
     },
     {
      "title": "Scarlet & Violet: Twilight Masquerade \u2014 Pok\u00e9mon Center Elite Trainer Box",
-     "price": 69.0,
-     "available": false,
-     "url": "https://tcgora.com/products/scarlet-violet-twilight-masquerade-pokemon-center-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 56.99,
-     "cart": "https://tcgora.com/cart/56549820301636:1"
-    },
-    {
-     "title": "Scarlet & Violet: White Flare \u2014 Pok\u00e9mon Center Elite Trainer Box",
-     "price": 69.0,
-     "available": false,
-     "url": "https://tcgora.com/products/scarlet-violet-white-flare-pokemon-center-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 56.99,
-     "cart": "https://tcgora.com/cart/56551446741316:1"
-    },
-    {
-     "title": "Sword & Shield: Astral Radiance \u2014 Pok\u00e9mon Center Elite Trainer Box",
-     "price": 69.0,
-     "available": false,
-     "url": "https://tcgora.com/products/sword-shield-astral-radiance-pokemon-center-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 56.99,
-     "cart": "https://tcgora.com/cart/56549830000964:1"
-    },
-    {
-     "title": "Sword & Shield: Brilliant Stars \u2014 Pok\u00e9mon Center Elite Trainer Box",
-     "price": 69.0,
-     "available": false,
-     "url": "https://tcgora.com/products/sword-shield-brilliant-stars-pokemon-center-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 56.99,
-     "cart": "https://tcgora.com/cart/56549827739972:1"
-    },
-    {
-     "title": "Sword & Shield: Crown Zenith \u2014 Pok\u00e9mon Center Elite Trainer Box Plus",
-     "price": 69.0,
-     "available": false,
-     "url": "https://tcgora.com/products/sword-shield-crown-zenith-pokemon-center-elite-trainer-box-plus",
-     "over_rrp": true,
-     "rrp": 56.99,
-     "cart": "https://tcgora.com/cart/56551452344644:1"
-    },
-    {
-     "title": "Sword & Shield: Fusion Strike \u2014 Pok\u00e9mon Center Elite Trainer Box",
-     "price": 69.0,
-     "available": false,
-     "url": "https://tcgora.com/products/sword-shield-fusion-strike-pokemon-center-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 56.99,
-     "cart": "https://tcgora.com/cart/56549839307076:1"
-    },
-    {
-     "title": "Sword & Shield: Silver Tempest \u2014 Pok\u00e9mon Center Elite Trainer Box",
-     "price": 69.0,
-     "available": false,
-     "url": "https://tcgora.com/products/sword-shield-silver-tempest-pokemon-center-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 56.99,
-     "cart": "https://tcgora.com/cart/56549826199876:1"
+     "url": "https://tcgora.com/"
     }
    ],
-   "uptime": 0.9493
+   "uptime": 0.9503
   },
   {
    "name": "Pixel Hub",
@@ -2955,7 +2653,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.9325
+   "uptime": 0.9338
   },
   {
    "name": "Poke Collect",
@@ -3037,7 +2735,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9272
+   "uptime": 0.9287
   },
   {
    "name": "Card Cavern",
@@ -3169,7 +2867,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.9317
+   "uptime": 0.9331
   },
   {
    "name": "The Card Vault",
@@ -3323,7 +3021,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.9434
+   "uptime": 0.9445
   },
   {
    "name": "Iconic TCG",
@@ -4710,7 +4408,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9616
+   "uptime": 0.9624
   },
   {
    "name": "Evolvault",
@@ -5017,7 +4715,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9514
+   "uptime": 0.9524
   },
   {
    "name": "Hobby Addicts",
@@ -6197,7 +5895,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9584
+   "uptime": 0.9592
   },
   {
    "name": "Hoodlums UK",
@@ -6540,7 +6238,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9562
+   "uptime": 0.9571
   },
   {
    "name": "The TCG Shop",
@@ -6811,7 +6509,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.964
+   "uptime": 0.9647
   },
   {
    "name": "120HP",
@@ -7514,7 +7212,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.9291
+   "uptime": 0.9305
   },
   {
    "name": "JET Cards",
@@ -7578,7 +7276,7 @@
      "cart": "https://jetcards.uk/cart/58903348871549:1"
     }
    ],
-   "uptime": 0.9321
+   "uptime": 0.9335
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -7651,7 +7349,7 @@
      "cart": "https://www.bbstcg.co.uk/cart/57169842471290:1"
     }
    ],
-   "uptime": 0.958
+   "uptime": 0.9588
   },
   {
    "name": "Monster Card Corner",
@@ -8894,7 +8592,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.9411
+   "uptime": 0.9423
   },
   {
    "name": "Mystic Games",
@@ -9074,7 +8772,7 @@
      "cart": "https://www.japan2uk.com/cart/63985005068665:1"
     }
    ],
-   "uptime": 0.9523
+   "uptime": 0.9533
   },
   {
    "name": "Asmodee UK",
@@ -9330,6 +9028,42 @@
   }
  ],
  "alerts": [
+  {
+   "time": "2026-11-04T09:16:33+00:00",
+   "site": "TCGora",
+   "text": "New on page: Mega Evolution \u2014 Perfect Order Pok\u00e9mon Center Elite Trainer Box",
+   "url": "https://tcgora.com/"
+  },
+  {
+   "time": "2026-11-04T09:16:33+00:00",
+   "site": "TCGora",
+   "text": "New on page: Mega Evolution \u2014 Pitch Black Booster Box (Pre-Order)",
+   "url": "https://tcgora.com/"
+  },
+  {
+   "time": "2026-11-04T09:16:33+00:00",
+   "site": "TCGora",
+   "text": "New on page: Mega Evolution \u2014 Pitch Black Booster Box (Pre-Order) - https://tcgora.com/products/mega-evolution-pitch-black-booster-box-pre-order",
+   "url": "https://tcgora.com/"
+  },
+  {
+   "time": "2026-11-04T09:16:33+00:00",
+   "site": "TCGora",
+   "text": "New on page: Mega Evolution\u2014Pitch Black Booster Box",
+   "url": "https://tcgora.com/"
+  },
+  {
+   "time": "2026-11-04T09:16:33+00:00",
+   "site": "TCGora",
+   "text": "New on page: Mega Evolution\u2014Pitch Black Booster Bundle (Pre-Order)",
+   "url": "https://tcgora.com/"
+  },
+  {
+   "time": "2026-11-04T09:16:33+00:00",
+   "site": "TCGora",
+   "text": "...and 14 more",
+   "url": "https://tcgora.com/"
+  },
   {
    "time": "2026-11-04T04:13:19+00:00",
    "site": "Card Cavern",
@@ -9893,42 +9627,6 @@
    "site": "Hoodlums UK",
    "text": "NEW: Pok\u00e9mon Center Chaos Rising Elite Trainer Box \u00a3206.00 (over RRP)",
    "url": "https://hoodlumsuk.com/cart/57086168531209:1"
-  },
-  {
-   "time": "2026-11-03T14:43:52+00:00",
-   "site": "Hoodlums UK",
-   "text": "NEW: Pok\u00e9mon TCG Ascended Heroes First Partners Deluxe Pin Collection \u00a3124.00",
-   "url": "https://hoodlumsuk.com/cart/57023455265033:1"
-  },
-  {
-   "time": "2026-11-03T14:43:52+00:00",
-   "site": "Hoodlums UK",
-   "text": "NEW: Pok\u00e9mon TCG Perfect Order Booster Bundle (6 Packs) \u00a3103.00 (over RRP)",
-   "url": "https://hoodlumsuk.com/cart/56928628343049:1"
-  },
-  {
-   "time": "2026-11-03T14:31:07+00:00",
-   "site": "Hoodlums UK",
-   "text": "New on page: Pok\u00e9mon Center Ascended Heroes Elite Trainer Box",
-   "url": "https://hoodlumsuk.com/collections/pokemon"
-  },
-  {
-   "time": "2026-11-03T14:31:07+00:00",
-   "site": "Hoodlums UK",
-   "text": "New on page: Pok\u00e9mon TCG 30Th Celebration Booster Bundle",
-   "url": "https://hoodlumsuk.com/collections/pokemon"
-  },
-  {
-   "time": "2026-11-03T14:31:07+00:00",
-   "site": "Hoodlums UK",
-   "text": "New on page: Pok\u00e9mon TCG 30th Celebration Elite Trainer Box",
-   "url": "https://hoodlumsuk.com/collections/pokemon"
-  },
-  {
-   "time": "2026-11-03T14:31:07+00:00",
-   "site": "Hoodlums UK",
-   "text": "New on page: Pok\u00e9mon TCG Ascended Heroes Booster Bundle (6 Packs)",
-   "url": "https://hoodlumsuk.com/collections/pokemon"
   }
  ],
  "wishlist": [
