@@ -633,9 +633,7 @@
   "mode": "shopify"
  },
  "Card Cavern": {
-  "lines": [
-   "Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)"
-  ],
+  "lines": [],
   "mode": "page"
  },
  "CardDeckr": {
@@ -5917,6 +5915,12 @@
     1.63,
     false,
     "https://www.totalcards.net/products/pokemon-mega-evolution-pitch-black-elite-trainer-box-empty"
+   ],
+   "59038026301821": [
+    "Pokemon - Mega Evolution - Pitch Black - Elite Trainer Box - Dice",
+    0.79,
+    true,
+    "https://www.totalcards.net/products/pokemon-mega-evolution-pitch-black-elite-trainer-box-dice"
    ]
   },
   "mode": "shopify"
@@ -6075,35 +6079,35 @@
  "_ping_fixed": "2026-11-03T18:16:58+00:00",
  "_reminded": [],
  "_uptime": {
-  "120HP": 0.9455,
-  "Berry Brand Supply TCG": 0.9677,
+  "120HP": 0.9466,
+  "Berry Brand Supply TCG": 0.9683,
   "Card Cavern": 1.0,
   "CardDeckr": 1.0,
   "Chaos Cards": 1.0,
-  "Collectors Edge": 0.9617,
-  "Dice Cup Cafe": 0.9475,
-  "Double Sleeved": 0.969,
-  "Evolvault": 0.9627,
-  "Firestorm Games": 0.9935,
-  "Hobby Addicts": 0.9681,
-  "Hokey Poke Games": 0.9529,
-  "Hoodlums UK": 0.9663,
-  "Iconic TCG": 0.9705,
-  "JET Cards": 0.9479,
-  "Japan2UK": 0.9633,
+  "Collectors Edge": 0.9625,
+  "Dice Cup Cafe": 0.9486,
+  "Double Sleeved": 0.9696,
+  "Evolvault": 0.9634,
+  "Firestorm Games": 0.9936,
+  "Hobby Addicts": 0.9687,
+  "Hokey Poke Games": 0.9538,
+  "Hoodlums UK": 0.967,
+  "Iconic TCG": 0.9711,
+  "JET Cards": 0.9489,
+  "Japan2UK": 0.964,
   "Magic Madhouse": 1.0,
-  "Monster Card Corner": 0.9547,
+  "Monster Card Corner": 0.9556,
   "Mystic Games": 1.0,
   "Packrat": 1.0,
-  "Pixel Hub": 0.948,
-  "Poke Collect": 0.944,
-  "TCG Paradise": 0.9346,
-  "TCGora": 0.961,
-  "The Card Vault": 0.9564,
-  "The Dice Dungeon": 0.9633,
-  "The TCG Shop": 0.9724,
-  "Titan Cards": 0.9502,
-  "Total Cards": 0.9599,
-  "Zatu Games": 0.9557
+  "Pixel Hub": 0.949,
+  "Poke Collect": 0.9451,
+  "TCG Paradise": 0.9359,
+  "TCGora": 0.9618,
+  "The Card Vault": 0.9573,
+  "The Dice Dungeon": 0.964,
+  "The TCG Shop": 0.973,
+  "Titan Cards": 0.9512,
+  "Total Cards": 0.9607,
+  "Zatu Games": 0.9566
  }
 }

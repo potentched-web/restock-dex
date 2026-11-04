@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T10:22:11+00:00",
+ "updated": "2026-11-04T10:43:51+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -113,7 +113,7 @@
      "cart": "https://www.doublesleeved.co.uk/cart/65002043113849:1"
     }
    ],
-   "uptime": 0.969
+   "uptime": 0.9696
   },
   {
    "name": "Magic Madhouse",
@@ -182,6 +182,15 @@
      "cart": "https://www.totalcards.net/cart/59037919674749:1"
     },
     {
+     "title": "Pokemon - Mega Evolution - Pitch Black - Elite Trainer Box - Dice",
+     "price": 0.79,
+     "available": true,
+     "url": "https://www.totalcards.net/products/pokemon-mega-evolution-pitch-black-elite-trainer-box-dice",
+     "over_rrp": false,
+     "rrp": 49.99,
+     "cart": "https://www.totalcards.net/cart/59038026301821:1"
+    },
+    {
      "title": "Pokemon - Mega Evolution - Pitch Black - Pokemon Center Elite Trainer Box",
      "price": 66.63,
      "available": false,
@@ -200,7 +209,7 @@
      "cart": "https://www.totalcards.net/cart/59010459959677:1"
     }
    ],
-   "uptime": 0.9599
+   "uptime": 0.9607
   },
   {
    "name": "Firestorm Games",
@@ -218,7 +227,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9935
+   "uptime": 0.9936
   },
   {
    "name": "Zatu Games",
@@ -300,7 +309,7 @@
      "cart": "https://zatu.com/cart/56783225094522:1"
     }
    ],
-   "uptime": 0.9557
+   "uptime": 0.9566
   },
   {
    "name": "Hokey Poke Games",
@@ -337,7 +346,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54477444776283:1"
     }
    ],
-   "uptime": 0.9529
+   "uptime": 0.9538
   },
   {
    "name": "Collectors Edge",
@@ -437,7 +446,7 @@
      "cart": "https://collectorsedge.co.uk/cart/55096695783763:1"
     }
    ],
-   "uptime": 0.9617
+   "uptime": 0.9625
   },
   {
    "name": "The Dice Dungeon",
@@ -924,7 +933,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9633
+   "uptime": 0.964
   },
   {
    "name": "Packrat",
@@ -1197,7 +1206,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.9502
+   "uptime": 0.9512
   },
   {
    "name": "TCG Paradise",
@@ -1747,7 +1756,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9346
+   "uptime": 0.9359
   },
   {
    "name": "TCGora",
@@ -2135,7 +2144,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.961
+   "uptime": 0.9618
   },
   {
    "name": "Pixel Hub",
@@ -2964,7 +2973,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.948
+   "uptime": 0.949
   },
   {
    "name": "Poke Collect",
@@ -3046,7 +3055,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.944
+   "uptime": 0.9451
   },
   {
    "name": "Card Cavern",
@@ -3054,12 +3063,7 @@
    "skip": null,
    "error": null,
    "mode": "page",
-   "items": [
-    {
-     "title": "Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
-     "url": "https://cardcavern.co.uk/"
-    }
-   ],
+   "items": [],
    "uptime": 1.0
   },
   {
@@ -3178,7 +3182,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.9475
+   "uptime": 0.9486
   },
   {
    "name": "The Card Vault",
@@ -3332,7 +3336,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.9564
+   "uptime": 0.9573
   },
   {
    "name": "Iconic TCG",
@@ -4719,7 +4723,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9705
+   "uptime": 0.9711
   },
   {
    "name": "Evolvault",
@@ -5026,7 +5030,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9627
+   "uptime": 0.9634
   },
   {
    "name": "Hobby Addicts",
@@ -6206,7 +6210,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9681
+   "uptime": 0.9687
   },
   {
    "name": "Hoodlums UK",
@@ -6549,7 +6553,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9663
+   "uptime": 0.967
   },
   {
    "name": "The TCG Shop",
@@ -6820,7 +6824,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.9724
+   "uptime": 0.973
   },
   {
    "name": "120HP",
@@ -7523,7 +7527,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.9455
+   "uptime": 0.9466
   },
   {
    "name": "JET Cards",
@@ -7587,7 +7591,7 @@
      "cart": "https://jetcards.uk/cart/58903348871549:1"
     }
    ],
-   "uptime": 0.9479
+   "uptime": 0.9489
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -7660,7 +7664,7 @@
      "cart": "https://www.bbstcg.co.uk/cart/57169842471290:1"
     }
    ],
-   "uptime": 0.9677
+   "uptime": 0.9683
   },
   {
    "name": "Monster Card Corner",
@@ -8903,7 +8907,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.9547
+   "uptime": 0.9556
   },
   {
    "name": "Mystic Games",
@@ -9083,7 +9087,7 @@
      "cart": "https://www.japan2uk.com/cart/63985005068665:1"
     }
    ],
-   "uptime": 0.9633
+   "uptime": 0.964
   },
   {
    "name": "Asmodee UK",
@@ -9339,6 +9343,12 @@
   }
  ],
  "alerts": [
+  {
+   "time": "2026-11-04T10:43:51+00:00",
+   "site": "Total Cards",
+   "text": "NEW: Pokemon - Mega Evolution - Pitch Black - Elite Trainer Box - Dice \u00a30.79",
+   "url": "https://www.totalcards.net/cart/59038026301821:1"
+  },
   {
    "time": "2026-11-04T09:21:33+00:00",
    "site": "TCGora",
@@ -9932,12 +9942,6 @@
    "site": "Hoodlums UK",
    "text": "NEW: Pok\u00e9mon TCG Prismatic Evolutions Super-Premium Collection \u00a3384.00",
    "url": "https://hoodlumsuk.com/cart/56007068123401:1"
-  },
-  {
-   "time": "2026-11-03T14:43:52+00:00",
-   "site": "Hoodlums UK",
-   "text": "NEW: Pok\u00e9mon TCG Black Bolt Elite Trainer Box \u00a3261.00 (over RRP)",
-   "url": "https://hoodlumsuk.com/cart/55920133177609:1"
   }
  ],
  "wishlist": [
