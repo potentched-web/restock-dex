@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T13:09:42+00:00",
+ "updated": "2026-11-04T13:33:07+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -117,7 +117,7 @@
      "cart": "https://www.doublesleeved.co.uk/cart/65002043113849:1"
     }
    ],
-   "uptime": 0.9831
+   "uptime": 0.9834
   },
   {
    "name": "Magic Madhouse",
@@ -217,7 +217,7 @@
      "cart": "https://www.totalcards.net/cart/59010459959677:1"
     }
    ],
-   "uptime": 0.9782
+   "uptime": 0.9786
   },
   {
    "name": "Firestorm Games",
@@ -235,7 +235,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9965
+   "uptime": 0.9966
   },
   {
    "name": "Zatu Games",
@@ -342,9 +342,36 @@
      "over_rrp": true,
      "rrp": 49.99,
      "cart": "https://zatu.com/cart/56047391179130:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Mega Evolution Pitch Black - Booster Box",
+     "price": 169.99,
+     "available": true,
+     "url": "https://zatu.com/products/pokemon-tcg-mega-evolution-pitch-black-booster-box",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://zatu.com/cart/56945081942394:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Mega Evolution Pitch Black - Booster Bundle",
+     "price": 39.99,
+     "available": true,
+     "url": "https://zatu.com/products/pokemon-tcg-mega-evolution-pitch-black-booster-bundle",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://zatu.com/cart/56945082040698:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Mega Evolution Pitch Black - Elite Trainer Box",
+     "price": 79.99,
+     "available": true,
+     "url": "https://zatu.com/products/pokemon-tcg-mega-evolution-pitch-black-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://zatu.com/cart/56945082827130:1"
     }
    ],
-   "uptime": 0.9759
+   "uptime": 0.9764
   },
   {
    "name": "Hokey Poke Games",
@@ -372,7 +399,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54477444776283:1"
     }
    ],
-   "uptime": 0.9743
+   "uptime": 0.9748
   },
   {
    "name": "Collectors Edge",
@@ -472,7 +499,7 @@
      "cart": "https://collectorsedge.co.uk/cart/55096695783763:1"
     }
    ],
-   "uptime": 0.9791
+   "uptime": 0.9795
   },
   {
    "name": "The Dice Dungeon",
@@ -959,7 +986,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9799
+   "uptime": 0.9803
   },
   {
    "name": "Packrat",
@@ -1232,7 +1259,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.973
+   "uptime": 0.9735
   },
   {
    "name": "TCG Paradise",
@@ -1782,7 +1809,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9643
+   "uptime": 0.965
   },
   {
    "name": "TCGora",
@@ -2170,7 +2197,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.9787
+   "uptime": 0.9791
   },
   {
    "name": "Pixel Hub",
@@ -2999,7 +3026,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.9717
+   "uptime": 0.9723
   },
   {
    "name": "Poke Collect",
@@ -3081,7 +3108,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9694
+   "uptime": 0.97
   },
   {
    "name": "Card Cavern",
@@ -3213,7 +3240,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.9713
+   "uptime": 0.9719
   },
   {
    "name": "The Card Vault",
@@ -3367,7 +3394,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.9762
+   "uptime": 0.9767
   },
   {
    "name": "Iconic TCG",
@@ -4754,7 +4781,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9839
+   "uptime": 0.9842
   },
   {
    "name": "Evolvault",
@@ -5061,7 +5088,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9795
+   "uptime": 0.9799
   },
   {
    "name": "Hobby Addicts",
@@ -6241,7 +6268,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9827
+   "uptime": 0.983
   },
   {
    "name": "Hoodlums UK",
@@ -6584,7 +6611,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9816
+   "uptime": 0.982
   },
   {
    "name": "The TCG Shop",
@@ -6855,7 +6882,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.9848
+   "uptime": 0.9851
   },
   {
    "name": "120HP",
@@ -7558,7 +7585,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.9702
+   "uptime": 0.9708
   },
   {
    "name": "JET Cards",
@@ -7622,7 +7649,7 @@
      "cart": "https://jetcards.uk/cart/58903348871549:1"
     }
    ],
-   "uptime": 0.9716
+   "uptime": 0.9722
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -7695,7 +7722,7 @@
      "cart": "https://www.bbstcg.co.uk/cart/57169842471290:1"
     }
    ],
-   "uptime": 0.9824
+   "uptime": 0.9828
   },
   {
    "name": "Monster Card Corner",
@@ -8938,7 +8965,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.9753
+   "uptime": 0.9758
   },
   {
    "name": "Mystic Games",
@@ -9118,7 +9145,7 @@
      "cart": "https://www.japan2uk.com/cart/63985005068665:1"
     }
    ],
-   "uptime": 0.9799
+   "uptime": 0.9803
   },
   {
    "name": "Asmodee UK",
@@ -9374,6 +9401,24 @@
   }
  ],
  "alerts": [
+  {
+   "time": "2026-11-04T13:33:07+00:00",
+   "site": "Zatu Games",
+   "text": "NEW: Pok\u00e9mon TCG: Mega Evolution Pitch Black - Booster Bundle \u00a339.99 (over RRP)",
+   "url": "https://zatu.com/cart/56945082040698:1"
+  },
+  {
+   "time": "2026-11-04T13:33:07+00:00",
+   "site": "Zatu Games",
+   "text": "NEW: Pok\u00e9mon TCG: Mega Evolution Pitch Black - Booster Box \u00a3169.99 (over RRP)",
+   "url": "https://zatu.com/cart/56945081942394:1"
+  },
+  {
+   "time": "2026-11-04T13:33:07+00:00",
+   "site": "Zatu Games",
+   "text": "NEW: Pok\u00e9mon TCG: Mega Evolution Pitch Black - Elite Trainer Box \u00a379.99 (over RRP)",
+   "url": "https://zatu.com/cart/56945082827130:1"
+  },
   {
    "time": "2026-11-04T12:59:41+00:00",
    "site": "Zatu Games",
@@ -9955,24 +10000,6 @@
    "site": "Japan2UK",
    "text": "NEW: Pokemon Cosmic Eclipse English Booster Box \u00a33499.99 (over RRP)",
    "url": "https://www.japan2uk.com/cart/63985005035897:1"
-  },
-  {
-   "time": "2026-11-03T16:31:22+00:00",
-   "site": "Japan2UK",
-   "text": "NEW: Pokemon Celestial Storm English Elite Trainer Box \u00a31899.99 (over RRP)",
-   "url": "https://www.japan2uk.com/cart/64025017057657:1"
-  },
-  {
-   "time": "2026-11-03T16:26:23+00:00",
-   "site": "Japan2UK",
-   "text": "NEW: Pokemon Unified Minds English Booster Box \u00a32999.99 (over RRP)",
-   "url": "https://www.japan2uk.com/cart/63985005068665:1"
-  },
-  {
-   "time": "2026-11-03T16:00:57+00:00",
-   "site": "Double Sleeved",
-   "text": "New pre-order spotted: Pokemon TCG: Delta Reign - Booster Box (PRE-ORDER)",
-   "url": "https://www.doublesleeved.co.uk/products/pokemon-tcg-delta-reign-booster-box"
   }
  ],
  "wishlist": [
