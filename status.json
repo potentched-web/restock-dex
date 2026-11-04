@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T17:39:26+00:00",
+ "updated": "2026-11-04T17:44:25+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -117,7 +117,7 @@
      "cart": "https://www.doublesleeved.co.uk/cart/65002043113849:1"
     }
    ],
-   "uptime": 0.9932
+   "uptime": 0.9933
   },
   {
    "name": "Magic Madhouse",
@@ -217,7 +217,7 @@
      "cart": "https://www.totalcards.net/cart/59010459959677:1"
     }
    ],
-   "uptime": 0.9913
+   "uptime": 0.9915
   },
   {
    "name": "Firestorm Games",
@@ -371,7 +371,7 @@
      "cart": "https://zatu.com/cart/56945082827130:1"
     }
    ],
-   "uptime": 0.9904
+   "uptime": 0.9906
   },
   {
    "name": "Hokey Poke Games",
@@ -435,7 +435,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54477444776283:1"
     }
    ],
-   "uptime": 0.9897
+   "uptime": 0.9899
   },
   {
    "name": "Collectors Edge",
@@ -535,7 +535,7 @@
      "cart": "https://collectorsedge.co.uk/cart/55096695783763:1"
     }
    ],
-   "uptime": 0.9918
+   "uptime": 0.992
   },
   {
    "name": "The Dice Dungeon",
@@ -1022,7 +1022,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9922
+   "uptime": 0.9924
   },
   {
    "name": "Packrat",
@@ -1295,7 +1295,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.9892
+   "uptime": 0.9894
   },
   {
    "name": "TCG Paradise",
@@ -1845,7 +1845,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9858
+   "uptime": 0.9861
   },
   {
    "name": "TCGora",
@@ -2233,7 +2233,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.9916
+   "uptime": 0.9918
   },
   {
    "name": "Pixel Hub",
@@ -3062,7 +3062,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.9888
+   "uptime": 0.989
   },
   {
    "name": "Poke Collect",
@@ -3144,7 +3144,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.988
+   "uptime": 0.9882
   },
   {
    "name": "Card Cavern",
@@ -3276,7 +3276,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.9886
+   "uptime": 0.9888
   },
   {
    "name": "The Card Vault",
@@ -3430,7 +3430,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.9905
+   "uptime": 0.9907
   },
   {
    "name": "Iconic TCG",
@@ -4817,7 +4817,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9935
+   "uptime": 0.9936
   },
   {
    "name": "Evolvault",
@@ -5124,133 +5124,1187 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.992
+   "uptime": 0.9922
   },
   {
    "name": "Hobby Addicts",
    "url": "https://www.hobby-addicts.com/collections/pokemon-tcg",
    "skip": null,
    "error": null,
-   "mode": "page",
+   "mode": "shopify",
    "items": [
     {
      "title": "Evoretro: Pok\u00e9mon Elite Trainer Box Acrylic Protector",
-     "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
+     "price": 27.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/evoretro-pokemon-elite-trainer-box-acrylic-protector",
+     "over_rrp": false,
+     "rrp": 49.99,
+     "cart": "https://www.hobby-addicts.com/cart/51977509994803:1"
     },
     {
-     "title": "Our collection of Pokemon TCG is broken up into the following categories:",
-     "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
+     "title": "Pokemon: 151 Alakazam ex Collection",
+     "price": 39.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-151-alakazam-ex-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/45431018029363:1"
     },
     {
-     "title": "Pokemon booster packs are essential for any Pokemon TCG player or collector. Booster packs offer the excitement of potentially discovering powerful an",
-     "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
+     "title": "Pokemon: 151 Booster Bundle",
+     "price": 79.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-151-booster-bundle",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://www.hobby-addicts.com/cart/45431066362163:1"
     },
     {
-     "title": "Pokemon tins are a great way to get a variety of packs from different sets. Most tins come with assorted booster packs, offering you plenty of variety",
-     "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
+     "title": "Pokemon: 151 Poster Collection",
+     "price": 26.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-151-poster-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/45431055843635:1"
+    },
+    {
+     "title": "Pokemon: 151 Ultra-Premium Collection",
+     "price": 234.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-151-ultra-premium-collection",
+     "over_rrp": true,
+     "rrp": 169.99,
+     "cart": "https://www.hobby-addicts.com/cart/45430988800307:1"
     },
     {
      "title": "Pokemon: 2025 Pok\u00e9 Ball Tin",
-     "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
+     "price": 21.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-2025-poke-ball-tin",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/52809226649907:1"
+    },
+    {
+     "title": "Pokemon: Arceus VSTAR Ultra-Premium Collection",
+     "price": 149.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-arceus-vstar-ultra-premium-collection",
+     "over_rrp": false,
+     "rrp": 169.99,
+     "cart": "https://www.hobby-addicts.com/cart/51318614688051:1"
     },
     {
      "title": "Pokemon: Ascended Heroes Booster Bundle",
-     "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
+     "price": 59.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-ascended-heroes-booster-bundle",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://www.hobby-addicts.com/cart/53108653785395:1"
     },
     {
      "title": "Pokemon: Ascended Heroes Mini Tin",
-     "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
+     "price": 17.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-ascended-heroes-mini-tin",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/53067929616691:1"
+    },
+    {
+     "title": "Pokemon: Astral Radiance Build & Battle Box",
+     "price": 25.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-astral-radiance-build-battle-box",
+     "over_rrp": true,
+     "rrp": 19.99,
+     "cart": "https://www.hobby-addicts.com/cart/44388898963763:1"
+    },
+    {
+     "title": "Pokemon: Burning Shadows Elite Trainer Box",
+     "price": 169.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-burning-shadows-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://www.hobby-addicts.com/cart/51317230895411:1"
     },
     {
      "title": "Pokemon: Chaos Rising Booster Box",
-     "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
+     "price": 179.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-chaos-rising-booster-box",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://www.hobby-addicts.com/cart/53363835732275:1"
+    },
+    {
+     "title": "Pokemon: Charizard Ultra Premium Collection",
+     "price": 174.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-charizard-ultra-premium-collection",
+     "over_rrp": true,
+     "rrp": 169.99,
+     "cart": "https://www.hobby-addicts.com/cart/40372138377401:1"
+    },
+    {
+     "title": "Pokemon: Chilling Reign Booster Box",
+     "price": 409.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-chilling-reign-booster-box",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://www.hobby-addicts.com/cart/39847901790393:1"
+    },
+    {
+     "title": "Pokemon: Chilling Reign Build & Battle Box",
+     "price": 33.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-chilling-reign-build-battle-box",
+     "over_rrp": true,
+     "rrp": 19.99,
+     "cart": "https://www.hobby-addicts.com/cart/39848627306681:1"
+    },
+    {
+     "title": "Pokemon: Cosmic Eclipse Elite Trainer Box",
+     "price": 499.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-cosmic-eclipse-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://www.hobby-addicts.com/cart/51317223194931:1"
     },
     {
      "title": "Pokemon: Cynthia's Garchomp ex Premium Collection",
-     "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
+     "price": 44.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-cynthias-garchomp-ex-premium-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/51670568894771:1"
+    },
+    {
+     "title": "Pokemon: Darkness Ablaze Booster Box",
+     "price": 209.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-darkness-ablaze-booster-box",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://www.hobby-addicts.com/cart/39332547526841:1"
+    },
+    {
+     "title": "Pokemon: Darkness Ablaze Elite Trainer Box",
+     "price": 69.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-darkness-ablaze-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://www.hobby-addicts.com/cart/42090943479993:1"
     },
     {
      "title": "Pokemon: Deck Crafter's Collection (Meowth)",
-     "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
+     "price": 9.99,
+     "available": true,
+     "url": "https://www.hobby-addicts.com/products/pokemon-deck-crafters-collection-meowth",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/67791988850995:1"
+    },
+    {
+     "title": "Pokemon: Destined Rivals 3-Pack Blister",
+     "price": 24.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-destined-rivals-3-pack-blister",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/51381328052531:1"
+    },
+    {
+     "title": "Pokemon: Destined Rivals Booster Bundle",
+     "price": 59.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-destined-rivals-booster-bundle",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://www.hobby-addicts.com/cart/51590185877811:1"
     },
     {
      "title": "Pokemon: Destined Rivals Build & Battle",
-     "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
+     "price": 39.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-destined-rivals-build-battle",
+     "over_rrp": true,
+     "rrp": 19.99,
+     "cart": "https://www.hobby-addicts.com/cart/51675562541363:1"
+    },
+    {
+     "title": "Pokemon: Destined Rivals Checklane Blister Pack (Assorted)",
+     "price": 10.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-destined-rivals-checklane-blister-pack-assorted",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/51381316354355:1"
+    },
+    {
+     "title": "Pokemon: Dialga/Palkia VSTAR Premium Collection (Dialga)",
+     "price": 39.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-dialga-palkia-vstar-premium-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/42868725514425:1"
+    },
+    {
+     "title": "Pokemon: Dialga/Palkia VSTAR Premium Collection (Palkia)",
+     "price": 39.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-dialga-palkia-vstar-premium-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/42868725481657:1"
+    },
+    {
+     "title": "Pokemon: Evolving Skies Booster Box",
+     "price": 1799.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-evolving-skies-booster-box",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://www.hobby-addicts.com/cart/40372077953209:1"
+    },
+    {
+     "title": "Pokemon: Fusion Strike 3-Pack Blister",
+     "price": 34.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-fusion-strike-3-pack-blister",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/51318567305523:1"
+    },
+    {
+     "title": "Pokemon: Fusion Strike Booster Box",
+     "price": 789.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-fusion-strike-booster-box",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://www.hobby-addicts.com/cart/41489093361849:1"
+    },
+    {
+     "title": "Pokemon: Fusion Strike Build & Battle Stadium",
+     "price": 119.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-fusion-strike-build-battle-stadium",
+     "over_rrp": true,
+     "rrp": 19.99,
+     "cart": "https://www.hobby-addicts.com/cart/41613423575225:1"
+    },
+    {
+     "title": "Pokemon: Hidden Fates Elite Trainer Box",
+     "price": 249.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-hidden-fates-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://www.hobby-addicts.com/cart/51317236203827:1"
+    },
+    {
+     "title": "Pokemon: Hidden Fates Great Ball Collection",
+     "price": 299.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-hidden-fates-great-ball-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/38565362794681:1"
+    },
+    {
+     "title": "Pokemon: Hidden Fates Premium Powers Collection",
+     "price": 369.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-hidden-fates-premium-powers-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/50611192103219:1"
+    },
+    {
+     "title": "Pokemon: Hidden Fates Ultra Ball Collection",
+     "price": 299.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-hidden-fates-ultra-ball-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/38598116901049:1"
+    },
+    {
+     "title": "Pokemon: Hidden Fates Ultra-Premium Collection",
+     "price": 899.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-hidden-fates-ultra-premium-collection",
+     "over_rrp": true,
+     "rrp": 169.99,
+     "cart": "https://www.hobby-addicts.com/cart/51317207204147:1"
+    },
+    {
+     "title": "Pokemon: Journey Together 3-Pack Blister",
+     "price": 23.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-journey-together-3-pack-blister",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/50958316994867:1"
+    },
+    {
+     "title": "Pokemon: Journey Together Booster Box",
+     "price": 200.0,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-journey-together-booster-box",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://www.hobby-addicts.com/cart/50957325304115:1"
+    },
+    {
+     "title": "Pokemon: Journey Together Booster Bundle",
+     "price": 39.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-journey-together-booster-bundle",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://www.hobby-addicts.com/cart/50957477413171:1"
+    },
+    {
+     "title": "Pokemon: Journey Together Checklane Blister (1-Pack)",
+     "price": 5.49,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-journey-together-checklane-blister-1-pack",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/50958301266227:1"
+    },
+    {
+     "title": "Pokemon: Kanto Power Mini Tin (Random Art)",
+     "price": 19.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-kanto-power-mini-tin-random-art",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/51473126818099:1"
+    },
+    {
+     "title": "Pokemon: Klara Premium Tournament Collection",
+     "price": 54.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-klara-premium-tournament-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/44699762229555:1"
+    },
+    {
+     "title": "Pokemon: Lillie Premium Tournament Collection",
+     "price": 44.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-lillie-premium-tournament-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/51398987186483:1"
+    },
+    {
+     "title": "Pokemon: Lost Origin Elite Trainer Box",
+     "price": 195.0,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-lost-origin-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://www.hobby-addicts.com/cart/42513646158009:1"
+    },
+    {
+     "title": "Pokemon: Marnie Premium Tournament Collection",
+     "price": 74.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-marnie-premium-tournament-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/44990029398323:1"
     },
     {
      "title": "Pokemon: Mega Charizard X ex Ultra Premium Collection",
-     "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
+     "price": 129.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-mega-charizard-x-ex-ultra-premium-collection",
+     "over_rrp": false,
+     "rrp": 169.99,
+     "cart": "https://www.hobby-addicts.com/cart/52695290216755:1"
     },
     {
      "title": "Pokemon: Mega Evolution Booster Box",
-     "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
+     "price": 249.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-mega-evolution-booster-box",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://www.hobby-addicts.com/cart/52443024097587:1"
     },
     {
      "title": "Pokemon: Mega Evolution Booster Bundle",
-     "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
+     "price": 39.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-mega-evolution-booster-bundle",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://www.hobby-addicts.com/cart/52397343670579:1"
     },
     {
      "title": "Pokemon: Mega Evolution Enhanced Booster Box",
-     "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
+     "price": 259.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-mega-evolution-enhanced-booster-box",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://www.hobby-addicts.com/cart/52397325091123:1"
     },
     {
      "title": "Pokemon: Mega Greninja ex Premium Collection",
-     "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
+     "price": 49.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-mega-greninja-ex-premium-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/53595850768691:1"
     },
     {
      "title": "Pokemon: Mega Venusaur ex Premium Collection",
-     "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
+     "price": 44.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-mega-venusaur-ex-premium-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/52808946319667:1"
     },
     {
      "title": "Pokemon: Mega Zygarde ex Premium Collection",
-     "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
+     "price": 44.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-mega-zygarde-ex-premium-collection-1",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/53368725602611:1"
+    },
+    {
+     "title": "Pokemon: Morpeko V-UNION Special Collection",
+     "price": 14.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-morpeko-v-union-special-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/42139947106489:1"
+    },
+    {
+     "title": "Pokemon: Obsidian Flames Booster Box",
+     "price": 209.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-obsidian-flames-booster-box",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://www.hobby-addicts.com/cart/45226437181747:1"
+    },
+    {
+     "title": "Pokemon: Obsidian Flames Booster Bundle",
+     "price": 21.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-obsidian-flames-booster-bundle",
+     "over_rrp": false,
+     "rrp": 24.99,
+     "cart": "https://www.hobby-addicts.com/cart/45226488987955:1"
+    },
+    {
+     "title": "Pokemon: Obsidian Flames Checklane Blister (Pawmi)",
+     "price": 4.49,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-obsidian-flames-checklane-blister",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/46151247495475:1"
+    },
+    {
+     "title": "Pokemon: Obsidian Flames Checklane Blister (Wooper)",
+     "price": 4.49,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-obsidian-flames-checklane-blister",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/46151247462707:1"
+    },
+    {
+     "title": "Pokemon: Obsidian Flames Elite Trainer Box",
+     "price": 89.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-obsidian-flames-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://www.hobby-addicts.com/cart/45226217734451:1"
+    },
+    {
+     "title": "Pokemon: Paldea Collection (Fuecoco)",
+     "price": 21.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-paldea-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/44275909689651:1"
+    },
+    {
+     "title": "Pokemon: Paldea Collection (Quaxly)",
+     "price": 21.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-paldea-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/44275909656883:1"
+    },
+    {
+     "title": "Pokemon: Paldea Collection (Sprigatito)",
+     "price": 21.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-paldea-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/44275909624115:1"
+    },
+    {
+     "title": "Pokemon: Paldea Evolved Build & Battle Box",
+     "price": 17.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-paldea-evolved-build-battle-box",
+     "over_rrp": false,
+     "rrp": 19.99,
+     "cart": "https://www.hobby-addicts.com/cart/50117248221491:1"
+    },
+    {
+     "title": "Pokemon: Paldea Evolved Elite Trainer Box",
+     "price": 35.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-paldea-evolved-elite-trainer-box",
+     "over_rrp": false,
+     "rrp": 49.99,
+     "cart": "https://www.hobby-addicts.com/cart/44752025190707:1"
+    },
+    {
+     "title": "Pokemon: Paldea Legends Tin (Koraidon ex)",
+     "price": 17.49,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-paldea-legends-tin-1",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/45392642015539:1"
+    },
+    {
+     "title": "Pokemon: Paldea Legends Tin (Miraidon ex)",
+     "price": 17.49,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-paldea-legends-tin-1",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/45392641982771:1"
+    },
+    {
+     "title": "Pokemon: Paldean Fates Tech Sticker Collection (Fidough)",
+     "price": 35.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-paldean-fates-tech-sticker-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/47725377093939:1"
+    },
+    {
+     "title": "Pokemon: Paldean Fates Tech Sticker Collection (Greavard)",
+     "price": 35.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-paldean-fates-tech-sticker-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/47725377126707:1"
+    },
+    {
+     "title": "Pokemon: Paldean Fates Tech Sticker Collection (Maschiff)",
+     "price": 35.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-paldean-fates-tech-sticker-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/47725377159475:1"
+    },
+    {
+     "title": "Pokemon: Paldean Fates Tins (Shiny Charizard ex)",
+     "price": 24.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-paldean-fates-tins",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/48009347924275:1"
+    },
+    {
+     "title": "Pokemon: Paldean Fates Tins (Shiny Great Tusk ex)",
+     "price": 22.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-paldean-fates-tins",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/48009330852147:1"
+    },
+    {
+     "title": "Pokemon: Paldean Fates Tins (Shiny Iron Treads ex)",
+     "price": 22.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-paldean-fates-tins",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/48009347957043:1"
+    },
+    {
+     "title": "Pokemon: Paldean Fates ex Premium Collection (Shiny Meowscarada ex)",
+     "price": 44.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-paldean-fates-ex-premium-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/48009358213427:1"
+    },
+    {
+     "title": "Pokemon: Paldean Fates ex Premium Collection (Shiny Quaquaval ex)",
+     "price": 44.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-paldean-fates-ex-premium-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/48009358278963:1"
+    },
+    {
+     "title": "Pokemon: Paldean Fates ex Premium Collection (Shiny Skeledirge ex)",
+     "price": 44.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-paldean-fates-ex-premium-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/48009358246195:1"
+    },
+    {
+     "title": "Pokemon: Paradox Rift Booster Box",
+     "price": 185.0,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-paradox-rift-booster-box",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://www.hobby-addicts.com/cart/46368157532467:1"
+    },
+    {
+     "title": "Pokemon: Paradox Rift Elite Trainer Box",
+     "price": 64.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-paradox-rift-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://www.hobby-addicts.com/cart/46834014617907:1"
     },
     {
      "title": "Pokemon: Perfect Order Booster Box",
-     "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
+     "price": 169.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-perfect-order-booster-box",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://www.hobby-addicts.com/cart/53108537426227:1"
     },
     {
      "title": "Pokemon: Perfect Order Build & Battle Box",
-     "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
+     "price": 31.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-perfect-order-build-battle-box",
+     "over_rrp": true,
+     "rrp": 19.99,
+     "cart": "https://www.hobby-addicts.com/cart/53108565377331:1"
     },
     {
      "title": "Pokemon: Pitch Black 1-Pack Blister",
-     "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
+     "price": 6.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-pitch-black-1-pack-blister",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/53653386789171:1"
     },
     {
      "title": "Pokemon: Pitch Black 3-Pack Blister",
-     "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
+     "price": 20.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-pitch-black-3-pack-blister",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/53653379154227:1"
     },
     {
      "title": "Pokemon: Pitch Black Booster Box",
-     "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
+     "price": 179.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-pitch-black-booster-box",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://www.hobby-addicts.com/cart/53645858079027:1"
     },
     {
      "title": "Pokemon: Pitch Black Booster Bundle",
-     "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
+     "price": 39.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-pitch-black-booster-bundle",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://www.hobby-addicts.com/cart/53645887832371:1"
     },
     {
      "title": "Pokemon: Pitch Black Elite Trainer Box",
-     "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
+     "price": 67.67,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-pitch-black-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://www.hobby-addicts.com/cart/53645863715123:1"
+    },
+    {
+     "title": "Pokemon: Pok\u00e9mon GO Mini Tins (Assorted)",
+     "price": 10.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-pokemon-go-mini-tins-assorted",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/42777171624121:1"
+    },
+    {
+     "title": "Pokemon: Pok\u00e9mon GO Pin Collection (Bulbasaur)",
+     "price": 19.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-pokemon-go-pin-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/42777185222841:1"
+    },
+    {
+     "title": "Pokemon: Pok\u00e9mon GO Pin Collection (Charmander)",
+     "price": 19.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-pokemon-go-pin-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/42777185190073:1"
+    },
+    {
+     "title": "Pokemon: Pok\u00e9mon GO Pin Collection (Squirtle)",
+     "price": 19.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-pokemon-go-pin-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/42777185255609:1"
+    },
+    {
+     "title": "Pokemon: Prismatic Evolutions 2-Pack Blister",
+     "price": 23.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-prismatic-evolutions-2-pack-blister",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/51307438276915:1"
+    },
+    {
+     "title": "Pokemon: Prismatic Evolutions Poster Collection",
+     "price": 39.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-prismatic-evolutions-poster-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/50581977497907:1"
     },
     {
      "title": "Pokemon: Prismatic Evolutions Premium Figure Collection",
-     "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
+     "price": 89.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-prismatic-evolutions-premium-figure-collection",
+     "over_rrp": true,
+     "rrp": 29.99,
+     "cart": "https://www.hobby-addicts.com/cart/52730669170995:1"
+    },
+    {
+     "title": "Pokemon: Prismatic Evolutions Super-Premium Collection",
+     "price": 294.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-prismatic-evolutions-super-premium-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/51381360263475:1"
+    },
+    {
+     "title": "Pokemon: Prismatic Evolutions Tech Sticker Collection (1-Pack)",
+     "price": 39.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-prismatic-evolutions-tech-sticker-collection-1-pack",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/50581984772403:1"
+    },
+    {
+     "title": "Pokemon: Scarlet & Violet 3-Pack Blister (Arcanine)",
+     "price": 14.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-scarlet-violet-3-pack-blister",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/46337770619187:1"
+    },
+    {
+     "title": "Pokemon: Scarlet & Violet 3-Pack Blister (Dondozo)",
+     "price": 15.49,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-scarlet-violet-3-pack-blister",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/46337792311603:1"
+    },
+    {
+     "title": "Pokemon: Scarlet & Violet Booster Box",
+     "price": 180.0,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-scarlet-violet-booster-box",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://www.hobby-addicts.com/cart/44257819820339:1"
     },
     {
      "title": "Pokemon: Scarlet & Violet Build & Battle Box",
-     "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
+     "price": 26.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-scarlet-violet-build-battle-box",
+     "over_rrp": true,
+     "rrp": 19.99,
+     "cart": "https://www.hobby-addicts.com/cart/51666068275507:1"
+    },
+    {
+     "title": "Pokemon: Scarlet & Violet Build & Battle Box",
+     "price": 24.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-scarlet-violet-build-battle-box-1",
+     "over_rrp": true,
+     "rrp": 19.99,
+     "cart": "https://www.hobby-addicts.com/cart/44835975561523:1"
     },
     {
      "title": "Pokemon: Scarlet & Violet Build & Battle Stadium",
-     "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
+     "price": 99.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-scarlet-violet-build-battle-stadium",
+     "over_rrp": true,
+     "rrp": 19.99,
+     "cart": "https://www.hobby-addicts.com/cart/51661918961971:1"
+    },
+    {
+     "title": "Pokemon: Scarlet & Violet Elite Trainer Box (Scarlet)",
+     "price": 61.0,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-scarlet-violet-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://www.hobby-addicts.com/cart/44258000830771:1"
+    },
+    {
+     "title": "Pokemon: Scarlet & Violet Elite Trainer Box (Violet)",
+     "price": 61.0,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-scarlet-violet-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://www.hobby-addicts.com/cart/44258000863539:1"
+    },
+    {
+     "title": "Pokemon: Shining Fates Premium Collection",
+     "price": 69.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-shining-fates-premium-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/51345790173491:1"
+    },
+    {
+     "title": "Pokemon: Shining Legends Elite Trainer Box",
+     "price": 339.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-shining-legends-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://www.hobby-addicts.com/cart/51318556819763:1"
+    },
+    {
+     "title": "Pokemon: Shining Legends Figure Collection: Shiny Darkrai GX",
+     "price": 199.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-shining-legends-figure-collection-shiny-darkrai-gx",
+     "over_rrp": true,
+     "rrp": 29.99,
+     "cart": "https://www.hobby-addicts.com/cart/51317227782451:1"
+    },
+    {
+     "title": "Pokemon: Shining Legends Premium Powers Collection",
+     "price": 329.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-shining-legends-premium-powers-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/51526839173427:1"
+    },
+    {
+     "title": "Pokemon: Shining Legends Super Premium Collection",
+     "price": 539.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-shining-legends-super-premium-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/51317212414259:1"
+    },
+    {
+     "title": "Pokemon: Shrouded Fable 3-Booster Blister",
+     "price": 9.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-shrouded-fable-3-booster-blister",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/49289330295091:1"
+    },
+    {
+     "title": "Pokemon: Shrouded Fable Booster Bundle",
+     "price": 35.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-shrouded-fable-booster-bundle",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://www.hobby-addicts.com/cart/49289528148275:1"
+    },
+    {
+     "title": "Pokemon: Shrouded Fable Elite Trainer Box",
+     "price": 61.0,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-shrouded-fable-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://www.hobby-addicts.com/cart/49289239036211:1"
+    },
+    {
+     "title": "Pokemon: Shrouded Fable Kingambit Illustration Collection",
+     "price": 21.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-shrouded-fable-kingambit-illustration-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/49289463333171:1"
+    },
+    {
+     "title": "Pokemon: Shrouded Fable Kingdra/Greninja ex Special Illustration Collection (Greninja ex)",
+     "price": 27.49,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-shrouded-fable-kingdra-greninja-ex-special-illustration-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/49289596666163:1"
+    },
+    {
+     "title": "Pokemon: Shrouded Fable Kingdra/Greninja ex Special Illustration Collection (Kingdra ex)",
+     "price": 27.49,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-shrouded-fable-kingdra-greninja-ex-special-illustration-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/49289596698931:1"
+    },
+    {
+     "title": "Pokemon: Shrouded Fable Mini Tins (Assorted)",
+     "price": 8.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-shrouded-fable-mini-tins-assorted",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/49289615114547:1"
+    },
+    {
+     "title": "Pokemon: Silver Tempest Build & Battle Stadium",
+     "price": 39.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-silver-tempest-build-battle-stadium",
+     "over_rrp": true,
+     "rrp": 19.99,
+     "cart": "https://www.hobby-addicts.com/cart/44057402081587:1"
+    },
+    {
+     "title": "Pokemon: Stellar Crown Booster Box",
+     "price": 144.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-stellar-crown-booster-box",
+     "over_rrp": false,
+     "rrp": 155.0,
+     "cart": "https://www.hobby-addicts.com/cart/49819982463283:1"
+    },
+    {
+     "title": "Pokemon: Stellar Crown Booster Bundle",
+     "price": 21.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-stellar-crown-booster-bundle",
+     "over_rrp": false,
+     "rrp": 24.99,
+     "cart": "https://www.hobby-addicts.com/cart/49820102132019:1"
+    },
+    {
+     "title": "Pokemon: Stellar Crown Elite Trainer Box",
+     "price": 38.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-stellar-crown-elite-trainer-box",
+     "over_rrp": false,
+     "rrp": 49.99,
+     "cart": "https://www.hobby-addicts.com/cart/49820012675379:1"
+    },
+    {
+     "title": "Pokemon: Sun & Moon Elite Trainer Box",
+     "price": 99.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-sun-moon-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://www.hobby-addicts.com/cart/51318604857651:1"
+    },
+    {
+     "title": "Pokemon: Surging Sparks Booster Box",
+     "price": 229.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-surging-sparks-booster-box",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://www.hobby-addicts.com/cart/50133272199475:1"
+    },
+    {
+     "title": "Pokemon: Surging Sparks Booster Bundle",
+     "price": 39.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-surging-sparks-booster-bundle",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://www.hobby-addicts.com/cart/50133387084083:1"
+    },
+    {
+     "title": "Pokemon: Surging Sparks Elite Trainer Box",
+     "price": 99.0,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-surging-sparks-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://www.hobby-addicts.com/cart/50133312962867:1"
+    },
+    {
+     "title": "Pokemon: Sword & Shield Elite Trainer Box",
+     "price": 99.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-sword-shield-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://www.hobby-addicts.com/cart/51317233385779:1"
+    },
+    {
+     "title": "Pokemon: Temporal Forces Booster Box",
+     "price": 104.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-temporal-forces-booster-box",
+     "over_rrp": false,
+     "rrp": 155.0,
+     "cart": "https://www.hobby-addicts.com/cart/48126927733043:1"
+    },
+    {
+     "title": "Pokemon: Temporal Forces Elite Trainer Box (Iron Leaves)",
+     "price": 54.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-temporal-forces-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://www.hobby-addicts.com/cart/48127116378419:1"
+    },
+    {
+     "title": "Pokemon: Temporal Forces Elite Trainer Box (Walking Wake)",
+     "price": 54.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-temporal-forces-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://www.hobby-addicts.com/cart/48127116345651:1"
+    },
+    {
+     "title": "Pokemon: Terapagos ex Ultra Premium Collection",
+     "price": 94.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-terapagos-ex-ultra-premium-collection",
+     "over_rrp": false,
+     "rrp": 169.99,
+     "cart": "https://www.hobby-addicts.com/cart/50625822392627:1"
+    },
+    {
+     "title": "Pokemon: Twilight Masquerade Booster Box",
+     "price": 104.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-twilight-masquerade-booster-box",
+     "over_rrp": false,
+     "rrp": 155.0,
+     "cart": "https://www.hobby-addicts.com/cart/48852174143795:1"
+    },
+    {
+     "title": "Pokemon: Twilight Masquerade Booster Bundle",
+     "price": 20.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-twilight-masquerade-booster-bundle",
+     "over_rrp": false,
+     "rrp": 24.99,
+     "cart": "https://www.hobby-addicts.com/cart/48852213989683:1"
+    },
+    {
+     "title": "Pokemon: V Striker Tin (Empoleon V)",
+     "price": 16.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-v-striker-tin",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/40292342268089:1"
+    },
+    {
+     "title": "Pokemon: V Striker Tin (Tyranitar V)",
+     "price": 16.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-v-striker-tin",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/40292342235321:1"
+    },
+    {
+     "title": "Pokemon: Vivid Voltage Booster Box",
+     "price": 199.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-vivid-voltage-booster-box",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://www.hobby-addicts.com/cart/38639541780665:1"
     },
     {
      "title": "Pokemon: White Flare Sticker Collection",
-     "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
+     "price": 24.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-white-flare-sticker-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9931
+   "uptime": 0.9932
   },
   {
    "name": "Hoodlums UK",
@@ -5593,7 +6647,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9928
+   "uptime": 0.9929
   },
   {
    "name": "The TCG Shop",
@@ -5864,7 +6918,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.9938
+   "uptime": 0.9939
   },
   {
    "name": "120HP",
@@ -6567,7 +7621,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.9882
+   "uptime": 0.9884
   },
   {
    "name": "JET Cards",
@@ -6631,7 +7685,7 @@
      "cart": "https://jetcards.uk/cart/58903348871549:1"
     }
    ],
-   "uptime": 0.9887
+   "uptime": 0.9889
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -6704,7 +7758,7 @@
      "cart": "https://www.bbstcg.co.uk/cart/57169842471290:1"
     }
    ],
-   "uptime": 0.993
+   "uptime": 0.9931
   },
   {
    "name": "Monster Card Corner",
@@ -7947,7 +9001,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.9901
+   "uptime": 0.9903
   },
   {
    "name": "Mystic Games",
@@ -8127,7 +9181,7 @@
      "cart": "https://www.japan2uk.com/cart/63985005068665:1"
     }
    ],
-   "uptime": 0.9922
+   "uptime": 0.9924
   },
   {
    "name": "Asmodee UK",
@@ -8383,6 +9437,12 @@
   }
  ],
  "alerts": [
+  {
+   "time": "2026-11-04T17:44:25+00:00",
+   "site": "Hobby Addicts",
+   "text": "NEW: Pokemon: Deck Crafter's Collection (Meowth) \u00a39.99",
+   "url": "https://www.hobby-addicts.com/cart/67791988850995:1"
+  },
   {
    "time": "2026-11-04T17:39:26+00:00",
    "site": "Hobby Addicts",
@@ -8975,12 +10035,6 @@
    "time": "2026-11-03T17:23:54+00:00",
    "site": "TCGora",
    "text": "New pre-order spotted: Pok\u00e9mon TCG: 30th Celebration Ditto Premium Collection (Pre-Order)",
-   "url": "https://tcgora.com/"
-  },
-  {
-   "time": "2026-11-03T17:23:54+00:00",
-   "site": "TCGora",
-   "text": "New pre-order spotted: Pok\u00e9mon TCG: 30th Celebration Elite Trainer Box (Pre-Order)",
    "url": "https://tcgora.com/"
   }
  ],
