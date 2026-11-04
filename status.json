@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T04:09:35+00:00",
+ "updated": "2026-11-04T04:13:19+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -113,7 +113,7 @@
      "cart": "https://www.doublesleeved.co.uk/cart/65002043113849:1"
     }
    ],
-   "uptime": 0.927
+   "uptime": 0.9285
   },
   {
    "name": "Magic Madhouse",
@@ -191,7 +191,7 @@
      "cart": "https://www.totalcards.net/cart/59010459959677:1"
     }
    ],
-   "uptime": 0.9005
+   "uptime": 0.9025
   },
   {
    "name": "Firestorm Games",
@@ -215,7 +215,7 @@
    "name": "Zatu Games",
    "url": "https://zatu.com/collections/trading-card-games-pokemon-tcg",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -291,7 +291,7 @@
      "cart": "https://zatu.com/cart/56783225094522:1"
     }
    ],
-   "uptime": 0.91
+   "uptime": 0.9118
   },
   {
    "name": "Hokey Poke Games",
@@ -328,7 +328,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54477444776283:1"
     }
    ],
-   "uptime": 0.9265
+   "uptime": 0.928
   },
   {
    "name": "Collectors Edge",
@@ -428,7 +428,7 @@
      "cart": "https://collectorsedge.co.uk/cart/55096695783763:1"
     }
    ],
-   "uptime": 0.9396
+   "uptime": 0.9408
   },
   {
    "name": "The Dice Dungeon",
@@ -915,7 +915,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9095
+   "uptime": 0.9113
   },
   {
    "name": "Packrat",
@@ -1188,7 +1188,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.8854
+   "uptime": 0.8877
   },
   {
    "name": "TCG Paradise",
@@ -1738,13 +1738,13 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.8773
+   "uptime": 0.8798
   },
   {
    "name": "TCGora",
    "url": "https://tcgora.com/",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -2126,13 +2126,13 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.9359
+   "uptime": 0.9172
   },
   {
    "name": "Pixel Hub",
    "url": "https://pixel-hub.co.uk/collections/pokemon",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -2955,7 +2955,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.8851
+   "uptime": 0.8874
   },
   {
    "name": "Poke Collect",
@@ -3037,7 +3037,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.8243
+   "uptime": 0.8278
   },
   {
    "name": "Card Cavern",
@@ -3045,7 +3045,12 @@
    "skip": null,
    "error": null,
    "mode": "page",
-   "items": [],
+   "items": [
+    {
+     "title": "Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
+     "url": "https://cardcavern.co.uk/"
+    }
+   ],
    "uptime": 1.0
   },
   {
@@ -3164,13 +3169,13 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.8858
+   "uptime": 0.8881
   },
   {
    "name": "The Card Vault",
    "url": "https://thecardvault.co.uk/collections/pokemon-new-releases",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -3318,7 +3323,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.9404
+   "uptime": 0.9216
   },
   {
    "name": "Iconic TCG",
@@ -4705,7 +4710,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9595
+   "uptime": 0.9603
   },
   {
    "name": "Evolvault",
@@ -5012,13 +5017,13 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9239
+   "uptime": 0.9254
   },
   {
    "name": "Hobby Addicts",
    "url": "https://www.hobby-addicts.com/collections/pokemon-tcg",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -5869,21 +5874,21 @@
     },
     {
      "title": "Pokemon: Scarlet & Violet Build & Battle Box",
-     "price": 26.99,
-     "available": false,
-     "url": "https://www.hobby-addicts.com/products/pokemon-scarlet-violet-build-battle-box",
-     "over_rrp": true,
-     "rrp": 19.99,
-     "cart": "https://www.hobby-addicts.com/cart/51666068275507:1"
-    },
-    {
-     "title": "Pokemon: Scarlet & Violet Build & Battle Box",
      "price": 24.99,
      "available": false,
      "url": "https://www.hobby-addicts.com/products/pokemon-scarlet-violet-build-battle-box-1",
      "over_rrp": true,
      "rrp": 19.99,
      "cart": "https://www.hobby-addicts.com/cart/44835975561523:1"
+    },
+    {
+     "title": "Pokemon: Scarlet & Violet Build & Battle Box",
+     "price": 26.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-scarlet-violet-build-battle-box",
+     "over_rrp": true,
+     "rrp": 19.99,
+     "cart": "https://www.hobby-addicts.com/cart/51666068275507:1"
     },
     {
      "title": "Pokemon: Scarlet & Violet Build & Battle Stadium",
@@ -6192,7 +6197,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9718
+   "uptime": 0.9524
   },
   {
    "name": "Hoodlums UK",
@@ -6535,13 +6540,13 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9291
+   "uptime": 0.9305
   },
   {
    "name": "The TCG Shop",
    "url": "https://www.thetcgshop.co.uk/collections/pokemon",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -6806,7 +6811,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.9146
+   "uptime": 0.9163
   },
   {
    "name": "120HP",
@@ -7509,7 +7514,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.8984
+   "uptime": 0.9004
   },
   {
    "name": "JET Cards",
@@ -7573,7 +7578,7 @@
      "cart": "https://jetcards.uk/cart/58903348871549:1"
     }
    ],
-   "uptime": 0.8795
+   "uptime": 0.8819
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -7646,7 +7651,7 @@
      "cart": "https://www.bbstcg.co.uk/cart/57169842471290:1"
     }
    ],
-   "uptime": 0.9703
+   "uptime": 0.9709
   },
   {
    "name": "Monster Card Corner",
@@ -8889,7 +8894,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.9032
+   "uptime": 0.9051
   },
   {
    "name": "Mystic Games",
@@ -9069,7 +9074,7 @@
      "cart": "https://www.japan2uk.com/cart/63985005068665:1"
     }
    ],
-   "uptime": 0.8808
+   "uptime": 0.8832
   },
   {
    "name": "Asmodee UK",
@@ -9325,6 +9330,12 @@
   }
  ],
  "alerts": [
+  {
+   "time": "2026-11-04T04:13:19+00:00",
+   "site": "Card Cavern",
+   "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
+   "url": "https://cardcavern.co.uk/"
+  },
   {
    "time": "2026-11-04T03:15:46+00:00",
    "site": "Collectors Edge",
@@ -9917,12 +9928,6 @@
    "time": "2026-11-03T14:31:07+00:00",
    "site": "Hoodlums UK",
    "text": "New on page: Pok\u00e9mon TCG Ascended Heroes Booster Bundle (6 Packs)",
-   "url": "https://hoodlumsuk.com/collections/pokemon"
-  },
-  {
-   "time": "2026-11-03T14:31:07+00:00",
-   "site": "Hoodlums UK",
-   "text": "New on page: Pok\u00e9mon TCG Ascended Heroes Elite Trainer Box",
    "url": "https://hoodlumsuk.com/collections/pokemon"
   }
  ],
