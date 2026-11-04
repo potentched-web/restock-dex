@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T03:10:46+00:00",
+ "updated": "2026-11-04T03:15:46+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -113,7 +113,7 @@
      "cart": "https://www.doublesleeved.co.uk/cart/65002043113849:1"
     }
    ],
-   "uptime": 0.9287
+   "uptime": 0.9301
   },
   {
    "name": "Magic Madhouse",
@@ -191,7 +191,7 @@
      "cart": "https://www.totalcards.net/cart/59010459959677:1"
     }
    ],
-   "uptime": 0.9217
+   "uptime": 0.9233
   },
   {
    "name": "Firestorm Games",
@@ -291,7 +291,7 @@
      "cart": "https://zatu.com/cart/56783225094522:1"
     }
    ],
-   "uptime": 0.9108
+   "uptime": 0.9126
   },
   {
    "name": "Hokey Poke Games",
@@ -328,13 +328,13 @@
      "cart": "https://hokeypokegames.co.uk/cart/54477444776283:1"
     }
    ],
-   "uptime": 0.952
+   "uptime": 0.953
   },
   {
    "name": "Collectors Edge",
    "url": "https://collectorsedge.co.uk/collections/pokemon",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -410,6 +410,15 @@
      "cart": "https://collectorsedge.co.uk/cart/50107218559315:1"
     },
     {
+     "title": "Pokemon TCG: Pitch Black - Booster Box (36 Packs)",
+     "price": 174.95,
+     "available": true,
+     "url": "https://collectorsedge.co.uk/products/pokemon-tcg-pitch-black-booster-box",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://collectorsedge.co.uk/cart/53617558159699:1"
+    },
+    {
      "title": "Pokemon TCG: Prismatic Evolutions - Poster Collection",
      "price": 46.5,
      "available": true,
@@ -419,13 +428,13 @@
      "cart": "https://collectorsedge.co.uk/cart/55096695783763:1"
     }
    ],
-   "uptime": 0.9231
+   "uptime": 0.9246
   },
   {
    "name": "The Dice Dungeon",
    "url": "https://thedicedungeon.co.uk/collections/all",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -906,7 +915,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9525
+   "uptime": 0.9535
   },
   {
    "name": "Packrat",
@@ -1179,7 +1188,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.9219
+   "uptime": 0.9235
   },
   {
    "name": "TCG Paradise",
@@ -1729,7 +1738,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.8657
+   "uptime": 0.8684
   },
   {
    "name": "TCGora",
@@ -2117,7 +2126,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.9401
+   "uptime": 0.9413
   },
   {
    "name": "Pixel Hub",
@@ -2946,7 +2955,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.9234
+   "uptime": 0.9249
   },
   {
    "name": "Poke Collect",
@@ -3028,7 +3037,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.8633
+   "uptime": 0.866
   },
   {
    "name": "Card Cavern",
@@ -3155,7 +3164,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.8754
+   "uptime": 0.8779
   },
   {
    "name": "The Card Vault",
@@ -3309,7 +3318,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.9241
+   "uptime": 0.9256
   },
   {
    "name": "Iconic TCG",
@@ -4696,7 +4705,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.973
+   "uptime": 0.9735
   },
   {
    "name": "Evolvault",
@@ -5003,7 +5012,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9029
+   "uptime": 0.9048
   },
   {
    "name": "Hobby Addicts",
@@ -6183,7 +6192,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.964
+   "uptime": 0.9647
   },
   {
    "name": "Hoodlums UK",
@@ -6526,7 +6535,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9518
+   "uptime": 0.9528
   },
   {
    "name": "The TCG Shop",
@@ -6797,13 +6806,13 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.9596
+   "uptime": 0.9604
   },
   {
    "name": "120HP",
    "url": "https://www.120hp.co.uk/collections/sealed-pokemon-trading-card-game-products",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -7500,7 +7509,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.8914
+   "uptime": 0.8936
   },
   {
    "name": "JET Cards",
@@ -7564,7 +7573,7 @@
      "cart": "https://jetcards.uk/cart/58903348871549:1"
     }
    ],
-   "uptime": 0.891
+   "uptime": 0.8932
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -7637,7 +7646,7 @@
      "cart": "https://www.bbstcg.co.uk/cart/57169842471290:1"
     }
    ],
-   "uptime": 0.9831
+   "uptime": 0.9834
   },
   {
    "name": "Monster Card Corner",
@@ -8880,7 +8889,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.9232
+   "uptime": 0.9247
   },
   {
    "name": "Mystic Games",
@@ -9060,7 +9069,7 @@
      "cart": "https://www.japan2uk.com/cart/63985005068665:1"
     }
    ],
-   "uptime": 0.9165
+   "uptime": 0.9182
   },
   {
    "name": "Asmodee UK",
@@ -9316,6 +9325,12 @@
   }
  ],
  "alerts": [
+  {
+   "time": "2026-11-04T03:15:46+00:00",
+   "site": "Collectors Edge",
+   "text": "NEW: Pokemon TCG: Pitch Black - Booster Box (36 Packs) \u00a3174.95 (over RRP)",
+   "url": "https://collectorsedge.co.uk/cart/53617558159699:1"
+  },
   {
    "time": "2026-11-04T02:40:46+00:00",
    "site": "Evolvault",
@@ -9908,12 +9923,6 @@
    "time": "2026-11-03T14:31:07+00:00",
    "site": "Hoodlums UK",
    "text": "New on page: Pok\u00e9mon TCG Ascended Heroes Elite Trainer Box",
-   "url": "https://hoodlumsuk.com/collections/pokemon"
-  },
-  {
-   "time": "2026-11-03T14:31:07+00:00",
-   "site": "Hoodlums UK",
-   "text": "...and 15 more",
    "url": "https://hoodlumsuk.com/collections/pokemon"
   }
  ],
