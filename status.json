@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T13:58:07+00:00",
+ "updated": "2026-11-04T14:03:07+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -117,7 +117,7 @@
      "cart": "https://www.doublesleeved.co.uk/cart/65002043113849:1"
     }
    ],
-   "uptime": 0.9849
+   "uptime": 0.9852
   },
   {
    "name": "Magic Madhouse",
@@ -217,7 +217,7 @@
      "cart": "https://www.totalcards.net/cart/59010459959677:1"
     }
    ],
-   "uptime": 0.9806
+   "uptime": 0.981
   },
   {
    "name": "Firestorm Games",
@@ -235,7 +235,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9971
+   "uptime": 0.9972
   },
   {
    "name": "Zatu Games",
@@ -371,7 +371,7 @@
      "cart": "https://zatu.com/cart/56945082827130:1"
     }
    ],
-   "uptime": 0.9787
+   "uptime": 0.9791
   },
   {
    "name": "Hokey Poke Games",
@@ -399,7 +399,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54477444776283:1"
     }
    ],
-   "uptime": 0.9773
+   "uptime": 0.9778
   },
   {
    "name": "Collectors Edge",
@@ -499,7 +499,7 @@
      "cart": "https://collectorsedge.co.uk/cart/55096695783763:1"
     }
    ],
-   "uptime": 0.9815
+   "uptime": 0.9819
   },
   {
    "name": "The Dice Dungeon",
@@ -986,7 +986,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9823
+   "uptime": 0.9827
   },
   {
    "name": "Packrat",
@@ -1259,7 +1259,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.976
+   "uptime": 0.9765
   },
   {
    "name": "TCG Paradise",
@@ -1809,7 +1809,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9684
+   "uptime": 0.969
   },
   {
    "name": "TCGora",
@@ -2197,7 +2197,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.9811
+   "uptime": 0.9815
   },
   {
    "name": "Pixel Hub",
@@ -3026,7 +3026,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.9749
+   "uptime": 0.9754
   },
   {
    "name": "Poke Collect",
@@ -3108,7 +3108,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.973
+   "uptime": 0.9735
   },
   {
    "name": "Card Cavern",
@@ -3240,161 +3240,133 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.9746
+   "uptime": 0.9751
   },
   {
    "name": "The Card Vault",
    "url": "https://thecardvault.co.uk/collections/pokemon-new-releases",
    "skip": null,
    "error": null,
-   "mode": "shopify",
+   "mode": "page",
    "items": [
     {
      "title": "Pokemon TCG - Mega Evolution - Ascended Heroes - Elite Trainer Box",
-     "price": 49.95,
-     "available": false,
-     "url": "https://thecardvault.co.uk/products/pokemon-tcg-mega-evolution-ascended-heroes-elite-trainer-box",
-     "over_rrp": false,
-     "rrp": 49.99,
-     "cart": "https://thecardvault.co.uk/cart/47231107596526:1"
+     "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
     },
     {
      "title": "Pokemon TCG - Mega Evolution - Base Set - Booster Box (36x Packs)",
-     "price": 154.25,
-     "available": false,
-     "url": "https://thecardvault.co.uk/products/pokemon-tcg-mega-evolution-base-set-booster-box-display-36-packs",
-     "over_rrp": false,
-     "rrp": 155.0,
-     "cart": "https://thecardvault.co.uk/cart/46674194956526:1"
+     "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
     },
     {
      "title": "Pokemon TCG - Mega Evolution - Perfect Order - Booster Box (36x Packs)",
-     "price": 154.25,
-     "available": false,
-     "url": "https://thecardvault.co.uk/products/pokemon-tcg-mega-evolution-perfect-order-booster-box-36x-packs",
-     "over_rrp": false,
-     "rrp": 155.0,
-     "cart": "https://thecardvault.co.uk/cart/47493389123822:1"
+     "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
     },
     {
      "title": "Pokemon TCG - Mega Evolution - Perfect Order - Elite Trainer Box",
-     "price": 49.95,
-     "available": false,
-     "url": "https://thecardvault.co.uk/products/pokemon-tcg-mega-evolution-perfect-order-elite-trainer-box",
-     "over_rrp": false,
-     "rrp": 49.99,
-     "cart": "https://thecardvault.co.uk/cart/47493426446574:1"
+     "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
     },
     {
      "title": "Pokemon TCG - Mega Evolution - Ultra-Premium Collection - Mega Charizard X",
-     "price": 180.0,
-     "available": false,
-     "url": "https://thecardvault.co.uk/products/pokemon-tcg-mega-evolution-ultra-premium-collection-mega-charizard-x",
-     "over_rrp": true,
-     "rrp": 169.99,
-     "cart": "https://thecardvault.co.uk/cart/47347890782446:1"
+     "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
     },
     {
      "title": "Pokemon TCG - Scarlet & Violet - 151 - Booster Bundle (6 Packs)",
-     "price": 24.95,
-     "available": false,
-     "url": "https://thecardvault.co.uk/products/pokemon-tcg-scarlet-violet-151-booster-bundle",
-     "over_rrp": false,
-     "rrp": 24.99,
-     "cart": "https://thecardvault.co.uk/cart/44204969984238:1"
+     "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
     },
     {
      "title": "Pokemon TCG - Scarlet & Violet - 151 - Mini Tin",
-     "price": 10.95,
-     "available": false,
-     "url": "https://thecardvault.co.uk/products/pokemon-tcg-scarlet-violet-151-mini-tin",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://thecardvault.co.uk/cart/44204974997742:1"
+     "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
+    },
+    {
+     "title": "Pokemon TCG - Scarlet & Violet - Destined Rivals - Booster Box (36x Packs)",
+     "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
     },
     {
      "title": "Pokemon TCG - Scarlet & Violet - Destined Rivals - Elite Trainer Box",
-     "price": 54.95,
-     "available": false,
-     "url": "https://thecardvault.co.uk/products/pokemon-tcg-scarlet-violet-destined-rivals-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 49.99,
-     "cart": "https://thecardvault.co.uk/cart/46137479889134:1"
+     "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
     },
     {
      "title": "Pokemon TCG - Scarlet & Violet - Poke Ball Tin - Series 10",
-     "price": 14.95,
-     "available": false,
-     "url": "https://thecardvault.co.uk/products/pokemon-tcg-poke-ball-tin-series-10-fall-2024",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://thecardvault.co.uk/cart/45833510322414:1"
+     "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
     },
     {
      "title": "Pokemon TCG - Scarlet & Violet - Prismatic Evolutions - Booster Bundle",
-     "price": 24.95,
-     "available": false,
-     "url": "https://thecardvault.co.uk/products/pokemon-tcg-scarlet-violet-prismatic-evolutions-booster-bundle",
-     "over_rrp": false,
-     "rrp": 24.99,
-     "cart": "https://thecardvault.co.uk/cart/45974318973166:1"
+     "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
     },
     {
      "title": "Pokemon TCG - Scarlet & Violet - Prismatic Evolutions - Elite Trainer Box",
-     "price": 49.95,
-     "available": false,
-     "url": "https://thecardvault.co.uk/products/pokemon-tcg-scarlet-violet-prismatic-evolutions-elite-trainer-box",
-     "over_rrp": false,
-     "rrp": 49.99,
-     "cart": "https://thecardvault.co.uk/cart/45925797658862:1"
+     "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
     },
     {
      "title": "Pokemon TCG - Scarlet & Violet - Prismatic Evolutions - Mini Tin",
-     "price": 10.95,
-     "available": false,
-     "url": "https://thecardvault.co.uk/products/pokemon-tcg-scarlet-violet-prismatic-evolutions-mini-tin",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://thecardvault.co.uk/cart/45925830492398:1"
+     "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
     },
     {
      "title": "Pokemon TCG - Scarlet & Violet - Prismatic Evolutions - Premium Figure Collection Box",
-     "price": 69.95,
-     "available": false,
-     "url": "https://thecardvault.co.uk/products/pokemon-tcg-scarlet-violet-prismatic-evolutions-premium-figure-collection-box",
-     "over_rrp": true,
-     "rrp": 29.99,
-     "cart": "https://thecardvault.co.uk/cart/47347913294062:1"
+     "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
     },
     {
      "title": "Pokemon TCG - Scarlet & Violet - Prismatic Evolutions - Super-Premium Collection",
-     "price": 89.95,
-     "available": false,
-     "url": "https://thecardvault.co.uk/products/pokemon-tcg-scarlet-violet-prismatic-evolutions-super-premium-collection",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://thecardvault.co.uk/cart/46117140988142:1"
+     "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
     },
     {
      "title": "Pokemon TCG - Scarlet & Violet - Super Premium Collection - Charizard ex",
-     "price": 79.95,
-     "available": false,
-     "url": "https://thecardvault.co.uk/products/pokemon-tcg-super-premium-collection-charizard-ex",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://thecardvault.co.uk/cart/45604669817070:1"
+     "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
     },
     {
      "title": "Pokemon TCG - Scarlet & Violet - Twilight Masquerade - 3-Pack Blister - Revavroom",
-     "price": 19.95,
-     "available": false,
-     "url": "https://thecardvault.co.uk/products/pokemon-tcg-twilight-masquerade-3-pack-blister-revavroom",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
+     "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
+    },
+    {
+     "title": "Pokemon TCG - Scarlet \\u0026 Violet - 151 - Booster Bundle (6 Packs)",
+     "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
+    },
+    {
+     "title": "Pokemon TCG - Scarlet \\u0026 Violet - 151 - Mini Tin",
+     "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
+    },
+    {
+     "title": "Pokemon TCG - Scarlet \\u0026 Violet - Destined Rivals - Booster Box (36x Packs)",
+     "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
+    },
+    {
+     "title": "Pokemon TCG - Scarlet \\u0026 Violet - Destined Rivals - Elite Trainer Box",
+     "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
+    },
+    {
+     "title": "Pokemon TCG - Scarlet \\u0026 Violet - Poke Ball Tin - Series 10",
+     "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
+    },
+    {
+     "title": "Pokemon TCG - Scarlet \\u0026 Violet - Prismatic Evolutions - Booster Bundle",
+     "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
+    },
+    {
+     "title": "Pokemon TCG - Scarlet \\u0026 Violet - Prismatic Evolutions - Elite Trainer Box",
+     "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
+    },
+    {
+     "title": "Pokemon TCG - Scarlet \\u0026 Violet - Prismatic Evolutions - Mini Tin",
+     "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
+    },
+    {
+     "title": "Pokemon TCG - Scarlet \\u0026 Violet - Prismatic Evolutions - Premium Figure Collection Box",
+     "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
+    },
+    {
+     "title": "Pokemon TCG - Scarlet \\u0026 Violet - Prismatic Evolutions - Super-Premium Collection",
+     "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
+    },
+    {
+     "title": "Pokemon TCG - Scarlet \\u0026 Violet - Super Premium Collection - Charizard ex",
+     "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
+    },
+    {
+     "title": "Pokemon TCG - Scarlet \\u0026 Violet - Twilight Masquerade - 3-Pack Blister - Revavroom",
+     "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
     }
    ],
-   "uptime": 0.9789
+   "uptime": 0.9793
   },
   {
    "name": "Iconic TCG",
@@ -4781,7 +4753,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9857
+   "uptime": 0.986
   },
   {
    "name": "Evolvault",
@@ -5088,7 +5060,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9819
+   "uptime": 0.9823
   },
   {
    "name": "Hobby Addicts",
@@ -6268,7 +6240,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9845
+   "uptime": 0.9848
   },
   {
    "name": "Hoodlums UK",
@@ -6611,7 +6583,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9837
+   "uptime": 0.984
   },
   {
    "name": "The TCG Shop",
@@ -6882,7 +6854,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.9866
+   "uptime": 0.9869
   },
   {
    "name": "120HP",
@@ -7585,7 +7557,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.9736
+   "uptime": 0.9741
   },
   {
    "name": "JET Cards",
@@ -7649,7 +7621,7 @@
      "cart": "https://jetcards.uk/cart/58903348871549:1"
     }
    ],
-   "uptime": 0.9748
+   "uptime": 0.9753
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -7722,7 +7694,7 @@
      "cart": "https://www.bbstcg.co.uk/cart/57169842471290:1"
     }
    ],
-   "uptime": 0.9843
+   "uptime": 0.9846
   },
   {
    "name": "Monster Card Corner",
@@ -8965,7 +8937,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.9782
+   "uptime": 0.9786
   },
   {
    "name": "Mystic Games",
@@ -9145,7 +9117,7 @@
      "cart": "https://www.japan2uk.com/cart/63985005068665:1"
     }
    ],
-   "uptime": 0.9823
+   "uptime": 0.9827
   },
   {
    "name": "Asmodee UK",
@@ -9401,6 +9373,42 @@
   }
  ],
  "alerts": [
+  {
+   "time": "2026-11-04T14:03:07+00:00",
+   "site": "The Card Vault",
+   "text": "New on page: Pokemon TCG - Mega Evolution - Ascended Heroes - Elite Trainer Box",
+   "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
+  },
+  {
+   "time": "2026-11-04T14:03:07+00:00",
+   "site": "The Card Vault",
+   "text": "New on page: Pokemon TCG - Mega Evolution - Base Set - Booster Box (36x Packs)",
+   "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
+  },
+  {
+   "time": "2026-11-04T14:03:07+00:00",
+   "site": "The Card Vault",
+   "text": "New on page: Pokemon TCG - Mega Evolution - Perfect Order - Booster Box (36x Packs)",
+   "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
+  },
+  {
+   "time": "2026-11-04T14:03:07+00:00",
+   "site": "The Card Vault",
+   "text": "New on page: Pokemon TCG - Mega Evolution - Perfect Order - Elite Trainer Box",
+   "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
+  },
+  {
+   "time": "2026-11-04T14:03:07+00:00",
+   "site": "The Card Vault",
+   "text": "New on page: Pokemon TCG - Mega Evolution - Ultra-Premium Collection - Mega Charizard X",
+   "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
+  },
+  {
+   "time": "2026-11-04T14:03:07+00:00",
+   "site": "The Card Vault",
+   "text": "...and 24 more",
+   "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
+  },
   {
    "time": "2026-11-04T13:53:07+00:00",
    "site": "Hokey Poke Games",
@@ -9964,42 +9972,6 @@
    "site": "Hokey Poke Games",
    "text": "New on page: Pok\u00e9mon TCG: 30th Anniversary First Partner Illustration Series 2 Collection Box.",
    "url": "https://hokeypokegames.co.uk/collections/all-pokemon"
-  },
-  {
-   "time": "2026-11-03T16:31:22+00:00",
-   "site": "Pixel Hub",
-   "text": "New on page: Booster Box - Pokemon",
-   "url": "https://pixel-hub.co.uk/collections/pokemon"
-  },
-  {
-   "time": "2026-11-03T16:31:22+00:00",
-   "site": "Pixel Hub",
-   "text": "New on page: If it\u2019s listed as sealed, it\u2019s factory sealed. Your Pokemon booster packs and booster boxes arrive exactly as intended by The Pokemon Company.",
-   "url": "https://pixel-hub.co.uk/collections/pokemon"
-  },
-  {
-   "time": "2026-11-03T16:31:22+00:00",
-   "site": "Pixel Hub",
-   "text": "New on page: Looking to start your Pokemon collection but not sure where to buy Pokemon cards in the UK? Check out our",
-   "url": "https://pixel-hub.co.uk/collections/pokemon"
-  },
-  {
-   "time": "2026-11-03T16:31:22+00:00",
-   "site": "Pixel Hub",
-   "text": "New on page: Pokemon Booster Boxes:",
-   "url": "https://pixel-hub.co.uk/collections/pokemon"
-  },
-  {
-   "time": "2026-11-03T16:31:22+00:00",
-   "site": "Pixel Hub",
-   "text": "New on page: Pokemon Booster Packs vs. Booster Boxes: Which is Right for You?",
-   "url": "https://pixel-hub.co.uk/collections/pokemon"
-  },
-  {
-   "time": "2026-11-03T16:31:22+00:00",
-   "site": "Pixel Hub",
-   "text": "...and 16 more",
-   "url": "https://pixel-hub.co.uk/collections/pokemon"
   }
  ],
  "wishlist": [
