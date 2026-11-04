@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T22:23:35+00:00",
+ "updated": "2026-11-04T22:28:35+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -227,7 +227,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9824
+   "uptime": 0.9828
   },
   {
    "name": "Zatu Games",
@@ -363,7 +363,7 @@
      "cart": "https://zatu.com/cart/56945082827130:1"
     }
    ],
-   "uptime": 0.9973
+   "uptime": 0.9974
   },
   {
    "name": "Hokey Poke Games",
@@ -427,7 +427,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54477444776283:1"
     }
    ],
-   "uptime": 0.997
+   "uptime": 0.9971
   },
   {
    "name": "Collectors Edge",
@@ -1287,7 +1287,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.9967
+   "uptime": 0.9968
   },
   {
    "name": "TCG Paradise",
@@ -1837,7 +1837,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9953
+   "uptime": 0.9954
   },
   {
    "name": "TCGora",
@@ -3054,7 +3054,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.9965
+   "uptime": 0.9966
   },
   {
    "name": "Poke Collect",
@@ -3136,7 +3136,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9961
+   "uptime": 0.9962
   },
   {
    "name": "Card Cavern",
@@ -3268,7 +3268,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.9964
+   "uptime": 0.9965
   },
   {
    "name": "The Card Vault",
@@ -3422,7 +3422,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.9974
+   "uptime": 0.9975
   },
   {
    "name": "Iconic TCG",
@@ -7613,71 +7613,16 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.9962
+   "uptime": 0.9963
   },
   {
    "name": "JET Cards",
    "url": "https://jetcards.uk/",
    "skip": null,
    "error": null,
-   "mode": "shopify",
-   "items": [
-    {
-     "title": "Pokemon - Deck Crafter's Collection - Meowth ex",
-     "price": 9.99,
-     "available": false,
-     "url": "https://jetcards.uk/products/pokemon-deck-crafters-collection-meowth-ex",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://jetcards.uk/cart/58976515359101:1"
-    },
-    {
-     "title": "Pokemon - Mega Evolution - Delta Reign - 3-Pack Blister - Seel (Preorder)",
-     "price": 13.99,
-     "available": false,
-     "url": "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-3-pack-blister-seel",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://jetcards.uk/cart/58943354110333:1"
-    },
-    {
-     "title": "Pokemon - Mega Evolution - Delta Reign - Booster Box (36 Boosters) (Preorder)",
-     "price": 154.44,
-     "available": false,
-     "url": "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-booster-box-36-boosters",
-     "over_rrp": false,
-     "rrp": 155.0,
-     "cart": "https://jetcards.uk/cart/58915278258557:1"
-    },
-    {
-     "title": "Pokemon - Mega Evolution - Delta Reign - Booster Bundle (Preorder)",
-     "price": 24.99,
-     "available": false,
-     "url": "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-booster-bundle",
-     "over_rrp": false,
-     "rrp": 24.99,
-     "cart": "https://jetcards.uk/cart/58943314690429:1"
-    },
-    {
-     "title": "Pokemon - Mega Evolution - Delta Reign - Elite Trainer Box (Preorder)",
-     "price": 49.99,
-     "available": false,
-     "url": "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-elite-trainer-box",
-     "over_rrp": false,
-     "rrp": 49.99,
-     "cart": "https://jetcards.uk/cart/58943300075901:1"
-    },
-    {
-     "title": "Pokemon - Scarlet & Violet - Destined Rivals - Booster Bundle",
-     "price": 59.95,
-     "available": true,
-     "url": "https://jetcards.uk/products/pokemon-scarlet-violet-destined-rivals-booster-bundle",
-     "over_rrp": true,
-     "rrp": 24.99,
-     "cart": "https://jetcards.uk/cart/58903348871549:1"
-    }
-   ],
-   "uptime": 0.9965
+   "mode": "page",
+   "items": [],
+   "uptime": 0.9966
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -8993,7 +8938,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.9972
+   "uptime": 0.9973
   },
   {
    "name": "Mystic Games",
