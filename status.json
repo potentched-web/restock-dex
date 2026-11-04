@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T13:48:08+00:00",
+ "updated": "2026-11-04T13:53:07+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -117,7 +117,7 @@
      "cart": "https://www.doublesleeved.co.uk/cart/65002043113849:1"
     }
    ],
-   "uptime": 0.9843
+   "uptime": 0.9846
   },
   {
    "name": "Magic Madhouse",
@@ -217,7 +217,7 @@
      "cart": "https://www.totalcards.net/cart/59010459959677:1"
     }
    ],
-   "uptime": 0.9798
+   "uptime": 0.9802
   },
   {
    "name": "Firestorm Games",
@@ -235,7 +235,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9969
+   "uptime": 0.997
   },
   {
    "name": "Zatu Games",
@@ -371,7 +371,7 @@
      "cart": "https://zatu.com/cart/56945082827130:1"
     }
    ],
-   "uptime": 0.9779
+   "uptime": 0.9783
   },
   {
    "name": "Hokey Poke Games",
@@ -380,6 +380,15 @@
    "error": null,
    "mode": "shopify",
    "items": [
+    {
+     "title": "Pokemon TCG: Ultra Premium Collection - Elite Trainer Box",
+     "price": 130.0,
+     "available": true,
+     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-ultra-premium-collection-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://hokeypokegames.co.uk/cart/54633438511451:1"
+    },
     {
      "title": "Pok\u00e9mon TCG: 30th Anniversary First Partner Illustration Series 1 Blind Collection Box",
      "price": 13.99,
@@ -399,7 +408,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54477444776283:1"
     }
    ],
-   "uptime": 0.9763
+   "uptime": 0.9768
   },
   {
    "name": "Collectors Edge",
@@ -499,7 +508,7 @@
      "cart": "https://collectorsedge.co.uk/cart/55096695783763:1"
     }
    ],
-   "uptime": 0.9807
+   "uptime": 0.9811
   },
   {
    "name": "The Dice Dungeon",
@@ -986,7 +995,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9815
+   "uptime": 0.9819
   },
   {
    "name": "Packrat",
@@ -1259,7 +1268,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.975
+   "uptime": 0.9755
   },
   {
    "name": "TCG Paradise",
@@ -1809,7 +1818,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9671
+   "uptime": 0.9678
   },
   {
    "name": "TCGora",
@@ -2197,7 +2206,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.9803
+   "uptime": 0.9807
   },
   {
    "name": "Pixel Hub",
@@ -3026,7 +3035,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.9739
+   "uptime": 0.9744
   },
   {
    "name": "Poke Collect",
@@ -3108,7 +3117,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9718
+   "uptime": 0.9724
   },
   {
    "name": "Card Cavern",
@@ -3240,7 +3249,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.9736
+   "uptime": 0.9741
   },
   {
    "name": "The Card Vault",
@@ -3394,7 +3403,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.9781
+   "uptime": 0.9785
   },
   {
    "name": "Iconic TCG",
@@ -4781,7 +4790,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9851
+   "uptime": 0.9854
   },
   {
    "name": "Evolvault",
@@ -5088,7 +5097,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9811
+   "uptime": 0.9815
   },
   {
    "name": "Hobby Addicts",
@@ -6268,7 +6277,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9839
+   "uptime": 0.9842
   },
   {
    "name": "Hoodlums UK",
@@ -6611,7 +6620,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9831
+   "uptime": 0.9834
   },
   {
    "name": "The TCG Shop",
@@ -6882,7 +6891,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.986
+   "uptime": 0.9863
   },
   {
    "name": "120HP",
@@ -7585,7 +7594,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.9726
+   "uptime": 0.9731
   },
   {
    "name": "JET Cards",
@@ -7649,7 +7658,7 @@
      "cart": "https://jetcards.uk/cart/58903348871549:1"
     }
    ],
-   "uptime": 0.9738
+   "uptime": 0.9743
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -7722,7 +7731,7 @@
      "cart": "https://www.bbstcg.co.uk/cart/57169842471290:1"
     }
    ],
-   "uptime": 0.9837
+   "uptime": 0.984
   },
   {
    "name": "Monster Card Corner",
@@ -8965,7 +8974,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.9773
+   "uptime": 0.9778
   },
   {
    "name": "Mystic Games",
@@ -9145,7 +9154,7 @@
      "cart": "https://www.japan2uk.com/cart/63985005068665:1"
     }
    ],
-   "uptime": 0.9815
+   "uptime": 0.9819
   },
   {
    "name": "Asmodee UK",
@@ -9401,6 +9410,12 @@
   }
  ],
  "alerts": [
+  {
+   "time": "2026-11-04T13:53:07+00:00",
+   "site": "Hokey Poke Games",
+   "text": "NEW: Pokemon TCG: Ultra Premium Collection - Elite Trainer Box \u00a3130.00 (over RRP)",
+   "url": "https://hokeypokegames.co.uk/cart/54633438511451:1"
+  },
   {
    "time": "2026-11-04T13:33:07+00:00",
    "site": "Zatu Games",
@@ -9994,12 +10009,6 @@
    "site": "Pixel Hub",
    "text": "...and 16 more",
    "url": "https://pixel-hub.co.uk/collections/pokemon"
-  },
-  {
-   "time": "2026-11-03T16:31:22+00:00",
-   "site": "Japan2UK",
-   "text": "NEW: Pokemon Cosmic Eclipse English Booster Box \u00a33499.99 (over RRP)",
-   "url": "https://www.japan2uk.com/cart/63985005035897:1"
   }
  ],
  "wishlist": [
