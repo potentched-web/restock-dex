@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T14:44:46+00:00",
+ "updated": "2026-11-04T14:49:46+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -117,7 +117,7 @@
      "cart": "https://www.doublesleeved.co.uk/cart/65002043113849:1"
     }
    ],
-   "uptime": 0.987
+   "uptime": 0.9873
   },
   {
    "name": "Magic Madhouse",
@@ -217,7 +217,7 @@
      "cart": "https://www.totalcards.net/cart/59010459959677:1"
     }
    ],
-   "uptime": 0.9832
+   "uptime": 0.9835
   },
   {
    "name": "Firestorm Games",
@@ -371,7 +371,7 @@
      "cart": "https://zatu.com/cart/56945082827130:1"
     }
    ],
-   "uptime": 0.9815
+   "uptime": 0.9819
   },
   {
    "name": "Hokey Poke Games",
@@ -390,6 +390,15 @@
      "cart": "https://hokeypokegames.co.uk/cart/54633691119963:1"
     },
     {
+     "title": "Pokemon TCG: Mega Evolution Ascended Heroes - Mini Tin Display",
+     "price": 278.99,
+     "available": true,
+     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-mega-evolution-ascended-heroes-mini-tin-display",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://hokeypokegames.co.uk/cart/54634030563675:1"
+    },
+    {
      "title": "Pokemon TCG: Prismatic Evolutions Mini Tin",
      "price": 29.99,
      "available": true,
@@ -397,6 +406,15 @@
      "over_rrp": false,
      "rrp": null,
      "cart": "https://hokeypokegames.co.uk/cart/54633936519515:1"
+    },
+    {
+     "title": "Pokemon TCG: Prismatic Evolutions Mini Tin Display",
+     "price": 234.99,
+     "available": true,
+     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-prismatic-evolutions-mini-tin-display",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://hokeypokegames.co.uk/cart/54634059956571:1"
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Anniversary First Partner Illustration Series 1 Blind Collection Box",
@@ -417,7 +435,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54477444776283:1"
     }
    ],
-   "uptime": 0.9802
+   "uptime": 0.9806
   },
   {
    "name": "Collectors Edge",
@@ -517,7 +535,7 @@
      "cart": "https://collectorsedge.co.uk/cart/55096695783763:1"
     }
    ],
-   "uptime": 0.9839
+   "uptime": 0.9842
   },
   {
    "name": "The Dice Dungeon",
@@ -1004,7 +1022,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9845
+   "uptime": 0.9848
   },
   {
    "name": "Packrat",
@@ -1277,7 +1295,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.9791
+   "uptime": 0.9795
   },
   {
    "name": "TCG Paradise",
@@ -1827,7 +1845,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9726
+   "uptime": 0.9731
   },
   {
    "name": "TCGora",
@@ -2215,7 +2233,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.9836
+   "uptime": 0.9839
   },
   {
    "name": "Pixel Hub",
@@ -3044,7 +3062,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.9783
+   "uptime": 0.9787
   },
   {
    "name": "Poke Collect",
@@ -3126,7 +3144,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9765
+   "uptime": 0.977
   },
   {
    "name": "Card Cavern",
@@ -3258,7 +3276,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.978
+   "uptime": 0.9784
   },
   {
    "name": "The Card Vault",
@@ -3412,7 +3430,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.9817
+   "uptime": 0.9821
   },
   {
    "name": "Iconic TCG",
@@ -4799,7 +4817,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9878
+   "uptime": 0.988
   },
   {
    "name": "Evolvault",
@@ -5106,7 +5124,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9842
+   "uptime": 0.9845
   },
   {
    "name": "Hobby Addicts",
@@ -6286,7 +6304,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9866
+   "uptime": 0.9869
   },
   {
    "name": "Hoodlums UK",
@@ -6629,7 +6647,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9858
+   "uptime": 0.9861
   },
   {
    "name": "The TCG Shop",
@@ -6900,7 +6918,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.9884
+   "uptime": 0.9886
   },
   {
    "name": "120HP",
@@ -7603,7 +7621,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.9771
+   "uptime": 0.9776
   },
   {
    "name": "JET Cards",
@@ -7667,7 +7685,7 @@
      "cart": "https://jetcards.uk/cart/58903348871549:1"
     }
    ],
-   "uptime": 0.9782
+   "uptime": 0.9786
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -7740,7 +7758,7 @@
      "cart": "https://www.bbstcg.co.uk/cart/57169842471290:1"
     }
    ],
-   "uptime": 0.9864
+   "uptime": 0.9867
   },
   {
    "name": "Monster Card Corner",
@@ -8983,7 +9001,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.981
+   "uptime": 0.9814
   },
   {
    "name": "Mystic Games",
@@ -9163,7 +9181,7 @@
      "cart": "https://www.japan2uk.com/cart/63985005068665:1"
     }
    ],
-   "uptime": 0.9845
+   "uptime": 0.9848
   },
   {
    "name": "Asmodee UK",
@@ -9419,6 +9437,18 @@
   }
  ],
  "alerts": [
+  {
+   "time": "2026-11-04T14:49:46+00:00",
+   "site": "Hokey Poke Games",
+   "text": "NEW: Pokemon TCG: Prismatic Evolutions Mini Tin Display \u00a3234.99",
+   "url": "https://hokeypokegames.co.uk/cart/54634059956571:1"
+  },
+  {
+   "time": "2026-11-04T14:49:46+00:00",
+   "site": "Hokey Poke Games",
+   "text": "NEW: Pokemon TCG: Mega Evolution Ascended Heroes - Mini Tin Display \u00a3278.99",
+   "url": "https://hokeypokegames.co.uk/cart/54634030563675:1"
+  },
   {
    "time": "2026-11-04T14:39:46+00:00",
    "site": "Hokey Poke Games",
@@ -10006,18 +10036,6 @@
    "site": "Pixel Hub",
    "text": "NEW: Pok\u00e9mon TCG: Storm Emeralda (m6) Booster Box \u00a3158.00 (over RRP)",
    "url": "https://pixel-hub.co.uk/cart/54935607411030:1"
-  },
-  {
-   "time": "2026-11-03T16:36:22+00:00",
-   "site": "Pixel Hub",
-   "text": "NEW: Pok\u00e9mon TCG: Mega Evolution Pitch Black - Booster Box Display CDU \u00a3362.00 (over RRP)",
-   "url": "https://pixel-hub.co.uk/cart/54125464093014:1"
-  },
-  {
-   "time": "2026-11-03T16:36:22+00:00",
-   "site": "Pixel Hub",
-   "text": "NEW: Pok\u00e9mon TCG: Mega Evolution Chaos Rising - Booster Box Display CDU (36) \u00a3315.00 (over RRP)",
-   "url": "https://pixel-hub.co.uk/cart/53661978919254:1"
   }
  ],
  "wishlist": [
