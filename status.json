@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T12:59:41+00:00",
+ "updated": "2026-11-04T13:04:41+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -117,7 +117,7 @@
      "cart": "https://www.doublesleeved.co.uk/cart/65002043113849:1"
     }
    ],
-   "uptime": 0.9824
+   "uptime": 0.9828
   },
   {
    "name": "Magic Madhouse",
@@ -217,7 +217,7 @@
      "cart": "https://www.totalcards.net/cart/59010459959677:1"
     }
    ],
-   "uptime": 0.9773
+   "uptime": 0.9778
   },
   {
    "name": "Firestorm Games",
@@ -235,7 +235,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9963
+   "uptime": 0.9964
   },
   {
    "name": "Zatu Games",
@@ -344,7 +344,7 @@
      "cart": "https://zatu.com/cart/56047391179130:1"
     }
    ],
-   "uptime": 0.9749
+   "uptime": 0.9754
   },
   {
    "name": "Hokey Poke Games",
@@ -372,7 +372,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54477444776283:1"
     }
    ],
-   "uptime": 0.9733
+   "uptime": 0.9738
   },
   {
    "name": "Collectors Edge",
@@ -472,7 +472,7 @@
      "cart": "https://collectorsedge.co.uk/cart/55096695783763:1"
     }
    ],
-   "uptime": 0.9783
+   "uptime": 0.9787
   },
   {
    "name": "The Dice Dungeon",
@@ -959,7 +959,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9791
+   "uptime": 0.9795
   },
   {
    "name": "Packrat",
@@ -1232,7 +1232,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.9718
+   "uptime": 0.9724
   },
   {
    "name": "TCG Paradise",
@@ -1782,7 +1782,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9629
+   "uptime": 0.9636
   },
   {
    "name": "TCGora",
@@ -2170,7 +2170,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.9779
+   "uptime": 0.9783
   },
   {
    "name": "Pixel Hub",
@@ -2999,7 +2999,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.9705
+   "uptime": 0.9711
   },
   {
    "name": "Poke Collect",
@@ -3081,7 +3081,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9682
+   "uptime": 0.9688
   },
   {
    "name": "Card Cavern",
@@ -3213,7 +3213,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.9701
+   "uptime": 0.9707
   },
   {
    "name": "The Card Vault",
@@ -3367,7 +3367,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.9752
+   "uptime": 0.9757
   },
   {
    "name": "Iconic TCG",
@@ -4754,7 +4754,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9833
+   "uptime": 0.9836
   },
   {
    "name": "Evolvault",
@@ -5061,7 +5061,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9787
+   "uptime": 0.9791
   },
   {
    "name": "Hobby Addicts",
@@ -6241,7 +6241,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9819
+   "uptime": 0.9823
   },
   {
    "name": "Hoodlums UK",
@@ -6387,7 +6387,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Chaos Rising Booster Display Box (36 Packs)",
-     "price": 344.0,
+     "price": 345.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-chaos-rising-boosters-display-36",
      "over_rrp": true,
@@ -6423,7 +6423,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Mega Evolution Booster Box (36 Packs)",
-     "price": 454.0,
+     "price": 455.0,
      "available": false,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-booster-box-36-pack",
      "over_rrp": true,
@@ -6584,7 +6584,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9808
+   "uptime": 0.9812
   },
   {
    "name": "The TCG Shop",
@@ -6855,7 +6855,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.9842
+   "uptime": 0.9845
   },
   {
    "name": "120HP",
@@ -7558,7 +7558,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.969
+   "uptime": 0.9696
   },
   {
    "name": "JET Cards",
@@ -7622,7 +7622,7 @@
      "cart": "https://jetcards.uk/cart/58903348871549:1"
     }
    ],
-   "uptime": 0.9704
+   "uptime": 0.971
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -7695,7 +7695,7 @@
      "cart": "https://www.bbstcg.co.uk/cart/57169842471290:1"
     }
    ],
-   "uptime": 0.9816
+   "uptime": 0.982
   },
   {
    "name": "Monster Card Corner",
@@ -7967,7 +7967,7 @@
     },
     {
      "title": "Pokemon TCG - Ascended Heroes - Elite Trainer Box",
-     "price": 131.0,
+     "price": 132.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-ascended-heroes-booster-etb",
      "over_rrp": true,
@@ -8399,7 +8399,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Mega Evolution Booster Bundle (6 Packs)",
-     "price": 57.0,
+     "price": 58.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-mega-evolution-booster-bundle",
      "over_rrp": true,
@@ -8489,7 +8489,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Mega Lucario ex Figure Collection Box",
-     "price": 57.0,
+     "price": 58.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-mega-lucario-ex-figure-collection-box",
      "over_rrp": true,
@@ -8624,7 +8624,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Scarlet & Violet Destined Rivals Booster Box (36 Packs) + Acrylic Display Case Bundle",
-     "price": 416.0,
+     "price": 417.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-scarlet-violet-destined-rivals-elite-trainer-box-copy",
      "over_rrp": true,
@@ -8938,7 +8938,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.9743
+   "uptime": 0.9748
   },
   {
    "name": "Mystic Games",
@@ -9118,7 +9118,7 @@
      "cart": "https://www.japan2uk.com/cart/63985005068665:1"
     }
    ],
-   "uptime": 0.9791
+   "uptime": 0.9795
   },
   {
    "name": "Asmodee UK",
