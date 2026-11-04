@@ -436,7 +436,7 @@
    "57565295149431": [
     "Pok\u00e9mon TCG: 30th Celebration Mini Tin (Mew)",
     21.95,
-    true,
+    false,
     "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-mew"
    ],
    "57565295182199": [
@@ -633,7 +633,9 @@
   "mode": "shopify"
  },
  "Card Cavern": {
-  "lines": [],
+  "lines": [
+   "Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)"
+  ],
   "mode": "page"
  },
  "CardDeckr": {
@@ -6074,35 +6076,35 @@
  "_ping_fixed": "2026-11-03T18:16:58+00:00",
  "_reminded": [],
  "_uptime": {
-  "120HP": 0.9554,
-  "Berry Brand Supply TCG": 0.9736,
+  "120HP": 0.9563,
+  "Berry Brand Supply TCG": 0.9741,
   "Card Cavern": 1.0,
   "CardDeckr": 1.0,
   "Chaos Cards": 1.0,
-  "Collectors Edge": 0.9688,
-  "Dice Cup Cafe": 0.9571,
-  "Double Sleeved": 0.9746,
-  "Evolvault": 0.9694,
-  "Firestorm Games": 0.9945,
-  "Hobby Addicts": 0.9739,
-  "Hokey Poke Games": 0.9615,
-  "Hoodlums UK": 0.9725,
-  "Iconic TCG": 0.9759,
-  "JET Cards": 0.9574,
-  "Japan2UK": 0.97,
+  "Collectors Edge": 0.9694,
+  "Dice Cup Cafe": 0.958,
+  "Double Sleeved": 0.9751,
+  "Evolvault": 0.97,
+  "Firestorm Games": 0.9946,
+  "Hobby Addicts": 0.9744,
+  "Hokey Poke Games": 0.9623,
+  "Hoodlums UK": 0.9731,
+  "Iconic TCG": 0.9764,
+  "JET Cards": 0.9583,
+  "Japan2UK": 0.9706,
   "Magic Madhouse": 1.0,
-  "Monster Card Corner": 0.9631,
+  "Monster Card Corner": 0.9638,
   "Mystic Games": 1.0,
   "Packrat": 1.0,
-  "Pixel Hub": 0.9575,
-  "Poke Collect": 0.9543,
-  "TCG Paradise": 0.9466,
-  "TCGora": 0.9682,
-  "The Card Vault": 0.9644,
-  "The Dice Dungeon": 0.97,
-  "The TCG Shop": 0.9775,
-  "Titan Cards": 0.9593,
-  "Total Cards": 0.9673,
-  "Zatu Games": 0.9639
+  "Pixel Hub": 0.9584,
+  "Poke Collect": 0.9552,
+  "TCG Paradise": 0.9477,
+  "TCGora": 0.9688,
+  "The Card Vault": 0.9651,
+  "The Dice Dungeon": 0.9706,
+  "The TCG Shop": 0.9779,
+  "Titan Cards": 0.9601,
+  "Total Cards": 0.968,
+  "Zatu Games": 0.9646
  }
 }
