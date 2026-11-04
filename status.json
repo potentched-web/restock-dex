@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T01:56:18+00:00",
+ "updated": "2026-11-04T02:01:19+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -113,7 +113,7 @@
      "cart": "https://www.doublesleeved.co.uk/cart/65002043113849:1"
     }
    ],
-   "uptime": 0.9294
+   "uptime": 0.9308
   },
   {
    "name": "Magic Madhouse",
@@ -191,7 +191,7 @@
      "cart": "https://www.totalcards.net/cart/59010459959677:1"
     }
    ],
-   "uptime": 0.9156
+   "uptime": 0.9173
   },
   {
    "name": "Firestorm Games",
@@ -215,7 +215,7 @@
    "name": "Zatu Games",
    "url": "https://zatu.com/collections/trading-card-games-pokemon-tcg",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -291,7 +291,7 @@
      "cart": "https://zatu.com/cart/56783225094522:1"
     }
    ],
-   "uptime": 0.9227
+   "uptime": 0.9242
   },
   {
    "name": "Hokey Poke Games",
@@ -328,7 +328,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54477444776283:1"
     }
    ],
-   "uptime": 0.9558
+   "uptime": 0.9567
   },
   {
    "name": "Collectors Edge",
@@ -419,13 +419,13 @@
      "cart": "https://collectorsedge.co.uk/cart/55096695783763:1"
     }
    ],
-   "uptime": 0.9473
+   "uptime": 0.9484
   },
   {
    "name": "The Dice Dungeon",
    "url": "https://thedicedungeon.co.uk/collections/all",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -906,7 +906,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9628
+   "uptime": 0.9635
   },
   {
    "name": "Packrat",
@@ -1179,13 +1179,13 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.8943
+   "uptime": 0.8964
   },
   {
    "name": "TCG Paradise",
    "url": "https://tcgparadise.co.uk/",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -1729,7 +1729,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.8448
+   "uptime": 0.8479
   },
   {
    "name": "TCGora",
@@ -2117,7 +2117,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.9642
+   "uptime": 0.9649
   },
   {
    "name": "Pixel Hub",
@@ -2946,7 +2946,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.9663
+   "uptime": 0.967
   },
   {
    "name": "Poke Collect",
@@ -3028,7 +3028,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9063
+   "uptime": 0.9082
   },
   {
    "name": "Card Cavern",
@@ -3048,7 +3048,7 @@
    "name": "Dice Cup Cafe",
    "url": "https://dicecupcafe.co.uk/collections/pokemon",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -3160,7 +3160,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.8991
+   "uptime": 0.8811
   },
   {
    "name": "The Card Vault",
@@ -3314,7 +3314,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.9452
+   "uptime": 0.9463
   },
   {
    "name": "Iconic TCG",
@@ -4701,13 +4701,13 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9633
+   "uptime": 0.964
   },
   {
    "name": "Evolvault",
    "url": "https://evolvault.com/",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -5008,7 +5008,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9166
+   "uptime": 0.9183
   },
   {
    "name": "Hobby Addicts",
@@ -6188,7 +6188,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9512
+   "uptime": 0.9522
   },
   {
    "name": "Hoodlums UK",
@@ -6531,7 +6531,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9803
+   "uptime": 0.9807
   },
   {
    "name": "The TCG Shop",
@@ -6802,7 +6802,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.9683
+   "uptime": 0.9689
   },
   {
    "name": "120HP",
@@ -7505,7 +7505,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.9301
+   "uptime": 0.9315
   },
   {
    "name": "JET Cards",
@@ -7569,7 +7569,7 @@
      "cart": "https://jetcards.uk/cart/58903348871549:1"
     }
    ],
-   "uptime": 0.9015
+   "uptime": 0.9035
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -8885,7 +8885,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.9435
+   "uptime": 0.9446
   },
   {
    "name": "Mystic Games",
@@ -9065,7 +9065,7 @@
      "cart": "https://www.japan2uk.com/cart/63985005068665:1"
     }
    ],
-   "uptime": 0.9365
+   "uptime": 0.9378
   },
   {
    "name": "Asmodee UK",
