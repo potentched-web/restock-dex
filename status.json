@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T22:37:51+00:00",
+ "updated": "2026-11-05T22:42:51+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -227,7 +227,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9903
+   "uptime": 0.9905
   },
   {
    "name": "Zatu Games",
@@ -3123,7 +3123,7 @@
      "url": "https://cardcavern.co.uk/"
     }
    ],
-   "uptime": 0.9835
+   "uptime": 0.9838
   },
   {
    "name": "Dice Cup Cafe",
@@ -3267,6 +3267,24 @@
      "over_rrp": false,
      "rrp": 155.0,
      "cart": "https://thecardvault.co.uk/cart/46674194956526:1"
+    },
+    {
+     "title": "Pokemon TCG - Mega Evolution - Delta Reign - Booster Bundle",
+     "price": 25.0,
+     "available": false,
+     "url": "https://thecardvault.co.uk/products/pokemon-tcg-mega-evolution-delta-reign-booster-bundle",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://thecardvault.co.uk/cart/49738114171118:1"
+    },
+    {
+     "title": "Pokemon TCG - Mega Evolution - Delta Reign - Elite Trainer Box",
+     "price": 50.0,
+     "available": false,
+     "url": "https://thecardvault.co.uk/products/pokemon-tcg-mega-evolution-delta-reign-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://thecardvault.co.uk/cart/49738114138350:1"
     },
     {
      "title": "Pokemon TCG - Mega Evolution - Perfect Order - Booster Box (36x Packs)",
