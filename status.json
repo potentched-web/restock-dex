@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T22:42:51+00:00",
+ "updated": "2026-11-05T22:47:52+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -227,7 +227,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9905
+   "uptime": 0.9907
   },
   {
    "name": "Zatu Games",
@@ -3123,7 +3123,7 @@
      "url": "https://cardcavern.co.uk/"
     }
    ],
-   "uptime": 0.9838
+   "uptime": 0.9841
   },
   {
    "name": "Dice Cup Cafe",
@@ -3250,6 +3250,24 @@
    "error": null,
    "mode": "shopify",
    "items": [
+    {
+     "title": "Pokemon TCG - Mega Evolution - 30th Celebration - Figure Collection - Mew",
+     "price": 29.95,
+     "available": false,
+     "url": "https://thecardvault.co.uk/products/pokemon-tcg-mega-evolution-30th-celebration-figure-collection-mew",
+     "over_rrp": false,
+     "rrp": 29.99,
+     "cart": "https://thecardvault.co.uk/cart/49969012048110:1"
+    },
+    {
+     "title": "Pokemon TCG - Mega Evolution - 30th Celebration - Figure Collection - Mewtwo",
+     "price": 29.95,
+     "available": false,
+     "url": "https://thecardvault.co.uk/products/pokemon-tcg-mega-evolution-30th-celebration-figure-collection-mewtwo",
+     "over_rrp": false,
+     "rrp": 29.99,
+     "cart": "https://thecardvault.co.uk/cart/49969012244718:1"
+    },
     {
      "title": "Pokemon TCG - Mega Evolution - Ascended Heroes - Elite Trainer Box",
      "price": 49.95,
