@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T08:35:03+00:00",
+ "updated": "2026-11-05T08:43:12+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -227,7 +227,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9839
+   "uptime": 0.9842
   },
   {
    "name": "Zatu Games",
@@ -3126,7 +3126,12 @@
    "skip": null,
    "error": null,
    "mode": "page",
-   "items": [],
+   "items": [
+    {
+     "title": "Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
+     "url": "https://cardcavern.co.uk/"
+    }
+   ],
    "uptime": 1.0
   },
   {
@@ -9407,6 +9412,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-05T08:43:12+00:00",
+   "site": "Card Cavern",
+   "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
+   "url": "https://cardcavern.co.uk/"
+  },
+  {
    "time": "2026-11-04T22:33:35+00:00",
    "site": "JET Cards",
    "text": "NEW: Pokemon - Scarlet & Violet - Destined Rivals - Booster Bundle \u00a359.95 (over RRP)",
@@ -9998,12 +10009,6 @@
    "time": "2026-11-03T17:23:54+00:00",
    "site": "TCGora",
    "text": "New pre-order spotted: Mega Evolution\u2014Pitch Black Elite Trainer Box (Pre-Order)",
-   "url": "https://tcgora.com/"
-  },
-  {
-   "time": "2026-11-03T17:23:54+00:00",
-   "site": "TCGora",
-   "text": "New pre-order spotted: Mega Evolution\u2014Pitch Black Pok\u00e9mon Center Elite Trainer Box (Pre-Order)",
    "url": "https://tcgora.com/"
   }
  ],
