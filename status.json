@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T08:00:02+00:00",
+ "updated": "2026-11-05T08:05:02+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -227,7 +227,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9815
+   "uptime": 0.9819
   },
   {
    "name": "Zatu Games",
@@ -6284,7 +6284,7 @@
    "items": [
     {
      "title": "Pok\u00e9mon Center Ascended Heroes Elite Trainer Box",
-     "price": 482.0,
+     "price": 481.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-centre-mega-evolution-ascended-heroes-elite-trainer-box",
      "over_rrp": true,
@@ -6419,7 +6419,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Chaos Rising Booster Display Box (36 Packs)",
-     "price": 345.0,
+     "price": 344.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-chaos-rising-boosters-display-36",
      "over_rrp": true,
@@ -6437,7 +6437,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Destined Rivals Elite Trainer Box",
-     "price": 166.0,
+     "price": 165.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-scarlet-violet-destined-rivals-elite-trainer-box",
      "over_rrp": true,
@@ -6455,7 +6455,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Mega Evolution Booster Box (36 Packs)",
-     "price": 455.0,
+     "price": 454.0,
      "available": false,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-booster-box-36-pack",
      "over_rrp": true,
@@ -6518,7 +6518,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Perfect Order Half Booster Box (18 Packs)",
-     "price": 166.0,
+     "price": 165.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-perfect-order-half-booster-box-18-packs",
      "over_rrp": true,
@@ -6527,7 +6527,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Phantasmal Flames Booster Box (36 Packs)",
-     "price": 551.0,
+     "price": 550.0,
      "available": false,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-phantasmal-flames-booster-box-36-pack",
      "over_rrp": true,
@@ -6572,7 +6572,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Prismatic Evolutions Elite Trainer Box",
-     "price": 331.0,
+     "price": 330.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-scarlet-violet-prismatic-evolution-elite-trainer-box",
      "over_rrp": true,
@@ -6590,7 +6590,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Prismatic Evolutions Super-Premium Collection",
-     "price": 386.0,
+     "price": 385.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-scarlet-violet-prismatic-evolutions-super-premium-collection",
      "over_rrp": false,
@@ -7792,7 +7792,7 @@
     },
     {
      "title": "Pokemon TCG - 30th Celebration - Elite Trainer Box",
-     "price": 78.0,
+     "price": 77.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-elite-trainer-box",
      "over_rrp": true,
@@ -7819,7 +7819,7 @@
     },
     {
      "title": "Pokemon TCG - 30th Celebration - Knock Out Collection - Eevee",
-     "price": 21.0,
+     "price": 20.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-knock-out-collection-eevee",
      "over_rrp": false,
@@ -7828,7 +7828,7 @@
     },
     {
      "title": "Pokemon TCG - 30th Celebration - Mini Tin - Espeon",
-     "price": 21.0,
+     "price": 20.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-espeon",
      "over_rrp": false,
@@ -7837,7 +7837,7 @@
     },
     {
      "title": "Pokemon TCG - 30th Celebration - Mini Tin - Greninja",
-     "price": 21.0,
+     "price": 20.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-greninja",
      "over_rrp": false,
@@ -7846,7 +7846,7 @@
     },
     {
      "title": "Pokemon TCG - 30th Celebration - Mini Tin - Lapras",
-     "price": 21.0,
+     "price": 20.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-lapras",
      "over_rrp": false,
@@ -7855,7 +7855,7 @@
     },
     {
      "title": "Pokemon TCG - 30th Celebration - Mini Tin - Mew",
-     "price": 21.0,
+     "price": 20.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-mew",
      "over_rrp": false,
@@ -7864,7 +7864,7 @@
     },
     {
      "title": "Pokemon TCG - 30th Celebration - Mini Tin - Mewtwo",
-     "price": 21.0,
+     "price": 20.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-mewtwo",
      "over_rrp": false,
@@ -7873,7 +7873,7 @@
     },
     {
      "title": "Pokemon TCG - 30th Celebration - Mini Tin - Moltres",
-     "price": 21.0,
+     "price": 20.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-moltres",
      "over_rrp": false,
@@ -7882,7 +7882,7 @@
     },
     {
      "title": "Pokemon TCG - 30th Celebration - Mini Tin - Pikachu (Day)",
-     "price": 21.0,
+     "price": 20.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-pikachu-day",
      "over_rrp": false,
@@ -7891,7 +7891,7 @@
     },
     {
      "title": "Pokemon TCG - 30th Celebration - Mini Tin - Pikachu (Night)",
-     "price": 21.0,
+     "price": 20.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-pikachu-night",
      "over_rrp": false,
@@ -7900,7 +7900,7 @@
     },
     {
      "title": "Pokemon TCG - 30th Celebration - Mini Tin - Umbreon",
-     "price": 21.0,
+     "price": 20.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-umbreon",
      "over_rrp": false,
@@ -7909,7 +7909,7 @@
     },
     {
      "title": "Pokemon TCG - 30th Celebration - Mini Tin - Zapdos",
-     "price": 21.0,
+     "price": 20.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-zapdos",
      "over_rrp": false,
@@ -7999,7 +7999,7 @@
     },
     {
      "title": "Pokemon TCG - Ascended Heroes - Elite Trainer Box",
-     "price": 132.0,
+     "price": 131.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-ascended-heroes-booster-etb",
      "over_rrp": true,
@@ -8089,7 +8089,7 @@
     },
     {
      "title": "Pokemon TCG - First Partner Illustration Collection - Series 1",
-     "price": 78.0,
+     "price": 77.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-first-partner-illustration-collection-series-1",
      "over_rrp": false,
@@ -8422,7 +8422,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Mega Evolution Booster Box (36 Packs) (Factory Sealed)",
-     "price": 332.0,
+     "price": 331.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-mega-evolution-booster-box-36-packs",
      "over_rrp": true,
@@ -8431,7 +8431,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Mega Evolution Booster Bundle (6 Packs)",
-     "price": 58.0,
+     "price": 57.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-mega-evolution-booster-bundle",
      "over_rrp": true,
@@ -8494,7 +8494,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Mega Heroes Mini Tin (Factory Sealed)",
-     "price": 21.0,
+     "price": 20.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-mega-heroes-tin-assortment-factory-sealed",
      "over_rrp": false,
@@ -8521,7 +8521,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Mega Lucario ex Figure Collection Box",
-     "price": 58.0,
+     "price": 57.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-mega-lucario-ex-figure-collection-box",
      "over_rrp": true,
@@ -8656,7 +8656,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Scarlet & Violet Destined Rivals Booster Box (36 Packs) + Acrylic Display Case Bundle",
-     "price": 417.0,
+     "price": 416.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-scarlet-violet-destined-rivals-elite-trainer-box-copy",
      "over_rrp": true,
@@ -8692,7 +8692,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Scarlet & Violet Surging Sparks Booster Bundle - 6 Packs",
-     "price": 78.0,
+     "price": 77.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-violet-surging-sparks-booster-bundle-6-packs-copy-damaged",
      "over_rrp": true,
@@ -8782,7 +8782,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Scarlet and Violet - White Flare - Elite Trainer Box",
-     "price": 98.0,
+     "price": 97.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/scarlet-and-violet-black-bolt-elite-trainer-box-copy",
      "over_rrp": true,
@@ -8809,7 +8809,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Scarlet and Violet - White Flare Pokemon Center - Elite Trainer Box",
-     "price": 155.0,
+     "price": 154.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-and-violet-white-flare-pokemon-center-elite-trainer-box",
      "over_rrp": true,
@@ -8827,7 +8827,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Scarlet and Violet Journey Together Booster Box (36 Packs)",
-     "price": 255.0,
+     "price": 254.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/scarlet-and-violet-journey-together-booster-box",
      "over_rrp": true,
@@ -8863,7 +8863,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Scarlet and Violet Prismatic Evolutions - Premium Figure Collection",
-     "price": 175.0,
+     "price": 174.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-and-violet-prismatic-evolutions-premium-figure-collection",
      "over_rrp": true,
@@ -8899,7 +8899,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Scarlet and Violet Surging Sparks Booster Box",
-     "price": 286.0,
+     "price": 285.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-and-violet-surging-sparks-booster-box",
      "over_rrp": true,
