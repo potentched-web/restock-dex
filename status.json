@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T23:58:38+00:00",
+ "updated": "2026-11-05T00:03:39+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -215,7 +215,7 @@
    "name": "Firestorm Games",
    "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards",
    "skip": null,
-   "error": null,
+   "error": "The read operation timed out",
    "mode": "page",
    "items": [
     {
@@ -227,7 +227,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9882
+   "uptime": 0.9684
   },
   {
    "name": "Zatu Games",
@@ -1837,7 +1837,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9973
+   "uptime": 0.9974
   },
   {
    "name": "TCGora",
@@ -8850,7 +8850,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Scarlet and Violet Journey Together Booster Box (36 Packs)",
-     "price": 254.0,
+     "price": 255.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/scarlet-and-violet-journey-together-booster-box",
      "over_rrp": true,
