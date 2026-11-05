@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T02:58:45+00:00",
+ "updated": "2026-11-05T03:03:44+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -227,7 +227,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9849
+   "uptime": 0.9852
   },
   {
    "name": "Zatu Games",
@@ -491,15 +491,6 @@
      "cart": "https://collectorsedge.co.uk/cart/55537910088019:1"
     },
     {
-     "title": "Pokemon TCG: Journey Together - Booster Box (36 Packs)",
-     "price": 229.95,
-     "available": false,
-     "url": "https://collectorsedge.co.uk/products/pokemon-scarlet-violet-journey-together-booster-box",
-     "over_rrp": true,
-     "rrp": 155.0,
-     "cart": "https://collectorsedge.co.uk/cart/50107219575123:1"
-    },
-    {
      "title": "Pokemon TCG: Journey Together - Booster Bundle (6 Packs)",
      "price": 44.95,
      "available": true,
@@ -507,15 +498,6 @@
      "over_rrp": true,
      "rrp": 24.99,
      "cart": "https://collectorsedge.co.uk/cart/50107218559315:1"
-    },
-    {
-     "title": "Pokemon TCG: Pitch Black - Booster Box (36 Packs)",
-     "price": 174.95,
-     "available": false,
-     "url": "https://collectorsedge.co.uk/products/pokemon-tcg-pitch-black-booster-box",
-     "over_rrp": true,
-     "rrp": 155.0,
-     "cart": "https://collectorsedge.co.uk/cart/53617558159699:1"
     },
     {
      "title": "Pokemon TCG: Prismatic Evolutions - Poster Collection",
