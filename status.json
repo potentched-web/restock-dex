@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T18:43:23+00:00",
+ "updated": "2026-11-05T18:48:24+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -66,10 +66,6 @@
     },
     {
      "title": "Pokemon Mega Evolution Delta Reign Premium Checklane Blister Delphox",
-     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
-    },
-    {
-     "title": "Pokemon Mega Evolution Pitch Black Booster Bundle",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
@@ -231,7 +227,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9743
+   "uptime": 0.9748
   },
   {
    "name": "Zatu Games",
@@ -3127,7 +3123,7 @@
      "url": "https://cardcavern.co.uk/"
     }
    ],
-   "uptime": 0.9555
+   "uptime": 0.9564
   },
   {
    "name": "Dice Cup Cafe",
