@@ -633,9 +633,7 @@
   "mode": "shopify"
  },
  "Card Cavern": {
-  "lines": [
-   "Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)"
-  ],
+  "lines": [],
   "mode": "page"
  },
  "CardDeckr": {
@@ -6149,14 +6147,14 @@
  "_uptime": {
   "120HP": 0.9976,
   "Berry Brand Supply TCG": 0.9976,
-  "Card Cavern": 0.9853,
+  "Card Cavern": 0.9856,
   "CardDeckr": 1.0,
   "Chaos Cards": 1.0,
   "Collectors Edge": 0.9976,
   "Dice Cup Cafe": 0.9976,
   "Double Sleeved": 0.9976,
   "Evolvault": 0.9976,
-  "Firestorm Games": 0.9915,
+  "Firestorm Games": 0.9917,
   "Hobby Addicts": 0.9976,
   "Hokey Poke Games": 0.9976,
   "Hoodlums UK": 0.9976,

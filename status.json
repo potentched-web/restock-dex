@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T23:07:51+00:00",
+ "updated": "2026-11-05T23:10:18+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -227,7 +227,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9915
+   "uptime": 0.9917
   },
   {
    "name": "Zatu Games",
@@ -3117,13 +3117,8 @@
    "skip": null,
    "error": null,
    "mode": "page",
-   "items": [
-    {
-     "title": "Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
-     "url": "https://cardcavern.co.uk/"
-    }
-   ],
-   "uptime": 0.9853
+   "items": [],
+   "uptime": 0.9856
   },
   {
    "name": "Dice Cup Cafe",
