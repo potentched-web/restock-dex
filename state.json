@@ -2966,7 +2966,7 @@
    "58980531765580": [
     "Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Elite Trainer Box (Preorder)",
     85.0,
-    false,
+    true,
     "https://iconic-tcg.com/products/pokemon-tcg-delta-reign-elite-trainer-box"
    ],
    "58980531798348": [
@@ -3011,25 +3011,25 @@
     "https://jetcards.uk/products/pokemon-scarlet-violet-destined-rivals-booster-bundle"
    ],
    "58915278258557": [
-    "Pokemon - Mega Evolution - Delta Reign - Booster Box (36 Boosters) (Preorder)",
+    "Pokemon - Mega Evolution - Delta Reign - Booster Box (36 Boosters)",
     154.44,
     false,
     "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-booster-box-36-boosters"
    ],
    "58943300075901": [
-    "Pokemon - Mega Evolution - Delta Reign - Elite Trainer Box (Preorder)",
+    "Pokemon - Mega Evolution - Delta Reign - Elite Trainer Box",
     49.99,
     false,
     "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-elite-trainer-box"
    ],
    "58943314690429": [
-    "Pokemon - Mega Evolution - Delta Reign - Booster Bundle (Preorder)",
+    "Pokemon - Mega Evolution - Delta Reign - Booster Bundle",
     24.99,
     false,
     "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-booster-bundle"
    ],
    "58943354110333": [
-    "Pokemon - Mega Evolution - Delta Reign - 3-Pack Blister - Seel (Preorder)",
+    "Pokemon - Mega Evolution - Delta Reign - 3-Pack Blister - Seel",
     13.99,
     false,
     "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-3-pack-blister-seel"
@@ -3037,7 +3037,7 @@
    "58976515359101": [
     "Pokemon - Deck Crafter's Collection - Meowth ex",
     9.99,
-    false,
+    true,
     "https://jetcards.uk/products/pokemon-deck-crafters-collection-meowth-ex"
    ]
   },
@@ -6013,12 +6013,6 @@
     129.99,
     true,
     "https://zatu.com/products/pokemon-tcg-30th-celebration-elite-trainer-box"
-   ],
-   "57057315946874": [
-    "Pokemon TCG: 30th Celebration - Sylveon ex Tin",
-    44.99,
-    true,
-    "https://zatu.com/products/pokemon-tcg-30th-celebration-sylveon-ex-tin"
    ]
   },
   "mode": "shopify"
@@ -6126,14 +6120,14 @@
  "_uptime": {
   "120HP": 0.9976,
   "Berry Brand Supply TCG": 0.9976,
-  "Card Cavern": 0.8779,
+  "Card Cavern": 0.8803,
   "CardDeckr": 1.0,
   "Chaos Cards": 1.0,
   "Collectors Edge": 0.9976,
   "Dice Cup Cafe": 0.9976,
   "Double Sleeved": 0.9976,
   "Evolvault": 0.9976,
-  "Firestorm Games": 0.9294,
+  "Firestorm Games": 0.9308,
   "Hobby Addicts": 0.9976,
   "Hokey Poke Games": 0.9976,
   "Hoodlums UK": 0.9976,

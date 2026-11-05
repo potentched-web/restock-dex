@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T13:11:27+00:00",
+ "updated": "2026-11-05T13:42:50+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -231,7 +231,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9294
+   "uptime": 0.9308
   },
   {
    "name": "Zatu Games",
@@ -266,15 +266,6 @@
      "over_rrp": false,
      "rrp": null,
      "cart": "https://zatu.com/cart/57057314177402:1"
-    },
-    {
-     "title": "Pokemon TCG: 30th Celebration - Sylveon ex Tin",
-     "price": 44.99,
-     "available": true,
-     "url": "https://zatu.com/products/pokemon-tcg-30th-celebration-sylveon-ex-tin",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://zatu.com/cart/57057315946874:1"
     },
     {
      "title": "Pokemon TCG: First Partner Illustration Collection - Series 2",
@@ -3136,7 +3127,7 @@
      "url": "https://cardcavern.co.uk/"
     }
    ],
-   "uptime": 0.8779
+   "uptime": 0.8803
   },
   {
    "name": "Dice Cup Cafe",
@@ -4158,7 +4149,7 @@
     {
      "title": "Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Elite Trainer Box (Preorder)",
      "price": 85.0,
-     "available": false,
+     "available": true,
      "url": "https://iconic-tcg.com/products/pokemon-tcg-delta-reign-elite-trainer-box",
      "over_rrp": true,
      "rrp": 49.99,
@@ -7611,14 +7602,14 @@
     {
      "title": "Pokemon - Deck Crafter's Collection - Meowth ex",
      "price": 9.99,
-     "available": false,
+     "available": true,
      "url": "https://jetcards.uk/products/pokemon-deck-crafters-collection-meowth-ex",
      "over_rrp": false,
      "rrp": null,
      "cart": "https://jetcards.uk/cart/58976515359101:1"
     },
     {
-     "title": "Pokemon - Mega Evolution - Delta Reign - 3-Pack Blister - Seel (Preorder)",
+     "title": "Pokemon - Mega Evolution - Delta Reign - 3-Pack Blister - Seel",
      "price": 13.99,
      "available": false,
      "url": "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-3-pack-blister-seel",
@@ -7627,7 +7618,7 @@
      "cart": "https://jetcards.uk/cart/58943354110333:1"
     },
     {
-     "title": "Pokemon - Mega Evolution - Delta Reign - Booster Box (36 Boosters) (Preorder)",
+     "title": "Pokemon - Mega Evolution - Delta Reign - Booster Box (36 Boosters)",
      "price": 154.44,
      "available": false,
      "url": "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-booster-box-36-boosters",
@@ -7636,7 +7627,7 @@
      "cart": "https://jetcards.uk/cart/58915278258557:1"
     },
     {
-     "title": "Pokemon - Mega Evolution - Delta Reign - Booster Bundle (Preorder)",
+     "title": "Pokemon - Mega Evolution - Delta Reign - Booster Bundle",
      "price": 24.99,
      "available": false,
      "url": "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-booster-bundle",
@@ -7645,7 +7636,7 @@
      "cart": "https://jetcards.uk/cart/58943314690429:1"
     },
     {
-     "title": "Pokemon - Mega Evolution - Delta Reign - Elite Trainer Box (Preorder)",
+     "title": "Pokemon - Mega Evolution - Delta Reign - Elite Trainer Box",
      "price": 49.99,
      "available": false,
      "url": "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-elite-trainer-box",
@@ -9416,6 +9407,18 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-05T13:42:50+00:00",
+   "site": "Iconic TCG",
+   "text": "BACK IN STOCK: Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Elite Trainer Box (Preorder) \u00a385.00 (over RRP)",
+   "url": "https://iconic-tcg.com/cart/58980531765580:1"
+  },
+  {
+   "time": "2026-11-05T13:42:50+00:00",
+   "site": "JET Cards",
+   "text": "BACK IN STOCK: Pokemon - Deck Crafter's Collection - Meowth ex \u00a39.99",
+   "url": "https://jetcards.uk/cart/58976515359101:1"
+  },
+  {
    "time": "2026-11-05T11:51:04+00:00",
    "site": "Iconic TCG",
    "text": "BACK IN STOCK: Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Booster Box (36 Packs) (Preorder) \u00a3240.00 (over RRP)",
@@ -10001,18 +10004,6 @@
    "time": "2026-11-03T17:23:54+00:00",
    "site": "TCGora",
    "text": "New on page: Mega Evolution\u2014Pitch Black Booster Bundle (Pre-Order)",
-   "url": "https://tcgora.com/"
-  },
-  {
-   "time": "2026-11-03T17:23:54+00:00",
-   "site": "TCGora",
-   "text": "...and 14 more",
-   "url": "https://tcgora.com/"
-  },
-  {
-   "time": "2026-11-03T17:23:54+00:00",
-   "site": "TCGora",
-   "text": "New pre-order spotted: Mega Evolution \u2014 Pitch Black Booster Box (Pre-Order)",
    "url": "https://tcgora.com/"
   }
  ],
