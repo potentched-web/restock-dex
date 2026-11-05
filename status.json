@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T14:22:50+00:00",
+ "updated": "2026-11-05T14:27:50+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -231,7 +231,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9411
+   "uptime": 0.9423
   },
   {
    "name": "Zatu Games",
@@ -3127,7 +3127,7 @@
      "url": "https://cardcavern.co.uk/"
     }
    ],
-   "uptime": 0.8982
+   "uptime": 0.9002
   },
   {
    "name": "Dice Cup Cafe",
@@ -7070,7 +7070,7 @@
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Mini Tin (Pikachu \u2013 Day)",
      "price": 21.95,
-     "available": true,
+     "available": false,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-pikachu-day",
      "over_rrp": false,
      "rrp": null,
@@ -7079,7 +7079,7 @@
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Mini Tin (Pikachu \u2013 Night)",
      "price": 21.95,
-     "available": true,
+     "available": false,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-pikachu-night",
      "over_rrp": false,
      "rrp": null,
