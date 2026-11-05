@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T23:53:38+00:00",
+ "updated": "2026-11-04T23:58:38+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -227,7 +227,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.988
+   "uptime": 0.9882
   },
   {
    "name": "Zatu Games",
@@ -1837,7 +1837,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9972
+   "uptime": 0.9973
   },
   {
    "name": "TCGora",
@@ -2732,7 +2732,7 @@
     {
      "title": "Pok\u00e9mon TCG: Mega Greninja ex Premium Collection",
      "price": 78.0,
-     "available": true,
+     "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-greninja-ex-premium-collection",
      "over_rrp": false,
      "rrp": null,
