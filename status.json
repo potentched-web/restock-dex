@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T19:12:46+00:00",
+ "updated": "2026-11-05T19:17:46+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -227,7 +227,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9773
+   "uptime": 0.9778
   },
   {
    "name": "Zatu Games",
@@ -3123,7 +3123,7 @@
      "url": "https://cardcavern.co.uk/"
     }
    ],
-   "uptime": 0.9606
+   "uptime": 0.9614
   },
   {
    "name": "Dice Cup Cafe",
@@ -6231,6 +6231,15 @@
      "over_rrp": false,
      "rrp": 24.99,
      "cart": "https://www.hobby-addicts.com/cart/48852213989683:1"
+    },
+    {
+     "title": "Pokemon: Ultra-Premium Collection",
+     "price": 349.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-ultra-premium-collection-day",
+     "over_rrp": true,
+     "rrp": 169.99,
+     "cart": "https://www.hobby-addicts.com/cart/67934760010035:1"
     },
     {
      "title": "Pokemon: V Striker Tin (Empoleon V)",
