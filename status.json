@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T11:46:04+00:00",
+ "updated": "2026-11-05T11:51:04+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -219,7 +219,7 @@
    "name": "Firestorm Games",
    "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 500: Internal Server Error",
    "mode": "page",
    "items": [
     {
@@ -231,7 +231,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.992
+   "uptime": 0.9722
   },
   {
    "name": "Zatu Games",
@@ -3136,7 +3136,7 @@
      "url": "https://cardcavern.co.uk/"
     }
    ],
-   "uptime": 0.8313
+   "uptime": 0.8347
   },
   {
    "name": "Dice Cup Cafe",
@@ -4139,8 +4139,8 @@
     },
     {
      "title": "Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Booster Box (36 Packs) (Preorder)",
-     "price": 164.95,
-     "available": false,
+     "price": 240.0,
+     "available": true,
      "url": "https://iconic-tcg.com/products/pokemon-tcg-delta-reign-booster-box-36-packs",
      "over_rrp": true,
      "rrp": 155.0,
@@ -9416,6 +9416,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-05T11:51:04+00:00",
+   "site": "Iconic TCG",
+   "text": "BACK IN STOCK: Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Booster Box (36 Packs) (Preorder) \u00a3240.00 (over RRP)",
+   "url": "https://iconic-tcg.com/cart/58980531732812:1"
+  },
+  {
    "time": "2026-11-05T10:58:44+00:00",
    "site": "Iconic TCG",
    "text": "BACK IN STOCK: Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Elite Trainer Box (Preorder) \u00a385.00 (over RRP)",
@@ -10007,12 +10013,6 @@
    "time": "2026-11-03T17:23:54+00:00",
    "site": "TCGora",
    "text": "New pre-order spotted: Mega Evolution \u2014 Pitch Black Booster Box (Pre-Order)",
-   "url": "https://tcgora.com/"
-  },
-  {
-   "time": "2026-11-03T17:23:54+00:00",
-   "site": "TCGora",
-   "text": "New pre-order spotted: Mega Evolution \u2014 Pitch Black Booster Box (Pre-Order) - https://tcgora.com/products/mega-evolution-pitch-black-booster-box-pre-order",
    "url": "https://tcgora.com/"
   }
  ],
