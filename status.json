@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T07:07:16+00:00",
+ "updated": "2026-11-05T07:12:15+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -227,7 +227,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9795
+   "uptime": 0.9799
   },
   {
    "name": "Zatu Games",
@@ -3056,7 +3056,7 @@
     },
     {
      "title": "Mega Evolution: 30th Celebration Pokemon Center Elite Trainer Box",
-     "price": 285.95,
+     "price": 284.95,
      "available": false,
      "url": "https://poke-collect.com/products/mega-evolution-30th-celebration-pokemon-center-elite-trainer-box",
      "over_rrp": true,
@@ -3065,7 +3065,7 @@
     },
     {
      "title": "Mega Evolution: Ascended Heroes Focused Fighters Premium Collection (Sam's Club)",
-     "price": 156.95,
+     "price": 158.95,
      "available": false,
      "url": "https://poke-collect.com/products/mega-evolution-ascended-heroes-focused-fighters-premium-collection-sams-club",
      "over_rrp": false,
