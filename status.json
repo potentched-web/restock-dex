@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T10:23:59+00:00",
+ "updated": "2026-11-05T10:38:44+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -37,6 +37,10 @@
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
+     "title": "Pokemon First Partner Illustration Collection Series 3",
+     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+    },
+    {
      "title": "Pokemon Mega Evolution Ascended Heroes - Mini Tin Riolu",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
@@ -66,6 +70,10 @@
     },
     {
      "title": "Pokemon Mega Evolution Delta Reign Premium Checklane Blister Delphox",
+     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+    },
+    {
+     "title": "Pokemon Mega Evolution Pitch Black Booster Bundle",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
@@ -227,7 +235,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9892
+   "uptime": 0.9894
   },
   {
    "name": "Zatu Games",
@@ -3124,7 +3132,7 @@
    "name": "Card Cavern",
    "url": "https://cardcavern.co.uk/",
    "skip": null,
-   "error": null,
+   "error": "<urlopen error timed out>",
    "mode": "page",
    "items": [
     {
@@ -3132,7 +3140,7 @@
      "url": "https://cardcavern.co.uk/"
     }
    ],
-   "uptime": 1.0
+   "uptime": 0.98
   },
   {
    "name": "Dice Cup Cafe",
@@ -9412,6 +9420,18 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-05T10:38:44+00:00",
+   "site": "Chaos Cards",
+   "text": "New on page: Pokemon First Partner Illustration Collection Series 3",
+   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+  },
+  {
+   "time": "2026-11-05T10:38:44+00:00",
+   "site": "Chaos Cards",
+   "text": "New on page: Pokemon Mega Evolution Pitch Black Booster Bundle",
+   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+  },
+  {
    "time": "2026-11-05T08:43:12+00:00",
    "site": "Card Cavern",
    "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
@@ -9997,18 +10017,6 @@
    "time": "2026-11-03T17:23:54+00:00",
    "site": "TCGora",
    "text": "New pre-order spotted: Mega Evolution\u2014Pitch Black Booster Bundle (Pre-Order)",
-   "url": "https://tcgora.com/"
-  },
-  {
-   "time": "2026-11-03T17:23:54+00:00",
-   "site": "TCGora",
-   "text": "New pre-order spotted: Mega Evolution\u2014Pitch Black Build & Battle Bundle (Pre-Order)",
-   "url": "https://tcgora.com/"
-  },
-  {
-   "time": "2026-11-03T17:23:54+00:00",
-   "site": "TCGora",
-   "text": "New pre-order spotted: Mega Evolution\u2014Pitch Black Elite Trainer Box (Pre-Order)",
    "url": "https://tcgora.com/"
   }
  ],
