@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T13:38:54+00:00",
+ "updated": "2026-11-06T13:43:54+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -419,15 +419,6 @@
      "over_rrp": false,
      "rrp": null,
      "cart": "https://hokeypokegames.co.uk/cart/54634059956571:1"
-    },
-    {
-     "title": "Pok\u00e9mon TCG: Deck Crafter's Collection",
-     "price": 9.99,
-     "available": true,
-     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-deck-crafters-collection",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://hokeypokegames.co.uk/cart/54477444776283:1"
     }
    ],
    "uptime": 0.9976
