@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T12:48:52+00:00",
+ "updated": "2026-11-06T12:51:20+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -3129,7 +3129,12 @@
    "skip": null,
    "error": null,
    "mode": "page",
-   "items": [],
+   "items": [
+    {
+     "title": "Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
+     "url": "https://cardcavern.co.uk/"
+    }
+   ],
    "uptime": 0.9976
   },
   {
@@ -9500,6 +9505,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-06T12:51:20+00:00",
+   "site": "Card Cavern",
+   "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
+   "url": "https://cardcavern.co.uk/"
+  },
+  {
    "time": "2026-11-06T10:43:50+00:00",
    "site": "Chaos Cards",
    "text": "New on page: Pokemon Mega Evolution Ascended Heroes - Mini Tin Clefairy",
@@ -10092,12 +10103,6 @@
    "site": "TCGora",
    "text": "NEW: Pok\u00e9mon TCG: 30th Celebration Tech Sticker Collection\u2014Lucario (Pre-Order) \u00a339.90",
    "url": "https://tcgora.com/cart/56909459161412:1"
-  },
-  {
-   "time": "2026-11-03T17:28:55+00:00",
-   "site": "TCGora",
-   "text": "NEW: Pok\u00e9mon TCG: 30th Celebration Figure Collection\u2014Mew (Pre-Order) \u00a359.90 (over RRP)",
-   "url": "https://tcgora.com/cart/56909443858756:1"
   }
  ],
  "wishlist": [
