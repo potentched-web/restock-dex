@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T20:31:01+00:00",
+ "updated": "2026-11-06T20:36:01+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -7673,8 +7673,63 @@
    "url": "https://jetcards.uk/",
    "skip": null,
    "error": null,
-   "mode": "page",
-   "items": [],
+   "mode": "shopify",
+   "items": [
+    {
+     "title": "Pokemon - Deck Crafter's Collection - Meowth ex",
+     "price": 9.99,
+     "available": true,
+     "url": "https://jetcards.uk/products/pokemon-deck-crafters-collection-meowth-ex",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://jetcards.uk/cart/58976515359101:1"
+    },
+    {
+     "title": "Pokemon - Mega Evolution - Delta Reign - 3-Pack Blister - Seel",
+     "price": 13.99,
+     "available": false,
+     "url": "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-3-pack-blister-seel",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://jetcards.uk/cart/58943354110333:1"
+    },
+    {
+     "title": "Pokemon - Mega Evolution - Delta Reign - Booster Box (36 Boosters)",
+     "price": 154.44,
+     "available": false,
+     "url": "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-booster-box-36-boosters",
+     "over_rrp": false,
+     "rrp": 155.0,
+     "cart": "https://jetcards.uk/cart/58915278258557:1"
+    },
+    {
+     "title": "Pokemon - Mega Evolution - Delta Reign - Booster Bundle",
+     "price": 24.99,
+     "available": false,
+     "url": "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-booster-bundle",
+     "over_rrp": false,
+     "rrp": 24.99,
+     "cart": "https://jetcards.uk/cart/58943314690429:1"
+    },
+    {
+     "title": "Pokemon - Mega Evolution - Delta Reign - Elite Trainer Box",
+     "price": 49.99,
+     "available": false,
+     "url": "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-elite-trainer-box",
+     "over_rrp": false,
+     "rrp": 49.99,
+     "cart": "https://jetcards.uk/cart/58943300075901:1"
+    },
+    {
+     "title": "Pokemon - Scarlet & Violet - Destined Rivals - Booster Bundle",
+     "price": 59.95,
+     "available": false,
+     "url": "https://jetcards.uk/products/pokemon-scarlet-violet-destined-rivals-booster-bundle",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://jetcards.uk/cart/58903348871549:1"
+    }
+   ],
    "uptime": 0.9976
   },
   {
@@ -9428,6 +9483,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-06T20:36:01+00:00",
+   "site": "JET Cards",
+   "text": "NEW: Pokemon - Deck Crafter's Collection - Meowth ex \u00a39.99",
+   "url": "https://jetcards.uk/cart/58976515359101:1"
+  },
+  {
    "time": "2026-11-06T16:36:02+00:00",
    "site": "Iconic TCG",
    "text": "BACK IN STOCK: Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Booster Bundle (6 Packs) \u00a345.00 (over RRP)",
@@ -10019,12 +10080,6 @@
    "time": "2026-11-03T21:58:24+00:00",
    "site": "Titan Cards",
    "text": "New on page: Pokemon Booster Packs & Booster Boxes",
-   "url": "https://titancards.co.uk/collections/pokemon"
-  },
-  {
-   "time": "2026-11-03T21:58:24+00:00",
-   "site": "Titan Cards",
-   "text": "New on page: Protect Your Pokemon Card Collection",
    "url": "https://titancards.co.uk/collections/pokemon"
   }
  ],
