@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T15:01:00+00:00",
+ "updated": "2026-11-06T15:06:00+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -2257,7 +2257,7 @@
     },
     {
      "title": "Pokemon - Destined Rivals - Booster Box Case (6 Booster Boxes)",
-     "price": 3919.0,
+     "price": 3920.0,
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-destined-rivals-booster-box-case-6-booster-boxes",
      "over_rrp": true,
@@ -2446,7 +2446,7 @@
     },
     {
      "title": "Pok\u00e9mon - Prismatic Evolutions Booster Bundle Master Case (60 bundles)",
-     "price": 9404.0,
+     "price": 9406.0,
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-prismatic-evolutions-booster-bundle-master-case-60-bundles",
      "over_rrp": true,
@@ -2491,7 +2491,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Journey Together SV09 Booster Box (36 Packs) - SEALED CASE OF 6",
-     "price": 1724.0,
+     "price": 1725.0,
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-journey-together-sv09-booster-box-36-packs-sealed-case-of-6",
      "over_rrp": true,
@@ -2806,7 +2806,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG: Scarlet & Violet 3.5: 151 \u2013 Full Booster Bundle Display",
-     "price": 3135.0,
+     "price": 3136.0,
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-3-5-151-full-booster-bundle-display",
      "over_rrp": true,
@@ -3253,15 +3253,6 @@
    "error": null,
    "mode": "shopify",
    "items": [
-    {
-     "title": "Pokemon TCG - Mega Evolution - 30th Celebration - Figure Collection - Mew",
-     "price": 29.95,
-     "available": false,
-     "url": "https://thecardvault.co.uk/products/pokemon-tcg-mega-evolution-30th-celebration-figure-collection-mew",
-     "over_rrp": false,
-     "rrp": 29.99,
-     "cart": "https://thecardvault.co.uk/cart/49969012048110:1"
-    },
     {
      "title": "Pokemon TCG - Mega Evolution - 30th Celebration - Figure Collection - Mewtwo",
      "price": 29.95,
@@ -4922,7 +4913,7 @@
     },
     {
      "title": "Pok\u00e9mon Chaos Rising Booster Box \u2014 36 Packs",
-     "price": 259.0,
+     "price": 260.0,
      "available": false,
      "url": "https://evolvault.com/products/pokemon-chaos-rising-booster-box-36-packs",
      "over_rrp": true,
@@ -6373,7 +6364,7 @@
     },
     {
      "title": "Pok\u00e9mon Center Ascended Heroes Elite Trainer Box",
-     "price": 477.0,
+     "price": 478.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-centre-mega-evolution-ascended-heroes-elite-trainer-box",
      "over_rrp": true,
@@ -6535,7 +6526,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Mega Charizard X ex Ultra Premium Collection",
-     "price": 368.0,
+     "price": 369.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-mega-charizard-x-ex-ultra-premium-collection",
      "over_rrp": true,
