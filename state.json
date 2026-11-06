@@ -3040,45 +3040,8 @@
   "mode": "shopify"
  },
  "JET Cards": {
-  "items": {
-   "58903348871549": [
-    "Pokemon - Scarlet & Violet - Destined Rivals - Booster Bundle",
-    59.95,
-    false,
-    "https://jetcards.uk/products/pokemon-scarlet-violet-destined-rivals-booster-bundle"
-   ],
-   "58915278258557": [
-    "Pokemon - Mega Evolution - Delta Reign - Booster Box (36 Boosters)",
-    154.44,
-    false,
-    "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-booster-box-36-boosters"
-   ],
-   "58943300075901": [
-    "Pokemon - Mega Evolution - Delta Reign - Elite Trainer Box",
-    49.99,
-    false,
-    "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-elite-trainer-box"
-   ],
-   "58943314690429": [
-    "Pokemon - Mega Evolution - Delta Reign - Booster Bundle",
-    24.99,
-    false,
-    "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-booster-bundle"
-   ],
-   "58943354110333": [
-    "Pokemon - Mega Evolution - Delta Reign - 3-Pack Blister - Seel",
-    13.99,
-    false,
-    "https://jetcards.uk/products/pokemon-mega-evolution-delta-reign-3-pack-blister-seel"
-   ],
-   "58976515359101": [
-    "Pokemon - Deck Crafter's Collection - Meowth ex",
-    9.99,
-    true,
-    "https://jetcards.uk/products/pokemon-deck-crafters-collection-meowth-ex"
-   ]
-  },
-  "mode": "shopify"
+  "lines": [],
+  "mode": "page"
  },
  "Japan2UK": {
   "items": {
