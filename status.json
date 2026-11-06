@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T19:13:34+00:00",
+ "updated": "2026-11-06T19:18:31+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -3266,6 +3266,15 @@
      "over_rrp": false,
      "rrp": 155.0,
      "cart": "https://thecardvault.co.uk/cart/46674194956526:1"
+    },
+    {
+     "title": "Pokemon TCG - Mega Evolution - Delta Reign - Booster Box (36x Packs)",
+     "price": 154.0,
+     "available": false,
+     "url": "https://thecardvault.co.uk/products/pokemon-tcg-mega-evolution-delta-reign-booster-box-36x-packs",
+     "over_rrp": false,
+     "rrp": 155.0,
+     "cart": "https://thecardvault.co.uk/cart/49738120986862:1"
     },
     {
      "title": "Pokemon TCG - Mega Evolution - Delta Reign - Booster Bundle",
