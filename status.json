@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T03:37:21+00:00",
+ "updated": "2026-11-06T03:42:22+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -227,7 +227,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9969
+   "uptime": 0.997
   },
   {
    "name": "Zatu Games",
@@ -3123,7 +3123,7 @@
      "url": "https://cardcavern.co.uk/"
     }
    ],
-   "uptime": 0.9942
+   "uptime": 0.9943
   },
   {
    "name": "Dice Cup Cafe",
