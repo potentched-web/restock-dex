@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T13:06:20+00:00",
+ "updated": "2026-11-06T13:11:19+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -9505,6 +9505,18 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-06T13:11:19+00:00",
+   "site": "Chaos Cards",
+   "text": "New ballot spotted: Pokemon Mega Evolution Delta Reign Premium Checklane Blister Ampharos",
+   "url": "https://www.chaoscards.co.uk/prod/other-pokemon/pokemon-mega-evolution-delta-reign-premium-checklane-blister-ampharos"
+  },
+  {
+   "time": "2026-11-06T13:11:19+00:00",
+   "site": "Chaos Cards",
+   "text": "New ballot spotted: Pokemon Mega Evolution Delta Reign Premium Checklane Blister Delphox",
+   "url": "https://www.chaoscards.co.uk/prod/other-pokemon/pokemon-mega-evolution-delta-reign-premium-checklane-blister-delphox"
+  },
+  {
    "time": "2026-11-06T12:51:20+00:00",
    "site": "Card Cavern",
    "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
@@ -10091,18 +10103,6 @@
    "site": "Titan Cards",
    "text": "New on page: Unleash the ultimate power with the Pokemon TCG Supercharged Breaker (Super Electric Breaker) SV8 Booster Box! With 30 Supercharged Breaker Booster...",
    "url": "https://titancards.co.uk/collections/pokemon"
-  },
-  {
-   "time": "2026-11-03T17:28:55+00:00",
-   "site": "TCGora",
-   "text": "NEW: Pok\u00e9mon TCG: 30th Celebration Ultra-Premium Collection\u2014Night Edition (Pre-Order) \u00a3399.90 (over RRP)",
-   "url": "https://tcgora.com/cart/56909466239300:1"
-  },
-  {
-   "time": "2026-11-03T17:28:55+00:00",
-   "site": "TCGora",
-   "text": "NEW: Pok\u00e9mon TCG: 30th Celebration Tech Sticker Collection\u2014Lucario (Pre-Order) \u00a339.90",
-   "url": "https://tcgora.com/cart/56909459161412:1"
   }
  ],
  "wishlist": [
@@ -10297,6 +10297,28 @@
   }
  ],
  "auto_drops": [
+  {
+   "shop": "Chaos Cards",
+   "name": "Pokemon Mega Evolution Delta Reign Premium Checklane Blister Delphox",
+   "url": "https://www.chaoscards.co.uk/prod/other-pokemon/pokemon-mega-evolution-delta-reign-premium-checklane-blister-delphox",
+   "type": "ballot",
+   "closes": null,
+   "seeded": false,
+   "note": "Spotted automatically. Open it to check if it's open and when it closes.",
+   "found": "2026-11-06T13:11:19+00:00",
+   "date_checked": "2026-11-06T13:11:19+00:00"
+  },
+  {
+   "shop": "Chaos Cards",
+   "name": "Pokemon Mega Evolution Delta Reign Premium Checklane Blister Ampharos",
+   "url": "https://www.chaoscards.co.uk/prod/other-pokemon/pokemon-mega-evolution-delta-reign-premium-checklane-blister-ampharos",
+   "type": "ballot",
+   "closes": null,
+   "seeded": false,
+   "note": "Spotted automatically. Open it to check if it's open and when it closes.",
+   "found": "2026-11-06T13:11:19+00:00",
+   "date_checked": "2026-11-06T13:11:19+00:00"
+  },
   {
    "shop": "Iconic TCG",
    "name": "Pok\u00e9mon TCG: 30th Celebration - Ultra-Premium Collection - Day & Night Pair (20% deposit \u2014 \u00a3600 invoiced before dispatch) (Preorder)",
