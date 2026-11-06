@@ -187,32 +187,5 @@
     ],
     "max": 24.99,
     "rrp_status": "confirmed"
-  },
-  {
-    "name": "Phantasmal Flames Elite Trainer Box",
-    "match": [
-      "phantasmal flames",
-      "elite trainer"
-    ],
-    "max": 49.99,
-    "rrp_status": "confirmed"
-  },
-  {
-    "name": "Phantasmal Flames Booster Bundle",
-    "match": [
-      "phantasmal flames",
-      "booster bundle"
-    ],
-    "max": 24.99,
-    "rrp_status": "confirmed"
-  },
-  {
-    "name": "Phantasmal Flames Booster Box",
-    "match": [
-      "phantasmal flames",
-      "booster box"
-    ],
-    "max": 155.0,
-    "rrp_status": "confirmed"
   }
 ]
