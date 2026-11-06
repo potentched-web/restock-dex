@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T10:28:50+00:00",
+ "updated": "2026-11-06T10:33:49+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -66,6 +66,10 @@
     },
     {
      "title": "Pokemon Mega Evolution Delta Reign Premium Checklane Blister Delphox",
+     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+    },
+    {
+     "title": "Pokemon Mega Evolution Pitch Black Booster Bundle",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
@@ -9493,6 +9497,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-06T10:33:49+00:00",
+   "site": "Chaos Cards",
+   "text": "New on page: Pokemon Mega Evolution Pitch Black Booster Bundle",
+   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+  },
+  {
    "time": "2026-11-06T10:06:20+00:00",
    "site": "Iconic TCG",
    "text": "BACK IN STOCK: Pok\u00e9mon TCG: 30th Celebration - Ultra-Premium Collection - Day & Night Pair (Pay in full) (Preorder) \u00a3750.00 (over RRP)",
@@ -10085,12 +10095,6 @@
    "site": "TCGora",
    "text": "NEW: Pok\u00e9mon TCG: 30th Celebration Ditto Premium Collection (Pre-Order) \u00a399.90 (over RRP)",
    "url": "https://tcgora.com/cart/56909432029508:1"
-  },
-  {
-   "time": "2026-11-03T17:28:55+00:00",
-   "site": "TCGora",
-   "text": "NEW: Pok\u00e9mon TCG: 30th Celebration Booster Bundle (Pre-Order) \u00a379.90 (over RRP)",
-   "url": "https://tcgora.com/cart/56909429637444:1"
   }
  ],
  "wishlist": [
