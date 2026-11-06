@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T16:31:03+00:00",
+ "updated": "2026-11-06T16:36:02+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -4169,7 +4169,7 @@
      "cart": "https://iconic-tcg.com/cart/58394757955916:1"
     },
     {
-     "title": "Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Booster Box (36 Packs) (Preorder)",
+     "title": "Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Booster Box (36 Packs)",
      "price": 240.0,
      "available": false,
      "url": "https://iconic-tcg.com/products/pokemon-tcg-delta-reign-booster-box-36-packs",
@@ -4178,9 +4178,9 @@
      "cart": "https://iconic-tcg.com/cart/58980531732812:1"
     },
     {
-     "title": "Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Booster Bundle (6 Packs) (Preorder)",
-     "price": 29.95,
-     "available": false,
+     "title": "Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Booster Bundle (6 Packs)",
+     "price": 45.0,
+     "available": true,
      "url": "https://iconic-tcg.com/products/pokemon-tcg-delta-reign-booster-bundle-6-packs",
      "over_rrp": true,
      "rrp": 24.99,
@@ -4752,6 +4752,15 @@
      "over_rrp": true,
      "rrp": 49.99,
      "cart": "https://iconic-tcg.com/cart/58325781938508:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Temporal Forces - Elite Trainer Box - Walking Wake (Pok\u00e9mon Centre Stamped)",
+     "price": 140.0,
+     "available": false,
+     "url": "https://iconic-tcg.com/products/pokemon-tcg-temporal-forces-elite-trainer-box-walking-wake-pokemon-centre-stamped",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://iconic-tcg.com/cart/58325782495564:1"
     },
     {
      "title": "Pok\u00e9mon TCG: Twilight Masquerade - Pok\u00e9mon Center Elite Trainer Box (Exclusive)",
@@ -9483,6 +9492,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-06T16:36:02+00:00",
+   "site": "Iconic TCG",
+   "text": "BACK IN STOCK: Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Booster Bundle (6 Packs) \u00a345.00 (over RRP)",
+   "url": "https://iconic-tcg.com/cart/58980531798348:1"
+  },
+  {
    "time": "2026-11-06T13:11:19+00:00",
    "site": "Chaos Cards",
    "text": "New ballot spotted: Pokemon Mega Evolution Delta Reign Premium Checklane Blister Ampharos",
@@ -10074,12 +10089,6 @@
    "time": "2026-11-03T21:58:24+00:00",
    "site": "Titan Cards",
    "text": "New on page: Protect Your Pokemon Card Collection",
-   "url": "https://titancards.co.uk/collections/pokemon"
-  },
-  {
-   "time": "2026-11-03T21:58:24+00:00",
-   "site": "Titan Cards",
-   "text": "New on page: Unleash the ultimate power with the Pokemon TCG Supercharged Breaker (Super Electric Breaker) SV8 Booster Box! With 30 Supercharged Breaker Booster...",
    "url": "https://titancards.co.uk/collections/pokemon"
   }
  ],
