@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T00:59:26+00:00",
+ "updated": "2026-11-06T01:04:26+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -227,7 +227,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9942
+   "uptime": 0.9943
   },
   {
    "name": "Zatu Games",
@@ -3123,7 +3123,7 @@
      "url": "https://cardcavern.co.uk/"
     }
    ],
-   "uptime": 0.9903
+   "uptime": 0.9905
   },
   {
    "name": "Dice Cup Cafe",
@@ -8697,7 +8697,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Scarlet & Violet Destined Rivals Booster Box (36 Packs) + Acrylic Display Case Bundle",
-     "price": 416.0,
+     "price": 415.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-scarlet-violet-destined-rivals-elite-trainer-box-copy",
      "over_rrp": true,
