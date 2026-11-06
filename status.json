@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T10:38:49+00:00",
+ "updated": "2026-11-06T10:43:50+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -34,6 +34,10 @@
     },
     {
      "title": "Pokemon First Partner Illustration Collection Series 1",
+     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+    },
+    {
+     "title": "Pokemon Mega Evolution Ascended Heroes - Mini Tin Clefairy",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
@@ -9501,6 +9505,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-06T10:43:50+00:00",
+   "site": "Chaos Cards",
+   "text": "New on page: Pokemon Mega Evolution Ascended Heroes - Mini Tin Clefairy",
+   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+  },
+  {
    "time": "2026-11-06T10:38:49+00:00",
    "site": "Chaos Cards",
    "text": "New on page: Pokemon Mega Evolution Perfect Order Booster Box (36 Packs)",
@@ -10093,12 +10103,6 @@
    "site": "TCGora",
    "text": "NEW: Pok\u00e9mon TCG: 30th Celebration Figure Collection\u2014Mew (Pre-Order) \u00a359.90 (over RRP)",
    "url": "https://tcgora.com/cart/56909443858756:1"
-  },
-  {
-   "time": "2026-11-03T17:28:55+00:00",
-   "site": "TCGora",
-   "text": "NEW: Pok\u00e9mon TCG: 30th Celebration Elite Trainer Box (Pre-Order) \u00a3129.90 (over RRP)",
-   "url": "https://tcgora.com/cart/56909438648644:1"
   }
  ],
  "wishlist": [
