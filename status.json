@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T16:41:02+00:00",
+ "updated": "2026-11-06T16:46:02+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -3249,15 +3249,6 @@
    "error": null,
    "mode": "shopify",
    "items": [
-    {
-     "title": "Pokemon TCG - Mega Evolution - 30th Celebration - Figure Collection - Mewtwo",
-     "price": 29.95,
-     "available": false,
-     "url": "https://thecardvault.co.uk/products/pokemon-tcg-mega-evolution-30th-celebration-figure-collection-mewtwo",
-     "over_rrp": false,
-     "rrp": 29.99,
-     "cart": "https://thecardvault.co.uk/cart/49969012244718:1"
-    },
     {
      "title": "Pokemon TCG - Mega Evolution - Ascended Heroes - Elite Trainer Box",
      "price": 49.95,
