@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T03:27:22+00:00",
+ "updated": "2026-11-06T03:32:22+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -227,7 +227,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9967
+   "uptime": 0.9968
   },
   {
    "name": "Zatu Games",
@@ -3123,7 +3123,7 @@
      "url": "https://cardcavern.co.uk/"
     }
    ],
-   "uptime": 0.994
+   "uptime": 0.9941
   },
   {
    "name": "Dice Cup Cafe",
@@ -6324,6 +6324,24 @@
    "mode": "shopify",
    "items": [
     {
+     "title": "POK\u00c9MON TCG: MEGA EVOLUTION \u2014 DELTA REIGN BOOSTER BOX (36 PACKS)",
+     "price": 330.0,
+     "available": true,
+     "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-delta-reign-booster-box-36-packs",
+     "over_rrp": true,
+     "rrp": 155.0,
+     "cart": "https://hoodlumsuk.com/cart/57536149029129:1"
+    },
+    {
+     "title": "POK\u00c9MON TCG: MEGA EVOLUTION \u2014 DELTA REIGN ELITE TRAINER BOX",
+     "price": 179.0,
+     "available": true,
+     "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-delta-reign-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://hoodlumsuk.com/cart/57536148898057:1"
+    },
+    {
      "title": "Pok\u00e9mon Center Ascended Heroes Elite Trainer Box",
      "price": 480.0,
      "available": true,
@@ -9448,6 +9466,18 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-06T03:32:22+00:00",
+   "site": "Hoodlums UK",
+   "text": "NEW: POK\u00c9MON TCG: MEGA EVOLUTION \u2014 DELTA REIGN ELITE TRAINER BOX \u00a3179.00 (over RRP)",
+   "url": "https://hoodlumsuk.com/cart/57536148898057:1"
+  },
+  {
+   "time": "2026-11-06T03:32:22+00:00",
+   "site": "Hoodlums UK",
+   "text": "NEW: POK\u00c9MON TCG: MEGA EVOLUTION \u2014 DELTA REIGN BOOSTER BOX (36 PACKS) \u00a3330.00 (over RRP)",
+   "url": "https://hoodlumsuk.com/cart/57536149029129:1"
+  },
+  {
    "time": "2026-11-05T23:31:57+00:00",
    "site": "Card Cavern",
    "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
@@ -10033,18 +10063,6 @@
    "time": "2026-11-03T17:23:54+00:00",
    "site": "TCGora",
    "text": "New on page: Mega Evolution \u2014 Pitch Black Booster Box (Pre-Order)",
-   "url": "https://tcgora.com/"
-  },
-  {
-   "time": "2026-11-03T17:23:54+00:00",
-   "site": "TCGora",
-   "text": "New on page: Mega Evolution \u2014 Pitch Black Booster Box (Pre-Order) - https://tcgora.com/products/mega-evolution-pitch-black-booster-box-pre-order",
-   "url": "https://tcgora.com/"
-  },
-  {
-   "time": "2026-11-03T17:23:54+00:00",
-   "site": "TCGora",
-   "text": "New on page: Mega Evolution\u2014Pitch Black Booster Box",
    "url": "https://tcgora.com/"
   }
  ],
