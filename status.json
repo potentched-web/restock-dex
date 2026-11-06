@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T08:25:09+00:00",
+ "updated": "2026-11-06T08:30:10+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -7724,7 +7724,7 @@
     {
      "title": "Pokemon - Scarlet & Violet - Destined Rivals - Booster Bundle",
      "price": 59.95,
-     "available": true,
+     "available": false,
      "url": "https://jetcards.uk/products/pokemon-scarlet-violet-destined-rivals-booster-bundle",
      "over_rrp": true,
      "rrp": 24.99,
