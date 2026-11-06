@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T09:56:19+00:00",
+ "updated": "2026-11-06T10:01:20+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -3666,6 +3666,24 @@
      "cart": "https://iconic-tcg.com/cart/58325786362188:1"
     },
     {
+     "title": "Pok\u00e9mon TCG: 30th Celebration - Ultra-Premium Collection - Day & Night Pair (20% deposit \u2014 \u00a3600 invoiced before dispatch) (Preorder)",
+     "price": 150.0,
+     "available": false,
+     "url": "https://iconic-tcg.com/products/pokemon-tcg-30th-celebration-ultra-premium-collection-day-and-night",
+     "over_rrp": false,
+     "rrp": 169.99,
+     "cart": "https://iconic-tcg.com/cart/59800435949900:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: 30th Celebration - Ultra-Premium Collection - Day & Night Pair (Pay in full) (Preorder)",
+     "price": 750.0,
+     "available": false,
+     "url": "https://iconic-tcg.com/products/pokemon-tcg-30th-celebration-ultra-premium-collection-day-and-night",
+     "over_rrp": true,
+     "rrp": 169.99,
+     "cart": "https://iconic-tcg.com/cart/59800435917132:1"
+    },
+    {
      "title": "Pok\u00e9mon TCG: Ascended Heroes - Booster Bundle Case (Sealed)",
      "price": 2400.0,
      "available": true,
@@ -4744,15 +4762,6 @@
      "over_rrp": true,
      "rrp": 49.99,
      "cart": "https://iconic-tcg.com/cart/58325781938508:1"
-    },
-    {
-     "title": "Pok\u00e9mon TCG: Temporal Forces - Elite Trainer Box - Walking Wake (Pok\u00e9mon Centre Stamped)",
-     "price": 140.0,
-     "available": false,
-     "url": "https://iconic-tcg.com/products/pokemon-tcg-temporal-forces-elite-trainer-box-walking-wake-pokemon-centre-stamped",
-     "over_rrp": true,
-     "rrp": 49.99,
-     "cart": "https://iconic-tcg.com/cart/58325782495564:1"
     },
     {
      "title": "Pok\u00e9mon TCG: Twilight Masquerade - Pok\u00e9mon Center Elite Trainer Box (Exclusive)",
@@ -9484,6 +9493,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-06T10:01:20+00:00",
+   "site": "Iconic TCG",
+   "text": "New pre-order spotted: Pok\u00e9mon TCG: 30th Celebration - Ultra-Premium Collection - Day & Night Pair (20% deposit \u2014 \u00a3600 invoiced before dispatch) (Preorder)",
+   "url": "https://iconic-tcg.com/products/pokemon-tcg-30th-celebration-ultra-premium-collection-day-and-night"
+  },
+  {
    "time": "2026-11-06T03:37:21+00:00",
    "site": "Hoodlums UK",
    "text": "NEW: POK\u00c9MON TCG: MEGA EVOLUTION \u2014 DELTA REIGN BOOSTER BUNDLE (6 PACKS) \u00a3110.00 (over RRP)",
@@ -10076,12 +10091,6 @@
    "site": "TCGora",
    "text": "NEW: Pok\u00e9mon TCG: Mega Evolution\u2014Delta Reign Elite Trainer Box (Pre-Order) \u00a399.90 (over RRP)",
    "url": "https://tcgora.com/cart/56890826621252:1"
-  },
-  {
-   "time": "2026-11-03T17:28:55+00:00",
-   "site": "TCGora",
-   "text": "NEW: Mega Evolution\u2014Pitch Black Pok\u00e9mon Center Elite Trainer Box (Pre-Order) \u00a399.00 (over RRP)",
-   "url": "https://tcgora.com/cart/56752372220228:1"
   }
  ],
  "wishlist": [
@@ -10276,6 +10285,17 @@
   }
  ],
  "auto_drops": [
+  {
+   "shop": "Iconic TCG",
+   "name": "Pok\u00e9mon TCG: 30th Celebration - Ultra-Premium Collection - Day & Night Pair (20% deposit \u2014 \u00a3600 invoiced before dispatch) (Preorder)",
+   "url": "https://iconic-tcg.com/products/pokemon-tcg-30th-celebration-ultra-premium-collection-day-and-night",
+   "closes": null,
+   "type": "pre-order",
+   "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
+   "found": "2026-11-06T10:01:20+00:00",
+   "expected": "2026-09-16",
+   "date_checked": "2026-11-06T10:01:20+00:00"
+  },
   {
    "shop": "TCGora",
    "name": "Pok\u00e9mon TCG: Mega Evolution\u2014Delta Reign Elite Trainer Box (Pre-Order)",
