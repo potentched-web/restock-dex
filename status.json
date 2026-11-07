@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T07:58:09+00:00",
+ "updated": "2026-11-07T08:03:10+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -389,7 +389,7 @@
     {
      "title": "Pokemon TCG: 30th Celebration - Elite Trainer Box",
      "price": 114.95,
-     "available": true,
+     "available": false,
      "url": "https://collectorsedge.co.uk/products/pokemon-tcg-30th-celebration-elite-trainer-box",
      "over_rrp": true,
      "rrp": 49.99,
