@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T23:47:21+00:00",
+ "updated": "2026-11-07T23:52:21+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -8170,7 +8170,7 @@
     {
      "title": "Pokemon TCG - First Partner Illustration Collection - Series 3",
      "price": 46.0,
-     "available": true,
+     "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-first-partner-illustration-collection-series-3",
      "over_rrp": false,
      "rrp": null,
