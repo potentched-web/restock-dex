@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T00:08:34+00:00",
+ "updated": "2026-11-07T00:13:34+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -4005,7 +4005,7 @@
     {
      "title": "Pok\u00e9mon TCG: Fusion Strike - Elite Trainer Box",
      "price": 280.0,
-     "available": true,
+     "available": false,
      "url": "https://iconic-tcg.com/products/pokemon-tcg-fusion-strike-elite-trainer-box",
      "over_rrp": true,
      "rrp": 49.99,
@@ -4113,7 +4113,7 @@
     {
      "title": "Pok\u00e9mon TCG: Mega Evolution - Pok\u00e9mon Center Elite Trainer Box - Mega Lucario (Exclusive)",
      "price": 155.0,
-     "available": true,
+     "available": false,
      "url": "https://iconic-tcg.com/products/mega-evolution-pokemon-center-elite-trainer-box-exclusive-mega-lucario",
      "over_rrp": true,
      "rrp": 56.99,
