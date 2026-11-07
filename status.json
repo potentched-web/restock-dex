@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T12:40:36+00:00",
+ "updated": "2026-11-07T12:42:59+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -3085,7 +3085,12 @@
    "skip": null,
    "error": null,
    "mode": "page",
-   "items": [],
+   "items": [
+    {
+     "title": "Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
+     "url": "https://cardcavern.co.uk/"
+    }
+   ],
    "uptime": 0.9976
   },
   {
@@ -9465,6 +9470,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-07T12:42:59+00:00",
+   "site": "Card Cavern",
+   "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
+   "url": "https://cardcavern.co.uk/"
+  },
+  {
    "time": "2026-11-07T03:05:59+00:00",
    "site": "Collectors Edge",
    "text": "NEW: Pokemon TCG: 30th Celebration - Elite Trainer Box \u00a3114.95 (over RRP)",
@@ -10054,12 +10065,6 @@
   },
   {
    "time": "2026-11-04T01:46:19+00:00",
-   "site": "Card Cavern",
-   "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
-   "url": "https://cardcavern.co.uk/"
-  },
-  {
-   "time": "2026-11-03T23:20:09+00:00",
    "site": "Card Cavern",
    "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
    "url": "https://cardcavern.co.uk/"
