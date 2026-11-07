@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T03:00:58+00:00",
+ "updated": "2026-11-07T03:05:59+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -386,6 +386,15 @@
    "error": null,
    "mode": "shopify",
    "items": [
+    {
+     "title": "Pokemon TCG: 30th Celebration - Elite Trainer Box",
+     "price": 114.95,
+     "available": true,
+     "url": "https://collectorsedge.co.uk/products/pokemon-tcg-30th-celebration-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://collectorsedge.co.uk/cart/54210291925331:1"
+    },
     {
      "title": "Pokemon TCG: Ascended Heroes - SEALED Mini Tin Case - 10 Tins",
      "price": 250.0,
@@ -9461,6 +9470,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-07T03:05:59+00:00",
+   "site": "Collectors Edge",
+   "text": "NEW: Pokemon TCG: 30th Celebration - Elite Trainer Box \u00a3114.95 (over RRP)",
+   "url": "https://collectorsedge.co.uk/cart/54210291925331:1"
+  },
+  {
    "time": "2026-11-07T01:48:30+00:00",
    "site": "Hoodlums UK",
    "text": "NEW: POK\u00c9MON TCG: 30TH CELEBRATION ULTRA-PREMIUM COLLECTION \u2013 NIGHT (UMBREON EX) \u00a3654.00 (over RRP)",
@@ -10053,12 +10068,6 @@
    "site": "Card Cavern",
    "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
    "url": "https://cardcavern.co.uk/"
-  },
-  {
-   "time": "2026-11-03T22:03:24+00:00",
-   "site": "Titan Cards",
-   "text": "NEW: Pokemon Future Flash SV4M Booster Box (30 Booster Packs) \u00a3105.00",
-   "url": "https://titancards.co.uk/cart/47740741189962:1"
   }
  ],
  "wishlist": [
