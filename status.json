@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T08:38:07+00:00",
+ "updated": "2026-11-08T08:43:07+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -7160,7 +7160,7 @@
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Poster Collection Box",
      "price": 39.95,
-     "available": false,
+     "available": true,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-poster-collection-box",
      "over_rrp": false,
      "rrp": null,
@@ -9452,6 +9452,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-08T08:43:07+00:00",
+   "site": "120HP",
+   "text": "BACK IN STOCK: Pok\u00e9mon TCG: 30th Celebration Poster Collection Box \u00a339.95",
+   "url": "https://www.120hp.co.uk/cart/57565273129335:1"
+  },
+  {
    "time": "2026-11-08T00:34:43+00:00",
    "site": "Card Cavern",
    "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
@@ -10043,12 +10049,6 @@
    "time": "2026-11-04T02:31:18+00:00",
    "site": "Evolvault",
    "text": "New on page: Pok\u00e9mon Chaos Rising Booster Box \u2014 36 Packs",
-   "url": "https://evolvault.com/"
-  },
-  {
-   "time": "2026-11-04T02:31:18+00:00",
-   "site": "Evolvault",
-   "text": "New on page: Pok\u00e9mon Chaos Rising Elite Trainer Box \u2014 Pok\u00e9mon Center Exclusive",
    "url": "https://evolvault.com/"
   }
  ],
