@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T10:46:50+00:00",
+ "updated": "2026-11-08T10:51:49+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -2898,7 +2898,7 @@
     {
      "title": "Pok\u00e9mon Trading Card Game (TGC): Mega Evolution Delta Reign Elite Trainer Box (Pre-Order)",
      "price": 174.0,
-     "available": false,
+     "available": true,
      "url": "https://pixel-hub.co.uk/products/pokemon-trading-card-game-tgc-mega-evolution-delta-reign-elite-trainer-box",
      "over_rrp": true,
      "rrp": 49.99,
@@ -9452,6 +9452,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-08T10:51:49+00:00",
+   "site": "Pixel Hub",
+   "text": "BACK IN STOCK: Pok\u00e9mon Trading Card Game (TGC): Mega Evolution Delta Reign Elite Trainer Box (Pre-Order) \u00a3174.00 (over RRP)",
+   "url": "https://pixel-hub.co.uk/cart/55711586779478:1"
+  },
+  {
    "time": "2026-11-08T08:43:07+00:00",
    "site": "120HP",
    "text": "BACK IN STOCK: Pok\u00e9mon TCG: 30th Celebration Poster Collection Box \u00a339.95",
@@ -10043,12 +10049,6 @@
    "time": "2026-11-04T02:31:18+00:00",
    "site": "Evolvault",
    "text": "New on page: Pok\u00e9mon Ascended Heroes Booster Bundle \u2014 6 Packs",
-   "url": "https://evolvault.com/"
-  },
-  {
-   "time": "2026-11-04T02:31:18+00:00",
-   "site": "Evolvault",
-   "text": "New on page: Pok\u00e9mon Chaos Rising Booster Box \u2014 36 Packs",
    "url": "https://evolvault.com/"
   }
  ],
