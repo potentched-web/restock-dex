@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T13:06:46+00:00",
+ "updated": "2026-11-08T13:09:16+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -114,24 +114,6 @@
      "cart": "https://www.totalcards.net/cart/58965352120701:1"
     },
     {
-     "title": "Pokemon - 30th Celebration - Tin - Greninja ex - Empty Tin",
-     "price": 4.13,
-     "available": false,
-     "url": "https://www.totalcards.net/products/pokemon-30th-celebration-tin-greninja-ex-empty-tin",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://www.totalcards.net/cart/58873631998333:1"
-    },
-    {
-     "title": "Pokemon - 30th Celebration - Tin - Sylveon ex - Empty Tin",
-     "price": 2.04,
-     "available": false,
-     "url": "https://www.totalcards.net/products/pokemon-30th-celebration-tin-sylveon-ex-empty-tin",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://www.totalcards.net/cart/58873624854909:1"
-    },
-    {
      "title": "Pokemon - Mega Evolution - Pitch Black - Elite Trainer Box - (EMPTY)",
      "price": 1.63,
      "available": false,
@@ -177,7 +159,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9834
+   "uptime": 0.9837
   },
   {
    "name": "Zatu Games",
