@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T21:14:15+00:00",
+ "updated": "2026-11-08T21:19:15+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -25,11 +25,23 @@
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
+     "title": "Pokemon First Partner Illustration Collection Series 3",
+     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+    },
+    {
      "title": "Pokemon Mega Evolution Ascended Heroes - Mini Tin Clefairy",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
+     "title": "Pokemon Mega Evolution Chaos Rising Booster Box (36 Packs)",
+     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+    },
+    {
      "title": "Pokemon Mega Evolution Perfect Order Booster Box (36 Packs)",
+     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+    },
+    {
+     "title": "Pokemon Mega Evolution Pitch Black Booster Bundle",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
@@ -9421,6 +9433,24 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-08T21:19:15+00:00",
+   "site": "Chaos Cards",
+   "text": "New on page: Pokemon First Partner Illustration Collection Series 3",
+   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+  },
+  {
+   "time": "2026-11-08T21:19:15+00:00",
+   "site": "Chaos Cards",
+   "text": "New on page: Pokemon Mega Evolution Chaos Rising Booster Box (36 Packs)",
+   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+  },
+  {
+   "time": "2026-11-08T21:19:15+00:00",
+   "site": "Chaos Cards",
+   "text": "New on page: Pokemon Mega Evolution Pitch Black Booster Bundle",
+   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+  },
+  {
    "time": "2026-11-08T20:41:45+00:00",
    "site": "Card Cavern",
    "text": "New on page: Re-158H/20-110H Hippokampos (Legacy Collection Foil)",
@@ -10001,24 +10031,6 @@
    "site": "Evolvault",
    "text": "NEW: Pok\u00e9mon 30th Celebration Mini Tin \u2014 2 Booster Packs (Random Design) \u00a335.00",
    "url": "https://evolvault.com/cart/63796715290954:1"
-  },
-  {
-   "time": "2026-11-04T02:40:46+00:00",
-   "site": "Evolvault",
-   "text": "NEW: Pok\u00e9mon Delta Reign Booster Bundle \u2014 6 Packs (Pre-Order) \u00a376.00 (over RRP)",
-   "url": "https://evolvault.com/cart/63738003325258:1"
-  },
-  {
-   "time": "2026-11-04T02:40:46+00:00",
-   "site": "Evolvault",
-   "text": "NEW: Pok\u00e9mon Delta Reign Booster Box \u2014 36 Packs (Pre-Order) \u00a3303.00 (over RRP)",
-   "url": "https://evolvault.com/cart/63738003161418:1"
-  },
-  {
-   "time": "2026-11-04T02:40:46+00:00",
-   "site": "Evolvault",
-   "text": "NEW: Pok\u00e9mon Delta Reign Elite Trainer Box \u2014 Pok\u00e9mon Center Exclusive (Pre-Order) \u00a3289.00 (over RRP)",
-   "url": "https://evolvault.com/cart/63738002112842:1"
   }
  ],
  "wishlist": [
