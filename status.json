@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T19:59:19+00:00",
+ "updated": "2026-11-08T20:04:20+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -164,7 +164,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9974
+   "uptime": 0.9975
   },
   {
    "name": "Zatu Games",
@@ -4892,7 +4892,7 @@
     },
     {
      "title": "Pok\u00e9mon Destined Rivals Elite Trainer Box \u2014 Pok\u00e9mon Center Exclusive",
-     "price": 245.0,
+     "price": 246.0,
      "available": false,
      "url": "https://evolvault.com/products/destined-rivals-pokemon-center-etb",
      "over_rrp": true,
@@ -4982,7 +4982,7 @@
     },
     {
      "title": "Pok\u00e9mon Phantasmal Flames Elite Trainer Box \u2014 Pok\u00e9mon Center Exclusive",
-     "price": 245.0,
+     "price": 246.0,
      "available": false,
      "url": "https://evolvault.com/products/phantasmal-flames-pokemon-center-etb",
      "over_rrp": true,
@@ -8913,7 +8913,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Scarlet and Violet Surging Sparks Booster Box",
-     "price": 282.0,
+     "price": 283.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-and-violet-surging-sparks-booster-box",
      "over_rrp": true,
