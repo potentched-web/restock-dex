@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T14:36:47+00:00",
+ "updated": "2026-11-08T14:41:48+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -132,6 +132,15 @@
      "cart": "https://www.totalcards.net/cart/59038026301821:1"
     },
     {
+     "title": "Pokemon - Mega Rayquaza ex - Premium Tournament Collection (Pre-Order)",
+     "price": 0.0,
+     "available": false,
+     "url": "https://www.totalcards.net/products/pokemon-mega-rayquaza-ex-premium-tournament-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://www.totalcards.net/cart/59065346785661:1"
+    },
+    {
      "title": "Pokemon - Theme Deck & Blisters Exclusives - Charmander - 004/165",
      "price": 2.88,
      "available": true,
@@ -159,7 +168,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9886
+   "uptime": 0.9888
   },
   {
    "name": "Zatu Games",
@@ -9416,6 +9425,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-08T14:41:48+00:00",
+   "site": "Total Cards",
+   "text": "New pre-order spotted: Pokemon - Mega Rayquaza ex - Premium Tournament Collection (Pre-Order)",
+   "url": "https://www.totalcards.net/products/pokemon-mega-rayquaza-ex-premium-tournament-collection"
+  },
+  {
    "time": "2026-11-08T12:21:47+00:00",
    "site": "Card Cavern",
    "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
@@ -10008,12 +10023,6 @@
    "site": "Evolvault",
    "text": "NEW: Pok\u00e9mon 30th Celebration Tech Sticker Collection \u2014 Lucario (Pre-Order) \u00a355.00",
    "url": "https://evolvault.com/cart/62730494869834:1"
-  },
-  {
-   "time": "2026-11-04T02:40:46+00:00",
-   "site": "Evolvault",
-   "text": "NEW: Pok\u00e9mon 30th Celebration Tech Sticker Collection \u2014 Alolan Exeggutor (Pre-Order) \u00a355.00",
-   "url": "https://evolvault.com/cart/62730494837066:1"
   }
  ],
  "wishlist": [
@@ -10208,6 +10217,17 @@
   }
  ],
  "auto_drops": [
+  {
+   "shop": "Total Cards",
+   "name": "Pokemon - Mega Rayquaza ex - Premium Tournament Collection (Pre-Order)",
+   "url": "https://www.totalcards.net/products/pokemon-mega-rayquaza-ex-premium-tournament-collection",
+   "closes": null,
+   "type": "pre-order",
+   "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
+   "found": "2026-11-08T14:41:48+00:00",
+   "expected": "2027-02-12",
+   "date_checked": "2026-11-08T14:41:48+00:00"
+  },
   {
    "shop": "Chaos Cards",
    "name": "Pokemon Mega Evolution Delta Reign Premium Checklane Blister Delphox",

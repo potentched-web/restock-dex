@@ -5957,6 +5957,12 @@
     0.79,
     true,
     "https://www.totalcards.net/products/pokemon-mega-evolution-pitch-black-elite-trainer-box-dice"
+   ],
+   "59065346785661": [
+    "Pokemon - Mega Rayquaza ex - Premium Tournament Collection (Pre-Order)",
+    0.0,
+    false,
+    "https://www.totalcards.net/products/pokemon-mega-rayquaza-ex-premium-tournament-collection"
    ]
   },
   "mode": "shopify"
@@ -6137,7 +6143,9 @@
   "The Dice Dungeon": [],
   "The TCG Shop": [],
   "Titan Cards": [],
-  "Total Cards": [],
+  "Total Cards": [
+   "https://www.totalcards.net/products/pokemon-mega-rayquaza-ex-premium-tournament-collection"
+  ],
   "Zatu Games": []
  },
  "_ping_fixed": "2026-11-03T18:16:58+00:00",
@@ -6152,7 +6160,7 @@
   "Dice Cup Cafe": 0.9976,
   "Double Sleeved": 0.9976,
   "Evolvault": 0.9976,
-  "Firestorm Games": 0.9886,
+  "Firestorm Games": 0.9888,
   "Hobby Addicts": 0.9976,
   "Hokey Poke Games": 0.9976,
   "Hoodlums UK": 0.9976,
