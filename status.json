@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T00:32:21+00:00",
+ "updated": "2026-11-08T00:34:43+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -3089,7 +3089,12 @@
    "skip": null,
    "error": null,
    "mode": "page",
-   "items": [],
+   "items": [
+    {
+     "title": "Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
+     "url": "https://cardcavern.co.uk/"
+    }
+   ],
    "uptime": 0.9976
   },
   {
@@ -9469,6 +9474,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-08T00:34:43+00:00",
+   "site": "Card Cavern",
+   "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
+   "url": "https://cardcavern.co.uk/"
+  },
+  {
    "time": "2026-11-07T21:17:35+00:00",
    "site": "Chaos Cards",
    "text": "New on page: Pokemon Mega Evolution Chaos Rising Booster Box (36 Packs)",
@@ -10060,12 +10071,6 @@
    "time": "2026-11-04T02:31:18+00:00",
    "site": "Evolvault",
    "text": "New on page: Pok\u00e9mon Chaos Rising Elite Trainer Box \u2014 Pok\u00e9mon Center Exclusive",
-   "url": "https://evolvault.com/"
-  },
-  {
-   "time": "2026-11-04T02:31:18+00:00",
-   "site": "Evolvault",
-   "text": "New on page: Pok\u00e9mon Delta Reign Booster Box \u2014 36 Packs",
    "url": "https://evolvault.com/"
   }
  ],
