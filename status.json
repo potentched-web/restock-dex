@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T11:31:49+00:00",
+ "updated": "2026-11-08T11:34:19+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -3067,12 +3067,7 @@
    "skip": null,
    "error": null,
    "mode": "page",
-   "items": [
-    {
-     "title": "Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
-     "url": "https://cardcavern.co.uk/"
-    }
-   ],
+   "items": [],
    "uptime": 0.9976
   },
   {
@@ -3996,7 +3991,7 @@
     {
      "title": "Pok\u00e9mon TCG: Fusion Strike - Elite Trainer Box",
      "price": 280.0,
-     "available": false,
+     "available": true,
      "url": "https://iconic-tcg.com/products/pokemon-tcg-fusion-strike-elite-trainer-box",
      "over_rrp": true,
      "rrp": 49.99,
@@ -4104,7 +4099,7 @@
     {
      "title": "Pok\u00e9mon TCG: Mega Evolution - Pok\u00e9mon Center Elite Trainer Box - Mega Lucario (Exclusive)",
      "price": 155.0,
-     "available": false,
+     "available": true,
      "url": "https://iconic-tcg.com/products/mega-evolution-pokemon-center-elite-trainer-box-exclusive-mega-lucario",
      "over_rrp": true,
      "rrp": 56.99,
@@ -9452,6 +9447,18 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-08T11:34:19+00:00",
+   "site": "Iconic TCG",
+   "text": "BACK IN STOCK: Pok\u00e9mon TCG: Mega Evolution - Pok\u00e9mon Center Elite Trainer Box - Mega Lucario (Exclusive) \u00a3155.00 (over RRP)",
+   "url": "https://iconic-tcg.com/cart/58394757955916:1"
+  },
+  {
+   "time": "2026-11-08T11:34:19+00:00",
+   "site": "Iconic TCG",
+   "text": "BACK IN STOCK: Pok\u00e9mon TCG: Fusion Strike - Elite Trainer Box \u00a3280.00 (over RRP)",
+   "url": "https://iconic-tcg.com/cart/59003333443916:1"
+  },
+  {
    "time": "2026-11-08T10:51:49+00:00",
    "site": "Pixel Hub",
    "text": "BACK IN STOCK: Pok\u00e9mon Trading Card Game (TGC): Mega Evolution Delta Reign Elite Trainer Box (Pre-Order) \u00a3174.00 (over RRP)",
@@ -10038,18 +10045,6 @@
    "site": "Evolvault",
    "text": "NEW: Pok\u00e9mon Pitch Black Elite Trainer Box \u2014 Pok\u00e9mon Center Exclusive (Pre-Order) \u00a3131.00 (over RRP)",
    "url": "https://evolvault.com/cart/61754524172618:1"
-  },
-  {
-   "time": "2026-11-04T02:31:18+00:00",
-   "site": "Evolvault",
-   "text": "New on page: Pok\u00e9mon 30th Celebration Booster Bundle \u2014 6 Packs",
-   "url": "https://evolvault.com/"
-  },
-  {
-   "time": "2026-11-04T02:31:18+00:00",
-   "site": "Evolvault",
-   "text": "New on page: Pok\u00e9mon Ascended Heroes Booster Bundle \u2014 6 Packs",
-   "url": "https://evolvault.com/"
   }
  ],
  "wishlist": [

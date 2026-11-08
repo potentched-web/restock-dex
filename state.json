@@ -633,9 +633,7 @@
   "mode": "shopify"
  },
  "Card Cavern": {
-  "lines": [
-   "Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)"
-  ],
+  "lines": [],
   "mode": "page"
  },
  "CardDeckr": {
@@ -2891,7 +2889,7 @@
    "58394757955916": [
     "Pok\u00e9mon TCG: Mega Evolution - Pok\u00e9mon Center Elite Trainer Box - Mega Lucario (Exclusive)",
     155.0,
-    false,
+    true,
     "https://iconic-tcg.com/products/mega-evolution-pokemon-center-elite-trainer-box-exclusive-mega-lucario"
    ],
    "58394758021452": [
@@ -3005,7 +3003,7 @@
    "59003333443916": [
     "Pok\u00e9mon TCG: Fusion Strike - Elite Trainer Box",
     280.0,
-    false,
+    true,
     "https://iconic-tcg.com/products/pokemon-tcg-fusion-strike-elite-trainer-box"
    ],
    "59003334263116": [
