@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T14:26:47+00:00",
+ "updated": "2026-11-08T14:31:48+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -159,7 +159,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9882
+   "uptime": 0.9884
   },
   {
    "name": "Zatu Games",
@@ -4770,7 +4770,7 @@
     },
     {
      "title": "Pok\u00e9mon 30th Celebration Tech Sticker Collection \u2014 Alolan Exeggutor (Pre-Order)",
-     "price": 55.0,
+     "price": 41.0,
      "available": true,
      "url": "https://evolvault.com/products/pokemon-30th-celebration-tech-sticker-alolan-exeggutor",
      "over_rrp": false,
@@ -4779,7 +4779,7 @@
     },
     {
      "title": "Pok\u00e9mon 30th Celebration Tech Sticker Collection \u2014 Lucario (Pre-Order)",
-     "price": 55.0,
+     "price": 41.0,
      "available": true,
      "url": "https://evolvault.com/products/pokemon-30th-celebration-tech-sticker-lucario",
      "over_rrp": false,
@@ -4842,7 +4842,7 @@
     },
     {
      "title": "Pok\u00e9mon Delta Reign Booster Box \u2014 36 Packs (Pre-Order)",
-     "price": 300.0,
+     "price": 286.0,
      "available": true,
      "url": "https://evolvault.com/products/pokemon-delta-reign-booster-box",
      "over_rrp": true,
@@ -4851,7 +4851,7 @@
     },
     {
      "title": "Pok\u00e9mon Delta Reign Booster Bundle \u2014 6 Packs (Pre-Order)",
-     "price": 75.0,
+     "price": 69.0,
      "available": true,
      "url": "https://evolvault.com/products/pokemon-delta-reign-booster-bundle",
      "over_rrp": true,
@@ -4860,7 +4860,7 @@
     },
     {
      "title": "Pok\u00e9mon Delta Reign Elite Trainer Box \u2014 Pok\u00e9mon Center Exclusive (Pre-Order)",
-     "price": 286.0,
+     "price": 259.0,
      "available": true,
      "url": "https://evolvault.com/products/pokemon-delta-reign-pokemon-center-etb",
      "over_rrp": true,
