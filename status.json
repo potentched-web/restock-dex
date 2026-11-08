@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T21:24:16+00:00",
+ "updated": "2026-11-08T21:29:15+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -29,7 +29,23 @@
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
+     "title": "Pokemon Lumiose City Mini Tins Emboar",
+     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+    },
+    {
+     "title": "Pokemon Lumiose City Mini Tins Feraligatr",
+     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+    },
+    {
+     "title": "Pokemon Lumiose City Mini Tins Gallade",
+     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+    },
+    {
      "title": "Pokemon Mega Evolution Ascended Heroes - Mini Tin Clefairy",
+     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+    },
+    {
+     "title": "Pokemon Mega Evolution Ascended Heroes - Mini Tin Riolu",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
@@ -9433,6 +9449,30 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-08T21:29:15+00:00",
+   "site": "Chaos Cards",
+   "text": "New on page: Pokemon Lumiose City Mini Tins Emboar",
+   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+  },
+  {
+   "time": "2026-11-08T21:29:15+00:00",
+   "site": "Chaos Cards",
+   "text": "New on page: Pokemon Lumiose City Mini Tins Feraligatr",
+   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+  },
+  {
+   "time": "2026-11-08T21:29:15+00:00",
+   "site": "Chaos Cards",
+   "text": "New on page: Pokemon Lumiose City Mini Tins Gallade",
+   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+  },
+  {
+   "time": "2026-11-08T21:29:15+00:00",
+   "site": "Chaos Cards",
+   "text": "New on page: Pokemon Mega Evolution Ascended Heroes - Mini Tin Riolu",
+   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+  },
+  {
    "time": "2026-11-08T21:19:15+00:00",
    "site": "Chaos Cards",
    "text": "New on page: Pokemon First Partner Illustration Collection Series 3",
@@ -10007,30 +10047,6 @@
    "site": "TCGora",
    "text": "...and 14 more",
    "url": "https://tcgora.com/"
-  },
-  {
-   "time": "2026-11-04T04:13:19+00:00",
-   "site": "Card Cavern",
-   "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
-   "url": "https://cardcavern.co.uk/"
-  },
-  {
-   "time": "2026-11-04T03:15:46+00:00",
-   "site": "Collectors Edge",
-   "text": "NEW: Pokemon TCG: Pitch Black - Booster Box (36 Packs) \u00a3174.95 (over RRP)",
-   "url": "https://collectorsedge.co.uk/cart/53617558159699:1"
-  },
-  {
-   "time": "2026-11-04T02:40:46+00:00",
-   "site": "Evolvault",
-   "text": "NEW: Pok\u00e9mon 30th Celebration Booster Bundle \u2014 6 Packs \u00a3103.00 (over RRP)",
-   "url": "https://evolvault.com/cart/62647133602122:1"
-  },
-  {
-   "time": "2026-11-04T02:40:46+00:00",
-   "site": "Evolvault",
-   "text": "NEW: Pok\u00e9mon 30th Celebration Mini Tin \u2014 2 Booster Packs (Random Design) \u00a335.00",
-   "url": "https://evolvault.com/cart/63796715290954:1"
   }
  ],
  "wishlist": [
