@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T20:36:44+00:00",
+ "updated": "2026-11-08T20:41:45+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -3039,6 +3039,10 @@
    "items": [
     {
      "title": "Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
+     "url": "https://cardcavern.co.uk/"
+    },
+    {
+     "title": "Re-158H/20-110H Hippokampos (Legacy Collection Foil)",
      "url": "https://cardcavern.co.uk/"
     }
    ],
@@ -9421,6 +9425,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-08T20:41:45+00:00",
+   "site": "Card Cavern",
+   "text": "New on page: Re-158H/20-110H Hippokampos (Legacy Collection Foil)",
+   "url": "https://cardcavern.co.uk/"
+  },
+  {
    "time": "2026-11-08T14:41:48+00:00",
    "site": "Total Cards",
    "text": "New pre-order spotted: Pokemon - Mega Rayquaza ex - Premium Tournament Collection (Pre-Order)",
@@ -10013,12 +10023,6 @@
    "site": "Evolvault",
    "text": "NEW: Pok\u00e9mon Delta Reign Elite Trainer Box \u2014 Pok\u00e9mon Center Exclusive (Pre-Order) \u00a3289.00 (over RRP)",
    "url": "https://evolvault.com/cart/63738002112842:1"
-  },
-  {
-   "time": "2026-11-04T02:40:46+00:00",
-   "site": "Evolvault",
-   "text": "NEW: Pok\u00e9mon 30th Celebration Tech Sticker Collection \u2014 Lucario (Pre-Order) \u00a355.00",
-   "url": "https://evolvault.com/cart/62730494869834:1"
   }
  ],
  "wishlist": [
