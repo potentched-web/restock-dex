@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T03:18:08+00:00",
+ "updated": "2026-11-08T03:23:08+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -216,15 +216,6 @@
      "over_rrp": true,
      "rrp": 49.99,
      "cart": "https://zatu.com/cart/57057314341242:1"
-    },
-    {
-     "title": "Pokemon TCG: 30th Celebration - Greninja ex Tin",
-     "price": 44.99,
-     "available": false,
-     "url": "https://zatu.com/products/pokemon-tcg-30th-celebration-greninja-ex-tin",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://zatu.com/cart/57057313358202:1"
     },
     {
      "title": "Pokemon TCG: 30th Celebration - Poster Collection",
