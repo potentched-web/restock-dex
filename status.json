@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T12:19:18+00:00",
+ "updated": "2026-11-08T12:21:47+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -195,7 +195,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9796
+   "uptime": 0.98
   },
   {
    "name": "Zatu Games",
@@ -3067,7 +3067,12 @@
    "skip": null,
    "error": null,
    "mode": "page",
-   "items": [],
+   "items": [
+    {
+     "title": "Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
+     "url": "https://cardcavern.co.uk/"
+    }
+   ],
    "uptime": 0.9976
   },
   {
@@ -9447,6 +9452,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-08T12:21:47+00:00",
+   "site": "Card Cavern",
+   "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
+   "url": "https://cardcavern.co.uk/"
+  },
+  {
    "time": "2026-11-08T11:34:19+00:00",
    "site": "Iconic TCG",
    "text": "BACK IN STOCK: Pok\u00e9mon TCG: Mega Evolution - Pok\u00e9mon Center Elite Trainer Box - Mega Lucario (Exclusive) \u00a3155.00 (over RRP)",
@@ -10039,12 +10050,6 @@
    "site": "Evolvault",
    "text": "NEW: Pok\u00e9mon 30th Celebration Tech Sticker Collection \u2014 Alolan Exeggutor (Pre-Order) \u00a355.00",
    "url": "https://evolvault.com/cart/62730494837066:1"
-  },
-  {
-   "time": "2026-11-04T02:40:46+00:00",
-   "site": "Evolvault",
-   "text": "NEW: Pok\u00e9mon Pitch Black Elite Trainer Box \u2014 Pok\u00e9mon Center Exclusive (Pre-Order) \u00a3131.00 (over RRP)",
-   "url": "https://evolvault.com/cart/61754524172618:1"
   }
  ],
  "wishlist": [
