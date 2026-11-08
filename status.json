@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T09:36:54+00:00",
+ "updated": "2026-11-08T09:41:54+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -4122,7 +4122,7 @@
     {
      "title": "Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Booster Bundle (6 Packs)",
      "price": 45.0,
-     "available": true,
+     "available": false,
      "url": "https://iconic-tcg.com/products/pokemon-tcg-delta-reign-booster-bundle-6-packs",
      "over_rrp": true,
      "rrp": 24.99,
