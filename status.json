@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T15:52:01+00:00",
+ "updated": "2026-11-09T15:57:01+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -9092,10 +9092,10 @@
     },
     {
      "title": "Pokemon Delta Reign English Elite Trainer Box",
-     "price": 64.99,
-     "available": true,
+     "price": 0.01,
+     "available": false,
      "url": "https://www.japan2uk.com/products/pokemon-delta-reign-english-elite-trainer-box",
-     "over_rrp": true,
+     "over_rrp": false,
      "rrp": 49.99,
      "cart": "https://www.japan2uk.com/cart/65088690946425:1"
     },
