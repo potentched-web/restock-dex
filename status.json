@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T07:15:57+00:00",
+ "updated": "2026-11-09T07:55:07+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -193,6 +193,15 @@
      "over_rrp": true,
      "rrp": 49.99,
      "cart": "https://zatu.com/cart/57057314341242:1"
+    },
+    {
+     "title": "Pokemon TCG: 30th Celebration - Greninja ex Tin",
+     "price": 44.99,
+     "available": true,
+     "url": "https://zatu.com/products/pokemon-tcg-30th-celebration-greninja-ex-tin",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://zatu.com/cart/57057313358202:1"
     },
     {
      "title": "Pokemon TCG: 30th Celebration - Poster Collection",
@@ -9433,6 +9442,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-09T07:55:07+00:00",
+   "site": "Zatu Games",
+   "text": "NEW: Pokemon TCG: 30th Celebration - Greninja ex Tin \u00a344.99",
+   "url": "https://zatu.com/cart/57057313358202:1"
+  },
+  {
    "time": "2026-11-08T21:34:15+00:00",
    "site": "Chaos Cards",
    "text": "New on page: Pokemon Mega Evolution Phantasmal Flames 3 Pack Blister Sneasel",
@@ -10024,12 +10039,6 @@
    "time": "2026-11-04T09:16:33+00:00",
    "site": "TCGora",
    "text": "New on page: Mega Evolution \u2014 Pitch Black Booster Box (Pre-Order) - https://tcgora.com/products/mega-evolution-pitch-black-booster-box-pre-order",
-   "url": "https://tcgora.com/"
-  },
-  {
-   "time": "2026-11-04T09:16:33+00:00",
-   "site": "TCGora",
-   "text": "New on page: Mega Evolution\u2014Pitch Black Booster Box",
    "url": "https://tcgora.com/"
   }
  ],
