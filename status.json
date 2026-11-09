@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T16:17:01+00:00",
+ "updated": "2026-11-09T16:36:22+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -1743,7 +1743,7 @@
    "name": "TCGora",
    "url": "https://tcgora.com/",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 423: Locked",
    "mode": "shopify",
    "items": [
     {
@@ -2125,7 +2125,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.9976
+   "uptime": 0.9776
   },
   {
    "name": "Pixel Hub",
