@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T17:32:39+00:00",
+ "updated": "2026-11-09T17:37:38+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -395,15 +395,6 @@
      "cart": "https://collectorsedge.co.uk/cart/55096728912211:1"
     },
     {
-     "title": "Pokemon TCG: Destined Rivals - Elite Trainer Box (Pokemon Centre Edition)",
-     "price": 330.0,
-     "available": true,
-     "url": "https://collectorsedge.co.uk/products/pokemon-tcg-destined-rivals-elite-trainer-box-pokemon-centre-edition",
-     "over_rrp": true,
-     "rrp": 49.99,
-     "cart": "https://collectorsedge.co.uk/cart/52485934055763:1"
-    },
-    {
      "title": "Pokemon TCG: First Partner Illustration Collection - Series 3",
      "price": 25.0,
      "available": true,
@@ -429,6 +420,15 @@
      "over_rrp": false,
      "rrp": null,
      "cart": "https://collectorsedge.co.uk/cart/55096695783763:1"
+    },
+    {
+     "title": "Pok\u00e9mon Center: Destined Rivals - Elite Trainer Box",
+     "price": 330.0,
+     "available": true,
+     "url": "https://collectorsedge.co.uk/products/pokemon-tcg-destined-rivals-elite-trainer-box-pokemon-centre-edition",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://collectorsedge.co.uk/cart/52485934055763:1"
     }
    ],
    "uptime": 0.9976
@@ -2129,7 +2129,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.7987
+   "uptime": 0.7827
   },
   {
    "name": "Pixel Hub",
