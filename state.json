@@ -1,18 +1,6 @@
 {
  "120HP": {
   "items": {
-   "40043040047238": [
-    "Pok\u00e9mon TCG: Paldea Collection (Sprigatito)",
-    19.99,
-    false,
-    "https://www.120hp.co.uk/products/pokemon-tcg-paldea-collection-sprigatito"
-   ],
-   "40043040342150": [
-    "Pok\u00e9mon TCG: Paldea Collection (Fuecoco)",
-    19.99,
-    false,
-    "https://www.120hp.co.uk/products/pokemon-tcg-paldea-collection-fuecoco"
-   ],
    "40043041456262": [
     "Pok\u00e9mon TCG: Paldea Collection (Quaxly)",
     19.99,
@@ -462,6 +450,18 @@
     0.0,
     false,
     "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-day-ultra-premium-collection"
+   ],
+   "57717432222071": [
+    "Pok\u00e9mon TCG: 30th Celebration Figure Collection (Mew)",
+    53.95,
+    true,
+    "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-figure-collection-mew"
+   ],
+   "57717432254839": [
+    "Pok\u00e9mon TCG: 30th Celebration Figure Collection (Mewtwo)",
+    53.95,
+    true,
+    "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-figure-collection-mewtwo"
    ]
   },
   "mode": "shopify"

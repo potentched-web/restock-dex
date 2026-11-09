@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T11:11:50+00:00",
+ "updated": "2026-11-09T11:16:49+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -7040,6 +7040,24 @@
      "cart": "https://www.120hp.co.uk/cart/57516016173431:1"
     },
     {
+     "title": "Pok\u00e9mon TCG: 30th Celebration Figure Collection (Mew)",
+     "price": 53.95,
+     "available": true,
+     "url": "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-figure-collection-mew",
+     "over_rrp": true,
+     "rrp": 29.99,
+     "cart": "https://www.120hp.co.uk/cart/57717432222071:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: 30th Celebration Figure Collection (Mewtwo)",
+     "price": 53.95,
+     "available": true,
+     "url": "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-figure-collection-mewtwo",
+     "over_rrp": true,
+     "rrp": 29.99,
+     "cart": "https://www.120hp.co.uk/cart/57717432254839:1"
+    },
+    {
      "title": "Pok\u00e9mon TCG: 30th Celebration Mini Tin (Espeon)",
      "price": 21.95,
      "available": false,
@@ -7472,15 +7490,6 @@
      "cart": "https://www.120hp.co.uk/cart/57415212532087:1"
     },
     {
-     "title": "Pok\u00e9mon TCG: Paldea Collection (Fuecoco)",
-     "price": 19.99,
-     "available": false,
-     "url": "https://www.120hp.co.uk/products/pokemon-tcg-paldea-collection-fuecoco",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://www.120hp.co.uk/cart/40043040342150:1"
-    },
-    {
      "title": "Pok\u00e9mon TCG: Paldea Collection (Quaxly)",
      "price": 19.99,
      "available": false,
@@ -7488,15 +7497,6 @@
      "over_rrp": false,
      "rrp": null,
      "cart": "https://www.120hp.co.uk/cart/40043041456262:1"
-    },
-    {
-     "title": "Pok\u00e9mon TCG: Paldea Collection (Sprigatito)",
-     "price": 19.99,
-     "available": false,
-     "url": "https://www.120hp.co.uk/products/pokemon-tcg-paldea-collection-sprigatito",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://www.120hp.co.uk/cart/40043040047238:1"
     },
     {
      "title": "Pok\u00e9mon TCG: Perfect Order - Booster Display Box (36 Packs)",
@@ -9433,6 +9433,18 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-09T11:16:49+00:00",
+   "site": "120HP",
+   "text": "NEW: Pok\u00e9mon TCG: 30th Celebration Figure Collection (Mewtwo) \u00a353.95 (over RRP)",
+   "url": "https://www.120hp.co.uk/cart/57717432254839:1"
+  },
+  {
+   "time": "2026-11-09T11:16:49+00:00",
+   "site": "120HP",
+   "text": "NEW: Pok\u00e9mon TCG: 30th Celebration Figure Collection (Mew) \u00a353.95 (over RRP)",
+   "url": "https://www.120hp.co.uk/cart/57717432222071:1"
+  },
+  {
    "time": "2026-11-09T07:55:07+00:00",
    "site": "Zatu Games",
    "text": "NEW: Pokemon TCG: 30th Celebration - Greninja ex Tin \u00a344.99",
@@ -10018,18 +10030,6 @@
    "time": "2026-11-04T09:16:33+00:00",
    "site": "TCGora",
    "text": "New on page: Mega Evolution \u2014 Perfect Order Pok\u00e9mon Center Elite Trainer Box",
-   "url": "https://tcgora.com/"
-  },
-  {
-   "time": "2026-11-04T09:16:33+00:00",
-   "site": "TCGora",
-   "text": "New on page: Mega Evolution \u2014 Pitch Black Booster Box (Pre-Order)",
-   "url": "https://tcgora.com/"
-  },
-  {
-   "time": "2026-11-04T09:16:33+00:00",
-   "site": "TCGora",
-   "text": "New on page: Mega Evolution \u2014 Pitch Black Booster Box (Pre-Order) - https://tcgora.com/products/mega-evolution-pitch-black-booster-box-pre-order",
    "url": "https://tcgora.com/"
   }
  ],
