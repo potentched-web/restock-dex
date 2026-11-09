@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T18:02:38+00:00",
+ "updated": "2026-11-09T18:07:39+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -29,7 +29,15 @@
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
+     "title": "Pokemon Mega Evolution Ascended Heroes - Mini Tin Pikachu",
+     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+    },
+    {
      "title": "Pokemon Mega Evolution Ascended Heroes - Mini Tin Riolu",
+     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+    },
+    {
+     "title": "Pokemon Mega Evolution Ascended Heroes - Mini Tin Togepi",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
@@ -442,7 +450,7 @@
    "items": [
     {
      "title": "Pokemon Mega Evolution Booster Box",
-     "price": 232.53,
+     "price": 232.54,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-mega-evolution-booster-box",
      "over_rrp": true,
@@ -478,7 +486,7 @@
     },
     {
      "title": "Pokemon Mega Evolution: Phantasmal Flames Booster Box",
-     "price": 232.53,
+     "price": 232.54,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-mega-evolution-phantasmal-flames-booster-box",
      "over_rrp": true,
@@ -514,7 +522,7 @@
     },
     {
      "title": "Pokemon Scarlet & Violet Journey Together Booster Box",
-     "price": 232.53,
+     "price": 232.54,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-scarlet-violet-journey-together-booster-box",
      "over_rrp": true,
@@ -523,7 +531,7 @@
     },
     {
      "title": "Pokemon Scarlet & Violet Surging Sparks Booster Box",
-     "price": 376.4,
+     "price": 376.42,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-scarlet-violet-surging-sparks-booster-box",
      "over_rrp": true,
@@ -550,7 +558,7 @@
     },
     {
      "title": "Pokemon TCG: 30th Celebration Poster Collection",
-     "price": 782.93,
+     "price": 782.96,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-30th-celebration-poster-collection",
      "over_rrp": false,
@@ -649,7 +657,7 @@
     },
     {
      "title": "Pokemon TCG: Lumiose City Mini Tin Display",
-     "price": 165.61,
+     "price": 165.62,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-lumiose-city-mini-tin-display",
      "over_rrp": false,
@@ -712,7 +720,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Evolution - Chaos Rising Booster Box",
-     "price": 985.36,
+     "price": 985.4,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-chaos-rising-booster-box",
      "over_rrp": true,
@@ -739,7 +747,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Evolution - Delta Reign Booster Box",
-     "price": 232.53,
+     "price": 232.54,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-delta-reign-booster-box",
      "over_rrp": true,
@@ -757,7 +765,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Evolution - Perfect Order Booster Box",
-     "price": 232.53,
+     "price": 232.54,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-perfect-order-booster-box",
      "over_rrp": true,
@@ -775,7 +783,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Evolution - Pitch Black Booster Box",
-     "price": 985.36,
+     "price": 985.4,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-pitch-black-booster-box",
      "over_rrp": true,
@@ -802,7 +810,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Evolution Ascended Heroes - First Partners Deluxe Pin Collection",
-     "price": 75.28,
+     "price": 75.29,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-ascended-heroes-first-partners-deluxe-pin-collection",
      "over_rrp": false,
@@ -820,7 +828,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Greninja ex Premium Collection",
-     "price": 813.04,
+     "price": 813.08,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-greninja-ex-premium-collection",
      "over_rrp": false,
@@ -838,7 +846,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Moonlit Tin",
-     "price": 785.94,
+     "price": 785.97,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-moonlit-tins",
      "over_rrp": false,
@@ -847,7 +855,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Zygarde ex Premium Collection",
-     "price": 105.38,
+     "price": 105.39,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-zygarde-ex-premium-collection",
      "over_rrp": false,
@@ -883,7 +891,7 @@
     },
     {
      "title": "Pokemon TCG: Team Rocket's Moltres ex Ultra-Premium Collection (Retail Exclusive)",
-     "price": 188.19,
+     "price": 188.2,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-team-rockets-moltres-ex-ultra-premium-collection-retail-exclusive",
      "over_rrp": true,
@@ -892,7 +900,7 @@
     },
     {
      "title": "Pokemon TCG: Terapagos ex Ultra Premium Collection",
-     "price": 158.08,
+     "price": 158.09,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/terapagos-ex-ultra-premium-collection",
      "over_rrp": false,
@@ -2129,7 +2137,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.7076
+   "uptime": 0.6934
   },
   {
    "name": "Pixel Hub",
@@ -5030,7 +5038,7 @@
     },
     {
      "title": "Pok\u00e9mon Surging Sparks Elite Trainer Box \u2014 Pok\u00e9mon Center Exclusive",
-     "price": 219.0,
+     "price": 220.0,
      "available": false,
      "url": "https://evolvault.com/products/pokemon-surging-sparks-etb",
      "over_rrp": true,
@@ -6256,7 +6264,7 @@
    "items": [
     {
      "title": "POK\u00c9MON TCG: 30TH CELEBRATION ULTRA-PREMIUM COLLECTION \u2013 DAY (ESPEON EX)",
-     "price": 657.0,
+     "price": 658.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-30th-celebration-ultra-premium-collection-day-espeon-ex",
      "over_rrp": true,
@@ -6265,7 +6273,7 @@
     },
     {
      "title": "POK\u00c9MON TCG: 30TH CELEBRATION ULTRA-PREMIUM COLLECTION \u2013 NIGHT (UMBREON EX)",
-     "price": 657.0,
+     "price": 658.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-30th-celebration-ultra-premium-collection-night-umbreon-ex",
      "over_rrp": true,
@@ -9433,6 +9441,18 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-09T18:07:39+00:00",
+   "site": "Chaos Cards",
+   "text": "New on page: Pokemon Mega Evolution Ascended Heroes - Mini Tin Pikachu",
+   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+  },
+  {
+   "time": "2026-11-09T18:07:39+00:00",
+   "site": "Chaos Cards",
+   "text": "New on page: Pokemon Mega Evolution Ascended Heroes - Mini Tin Togepi",
+   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+  },
+  {
    "time": "2026-11-09T17:11:22+00:00",
    "site": "Chaos Cards",
    "text": "New on page: Pokemon First Partner Illustration Collection Series 3",
@@ -10018,18 +10038,6 @@
    "time": "2026-11-04T09:21:33+00:00",
    "site": "The TCG Shop",
    "text": "New on page: Pok\u00e9mon TCG \u2013 Mega Evolution: Delta Reign Elite Trainer Box",
-   "url": "https://www.thetcgshop.co.uk/collections/pokemon"
-  },
-  {
-   "time": "2026-11-04T09:21:33+00:00",
-   "site": "The TCG Shop",
-   "text": "New on page: Pok\u00e9mon TCG \u2013 Scarlet & Violet: Destined Rivals Elite Trainer Box",
-   "url": "https://www.thetcgshop.co.uk/collections/pokemon"
-  },
-  {
-   "time": "2026-11-04T09:21:33+00:00",
-   "site": "The TCG Shop",
-   "text": "New on page: Pok\u00e9mon TCG \u2013 Scarlet \\u0026 Violet: Destined Rivals Elite Trainer Box",
    "url": "https://www.thetcgshop.co.uk/collections/pokemon"
   }
  ],
