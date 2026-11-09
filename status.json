@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T18:40:10+00:00",
+ "updated": "2026-11-09T18:45:10+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -22,10 +22,6 @@
     },
     {
      "title": "Pokemon First Partner Illustration Collection Series 1",
-     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
-    },
-    {
-     "title": "Pokemon First Partner Illustration Collection Series 3",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
@@ -2145,7 +2141,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.6019
+   "uptime": 0.5899
   },
   {
    "name": "Pixel Hub",
