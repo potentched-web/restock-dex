@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T23:29:42+00:00",
+ "updated": "2026-11-09T23:34:42+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -30,10 +30,6 @@
     },
     {
      "title": "Pokemon Mega Evolution Ascended Heroes - Mini Tin Pikachu",
-     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
-    },
-    {
-     "title": "Pokemon Mega Evolution Ascended Heroes - Mini Tin Riolu",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
@@ -2141,7 +2137,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.1864
+   "uptime": 0.1827
   },
   {
    "name": "Pixel Hub",
