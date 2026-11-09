@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T17:06:22+00:00",
+ "updated": "2026-11-09T17:11:22+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -22,6 +22,10 @@
     },
     {
      "title": "Pokemon First Partner Illustration Collection Series 1",
+     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+    },
+    {
+     "title": "Pokemon First Partner Illustration Collection Series 3",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
@@ -2129,7 +2133,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.8659
+   "uptime": 0.8486
   },
   {
    "name": "Pixel Hub",
@@ -9078,10 +9082,10 @@
     },
     {
      "title": "Pokemon Delta Reign English Booster Box",
-     "price": 174.99,
-     "available": true,
+     "price": 0.01,
+     "available": false,
      "url": "https://www.japan2uk.com/products/pokemon-delta-reign-english-booster-box",
-     "over_rrp": true,
+     "over_rrp": false,
      "rrp": 155.0,
      "cart": "https://www.japan2uk.com/cart/65088618070393:1"
     },
@@ -9432,6 +9436,12 @@
   }
  ],
  "alerts": [
+  {
+   "time": "2026-11-09T17:11:22+00:00",
+   "site": "Chaos Cards",
+   "text": "New on page: Pokemon First Partner Illustration Collection Series 3",
+   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+  },
   {
    "time": "2026-11-09T17:06:22+00:00",
    "site": "Chaos Cards",
@@ -10024,12 +10034,6 @@
    "time": "2026-11-04T09:21:33+00:00",
    "site": "The TCG Shop",
    "text": "New on page: Pok\u00e9mon TCG \u2013 Scarlet \\u0026 Violet: Destined Rivals Elite Trainer Box",
-   "url": "https://www.thetcgshop.co.uk/collections/pokemon"
-  },
-  {
-   "time": "2026-11-04T09:21:33+00:00",
-   "site": "The TCG Shop",
-   "text": "New on page: Pok\u00e9mon TCG: 30th Celebration Booster Bundle",
    "url": "https://www.thetcgshop.co.uk/collections/pokemon"
   }
  ],
