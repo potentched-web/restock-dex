@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T18:07:39+00:00",
+ "updated": "2026-11-09T18:12:39+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -25,6 +25,10 @@
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
+     "title": "Pokemon First Partner Illustration Collection Series 3",
+     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+    },
+    {
      "title": "Pokemon Mega Evolution Ascended Heroes - Mini Tin Clefairy",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
@@ -38,6 +42,10 @@
     },
     {
      "title": "Pokemon Mega Evolution Ascended Heroes - Mini Tin Togepi",
+     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+    },
+    {
+     "title": "Pokemon Mega Evolution Ascended Heroes - Mini Tin Zorua",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
@@ -2137,7 +2145,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.6934
+   "uptime": 0.6795
   },
   {
    "name": "Pixel Hub",
@@ -9441,6 +9449,18 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-09T18:12:39+00:00",
+   "site": "Chaos Cards",
+   "text": "New on page: Pokemon First Partner Illustration Collection Series 3",
+   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+  },
+  {
+   "time": "2026-11-09T18:12:39+00:00",
+   "site": "Chaos Cards",
+   "text": "New on page: Pokemon Mega Evolution Ascended Heroes - Mini Tin Zorua",
+   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+  },
+  {
    "time": "2026-11-09T18:07:39+00:00",
    "site": "Chaos Cards",
    "text": "New on page: Pokemon Mega Evolution Ascended Heroes - Mini Tin Pikachu",
@@ -10027,18 +10047,6 @@
    "site": "TCGora",
    "text": "NEW: Pok\u00e9mon TCG: Mega Evolution\u2014Delta Reign Elite Trainer Box (Pre-Order) \u00a399.90 (over RRP)",
    "url": "https://tcgora.com/cart/56890826621252:1"
-  },
-  {
-   "time": "2026-11-04T09:21:33+00:00",
-   "site": "TCGora",
-   "text": "NEW: Mega Evolution\u2014Pitch Black Pok\u00e9mon Center Elite Trainer Box (Pre-Order) \u00a399.00 (over RRP)",
-   "url": "https://tcgora.com/cart/56752372220228:1"
-  },
-  {
-   "time": "2026-11-04T09:21:33+00:00",
-   "site": "The TCG Shop",
-   "text": "New on page: Pok\u00e9mon TCG \u2013 Mega Evolution: Delta Reign Elite Trainer Box",
-   "url": "https://www.thetcgshop.co.uk/collections/pokemon"
   }
  ],
  "wishlist": [
