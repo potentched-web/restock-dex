@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T22:57:18+00:00",
+ "updated": "2026-11-09T23:02:18+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -2141,7 +2141,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.2147
+   "uptime": 0.2104
   },
   {
    "name": "Pixel Hub",
@@ -3060,12 +3060,7 @@
    "skip": null,
    "error": null,
    "mode": "page",
-   "items": [
-    {
-     "title": "Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
-     "url": "https://cardcavern.co.uk/"
-    }
-   ],
+   "items": [],
    "uptime": 0.9976
   },
   {
