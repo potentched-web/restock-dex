@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T23:17:19+00:00",
+ "updated": "2026-11-09T23:19:42+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -2141,7 +2141,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.1981
+   "uptime": 0.1941
   },
   {
    "name": "Pixel Hub",
@@ -3060,7 +3060,12 @@
    "skip": null,
    "error": null,
    "mode": "page",
-   "items": [],
+   "items": [
+    {
+     "title": "Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
+     "url": "https://cardcavern.co.uk/"
+    }
+   ],
    "uptime": 0.9976
   },
   {
@@ -9440,6 +9445,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-09T23:19:42+00:00",
+   "site": "Card Cavern",
+   "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
+   "url": "https://cardcavern.co.uk/"
+  },
+  {
    "time": "2026-11-09T23:07:18+00:00",
    "site": "Card Cavern",
    "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
@@ -10032,12 +10043,6 @@
    "site": "TCGora",
    "text": "NEW: Pok\u00e9mon TCG: 30th Celebration Ditto Premium Collection (Pre-Order) \u00a399.90 (over RRP)",
    "url": "https://tcgora.com/cart/56909432029508:1"
-  },
-  {
-   "time": "2026-11-04T09:21:33+00:00",
-   "site": "TCGora",
-   "text": "NEW: Pok\u00e9mon TCG: 30th Celebration Booster Bundle (Pre-Order) \u00a379.90 (over RRP)",
-   "url": "https://tcgora.com/cart/56909429637444:1"
   }
  ],
  "wishlist": [
