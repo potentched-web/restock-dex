@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T09:05:48+00:00",
+ "updated": "2026-11-10T09:10:49+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -369,7 +369,7 @@
     },
     {
      "title": "Pokemon TCG: Ascended Heroes - Tin - Mega Emboar ex",
-     "price": 51.95,
+     "price": 49.95,
      "available": true,
      "url": "https://collectorsedge.co.uk/products/pokemon-tcg-ascended-heroes-tin-mega-emboar-ex",
      "over_rrp": false,
@@ -378,7 +378,7 @@
     },
     {
      "title": "Pokemon TCG: Ascended Heroes - Tin - Mega Feraligatr ex",
-     "price": 51.95,
+     "price": 49.95,
      "available": true,
      "url": "https://collectorsedge.co.uk/products/pokemon-tcg-ascended-heroes-tin-mega-feraligatr-ex",
      "over_rrp": false,
@@ -387,7 +387,7 @@
     },
     {
      "title": "Pokemon TCG: Ascended Heroes - Tin - Mega Meganium ex",
-     "price": 51.95,
+     "price": 49.95,
      "available": true,
      "url": "https://collectorsedge.co.uk/products/pokemon-tcg-ascended-heroes-tin-mega-meganium-ex",
      "over_rrp": false,
@@ -2147,7 +2147,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.0186
+   "uptime": 0.0182
   },
   {
    "name": "Pixel Hub",
