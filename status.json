@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T22:04:02+00:00",
+ "updated": "2026-11-10T22:09:01+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -80,7 +80,7 @@
      "url": "https://magicmadhouse.co.uk/pokemon/pokemon-sealed-product?sort=newest"
     }
    ],
-   "uptime": 0.9804
+   "uptime": 0.9808
   },
   {
    "name": "Total Cards",
@@ -153,7 +153,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9943
+   "uptime": 0.9944
   },
   {
    "name": "Zatu Games",
@@ -482,7 +482,7 @@
     },
     {
      "title": "Pokemon Scarlet & Violet Destined Rivals Booster Bundle",
-     "price": 89.82,
+     "price": 89.83,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-scarlet-violet-destined-rivals-booster-bundle",
      "over_rrp": true,
@@ -500,7 +500,7 @@
     },
     {
      "title": "Pokemon Scarlet & Violet Surging Sparks Booster Box",
-     "price": 374.31,
+     "price": 374.32,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-scarlet-violet-surging-sparks-booster-box",
      "over_rrp": true,
@@ -527,7 +527,7 @@
     },
     {
      "title": "Pokemon TCG: 30th Celebration Poster Collection",
-     "price": 778.59,
+     "price": 778.6,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-30th-celebration-poster-collection",
      "over_rrp": false,
@@ -689,7 +689,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Evolution - Chaos Rising Booster Box",
-     "price": 979.89,
+     "price": 979.91,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-chaos-rising-booster-box",
      "over_rrp": true,
@@ -752,7 +752,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Evolution - Pitch Black Booster Box",
-     "price": 979.89,
+     "price": 979.91,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-pitch-black-booster-box",
      "over_rrp": true,
@@ -797,7 +797,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Greninja ex Premium Collection",
-     "price": 808.53,
+     "price": 808.55,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-greninja-ex-premium-collection",
      "over_rrp": false,
@@ -815,7 +815,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Moonlit Tin",
-     "price": 781.58,
+     "price": 781.59,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-moonlit-tins",
      "over_rrp": false,
@@ -869,7 +869,7 @@
     },
     {
      "title": "Pokemon TCG: Terapagos ex Ultra Premium Collection",
-     "price": 157.2,
+     "price": 157.21,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/terapagos-ex-ultra-premium-collection",
      "over_rrp": false,
@@ -2801,7 +2801,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG: Scarlet & Violet-Paldea Evolved Booster Display Box (36 Packs)",
-     "price": 587.0,
+     "price": 588.0,
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-paldea-evolved-booster-display-box-36-packs",
      "over_rrp": true,
