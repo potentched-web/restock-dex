@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T10:12:16+00:00",
+ "updated": "2026-11-10T10:21:07+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -368,7 +368,7 @@
     },
     {
      "title": "Pokemon TCG: First Partner Illustration Collection - Series 3",
-     "price": 25.0,
+     "price": 23.95,
      "available": true,
      "url": "https://collectorsedge.co.uk/products/pokemon-tcg-first-partner-illustration-collection-series-3",
      "over_rrp": false,
@@ -2119,7 +2119,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.0144
+   "uptime": 0.0141
   },
   {
    "name": "Pixel Hub",
@@ -3038,7 +3038,12 @@
    "skip": null,
    "error": null,
    "mode": "page",
-   "items": [],
+   "items": [
+    {
+     "title": "Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
+     "url": "https://cardcavern.co.uk/"
+    }
+   ],
    "uptime": 0.9976
   },
   {
@@ -9418,6 +9423,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-10T10:21:07+00:00",
+   "site": "Card Cavern",
+   "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
+   "url": "https://cardcavern.co.uk/"
+  },
+  {
    "time": "2026-11-10T03:09:44+00:00",
    "site": "Collectors Edge",
    "text": "NEW: Pokemon TCG: Sword & Shield - Knock Out Collection - Toxtricity, Duraludon & Sandaconda \u00a321.50",
@@ -10010,12 +10021,6 @@
    "site": "TCGora",
    "text": "NEW: Pok\u00e9mon TCG: 30th Celebration Ultra-Premium Collection\u2014Night Edition (Pre-Order) \u00a3399.90 (over RRP)",
    "url": "https://tcgora.com/cart/56909466239300:1"
-  },
-  {
-   "time": "2026-11-04T09:21:33+00:00",
-   "site": "TCGora",
-   "text": "NEW: Pok\u00e9mon TCG: 30th Celebration Tech Sticker Collection\u2014Lucario (Pre-Order) \u00a339.90",
-   "url": "https://tcgora.com/cart/56909459161412:1"
   }
  ],
  "wishlist": [
