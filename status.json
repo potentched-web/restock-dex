@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T08:09:46+00:00",
+ "updated": "2026-11-10T08:14:45+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -46,10 +46,6 @@
     },
     {
      "title": "Pokemon Mega Evolution Perfect Order Booster Box (36 Packs)",
-     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
-    },
-    {
-     "title": "Pokemon Mega Evolution Pitch Black Booster Bundle",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
@@ -2155,7 +2151,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.0227
+   "uptime": 0.0222
   },
   {
    "name": "Pixel Hub",
