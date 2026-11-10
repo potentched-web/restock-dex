@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T07:59:45+00:00",
+ "updated": "2026-11-10T08:04:45+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -2155,7 +2155,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.0237
+   "uptime": 0.0232
   },
   {
    "name": "Pixel Hub",
@@ -6381,7 +6381,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG 30th Celebration Poster Collection",
-     "price": 96.0,
+     "price": 97.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-30th-celebration-poster-collection",
      "over_rrp": false,
@@ -6471,7 +6471,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Chaos Rising Booster Display Box (36 Packs)",
-     "price": 343.0,
+     "price": 344.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-chaos-rising-boosters-display-36",
      "over_rrp": true,
@@ -6651,7 +6651,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG White Flare Booster Bundle (6 Packs)",
-     "price": 96.0,
+     "price": 97.0,
      "available": false,
      "url": "https://hoodlumsuk.com/products/pokemon-scarlet-violet-white-flare-booster-bundle",
      "over_rrp": true,
