@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T15:57:24+00:00",
+ "updated": "2026-11-10T16:02:25+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -2123,7 +2123,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.0038
+   "uptime": 0.0037
   },
   {
    "name": "Pixel Hub",
@@ -10411,7 +10411,7 @@
    "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
    "found": "2026-11-03T16:00:57+00:00",
    "expected": "2026-11-06",
-   "date_checked": "2026-11-03T16:00:57+00:00"
+   "date_checked": "2026-11-10T16:02:25+00:00"
   },
   {
    "shop": "Evolvault",
