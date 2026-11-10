@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T03:32:16+00:00",
+ "updated": "2026-11-10T03:37:17+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -2155,7 +2155,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.0665
+   "uptime": 0.0652
   },
   {
    "name": "Pixel Hub",
@@ -10791,7 +10791,7 @@
    "seeded": true,
    "note": "Spotted automatically. Open it to check if it's open and when it closes.",
    "found": "2026-11-02T20:16:10+00:00",
-   "date_checked": "2026-11-03T03:34:34+00:00"
+   "date_checked": "2026-11-10T03:37:17+00:00"
   },
   {
    "shop": "Chaos Cards",
@@ -10802,7 +10802,7 @@
    "seeded": true,
    "note": "Spotted automatically. Open it to check if it's open and when it closes.",
    "found": "2026-11-02T20:16:10+00:00",
-   "date_checked": "2026-11-03T03:34:34+00:00"
+   "date_checked": "2026-11-10T03:37:17+00:00"
   },
   {
    "shop": "Chaos Cards",
@@ -10813,7 +10813,7 @@
    "seeded": true,
    "note": "Spotted automatically. Open it to check if it's open and when it closes.",
    "found": "2026-11-02T20:16:10+00:00",
-   "date_checked": "2026-11-03T03:34:34+00:00"
+   "date_checked": "2026-11-10T03:37:17+00:00"
   },
   {
    "shop": "Chaos Cards",
@@ -10824,7 +10824,7 @@
    "seeded": true,
    "note": "Spotted automatically. Open it to check if it's open and when it closes.",
    "found": "2026-11-02T20:16:10+00:00",
-   "date_checked": "2026-11-03T03:34:34+00:00"
+   "date_checked": "2026-11-10T03:37:17+00:00"
   }
  ],
  "amazon_auto": []
