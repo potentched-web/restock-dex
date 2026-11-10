@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T12:18:09+00:00",
+ "updated": "2026-11-10T12:23:09+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -2119,7 +2119,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.0087
+   "uptime": 0.0085
   },
   {
    "name": "Pixel Hub",
