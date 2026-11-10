@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T16:44:51+00:00",
+ "updated": "2026-11-10T16:49:50+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -161,7 +161,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9792
+   "uptime": 0.9796
   },
   {
    "name": "Zatu Games",
@@ -2123,7 +2123,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.0028
+   "uptime": 0.0027
   },
   {
    "name": "Pixel Hub",
