@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T16:49:50+00:00",
+ "updated": "2026-11-10T16:54:51+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -42,10 +42,6 @@
     },
     {
      "title": "Pokemon Mega Evolution Chaos Rising Booster Box (36 Packs)",
-     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
-    },
-    {
-     "title": "Pokemon Mega Evolution Perfect Order Booster Box (36 Packs)",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
@@ -161,7 +157,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9796
+   "uptime": 0.98
   },
   {
    "name": "Zatu Games",
@@ -2123,7 +2119,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.0027
+   "uptime": 0.0026
   },
   {
    "name": "Pixel Hub",
