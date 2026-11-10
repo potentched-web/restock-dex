@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T07:02:12+00:00",
+ "updated": "2026-11-10T07:07:13+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -468,7 +468,7 @@
    "items": [
     {
      "title": "Pokemon Mega Evolution Booster Box",
-     "price": 232.99,
+     "price": 233.02,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-mega-evolution-booster-box",
      "over_rrp": true,
@@ -477,7 +477,7 @@
     },
     {
      "title": "Pokemon Mega Evolution Elite Trainer Box (Gardevoir)",
-     "price": 75.42,
+     "price": 75.43,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-mega-evolution-elite-trainer-box-gardevoir",
      "over_rrp": true,
@@ -486,7 +486,7 @@
     },
     {
      "title": "Pokemon Mega Evolution Elite Trainer Box (Lucario)",
-     "price": 75.42,
+     "price": 75.43,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-mega-evolution-elite-trainer-box-lucario",
      "over_rrp": true,
@@ -504,7 +504,7 @@
     },
     {
      "title": "Pokemon Mega Evolution: Phantasmal Flames Booster Box",
-     "price": 232.99,
+     "price": 233.02,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-mega-evolution-phantasmal-flames-booster-box",
      "over_rrp": true,
@@ -513,7 +513,7 @@
     },
     {
      "title": "Pokemon Mega Evolution: Phantasmal Flames Elite Trainer Box",
-     "price": 75.42,
+     "price": 75.43,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-mega-evolution-phantasmal-flames-elite-trainer-box",
      "over_rrp": true,
@@ -531,7 +531,7 @@
     },
     {
      "title": "Pokemon Scarlet & Violet Destined Rivals Booster Bundle",
-     "price": 90.5,
+     "price": 90.52,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-scarlet-violet-destined-rivals-booster-bundle",
      "over_rrp": true,
@@ -540,7 +540,7 @@
     },
     {
      "title": "Pokemon Scarlet & Violet Journey Together Booster Box",
-     "price": 232.99,
+     "price": 233.02,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-scarlet-violet-journey-together-booster-box",
      "over_rrp": true,
@@ -549,7 +549,7 @@
     },
     {
      "title": "Pokemon Scarlet & Violet Surging Sparks Booster Box",
-     "price": 377.15,
+     "price": 377.2,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-scarlet-violet-surging-sparks-booster-box",
      "over_rrp": true,
@@ -567,7 +567,7 @@
     },
     {
      "title": "Pokemon TCG: 30th Celebration Elite Trainer Box",
-     "price": 75.42,
+     "price": 75.43,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-30th-celebration-elite-trainer-box",
      "over_rrp": true,
@@ -576,7 +576,7 @@
     },
     {
      "title": "Pokemon TCG: 30th Celebration Poster Collection",
-     "price": 784.48,
+     "price": 784.59,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-30th-celebration-poster-collection",
      "over_rrp": false,
@@ -585,7 +585,7 @@
     },
     {
      "title": "Pokemon TCG: 30th Celebration Tech Sticker Collection",
-     "price": 25.63,
+     "price": 25.64,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-30th-celebration-tech-sticker-collection",
      "over_rrp": false,
@@ -657,7 +657,7 @@
     },
     {
      "title": "Pokemon TCG: First Partner Illustration Collection Series 2 + 1 Mega Moonlit Tin + 2 Lumiose Mini Tin Bundle",
-     "price": 88.95,
+     "price": 88.97,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-first-partner-illustration-collection-series-2-1-mega-moonlit-tin-2-lumiose-mini-tin-bundle",
      "over_rrp": false,
@@ -675,7 +675,7 @@
     },
     {
      "title": "Pokemon TCG: Lumiose City Mini Tin Display",
-     "price": 165.94,
+     "price": 165.96,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-lumiose-city-mini-tin-display",
      "over_rrp": false,
@@ -693,7 +693,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Evolution - Ascended Heroes 2 Pack Blister",
-     "price": 30.17,
+     "price": 30.18,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-ascended-heroes-2-pack-blister",
      "over_rrp": false,
@@ -702,7 +702,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Evolution - Ascended Heroes Booster Bundle",
-     "price": 90.52,
+     "price": 90.53,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-ascended-heroes-booster-bundle",
      "over_rrp": true,
@@ -711,7 +711,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Evolution - Ascended Heroes Elite Trainer Box",
-     "price": 75.42,
+     "price": 75.43,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-ascended-heroes-elite-trainer-box",
      "over_rrp": true,
@@ -720,7 +720,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Evolution - Ascended Heroes Mini Tin",
-     "price": 30.17,
+     "price": 30.18,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-ascended-heroes-mini-tin",
      "over_rrp": false,
@@ -729,7 +729,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Evolution - Ascended Heroes Tech Sticker Collection",
-     "price": 25.63,
+     "price": 25.64,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-ascended-heroes-tech-sticker-collection",
      "over_rrp": false,
@@ -738,7 +738,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Evolution - Chaos Rising Booster Box",
-     "price": 987.31,
+     "price": 987.45,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-chaos-rising-booster-box",
      "over_rrp": true,
@@ -747,7 +747,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Evolution - Chaos Rising Elite Trainer Box",
-     "price": 75.42,
+     "price": 75.43,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-chaos-rising-elite-trainer-box",
      "over_rrp": true,
@@ -765,7 +765,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Evolution - Delta Reign Booster Box",
-     "price": 232.99,
+     "price": 233.02,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-delta-reign-booster-box",
      "over_rrp": true,
@@ -774,7 +774,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Evolution - Delta Reign Elite Trainer Box",
-     "price": 75.42,
+     "price": 75.43,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-delta-reign-elite-trainer-box",
      "over_rrp": true,
@@ -783,7 +783,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Evolution - Perfect Order Booster Box",
-     "price": 232.99,
+     "price": 233.02,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-perfect-order-booster-box",
      "over_rrp": true,
@@ -792,7 +792,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Evolution - Perfect Order Elite Trainer Box",
-     "price": 75.42,
+     "price": 75.43,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-perfect-order-elite-trainer-box",
      "over_rrp": true,
@@ -801,7 +801,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Evolution - Pitch Black Booster Box",
-     "price": 987.31,
+     "price": 987.45,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-pitch-black-booster-box",
      "over_rrp": true,
@@ -810,7 +810,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Evolution - Pitch Black Elite Trainer Box",
-     "price": 75.42,
+     "price": 75.43,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-pitch-black-elite-trainer-box",
      "over_rrp": true,
@@ -828,7 +828,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Evolution Ascended Heroes - First Partners Deluxe Pin Collection",
-     "price": 75.43,
+     "price": 75.44,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-ascended-heroes-first-partners-deluxe-pin-collection",
      "over_rrp": false,
@@ -837,7 +837,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Evolution Ascended Heroes Premium Poster Collection",
-     "price": 75.42,
+     "price": 75.43,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-ascended-heroes-premium-poster-collection",
      "over_rrp": false,
@@ -846,7 +846,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Greninja ex Premium Collection",
-     "price": 814.65,
+     "price": 814.77,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-greninja-ex-premium-collection",
      "over_rrp": false,
@@ -864,7 +864,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Moonlit Tin",
-     "price": 787.5,
+     "price": 787.61,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-moonlit-tins",
      "over_rrp": false,
@@ -873,7 +873,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Zygarde ex Premium Collection",
-     "price": 105.59,
+     "price": 105.61,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-zygarde-ex-premium-collection",
      "over_rrp": false,
@@ -882,7 +882,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Zygarde ex Premium Collection + 2 Lumiose Mini Tin Bundle",
-     "price": 138.78,
+     "price": 138.8,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-zygarde-ex-lumiose-mini-tin-bundle",
      "over_rrp": false,
@@ -900,7 +900,7 @@
     },
     {
      "title": "Pokemon TCG: Pokemon Day 2026 Collection",
-     "price": 24.12,
+     "price": 24.13,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-pokemon-day-2026-collection",
      "over_rrp": false,
@@ -909,7 +909,7 @@
     },
     {
      "title": "Pokemon TCG: Team Rocket's Moltres ex Ultra-Premium Collection (Retail Exclusive)",
-     "price": 188.57,
+     "price": 188.59,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-team-rockets-moltres-ex-ultra-premium-collection-retail-exclusive",
      "over_rrp": true,
@@ -918,7 +918,7 @@
     },
     {
      "title": "Pokemon TCG: Terapagos ex Ultra Premium Collection",
-     "price": 158.39,
+     "price": 158.42,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/terapagos-ex-ultra-premium-collection",
      "over_rrp": false,
@@ -936,7 +936,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG: Scarlet & Violet - 151 Mini Tin",
-     "price": 37.7,
+     "price": 37.71,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-151-mini-tin",
      "over_rrp": false,
@@ -2155,7 +2155,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.0272
+   "uptime": 0.0267
   },
   {
    "name": "Pixel Hub",
@@ -2400,7 +2400,7 @@
     },
     {
      "title": "Pok\u00e9mon - Prismatic Evolutions Booster Bundle Master Case (60 bundles)",
-     "price": 9464.0,
+     "price": 9465.0,
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-prismatic-evolutions-booster-bundle-master-case-60-bundles",
      "over_rrp": true,
@@ -2445,7 +2445,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Journey Together SV09 Booster Box (36 Packs) - SEALED CASE OF 6",
-     "price": 1735.0,
+     "price": 1736.0,
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-journey-together-sv09-booster-box-36-packs-sealed-case-of-6",
      "over_rrp": true,
@@ -2715,7 +2715,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG: Scarlet & Violet 10.5 - Black Bolt - Booster Bundle",
-     "price": 82.0,
+     "price": 83.0,
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-10-5-black-bolt-booster-bundle",
      "over_rrp": true,
@@ -3004,7 +3004,7 @@
     },
     {
      "title": "Mega Evolution: 30th Celebration Pokemon Center Elite Trainer Box",
-     "price": 279.95,
+     "price": 272.95,
      "available": false,
      "url": "https://poke-collect.com/products/mega-evolution-30th-celebration-pokemon-center-elite-trainer-box",
      "over_rrp": true,
@@ -3013,7 +3013,7 @@
     },
     {
      "title": "Mega Evolution: Ascended Heroes Focused Fighters Premium Collection (Sam's Club)",
-     "price": 159.95,
+     "price": 163.95,
      "available": false,
      "url": "https://poke-collect.com/products/mega-evolution-ascended-heroes-focused-fighters-premium-collection-sams-club",
      "over_rrp": false,
@@ -4984,7 +4984,7 @@
     },
     {
      "title": "Pok\u00e9mon Perfect Order Booster Bundle \u2014 6 Packs",
-     "price": 48.0,
+     "price": 49.0,
      "available": false,
      "url": "https://evolvault.com/products/pokemon-perfect-order-booster-bundle",
      "over_rrp": true,
@@ -6444,7 +6444,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Black Bolt Booster Bundle (6 Packs)",
-     "price": 144.0,
+     "price": 145.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-scarlet-violet-black-bolt-booster-bundle",
      "over_rrp": true,
@@ -6642,7 +6642,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Prismatic Evolutions Super-Premium Collection",
-     "price": 384.0,
+     "price": 385.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-scarlet-violet-prismatic-evolutions-super-premium-collection",
      "over_rrp": false,
@@ -8510,7 +8510,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Mega Evolution Phantasmal Flames Elite Trainer Box",
-     "price": 92.0,
+     "price": 93.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-mega-evolution-phantasmal-flames-elite-trainer-box",
      "over_rrp": true,
