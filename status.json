@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T09:32:16+00:00",
+ "updated": "2026-11-10T09:37:16+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -65,26 +65,7 @@
    "skip": null,
    "error": null,
    "mode": "shopify",
-   "items": [
-    {
-     "title": "Pokemon TCG: Delta Reign - Booster Box (PRE-ORDER)",
-     "price": 154.44,
-     "available": true,
-     "url": "https://www.doublesleeved.co.uk/products/pokemon-tcg-delta-reign-booster-box",
-     "over_rrp": false,
-     "rrp": 155.0,
-     "cart": "https://www.doublesleeved.co.uk/cart/65001978134905:1"
-    },
-    {
-     "title": "Pokemon TCG: Delta Reign - Elite Trainer Box ETB (PRE-ORDER)",
-     "price": 49.99,
-     "available": true,
-     "url": "https://www.doublesleeved.co.uk/products/pokemon-tcg-delta-reign-elite-trainer-box-etb",
-     "over_rrp": false,
-     "rrp": 49.99,
-     "cart": "https://www.doublesleeved.co.uk/cart/65002043113849:1"
-    }
-   ],
+   "items": [],
    "uptime": 0.9976
   },
   {
@@ -2147,7 +2128,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.0168
+   "uptime": 0.0165
   },
   {
    "name": "Pixel Hub",
