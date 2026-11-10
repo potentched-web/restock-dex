@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T10:07:16+00:00",
+ "updated": "2026-11-10T10:12:16+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -264,15 +264,6 @@
      "over_rrp": true,
      "rrp": 24.99,
      "cart": "https://zatu.com/cart/56945082040698:1"
-    },
-    {
-     "title": "Pok\u00e9mon TCG: Mega Evolution Pitch Black - Elite Trainer Box",
-     "price": 79.99,
-     "available": true,
-     "url": "https://zatu.com/products/pokemon-tcg-mega-evolution-pitch-black-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 49.99,
-     "cart": "https://zatu.com/cart/56945082827130:1"
     }
    ],
    "uptime": 0.9976
@@ -2128,7 +2119,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.0147
+   "uptime": 0.0144
   },
   {
    "name": "Pixel Hub",
