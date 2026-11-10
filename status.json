@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T16:12:24+00:00",
+ "updated": "2026-11-10T16:14:51+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -2123,7 +2123,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.0035
+   "uptime": 0.0034
   },
   {
    "name": "Pixel Hub",
@@ -3042,7 +3042,12 @@
    "skip": null,
    "error": null,
    "mode": "page",
-   "items": [],
+   "items": [
+    {
+     "title": "Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
+     "url": "https://cardcavern.co.uk/"
+    }
+   ],
    "uptime": 0.9976
   },
   {
@@ -9422,6 +9427,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-10T16:14:51+00:00",
+   "site": "Card Cavern",
+   "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
+   "url": "https://cardcavern.co.uk/"
+  },
+  {
    "time": "2026-11-10T15:04:50+00:00",
    "site": "Chaos Cards",
    "text": "New on page: Pokemon 30th Celebration Figure Collection Set of 2 (Mew & Mewtwo)",
@@ -10014,12 +10025,6 @@
    "site": "Hoodlums UK",
    "text": "BACK IN STOCK: Pok\u00e9mon TCG 30th Celebration Sylveon ex Tin \u00a3117.00",
    "url": "https://hoodlumsuk.com/cart/57363304808713:1"
-  },
-  {
-   "time": "2026-11-04T10:43:51+00:00",
-   "site": "Total Cards",
-   "text": "NEW: Pokemon - Mega Evolution - Pitch Black - Elite Trainer Box - Dice \u00a30.79",
-   "url": "https://www.totalcards.net/cart/59038026301821:1"
   }
  ],
  "wishlist": [
