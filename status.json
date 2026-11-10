@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T01:57:14+00:00",
+ "updated": "2026-11-10T02:02:14+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -2137,7 +2137,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.0997
+   "uptime": 0.0977
   },
   {
    "name": "Pixel Hub",
@@ -7246,6 +7246,15 @@
      "cart": "https://www.120hp.co.uk/cart/40129659797638:1"
     },
     {
+     "title": "Pok\u00e9mon TCG: Delta Reign Elite Trainer Box",
+     "price": 74.95,
+     "available": true,
+     "url": "https://www.120hp.co.uk/products/pokemon-tcg-delta-reign-elite-trainer-box",
+     "over_rrp": true,
+     "rrp": 49.99,
+     "cart": "https://www.120hp.co.uk/cart/57717431763319:1"
+    },
+    {
      "title": "Pok\u00e9mon TCG: First Partner Illustration Collection \u2013 Series 1",
      "price": 45.45,
      "available": true,
@@ -7496,15 +7505,6 @@
      "over_rrp": false,
      "rrp": null,
      "cart": "https://www.120hp.co.uk/cart/57415212532087:1"
-    },
-    {
-     "title": "Pok\u00e9mon TCG: Paldea Collection (Quaxly)",
-     "price": 19.99,
-     "available": false,
-     "url": "https://www.120hp.co.uk/products/pokemon-tcg-paldea-collection-quaxly",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://www.120hp.co.uk/cart/40043041456262:1"
     },
     {
      "title": "Pok\u00e9mon TCG: Perfect Order - Booster Display Box (36 Packs)",
@@ -9441,6 +9441,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-10T02:02:14+00:00",
+   "site": "120HP",
+   "text": "NEW: Pok\u00e9mon TCG: Delta Reign Elite Trainer Box \u00a374.95 (over RRP)",
+   "url": "https://www.120hp.co.uk/cart/57717431763319:1"
+  },
+  {
    "time": "2026-11-09T23:19:42+00:00",
    "site": "Card Cavern",
    "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
@@ -10033,12 +10039,6 @@
    "site": "TCGora",
    "text": "NEW: Pok\u00e9mon TCG: 30th Celebration Elite Trainer Box (Pre-Order) \u00a3129.90 (over RRP)",
    "url": "https://tcgora.com/cart/56909438648644:1"
-  },
-  {
-   "time": "2026-11-04T09:21:33+00:00",
-   "site": "TCGora",
-   "text": "NEW: Pok\u00e9mon TCG: 30th Celebration Ditto Premium Collection (Pre-Order) \u00a399.90 (over RRP)",
-   "url": "https://tcgora.com/cart/56909432029508:1"
   }
  ],
  "wishlist": [
