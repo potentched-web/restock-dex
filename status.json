@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T13:00:39+00:00",
+ "updated": "2026-11-10T13:05:39+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -2119,7 +2119,7 @@
      "cart": "https://tcgora.com/cart/56549826199876:1"
     }
    ],
-   "uptime": 0.0071
+   "uptime": 0.007
   },
   {
    "name": "Pixel Hub",
@@ -8690,7 +8690,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Scarlet & Violet Paldea Evolved Half Booster Box (18 Packs)",
-     "price": 139.0,
+     "price": 138.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-violet-paldea-evolved-half-booster-box-18-packs",
      "over_rrp": false,
@@ -8888,7 +8888,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Scarlet and Violet Prismatic Evolutions - Premium Figure Collection (Damaged Corner)",
-     "price": 162.0,
+     "price": 161.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-and-violet-prismatic-evolutions-premium-figure-collection-copy",
      "over_rrp": true,
