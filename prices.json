@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T02:43:41+00:00",
+ "updated": "2026-11-11T02:44:24+00:00",
  "eur_gbp": 0.83545,
  "target": 0.5,
  "source": "Cardmarket price guide (EUR, converted to GBP)",
@@ -101,66 +101,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+EX+Sandstorm+Booster+Box"
   },
   {
-   "name": "Evolving Skies 6 Booster Box Case",
-   "rrp": 155.0,
-   "sold": 11586.13,
-   "low": 10025.4,
-   "avg30": null,
-   "margin": 73.749,
-   "profit": 11431.13,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Evolving+Skies+6+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Evolving+Skies+6+Booster+Box+Case"
-  },
-  {
-   "name": "151 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 3733.84,
-   "low": 3666.79,
-   "avg30": null,
-   "margin": 73.692,
-   "profit": 3683.85,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=151+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+151+10+Elite+Trainer+Box+Case"
-  },
-  {
-   "name": "Hidden Fates 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 3323.63,
-   "low": 2924.08,
-   "avg30": null,
-   "margin": 65.486,
-   "profit": 3273.64,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Hidden+Fates+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Hidden+Fates+10+Elite+Trainer+Box+Case"
-  },
-  {
-   "name": "Eevee Heroes Booster Box Case",
-   "rrp": 155.0,
-   "sold": 10025.4,
-   "low": null,
-   "avg30": null,
-   "margin": 63.68,
-   "profit": 9870.4,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Eevee+Heroes+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Eevee+Heroes+Booster+Box+Case"
-  },
-  {
-   "name": "Crown Zenith 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 3219.72,
-   "low": 2339.26,
-   "avg30": null,
-   "margin": 63.407,
-   "profit": 3169.73,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Crown+Zenith+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Crown+Zenith+10+Elite+Trainer+Box+Case"
-  },
-  {
    "name": "Furious Fists Elite Trainer Box",
    "rrp": 49.99,
    "sold": 3045.52,
@@ -171,18 +111,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Furious+Fists+Elite+Trainer+Box",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Furious+Fists+Elite+Trainer+Box"
-  },
-  {
-   "name": "151 Booster Bundle Display",
-   "rrp": 24.99,
-   "sold": 1464.49,
-   "low": 834.61,
-   "avg30": null,
-   "margin": 57.603,
-   "profit": 1439.5,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=151+Booster+Bundle+Display",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+151+Booster+Bundle+Display"
   },
   {
    "name": "Phantom Forces Elite Trainer Box",
@@ -245,18 +173,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Fossil+Booster+Box"
   },
   {
-   "name": "Paldean Fates Booster Bundle Display",
-   "rrp": 24.99,
-   "sold": 1260.9,
-   "low": 626.59,
-   "avg30": null,
-   "margin": 49.456,
-   "profit": 1235.91,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Paldean+Fates+Booster+Bundle+Display",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Paldean+Fates+Booster+Bundle+Display"
-  },
-  {
    "name": "XY Elite Trainer Box (Xerneas)",
    "rrp": 49.99,
    "sold": 2439.89,
@@ -303,18 +219,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Plasma+Freeze+Booster+Box",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Plasma+Freeze+Booster+Box"
-  },
-  {
-   "name": "Lost Origin 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 2241.56,
-   "low": 1712.67,
-   "avg30": null,
-   "margin": 43.84,
-   "profit": 2191.57,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Lost+Origin+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Lost+Origin+10+Elite+Trainer+Box+Case"
   },
   {
    "name": "Primal Clash Elite Trainer Box (Groudon)",
@@ -377,18 +281,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Team+Up+Elite+Trainer+Box"
   },
   {
-   "name": "Paldean Fates 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 2055.86,
-   "low": 1336.72,
-   "avg30": null,
-   "margin": 40.125,
-   "profit": 2005.87,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Paldean+Fates+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Paldean+Fates+10+Elite+Trainer+Box+Case"
-  },
-  {
    "name": "Evolving Skies Build & Battle Box",
    "rrp": 19.99,
    "sold": 797.8,
@@ -399,18 +291,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Evolving+Skies+Build+%26+Battle+Box",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Evolving+Skies+Build+%26+Battle+Box"
-  },
-  {
-   "name": "Celebrations 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 1948.29,
-   "low": 2839.69,
-   "avg30": null,
-   "margin": 37.974,
-   "profit": 1898.3,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Celebrations+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Celebrations+10+Elite+Trainer+Box+Case"
   },
   {
    "name": "Crossing the Ruins... Booster Box",
@@ -449,30 +329,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Plasma+Storm+Elite+Trainer+Box"
   },
   {
-   "name": "Brilliant Stars 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 1670.89,
-   "low": 3341.8,
-   "avg30": null,
-   "margin": 32.424,
-   "profit": 1620.9,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Brilliant+Stars+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Brilliant+Stars+10+Elite+Trainer+Box+Case"
-  },
-  {
-   "name": "Darkness Ablaze 6 Booster Box Case",
-   "rrp": 155.0,
-   "sold": 5012.7,
-   "low": 3926.62,
-   "avg30": null,
-   "margin": 31.34,
-   "profit": 4857.7,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Darkness+Ablaze+6+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Darkness+Ablaze+6+Booster+Box+Case"
-  },
-  {
    "name": "Emerging Powers Booster Box",
    "rrp": 155.0,
    "sold": 4975.45,
@@ -483,18 +339,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Emerging+Powers+Booster+Box",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Emerging+Powers+Booster+Box"
-  },
-  {
-   "name": "Fusion Strike 6 Booster Box Case",
-   "rrp": 155.0,
-   "sold": 4850.47,
-   "low": 4678.52,
-   "avg30": null,
-   "margin": 30.293,
-   "profit": 4695.47,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Fusion+Strike+6+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Fusion+Strike+6+Booster+Box+Case"
   },
   {
    "name": "Evolving Skies Build & Battle Stadium Box",
@@ -545,18 +389,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Legendary+Treasures+Booster+Box"
   },
   {
-   "name": "Obsidian Flames 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 1476.57,
-   "low": 2080.27,
-   "avg30": null,
-   "margin": 28.537,
-   "profit": 1426.58,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Obsidian+Flames+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Obsidian+Flames+10+Elite+Trainer+Box+Case"
-  },
-  {
    "name": "Secret Wonders Booster Box",
    "rrp": 155.0,
    "sold": 4557.57,
@@ -569,42 +401,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Secret+Wonders+Booster+Box"
   },
   {
-   "name": "Prismatic Evolutions Booster Bundle Display",
-   "rrp": 24.99,
-   "sold": 734.08,
-   "low": 430.26,
-   "avg30": null,
-   "margin": 28.375,
-   "profit": 709.09,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Prismatic+Evolutions+Booster+Bundle+Display",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Prismatic+Evolutions+Booster+Bundle+Display"
-  },
-  {
-   "name": "Destined Rivals Build & Battle Box Display",
-   "rrp": 19.99,
-   "sold": 585.23,
-   "low": 651.64,
-   "avg30": null,
-   "margin": 28.276,
-   "profit": 565.24,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Destined+Rivals+Build+%26+Battle+Box+Display",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Destined+Rivals+Build+%26+Battle+Box+Display"
-  },
-  {
-   "name": "Ascended Heroes 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 1440.43,
-   "low": 751.9,
-   "avg30": null,
-   "margin": 27.814,
-   "profit": 1390.44,
-   "tracked": true,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Ascended+Heroes+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Ascended+Heroes+10+Elite+Trainer+Box+Case"
-  },
-  {
    "name": "Steam Siege Elite Trainer Box",
    "rrp": 49.99,
    "sold": 1418.66,
@@ -615,42 +411,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Steam+Siege+Elite+Trainer+Box",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Steam+Siege+Elite+Trainer+Box"
-  },
-  {
-   "name": "Paldea Evolved 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 1398.16,
-   "low": 1253.17,
-   "avg30": null,
-   "margin": 26.969,
-   "profit": 1348.17,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Paldea+Evolved+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Paldea+Evolved+10+Elite+Trainer+Box+Case"
-  },
-  {
-   "name": "Black Bolt Booster Bundle Display",
-   "rrp": 24.99,
-   "sold": 698.45,
-   "low": 500.43,
-   "avg30": null,
-   "margin": 26.949,
-   "profit": 673.46,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Black+Bolt+Booster+Bundle+Display",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Black+Bolt+Booster+Bundle+Display"
-  },
-  {
-   "name": "White Flare Booster Bundle Display",
-   "rrp": 24.99,
-   "sold": 696.17,
-   "low": 499.6,
-   "avg30": null,
-   "margin": 26.858,
-   "profit": 671.18,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=White+Flare+Booster+Bundle+Display",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+White+Flare+Booster+Bundle+Display"
   },
   {
    "name": "Unified Minds Elite Trainer Box",
@@ -677,30 +437,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Team+Up+Build+%26+Battle+Box"
   },
   {
-   "name": "Ascended Heroes Booster Bundle Display",
-   "rrp": 24.99,
-   "sold": 679.8,
-   "low": 355.07,
-   "avg30": null,
-   "margin": 26.203,
-   "profit": 654.81,
-   "tracked": true,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Ascended+Heroes+Booster+Bundle+Display",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Ascended+Heroes+Booster+Bundle+Display"
-  },
-  {
-   "name": "Prismatic Evolutions 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 1353.35,
-   "low": 960.77,
-   "avg30": null,
-   "margin": 26.072,
-   "profit": 1303.36,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Prismatic+Evolutions+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Prismatic+Evolutions+10+Elite+Trainer+Box+Case"
-  },
-  {
    "name": "Call of Legends Booster Box (18 Boosters)",
    "rrp": 155.0,
    "sold": 4010.16,
@@ -711,30 +447,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Call+of+Legends+Booster+Box+%2818+Boosters%29",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Call+of+Legends+Booster+Box+%2818+Boosters%29"
-  },
-  {
-   "name": "Black Bolt 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 1286.62,
-   "low": 651.65,
-   "avg30": null,
-   "margin": 24.738,
-   "profit": 1236.63,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Black+Bolt+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Black+Bolt+10+Elite+Trainer+Box+Case"
-  },
-  {
-   "name": "Phantasmal Flames Build & Battle Box Display",
-   "rrp": 19.99,
-   "sold": 512.54,
-   "low": 367.6,
-   "avg30": null,
-   "margin": 24.64,
-   "profit": 492.55,
-   "tracked": true,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Phantasmal+Flames+Build+%26+Battle+Box+Display",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Phantasmal+Flames+Build+%26+Battle+Box+Display"
   },
   {
    "name": "Flashfire Booster Box",
@@ -761,18 +473,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Primal+Clash+Elite+Trainer+Box+%28Kyogre%29"
   },
   {
-   "name": "Surging Sparks 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 1218.16,
-   "low": 1211.39,
-   "avg30": null,
-   "margin": 23.368,
-   "profit": 1168.17,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Surging+Sparks+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Surging+Sparks+10+Elite+Trainer+Box+Case"
-  },
-  {
    "name": "Undaunted Booster Box",
    "rrp": 155.0,
    "sold": 3707.97,
@@ -783,18 +483,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Undaunted+Booster+Box",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Undaunted+Booster+Box"
-  },
-  {
-   "name": "Chilling Reign 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 1180.72,
-   "low": 1670.9,
-   "avg30": null,
-   "margin": 22.619,
-   "profit": 1130.73,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Chilling+Reign+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Chilling+Reign+10+Elite+Trainer+Box+Case"
   },
   {
    "name": "Plasma Blast Booster Box",
@@ -857,30 +545,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Celestial+Storm+Elite+Trainer+Box"
   },
   {
-   "name": "Champion\u2019s Path 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 1134.97,
-   "low": 3340.96,
-   "avg30": null,
-   "margin": 21.704,
-   "profit": 1084.98,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Champion%E2%80%99s+Path+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Champion%E2%80%99s+Path+10+Elite+Trainer+Box+Case"
-  },
-  {
-   "name": "Darkness Ablaze 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 1127.86,
-   "low": null,
-   "avg30": null,
-   "margin": 21.562,
-   "profit": 1077.87,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Darkness+Ablaze+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Darkness+Ablaze+10+Elite+Trainer+Box+Case"
-  },
-  {
    "name": "Noble Victories Booster Box",
    "rrp": 155.0,
    "sold": 3493.88,
@@ -891,30 +555,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Noble+Victories+Booster+Box",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Noble+Victories+Booster+Box"
-  },
-  {
-   "name": "Twilight Masquerade 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 1114.84,
-   "low": 434.43,
-   "avg30": null,
-   "margin": 21.301,
-   "profit": 1064.85,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Twilight+Masquerade+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Twilight+Masquerade+10+Elite+Trainer+Box+Case"
-  },
-  {
-   "name": "30th Celebration 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 1110.49,
-   "low": 919.0,
-   "avg30": null,
-   "margin": 21.214,
-   "profit": 1060.5,
-   "tracked": true,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=30th+Celebration+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+30th+Celebration+10+Elite+Trainer+Box+Case"
   },
   {
    "name": "EX Power Keepers Booster Box",
@@ -941,18 +581,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+To+Have+Seen+the+Battle+Rainbow+Booster+Box"
   },
   {
-   "name": "White Flare 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 1096.07,
-   "low": 651.65,
-   "avg30": null,
-   "margin": 20.926,
-   "profit": 1046.08,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=White+Flare+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+White+Flare+10+Elite+Trainer+Box+Case"
-  },
-  {
    "name": "Expansion Pack 20th Anniversary Booster Box",
    "rrp": 155.0,
    "sold": 3346.24,
@@ -977,30 +605,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Dark+Explorers+Booster+Box"
   },
   {
-   "name": "Shining Fates 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 1074.66,
-   "low": 1044.3,
-   "avg30": null,
-   "margin": 20.497,
-   "profit": 1024.67,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Shining+Fates+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Shining+Fates+10+Elite+Trainer+Box+Case"
-  },
-  {
-   "name": "Battle Styles 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 1069.38,
-   "low": null,
-   "avg30": null,
-   "margin": 20.392,
-   "profit": 1019.39,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Battle+Styles+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Battle+Styles+10+Elite+Trainer+Box+Case"
-  },
-  {
    "name": "Cosmic Eclipse Booster Box",
    "rrp": 155.0,
    "sold": 3294.63,
@@ -1013,42 +617,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Cosmic+Eclipse+Booster+Box"
   },
   {
-   "name": "Surging Sparks Build & Battle Box Display",
-   "rrp": 19.99,
-   "sold": 424.33,
-   "low": 467.85,
-   "avg30": null,
-   "margin": 20.227,
-   "profit": 404.34,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Surging+Sparks+Build+%26+Battle+Box+Display",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Surging+Sparks+Build+%26+Battle+Box+Display"
-  },
-  {
-   "name": "Pok\u00e9mon Card 151 Booster Box Case",
-   "rrp": 155.0,
-   "sold": 3283.79,
-   "low": 2172.17,
-   "avg30": null,
-   "margin": 20.186,
-   "profit": 3128.79,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Pok%C3%A9mon+Card+151+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Pok%C3%A9mon+Card+151+Booster+Box+Case"
-  },
-  {
-   "name": "Lost Origin 6 Booster Box Case",
-   "rrp": 155.0,
-   "sold": 3260.63,
-   "low": 1712.67,
-   "avg30": null,
-   "margin": 20.036,
-   "profit": 3105.63,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Lost+Origin+6+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Lost+Origin+6+Booster+Box+Case"
-  },
-  {
    "name": "Roaring Skies Elite Trainer Box",
    "rrp": 49.99,
    "sold": 1049.96,
@@ -1059,18 +627,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Roaring+Skies+Elite+Trainer+Box",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Roaring+Skies+Elite+Trainer+Box"
-  },
-  {
-   "name": "Stellar Crown Build & Battle Box Display",
-   "rrp": 19.99,
-   "sold": 417.73,
-   "low": 417.73,
-   "avg30": null,
-   "margin": 19.897,
-   "profit": 397.74,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Stellar+Crown+Build+%26+Battle+Box+Display",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Stellar+Crown+Build+%26+Battle+Box+Display"
   },
   {
    "name": "Evolving Skies Pok\u00e9mon Center Elite Trainer Box [GVSE]",
@@ -1145,42 +701,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Ancient+Origins+Booster+Box"
   },
   {
-   "name": "Mega Evolution 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 955.11,
-   "low": 584.82,
-   "avg30": null,
-   "margin": 18.106,
-   "profit": 905.12,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Mega+Evolution+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Mega+Evolution+10+Elite+Trainer+Box+Case"
-  },
-  {
-   "name": "Brilliant Stars 6 Booster Box Case",
-   "rrp": 155.0,
-   "sold": 2927.81,
-   "low": 1837.99,
-   "avg30": null,
-   "margin": 17.889,
-   "profit": 2772.81,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Brilliant+Stars+6+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Brilliant+Stars+6+Booster+Box+Case"
-  },
-  {
-   "name": "Astral Radiance 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 942.97,
-   "low": 1336.7,
-   "avg30": null,
-   "margin": 17.863,
-   "profit": 892.98,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Astral+Radiance+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Astral+Radiance+10+Elite+Trainer+Box+Case"
-  },
-  {
    "name": "Unbroken Bonds Elite Trainer Box",
    "rrp": 49.99,
    "sold": 942.06,
@@ -1205,18 +725,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Evolving+Skies+Pok%C3%A9mon+Center+Elite+Trainer+Box+%5BFJUL%5D"
   },
   {
-   "name": "Mega Evolution Build & Battle Box Display",
-   "rrp": 19.99,
-   "sold": 375.96,
-   "low": 334.18,
-   "avg30": null,
-   "margin": 17.807,
-   "profit": 355.97,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Mega+Evolution+Build+%26+Battle+Box+Display",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Mega+Evolution+Build+%26+Battle+Box+Display"
-  },
-  {
    "name": "The Best of XY Booster Box",
    "rrp": 155.0,
    "sold": 2906.66,
@@ -1229,54 +737,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+The+Best+of+XY+Booster+Box"
   },
   {
-   "name": "Chaos Rising Build & Battle Box Display",
-   "rrp": 19.99,
-   "sold": 370.38,
-   "low": 183.8,
-   "avg30": null,
-   "margin": 17.528,
-   "profit": 350.39,
-   "tracked": true,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Chaos+Rising+Build+%26+Battle+Box+Display",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Chaos+Rising+Build+%26+Battle+Box+Display"
-  },
-  {
-   "name": "Vivid Voltage 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 919.0,
-   "low": null,
-   "avg30": null,
-   "margin": 17.384,
-   "profit": 869.01,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Vivid+Voltage+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Vivid+Voltage+10+Elite+Trainer+Box+Case"
-  },
-  {
-   "name": "Destined Rivals 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 917.26,
-   "low": 918.95,
-   "avg30": null,
-   "margin": 17.349,
-   "profit": 867.27,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Destined+Rivals+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Destined+Rivals+10+Elite+Trainer+Box+Case"
-  },
-  {
-   "name": "Phantasmal Flames 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 905.29,
-   "low": 584.82,
-   "avg30": null,
-   "margin": 17.109,
-   "profit": 855.3,
-   "tracked": true,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Phantasmal+Flames+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Phantasmal+Flames+10+Elite+Trainer+Box+Case"
-  },
-  {
    "name": "Xerneas Figure Collection",
    "rrp": 29.99,
    "sold": 543.04,
@@ -1287,18 +747,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Xerneas+Figure+Collection",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Xerneas+Figure+Collection"
-  },
-  {
-   "name": "Chilling Reign 6 Booster Box Case",
-   "rrp": 155.0,
-   "sold": 2778.51,
-   "low": 2506.35,
-   "avg30": null,
-   "margin": 16.926,
-   "profit": 2623.51,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Chilling+Reign+6+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Chilling+Reign+6+Booster+Box+Case"
   },
   {
    "name": "BREAKthrough Elite Trainer Box (Mega Mewtwo Y)",
@@ -1361,18 +809,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Dragon+Majesty+Elite+Trainer+Box"
   },
   {
-   "name": "Perfect Order Build & Battle Box Display",
-   "rrp": 19.99,
-   "sold": 334.18,
-   "low": 175.44,
-   "avg30": null,
-   "margin": 15.717,
-   "profit": 314.19,
-   "tracked": true,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Perfect+Order+Build+%26+Battle+Box+Display",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Perfect+Order+Build+%26+Battle+Box+Display"
-  },
-  {
    "name": "EX Legend Maker Booster Box",
    "rrp": 155.0,
    "sold": 2562.58,
@@ -1395,18 +831,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Unbroken+Bonds+Booster+Box",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Unbroken+Bonds+Booster+Box"
-  },
-  {
-   "name": "Journey Together Build & Battle Box Display",
-   "rrp": 19.99,
-   "sold": 327.13,
-   "low": 233.92,
-   "avg30": null,
-   "margin": 15.365,
-   "profit": 307.14,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Journey+Together+Build+%26+Battle+Box+Display",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Journey+Together+Build+%26+Battle+Box+Display"
   },
   {
    "name": "Ultra Prism Elite Trainer Box (Dusk Mane Necrozma)",
@@ -1433,18 +857,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Unified+Minds+Booster+Box"
   },
   {
-   "name": "Journey Together 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 799.7,
-   "low": 735.2,
-   "avg30": null,
-   "margin": 14.997,
-   "profit": 749.71,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Journey+Together+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Journey+Together+10+Elite+Trainer+Box+Case"
-  },
-  {
    "name": "BREAKthrough Booster Box",
    "rrp": 155.0,
    "sold": 2477.13,
@@ -1467,54 +879,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=BREAKpoint+Booster+Box",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+BREAKpoint+Booster+Box"
-  },
-  {
-   "name": "Shrouded Fable Booster Bundle Display",
-   "rrp": 24.99,
-   "sold": 391.63,
-   "low": 333.34,
-   "avg30": null,
-   "margin": 14.671,
-   "profit": 366.64,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Shrouded+Fable+Booster+Bundle+Display",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Shrouded+Fable+Booster+Bundle+Display"
-  },
-  {
-   "name": "Pok\u00e9mon GO 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 782.89,
-   "low": 1086.09,
-   "avg30": null,
-   "margin": 14.661,
-   "profit": 732.9,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Pok%C3%A9mon+GO+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Pok%C3%A9mon+GO+10+Elite+Trainer+Box+Case"
-  },
-  {
-   "name": "VSTAR Universe Booster Box Case",
-   "rrp": 155.0,
-   "sold": 2420.05,
-   "low": 3258.26,
-   "avg30": null,
-   "margin": 14.613,
-   "profit": 2265.05,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=VSTAR+Universe+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+VSTAR+Universe+Booster+Box+Case"
-  },
-  {
-   "name": "Delta Reign Build & Battle Box Display",
-   "rrp": 19.99,
-   "sold": 309.12,
-   "low": 480.3,
-   "avg30": null,
-   "margin": 14.464,
-   "profit": 289.13,
-   "tracked": true,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Delta+Reign+Build+%26+Battle+Box+Display",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Delta+Reign+Build+%26+Battle+Box+Display"
   },
   {
    "name": "Ultra Prism Elite Trainer Box (Dawn Wings Necrozma)",
@@ -1613,30 +977,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+EX+Holon+Phantoms+Booster+Box"
   },
   {
-   "name": "Delta Reign 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 724.69,
-   "low": 626.59,
-   "avg30": null,
-   "margin": 13.497,
-   "profit": 674.7,
-   "tracked": true,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Delta+Reign+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Delta+Reign+10+Elite+Trainer+Box+Case"
-  },
-  {
-   "name": "Stellar Crown 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 721.92,
-   "low": 793.68,
-   "avg30": null,
-   "margin": 13.441,
-   "profit": 671.93,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Stellar+Crown+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Stellar+Crown+10+Elite+Trainer+Box+Case"
-  },
-  {
    "name": "Neo Revelation Booster Box",
    "rrp": 155.0,
    "sold": 2189.56,
@@ -1697,42 +1037,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Forbidden+Light+Elite+Trainer+Box"
   },
   {
-   "name": "Scarlet & Violet 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 643.91,
-   "low": 1030.98,
-   "avg30": null,
-   "margin": 11.881,
-   "profit": 593.92,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Scarlet+%26+Violet+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Scarlet+%26+Violet+10+Elite+Trainer+Box+Case"
-  },
-  {
-   "name": "Temporal Forces 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 643.56,
-   "low": 834.61,
-   "avg30": null,
-   "margin": 11.874,
-   "profit": 593.57,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Temporal+Forces+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Temporal+Forces+10+Elite+Trainer+Box+Case"
-  },
-  {
-   "name": "Journey Together 6 Enhanced Booster Box Case",
-   "rrp": 155.0,
-   "sold": 1991.9,
-   "low": 1719.31,
-   "avg30": null,
-   "margin": 11.851,
-   "profit": 1836.9,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Journey+Together+6+Enhanced+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Journey+Together+6+Enhanced+Booster+Box+Case"
-  },
-  {
    "name": "Furious Fists Booster Box",
    "rrp": 155.0,
    "sold": 1953.78,
@@ -1743,78 +1047,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Furious+Fists+Booster+Box",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Furious+Fists+Booster+Box"
-  },
-  {
-   "name": "Silver Tempest 6 Booster Box Case",
-   "rrp": 155.0,
-   "sold": 1949.51,
-   "low": 1837.98,
-   "avg30": null,
-   "margin": 11.577,
-   "profit": 1794.51,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Silver+Tempest+6+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Silver+Tempest+6+Booster+Box+Case"
-  },
-  {
-   "name": "30th Celebration JP Booster Box Case",
-   "rrp": 155.0,
-   "sold": 1921.54,
-   "low": 935.7,
-   "avg30": null,
-   "margin": 11.397,
-   "profit": 1766.54,
-   "tracked": true,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=30th+Celebration+JP+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+30th+Celebration+JP+Booster+Box+Case"
-  },
-  {
-   "name": "Pitch Black 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 613.7,
-   "low": 455.32,
-   "avg30": null,
-   "margin": 11.276,
-   "profit": 563.71,
-   "tracked": true,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Pitch+Black+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Pitch+Black+10+Elite+Trainer+Box+Case"
-  },
-  {
-   "name": "Shrouded Fable 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 612.78,
-   "low": 458.66,
-   "avg30": null,
-   "margin": 11.258,
-   "profit": 562.79,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Shrouded+Fable+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Shrouded+Fable+10+Elite+Trainer+Box+Case"
-  },
-  {
-   "name": "Paldea Evolved 6 Booster Box Case",
-   "rrp": 155.0,
-   "sold": 1889.1,
-   "low": 827.1,
-   "avg30": null,
-   "margin": 11.188,
-   "profit": 1734.1,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Paldea+Evolved+6+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Paldea+Evolved+6+Booster+Box+Case"
-  },
-  {
-   "name": "VMAX Climax Booster Box Case",
-   "rrp": 155.0,
-   "sold": 1877.82,
-   "low": 4177.24,
-   "avg30": null,
-   "margin": 11.115,
-   "profit": 1722.82,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=VMAX+Climax+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+VMAX+Climax+Booster+Box+Case"
   },
   {
    "name": "Sword & Shield Build & Battle Box",
@@ -1839,42 +1071,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Phantom+Forces+Booster+Box",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Phantom+Forces+Booster+Box"
-  },
-  {
-   "name": "Paradox Rift 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 598.55,
-   "low": 981.65,
-   "avg30": null,
-   "margin": 10.973,
-   "profit": 548.56,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Paradox+Rift+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Paradox+Rift+10+Elite+Trainer+Box+Case"
-  },
-  {
-   "name": "Astral Radiance 6 Booster Box Case",
-   "rrp": 155.0,
-   "sold": 1851.28,
-   "low": 1002.54,
-   "avg30": null,
-   "margin": 10.944,
-   "profit": 1696.28,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Astral+Radiance+6+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Astral+Radiance+6+Booster+Box+Case"
-  },
-  {
-   "name": "Phantasmal Flames 6 Booster Box Case",
-   "rrp": 155.0,
-   "sold": 1843.1,
-   "low": 1077.73,
-   "avg30": null,
-   "margin": 10.891,
-   "profit": 1688.1,
-   "tracked": true,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Phantasmal+Flames+6+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Phantasmal+Flames+6+Booster+Box+Case"
   },
   {
    "name": "Unleashed Booster Box",
@@ -1937,18 +1133,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Obsidian+Flames+Pok%C3%A9mon+Center+Elite+Trainer+Box"
   },
   {
-   "name": "Obsidian Flames 6 Booster Box Case",
-   "rrp": 155.0,
-   "sold": 1780.9,
-   "low": 1253.13,
-   "avg30": null,
-   "margin": 10.49,
-   "profit": 1625.9,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Obsidian+Flames+6+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Obsidian+Flames+6+Booster+Box+Case"
-  },
-  {
    "name": "Silver Tempest: Build & Battle Stadium Box",
    "rrp": 19.99,
    "sold": 227.68,
@@ -1959,30 +1143,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Silver+Tempest%3A+Build+%26+Battle+Stadium+Box",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Silver+Tempest%3A+Build+%26+Battle+Stadium+Box"
-  },
-  {
-   "name": "Chaos Rising 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 568.93,
-   "low": 416.89,
-   "avg30": null,
-   "margin": 10.381,
-   "profit": 518.94,
-   "tracked": true,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Chaos+Rising+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Chaos+Rising+10+Elite+Trainer+Box+Case"
-  },
-  {
-   "name": "Battle Styles 6 Booster Box Case",
-   "rrp": 155.0,
-   "sold": 1760.44,
-   "low": 1979.18,
-   "avg30": null,
-   "margin": 10.358,
-   "profit": 1605.44,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Battle+Styles+6+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Battle+Styles+6+Booster+Box+Case"
   },
   {
    "name": "Celestial Storm Booster Box",
@@ -2021,30 +1181,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Fusion+Strike%3A+Build+%26+Battle+Stadium+Box"
   },
   {
-   "name": "Shiny Treasure ex Booster Box Case",
-   "rrp": 155.0,
-   "sold": 1726.23,
-   "low": 1662.55,
-   "avg30": null,
-   "margin": 10.137,
-   "profit": 1571.23,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Shiny+Treasure+ex+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Shiny+Treasure+ex+Booster+Box+Case"
-  },
-  {
-   "name": "Terastal Festival ex Booster Box Case",
-   "rrp": 155.0,
-   "sold": 1702.6,
-   "low": 1503.77,
-   "avg30": null,
-   "margin": 9.985,
-   "profit": 1547.6,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Terastal+Festival+ex+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Terastal+Festival+ex+Booster+Box+Case"
-  },
-  {
    "name": "Magma Gang VS Aqua Gang: Double Crisis Booster Box",
    "rrp": 155.0,
    "sold": 1684.93,
@@ -2057,18 +1193,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Magma+Gang+VS+Aqua+Gang%3A+Double+Crisis+Booster+Box"
   },
   {
-   "name": "Pitch Black Build & Battle Box Display",
-   "rrp": 19.99,
-   "sold": 216.38,
-   "low": 183.8,
-   "avg30": null,
-   "margin": 9.824,
-   "profit": 196.39,
-   "tracked": true,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Pitch+Black+Build+%26+Battle+Box+Display",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Pitch+Black+Build+%26+Battle+Box+Display"
-  },
-  {
    "name": "Mythical & Legendary Dream Shine Collection Booster Box",
    "rrp": 155.0,
    "sold": 1667.98,
@@ -2079,18 +1203,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Mythical+%26+Legendary+Dream+Shine+Collection+Booster+Box",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Mythical+%26+Legendary+Dream+Shine+Collection+Booster+Box"
-  },
-  {
-   "name": "Destined Rivals 6 Booster Box Case",
-   "rrp": 155.0,
-   "sold": 1667.88,
-   "low": 877.22,
-   "avg30": null,
-   "margin": 9.761,
-   "profit": 1512.88,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Destined+Rivals+6+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Destined+Rivals+6+Booster+Box+Case"
   },
   {
    "name": "Ultra Prism Booster Box",
@@ -2139,42 +1251,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Evolutions+Elite+Trainer+Box+%28Blastoise%29",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Evolutions+Elite+Trainer+Box+%28Blastoise%29"
-  },
-  {
-   "name": "Super Electric Breaker Booster Box Case",
-   "rrp": 155.0,
-   "sold": 1587.71,
-   "low": 1879.76,
-   "avg30": null,
-   "margin": 9.243,
-   "profit": 1432.71,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Super+Electric+Breaker+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Super+Electric+Breaker+Booster+Box+Case"
-  },
-  {
-   "name": "Silver Tempest 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 510.5,
-   "low": 1194.69,
-   "avg30": null,
-   "margin": 9.212,
-   "profit": 460.51,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Silver+Tempest+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Silver+Tempest+10+Elite+Trainer+Box+Case"
-  },
-  {
-   "name": "Vivid Voltage 6 Booster Box Case",
-   "rrp": 155.0,
-   "sold": 1570.02,
-   "low": 1711.84,
-   "avg30": null,
-   "margin": 9.129,
-   "profit": 1415.02,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Vivid+Voltage+6+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Vivid+Voltage+6+Booster+Box+Case"
   },
   {
    "name": "Next Destinies Booster Box",
@@ -2261,30 +1337,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Lost+Thunder+Booster+Box"
   },
   {
-   "name": "Rebel Clash 6 Booster Box Case",
-   "rrp": 155.0,
-   "sold": 1490.83,
-   "low": null,
-   "avg30": null,
-   "margin": 8.618,
-   "profit": 1335.83,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Rebel+Clash+6+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Rebel+Clash+6+Booster+Box+Case"
-  },
-  {
-   "name": "Twilight Masquerade 6 Booster Box Case",
-   "rrp": 155.0,
-   "sold": 1470.95,
-   "low": 1127.86,
-   "avg30": null,
-   "margin": 8.49,
-   "profit": 1315.95,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Twilight+Masquerade+6+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Twilight+Masquerade+6+Booster+Box+Case"
-  },
-  {
    "name": "Guardians Rising Elite Trainer Box",
    "rrp": 49.99,
    "sold": 474.17,
@@ -2309,18 +1361,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Black+%26+White+Booster+Box"
   },
   {
-   "name": "Perfect Order 10 Elite Trainer Box Case",
-   "rrp": 49.99,
-   "sold": 472.97,
-   "low": 413.55,
-   "avg30": null,
-   "margin": 8.461,
-   "profit": 422.98,
-   "tracked": true,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Perfect+Order+10+Elite+Trainer+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Perfect+Order+10+Elite+Trainer+Box+Case"
-  },
-  {
    "name": "Awakening Psychic King Booster Box",
    "rrp": 155.0,
    "sold": 1462.04,
@@ -2331,18 +1371,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Awakening+Psychic+King+Booster+Box",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Awakening+Psychic+King+Booster+Box"
-  },
-  {
-   "name": "Snow Hazard Booster Box Case",
-   "rrp": 155.0,
-   "sold": 1462.04,
-   "low": 1211.4,
-   "avg30": null,
-   "margin": 8.433,
-   "profit": 1307.04,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Snow+Hazard+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Snow+Hazard+Booster+Box+Case"
   },
   {
    "name": "Cosmic Eclipse Build & Battle Box",
@@ -2357,18 +1385,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Cosmic+Eclipse+Build+%26+Battle+Box"
   },
   {
-   "name": "Mega Evolution 6 Enhanced Booster Box Case",
-   "rrp": 155.0,
-   "sold": 1427.61,
-   "low": 1670.9,
-   "avg30": null,
-   "margin": 8.21,
-   "profit": 1272.61,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Mega+Evolution+6+Enhanced+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Mega+Evolution+6+Enhanced+Booster+Box+Case"
-  },
-  {
    "name": "Collection Moon Booster Box",
    "rrp": 155.0,
    "sold": 1421.99,
@@ -2379,18 +1395,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Collection+Moon+Booster+Box",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Collection+Moon+Booster+Box"
-  },
-  {
-   "name": "The Glory of Team Rocket Booster Box Case",
-   "rrp": 155.0,
-   "sold": 1419.43,
-   "low": 1587.36,
-   "avg30": null,
-   "margin": 8.158,
-   "profit": 1264.43,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=The+Glory+of+Team+Rocket+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+The+Glory+of+Team+Rocket+Booster+Box+Case"
   },
   {
    "name": "Crown Zenith Pok\u00e9mon Center Elite Trainer Box Plus",
@@ -2415,18 +1419,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Tag+Bolt+Booster+Box",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Tag+Bolt+Booster+Box"
-  },
-  {
-   "name": "Inferno X Booster Box Case",
-   "rrp": 155.0,
-   "sold": 1353.21,
-   "low": 1253.17,
-   "avg30": null,
-   "margin": 7.73,
-   "profit": 1198.21,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Inferno+X+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Inferno+X+Booster+Box+Case"
   },
   {
    "name": "Steam Siege Booster Box",
@@ -2489,18 +1481,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Fusion+Strike+Pok%C3%A9mon+Center+Elite+Trainer+Box"
   },
   {
-   "name": "Surging Sparks 6 Booster Box Case",
-   "rrp": 155.0,
-   "sold": 1318.92,
-   "low": 834.91,
-   "avg30": null,
-   "margin": 7.509,
-   "profit": 1163.92,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Surging+Sparks+6+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Surging+Sparks+6+Booster+Box+Case"
-  },
-  {
    "name": "Unbroken Bonds Build & Battle Box",
    "rrp": 19.99,
    "sold": 168.19,
@@ -2513,18 +1493,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Unbroken+Bonds+Build+%26+Battle+Box"
   },
   {
-   "name": "Mega Evolution 6 Booster Box Case",
-   "rrp": 155.0,
-   "sold": 1299.28,
-   "low": 1002.54,
-   "avg30": null,
-   "margin": 7.382,
-   "profit": 1144.28,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Mega+Evolution+6+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Mega+Evolution+6+Booster+Box+Case"
-  },
-  {
    "name": "Destined Rivals Pok\u00e9mon Center Elite Trainer Box",
    "rrp": 56.99,
    "sold": 476.21,
@@ -2535,30 +1503,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Destined+Rivals+Pok%C3%A9mon+Center+Elite+Trainer+Box",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Destined+Rivals+Pok%C3%A9mon+Center+Elite+Trainer+Box"
-  },
-  {
-   "name": "Temporal Forces 6 Booster Box Case",
-   "rrp": 155.0,
-   "sold": 1287.62,
-   "low": 827.1,
-   "avg30": null,
-   "margin": 7.307,
-   "profit": 1132.62,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Temporal+Forces+6+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Temporal+Forces+6+Booster+Box+Case"
-  },
-  {
-   "name": "Stellar Crown 6 Booster Box Case",
-   "rrp": 155.0,
-   "sold": 1259.3,
-   "low": 1253.17,
-   "avg30": null,
-   "margin": 7.125,
-   "profit": 1104.3,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Stellar+Crown+6+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Stellar+Crown+6+Booster+Box+Case"
   },
   {
    "name": "Stormfront Booster Box",
@@ -2631,30 +1575,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=EX+Deoxys+Booster+Box",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+EX+Deoxys+Booster+Box"
-  },
-  {
-   "name": "Shining Legends JP Booster Box",
-   "rrp": 155.0,
-   "sold": 1221.19,
-   "low": 492.92,
-   "avg30": null,
-   "margin": 6.879,
-   "profit": 1066.19,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Shining+Legends+JP+Booster+Box",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Shining+Legends+JP+Booster+Box"
-  },
-  {
-   "name": "Scarlet & Violet 6 Booster Box Case",
-   "rrp": 155.0,
-   "sold": 1212.71,
-   "low": 1002.54,
-   "avg30": null,
-   "margin": 6.824,
-   "profit": 1057.71,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Scarlet+%26+Violet+6+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Scarlet+%26+Violet+6+Booster+Box+Case"
   },
   {
    "name": "Lost Origin: Build & Battle Stadium Box",
@@ -2789,18 +1709,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Scarlet+%26+Violet+Koraidon+Pok%C3%A9mon+Center+Elite+Trainer+Box"
   },
   {
-   "name": "MEGA Dream ex Booster Box Case",
-   "rrp": 155.0,
-   "sold": 1091.65,
-   "low": 1378.49,
-   "avg30": null,
-   "margin": 6.043,
-   "profit": 936.65,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=MEGA+Dream+ex+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+MEGA+Dream+ex+Booster+Box+Case"
-  },
-  {
    "name": "Burning Shadows Elite Trainer Box",
    "rrp": 49.99,
    "sold": 341.59,
@@ -2859,42 +1767,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Guardians+Rising+Booster+Box",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Guardians+Rising+Booster+Box"
-  },
-  {
-   "name": "Ruler of the Black Flame Booster Box Case",
-   "rrp": 155.0,
-   "sold": 1044.56,
-   "low": 1921.54,
-   "avg30": null,
-   "margin": 5.739,
-   "profit": 889.56,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Ruler+of+the+Black+Flame+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Ruler+of+the+Black+Flame+Booster+Box+Case"
-  },
-  {
-   "name": "Delta Reign 6 Booster Box Case",
-   "rrp": 155.0,
-   "sold": 1033.77,
-   "low": 877.22,
-   "avg30": null,
-   "margin": 5.669,
-   "profit": 878.77,
-   "tracked": true,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Delta+Reign+6+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Delta+Reign+6+Booster+Box+Case"
-  },
-  {
-   "name": "Paradox Rift 6 Booster Box Case",
-   "rrp": 155.0,
-   "sold": 1016.98,
-   "low": 417.73,
-   "avg30": null,
-   "margin": 5.561,
-   "profit": 861.98,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Paradox+Rift+6+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Paradox+Rift+6+Booster+Box+Case"
   },
   {
    "name": "Lost Origin Build & Battle Box",
@@ -2969,18 +1841,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Red+Collection+Booster+Box"
   },
   {
-   "name": "Ninja Spinner Booster Box Case",
-   "rrp": 155.0,
-   "sold": 1002.54,
-   "low": 1001.7,
-   "avg30": null,
-   "margin": 5.468,
-   "profit": 847.54,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Ninja+Spinner+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Ninja+Spinner+Booster+Box+Case"
-  },
-  {
    "name": "Silver Tempest Booster Bundle",
    "rrp": 24.99,
    "sold": 160.71,
@@ -3005,18 +1865,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Lost+Origin+Booster+Bundle"
   },
   {
-   "name": "Journey Together 6 Booster Box Case",
-   "rrp": 155.0,
-   "sold": 995.32,
-   "low": 835.44,
-   "avg30": null,
-   "margin": 5.421,
-   "profit": 840.32,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Journey+Together+6+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Journey+Together+6+Booster+Box+Case"
-  },
-  {
    "name": "Rage of the Broken Heavens Booster Box",
    "rrp": 155.0,
    "sold": 989.22,
@@ -3029,18 +1877,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Rage+of+the+Broken+Heavens+Booster+Box"
   },
   {
-   "name": "Pitch Black 6 Booster Box Case",
-   "rrp": 155.0,
-   "sold": 972.41,
-   "low": 793.68,
-   "avg30": null,
-   "margin": 5.274,
-   "profit": 817.41,
-   "tracked": true,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Pitch+Black+6+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Pitch+Black+6+Booster+Box+Case"
-  },
-  {
    "name": "Hidden Fates Elite Trainer Box",
    "rrp": 49.99,
    "sold": 309.76,
@@ -3051,18 +1887,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Hidden+Fates+Elite+Trainer+Box",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Hidden+Fates+Elite+Trainer+Box"
-  },
-  {
-   "name": "Perfect Order 6 Booster Box Case",
-   "rrp": 155.0,
-   "sold": 951.21,
-   "low": 701.77,
-   "avg30": null,
-   "margin": 5.137,
-   "profit": 796.21,
-   "tracked": true,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Perfect+Order+6+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Perfect+Order+6+Booster+Box+Case"
   },
   {
    "name": "Lost Origin Pok\u00e9mon Center Elite Trainer Box",
@@ -3113,18 +1937,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Trick+or+Trade+2023+BOOster+Bundle+%28120+Packs%29"
   },
   {
-   "name": "Wild Force Booster Box Case",
-   "rrp": 155.0,
-   "sold": 928.83,
-   "low": 834.61,
-   "avg30": null,
-   "margin": 4.992,
-   "profit": 773.83,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Wild+Force+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Wild+Force+Booster+Box+Case"
-  },
-  {
    "name": "30th Celebration Pok\u00e9mon Center Elite Trainer Box",
    "rrp": 56.99,
    "sold": 341.14,
@@ -3159,30 +1971,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Forbidden+Light+Build+%26+Battle+Box",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Forbidden+Light+Build+%26+Battle+Box"
-  },
-  {
-   "name": "Abyss Eye Booster Box Case",
-   "rrp": 155.0,
-   "sold": 914.82,
-   "low": 818.74,
-   "avg30": null,
-   "margin": 4.902,
-   "profit": 759.82,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Abyss+Eye+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Abyss+Eye+Booster+Box+Case"
-  },
-  {
-   "name": "Chaos Rising 6 Booster Box Case",
-   "rrp": 155.0,
-   "sold": 904.49,
-   "low": 718.49,
-   "avg30": null,
-   "margin": 4.835,
-   "profit": 749.49,
-   "tracked": true,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Chaos+Rising+6+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Chaos+Rising+6+Booster+Box+Case"
   },
   {
    "name": "Temporal Forces Build & Battle Box",
@@ -3329,30 +2117,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+GX+Battle+Boost+Booster+Box"
   },
   {
-   "name": "Mega Brave Booster Box Case",
-   "rrp": 155.0,
-   "sold": 808.9,
-   "low": 834.61,
-   "avg30": null,
-   "margin": 4.219,
-   "profit": 653.9,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Mega+Brave+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Mega+Brave+Booster+Box+Case"
-  },
-  {
-   "name": "Storm Emeralda Booster Box Case",
-   "rrp": 155.0,
-   "sold": 803.13,
-   "low": 1001.7,
-   "avg30": null,
-   "margin": 4.181,
-   "profit": 648.13,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Storm+Emeralda+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Storm+Emeralda+Booster+Box+Case"
-  },
-  {
    "name": "Fusion Strike Build & Battle Box",
    "rrp": 19.99,
    "sold": 102.38,
@@ -3399,18 +2163,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Prismatic+Evolutions+Premium+Figure+Collection",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Prismatic+Evolutions+Premium+Figure+Collection"
-  },
-  {
-   "name": "Heat Wave Arena Booster Box Case",
-   "rrp": 155.0,
-   "sold": 775.73,
-   "low": null,
-   "avg30": null,
-   "margin": 4.005,
-   "profit": 620.73,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Heat+Wave+Arena+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Heat+Wave+Arena+Booster+Box+Case"
   },
   {
    "name": "Fusion Strike Elite Trainer Box",
@@ -3545,18 +2297,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Fever-Burst+Fighter+Booster+Box"
   },
   {
-   "name": "Black Bolt JP Booster Box Case",
-   "rrp": 155.0,
-   "sold": 751.07,
-   "low": null,
-   "avg30": null,
-   "margin": 3.846,
-   "profit": 596.07,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Black+Bolt+JP+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Black+Bolt+JP+Booster+Box+Case"
-  },
-  {
    "name": "Sun & Moon Elite Trainer Box (Lunala)",
    "rrp": 49.99,
    "sold": 240.89,
@@ -3641,42 +2381,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Sword+%26+Shield+Elite+Trainer+Box+%28Zamazenta%29"
   },
   {
-   "name": "Crimson Haze Booster Box Case",
-   "rrp": 155.0,
-   "sold": 719.97,
-   "low": 1252.34,
-   "avg30": null,
-   "margin": 3.645,
-   "profit": 564.97,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Crimson+Haze+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Crimson+Haze+Booster+Box+Case"
-  },
-  {
-   "name": "Clay Burst Booster Box Case",
-   "rrp": 155.0,
-   "sold": 710.13,
-   "low": null,
-   "avg30": null,
-   "margin": 3.581,
-   "profit": 555.13,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Clay+Burst+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Clay+Burst+Booster+Box+Case"
-  },
-  {
-   "name": "Mask of Change Booster Box Case",
-   "rrp": 155.0,
-   "sold": 710.05,
-   "low": null,
-   "avg30": null,
-   "margin": 3.581,
-   "profit": 555.05,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Mask+of+Change+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Mask+of+Change+Booster+Box+Case"
-  },
-  {
    "name": "Islands Await You Booster Box",
    "rrp": 155.0,
    "sold": 705.54,
@@ -3699,18 +2403,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Miracle+Twin+Booster+Box",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Miracle+Twin+Booster+Box"
-  },
-  {
-   "name": "Nihil Zero Booster Box Case",
-   "rrp": 155.0,
-   "sold": 703.45,
-   "low": 827.1,
-   "avg30": null,
-   "margin": 3.538,
-   "profit": 548.45,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Nihil+Zero+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Nihil+Zero+Booster+Box+Case"
   },
   {
    "name": "Crimson Invasion Elite Trainer Box",
@@ -3809,18 +2501,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+CSM2aC%3A+Shining+Synergy+-+Shower+Jumbo+Booster+Box"
   },
   {
-   "name": "White Flare JP Booster Box Case",
-   "rrp": 155.0,
-   "sold": 668.36,
-   "low": null,
-   "avg30": null,
-   "margin": 3.312,
-   "profit": 513.36,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=White+Flare+JP+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+White+Flare+JP+Booster+Box+Case"
-  },
-  {
    "name": "Awakened Heroes Booster Box",
    "rrp": 155.0,
    "sold": 665.14,
@@ -3831,18 +2511,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Awakened+Heroes+Booster+Box",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Awakened+Heroes+Booster+Box"
-  },
-  {
-   "name": "Stellar Miracle Booster Box Case",
-   "rrp": 155.0,
-   "sold": 663.76,
-   "low": 751.9,
-   "avg30": null,
-   "margin": 3.282,
-   "profit": 508.76,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Stellar+Miracle+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Stellar+Miracle+Booster+Box+Case"
   },
   {
    "name": "Strength Expansion Pack Sun & Moon Booster Box",
@@ -3905,30 +2573,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Blue+Shock+Booster+Box"
   },
   {
-   "name": "Violet ex Booster Box Case",
-   "rrp": 155.0,
-   "sold": 626.5,
-   "low": 960.77,
-   "avg30": null,
-   "margin": 3.042,
-   "profit": 471.5,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Violet+ex+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Violet+ex+Booster+Box+Case"
-  },
-  {
-   "name": "Night Wanderer Booster Box Case",
-   "rrp": 155.0,
-   "sold": 625.75,
-   "low": null,
-   "avg30": null,
-   "margin": 3.037,
-   "profit": 470.75,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Night+Wanderer+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Night+Wanderer+Booster+Box+Case"
-  },
-  {
    "name": "Paradox Rift Roaring Moon Pok\u00e9mon Center Elite Trainer Box",
    "rrp": 56.99,
    "sold": 229.43,
@@ -3977,18 +2621,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Fusion+Strike+Booster+Box"
   },
   {
-   "name": "Paradise Dragona Booster Box Case",
-   "rrp": 155.0,
-   "sold": 610.87,
-   "low": 919.0,
-   "avg30": null,
-   "margin": 2.941,
-   "profit": 455.87,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Paradise+Dragona+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Paradise+Dragona+Booster+Box+Case"
-  },
-  {
    "name": "Dream League Booster Box",
    "rrp": 155.0,
    "sold": 600.01,
@@ -4011,18 +2643,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Hidden+Fates%3A+Ultra-Premium+Collection",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Hidden+Fates%3A+Ultra-Premium+Collection"
-  },
-  {
-   "name": "Mega Symphonia Booster Box Case",
-   "rrp": 155.0,
-   "sold": 590.04,
-   "low": 835.44,
-   "avg30": null,
-   "margin": 2.807,
-   "profit": 435.04,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Mega+Symphonia+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Mega+Symphonia+Booster+Box+Case"
   },
   {
    "name": "Cosmic Eclipse Booster Box (18 Boosters)",
@@ -4071,18 +2691,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=GX+Ultra+Shiny+Booster+Box",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+GX+Ultra+Shiny+Booster+Box"
-  },
-  {
-   "name": "Ancient Roar Booster Box Case",
-   "rrp": 155.0,
-   "sold": 568.11,
-   "low": null,
-   "avg30": null,
-   "margin": 2.665,
-   "profit": 413.11,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Ancient+Roar+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Ancient+Roar+Booster+Box+Case"
   },
   {
    "name": "HeartGold & SoulSilver Booster Box (18 Boosters)",
@@ -4193,18 +2801,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Astral+Radiance+Pok%C3%A9mon+Center+Elite+Trainer+Box"
   },
   {
-   "name": "Cyber Judge Booster Box Case",
-   "rrp": 155.0,
-   "sold": 525.5,
-   "low": 793.68,
-   "avg30": null,
-   "margin": 2.39,
-   "profit": 370.5,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Cyber+Judge+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Cyber+Judge+Booster+Box+Case"
-  },
-  {
    "name": "Platinum Booster Box",
    "rrp": 155.0,
    "sold": 523.91,
@@ -4311,18 +2907,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Paradox+Rift+Build+%26+Battle+Stadium+Box",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Paradox+Rift+Build+%26+Battle+Stadium+Box"
-  },
-  {
-   "name": "Future Flash Booster Box Case",
-   "rrp": 155.0,
-   "sold": 500.43,
-   "low": null,
-   "avg30": null,
-   "margin": 2.229,
-   "profit": 345.43,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Future+Flash+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Future+Flash+Booster+Box+Case"
   },
   {
    "name": "Champion\u2019s Path Elite Trainer Box",
@@ -4455,18 +3039,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Scarlet+%26+Violet+Build+%26+Battle+Stadium+Box",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Scarlet+%26+Violet+Build+%26+Battle+Stadium+Box"
-  },
-  {
-   "name": "Battle Partners Booster Box Case",
-   "rrp": 155.0,
-   "sold": 461.46,
-   "low": 710.13,
-   "avg30": null,
-   "margin": 1.977,
-   "profit": 306.46,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Battle+Partners+Booster+Box+Case",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Battle+Partners+Booster+Box+Case"
   },
   {
    "name": "Mega Evolution: Mega Lucario Pok\u00e9mon Center Elite Trainer Box",
@@ -4947,18 +3519,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Super-Burst+Impact+Booster+Box",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Super-Burst+Impact+Booster+Box"
-  },
-  {
-   "name": "Forbidden Light JP Booster Box",
-   "rrp": 155.0,
-   "sold": 352.94,
-   "low": 568.11,
-   "avg30": null,
-   "margin": 1.277,
-   "profit": 197.94,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Forbidden+Light+JP+Booster+Box",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Forbidden+Light+JP+Booster+Box"
   },
   {
    "name": "Brilliant Stars Booster Box",
@@ -6893,18 +5453,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Destined+Rivals+Booster+Box+%2818+Boosters%29"
   },
   {
-   "name": "Black Bolt JP Deluxe Booster Box",
-   "rrp": 155.0,
-   "sold": 135.31,
-   "low": 128.65,
-   "avg30": null,
-   "margin": -0.127,
-   "profit": -19.69,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Black+Bolt+JP+Deluxe+Booster+Box",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Black+Bolt+JP+Deluxe+Booster+Box"
-  },
-  {
    "name": "Astral Radiance Booster Box (18 Boosters)",
    "rrp": 155.0,
    "sold": 132.23,
@@ -6951,18 +5499,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=VSTAR+Universe+Booster+Box",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+VSTAR+Universe+Booster+Box"
-  },
-  {
-   "name": "White Flare JP Deluxe Booster Box",
-   "rrp": 155.0,
-   "sold": 127.08,
-   "low": 116.95,
-   "avg30": null,
-   "margin": -0.18,
-   "profit": -27.92,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=White+Flare+JP+Deluxe+Booster+Box",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+White+Flare+JP+Deluxe+Booster+Box"
   },
   {
    "name": "Terapagos ex Ultra-Premium Collection",
@@ -7071,18 +5607,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Paradigm+Trigger+Booster+Box",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Paradigm+Trigger+Booster+Box"
-  },
-  {
-   "name": "30th Celebration JP Booster Box",
-   "rrp": 155.0,
-   "sold": 119.61,
-   "low": 77.69,
-   "avg30": null,
-   "margin": -0.228,
-   "profit": -35.39,
-   "tracked": true,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=30th+Celebration+JP+Booster+Box",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+30th+Celebration+JP+Booster+Box"
   },
   {
    "name": "Rapid Strike Master Booster Box",
@@ -7697,18 +6221,6 @@
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Perfect+Order+Booster+Box+%2818+Boosters%29"
   },
   {
-   "name": "White Flare JP Booster Box",
-   "rrp": 155.0,
-   "sold": 71.83,
-   "low": 51.8,
-   "avg30": null,
-   "margin": -0.537,
-   "profit": -83.17,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=White+Flare+JP+Booster+Box",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+White+Flare+JP+Booster+Box"
-  },
-  {
    "name": "EX Dragon Booster Box",
    "rrp": 155.0,
    "sold": 71.01,
@@ -7731,18 +6243,6 @@
    "tracked": false,
    "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Pok%C3%A9mon+Card+Gym+Promo+Sun+%26+Moon+Vol.+3+Booster+Box",
    "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Pok%C3%A9mon+Card+Gym+Promo+Sun+%26+Moon+Vol.+3+Booster+Box"
-  },
-  {
-   "name": "Black Bolt JP Booster Box",
-   "rrp": 155.0,
-   "sold": 68.79,
-   "low": 47.54,
-   "avg30": null,
-   "margin": -0.556,
-   "profit": -86.21,
-   "tracked": false,
-   "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Black+Bolt+JP+Booster+Box",
-   "ebay_sold": "https://www.ebay.co.uk/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw=pokemon+Black+Bolt+JP+Booster+Box"
   },
   {
    "name": "Scarlet ex Booster Box",
