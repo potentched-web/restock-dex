@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T01:04:06+00:00",
+ "updated": "2026-11-11T01:09:05+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -80,7 +80,7 @@
      "url": "https://magicmadhouse.co.uk/pokemon/pokemon-sealed-product?sort=newest"
     }
    ],
-   "uptime": 0.9908
+   "uptime": 0.991
   },
   {
    "name": "Total Cards",
@@ -482,7 +482,7 @@
     },
     {
      "title": "Pokemon Scarlet & Violet Destined Rivals Booster Bundle",
-     "price": 89.84,
+     "price": 89.85,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-scarlet-violet-destined-rivals-booster-bundle",
      "over_rrp": true,
@@ -500,7 +500,7 @@
     },
     {
      "title": "Pokemon Scarlet & Violet Surging Sparks Booster Box",
-     "price": 374.39,
+     "price": 374.4,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-scarlet-violet-surging-sparks-booster-box",
      "over_rrp": true,
@@ -527,7 +527,7 @@
     },
     {
      "title": "Pokemon TCG: 30th Celebration Poster Collection",
-     "price": 778.74,
+     "price": 778.77,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-30th-celebration-poster-collection",
      "over_rrp": false,
@@ -563,7 +563,7 @@
     },
     {
      "title": "Pokemon TCG: Figure Collection Mew 30th Celebration",
-     "price": 44.91,
+     "price": 44.92,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-figure-collection-mew-30th-celebration",
      "over_rrp": true,
@@ -572,7 +572,7 @@
     },
     {
      "title": "Pokemon TCG: Figure Collection Mewtwo 30th Celebration",
-     "price": 44.91,
+     "price": 44.92,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-figure-collection-mewtwo-30th-celebration",
      "over_rrp": true,
@@ -599,7 +599,7 @@
     },
     {
      "title": "Pokemon TCG: First Partner Illustration Collection - Series 3",
-     "price": 44.91,
+     "price": 44.92,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-first-partner-illustration-collection-series-3",
      "over_rrp": false,
@@ -608,7 +608,7 @@
     },
     {
      "title": "Pokemon TCG: First Partner Illustration Collection Series 2 + 1 Mega Moonlit Tin + 2 Lumiose Mini Tin Bundle",
-     "price": 88.3,
+     "price": 88.31,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-first-partner-illustration-collection-series-2-1-mega-moonlit-tin-2-lumiose-mini-tin-bundle",
      "over_rrp": false,
@@ -626,7 +626,7 @@
     },
     {
      "title": "Pokemon TCG: Lumiose City Mini Tin Display",
-     "price": 164.72,
+     "price": 164.73,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-lumiose-city-mini-tin-display",
      "over_rrp": false,
@@ -689,7 +689,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Evolution - Chaos Rising Booster Box",
-     "price": 980.09,
+     "price": 980.12,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-chaos-rising-booster-box",
      "over_rrp": true,
@@ -752,7 +752,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Evolution - Pitch Black Booster Box",
-     "price": 980.09,
+     "price": 980.12,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-pitch-black-booster-box",
      "over_rrp": true,
@@ -797,7 +797,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Greninja ex Premium Collection",
-     "price": 808.7,
+     "price": 808.72,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-greninja-ex-premium-collection",
      "over_rrp": false,
@@ -815,7 +815,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Moonlit Tin",
-     "price": 781.74,
+     "price": 781.76,
      "available": false,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-moonlit-tins",
      "over_rrp": false,
