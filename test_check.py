@@ -183,3 +183,16 @@ assert new[0] == {"name": "Pitch Black Half Booster Box", "url": "https://www.am
 try: amazon_sync.sync("<html></html>", []); assert False
 except ValueError: pass
 print("amazon sync checks passed")
+
+# Resale margins: Cardmarket rows -> GBP margin over RRP
+import prices
+prods = prices.rows({"version": 1, "products": [
+    {"idProduct": 1, "name": "Perfect Order Elite Trainer Box"}, {"idProduct": 2, "name": "Old Set Booster Bundle"},
+    {"idProduct": 3, "name": "Elite Trainer Box Sleeves"}, {"idProduct": 4, "name": "Mystery Tin"}]})
+guide = prices.rows({"priceGuides": [{"idProduct": 1, "avg7": 100.0, "low": 90.0}, {"idProduct": 2, "trend": 20.0},
+                                     {"idProduct": 3, "avg7": 9.0}, {"idProduct": 4, "avg7": 50.0}]})
+got = prices.build(prods, guide, 0.8, {**CFG, "rrp": {"elite trainer": 49.99, "booster bundle": 24.99}}, ["Perfect Order"])
+assert [i["name"] for i in got] == ["Perfect Order Elite Trainer Box", "Old Set Booster Bundle"], got
+assert got[0]["sold"] == 80.0 and got[0]["low"] == 72.0 and got[0]["margin"] == 0.6 and got[0]["tracked"], got[0]
+assert got[1]["sold"] == 16.0 and got[1]["margin"] < 0 and not got[1]["tracked"], got[1]
+print("resale margin checks passed")
