@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T10:41:16+00:00",
+ "updated": "2026-11-11T10:46:16+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -25,6 +25,10 @@
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
+     "title": "Pokemon First Partner Illustration Collection Series 3",
+     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+    },
+    {
      "title": "Pokemon Mega Evolution Ascended Heroes - Mini Tin Clefairy",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
@@ -38,6 +42,14 @@
     },
     {
      "title": "Pokemon Mega Evolution Ascended Heroes - Mini Tin Zorua",
+     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+    },
+    {
+     "title": "Pokemon Mega Evolution Perfect Order Booster Box (36 Packs)",
+     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+    },
+    {
+     "title": "Pokemon Mega Evolution Pitch Black Booster Bundle",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
@@ -9482,6 +9494,24 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-11T10:46:16+00:00",
+   "site": "Chaos Cards",
+   "text": "New on page: Pokemon First Partner Illustration Collection Series 3",
+   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+  },
+  {
+   "time": "2026-11-11T10:46:16+00:00",
+   "site": "Chaos Cards",
+   "text": "New on page: Pokemon Mega Evolution Perfect Order Booster Box (36 Packs)",
+   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+  },
+  {
+   "time": "2026-11-11T10:46:16+00:00",
+   "site": "Chaos Cards",
+   "text": "New on page: Pokemon Mega Evolution Pitch Black Booster Bundle",
+   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+  },
+  {
    "time": "2026-11-11T03:56:32+00:00",
    "site": "Card Cavern",
    "text": "New on page: Re-158H/20-110H Hippokampos (Legacy Collection Full Art Foil)",
@@ -10062,24 +10092,6 @@
    "site": "Hokey Poke Games",
    "text": "NEW: Pokemon TCG: Ultra Premium Collection - Elite Trainer Box \u00a3130.00 (over RRP)",
    "url": "https://hokeypokegames.co.uk/cart/54633438511451:1"
-  },
-  {
-   "time": "2026-11-04T13:33:07+00:00",
-   "site": "Zatu Games",
-   "text": "NEW: Pok\u00e9mon TCG: Mega Evolution Pitch Black - Booster Bundle \u00a339.99 (over RRP)",
-   "url": "https://zatu.com/cart/56945082040698:1"
-  },
-  {
-   "time": "2026-11-04T13:33:07+00:00",
-   "site": "Zatu Games",
-   "text": "NEW: Pok\u00e9mon TCG: Mega Evolution Pitch Black - Booster Box \u00a3169.99 (over RRP)",
-   "url": "https://zatu.com/cart/56945081942394:1"
-  },
-  {
-   "time": "2026-11-04T13:33:07+00:00",
-   "site": "Zatu Games",
-   "text": "NEW: Pok\u00e9mon TCG: Mega Evolution Pitch Black - Elite Trainer Box \u00a379.99 (over RRP)",
-   "url": "https://zatu.com/cart/56945082827130:1"
   }
  ],
  "wishlist": [
