@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T01:19:05+00:00",
+ "updated": "2026-11-11T01:24:05+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -80,7 +80,7 @@
      "url": "https://magicmadhouse.co.uk/pokemon/pokemon-sealed-product?sort=newest"
     }
    ],
-   "uptime": 0.9914
+   "uptime": 0.9916
   },
   {
    "name": "Total Cards",
@@ -1252,7 +1252,7 @@
     {
      "title": "Pokemon TCG: Black Bolt Elite Trainer Box",
      "price": 164.99,
-     "available": true,
+     "available": false,
      "url": "https://tcgparadise.co.uk/products/pokemon-tcg-black-bolt-elite-trainer-box",
      "over_rrp": true,
      "rrp": 49.99,
