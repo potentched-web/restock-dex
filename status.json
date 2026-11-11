@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T10:56:16+00:00",
+ "updated": "2026-11-11T11:01:16+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -308,6 +308,15 @@
      "over_rrp": false,
      "rrp": null,
      "cart": "https://hokeypokegames.co.uk/cart/54634030563675:1"
+    },
+    {
+     "title": "Pokemon TCG: Mega Zygarde EX Box Premium Collection",
+     "price": 59.95,
+     "available": true,
+     "url": "https://hokeypokegames.co.uk/products/pokemon-tcg-mega-zygarde-ex-box-premium-collection",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://hokeypokegames.co.uk/cart/55024452895067:1"
     },
     {
      "title": "Pokemon TCG: Prismatic Evolutions Mini Tin",
@@ -9502,6 +9511,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-11T11:01:16+00:00",
+   "site": "Hokey Poke Games",
+   "text": "NEW: Pokemon TCG: Mega Zygarde EX Box Premium Collection \u00a359.95",
+   "url": "https://hokeypokegames.co.uk/cart/55024452895067:1"
+  },
+  {
    "time": "2026-11-11T10:51:16+00:00",
    "site": "Chaos Cards",
    "text": "New on page: Pokemon Mega Evolution Chaos Rising 3 Pack Blister Charmeleon",
@@ -10093,12 +10108,6 @@
    "time": "2026-11-04T14:03:07+00:00",
    "site": "The Card Vault",
    "text": "New on page: Pokemon TCG - Mega Evolution - Perfect Order - Elite Trainer Box",
-   "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
-  },
-  {
-   "time": "2026-11-04T14:03:07+00:00",
-   "site": "The Card Vault",
-   "text": "New on page: Pokemon TCG - Mega Evolution - Ultra-Premium Collection - Mega Charizard X",
    "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
   }
  ],
