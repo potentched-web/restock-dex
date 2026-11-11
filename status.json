@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T20:12:08+00:00",
+ "updated": "2026-11-11T20:17:09+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -1391,6 +1391,15 @@
      "over_rrp": true,
      "rrp": 56.99,
      "cart": "https://tcgparadise.co.uk/cart/58648479301977:1"
+    },
+    {
+     "title": "Pokemon TCG: Delta Reign Booster Bundle",
+     "price": 44.99,
+     "available": true,
+     "url": "https://tcgparadise.co.uk/products/pokemon-tcg-delta-reign-booster-bundle",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://tcgparadise.co.uk/cart/60452630921561:1"
     },
     {
      "title": "Pokemon TCG: Destined Rivals Booster Bundle",
@@ -9517,6 +9526,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-11T20:17:09+00:00",
+   "site": "TCG Paradise",
+   "text": "NEW: Pokemon TCG: Delta Reign Booster Bundle \u00a344.99 (over RRP)",
+   "url": "https://tcgparadise.co.uk/cart/60452630921561:1"
+  },
+  {
    "time": "2026-11-11T16:52:40+00:00",
    "site": "Card Cavern",
    "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
@@ -10109,12 +10124,6 @@
    "site": "Hokey Poke Games",
    "text": "NEW: Pokemon TCG: Prismatic Evolutions Mini Tin \u00a329.99",
    "url": "https://hokeypokegames.co.uk/cart/54633936519515:1"
-  },
-  {
-   "time": "2026-11-04T14:13:07+00:00",
-   "site": "Hokey Poke Games",
-   "text": "NEW: Pokemon TCG: Journey Together Booster Box \u00a3235.00 (over RRP)",
-   "url": "https://hokeypokegames.co.uk/cart/54633691119963:1"
   }
  ],
  "wishlist": [
