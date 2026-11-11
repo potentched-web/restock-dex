@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T10:46:16+00:00",
+ "updated": "2026-11-11T10:51:16+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -45,6 +45,10 @@
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
+     "title": "Pokemon Mega Evolution Chaos Rising 3 Pack Blister Charmeleon",
+     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+    },
+    {
      "title": "Pokemon Mega Evolution Perfect Order Booster Box (36 Packs)",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
@@ -62,6 +66,10 @@
     },
     {
      "title": "Pokemon Mega Forces Mega Zeraora EX Gift Tin",
+     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+    },
+    {
+     "title": "Pokemon Perfect Order 3 Pack Blister Chikorita (ME03)",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     }
    ],
@@ -9494,6 +9502,18 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-11T10:51:16+00:00",
+   "site": "Chaos Cards",
+   "text": "New on page: Pokemon Mega Evolution Chaos Rising 3 Pack Blister Charmeleon",
+   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+  },
+  {
+   "time": "2026-11-11T10:51:16+00:00",
+   "site": "Chaos Cards",
+   "text": "New on page: Pokemon Perfect Order 3 Pack Blister Chikorita (ME03)",
+   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+  },
+  {
    "time": "2026-11-11T10:46:16+00:00",
    "site": "Chaos Cards",
    "text": "New on page: Pokemon First Partner Illustration Collection Series 3",
@@ -10080,18 +10100,6 @@
    "site": "The Card Vault",
    "text": "New on page: Pokemon TCG - Mega Evolution - Ultra-Premium Collection - Mega Charizard X",
    "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
-  },
-  {
-   "time": "2026-11-04T14:03:07+00:00",
-   "site": "The Card Vault",
-   "text": "...and 24 more",
-   "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
-  },
-  {
-   "time": "2026-11-04T13:53:07+00:00",
-   "site": "Hokey Poke Games",
-   "text": "NEW: Pokemon TCG: Ultra Premium Collection - Elite Trainer Box \u00a3130.00 (over RRP)",
-   "url": "https://hokeypokegames.co.uk/cart/54633438511451:1"
   }
  ],
  "wishlist": [
