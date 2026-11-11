@@ -1,0 +1,21 @@
+name: Resale margins
+on:
+  schedule:
+    - cron: "30 6 * * *"   # Cardmarket refreshes its price guide daily
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: resale-margins
+jobs:
+  prices:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compare RRP with recent Cardmarket sales
+        run: |
+          python3 prices.py
+          git config user.name "stock-bot"
+          git config user.email "stock-bot@users.noreply.github.com"
+          git add prices.json
+          git diff --cached --quiet || (git commit -m "Update resale margins" && (git push || (git pull --rebase -X theirs && git push)))

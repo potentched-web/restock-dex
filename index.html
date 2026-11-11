@@ -179,6 +179,7 @@
   .ready th, .ready td { padding:7px 6px; border-top:1px solid var(--line); text-align:center }
   .ready th:first-child, .ready td:first-child { text-align:left }
   .ready thead th { border-top:0; font-size:12px; color:var(--muted); font-weight:700; vertical-align:bottom }
+  .rs td, .rs th { text-align:right } .rs td:last-child { white-space:nowrap }
   .ready input { width:20px; height:20px; accent-color:var(--grass); cursor:pointer }
   .ready tr.full td:first-child a { color:var(--grass) }
   .ready-wrap { overflow-x:auto; max-height:420px; overflow-y:auto }
@@ -363,6 +364,7 @@ html[data-skin="deepsea"] footer{ color:var(--muted) }
     <button class="tab" role="tab" id="t-amazon" aria-controls="tab-amazon" aria-selected="false" data-tab="amazon">Amazon<span class="badge" id="b-amazon" hidden></span></button>
     <button class="tab" role="tab" id="t-notifs" aria-controls="tab-notifs" aria-selected="false" data-tab="notifs">Notifications<span class="badge" id="b-notifs" hidden></span></button>
     <button class="tab" role="tab" id="t-dip" aria-controls="tab-dip" aria-selected="false" data-tab="dip">Lucky Dip</button>
+    <button class="tab" role="tab" id="t-resale" aria-controls="tab-resale" aria-selected="false" data-tab="resale">Resale<span class="badge" id="b-resale" hidden></span></button>
     <button class="tab" role="tab" id="t-patterns" aria-controls="tab-patterns" aria-selected="false" data-tab="patterns">Patterns<span class="badge" id="b-patterns" hidden></span></button>
   </nav>
 
@@ -493,6 +495,19 @@ html[data-skin="deepsea"] footer{ color:var(--muted) }
     </form>
     <span id="amz-msg" role="status" class="note"></span>
     <p class="note">More invite lists: <a href="https://www.tcgcompare.com/amazon" target="_blank" rel="noopener">TCG Compare</a> · <a href="https://tcgstock.co.uk/amazon-invites" target="_blank" rel="noopener">TCG Stock</a></p>
+  </section>
+  </div>
+
+  <div class="panel" id="tab-resale" role="tabpanel" aria-labelledby="t-resale">
+  <section class="screen" aria-labelledby="rs-h">
+    <h2 id="rs-h">▶ RESALE MARGINS</h2>
+    <div class="best" id="rs-sum" style="margin-bottom:10px"></div>
+    <p class="note"><label><input type="checkbox" id="rs-hot" checked> Only 50%+ over RRP</label> · <label><input type="checkbox" id="rs-tracked" checked> Only sets I track (in print, so buyable at RRP)</label></p>
+    <div class="ready-wrap"><table class="ready rs">
+      <thead><tr><th scope="col">Product</th><th scope="col">RRP</th><th scope="col">Sold</th><th scope="col">Profit</th><th scope="col">Margin</th><th scope="col">Check</th></tr></thead>
+      <tbody id="rs"></tbody>
+    </table></div>
+    <p class="note" id="rs-note"></p>
   </section>
   </div>
 
@@ -954,6 +969,25 @@ $("notify").addEventListener("click", async e => {
 });
 setToggle($("notify"), store("notify") === "on");
 /* Push notifications: public ntfy topic from sites.json, and the log of what the checker sent */
+/* Resale margins: prices.json (daily, from Cardmarket sales) vs UK RRP */
+let resale = null;
+function renderResale() {
+  if (!resale) { $("rs-sum").textContent = "No price data yet. It updates once a day."; return; }
+  const hot = i => i.margin >= resale.target;
+  const list = resale.items.filter(i => (!$("rs-hot").checked || hot(i)) && (!$("rs-tracked").checked || i.tracked));
+  const n = resale.items.filter(hot).length;
+  badge("resale", resale.items.filter(i => hot(i) && i.tracked).length, "tracked items 50% over RRP");
+  $("rs-sum").textContent = `${n} of ${resale.items.length} sealed products selling for ${Math.round(resale.target * 100)}%+ over RRP`;
+  $("rs").innerHTML = list.map(i => `<tr><td>${esc(i.name)}${i.tracked ? ' <span class="pill t-grass">tracked</span>' : ""}</td>
+    <td>£${i.rrp.toFixed(2)}</td><td>£${i.sold.toFixed(2)}</td><td>£${i.profit.toFixed(2)}</td>
+    <td><span class="pill ${hot(i) ? "t-fire" : "t-normal"}">${Math.round(i.margin * 100)}%</span></td>
+    <td><a href="${esc(i.ebay_sold)}" target="_blank" rel="noopener">eBay sold</a> · <a href="${esc(i.cardmarket)}" target="_blank" rel="noopener">Cardmarket</a></td></tr>`).join("")
+    || '<tr><td colspan="6">Nothing matches.</td></tr>';
+  $("rs-note").textContent = `Sold = 7-day average sale price. Margin = (sold − RRP) ÷ RRP, before selling fees and postage. ${resale.source} at €1 = £${resale.eur_gbp}. Updated ${when(resale.updated)}. Use the eBay sold link to confirm UK prices before buying.`;
+}
+["rs-hot", "rs-tracked"].forEach(id => $(id).addEventListener("change", renderResale));
+fetch("prices.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.ok ? r.json() : null).catch(() => null).then(d => { resale = d; renderResale(); });
+
 fetch("sites.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.json()).then(c => {
   const t = c.ntfy_topic || "";
   $("push-topic").textContent = t || "(not set up)";
