@@ -4,7 +4,7 @@ Reads Cardmarket's public daily downloads (sealed product list + price guide, EU
 converts to GBP with the ECB rate, and writes prices.json for the dashboard's Resale tab.
 RRP comes from sites.json "rrp" (same rules as the stock checker). Run once a day.
 """
-import json, os
+import json, os, re
 from datetime import datetime, timezone
 from urllib.parse import quote_plus
 from check import HERE, fetch, rrp_for, wanted
@@ -14,6 +14,8 @@ PRODUCTS = CM + "/productList/products_nonsingles_6.json"  # 6 = Pokemon
 GUIDE = CM + "/priceGuide/price_guide_6.json"
 FX = "https://api.frankfurter.app/latest?from=EUR&to=GBP"
 TARGET = 0.5  # flag anything selling for 50%+ over RRP
+# Multi-unit cases/displays and Japanese product would be compared with a single-item UK RRP
+SKIP = re.compile(r"\bcase\b|display|\bjp\b|japanese", re.I)
 
 
 def rows(doc):
@@ -34,7 +36,7 @@ def build(products, guide, eur_gbp, cfg, sets):
     out = []
     for p in products:
         name, g = p.get("name", ""), prices.get(p.get("idProduct"))
-        rrp = rrp_for(name, cfg) if wanted(name, cfg) else None
+        rrp = rrp_for(name, cfg) if wanted(name, cfg) and not SKIP.search(name) else None
         eur = sold_eur(g) if g else None
         if not rrp or not eur:
             continue

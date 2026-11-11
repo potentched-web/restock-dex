@@ -188,9 +188,9 @@ print("amazon sync checks passed")
 import prices
 prods = prices.rows({"version": 1, "products": [
     {"idProduct": 1, "name": "Perfect Order Elite Trainer Box"}, {"idProduct": 2, "name": "Old Set Booster Bundle"},
-    {"idProduct": 3, "name": "Elite Trainer Box Sleeves"}, {"idProduct": 4, "name": "Mystery Tin"}]})
+    {"idProduct": 3, "name": "Elite Trainer Box Sleeves"}, {"idProduct": 4, "name": "Mystery Tin"}, {"idProduct": 5, "name": "Perfect Order 10 Elite Trainer Box Case"}]})
 guide = prices.rows({"priceGuides": [{"idProduct": 1, "avg7": 100.0, "low": 90.0}, {"idProduct": 2, "trend": 20.0},
-                                     {"idProduct": 3, "avg7": 9.0}, {"idProduct": 4, "avg7": 50.0}]})
+                                     {"idProduct": 3, "avg7": 9.0}, {"idProduct": 4, "avg7": 50.0}, {"idProduct": 5, "avg7": 900.0}]})
 got = prices.build(prods, guide, 0.8, {**CFG, "rrp": {"elite trainer": 49.99, "booster bundle": 24.99}}, ["Perfect Order"])
 assert [i["name"] for i in got] == ["Perfect Order Elite Trainer Box", "Old Set Booster Bundle"], got
 assert got[0]["sold"] == 80.0 and got[0]["low"] == 72.0 and got[0]["margin"] == 0.6 and got[0]["tracked"], got[0]
