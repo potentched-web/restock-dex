@@ -3,8 +3,6 @@ on:
   schedule:
     - cron: "30 6 * * *"   # Cardmarket refreshes its price guide daily
   workflow_dispatch:
-  push:
-    branches: [resale-margins]   # temporary: test run on the PR branch
 permissions:
   contents: write
 concurrency: resale-margins
