@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T03:51:33+00:00",
+ "updated": "2026-11-11T03:56:32+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -80,7 +80,7 @@
      "url": "https://magicmadhouse.co.uk/pokemon/pokemon-sealed-product?sort=newest"
     }
    ],
-   "uptime": 0.9952
+   "uptime": 0.9953
   },
   {
    "name": "Total Cards",
@@ -3100,6 +3100,10 @@
    "items": [
     {
      "title": "Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
+     "url": "https://cardcavern.co.uk/"
+    },
+    {
+     "title": "Re-158H/20-110H Hippokampos (Legacy Collection Full Art Foil)",
      "url": "https://cardcavern.co.uk/"
     }
    ],
@@ -9482,6 +9486,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-11T03:56:32+00:00",
+   "site": "Card Cavern",
+   "text": "New on page: Re-158H/20-110H Hippokampos (Legacy Collection Full Art Foil)",
+   "url": "https://cardcavern.co.uk/"
+  },
+  {
    "time": "2026-11-11T03:09:04+00:00",
    "site": "Collectors Edge",
    "text": "NEW: Pokemon TCG: Prismatic Evolutions - Elite Trainer Box \u00a3129.95 (over RRP)",
@@ -10074,12 +10084,6 @@
    "site": "Zatu Games",
    "text": "NEW: Pok\u00e9mon TCG: Mega Evolution Pitch Black - Elite Trainer Box \u00a379.99 (over RRP)",
    "url": "https://zatu.com/cart/56945082827130:1"
-  },
-  {
-   "time": "2026-11-04T12:59:41+00:00",
-   "site": "Zatu Games",
-   "text": "NEW: Pokemon TCG: Scarlet & Violet - Prismatic Evolutions - Elite Trainer Box \u00a3189.99 (over RRP)",
-   "url": "https://zatu.com/cart/56047391179130:1"
   }
  ],
  "wishlist": [
