@@ -633,7 +633,9 @@
   "mode": "shopify"
  },
  "Card Cavern": {
-  "lines": [],
+  "lines": [
+   "Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)"
+  ],
   "mode": "page"
  },
  "CardDeckr": {
@@ -657,8 +659,7 @@
    "Pokemon Mega Evolution Perfect Order Booster Box (36 Packs)",
    "Pokemon Mega Forces Mega Darkrai EX Gift Tin",
    "Pokemon Mega Forces Mega Dragonite EX Gift Tin",
-   "Pokemon Mega Forces Mega Zeraora EX Gift Tin",
-   "Pokemon Perfect Order 3 Pack Blister Chikorita (ME03)"
+   "Pokemon Mega Forces Mega Zeraora EX Gift Tin"
   ],
   "mode": "page"
  },

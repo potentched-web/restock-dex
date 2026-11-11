@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T16:46:41+00:00",
+ "updated": "2026-11-11T16:52:40+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -58,10 +58,6 @@
     },
     {
      "title": "Pokemon Mega Forces Mega Zeraora EX Gift Tin",
-     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
-    },
-    {
-     "title": "Pokemon Perfect Order 3 Pack Blister Chikorita (ME03)",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     }
    ],
@@ -3136,7 +3132,12 @@
    "skip": null,
    "error": null,
    "mode": "page",
-   "items": [],
+   "items": [
+    {
+     "title": "Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
+     "url": "https://cardcavern.co.uk/"
+    }
+   ],
    "uptime": 0.9976
   },
   {
@@ -9516,6 +9517,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-11T16:52:40+00:00",
+   "site": "Card Cavern",
+   "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
+   "url": "https://cardcavern.co.uk/"
+  },
+  {
    "time": "2026-11-11T14:24:31+00:00",
    "site": "Iconic TCG",
    "text": "NEW: Pok\u00e9mon TCG: Ascended Heroes - Booster Bundle (6 Packs) \u00a380.00 (over RRP)",
@@ -10108,12 +10115,6 @@
    "site": "Hokey Poke Games",
    "text": "NEW: Pokemon TCG: Journey Together Booster Box \u00a3235.00 (over RRP)",
    "url": "https://hokeypokegames.co.uk/cart/54633691119963:1"
-  },
-  {
-   "time": "2026-11-04T14:03:07+00:00",
-   "site": "The Card Vault",
-   "text": "New on page: Pokemon TCG - Mega Evolution - Ascended Heroes - Elite Trainer Box",
-   "url": "https://thecardvault.co.uk/collections/pokemon-new-releases"
   }
  ],
  "wishlist": [
