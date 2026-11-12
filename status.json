@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T15:06:02+00:00",
+ "updated": "2026-11-12T15:11:01+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -161,7 +161,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9869
+   "uptime": 0.9872
   },
   {
    "name": "Zatu Games",
@@ -2683,7 +2683,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG: Mega Evolution Pitch Black - Booster Box Display CDU",
-     "price": 358.0,
+     "price": 327.0,
      "available": true,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolution-pitch-black-booster-display-cdu",
      "over_rrp": true,
