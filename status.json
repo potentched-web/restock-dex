@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T15:55:21+00:00",
+ "updated": "2026-11-12T16:00:20+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -161,7 +161,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.989
+   "uptime": 0.9892
   },
   {
    "name": "Zatu Games",
@@ -7342,7 +7342,7 @@
     {
      "title": "Pok\u00e9mon TCG: First Partner Illustration Collection \u2013 Series 1",
      "price": 45.45,
-     "available": true,
+     "available": false,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-first-partner-illustration-collection-series-1",
      "over_rrp": false,
      "rrp": null,
