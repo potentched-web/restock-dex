@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T19:17:11+00:00",
+ "updated": "2026-11-12T19:22:33+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -66,7 +66,7 @@
    "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [],
-   "uptime": 0.9388
+   "uptime": 0.92
   },
   {
    "name": "Magic Madhouse",
@@ -143,7 +143,7 @@
      "cart": "https://www.totalcards.net/cart/59010459959677:1"
     }
    ],
-   "uptime": 0.9388
+   "uptime": 0.92
   },
   {
    "name": "Firestorm Games",
@@ -161,7 +161,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9945
+   "uptime": 0.9946
   },
   {
    "name": "Zatu Games",
@@ -261,7 +261,7 @@
      "cart": "https://zatu.com/cart/56945082040698:1"
     }
    ],
-   "uptime": 0.9388
+   "uptime": 0.92
   },
   {
    "name": "Hokey Poke Games",
@@ -343,7 +343,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54634059956571:1"
     }
    ],
-   "uptime": 0.9588
+   "uptime": 0.9596
   },
   {
    "name": "Collectors Edge",
@@ -515,7 +515,7 @@
      "cart": "https://collectorsedge.co.uk/cart/52803793944915:1"
     }
    ],
-   "uptime": 0.9388
+   "uptime": 0.92
   },
   {
    "name": "The Dice Dungeon",
@@ -1002,7 +1002,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9784
+   "uptime": 0.9788
   },
   {
    "name": "Packrat",
@@ -1275,13 +1275,13 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.9388
+   "uptime": 0.92
   },
   {
    "name": "TCG Paradise",
    "url": "https://tcgparadise.co.uk/",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -1834,13 +1834,13 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9784
+   "uptime": 0.9588
   },
   {
    "name": "TCGora",
    "url": "https://tcgora.com/",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": "HTTP Error 423: Locked",
    "mode": "shopify",
    "items": [
     {
@@ -3051,7 +3051,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.9388
+   "uptime": 0.92
   },
   {
    "name": "Poke Collect",
@@ -3133,7 +3133,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9588
+   "uptime": 0.9596
   },
   {
    "name": "Card Cavern",
@@ -3265,7 +3265,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.9388
+   "uptime": 0.92
   },
   {
    "name": "The Card Vault",
@@ -3437,7 +3437,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.9388
+   "uptime": 0.92
   },
   {
    "name": "Iconic TCG",
@@ -4842,13 +4842,13 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9388
+   "uptime": 0.92
   },
   {
    "name": "Evolvault",
    "url": "https://evolvault.com/",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -5149,13 +5149,13 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9784
+   "uptime": 0.9588
   },
   {
    "name": "Hobby Addicts",
    "url": "https://www.hobby-addicts.com/collections/pokemon-tcg",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -6006,21 +6006,21 @@
     },
     {
      "title": "Pokemon: Scarlet & Violet Build & Battle Box",
-     "price": 26.99,
-     "available": false,
-     "url": "https://www.hobby-addicts.com/products/pokemon-scarlet-violet-build-battle-box",
-     "over_rrp": true,
-     "rrp": 19.99,
-     "cart": "https://www.hobby-addicts.com/cart/51666068275507:1"
-    },
-    {
-     "title": "Pokemon: Scarlet & Violet Build & Battle Box",
      "price": 24.99,
      "available": false,
      "url": "https://www.hobby-addicts.com/products/pokemon-scarlet-violet-build-battle-box-1",
      "over_rrp": true,
      "rrp": 19.99,
      "cart": "https://www.hobby-addicts.com/cart/44835975561523:1"
+    },
+    {
+     "title": "Pokemon: Scarlet & Violet Build & Battle Box",
+     "price": 26.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-scarlet-violet-build-battle-box",
+     "over_rrp": true,
+     "rrp": 19.99,
+     "cart": "https://www.hobby-addicts.com/cart/51666068275507:1"
     },
     {
      "title": "Pokemon: Scarlet & Violet Build & Battle Stadium",
@@ -6338,7 +6338,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9588
+   "uptime": 0.9396
   },
   {
    "name": "Hoodlums UK",
@@ -6735,7 +6735,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9388
+   "uptime": 0.92
   },
   {
    "name": "The TCG Shop",
@@ -7006,7 +7006,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.9388
+   "uptime": 0.92
   },
   {
    "name": "120HP",
@@ -7709,13 +7709,13 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.9388
+   "uptime": 0.92
   },
   {
    "name": "JET Cards",
    "url": "https://jetcards.uk/",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -7773,7 +7773,7 @@
      "cart": "https://jetcards.uk/cart/58903348871549:1"
     }
    ],
-   "uptime": 0.978
+   "uptime": 0.9584
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -7846,7 +7846,7 @@
      "cart": "https://www.bbstcg.co.uk/cart/57169842471290:1"
     }
    ],
-   "uptime": 0.9784
+   "uptime": 0.9788
   },
   {
    "name": "Monster Card Corner",
@@ -9089,7 +9089,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.9388
+   "uptime": 0.92
   },
   {
    "name": "Mystic Games",
