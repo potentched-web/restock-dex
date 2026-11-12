@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T01:40:27+00:00",
+ "updated": "2026-11-12T01:45:25+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -86,6 +86,10 @@
     {
      "title": "Pok\u00e9mon Booster Box",
      "url": "https://magicmadhouse.co.uk/pokemon/pokemon-sealed-product?sort=newest"
+    },
+    {
+     "title": "Scarlet and Violet Stellar Crown Premium Checklane Blister Bundle of 2 (Ancient & Future Pokemon)",
+     "url": "https://magicmadhouse.co.uk/pokemon/pokemon-sealed-product?sort=newest"
     }
    ],
    "uptime": 0.9976
@@ -161,7 +165,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.967
+   "uptime": 0.9677
   },
   {
    "name": "Zatu Games",
@@ -9526,6 +9530,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-12T01:45:25+00:00",
+   "site": "Magic Madhouse",
+   "text": "New on page: Scarlet and Violet Stellar Crown Premium Checklane Blister Bundle of 2 (Ancient & Future Pokemon)",
+   "url": "https://magicmadhouse.co.uk/pokemon/pokemon-sealed-product?sort=newest"
+  },
+  {
    "time": "2026-11-11T20:17:09+00:00",
    "site": "TCG Paradise",
    "text": "NEW: Pokemon TCG: Delta Reign Booster Bundle \u00a344.99 (over RRP)",
@@ -10118,12 +10128,6 @@
    "site": "Hokey Poke Games",
    "text": "NEW: Pokemon TCG: Mega Evolution Ascended Heroes - Mini Tin Display \u00a3278.99",
    "url": "https://hokeypokegames.co.uk/cart/54634030563675:1"
-  },
-  {
-   "time": "2026-11-04T14:39:46+00:00",
-   "site": "Hokey Poke Games",
-   "text": "NEW: Pokemon TCG: Prismatic Evolutions Mini Tin \u00a329.99",
-   "url": "https://hokeypokegames.co.uk/cart/54633936519515:1"
   }
  ],
  "wishlist": [
