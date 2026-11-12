@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T18:57:58+00:00",
+ "updated": "2026-11-12T19:05:30+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -63,10 +63,10 @@
    "name": "Double Sleeved",
    "url": "https://www.doublesleeved.co.uk/collections/pre-orders",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [],
-   "uptime": 0.9976
+   "uptime": 0.9776
   },
   {
    "name": "Magic Madhouse",
@@ -94,7 +94,7 @@
    "name": "Total Cards",
    "url": "https://www.totalcards.net/collections/pokemon",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -143,7 +143,7 @@
      "cart": "https://www.totalcards.net/cart/59010459959677:1"
     }
    ],
-   "uptime": 0.9976
+   "uptime": 0.9776
   },
   {
    "name": "Firestorm Games",
@@ -161,13 +161,13 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9942
+   "uptime": 0.9943
   },
   {
    "name": "Zatu Games",
    "url": "https://zatu.com/collections/trading-card-games-pokemon-tcg",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -261,13 +261,13 @@
      "cart": "https://zatu.com/cart/56945082040698:1"
     }
    ],
-   "uptime": 0.9976
+   "uptime": 0.9776
   },
   {
    "name": "Hokey Poke Games",
    "url": "https://hokeypokegames.co.uk/collections/all-pokemon",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -343,13 +343,13 @@
      "cart": "https://hokeypokegames.co.uk/cart/54634059956571:1"
     }
    ],
-   "uptime": 0.9976
+   "uptime": 0.9776
   },
   {
    "name": "Collectors Edge",
    "url": "https://collectorsedge.co.uk/collections/pokemon",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -515,13 +515,13 @@
      "cart": "https://collectorsedge.co.uk/cart/52803793944915:1"
     }
    ],
-   "uptime": 0.9976
+   "uptime": 0.9776
   },
   {
    "name": "The Dice Dungeon",
    "url": "https://thedicedungeon.co.uk/collections/all",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -1002,7 +1002,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9976
+   "uptime": 0.9776
   },
   {
    "name": "Packrat",
@@ -1262,7 +1262,7 @@
    "name": "Titan Cards",
    "url": "https://titancards.co.uk/collections/pokemon",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -1275,13 +1275,13 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.9976
+   "uptime": 0.9776
   },
   {
    "name": "TCG Paradise",
    "url": "https://tcgparadise.co.uk/",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -1834,13 +1834,13 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9976
+   "uptime": 0.9776
   },
   {
    "name": "TCGora",
    "url": "https://tcgora.com/",
    "skip": null,
-   "error": "HTTP Error 423: Locked",
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -2228,7 +2228,7 @@
    "name": "Pixel Hub",
    "url": "https://pixel-hub.co.uk/collections/pokemon",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -3051,13 +3051,13 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.9976
+   "uptime": 0.9776
   },
   {
    "name": "Poke Collect",
    "url": "https://poke-collect.com/",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -3133,7 +3133,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9976
+   "uptime": 0.9776
   },
   {
    "name": "Card Cavern",
@@ -3153,7 +3153,7 @@
    "name": "Dice Cup Cafe",
    "url": "https://dicecupcafe.co.uk/collections/pokemon",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -3265,13 +3265,13 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.9976
+   "uptime": 0.9776
   },
   {
    "name": "The Card Vault",
    "url": "https://thecardvault.co.uk/collections/pokemon-new-releases",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -3437,13 +3437,13 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.9976
+   "uptime": 0.9776
   },
   {
    "name": "Iconic TCG",
    "url": "https://iconic-tcg.com/collections/pokemon",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -4842,13 +4842,13 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9976
+   "uptime": 0.9776
   },
   {
    "name": "Evolvault",
    "url": "https://evolvault.com/",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -5149,13 +5149,13 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9976
+   "uptime": 0.9776
   },
   {
    "name": "Hobby Addicts",
    "url": "https://www.hobby-addicts.com/collections/pokemon-tcg",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -6006,21 +6006,21 @@
     },
     {
      "title": "Pokemon: Scarlet & Violet Build & Battle Box",
-     "price": 26.99,
-     "available": false,
-     "url": "https://www.hobby-addicts.com/products/pokemon-scarlet-violet-build-battle-box",
-     "over_rrp": true,
-     "rrp": 19.99,
-     "cart": "https://www.hobby-addicts.com/cart/51666068275507:1"
-    },
-    {
-     "title": "Pokemon: Scarlet & Violet Build & Battle Box",
      "price": 24.99,
      "available": false,
      "url": "https://www.hobby-addicts.com/products/pokemon-scarlet-violet-build-battle-box-1",
      "over_rrp": true,
      "rrp": 19.99,
      "cart": "https://www.hobby-addicts.com/cart/44835975561523:1"
+    },
+    {
+     "title": "Pokemon: Scarlet & Violet Build & Battle Box",
+     "price": 26.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-scarlet-violet-build-battle-box",
+     "over_rrp": true,
+     "rrp": 19.99,
+     "cart": "https://www.hobby-addicts.com/cart/51666068275507:1"
     },
     {
      "title": "Pokemon: Scarlet & Violet Build & Battle Stadium",
@@ -6338,13 +6338,13 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9976
+   "uptime": 0.9776
   },
   {
    "name": "Hoodlums UK",
    "url": "https://hoodlumsuk.com/collections/pokemon",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -6735,13 +6735,13 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9976
+   "uptime": 0.9776
   },
   {
    "name": "The TCG Shop",
    "url": "https://www.thetcgshop.co.uk/collections/pokemon",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -7006,13 +7006,13 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.9976
+   "uptime": 0.9776
   },
   {
    "name": "120HP",
    "url": "https://www.120hp.co.uk/collections/sealed-pokemon-trading-card-game-products",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -7709,7 +7709,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.9976
+   "uptime": 0.9776
   },
   {
    "name": "JET Cards",
@@ -7779,7 +7779,7 @@
    "name": "Berry Brand Supply TCG",
    "url": "https://www.bbstcg.co.uk/",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -7846,13 +7846,13 @@
      "cart": "https://www.bbstcg.co.uk/cart/57169842471290:1"
     }
    ],
-   "uptime": 0.9976
+   "uptime": 0.9776
   },
   {
    "name": "Monster Card Corner",
    "url": "https://monstercardcorner.co.uk/collections/pokemon",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -9089,7 +9089,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.9976
+   "uptime": 0.9776
   },
   {
    "name": "Mystic Games",
