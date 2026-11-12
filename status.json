@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T14:56:01+00:00",
+ "updated": "2026-11-12T15:01:01+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -100,7 +100,7 @@
     {
      "title": "Pokemon - 30th Celebration - Mini Tin - Online Code Card",
      "price": 0.79,
-     "available": false,
+     "available": true,
      "url": "https://www.totalcards.net/products/pokemon-30th-celebration-mini-tin-online-code-card",
      "over_rrp": false,
      "rrp": null,
@@ -161,7 +161,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9863
+   "uptime": 0.9866
   },
   {
    "name": "Zatu Games",
@@ -9526,6 +9526,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-12T15:01:01+00:00",
+   "site": "Total Cards",
+   "text": "BACK IN STOCK: Pokemon - 30th Celebration - Mini Tin - Online Code Card \u00a30.79",
+   "url": "https://www.totalcards.net/cart/58965352120701:1"
+  },
+  {
    "time": "2026-11-12T12:00:04+00:00",
    "site": "Chaos Cards",
    "text": "New on page: Pokemon Mega Evolution Pitch Black Booster Bundle",
@@ -10117,12 +10123,6 @@
    "time": "2026-11-04T17:39:26+00:00",
    "site": "Hobby Addicts",
    "text": "New on page: Pokemon: 2025 Pok\u00e9 Ball Tin",
-   "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
-  },
-  {
-   "time": "2026-11-04T17:39:26+00:00",
-   "site": "Hobby Addicts",
-   "text": "...and 24 more",
    "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
   }
  ],
