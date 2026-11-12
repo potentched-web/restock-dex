@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T12:00:04+00:00",
+ "updated": "2026-11-12T12:05:04+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -153,7 +153,7 @@
    "name": "Firestorm Games",
    "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards",
    "skip": null,
-   "error": "HTTP Error 500: Internal Server Error",
+   "error": null,
    "mode": "page",
    "items": [
     {
@@ -165,7 +165,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9759
+   "uptime": 0.9764
   },
   {
    "name": "Zatu Games",
@@ -6398,7 +6398,7 @@
     },
     {
      "title": "POK\u00c9MON TCG: MEGA EVOLUTION \u2014 DELTA REIGN ELITE TRAINER BOX",
-     "price": 177.0,
+     "price": 176.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-delta-reign-elite-trainer-box",
      "over_rrp": true,
@@ -6416,7 +6416,7 @@
     },
     {
      "title": "Pok\u00e9mon Center Chaos Rising Elite Trainer Box",
-     "price": 204.0,
+     "price": 203.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-chaos-rising-pokemon-center-elite-trainer-box",
      "over_rrp": true,
@@ -6587,7 +6587,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Mega Evolution Gardevoir Elite Trainer Box",
-     "price": 177.0,
+     "price": 176.0,
      "available": false,
      "url": "https://hoodlumsuk.com/products/pokemon-trading-card-game-tcg-mega-evolution-mega-gardevoir-elite-trainer-box",
      "over_rrp": true,
@@ -6596,7 +6596,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Mega Evolution Half Booster Box (18 Packs)",
-     "price": 204.0,
+     "price": 203.0,
      "available": false,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-half-booster-box",
      "over_rrp": true,
@@ -6668,7 +6668,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Phantasmal Flames Elite Trainer Box",
-     "price": 204.0,
+     "price": 203.0,
      "available": false,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-phantasmal-flames-elite-trainer-box-pre-order",
      "over_rrp": true,
@@ -6677,7 +6677,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Phantasmal Flames Half Booster Box (18 Packs)",
-     "price": 204.0,
+     "price": 203.0,
      "available": false,
      "url": "https://hoodlumsuk.com/products/pokemon-mega-evolution-phantasmal-flames-half-booster-box-18-packs",
      "over_rrp": true,
@@ -6713,7 +6713,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Prismatic Evolutions Super-Premium Collection",
-     "price": 380.0,
+     "price": 379.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-scarlet-violet-prismatic-evolutions-super-premium-collection",
      "over_rrp": false,
@@ -6731,7 +6731,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG White Flare Elite Trainer Box",
-     "price": 177.0,
+     "price": 176.0,
      "available": false,
      "url": "https://hoodlumsuk.com/products/pokemon-scarlet-violet-white-flare-elite-trainer-box",
      "over_rrp": true,
@@ -8311,7 +8311,7 @@
     },
     {
      "title": "Pokemon TCG - Mega Evolution - Delta Reign - Booster Box (Pre-Order)",
-     "price": 236.0,
+     "price": 235.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-booster-box",
      "over_rrp": true,
@@ -8401,7 +8401,7 @@
     },
     {
      "title": "Pokemon TCG - Mega Evolution Elite Trainer Box - Mega Gardevoir",
-     "price": 98.0,
+     "price": 97.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-mega-evolution-elite-trainer-box-mega-gardevoir",
      "over_rrp": true,
@@ -8518,7 +8518,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Mega Charizard X EX Ultra Premium Collection",
-     "price": 236.0,
+     "price": 235.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-mega-charizard-x-ex-ultra-premium-collection",
      "over_rrp": true,
@@ -8545,7 +8545,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Mega Evolution Booster Box (36 Packs) (Factory Sealed)",
-     "price": 327.0,
+     "price": 326.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-mega-evolution-booster-box-36-packs",
      "over_rrp": true,
@@ -8599,7 +8599,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Mega Evolution Phantasmal Flames Triple Blister Pack (Sneasel)",
-     "price": 26.0,
+     "price": 25.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-mega-evolution-phantasmal-flames-triple-blister",
      "over_rrp": false,
@@ -8608,7 +8608,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Mega Evolution Phantasmal Flames Triple Blister Pack (Weavile)",
-     "price": 26.0,
+     "price": 25.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-mega-evolution-phantasmal-flames-triple-blister",
      "over_rrp": false,
