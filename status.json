@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T11:10:45+00:00",
+ "updated": "2026-11-12T11:15:44+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -22,6 +22,10 @@
     },
     {
      "title": "Pokemon Deck Crafter's Collection",
+     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+    },
+    {
+     "title": "Pokemon Mega Evolution Ascended Heroes - Elite Trainer Box",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
@@ -157,7 +161,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.995
+   "uptime": 0.9951
   },
   {
    "name": "Zatu Games",
@@ -9522,6 +9526,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-12T11:15:44+00:00",
+   "site": "Chaos Cards",
+   "text": "New on page: Pokemon Mega Evolution Ascended Heroes - Elite Trainer Box",
+   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+  },
+  {
    "time": "2026-11-12T03:19:44+00:00",
    "site": "Card Cavern",
    "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
@@ -10114,12 +10124,6 @@
    "site": "Hokey Poke Games",
    "text": "NEW: Pokemon TCG: First Partner Illustration Collection Series 2 \u00a332.00",
    "url": "https://hokeypokegames.co.uk/cart/54634412048731:1"
-  },
-  {
-   "time": "2026-11-04T14:49:46+00:00",
-   "site": "Hokey Poke Games",
-   "text": "NEW: Pokemon TCG: Prismatic Evolutions Mini Tin Display \u00a3234.99",
-   "url": "https://hokeypokegames.co.uk/cart/54634059956571:1"
   }
  ],
  "wishlist": [
