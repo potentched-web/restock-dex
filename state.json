@@ -3097,13 +3097,13 @@
    "59800435917132": [
     "Pok\u00e9mon TCG: 30th Celebration - Ultra-Premium Collection - Day & Night Pair (Pay in full) (Preorder)",
     750.0,
-    true,
+    false,
     "https://iconic-tcg.com/products/pokemon-tcg-30th-celebration-ultra-premium-collection-day-and-night"
    ],
    "59800435949900": [
     "Pok\u00e9mon TCG: 30th Celebration - Ultra-Premium Collection - Day & Night Pair (20% deposit \u2014 \u00a3600 invoiced before dispatch) (Preorder)",
     150.0,
-    true,
+    false,
     "https://iconic-tcg.com/products/pokemon-tcg-30th-celebration-ultra-premium-collection-day-and-night"
    ]
   },
@@ -6223,7 +6223,7 @@
   "Dice Cup Cafe": 0.9976,
   "Double Sleeved": 0.9976,
   "Evolvault": 0.9976,
-  "Firestorm Games": 0.9888,
+  "Firestorm Games": 0.989,
   "Hobby Addicts": 0.9976,
   "Hokey Poke Games": 0.9976,
   "Hoodlums UK": 0.9976,

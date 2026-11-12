@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T06:41:30+00:00",
+ "updated": "2026-11-12T06:46:29+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -165,7 +165,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9888
+   "uptime": 0.989
   },
   {
    "name": "Zatu Games",
@@ -3678,7 +3678,7 @@
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration - Ultra-Premium Collection - Day & Night Pair (20% deposit \u2014 \u00a3600 invoiced before dispatch) (Preorder)",
      "price": 150.0,
-     "available": true,
+     "available": false,
      "url": "https://iconic-tcg.com/products/pokemon-tcg-30th-celebration-ultra-premium-collection-day-and-night",
      "over_rrp": false,
      "rrp": 169.99,
@@ -3687,7 +3687,7 @@
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration - Ultra-Premium Collection - Day & Night Pair (Pay in full) (Preorder)",
      "price": 750.0,
-     "available": true,
+     "available": false,
      "url": "https://iconic-tcg.com/products/pokemon-tcg-30th-celebration-ultra-premium-collection-day-and-night",
      "over_rrp": true,
      "rrp": 169.99,
