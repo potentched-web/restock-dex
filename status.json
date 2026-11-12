@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T03:15:30+00:00",
+ "updated": "2026-11-12T03:19:44+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -165,7 +165,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9776
+   "uptime": 0.978
   },
   {
    "name": "Zatu Games",
@@ -3145,7 +3145,12 @@
    "skip": null,
    "error": null,
    "mode": "page",
-   "items": [],
+   "items": [
+    {
+     "title": "Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
+     "url": "https://cardcavern.co.uk/"
+    }
+   ],
    "uptime": 0.9976
   },
   {
@@ -9525,6 +9530,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-12T03:19:44+00:00",
+   "site": "Card Cavern",
+   "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
+   "url": "https://cardcavern.co.uk/"
+  },
+  {
    "time": "2026-11-12T01:45:25+00:00",
    "site": "Magic Madhouse",
    "text": "New on page: Scarlet and Violet Stellar Crown Premium Checklane Blister Bundle of 2 (Ancient & Future Pokemon)",
@@ -10117,12 +10128,6 @@
    "site": "Hokey Poke Games",
    "text": "NEW: Pokemon TCG: Prismatic Evolutions Mini Tin Display \u00a3234.99",
    "url": "https://hokeypokegames.co.uk/cart/54634059956571:1"
-  },
-  {
-   "time": "2026-11-04T14:49:46+00:00",
-   "site": "Hokey Poke Games",
-   "text": "NEW: Pokemon TCG: Mega Evolution Ascended Heroes - Mini Tin Display \u00a3278.99",
-   "url": "https://hokeypokegames.co.uk/cart/54634030563675:1"
   }
  ],
  "wishlist": [
