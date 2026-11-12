@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T08:57:17+00:00",
+ "updated": "2026-11-12T09:02:16+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -38,10 +38,6 @@
     },
     {
      "title": "Pokemon Mega Evolution Ascended Heroes - Mini Tin Zorua",
-     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
-    },
-    {
-     "title": "Pokemon Mega Evolution Chaos Rising 3 Pack Blister Charmeleon",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
@@ -165,7 +161,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9926
+   "uptime": 0.9927
   },
   {
    "name": "Zatu Games",
