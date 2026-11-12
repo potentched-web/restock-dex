@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T13:10:09+00:00",
+ "updated": "2026-11-12T13:41:50+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -42,10 +42,6 @@
     },
     {
      "title": "Pokemon Mega Evolution Ascended Heroes - Mini Tin Zorua",
-     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
-    },
-    {
-     "title": "Pokemon Mega Evolution Pitch Black Booster Bundle",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
@@ -165,7 +161,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9815
+   "uptime": 0.9819
   },
   {
    "name": "Zatu Games",
@@ -4217,7 +4213,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Pok\u00e9mon Center Elite Trainer Box (Exclusive)",
-     "price": 155.0,
+     "price": 140.0,
      "available": true,
      "url": "https://iconic-tcg.com/products/delta-reign-pokemon-center-elite-trainer-box-exclusive",
      "over_rrp": true,
