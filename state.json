@@ -2295,12 +2295,6 @@
     false,
     "https://iconic-tcg.com/products/pokemon-scarlet-violet-151-mini-tin-electabuzz-magnemite"
    ],
-   "58325783216460": [
-    "Pok\u00e9mon TCG: 151 - Mini Tin - Gengar & Poliwag",
-    26.5,
-    false,
-    "https://iconic-tcg.com/products/pokemon-scarlet-violet-151-mini-tin-gengar-poliwag"
-   ],
    "58325783347532": [
     "Pok\u00e9mon TCG: 151 - Mini Tin - Kadabra & Hitmonlee",
     26.5,
@@ -3104,6 +3098,12 @@
     150.0,
     false,
     "https://iconic-tcg.com/products/pokemon-tcg-30th-celebration-ultra-premium-collection-day-and-night"
+   ],
+   "59914532979020": [
+    "Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Pok\u00e9mon Center Elite Trainer Box (Exclusive)",
+    155.0,
+    true,
+    "https://iconic-tcg.com/products/delta-reign-pokemon-center-elite-trainer-box-exclusive"
    ]
   },
   "mode": "shopify"
@@ -6222,7 +6222,7 @@
   "Dice Cup Cafe": 0.9976,
   "Double Sleeved": 0.9976,
   "Evolvault": 0.9976,
-  "Firestorm Games": 0.9952,
+  "Firestorm Games": 0.9953,
   "Hobby Addicts": 0.9976,
   "Hokey Poke Games": 0.9976,
   "Hoodlums UK": 0.9976,

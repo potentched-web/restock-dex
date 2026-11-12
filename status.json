@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T11:20:44+00:00",
+ "updated": "2026-11-12T11:30:06+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -161,7 +161,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9952
+   "uptime": 0.9953
   },
   {
    "name": "Zatu Games",
@@ -3483,15 +3483,6 @@
      "cart": "https://iconic-tcg.com/cart/58325783052620:1"
     },
     {
-     "title": "Pok\u00e9mon TCG: 151 - Mini Tin - Gengar & Poliwag",
-     "price": 26.5,
-     "available": false,
-     "url": "https://iconic-tcg.com/products/pokemon-scarlet-violet-151-mini-tin-gengar-poliwag",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://iconic-tcg.com/cart/58325783216460:1"
-    },
-    {
      "title": "Pok\u00e9mon TCG: 151 - Mini Tin - Kadabra & Hitmonlee",
      "price": 26.5,
      "available": false,
@@ -4219,6 +4210,15 @@
      "over_rrp": true,
      "rrp": 49.99,
      "cart": "https://iconic-tcg.com/cart/58980531765580:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Pok\u00e9mon Center Elite Trainer Box (Exclusive)",
+     "price": 155.0,
+     "available": true,
+     "url": "https://iconic-tcg.com/products/delta-reign-pokemon-center-elite-trainer-box-exclusive",
+     "over_rrp": true,
+     "rrp": 56.99,
+     "cart": "https://iconic-tcg.com/cart/59914532979020:1"
     },
     {
      "title": "Pok\u00e9mon TCG: Mega Greninja ex Premium Collection",
@@ -9526,6 +9526,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-12T11:30:06+00:00",
+   "site": "Iconic TCG",
+   "text": "NEW: Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Pok\u00e9mon Center Elite Trainer Box (Exclusive) \u00a3155.00 (over RRP)",
+   "url": "https://iconic-tcg.com/cart/59914532979020:1"
+  },
+  {
    "time": "2026-11-12T11:15:44+00:00",
    "site": "Chaos Cards",
    "text": "New on page: Pokemon Mega Evolution Ascended Heroes - Elite Trainer Box",
@@ -10118,12 +10124,6 @@
    "site": "Card Cavern",
    "text": "New on page: Re-158H/20-110H Hippokampos (Legacy Collection Full Art Foil)",
    "url": "https://cardcavern.co.uk/"
-  },
-  {
-   "time": "2026-11-04T15:14:45+00:00",
-   "site": "Hokey Poke Games",
-   "text": "NEW: Pokemon TCG: First Partner Illustration Collection Series 2 \u00a332.00",
-   "url": "https://hokeypokegames.co.uk/cart/54634412048731:1"
   }
  ],
  "wishlist": [
