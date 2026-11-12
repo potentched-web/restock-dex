@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T15:30:22+00:00",
+ "updated": "2026-11-12T15:35:20+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -42,10 +42,6 @@
     },
     {
      "title": "Pokemon Mega Evolution Ascended Heroes - Mini Tin Zorua",
-     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
-    },
-    {
-     "title": "Pokemon Mega Evolution Delta Reign Elite Trainer Box",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
@@ -165,7 +161,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.988
+   "uptime": 0.9882
   },
   {
    "name": "Zatu Games",
