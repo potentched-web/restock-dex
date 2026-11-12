@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T11:55:05+00:00",
+ "updated": "2026-11-12T12:00:04+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -42,6 +42,10 @@
     },
     {
      "title": "Pokemon Mega Evolution Ascended Heroes - Mini Tin Zorua",
+     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+    },
+    {
+     "title": "Pokemon Mega Evolution Pitch Black Booster Bundle",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
@@ -149,7 +153,7 @@
    "name": "Firestorm Games",
    "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 500: Internal Server Error",
    "mode": "page",
    "items": [
     {
@@ -161,7 +165,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9958
+   "uptime": 0.9759
   },
   {
    "name": "Zatu Games",
@@ -9526,6 +9530,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-12T12:00:04+00:00",
+   "site": "Chaos Cards",
+   "text": "New on page: Pokemon Mega Evolution Pitch Black Booster Bundle",
+   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+  },
+  {
    "time": "2026-11-12T11:30:06+00:00",
    "site": "Iconic TCG",
    "text": "NEW: Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Pok\u00e9mon Center Elite Trainer Box (Exclusive) \u00a3155.00 (over RRP)",
@@ -10118,12 +10128,6 @@
    "site": "Hobby Addicts",
    "text": "...and 24 more",
    "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
-  },
-  {
-   "time": "2026-11-04T17:03:45+00:00",
-   "site": "Card Cavern",
-   "text": "New on page: Re-158H/20-110H Hippokampos (Legacy Collection Full Art Foil)",
-   "url": "https://cardcavern.co.uk/"
   }
  ],
  "wishlist": [
