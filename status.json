@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T17:55:18+00:00",
+ "updated": "2026-11-13T18:00:17+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -157,7 +157,7 @@
    "name": "Firestorm Games",
    "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards",
    "skip": null,
-   "error": null,
+   "error": "The read operation timed out",
    "mode": "page",
    "items": [
     {
@@ -169,7 +169,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9976
+   "uptime": 0.9776
   },
   {
    "name": "Zatu Games",
