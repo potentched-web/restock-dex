@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T19:26:05+00:00",
+ "updated": "2026-11-13T19:31:03+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -169,7 +169,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.984
+   "uptime": 0.9843
   },
   {
    "name": "Zatu Games",
@@ -7143,7 +7143,7 @@
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Figure Collection (Mewtwo)",
      "price": 53.95,
-     "available": false,
+     "available": true,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-figure-collection-mewtwo",
      "over_rrp": true,
      "rrp": 29.99,
@@ -9525,6 +9525,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-13T19:31:03+00:00",
+   "site": "120HP",
+   "text": "BACK IN STOCK: Pok\u00e9mon TCG: 30th Celebration Figure Collection (Mewtwo) \u00a353.95 (over RRP)",
+   "url": "https://www.120hp.co.uk/cart/57717432254839:1"
+  },
+  {
    "time": "2026-11-13T14:32:41+00:00",
    "site": "Chaos Cards",
    "text": "New on page: Pokemon 30th Celebration Booster Bundle",
@@ -10117,12 +10123,6 @@
    "site": "Iconic TCG",
    "text": "BACK IN STOCK: Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Booster Box (36 Packs) (Preorder) \u00a3240.00 (over RRP)",
    "url": "https://iconic-tcg.com/cart/58980531732812:1"
-  },
-  {
-   "time": "2026-11-05T10:58:44+00:00",
-   "site": "Iconic TCG",
-   "text": "BACK IN STOCK: Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Elite Trainer Box (Preorder) \u00a385.00 (over RRP)",
-   "url": "https://iconic-tcg.com/cart/58980531765580:1"
   }
  ],
  "wishlist": [
