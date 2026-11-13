@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T19:41:03+00:00",
+ "updated": "2026-11-13T19:46:03+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -169,7 +169,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9849
+   "uptime": 0.9852
   },
   {
    "name": "Zatu Games",
@@ -7242,7 +7242,7 @@
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Night Ultra-Premium Collection",
      "price": 374.95,
-     "available": false,
+     "available": true,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-night-ultra-premium-collection",
      "over_rrp": true,
      "rrp": 169.99,
@@ -9525,6 +9525,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-13T19:46:03+00:00",
+   "site": "120HP",
+   "text": "BACK IN STOCK: Pok\u00e9mon TCG: 30th Celebration Night Ultra-Premium Collection \u00a3374.95 (over RRP)",
+   "url": "https://www.120hp.co.uk/cart/57597046522231:1"
+  },
+  {
    "time": "2026-11-13T19:36:03+00:00",
    "site": "120HP",
    "text": "BACK IN STOCK: Pok\u00e9mon TCG: 30th Celebration 2-Pack Blister (Eevee) \u00a319.95",
@@ -10117,12 +10123,6 @@
    "site": "Iconic TCG",
    "text": "BACK IN STOCK: Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Elite Trainer Box (Preorder) \u00a385.00 (over RRP)",
    "url": "https://iconic-tcg.com/cart/58980531765580:1"
-  },
-  {
-   "time": "2026-11-05T13:42:50+00:00",
-   "site": "JET Cards",
-   "text": "BACK IN STOCK: Pokemon - Deck Crafter's Collection - Meowth ex \u00a39.99",
-   "url": "https://jetcards.uk/cart/58976515359101:1"
   }
  ],
  "wishlist": [
