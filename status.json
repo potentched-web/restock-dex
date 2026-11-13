@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T08:19:59+00:00",
+ "updated": "2026-11-13T08:24:58+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -66,7 +66,7 @@
    "error": null,
    "mode": "shopify",
    "items": [],
-   "uptime": 0.9911
+   "uptime": 0.9913
   },
   {
    "name": "Magic Madhouse",
@@ -143,7 +143,7 @@
      "cart": "https://www.totalcards.net/cart/59010459959677:1"
     }
    ],
-   "uptime": 0.9911
+   "uptime": 0.9913
   },
   {
    "name": "Firestorm Games",
@@ -261,7 +261,7 @@
      "cart": "https://zatu.com/cart/56945082040698:1"
     }
    ],
-   "uptime": 0.9924
+   "uptime": 0.9926
   },
   {
    "name": "Hokey Poke Games",
@@ -343,7 +343,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54634059956571:1"
     }
    ],
-   "uptime": 0.9973
+   "uptime": 0.9974
   },
   {
    "name": "Collectors Edge",
@@ -506,7 +506,7 @@
      "cart": "https://collectorsedge.co.uk/cart/55813699207507:1"
     }
    ],
-   "uptime": 0.9911
+   "uptime": 0.9913
   },
   {
    "name": "The Dice Dungeon",
@@ -993,7 +993,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9958
+   "uptime": 0.9959
   },
   {
    "name": "Packrat",
@@ -1266,7 +1266,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.9911
+   "uptime": 0.9913
   },
   {
    "name": "TCG Paradise",
@@ -1825,7 +1825,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9958
+   "uptime": 0.9959
   },
   {
    "name": "TCGora",
@@ -3042,7 +3042,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.9911
+   "uptime": 0.9913
   },
   {
    "name": "Poke Collect",
@@ -3124,7 +3124,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9973
+   "uptime": 0.9974
   },
   {
    "name": "Card Cavern",
@@ -3256,7 +3256,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.9923
+   "uptime": 0.9925
   },
   {
    "name": "The Card Vault",
@@ -3428,7 +3428,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.9911
+   "uptime": 0.9913
   },
   {
    "name": "Iconic TCG",
@@ -4833,7 +4833,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9911
+   "uptime": 0.9913
   },
   {
    "name": "Evolvault",
@@ -5140,7 +5140,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9947
+   "uptime": 0.9948
   },
   {
    "name": "Hobby Addicts",
@@ -6329,7 +6329,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9922
+   "uptime": 0.9924
   },
   {
    "name": "Hoodlums UK",
@@ -6726,278 +6726,73 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9911
+   "uptime": 0.9913
   },
   {
    "name": "The TCG Shop",
    "url": "https://www.thetcgshop.co.uk/collections/pokemon",
    "skip": null,
    "error": null,
-   "mode": "shopify",
+   "mode": "page",
    "items": [
     {
-     "title": "Pok\u00e9mon - Scarlet & Violet 9 Journey Together - Elite Trainer Box",
-     "price": 69.99,
-     "available": false,
-     "url": "https://www.thetcgshop.co.uk/products/pre-order-pokemon-scarlet-violet-9-journey-together-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 49.99,
-     "cart": "https://www.thetcgshop.co.uk/cart/55649881227648:1"
-    },
-    {
-     "title": "Pok\u00e9mon - Scarlet & Violet Prismatic Evolutions - Elite Trainer Box",
-     "price": 119.99,
-     "available": false,
-     "url": "https://www.thetcgshop.co.uk/products/pokemon-scarlet-violet-prismatic-evolutions-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 49.99,
-     "cart": "https://www.thetcgshop.co.uk/cart/58287255290240:1"
-    },
-    {
-     "title": "Pok\u00e9mon TCG \u2013 Knock Out Collection (Boltund Eiscue & Galarian Sirfetch'd)",
-     "price": 15.99,
-     "available": false,
-     "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-knock-out-collection",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://www.thetcgshop.co.uk/cart/58079593628032:1"
-    },
-    {
-     "title": "Pok\u00e9mon TCG \u2013 Knock Out Collection (Toxtricity Duraludon & Sandaconda)",
-     "price": 15.99,
-     "available": false,
-     "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-knock-out-collection",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://www.thetcgshop.co.uk/cart/58079593595264:1"
-    },
-    {
      "title": "Pok\u00e9mon TCG \u2013 Mega Evolution: Delta Reign Elite Trainer Box",
-     "price": 69.99,
-     "available": false,
-     "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-mega-evolution-delta-reign-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 49.99,
-     "cart": "https://www.thetcgshop.co.uk/cart/60224581337472:1"
-    },
-    {
-     "title": "Pok\u00e9mon TCG \u2013 Scarlet & Violet: Destined Rivals Booster Box (36)",
-     "price": 279.99,
-     "available": false,
-     "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-scarlet-violet-destined-rivals-booster-box-36",
-     "over_rrp": true,
-     "rrp": 155.0,
-     "cart": "https://www.thetcgshop.co.uk/cart/56994043822464:1"
+     "url": "https://www.thetcgshop.co.uk/collections/pokemon"
     },
     {
      "title": "Pok\u00e9mon TCG \u2013 Scarlet & Violet: Destined Rivals Elite Trainer Box",
-     "price": 89.99,
-     "available": false,
-     "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-scarlet-violet-destined-rivals-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 49.99,
-     "cart": "https://www.thetcgshop.co.uk/cart/58830242906496:1"
+     "url": "https://www.thetcgshop.co.uk/collections/pokemon"
     },
     {
-     "title": "Pok\u00e9mon TCG \u2013 Scarlet & Violet: Journey Together Booster Box (18)",
-     "price": 87.99,
-     "available": false,
-     "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-scarlet-violet-journey-together-booster-box-18",
-     "over_rrp": false,
-     "rrp": 155.0,
-     "cart": "https://www.thetcgshop.co.uk/cart/56994028192128:1"
-    },
-    {
-     "title": "Pok\u00e9mon TCG \u2013 Scarlet & Violet: Journey Together Booster Box (36)",
-     "price": 159.99,
-     "available": false,
-     "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-scarlet-violet-journey-together-booster-box-36",
-     "over_rrp": true,
-     "rrp": 155.0,
-     "cart": "https://www.thetcgshop.co.uk/cart/57143374053760:1"
-    },
-    {
-     "title": "Pok\u00e9mon TCG \u2013 Scarlet & Violet: Surging Sparks Booster Box (36)",
-     "price": 229.99,
-     "available": false,
-     "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-scarlet-violet-surging-sparks-booster-box-36",
-     "over_rrp": true,
-     "rrp": 155.0,
-     "cart": "https://www.thetcgshop.co.uk/cart/58074791248256:1"
+     "title": "Pok\u00e9mon TCG \u2013 Scarlet \\u0026 Violet: Destined Rivals Elite Trainer Box",
+     "url": "https://www.thetcgshop.co.uk/collections/pokemon"
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Booster Bundle",
-     "price": 49.99,
-     "available": false,
-     "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-30th-celebration-booster-bundle",
-     "over_rrp": true,
-     "rrp": 24.99,
-     "cart": "https://www.thetcgshop.co.uk/cart/59987514655104:1"
+     "url": "https://www.thetcgshop.co.uk/collections/pokemon"
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Elite Trainer Box",
-     "price": 129.99,
-     "available": false,
-     "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-30th-celebration-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 49.99,
-     "cart": "https://www.thetcgshop.co.uk/cart/58789302600064:1"
+     "url": "https://www.thetcgshop.co.uk/collections/pokemon"
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Mini Tin",
-     "price": 19.99,
-     "available": false,
-     "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-30th-celebration-mini-tin",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://www.thetcgshop.co.uk/cart/59987487457664:1"
+     "url": "https://www.thetcgshop.co.uk/collections/pokemon"
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Poster Collection",
-     "price": 54.99,
-     "available": false,
-     "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-30th-celebration-poster-collection",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://www.thetcgshop.co.uk/cart/58899291373952:1"
+     "url": "https://www.thetcgshop.co.uk/collections/pokemon"
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Tech Sticker Collection",
-     "price": 24.99,
-     "available": false,
-     "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-30th-celebration-tech-sticker-collection",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://www.thetcgshop.co.uk/cart/59987454099840:1"
+     "url": "https://www.thetcgshop.co.uk/collections/pokemon"
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration \u2013 Night Ultra-Premium Collection",
-     "price": 299.99,
-     "available": false,
-     "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-30th-celebration-night-ultra-premium-collection",
-     "over_rrp": true,
-     "rrp": 169.99,
-     "cart": "https://www.thetcgshop.co.uk/cart/60224732430720:1"
-    },
-    {
-     "title": "Pok\u00e9mon TCG: Mega Evolution Chaos Rising - Elite Trainer Box",
-     "price": 64.99,
-     "available": false,
-     "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-mega-evolution-chaos-rising-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 49.99,
-     "cart": "https://www.thetcgshop.co.uk/cart/58117532516736:1"
-    },
-    {
-     "title": "Pok\u00e9mon TCG: Mega Evolution \u2013 Ascended Heroes Collection",
-     "price": 19.99,
-     "available": false,
-     "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-mega-evolution-ascended-heroes-collection",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://www.thetcgshop.co.uk/cart/56949640921472:1"
-    },
-    {
-     "title": "Pok\u00e9mon TCG: Mega Evolution \u2013 Ascended Heroes Collection (Erika's Tangela)",
-     "price": 21.99,
-     "available": false,
-     "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-mega-evolution-ascended-heroes-collection-erikas-tangela",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://www.thetcgshop.co.uk/cart/58074939785600:1"
-    },
-    {
-     "title": "Pok\u00e9mon TCG: Mega Evolution \u2013 Ascended Heroes Tech Sticker Collection",
-     "price": 19.99,
-     "available": false,
-     "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-mega-evolution-ascended-heroes-tech-sticker-collection",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://www.thetcgshop.co.uk/cart/56949906833792:1"
+     "url": "https://www.thetcgshop.co.uk/collections/pokemon"
     },
     {
      "title": "Pok\u00e9mon TCG: Mega Evolution \u2013 Delta Reign Booster Display Box",
-     "price": 169.99,
-     "available": false,
-     "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-mega-evolution-delta-reign-booster-display-box",
-     "over_rrp": true,
-     "rrp": 155.0,
-     "cart": "https://www.thetcgshop.co.uk/cart/60224672661888:1"
+     "url": "https://www.thetcgshop.co.uk/collections/pokemon"
     },
     {
      "title": "Pok\u00e9mon TCG: Mega Evolution \u2013 Pitch Black Elite Trainer Box",
-     "price": 79.99,
-     "available": false,
-     "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-mega-evolution-pitch-black-elite-trainer-box",
-     "over_rrp": true,
-     "rrp": 49.99,
-     "cart": "https://www.thetcgshop.co.uk/cart/58404278862208:1"
+     "url": "https://www.thetcgshop.co.uk/collections/pokemon"
     },
     {
      "title": "Pok\u00e9mon TCG: Mega Forces Tin - Mega Darkrai ex",
-     "price": 23.99,
-     "available": false,
-     "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-mega-forces-tin-mega-darkrai-ex",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://www.thetcgshop.co.uk/cart/58788932223360:1"
+     "url": "https://www.thetcgshop.co.uk/collections/pokemon"
     },
     {
      "title": "Pok\u00e9mon TCG: Mega Forces Tin - Mega Dragonite ex",
-     "price": 23.99,
-     "available": false,
-     "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-mega-forces-tin-mega-dragonite-ex",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://www.thetcgshop.co.uk/cart/58788413112704:1"
+     "url": "https://www.thetcgshop.co.uk/collections/pokemon"
     },
     {
      "title": "Pok\u00e9mon TCG: Mega Forces Tin - Mega Zeraora ex",
-     "price": 23.99,
-     "available": false,
-     "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-mega-forces-tin-mega-zeraora-ex",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://www.thetcgshop.co.uk/cart/58789232312704:1"
-    },
-    {
-     "title": "Pok\u00e9mon TCG: Pok\u00e9mon Day 2026 Collection",
-     "price": 29.99,
-     "available": false,
-     "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-pokemon-day-2026-collection",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://www.thetcgshop.co.uk/cart/56951122690432:1"
-    },
-    {
-     "title": "Pok\u00e9mon: Team Rocket Tin (Mewtwo ex)",
-     "price": 24.99,
-     "available": false,
-     "url": "https://www.thetcgshop.co.uk/products/pokemon-team-rocket-tin",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://www.thetcgshop.co.uk/cart/56533267939712:1"
-    },
-    {
-     "title": "Pok\u00e9mon: Team Rocket Tin (Nidoking ex)",
-     "price": 24.99,
-     "available": false,
-     "url": "https://www.thetcgshop.co.uk/products/pokemon-team-rocket-tin",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://www.thetcgshop.co.uk/cart/56533267972480:1"
-    },
-    {
-     "title": "Pok\u00e9mon: Team Rocket Tin (Persian ex)",
-     "price": 24.99,
-     "available": false,
-     "url": "https://www.thetcgshop.co.uk/products/pokemon-team-rocket-tin",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
+     "url": "https://www.thetcgshop.co.uk/collections/pokemon"
     }
    ],
-   "uptime": 0.9911
+   "uptime": 0.9913
   },
   {
    "name": "120HP",
@@ -7700,7 +7495,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.9911
+   "uptime": 0.9913
   },
   {
    "name": "JET Cards",
@@ -7764,7 +7559,7 @@
      "cart": "https://jetcards.uk/cart/58903348871549:1"
     }
    ],
-   "uptime": 0.9972
+   "uptime": 0.9973
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -9080,7 +8875,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.9911
+   "uptime": 0.9913
   },
   {
    "name": "Mystic Games",
@@ -9260,7 +9055,7 @@
      "cart": "https://www.japan2uk.com/cart/63985005068665:1"
     }
    ],
-   "uptime": 0.9969
+   "uptime": 0.997
   },
   {
    "name": "Asmodee UK",
@@ -9516,6 +9311,42 @@
   }
  ],
  "alerts": [
+  {
+   "time": "2026-11-13T08:24:58+00:00",
+   "site": "The TCG Shop",
+   "text": "New on page: Pok\u00e9mon TCG \u2013 Mega Evolution: Delta Reign Elite Trainer Box",
+   "url": "https://www.thetcgshop.co.uk/collections/pokemon"
+  },
+  {
+   "time": "2026-11-13T08:24:58+00:00",
+   "site": "The TCG Shop",
+   "text": "New on page: Pok\u00e9mon TCG \u2013 Scarlet & Violet: Destined Rivals Elite Trainer Box",
+   "url": "https://www.thetcgshop.co.uk/collections/pokemon"
+  },
+  {
+   "time": "2026-11-13T08:24:58+00:00",
+   "site": "The TCG Shop",
+   "text": "New on page: Pok\u00e9mon TCG \u2013 Scarlet \\u0026 Violet: Destined Rivals Elite Trainer Box",
+   "url": "https://www.thetcgshop.co.uk/collections/pokemon"
+  },
+  {
+   "time": "2026-11-13T08:24:58+00:00",
+   "site": "The TCG Shop",
+   "text": "New on page: Pok\u00e9mon TCG: 30th Celebration Booster Bundle",
+   "url": "https://www.thetcgshop.co.uk/collections/pokemon"
+  },
+  {
+   "time": "2026-11-13T08:24:58+00:00",
+   "site": "The TCG Shop",
+   "text": "New on page: Pok\u00e9mon TCG: 30th Celebration Elite Trainer Box",
+   "url": "https://www.thetcgshop.co.uk/collections/pokemon"
+  },
+  {
+   "time": "2026-11-13T08:24:58+00:00",
+   "site": "The TCG Shop",
+   "text": "...and 9 more",
+   "url": "https://www.thetcgshop.co.uk/collections/pokemon"
+  },
   {
    "time": "2026-11-12T20:05:52+00:00",
    "site": "Card Cavern",
@@ -10079,42 +9910,6 @@
    "site": "Card Cavern",
    "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
    "url": "https://cardcavern.co.uk/"
-  },
-  {
-   "time": "2026-11-04T22:33:35+00:00",
-   "site": "JET Cards",
-   "text": "NEW: Pokemon - Scarlet & Violet - Destined Rivals - Booster Bundle \u00a359.95 (over RRP)",
-   "url": "https://jetcards.uk/cart/58903348871549:1"
-  },
-  {
-   "time": "2026-11-04T20:31:13+00:00",
-   "site": "Card Cavern",
-   "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
-   "url": "https://cardcavern.co.uk/"
-  },
-  {
-   "time": "2026-11-04T17:44:25+00:00",
-   "site": "Hobby Addicts",
-   "text": "NEW: Pokemon: Deck Crafter's Collection (Meowth) \u00a39.99",
-   "url": "https://www.hobby-addicts.com/cart/67791988850995:1"
-  },
-  {
-   "time": "2026-11-04T17:39:26+00:00",
-   "site": "Hobby Addicts",
-   "text": "New on page: Evoretro: Pok\u00e9mon Elite Trainer Box Acrylic Protector",
-   "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
-  },
-  {
-   "time": "2026-11-04T17:39:26+00:00",
-   "site": "Hobby Addicts",
-   "text": "New on page: Our collection of Pokemon TCG is broken up into the following categories:",
-   "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
-  },
-  {
-   "time": "2026-11-04T17:39:26+00:00",
-   "site": "Hobby Addicts",
-   "text": "New on page: Pokemon booster packs are essential for any Pokemon TCG player or collector. Booster packs offer the excitement of potentially discovering powerful an",
-   "url": "https://www.hobby-addicts.com/collections/pokemon-tcg"
   }
  ],
  "wishlist": [
