@@ -694,12 +694,6 @@
     true,
     "https://collectorsedge.co.uk/products/pokemon-tcg-destined-rivals-elite-trainer-box-pokemon-centre-edition"
    ],
-   "52803793944915": [
-    "Pok\u00e9mon TCG: Poke Ball Tin (2025)",
-    17.99,
-    false,
-    "https://collectorsedge.co.uk/products/pokemon-tcg-poke-ball-tin-2025"
-   ],
    "53372117320019": [
     "Pokemon TCG: First Partner Illustration Collection - Series 1",
     39.95,
@@ -1920,7 +1914,7 @@
    ],
    "55920150642953": [
     "Pok\u00e9mon TCG Destined Rivals Elite Trainer Box",
-    163.0,
+    162.0,
     true,
     "https://hoodlumsuk.com/products/pokemon-scarlet-violet-destined-rivals-elite-trainer-box"
    ],
@@ -2034,7 +2028,7 @@
    ],
    "56928568148233": [
     "Pok\u00e9mon TCG Perfect Order Elite Trainer Box",
-    136.0,
+    135.0,
     true,
     "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-perfect-order-elite-trainer-box"
    ],
@@ -2052,7 +2046,7 @@
    ],
    "56928642236681": [
     "Pok\u00e9mon TCG Perfect Order Half Booster Box (18 Packs)",
-    163.0,
+    162.0,
     true,
     "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-perfect-order-half-booster-box-18-packs"
    ],
@@ -2136,7 +2130,7 @@
    ],
    "57536148898057": [
     "POK\u00c9MON TCG: MEGA EVOLUTION \u2014 DELTA REIGN ELITE TRAINER BOX",
-    163.0,
+    162.0,
     true,
     "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-delta-reign-elite-trainer-box"
    ],
@@ -2148,7 +2142,7 @@
    ],
    "57536149127433": [
     "POK\u00c9MON TCG: MEGA EVOLUTION \u2014 DELTA REIGN BOOSTER BUNDLE (6 PACKS)",
-    109.0,
+    108.0,
     true,
     "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-delta-reign-booster-bundle-6-packs"
    ],
@@ -4206,7 +4200,7 @@
    ],
    "50259136708950": [
     "Pokemon - Scarlet & Violet - Destined Rivals - Destined Rivals Booster Box (36 packs)",
-    560.0,
+    559.0,
     false,
     "https://pixel-hub.co.uk/products/pokemon-tcg-destined-rivals-booster-box-36-packs"
    ],
@@ -4416,19 +4410,19 @@
    ],
    "51573165293910": [
     "Pokemon - Destined Rivals - Booster Box Case (6 Booster Boxes)",
-    3883.0,
+    3882.0,
     false,
     "https://pixel-hub.co.uk/products/pokemon-destined-rivals-booster-box-case-6-booster-boxes"
    ],
    "51573169848662": [
     "Pok\u00e9mon TCG - Journey Together SV09 Booster Box (36 Packs) - SEALED CASE OF 6",
-    1709.0,
+    1708.0,
     false,
     "https://pixel-hub.co.uk/products/pokemon-tcg-journey-together-sv09-booster-box-36-packs-sealed-case-of-6"
    ],
    "51573178696022": [
     "Pok\u00e9mon - Prismatic Evolutions Booster Bundle Master Case (60 bundles)",
-    9318.0,
+    9316.0,
     false,
     "https://pixel-hub.co.uk/products/pokemon-prismatic-evolutions-booster-bundle-master-case-60-bundles"
    ],
@@ -6213,35 +6207,35 @@
  "_ping_fixed": "2026-11-03T18:16:58+00:00",
  "_reminded": [],
  "_uptime": {
-  "120HP": 0.9728,
-  "Berry Brand Supply TCG": 0.9937,
+  "120HP": 0.9733,
+  "Berry Brand Supply TCG": 0.9938,
   "Card Cavern": 0.9976,
   "CardDeckr": 1.0,
   "Chaos Cards": 1.0,
-  "Collectors Edge": 0.9728,
-  "Dice Cup Cafe": 0.9758,
-  "Double Sleeved": 0.9728,
-  "Evolvault": 0.9845,
+  "Collectors Edge": 0.9733,
+  "Dice Cup Cafe": 0.9763,
+  "Double Sleeved": 0.9733,
+  "Evolvault": 0.9848,
   "Firestorm Games": 0.9976,
-  "Hobby Addicts": 0.9755,
-  "Hokey Poke Games": 0.9908,
-  "Hoodlums UK": 0.9728,
-  "Iconic TCG": 0.9728,
-  "JET Cards": 0.9906,
-  "Japan2UK": 0.99,
+  "Hobby Addicts": 0.976,
+  "Hokey Poke Games": 0.991,
+  "Hoodlums UK": 0.9733,
+  "Iconic TCG": 0.9733,
+  "JET Cards": 0.9908,
+  "Japan2UK": 0.9902,
   "Magic Madhouse": 0.9976,
-  "Monster Card Corner": 0.9728,
+  "Monster Card Corner": 0.9733,
   "Mystic Games": 1.0,
   "Packrat": 1.0,
-  "Pixel Hub": 0.9728,
-  "Poke Collect": 0.9908,
-  "TCG Paradise": 0.9878,
+  "Pixel Hub": 0.9733,
+  "Poke Collect": 0.991,
+  "TCG Paradise": 0.988,
   "TCGora": 0.0024,
-  "The Card Vault": 0.9728,
-  "The Dice Dungeon": 0.9878,
-  "The TCG Shop": 0.9728,
-  "Titan Cards": 0.9728,
-  "Total Cards": 0.9728,
-  "Zatu Games": 0.9759
+  "The Card Vault": 0.9733,
+  "The Dice Dungeon": 0.988,
+  "The TCG Shop": 0.9733,
+  "Titan Cards": 0.9733,
+  "Total Cards": 0.9733,
+  "Zatu Games": 0.9764
  }
 }

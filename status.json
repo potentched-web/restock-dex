@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T03:02:37+00:00",
+ "updated": "2026-11-13T03:05:10+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -66,7 +66,7 @@
    "error": null,
    "mode": "shopify",
    "items": [],
-   "uptime": 0.9728
+   "uptime": 0.9733
   },
   {
    "name": "Magic Madhouse",
@@ -143,7 +143,7 @@
      "cart": "https://www.totalcards.net/cart/59010459959677:1"
     }
    ],
-   "uptime": 0.9728
+   "uptime": 0.9733
   },
   {
    "name": "Firestorm Games",
@@ -261,7 +261,7 @@
      "cart": "https://zatu.com/cart/56945082040698:1"
     }
    ],
-   "uptime": 0.9759
+   "uptime": 0.9764
   },
   {
    "name": "Hokey Poke Games",
@@ -343,7 +343,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54634059956571:1"
     }
    ],
-   "uptime": 0.9908
+   "uptime": 0.991
   },
   {
    "name": "Collectors Edge",
@@ -504,18 +504,9 @@
      "over_rrp": false,
      "rrp": null,
      "cart": "https://collectorsedge.co.uk/cart/55813699207507:1"
-    },
-    {
-     "title": "Pok\u00e9mon TCG: Poke Ball Tin (2025)",
-     "price": 17.99,
-     "available": false,
-     "url": "https://collectorsedge.co.uk/products/pokemon-tcg-poke-ball-tin-2025",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://collectorsedge.co.uk/cart/52803793944915:1"
     }
    ],
-   "uptime": 0.9728
+   "uptime": 0.9733
   },
   {
    "name": "The Dice Dungeon",
@@ -1002,7 +993,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9878
+   "uptime": 0.988
   },
   {
    "name": "Packrat",
@@ -1275,7 +1266,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.9728
+   "uptime": 0.9733
   },
   {
    "name": "TCG Paradise",
@@ -1834,7 +1825,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9878
+   "uptime": 0.988
   },
   {
    "name": "TCGora",
@@ -2278,7 +2269,7 @@
     },
     {
      "title": "Pokemon - Destined Rivals - Booster Box Case (6 Booster Boxes)",
-     "price": 3883.0,
+     "price": 3882.0,
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-destined-rivals-booster-box-case-6-booster-boxes",
      "over_rrp": true,
@@ -2296,7 +2287,7 @@
     },
     {
      "title": "Pokemon - Scarlet & Violet - Destined Rivals - Destined Rivals Booster Box (36 packs)",
-     "price": 560.0,
+     "price": 559.0,
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-destined-rivals-booster-box-36-packs",
      "over_rrp": true,
@@ -2467,7 +2458,7 @@
     },
     {
      "title": "Pok\u00e9mon - Prismatic Evolutions Booster Bundle Master Case (60 bundles)",
-     "price": 9318.0,
+     "price": 9316.0,
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-prismatic-evolutions-booster-bundle-master-case-60-bundles",
      "over_rrp": true,
@@ -2512,7 +2503,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Journey Together SV09 Booster Box (36 Packs) - SEALED CASE OF 6",
-     "price": 1709.0,
+     "price": 1708.0,
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-journey-together-sv09-booster-box-36-packs-sealed-case-of-6",
      "over_rrp": true,
@@ -3051,7 +3042,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.9728
+   "uptime": 0.9733
   },
   {
    "name": "Poke Collect",
@@ -3133,7 +3124,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9908
+   "uptime": 0.991
   },
   {
    "name": "Card Cavern",
@@ -3265,7 +3256,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.9758
+   "uptime": 0.9763
   },
   {
    "name": "The Card Vault",
@@ -3437,7 +3428,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.9728
+   "uptime": 0.9733
   },
   {
    "name": "Iconic TCG",
@@ -4842,7 +4833,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9728
+   "uptime": 0.9733
   },
   {
    "name": "Evolvault",
@@ -5149,7 +5140,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9845
+   "uptime": 0.9848
   },
   {
    "name": "Hobby Addicts",
@@ -6338,7 +6329,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9755
+   "uptime": 0.976
   },
   {
    "name": "Hoodlums UK",
@@ -6385,7 +6376,7 @@
     },
     {
      "title": "POK\u00c9MON TCG: MEGA EVOLUTION \u2014 DELTA REIGN BOOSTER BUNDLE (6 PACKS)",
-     "price": 109.0,
+     "price": 108.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-delta-reign-booster-bundle-6-packs",
      "over_rrp": true,
@@ -6394,7 +6385,7 @@
     },
     {
      "title": "POK\u00c9MON TCG: MEGA EVOLUTION \u2014 DELTA REIGN ELITE TRAINER BOX",
-     "price": 163.0,
+     "price": 162.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-delta-reign-elite-trainer-box",
      "over_rrp": true,
@@ -6556,7 +6547,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Destined Rivals Elite Trainer Box",
-     "price": 163.0,
+     "price": 162.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-scarlet-violet-destined-rivals-elite-trainer-box",
      "over_rrp": true,
@@ -6628,7 +6619,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Perfect Order Elite Trainer Box",
-     "price": 136.0,
+     "price": 135.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-perfect-order-elite-trainer-box",
      "over_rrp": true,
@@ -6637,7 +6628,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Perfect Order Half Booster Box (18 Packs)",
-     "price": 163.0,
+     "price": 162.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-perfect-order-half-booster-box-18-packs",
      "over_rrp": true,
@@ -6735,7 +6726,7 @@
      "cart": "https://hoodlumsuk.com/cart/55989904113929:1"
     }
    ],
-   "uptime": 0.9728
+   "uptime": 0.9733
   },
   {
    "name": "The TCG Shop",
@@ -7006,7 +6997,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.9728
+   "uptime": 0.9733
   },
   {
    "name": "120HP",
@@ -7709,7 +7700,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.9728
+   "uptime": 0.9733
   },
   {
    "name": "JET Cards",
@@ -7773,7 +7764,7 @@
      "cart": "https://jetcards.uk/cart/58903348871549:1"
     }
    ],
-   "uptime": 0.9906
+   "uptime": 0.9908
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -7846,7 +7837,7 @@
      "cart": "https://www.bbstcg.co.uk/cart/57169842471290:1"
     }
    ],
-   "uptime": 0.9937
+   "uptime": 0.9938
   },
   {
    "name": "Monster Card Corner",
@@ -9089,7 +9080,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.9728
+   "uptime": 0.9733
   },
   {
    "name": "Mystic Games",
@@ -9269,7 +9260,7 @@
      "cart": "https://www.japan2uk.com/cart/63985005068665:1"
     }
    ],
-   "uptime": 0.99
+   "uptime": 0.9902
   },
   {
    "name": "Asmodee UK",
