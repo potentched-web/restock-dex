@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T19:31:03+00:00",
+ "updated": "2026-11-13T19:36:03+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -169,7 +169,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9843
+   "uptime": 0.9846
   },
   {
    "name": "Zatu Games",
@@ -7079,8 +7079,8 @@
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration 2-Pack Blister (Eevee)",
-     "price": 22.95,
-     "available": false,
+     "price": 19.95,
+     "available": true,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-2-pack-blister-eevee",
      "over_rrp": false,
      "rrp": null,
@@ -7097,7 +7097,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Collection Box (Greninja ex)",
-     "price": 41.95,
+     "price": 38.95,
      "available": true,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-greninja-collection",
      "over_rrp": false,
@@ -7106,7 +7106,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Collection Box (Sylveon ex)",
-     "price": 44.95,
+     "price": 41.95,
      "available": false,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-collection-box-sylveon-ex",
      "over_rrp": false,
@@ -7151,7 +7151,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Mini Tin (Espeon)",
-     "price": 21.95,
+     "price": 19.95,
      "available": false,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-espeon",
      "over_rrp": false,
@@ -7160,7 +7160,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Mini Tin (Greninja)",
-     "price": 21.95,
+     "price": 19.95,
      "available": true,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-greninja",
      "over_rrp": false,
@@ -7169,7 +7169,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Mini Tin (Lapras)",
-     "price": 21.95,
+     "price": 19.95,
      "available": true,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-lapras",
      "over_rrp": false,
@@ -7178,7 +7178,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Mini Tin (Mew)",
-     "price": 21.95,
+     "price": 19.95,
      "available": false,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-mew",
      "over_rrp": false,
@@ -7187,7 +7187,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Mini Tin (Mewtwo)",
-     "price": 21.95,
+     "price": 19.95,
      "available": false,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-mewtwo",
      "over_rrp": false,
@@ -7196,7 +7196,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Mini Tin (Moltres)",
-     "price": 21.95,
+     "price": 19.95,
      "available": true,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-moltres",
      "over_rrp": false,
@@ -7205,7 +7205,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Mini Tin (Pikachu \u2013 Day)",
-     "price": 21.95,
+     "price": 19.95,
      "available": false,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-pikachu-day",
      "over_rrp": false,
@@ -7214,7 +7214,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Mini Tin (Pikachu \u2013 Night)",
-     "price": 21.95,
+     "price": 19.95,
      "available": false,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-pikachu-night",
      "over_rrp": false,
@@ -7223,7 +7223,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Mini Tin (Umbreon)",
-     "price": 21.95,
+     "price": 19.95,
      "available": true,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-umbreon",
      "over_rrp": false,
@@ -7232,7 +7232,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Mini Tin (Zapdos)",
-     "price": 21.95,
+     "price": 19.95,
      "available": true,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-zapdos",
      "over_rrp": false,
@@ -7241,10 +7241,10 @@
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Night Ultra-Premium Collection",
-     "price": 0.0,
+     "price": 374.95,
      "available": false,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-night-ultra-premium-collection",
-     "over_rrp": false,
+     "over_rrp": true,
      "rrp": 169.99,
      "cart": "https://www.120hp.co.uk/cart/57597046522231:1"
     },
@@ -9525,6 +9525,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-13T19:36:03+00:00",
+   "site": "120HP",
+   "text": "BACK IN STOCK: Pok\u00e9mon TCG: 30th Celebration 2-Pack Blister (Eevee) \u00a319.95",
+   "url": "https://www.120hp.co.uk/cart/57565242294647:1"
+  },
+  {
    "time": "2026-11-13T19:31:03+00:00",
    "site": "120HP",
    "text": "BACK IN STOCK: Pok\u00e9mon TCG: 30th Celebration Figure Collection (Mewtwo) \u00a353.95 (over RRP)",
@@ -10117,12 +10123,6 @@
    "site": "JET Cards",
    "text": "BACK IN STOCK: Pokemon - Deck Crafter's Collection - Meowth ex \u00a39.99",
    "url": "https://jetcards.uk/cart/58976515359101:1"
-  },
-  {
-   "time": "2026-11-05T11:51:04+00:00",
-   "site": "Iconic TCG",
-   "text": "BACK IN STOCK: Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Booster Box (36 Packs) (Preorder) \u00a3240.00 (over RRP)",
-   "url": "https://iconic-tcg.com/cart/58980531732812:1"
   }
  ],
  "wishlist": [
