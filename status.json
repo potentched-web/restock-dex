@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T14:25:15+00:00",
+ "updated": "2026-11-13T14:32:41+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -8,6 +8,10 @@
    "error": null,
    "mode": "page",
    "items": [
+    {
+     "title": "Pokemon 30th Celebration Booster Bundle",
+     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+    },
     {
      "title": "Pokemon 30th Celebration Figure Collection Set of 2 (Mew & Mewtwo)",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
@@ -9521,6 +9525,18 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-13T14:32:41+00:00",
+   "site": "Chaos Cards",
+   "text": "New on page: Pokemon 30th Celebration Booster Bundle",
+   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+  },
+  {
+   "time": "2026-11-13T14:32:41+00:00",
+   "site": "Chaos Cards",
+   "text": "New ballot spotted: Pokemon 30th Celebration Booster Bundle",
+   "url": "https://www.chaoscards.co.uk/prod/booster-packs-pokemon/pokemon-30th-celebration-booster-bundle"
+  },
+  {
    "time": "2026-11-13T10:58:16+00:00",
    "site": "Chaos Cards",
    "text": "New on page: Pokemon Mega Evolution Delta Reign 3 Pack Blister Seel",
@@ -10107,18 +10123,6 @@
    "site": "Iconic TCG",
    "text": "BACK IN STOCK: Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Elite Trainer Box (Preorder) \u00a385.00 (over RRP)",
    "url": "https://iconic-tcg.com/cart/58980531765580:1"
-  },
-  {
-   "time": "2026-11-05T10:38:44+00:00",
-   "site": "Chaos Cards",
-   "text": "New on page: Pokemon First Partner Illustration Collection Series 3",
-   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
-  },
-  {
-   "time": "2026-11-05T10:38:44+00:00",
-   "site": "Chaos Cards",
-   "text": "New on page: Pokemon Mega Evolution Pitch Black Booster Bundle",
-   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
   }
  ],
  "wishlist": [
@@ -10313,6 +10317,17 @@
   }
  ],
  "auto_drops": [
+  {
+   "shop": "Chaos Cards",
+   "name": "Pokemon 30th Celebration Booster Bundle",
+   "url": "https://www.chaoscards.co.uk/prod/booster-packs-pokemon/pokemon-30th-celebration-booster-bundle",
+   "type": "ballot",
+   "closes": null,
+   "seeded": false,
+   "note": "Spotted automatically. Open it to check if it's open and when it closes.",
+   "found": "2026-11-13T14:32:41+00:00",
+   "date_checked": "2026-11-13T14:32:41+00:00"
+  },
   {
    "shop": "Total Cards",
    "name": "Pokemon - Mega Rayquaza ex - Premium Tournament Collection (Pre-Order)",
