@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T14:46:57+00:00",
+ "updated": "2026-11-14T14:49:25+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -165,7 +165,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9929
+   "uptime": 0.993
   },
   {
    "name": "Zatu Games",
@@ -3127,7 +3127,12 @@
    "skip": null,
    "error": null,
    "mode": "page",
-   "items": [],
+   "items": [
+    {
+     "title": "Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
+     "url": "https://cardcavern.co.uk/"
+    }
+   ],
    "uptime": 0.9976
   },
   {
@@ -9516,6 +9521,12 @@
  ],
  "alerts": [
   {
+   "time": "2026-11-14T14:49:25+00:00",
+   "site": "Card Cavern",
+   "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
+   "url": "https://cardcavern.co.uk/"
+  },
+  {
    "time": "2026-11-14T12:28:11+00:00",
    "site": "Zatu Games",
    "text": "NEW: Pokemon TCG: 30th Celebration - Mini Tin - Greninja \u00a329.99",
@@ -10108,12 +10119,6 @@
    "site": "Hoodlums UK",
    "text": "NEW: POK\u00c9MON TCG: MEGA EVOLUTION \u2014 DELTA REIGN BOOSTER BUNDLE (6 PACKS) \u00a3110.00 (over RRP)",
    "url": "https://hoodlumsuk.com/cart/57536149127433:1"
-  },
-  {
-   "time": "2026-11-06T03:37:21+00:00",
-   "site": "Hoodlums UK",
-   "text": "NEW: POK\u00c9MON TCG: MEGA EVOLUTION - DELTA REIGN POK\u00c9MON CENTER ELITE TRAINER BOX \u00a3247.00 (over RRP)",
-   "url": "https://hoodlumsuk.com/cart/57536149520649:1"
   }
  ],
  "wishlist": [
