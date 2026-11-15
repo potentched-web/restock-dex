@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T23:39:39+00:00",
+ "updated": "2026-11-15T23:44:39+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -70,7 +70,7 @@
    "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [],
-   "uptime": 0.9369
+   "uptime": 0.9182
   },
   {
    "name": "Magic Madhouse",
@@ -147,7 +147,7 @@
      "cart": "https://www.totalcards.net/cart/59010459959677:1"
     }
    ],
-   "uptime": 0.9369
+   "uptime": 0.9182
   },
   {
    "name": "Firestorm Games",
@@ -256,7 +256,7 @@
      "cart": "https://zatu.com/cart/56945082040698:1"
     }
    ],
-   "uptime": 0.9369
+   "uptime": 0.9182
   },
   {
    "name": "Hokey Poke Games",
@@ -501,7 +501,7 @@
      "cart": "https://collectorsedge.co.uk/cart/55813699207507:1"
     }
    ],
-   "uptime": 0.9369
+   "uptime": 0.9182
   },
   {
    "name": "The Dice Dungeon",
@@ -1248,7 +1248,7 @@
    "name": "Titan Cards",
    "url": "https://titancards.co.uk/collections/pokemon",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -1261,7 +1261,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.9369
+   "uptime": 0.9382
   },
   {
    "name": "TCG Paradise",
@@ -2214,7 +2214,7 @@
    "name": "Pixel Hub",
    "url": "https://pixel-hub.co.uk/collections/pokemon",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -2264,7 +2264,7 @@
     },
     {
      "title": "Pokemon - Destined Rivals - Booster Box Case (6 Booster Boxes)",
-     "price": 3877.0,
+     "price": 3876.0,
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-destined-rivals-booster-box-case-6-booster-boxes",
      "over_rrp": true,
@@ -2408,7 +2408,7 @@
     },
     {
      "title": "Pokemon TCG: Mega Evolution - Booster Bundle",
-     "price": 94.0,
+     "price": 93.0,
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolution-booster-bundle",
      "over_rrp": true,
@@ -2453,7 +2453,7 @@
     },
     {
      "title": "Pok\u00e9mon - Prismatic Evolutions Booster Bundle Master Case (60 bundles)",
-     "price": 9304.0,
+     "price": 9302.0,
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-prismatic-evolutions-booster-bundle-master-case-60-bundles",
      "over_rrp": true,
@@ -2516,7 +2516,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG: 2023-Q4 Evolving Powers Premium Collection",
-     "price": 94.0,
+     "price": 93.0,
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-2023-q4-evolving-powers-premium-collection",
      "over_rrp": false,
@@ -2624,7 +2624,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG: Mega Evolution Perfect Order -  Elite Trainer Box",
-     "price": 125.0,
+     "price": 124.0,
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-perfect-order-elite-trainer-box",
      "over_rrp": true,
@@ -2732,7 +2732,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG: Mega Venusaur ex Premium Collection",
-     "price": 94.0,
+     "price": 93.0,
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-mega-venusaur-ex-premium-collection",
      "over_rrp": false,
@@ -2759,7 +2759,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG: Scarlet & Violet 10.5 - Black Bolt & White Flare Unova Victini Illustration Collection",
-     "price": 63.0,
+     "price": 62.0,
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-10-5-black-bolt-white-flare-unova-victini-illustration-collection",
      "over_rrp": false,
@@ -2813,7 +2813,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG: Scarlet & Violet 3.5: 151 \u2013 Full Booster Bundle Display",
-     "price": 3102.0,
+     "price": 3101.0,
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-3-5-151-full-booster-bundle-display",
      "over_rrp": true,
@@ -2822,7 +2822,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG: Scarlet & Violet 3.5: 151 \u2013 Poster Collection",
-     "price": 94.0,
+     "price": 93.0,
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-3-5-151-poster-collection",
      "over_rrp": false,
@@ -2831,7 +2831,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG: Scarlet & Violet 4 - Paradox Rift - Elite Trainer Box",
-     "price": 94.0,
+     "price": 93.0,
      "available": false,
      "url": "https://pixel-hub.co.uk/products/paradox",
      "over_rrp": true,
@@ -2858,7 +2858,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG: Scarlet & Violet 8.5 - Prismatic Evolutions \u2013 Surprise Box Collection",
-     "price": 94.0,
+     "price": 93.0,
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-8-5-prismatic-evolutions-surprise-box-collection-1",
      "over_rrp": false,
@@ -2876,7 +2876,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG: Scarlet & Violet 8.5 \u2013 Prismatic Evolutions - Accessory Pouch Special Collection",
-     "price": 63.0,
+     "price": 62.0,
      "available": false,
      "url": "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-8-5-prismatic-evolutions-accessory-pouch-special-collection",
      "over_rrp": false,
@@ -3037,7 +3037,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.9369
+   "uptime": 0.9382
   },
   {
    "name": "Poke Collect",
@@ -3246,7 +3246,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.9394
+   "uptime": 0.9206
   },
   {
    "name": "The Card Vault",
@@ -3418,7 +3418,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.9369
+   "uptime": 0.9182
   },
   {
    "name": "Iconic TCG",
@@ -4823,7 +4823,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9369
+   "uptime": 0.9182
   },
   {
    "name": "Evolvault",
@@ -6319,13 +6319,13 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9391
+   "uptime": 0.9203
   },
   {
    "name": "Hoodlums UK",
    "url": "https://hoodlumsuk.com/collections/pokemon",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -6725,13 +6725,13 @@
      "cart": "https://hoodlumsuk.com/cart/57569510621449:1"
     }
    ],
-   "uptime": 0.9569
+   "uptime": 0.9378
   },
   {
    "name": "The TCG Shop",
    "url": "https://www.thetcgshop.co.uk/collections/pokemon",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -6996,7 +6996,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.9392
+   "uptime": 0.9404
   },
   {
    "name": "120HP",
@@ -7699,7 +7699,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.9392
+   "uptime": 0.9204
   },
   {
    "name": "JET Cards",
@@ -9079,7 +9079,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.9369
+   "uptime": 0.9182
   },
   {
    "name": "Mystic Games",
