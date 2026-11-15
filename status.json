@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T23:34:41+00:00",
+ "updated": "2026-11-15T23:39:39+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -70,7 +70,7 @@
    "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [],
-   "uptime": 0.956
+   "uptime": 0.9369
   },
   {
    "name": "Magic Madhouse",
@@ -147,7 +147,7 @@
      "cart": "https://www.totalcards.net/cart/59010459959677:1"
     }
    ],
-   "uptime": 0.956
+   "uptime": 0.9369
   },
   {
    "name": "Firestorm Games",
@@ -256,7 +256,7 @@
      "cart": "https://zatu.com/cart/56945082040698:1"
     }
    ],
-   "uptime": 0.956
+   "uptime": 0.9369
   },
   {
    "name": "Hokey Poke Games",
@@ -501,7 +501,7 @@
      "cart": "https://collectorsedge.co.uk/cart/55813699207507:1"
     }
    ],
-   "uptime": 0.956
+   "uptime": 0.9369
   },
   {
    "name": "The Dice Dungeon",
@@ -1261,7 +1261,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.956
+   "uptime": 0.9369
   },
   {
    "name": "TCG Paradise",
@@ -3037,7 +3037,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.956
+   "uptime": 0.9369
   },
   {
    "name": "Poke Collect",
@@ -3246,7 +3246,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.9586
+   "uptime": 0.9394
   },
   {
    "name": "The Card Vault",
@@ -3418,7 +3418,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.956
+   "uptime": 0.9369
   },
   {
    "name": "Iconic TCG",
@@ -4823,7 +4823,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.956
+   "uptime": 0.9369
   },
   {
    "name": "Evolvault",
@@ -6319,13 +6319,13 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9583
+   "uptime": 0.9391
   },
   {
    "name": "Hoodlums UK",
    "url": "https://hoodlumsuk.com/collections/pokemon",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -6519,7 +6519,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Chaos Rising Booster Display Box (36 Packs)",
-     "price": 338.0,
+     "price": 337.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-chaos-rising-boosters-display-36",
      "over_rrp": true,
@@ -6546,7 +6546,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Mega Charizard X ex Ultra Premium Collection",
-     "price": 365.0,
+     "price": 364.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-mega-charizard-x-ex-ultra-premium-collection",
      "over_rrp": true,
@@ -6717,7 +6717,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Mini Tins Display (10-Pack)",
-     "price": 338.0,
+     "price": 337.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-30th-celebration-mini-tins-display-10-pack",
      "over_rrp": false,
@@ -6725,7 +6725,7 @@
      "cart": "https://hoodlumsuk.com/cart/57569510621449:1"
     }
    ],
-   "uptime": 0.956
+   "uptime": 0.9569
   },
   {
    "name": "The TCG Shop",
@@ -6996,7 +6996,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.9584
+   "uptime": 0.9392
   },
   {
    "name": "120HP",
@@ -7699,7 +7699,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.9584
+   "uptime": 0.9392
   },
   {
    "name": "JET Cards",
@@ -9079,7 +9079,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.956
+   "uptime": 0.9369
   },
   {
    "name": "Mystic Games",
