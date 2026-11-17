@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T11:55:41+00:00",
+ "updated": "2026-11-17T12:00:42+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -53,6 +53,10 @@
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
+     "title": "Pokemon Mega Evolution Pitch Black Booster Bundle",
+     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+    },
+    {
      "title": "Pokemon Mega Forces Mega Darkrai EX Gift Tin",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
@@ -98,7 +102,7 @@
    "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [],
-   "uptime": 0.8753
+   "uptime": 0.8578
   },
   {
    "name": "Magic Madhouse",
@@ -175,7 +179,7 @@
      "cart": "https://www.totalcards.net/cart/59010459959677:1"
     }
    ],
-   "uptime": 0.8639
+   "uptime": 0.8466
   },
   {
    "name": "Firestorm Games",
@@ -275,7 +279,7 @@
      "cart": "https://zatu.com/cart/56945082040698:1"
     }
    ],
-   "uptime": 0.8561
+   "uptime": 0.839
   },
   {
    "name": "Hokey Poke Games",
@@ -520,7 +524,7 @@
      "cart": "https://collectorsedge.co.uk/cart/55813699207507:1"
     }
    ],
-   "uptime": 0.8561
+   "uptime": 0.839
   },
   {
    "name": "The Dice Dungeon",
@@ -1280,7 +1284,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.8634
+   "uptime": 0.8461
   },
   {
    "name": "TCG Paradise",
@@ -3065,7 +3069,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.8634
+   "uptime": 0.8461
   },
   {
    "name": "Poke Collect",
@@ -3274,7 +3278,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.8766
+   "uptime": 0.8591
   },
   {
    "name": "The Card Vault",
@@ -3446,7 +3450,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.8561
+   "uptime": 0.839
   },
   {
    "name": "Iconic TCG",
@@ -4851,7 +4855,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.8561
+   "uptime": 0.839
   },
   {
    "name": "Evolvault",
@@ -6347,7 +6351,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.8644
+   "uptime": 0.8471
   },
   {
    "name": "Hoodlums UK",
@@ -6753,7 +6757,7 @@
      "cart": "https://hoodlumsuk.com/cart/57569510621449:1"
     }
    ],
-   "uptime": 0.8631
+   "uptime": 0.8458
   },
   {
    "name": "The TCG Shop",
@@ -7024,7 +7028,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.8808
+   "uptime": 0.8632
   },
   {
    "name": "120HP",
@@ -7727,7 +7731,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.8647
+   "uptime": 0.8474
   },
   {
    "name": "JET Cards",
@@ -9107,7 +9111,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.8561
+   "uptime": 0.839
   },
   {
    "name": "Mystic Games",
@@ -9543,6 +9547,12 @@
   }
  ],
  "alerts": [
+  {
+   "time": "2026-11-17T12:00:42+00:00",
+   "site": "Chaos Cards",
+   "text": "New on page: Pokemon Mega Evolution Pitch Black Booster Bundle",
+   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+  },
   {
    "time": "2026-11-17T11:45:43+00:00",
    "site": "Chaos Cards",
@@ -10136,12 +10146,6 @@
    "site": "120HP",
    "text": "BACK IN STOCK: Pok\u00e9mon TCG: 30th Celebration Poster Collection Box \u00a339.95",
    "url": "https://www.120hp.co.uk/cart/57565273129335:1"
-  },
-  {
-   "time": "2026-11-08T00:34:43+00:00",
-   "site": "Card Cavern",
-   "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
-   "url": "https://cardcavern.co.uk/"
   }
  ],
  "wishlist": [
