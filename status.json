@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T21:32:01+00:00",
+ "updated": "2026-11-20T21:37:01+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -126,7 +126,7 @@
    "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [],
-   "uptime": 0.6816
+   "uptime": 0.668
   },
   {
    "name": "Magic Madhouse",
@@ -334,7 +334,7 @@
      "cart": "https://www.totalcards.net/cart/59125327888765:1"
     }
    ],
-   "uptime": 0.6803
+   "uptime": 0.6667
   },
   {
    "name": "Firestorm Games",
@@ -352,7 +352,7 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9969
+   "uptime": 0.997
   },
   {
    "name": "Zatu Games",
@@ -596,7 +596,7 @@
      "cart": "https://zatu.com/cart/56945082040698:1"
     }
    ],
-   "uptime": 0.6798
+   "uptime": 0.6662
   },
   {
    "name": "Hokey Poke Games",
@@ -678,7 +678,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54634059956571:1"
     }
    ],
-   "uptime": 0.8738
+   "uptime": 0.8763
   },
   {
    "name": "Collectors Edge",
@@ -832,7 +832,7 @@
      "cart": "https://collectorsedge.co.uk/cart/55813699207507:1"
     }
    ],
-   "uptime": 0.7126
+   "uptime": 0.6983
   },
   {
    "name": "The Dice Dungeon",
@@ -1319,7 +1319,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.89
+   "uptime": 0.8922
   },
   {
    "name": "Packrat",
@@ -1573,7 +1573,7 @@
      "url": "https://packratt.co.uk/pokemon"
     }
    ],
-   "uptime": 0.9948
+   "uptime": 0.9949
   },
   {
    "name": "Titan Cards",
@@ -1592,7 +1592,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.6802
+   "uptime": 0.6666
   },
   {
    "name": "TCG Paradise",
@@ -2160,7 +2160,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.8738
+   "uptime": 0.8763
   },
   {
    "name": "TCGora",
@@ -3377,7 +3377,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.6983
+   "uptime": 0.6843
   },
   {
    "name": "Poke Collect",
@@ -3504,7 +3504,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.89
+   "uptime": 0.8922
   },
   {
    "name": "Card Cavern",
@@ -3631,7 +3631,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.6818
+   "uptime": 0.6682
   },
   {
    "name": "The Card Vault",
@@ -3812,7 +3812,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.6798
+   "uptime": 0.6662
   },
   {
    "name": "Iconic TCG",
@@ -5109,7 +5109,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.6798
+   "uptime": 0.6662
   },
   {
    "name": "Evolvault",
@@ -5416,7 +5416,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.8738
+   "uptime": 0.8763
   },
   {
    "name": "Hobby Addicts",
@@ -6605,7 +6605,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.6848
+   "uptime": 0.6711
   },
   {
    "name": "Hoodlums UK",
@@ -7011,13 +7011,13 @@
      "cart": "https://hoodlumsuk.com/cart/57569510621449:1"
     }
    ],
-   "uptime": 0.6802
+   "uptime": 0.6666
   },
   {
    "name": "The TCG Shop",
    "url": "https://www.thetcgshop.co.uk/collections/pokemon",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -7059,7 +7059,7 @@
     {
      "title": "Pok\u00e9mon TCG \u2013 Mega Evolution: Delta Reign Elite Trainer Box",
      "price": 69.99,
-     "available": false,
+     "available": true,
      "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-mega-evolution-delta-reign-elite-trainer-box",
      "over_rrp": true,
      "rrp": 49.99,
@@ -7203,7 +7203,7 @@
     {
      "title": "Pok\u00e9mon TCG: Mega Evolution \u2013 Delta Reign Booster Display Box",
      "price": 169.99,
-     "available": false,
+     "available": true,
      "url": "https://www.thetcgshop.co.uk/products/pokemon-tcg-mega-evolution-delta-reign-booster-display-box",
      "over_rrp": true,
      "rrp": 155.0,
@@ -7282,7 +7282,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.6823
+   "uptime": 0.6887
   },
   {
    "name": "120HP",
@@ -7985,7 +7985,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.6805
+   "uptime": 0.6669
   },
   {
    "name": "JET Cards",
@@ -8049,7 +8049,7 @@
      "cart": "https://jetcards.uk/cart/58943300075901:1"
     }
    ],
-   "uptime": 0.8738
+   "uptime": 0.8763
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -8122,7 +8122,7 @@
      "cart": "https://www.bbstcg.co.uk/cart/57169842471290:1"
     }
    ],
-   "uptime": 0.8738
+   "uptime": 0.8763
   },
   {
    "name": "Monster Card Corner",
@@ -9374,7 +9374,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.6798
+   "uptime": 0.6662
   },
   {
    "name": "Mystic Games",
@@ -9427,7 +9427,7 @@
    "error": null,
    "mode": "shopify",
    "items": [],
-   "uptime": 0.8738
+   "uptime": 0.8763
   },
   {
    "name": "Asmodee UK",
@@ -9683,6 +9683,18 @@
   }
  ],
  "alerts": [
+  {
+   "time": "2026-11-20T21:37:01+00:00",
+   "site": "The TCG Shop",
+   "text": "BACK IN STOCK: Pok\u00e9mon TCG: Mega Evolution \u2013 Delta Reign Booster Display Box \u00a3169.99 (over RRP)",
+   "url": "https://www.thetcgshop.co.uk/cart/60224672661888:1"
+  },
+  {
+   "time": "2026-11-20T21:37:01+00:00",
+   "site": "The TCG Shop",
+   "text": "BACK IN STOCK: Pok\u00e9mon TCG \u2013 Mega Evolution: Delta Reign Elite Trainer Box \u00a369.99 (over RRP)",
+   "url": "https://www.thetcgshop.co.uk/cart/60224581337472:1"
+  },
   {
    "time": "2026-11-20T21:02:01+00:00",
    "site": "Pixel Hub",
@@ -10270,18 +10282,6 @@
    "site": "Card Cavern",
    "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
    "url": "https://cardcavern.co.uk/"
-  },
-  {
-   "time": "2026-11-14T00:21:50+00:00",
-   "site": "Card Cavern",
-   "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
-   "url": "https://cardcavern.co.uk/"
-  },
-  {
-   "time": "2026-11-13T19:46:03+00:00",
-   "site": "120HP",
-   "text": "BACK IN STOCK: Pok\u00e9mon TCG: 30th Celebration Night Ultra-Premium Collection \u00a3374.95 (over RRP)",
-   "url": "https://www.120hp.co.uk/cart/57597046522231:1"
   }
  ],
  "wishlist": [
