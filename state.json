@@ -633,9 +633,7 @@
   "mode": "shopify"
  },
  "Card Cavern": {
-  "lines": [
-   "Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)"
-  ],
+  "lines": [],
   "mode": "page"
  },
  "CardDeckr": {
@@ -3232,6 +3230,11 @@
  "Magic Madhouse": {
   "lines": [
    "30th Celebration Ultra Premium Collection - Night",
+   "ME Flowing Fists 3 Pack Blister Wimpod",
+   "ME Flowing Fists Booster Box",
+   "ME Flowing Fists Elite Trainer Box - Mega Lucario Z",
+   "ME Flowing Fists Premium Checklane Blister Bastiodon",
+   "ME Flowing Fists Premium Checklane Blister Primarina",
    "Pokemon Gifting Bundle - 30th Celebration Tin Sylveon ex & 3-pack Tournament Folio (Series 1) & Pikachu & Mimikyu Deck Protectors (65)",
    "Pok\u00e9mon Booster Box",
    "Scarlet and Violet Stellar Crown Premium Checklane Blister Bundle of 2 (Ancient & Future Pokemon)"
@@ -6400,35 +6403,35 @@
  "_ping_fixed": "2026-11-03T18:16:58+00:00",
  "_reminded": [],
  "_uptime": {
-  "120HP": 0.9596,
-  "Berry Brand Supply TCG": 0.9976,
+  "120HP": 0.9404,
+  "Berry Brand Supply TCG": 0.9776,
   "Card Cavern": 0.9976,
   "CardDeckr": 1.0,
   "Chaos Cards": 1.0,
-  "Collectors Edge": 0.9583,
-  "Dice Cup Cafe": 0.9612,
-  "Double Sleeved": 0.961,
-  "Evolvault": 0.9976,
-  "Firestorm Games": 0.9952,
-  "Hobby Addicts": 0.9656,
-  "Hokey Poke Games": 0.9976,
-  "Hoodlums UK": 0.9592,
-  "Iconic TCG": 0.9583,
-  "JET Cards": 0.9976,
-  "Japan2UK": 0.9976,
+  "Collectors Edge": 0.9391,
+  "Dice Cup Cafe": 0.942,
+  "Double Sleeved": 0.9418,
+  "Evolvault": 0.9776,
+  "Firestorm Games": 0.9953,
+  "Hobby Addicts": 0.9463,
+  "Hokey Poke Games": 0.9776,
+  "Hoodlums UK": 0.94,
+  "Iconic TCG": 0.9391,
+  "JET Cards": 0.9776,
+  "Japan2UK": 0.9776,
   "Magic Madhouse": 0.9976,
-  "Monster Card Corner": 0.9583,
+  "Monster Card Corner": 0.9391,
   "Mystic Games": 1.0,
-  "Packrat": 0.9931,
-  "Pixel Hub": 0.9593,
-  "Poke Collect": 0.9976,
-  "TCG Paradise": 0.9976,
+  "Packrat": 0.9932,
+  "Pixel Hub": 0.9401,
+  "Poke Collect": 0.9776,
+  "TCG Paradise": 0.9776,
   "TCGora": 0.0024,
-  "The Card Vault": 0.9583,
-  "The Dice Dungeon": 0.9976,
-  "The TCG Shop": 0.9618,
-  "Titan Cards": 0.9593,
-  "Total Cards": 0.9594,
-  "Zatu Games": 0.9583
+  "The Card Vault": 0.9391,
+  "The Dice Dungeon": 0.9776,
+  "The TCG Shop": 0.9426,
+  "Titan Cards": 0.9401,
+  "Total Cards": 0.9402,
+  "Zatu Games": 0.9391
  }
 }

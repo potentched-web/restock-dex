@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T04:59:26+00:00",
+ "updated": "2026-11-20T12:55:38+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -123,10 +123,10 @@
    "name": "Double Sleeved",
    "url": "https://www.doublesleeved.co.uk/collections/pre-orders",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [],
-   "uptime": 0.961
+   "uptime": 0.9418
   },
   {
    "name": "Magic Madhouse",
@@ -137,6 +137,26 @@
    "items": [
     {
      "title": "30th Celebration Ultra Premium Collection - Night",
+     "url": "https://magicmadhouse.co.uk/pokemon/pokemon-sealed-product?sort=newest"
+    },
+    {
+     "title": "ME Flowing Fists 3 Pack Blister Wimpod",
+     "url": "https://magicmadhouse.co.uk/pokemon/pokemon-sealed-product?sort=newest"
+    },
+    {
+     "title": "ME Flowing Fists Booster Box",
+     "url": "https://magicmadhouse.co.uk/pokemon/pokemon-sealed-product?sort=newest"
+    },
+    {
+     "title": "ME Flowing Fists Elite Trainer Box - Mega Lucario Z",
+     "url": "https://magicmadhouse.co.uk/pokemon/pokemon-sealed-product?sort=newest"
+    },
+    {
+     "title": "ME Flowing Fists Premium Checklane Blister Bastiodon",
+     "url": "https://magicmadhouse.co.uk/pokemon/pokemon-sealed-product?sort=newest"
+    },
+    {
+     "title": "ME Flowing Fists Premium Checklane Blister Primarina",
      "url": "https://magicmadhouse.co.uk/pokemon/pokemon-sealed-product?sort=newest"
     },
     {
@@ -158,7 +178,7 @@
    "name": "Total Cards",
    "url": "https://www.totalcards.net/collections/pokemon",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -306,7 +326,7 @@
      "cart": "https://www.totalcards.net/cart/59125327888765:1"
     }
    ],
-   "uptime": 0.9594
+   "uptime": 0.9402
   },
   {
    "name": "Firestorm Games",
@@ -324,13 +344,13 @@
      "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards"
     }
    ],
-   "uptime": 0.9952
+   "uptime": 0.9953
   },
   {
    "name": "Zatu Games",
    "url": "https://zatu.com/collections/trading-card-games-pokemon-tcg",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -568,13 +588,13 @@
      "cart": "https://zatu.com/cart/56945082040698:1"
     }
    ],
-   "uptime": 0.9583
+   "uptime": 0.9391
   },
   {
    "name": "Hokey Poke Games",
    "url": "https://hokeypokegames.co.uk/collections/all-pokemon",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -650,13 +670,13 @@
      "cart": "https://hokeypokegames.co.uk/cart/54634059956571:1"
     }
    ],
-   "uptime": 0.9976
+   "uptime": 0.9776
   },
   {
    "name": "Collectors Edge",
    "url": "https://collectorsedge.co.uk/collections/pokemon",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -804,13 +824,13 @@
      "cart": "https://collectorsedge.co.uk/cart/55813699207507:1"
     }
    ],
-   "uptime": 0.9583
+   "uptime": 0.9391
   },
   {
    "name": "The Dice Dungeon",
    "url": "https://thedicedungeon.co.uk/collections/all",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -1291,7 +1311,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9976
+   "uptime": 0.9776
   },
   {
    "name": "Packrat",
@@ -1545,13 +1565,13 @@
      "url": "https://packratt.co.uk/pokemon"
     }
    ],
-   "uptime": 0.9931
+   "uptime": 0.9932
   },
   {
    "name": "Titan Cards",
    "url": "https://titancards.co.uk/collections/pokemon",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -1564,13 +1584,13 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.9593
+   "uptime": 0.9401
   },
   {
    "name": "TCG Paradise",
    "url": "https://tcgparadise.co.uk/",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -2132,13 +2152,13 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9976
+   "uptime": 0.9776
   },
   {
    "name": "TCGora",
    "url": "https://tcgora.com/",
    "skip": null,
-   "error": "HTTP Error 423: Locked",
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -2526,7 +2546,7 @@
    "name": "Pixel Hub",
    "url": "https://pixel-hub.co.uk/collections/pokemon",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -3349,13 +3369,13 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.9593
+   "uptime": 0.9401
   },
   {
    "name": "Poke Collect",
    "url": "https://poke-collect.com/",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -3431,7 +3451,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9976
+   "uptime": 0.9776
   },
   {
    "name": "Card Cavern",
@@ -3439,19 +3459,14 @@
    "skip": null,
    "error": null,
    "mode": "page",
-   "items": [
-    {
-     "title": "Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
-     "url": "https://cardcavern.co.uk/"
-    }
-   ],
+   "items": [],
    "uptime": 0.9976
   },
   {
    "name": "Dice Cup Cafe",
    "url": "https://dicecupcafe.co.uk/collections/pokemon",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -3563,13 +3578,13 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.9612
+   "uptime": 0.942
   },
   {
    "name": "The Card Vault",
    "url": "https://thecardvault.co.uk/collections/pokemon-new-releases",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -3744,13 +3759,13 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.9583
+   "uptime": 0.9391
   },
   {
    "name": "Iconic TCG",
    "url": "https://iconic-tcg.com/collections/pokemon",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -5041,13 +5056,13 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9583
+   "uptime": 0.9391
   },
   {
    "name": "Evolvault",
    "url": "https://evolvault.com/",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -5348,13 +5363,13 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9976
+   "uptime": 0.9776
   },
   {
    "name": "Hobby Addicts",
    "url": "https://www.hobby-addicts.com/collections/pokemon-tcg",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -6214,21 +6229,21 @@
     },
     {
      "title": "Pokemon: Scarlet & Violet Build & Battle Box",
-     "price": 26.99,
-     "available": false,
-     "url": "https://www.hobby-addicts.com/products/pokemon-scarlet-violet-build-battle-box",
-     "over_rrp": true,
-     "rrp": 19.99,
-     "cart": "https://www.hobby-addicts.com/cart/51666068275507:1"
-    },
-    {
-     "title": "Pokemon: Scarlet & Violet Build & Battle Box",
      "price": 24.99,
      "available": false,
      "url": "https://www.hobby-addicts.com/products/pokemon-scarlet-violet-build-battle-box-1",
      "over_rrp": true,
      "rrp": 19.99,
      "cart": "https://www.hobby-addicts.com/cart/44835975561523:1"
+    },
+    {
+     "title": "Pokemon: Scarlet & Violet Build & Battle Box",
+     "price": 26.99,
+     "available": false,
+     "url": "https://www.hobby-addicts.com/products/pokemon-scarlet-violet-build-battle-box",
+     "over_rrp": true,
+     "rrp": 19.99,
+     "cart": "https://www.hobby-addicts.com/cart/51666068275507:1"
     },
     {
      "title": "Pokemon: Scarlet & Violet Build & Battle Stadium",
@@ -6537,13 +6552,13 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9656
+   "uptime": 0.9463
   },
   {
    "name": "Hoodlums UK",
    "url": "https://hoodlumsuk.com/collections/pokemon",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -6943,13 +6958,13 @@
      "cart": "https://hoodlumsuk.com/cart/57569510621449:1"
     }
    ],
-   "uptime": 0.9592
+   "uptime": 0.94
   },
   {
    "name": "The TCG Shop",
    "url": "https://www.thetcgshop.co.uk/collections/pokemon",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -7214,13 +7229,13 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.9618
+   "uptime": 0.9426
   },
   {
    "name": "120HP",
    "url": "https://www.120hp.co.uk/collections/sealed-pokemon-trading-card-game-products",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -7917,13 +7932,13 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.9596
+   "uptime": 0.9404
   },
   {
    "name": "JET Cards",
    "url": "https://jetcards.uk/",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -7990,13 +8005,13 @@
      "cart": "https://jetcards.uk/cart/58903348871549:1"
     }
    ],
-   "uptime": 0.9976
+   "uptime": 0.9776
   },
   {
    "name": "Berry Brand Supply TCG",
    "url": "https://www.bbstcg.co.uk/",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -8063,13 +8078,13 @@
      "cart": "https://www.bbstcg.co.uk/cart/57169842471290:1"
     }
    ],
-   "uptime": 0.9976
+   "uptime": 0.9776
   },
   {
    "name": "Monster Card Corner",
    "url": "https://monstercardcorner.co.uk/collections/pokemon",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -9315,7 +9330,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.9583
+   "uptime": 0.9391
   },
   {
    "name": "Mystic Games",
@@ -9365,7 +9380,7 @@
    "name": "Japan2UK",
    "url": "https://www.japan2uk.com/",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -9567,7 +9582,7 @@
      "cart": "https://www.japan2uk.com/cart/63985005068665:1"
     }
    ],
-   "uptime": 0.9976
+   "uptime": 0.9776
   },
   {
    "name": "Asmodee UK",
@@ -9823,6 +9838,36 @@
   }
  ],
  "alerts": [
+  {
+   "time": "2026-11-20T12:55:38+00:00",
+   "site": "Magic Madhouse",
+   "text": "New on page: ME Flowing Fists 3 Pack Blister Wimpod",
+   "url": "https://magicmadhouse.co.uk/pokemon/pokemon-sealed-product?sort=newest"
+  },
+  {
+   "time": "2026-11-20T12:55:38+00:00",
+   "site": "Magic Madhouse",
+   "text": "New on page: ME Flowing Fists Booster Box",
+   "url": "https://magicmadhouse.co.uk/pokemon/pokemon-sealed-product?sort=newest"
+  },
+  {
+   "time": "2026-11-20T12:55:38+00:00",
+   "site": "Magic Madhouse",
+   "text": "New on page: ME Flowing Fists Elite Trainer Box - Mega Lucario Z",
+   "url": "https://magicmadhouse.co.uk/pokemon/pokemon-sealed-product?sort=newest"
+  },
+  {
+   "time": "2026-11-20T12:55:38+00:00",
+   "site": "Magic Madhouse",
+   "text": "New on page: ME Flowing Fists Premium Checklane Blister Bastiodon",
+   "url": "https://magicmadhouse.co.uk/pokemon/pokemon-sealed-product?sort=newest"
+  },
+  {
+   "time": "2026-11-20T12:55:38+00:00",
+   "site": "Magic Madhouse",
+   "text": "New on page: ME Flowing Fists Premium Checklane Blister Primarina",
+   "url": "https://magicmadhouse.co.uk/pokemon/pokemon-sealed-product?sort=newest"
+  },
   {
    "time": "2026-11-19T23:35:38+00:00",
    "site": "Iconic TCG",
@@ -10392,36 +10437,6 @@
    "site": "Chaos Cards",
    "text": "New on page: Pokemon Mega Evolution Delta Reign Elite Trainer Box",
    "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
-  },
-  {
-   "time": "2026-11-12T15:01:01+00:00",
-   "site": "Total Cards",
-   "text": "BACK IN STOCK: Pokemon - 30th Celebration - Mini Tin - Online Code Card \u00a30.79",
-   "url": "https://www.totalcards.net/cart/58965352120701:1"
-  },
-  {
-   "time": "2026-11-12T12:00:04+00:00",
-   "site": "Chaos Cards",
-   "text": "New on page: Pokemon Mega Evolution Pitch Black Booster Bundle",
-   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
-  },
-  {
-   "time": "2026-11-12T11:30:06+00:00",
-   "site": "Iconic TCG",
-   "text": "NEW: Pok\u00e9mon TCG: Mega Evolution: Delta Reign - Pok\u00e9mon Center Elite Trainer Box (Exclusive) \u00a3155.00 (over RRP)",
-   "url": "https://iconic-tcg.com/cart/59914532979020:1"
-  },
-  {
-   "time": "2026-11-12T11:15:44+00:00",
-   "site": "Chaos Cards",
-   "text": "New on page: Pokemon Mega Evolution Ascended Heroes - Elite Trainer Box",
-   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
-  },
-  {
-   "time": "2026-11-12T03:19:44+00:00",
-   "site": "Card Cavern",
-   "text": "New on page: Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)",
-   "url": "https://cardcavern.co.uk/"
   }
  ],
  "wishlist": [
@@ -10823,7 +10838,7 @@
    "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
    "found": "2026-11-06T10:01:20+00:00",
    "expected": "2026-09-16",
-   "date_checked": "2026-11-13T10:05:04+00:00"
+   "date_checked": "2026-11-20T12:55:38+00:00"
   },
   {
    "shop": "TCGora",
