@@ -7,24 +7,6 @@
     false,
     "https://www.120hp.co.uk/products/pokemon-tcg-crown-zenith-special-collection-pikachu-vmax"
    ],
-   "40071219183750": [
-    "Hidden Potential Tin (Gallade V) - Pok\u00e9mon TCG",
-    19.99,
-    false,
-    "https://www.120hp.co.uk/products/hidden-potential-tin-gallade-v-pokemon-tcg"
-   ],
-   "40071219249286": [
-    "Hidden Potential Tin (Rotom V) - Pok\u00e9mon TCG",
-    19.99,
-    false,
-    "https://www.120hp.co.uk/products/hidden-potential-tin-rotom-v-pokemon-tcg"
-   ],
-   "40071219413126": [
-    "Hidden Potential Tin (Giratina V) - Pok\u00e9mon TCG",
-    19.99,
-    false,
-    "https://www.120hp.co.uk/products/hidden-potential-tin-giratina-v-pokemon-tcg"
-   ],
    "40071230816390": [
     "Pok\u00e9mon TCG: Sword & Shield Ultra-Premium Collection (Charizard)",
     119.99,
@@ -87,20 +69,20 @@
    ],
    "56192173998455": [
     "Pok\u00e9mon TCG: Team Rocket Tin (Team Rocket's Mewtwo ex)",
-    27.99,
-    false,
+    49.95,
+    true,
     "https://www.120hp.co.uk/products/pokemon-tcg-team-rocket-tin-mewtwo"
    ],
    "56192174260599": [
     "Pok\u00e9mon TCG: Team Rocket Tin (Team Rocket's Persian ex)",
-    24.99,
-    false,
+    41.95,
+    true,
     "https://www.120hp.co.uk/products/pokemon-tcg-team-rocket-tin-persian"
    ],
    "56192176882039": [
     "Pok\u00e9mon TCG: Team Rocket Tin (Team Rocket's Nidoking ex)",
-    33.95,
-    false,
+    41.95,
+    true,
     "https://www.120hp.co.uk/products/pokemon-tcg-team-rocket-tin-nidoking"
    ],
    "56192244154743": [
@@ -333,7 +315,7 @@
    ],
    "57565242294647": [
     "Pok\u00e9mon TCG: 30th Celebration 2-Pack Blister (Eevee)",
-    19.95,
+    17.95,
     true,
     "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-2-pack-blister-eevee"
    ],
@@ -345,31 +327,31 @@
    ],
    "57565253501303": [
     "Pok\u00e9mon TCG: 30th Celebration Booster Bundle",
-    64.95,
+    54.95,
     true,
     "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-booster-bundle"
    ],
    "57565256548727": [
     "Pok\u00e9mon TCG: 30th Celebration Tin (Greninja ex)",
-    44.95,
+    37.95,
     true,
     "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-tin-greninja-ex"
    ],
    "57565259530615": [
     "Pok\u00e9mon TCG: 30th Celebration Tin (Sylveon ex)",
-    44.95,
+    37.95,
     true,
     "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-tin-sylveon-ex"
    ],
    "57565273129335": [
     "Pok\u00e9mon TCG: 30th Celebration Poster Collection Box",
-    39.95,
+    32.95,
     true,
     "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-poster-collection-box"
    ],
    "57565291446647": [
     "Pok\u00e9mon TCG: Ascended Heroes Elite Trainer Box (Default)",
-    149.95,
+    139.95,
     true,
     "https://www.120hp.co.uk/products/pokemon-tcg-ascended-heroes-elite-trainer-box"
    ],
@@ -382,31 +364,31 @@
    "57565294952823": [
     "Pok\u00e9mon TCG: 30th Celebration Mini Tin (Pikachu \u2013 Night)",
     19.95,
-    false,
+    true,
     "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-pikachu-night"
    ],
    "57565294985591": [
     "Pok\u00e9mon TCG: 30th Celebration Mini Tin (Mewtwo)",
     19.95,
-    false,
+    true,
     "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-mewtwo"
    ],
    "57565295018359": [
     "Pok\u00e9mon TCG: 30th Celebration Mini Tin (Umbreon)",
     19.95,
-    false,
+    true,
     "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-umbreon"
    ],
    "57565295051127": [
     "Pok\u00e9mon TCG: 30th Celebration Mini Tin (Zapdos)",
     19.95,
-    false,
+    true,
     "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-zapdos"
    ],
    "57565295083895": [
     "Pok\u00e9mon TCG: 30th Celebration Mini Tin (Moltres)",
     19.95,
-    false,
+    true,
     "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-moltres"
    ],
    "57565295116663": [
@@ -418,7 +400,7 @@
    "57565295149431": [
     "Pok\u00e9mon TCG: 30th Celebration Mini Tin (Mew)",
     19.95,
-    false,
+    true,
     "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-mew"
    ],
    "57565295182199": [
@@ -430,24 +412,24 @@
    "57565295214967": [
     "Pok\u00e9mon TCG: 30th Celebration Mini Tin (Espeon)",
     19.95,
-    false,
+    true,
     "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-espeon"
    ],
    "57597046522231": [
     "Pok\u00e9mon TCG: 30th Celebration Night Ultra-Premium Collection",
-    374.95,
-    true,
+    309.95,
+    false,
     "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-night-ultra-premium-collection"
    ],
    "57610117120375": [
     "Pok\u00e9mon TCG: 30th Celebration Day Ultra-Premium Collection",
-    0.0,
+    309.95,
     false,
     "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-day-ultra-premium-collection"
    ],
    "57717431763319": [
     "Pok\u00e9mon TCG: Delta Reign Elite Trainer Box",
-    74.95,
+    68.95,
     true,
     "https://www.120hp.co.uk/products/pokemon-tcg-delta-reign-elite-trainer-box"
    ],
@@ -462,6 +444,30 @@
     53.95,
     true,
     "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-figure-collection-mewtwo"
+   ],
+   "57771019993463": [
+    "Pok\u00e9mon TCG: Mega Forces Tin (Mega Dragonite ex)",
+    24.95,
+    true,
+    "https://www.120hp.co.uk/products/pokemon-tcg-mega-forces-tin-mega-dragonite-ex"
+   ],
+   "57771020026231": [
+    "Pok\u00e9mon TCG: Mega Forces Tin (Mega Darkrai ex)",
+    24.95,
+    true,
+    "https://www.120hp.co.uk/products/pokemon-tcg-mega-forces-tin-mega-darkrai-ex"
+   ],
+   "57771020058999": [
+    "Pok\u00e9mon TCG: Mega Forces Tin (Mega Zeraora ex)",
+    24.95,
+    true,
+    "https://www.120hp.co.uk/products/pokemon-tcg-mega-forces-tin-mega-zeraora-ex"
+   ],
+   "57771020091767": [
+    "Pok\u00e9mon TCG: 30th Celebration Ditto Premium Collection",
+    67.95,
+    true,
+    "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-ditto-premium-collection"
    ]
   },
   "mode": "shopify"
@@ -633,7 +639,9 @@
   "mode": "shopify"
  },
  "Card Cavern": {
-  "lines": [],
+  "lines": [
+   "Pokemon TCG: Sword and Shield Astral Radiance Booster Box (36 Packs)"
+  ],
   "mode": "page"
  },
  "CardDeckr": {
@@ -663,9 +671,6 @@
    "Pokemon Mega Evolution Flowing Fists Elite Trainer Box",
    "Pokemon Mega Evolution Flowing Fists Premium Checklane Blister Bastiodon",
    "Pokemon Mega Evolution Flowing Fists Premium Checklane Blister Primarina",
-   "Pokemon Mega Forces Mega Darkrai EX Gift Tin",
-   "Pokemon Mega Forces Mega Dragonite EX Gift Tin",
-   "Pokemon Mega Forces Mega Zeraora EX Gift Tin",
    "Pokemon Mega Rayquaza EX Premium Tournament Collection",
    "Pokemon Wonderful Waters Mini Tin Amaura",
    "Pokemon Wonderful Waters Mini Tin Dragonair",
@@ -1939,7 +1944,7 @@
    ],
    "56007068123401": [
     "Pok\u00e9mon TCG Prismatic Evolutions Super-Premium Collection",
-    375.0,
+    374.0,
     true,
     "https://hoodlumsuk.com/products/pokemon-scarlet-violet-prismatic-evolutions-super-premium-collection"
    ],
@@ -1963,7 +1968,7 @@
    ],
    "56241113825545": [
     "Pok\u00e9mon TCG Mega Evolution Booster Box (36 Packs)",
-    442.0,
+    441.0,
     false,
     "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-booster-box-36-pack"
    ],
@@ -1987,7 +1992,7 @@
    ],
    "56333423182089": [
     "Pok\u00e9mon TCG Prismatic Evolutions Premium Figure Collection",
-    295.0,
+    294.0,
     true,
     "https://hoodlumsuk.com/products/pokemon-tcg-prismatic-evolution-premium-figure-collection"
    ],
@@ -1999,7 +2004,7 @@
    ],
    "56389228626185": [
     "Pok\u00e9mon TCG Phantasmal Flames Booster Box (36 Packs)",
-    535.0,
+    534.0,
     false,
     "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-phantasmal-flames-booster-box-36-pack"
    ],
@@ -2029,7 +2034,7 @@
    ],
    "56859591278857": [
     "Pok\u00e9mon Center Ascended Heroes Elite Trainer Box",
-    468.0,
+    467.0,
     true,
     "https://hoodlumsuk.com/products/pokemon-centre-mega-evolution-ascended-heroes-elite-trainer-box"
    ],
@@ -2041,7 +2046,7 @@
    ],
    "56928582566153": [
     "Pok\u00e9mon TCG Perfect Order Booster Display Box (36 Packs)",
-    308.0,
+    307.0,
     true,
     "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-perfect-order-booster-display-box-36-packs"
    ],
@@ -2095,7 +2100,7 @@
    ],
    "57086170923273": [
     "Pok\u00e9mon TCG Chaos Rising Booster Display Box (36 Packs)",
-    335.0,
+    334.0,
     true,
     "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-chaos-rising-boosters-display-36"
    ],
@@ -2107,7 +2112,7 @@
    ],
    "57337486278921": [
     "Pok\u00e9mon TCG 30th Celebration Elite Trainer Box",
-    228.0,
+    227.0,
     true,
     "https://hoodlumsuk.com/products/pokemon-tcg-elite-trainer-box-30th-celebration"
    ],
@@ -2161,19 +2166,19 @@
    ],
    "57540079255817": [
     "POK\u00c9MON TCG: 30TH CELEBRATION ULTRA-PREMIUM COLLECTION \u2013 NIGHT (UMBREON EX)",
-    642.0,
+    641.0,
     true,
     "https://hoodlumsuk.com/products/pokemon-tcg-30th-celebration-ultra-premium-collection-night-umbreon-ex"
    ],
    "57540080664841": [
     "POK\u00c9MON TCG: 30TH CELEBRATION ULTRA-PREMIUM COLLECTION \u2013 DAY (ESPEON EX)",
-    642.0,
+    641.0,
     true,
     "https://hoodlumsuk.com/products/pokemon-tcg-30th-celebration-ultra-premium-collection-day-espeon-ex"
    ],
    "57569510621449": [
     "Pok\u00e9mon TCG: 30th Celebration Mini Tins Display (10-Pack)",
-    335.0,
+    334.0,
     true,
     "https://hoodlumsuk.com/products/pokemon-tcg-30th-celebration-mini-tins-display-10-pack"
    ]
@@ -2242,6 +2247,12 @@
     true,
     "https://iconic-tcg.com/products/pokemon-tcg-destined-rivals-3-pack-blister-zebstrika"
    ],
+   "58325736227148": [
+    "Pok\u00e9mon TCG: 30th Celebration - Tech Sticker Collection - Lucario",
+    30.0,
+    true,
+    "https://iconic-tcg.com/products/pokemon-tcg-30th-celebration-tech-sticker-lucario"
+   ],
    "58325740421452": [
     "Pok\u00e9mon TCG: Charizard ex Special Collection",
     50.0,
@@ -2290,12 +2301,6 @@
     true,
     "https://iconic-tcg.com/products/pokemon-tcg-surging-sparks-elite-trainer-box-pokemon-centre-edition"
    ],
-   "58325785575756": [
-    "Pok\u00e9mon TCG: 30th Celebration - Mini Tin - Pikachu (Day)",
-    10.99,
-    false,
-    "https://iconic-tcg.com/products/pokemon-tcg-30th-celebration-mini-tin-pikachu-day"
-   ],
    "58325785870668": [
     "Pok\u00e9mon TCG: 30th Celebration - Mini Tin - Umbreon",
     10.99,
@@ -2314,35 +2319,17 @@
     false,
     "https://iconic-tcg.com/products/pokemon-tcg-30th-celebration-tin-greninja-ex"
    ],
-   "58325786362188": [
-    "Pok\u00e9mon TCG: 30th Celebration - Tin - Sylveon ex",
-    21.99,
-    false,
-    "https://iconic-tcg.com/products/pokemon-tcg-30th-celebration-tin-sylveon-ex"
-   ],
    "58325786526028": [
     "Pok\u00e9mon TCG: Ascended Heroes - Mini Tin - Clefairy",
     20.0,
     false,
     "https://iconic-tcg.com/products/pokemon-ascended-heroes-mini-tin-clefairy"
    ],
-   "58325786853708": [
-    "Pok\u00e9mon TCG: Ascended Heroes - Mini Tin - Riolu",
-    20.0,
-    false,
-    "https://iconic-tcg.com/products/pokemon-ascended-heroes-mini-tin-riolu"
-   ],
    "58325787017548": [
     "Pok\u00e9mon TCG: Ascended Heroes - Mini Tin - Togepi",
     20.0,
     false,
     "https://iconic-tcg.com/products/pokemon-ascended-heroes-mini-tin-togepi"
-   ],
-   "58325787115852": [
-    "Pok\u00e9mon TCG: Ascended Heroes - Mini Tin - Zorua",
-    20.0,
-    false,
-    "https://iconic-tcg.com/products/pokemon-ascended-heroes-mini-tin-zorua"
    ],
    "58325787377996": [
     "Pok\u00e9mon TCG: Ascended Heroes - SEALED Mini Tin Case - 10 Tins",
@@ -3120,7 +3107,7 @@
    ],
    "55095076684120": [
     "Pok\u00e9mon TCG - Scarlet & Violet Destined Rivals Booster Box (36 Packs) + Acrylic Display Case Bundle",
-    405.0,
+    404.0,
     false,
     "https://monstercardcorner.co.uk/products/pokemon-scarlet-violet-destined-rivals-elite-trainer-box-copy"
    ],
@@ -3150,8 +3137,8 @@
    ],
    "55243804279128": [
     "Pok\u00e9mon TCG - Scarlet and Violet Prismatic Evolutions - Booster Bundle",
-    98.0,
-    false,
+    102.0,
+    true,
     "https://monstercardcorner.co.uk/products/scarlet-and-violet-prismatic-evolutions-booster-bundle"
    ],
    "55243851235672": [
@@ -3288,8 +3275,8 @@
    ],
    "55563665146200": [
     "Pok\u00e9mon TCG - Scarlet and Violet - Black Bolt & White Flare - Unova Poster Collection",
-    42.0,
-    false,
+    75.0,
+    true,
     "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-and-violet-black-bolt-white-flare-unova-poster-collection-copy"
    ],
    "55665375248728": [
@@ -3378,13 +3365,13 @@
    ],
    "56037175427416": [
     "Pok\u00e9mon TCG - Mega Evolution Phantasmal Flames Booster Box (36 Packs) + Acrylic Display Case Bundle",
-    270.0,
+    269.0,
     false,
     "https://monstercardcorner.co.uk/products/pokemon-tcg-mega-evolution-phantasmal-flames-booster-display-box-36-packs"
    ],
    "56038313034072": [
     "Pok\u00e9mon TCG - Scarlet and Violet Prismatic Evolutions - Premium Figure Collection (Damaged Corner)",
-    158.0,
+    157.0,
     false,
     "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-and-violet-prismatic-evolutions-premium-figure-collection-copy"
    ],
@@ -3396,7 +3383,7 @@
    ],
    "56119296098648": [
     "Pok\u00e9mon TCG - Scarlet and Violet Prismatic Evolutions - Premium Figure Collection",
-    170.0,
+    169.0,
     false,
     "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-and-violet-prismatic-evolutions-premium-figure-collection"
    ],
@@ -3492,13 +3479,13 @@
    ],
    "56300532695384": [
     "Pok\u00e9mon TCG - Scarlet & Violet Paradox Rift Booster Box (36 Packs) [Damaged Box]",
-    218.0,
+    217.0,
     false,
     "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-violet-paradox-rift-booster-box-36-packs-damaged-boxes"
    ],
    "56306137727320": [
     "Pok\u00e9mon TCG - Scarlet and Violet Prismatic Evolutions Super Premium Collection",
-    315.0,
+    314.0,
     false,
     "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-and-violet-prismatic-evolutions-super-premium-collection"
    ],
@@ -3576,7 +3563,7 @@
    ],
    "56683337089368": [
     "Pok\u00e9mon TCG - Scarlet and Violet Prismatic Evolutions Pokemon Center Elite Trainer Box",
-    442.0,
+    441.0,
     false,
     "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-and-violet-prismatic-evolutions-pokemon-center-elite-trainer-box"
    ],
@@ -3600,8 +3587,8 @@
    ],
    "56899648946520": [
     "Pokemon TCG - Chaos Rising - Booster Bundle (6 Packs)",
-    51.0,
-    false,
+    53.0,
+    true,
     "https://monstercardcorner.co.uk/products/pokemon-tcg-chaos-rising-booster-bundle-6-packs"
    ],
    "56959924011352": [
@@ -3636,8 +3623,8 @@
    ],
    "57308357853528": [
     "Pokemon TCG - Mega Evolution - Pitch Black - Booster Bundle",
-    53.0,
-    false,
+    57.0,
+    true,
     "https://monstercardcorner.co.uk/products/pokemon-tcg-pitch-black-booster-bundle-6-packs"
    ],
    "57308358017368": [
@@ -3714,8 +3701,8 @@
    ],
    "57962854515032": [
     "Pokemon TCG - 30th Celebration - 2-Pack Blister",
-    15.0,
-    false,
+    35.0,
+    true,
     "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-2-pack-blister"
    ],
    "57962860970328": [
@@ -3726,14 +3713,14 @@
    ],
    "57962861101400": [
     "Pokemon TCG - 30th Celebration - Premium Poster Collection - Legendary Birds",
-    30.0,
-    false,
+    45.0,
+    true,
     "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-premium-poster-collection"
    ],
    "57962861265240": [
     "Pokemon TCG - 30th Celebration - Booster Bundle",
-    41.0,
-    false,
+    90.0,
+    true,
     "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-booster-bundle-6-packs"
    ],
    "57962861429080": [
@@ -3810,13 +3797,13 @@
    ],
    "57962862739800": [
     "Pokemon TCG - 30th Celebration - Ultra-Premium Collection - Day (Pre-Order)",
-    270.0,
+    269.0,
     false,
     "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-ultra-premium-collection-day"
    ],
    "57962863067480": [
     "Pokemon TCG - 30th Celebration - Ultra-Premium Collection - Night (Pre-Order)",
-    270.0,
+    269.0,
     false,
     "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-ultra-premium-collection-night"
    ],
@@ -4040,7 +4027,7 @@
    ],
    "49812617494870": [
     "Pokemon TCG: Scarlet & Violet 9 \u2013 Journey Together - Elite Trainer Box (CASE OF 10)",
-    922.0,
+    921.0,
     false,
     "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-9-journey-together-etb-case"
    ],
@@ -4089,7 +4076,7 @@
    "50303554683222": [
     "Pok\u00e9mon TCG: Scarlet & Violet 8.5 - Prismatic Evolutions - Booster Bundle",
     137.0,
-    false,
+    true,
     "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-8-5-prismatic-evolutions-booster-bundle"
    ],
    "50320809034070": [
@@ -4220,7 +4207,7 @@
    ],
    "50715125154134": [
     "Pok\u00e9mon TCG: Scarlet & Violet-Prismatic Evolutions Pok\u00e9mon Center Elite Trainer Box",
-    400.0,
+    399.0,
     false,
     "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-prismatic-evolutions-pokemon-center-elite-trainer-box"
    ],
@@ -4250,7 +4237,7 @@
    ],
    "51399547650390": [
     "Pok\u00e9mon TCG: Scarlet & Violet 3.5: 151 \u2013 Full Booster Bundle Display",
-    3071.0,
+    3069.0,
     false,
     "https://pixel-hub.co.uk/products/pokemon-tcg-scarlet-violet-3-5-151-full-booster-bundle-display"
    ],
@@ -4280,19 +4267,19 @@
    ],
    "51573165293910": [
     "Pokemon - Destined Rivals - Booster Box Case (6 Booster Boxes)",
-    3839.0,
+    3837.0,
     false,
     "https://pixel-hub.co.uk/products/pokemon-destined-rivals-booster-box-case-6-booster-boxes"
    ],
    "51573169848662": [
     "Pok\u00e9mon TCG - Journey Together SV09 Booster Box (36 Packs) - SEALED CASE OF 6",
-    1689.0,
+    1688.0,
     false,
     "https://pixel-hub.co.uk/products/pokemon-tcg-journey-together-sv09-booster-box-36-packs-sealed-case-of-6"
    ],
    "51573178696022": [
     "Pok\u00e9mon - Prismatic Evolutions Booster Bundle Master Case (60 bundles)",
-    9212.0,
+    9207.0,
     false,
     "https://pixel-hub.co.uk/products/pokemon-prismatic-evolutions-booster-bundle-master-case-60-bundles"
    ],
@@ -4382,7 +4369,7 @@
    ],
    "51971556311382": [
     "Pok\u00e9mon TCG: Mega Evolution-Ascended Heroes Booster Bundle (6 Packs)",
-    133.0,
+    132.0,
     true,
     "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolution-ascended-heroes-booster-bundle-6-packs"
    ],
@@ -4430,7 +4417,7 @@
    ],
    "52431330869590": [
     "Pok\u00e9mon TCG: Team Rocket's Moltres ex Ultra-Premium Collection",
-    308.0,
+    307.0,
     false,
     "https://pixel-hub.co.uk/products/pokemon-tcg-team-rockets-moltres-ex-ultra-premium-collection"
    ],
@@ -4443,7 +4430,7 @@
    "52909781320022": [
     "Pok\u00e9mon TCG: Mega Evolution Perfect Order -  Elite Trainer Box",
     123.0,
-    false,
+    true,
     "https://pixel-hub.co.uk/products/pokemon-perfect-order-elite-trainer-box"
    ],
    "52909781746006": [
@@ -4466,7 +4453,7 @@
    ],
    "53661978919254": [
     "Pok\u00e9mon TCG: Mega Evolution Chaos Rising - Booster Box Display CDU (36)",
-    308.0,
+    307.0,
     true,
     "https://pixel-hub.co.uk/products/pokemon-tcg-mega-evolution-chaos-rising-boosters-display-cdu-36"
    ],
@@ -4520,7 +4507,7 @@
    ],
    "54402327576918": [
     "Pok\u00e9mon Mega Greninja ex Premium Collection \u2014 Sealed 6-Box Case",
-    463.0,
+    462.0,
     false,
     "https://pixel-hub.co.uk/products/pokemon-mega-greninja-ex-premium-collection-sealed-6-box-case"
    ],
@@ -4532,7 +4519,7 @@
    ],
    "54924565348694": [
     "Pokemon First Partner Illustration Collection Series 3 6-Box Sealed Case",
-    354.0,
+    353.0,
     false,
     "https://pixel-hub.co.uk/products/pokemon-first-partner-illustration-collection-series-3-6-box-sealed-case"
    ],
@@ -4622,13 +4609,13 @@
    "58184960409783": [
     "Mega Evolution: Flowing Fists Elite Trainer Box (Pre-Order)",
     99.95,
-    true,
+    false,
     "https://poke-collect.com/products/mega-evolution-flowing-fists-elite-trainer-box"
    ],
    "58184964079799": [
     "Mega Evolution: Flowing Fists Booster Bundle (Pre-Order)",
     42.95,
-    true,
+    false,
     "https://poke-collect.com/products/mega-evolution-flowing-fists-booster-bundle"
    ],
    "58185236938935": [
@@ -5378,6 +5365,12 @@
     false,
     "https://thecardvault.co.uk/products/pokemon-tcg-mega-evolution-perfect-order-elite-trainer-box"
    ],
+   "49738114105582": [
+    "Pokemon TCG - Mega Forces Tin (Assorted)",
+    21.95,
+    false,
+    "https://thecardvault.co.uk/products/pokemon-tcg-mega-forces-tin-assorted"
+   ],
    "49738114138350": [
     "Pokemon TCG - Mega Evolution - Delta Reign - Elite Trainer Box",
     50.0,
@@ -5389,6 +5382,12 @@
     25.0,
     false,
     "https://thecardvault.co.uk/products/pokemon-tcg-mega-evolution-delta-reign-booster-bundle"
+   ],
+   "49738114597102": [
+    "Pokemon TCG - Mega Evolution - Delta Reign - 3-Pack Blister",
+    13.95,
+    false,
+    "https://thecardvault.co.uk/products/pokemon-tcg-mega-evolution-delta-reign-3-pack-blister"
    ],
    "49738120986862": [
     "Pokemon TCG - Mega Evolution - Delta Reign - Booster Box (36x Packs)",
@@ -5403,19 +5402,19 @@
   "items": {
    "54939289190779": [
     "Pokemon Scarlet & Violet Journey Together Booster Box",
-    226.66,
+    226.67,
     false,
     "https://thedicedungeon.co.uk/products/pokemon-scarlet-violet-journey-together-booster-box"
    ],
    "55275989172603": [
     "Pokemon Scarlet & Violet Surging Sparks Booster Box",
-    366.9,
+    366.91,
     false,
     "https://thedicedungeon.co.uk/products/pokemon-scarlet-violet-surging-sparks-booster-box"
    ],
    "55839999361403": [
     "Pokemon Mega Evolution Booster Box",
-    226.66,
+    226.67,
     false,
     "https://thedicedungeon.co.uk/products/pokemon-mega-evolution-booster-box"
    ],
@@ -5451,7 +5450,7 @@
    ],
    "55906040873339": [
     "Pokemon Mega Evolution: Phantasmal Flames Booster Box",
-    226.66,
+    226.67,
     false,
     "https://thedicedungeon.co.uk/products/pokemon-mega-evolution-phantasmal-flames-booster-box"
    ],
@@ -5475,7 +5474,7 @@
    ],
    "55954810143099": [
     "Pokemon TCG: Terapagos ex Ultra Premium Collection",
-    154.09,
+    154.1,
     false,
     "https://thedicedungeon.co.uk/products/terapagos-ex-ultra-premium-collection"
    ],
@@ -5487,7 +5486,7 @@
    ],
    "56022881010043": [
     "Pokemon TCG: Team Rocket's Moltres ex Ultra-Premium Collection (Retail Exclusive)",
-    183.44,
+    183.45,
     false,
     "https://thedicedungeon.co.uk/products/pokemon-tcg-team-rockets-moltres-ex-ultra-premium-collection-retail-exclusive"
    ],
@@ -5547,7 +5546,7 @@
    ],
    "56155034124667": [
     "Pokemon TCG: Mega Evolution Ascended Heroes - First Partners Deluxe Pin Collection",
-    73.38,
+    73.39,
     false,
     "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-ascended-heroes-first-partners-deluxe-pin-collection"
    ],
@@ -5565,7 +5564,7 @@
    ],
    "56166599491963": [
     "Pokemon TCG: Mega Evolution - Perfect Order Booster Box",
-    226.66,
+    226.67,
     false,
     "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-perfect-order-booster-box"
    ],
@@ -5577,7 +5576,7 @@
    ],
    "56263061012859": [
     "Pokemon TCG: Mega Evolution - Chaos Rising Booster Box",
-    960.49,
+    960.52,
     false,
     "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-chaos-rising-booster-box"
    ],
@@ -5589,7 +5588,7 @@
    ],
    "56264962998651": [
     "Pokemon TCG: Mega Zygarde ex Premium Collection",
-    102.72,
+    102.73,
     false,
     "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-zygarde-ex-premium-collection"
    ],
@@ -5607,13 +5606,13 @@
    ],
    "56282351206779": [
     "Pokemon TCG: Mega Moonlit Tin",
-    766.1,
+    766.13,
     false,
     "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-moonlit-tins"
    ],
    "56283823604091": [
     "Pokemon TCG: Mega Zygarde ex Premium Collection + 2 Lumiose Mini Tin Bundle",
-    135.01,
+    135.02,
     false,
     "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-zygarde-ex-lumiose-mini-tin-bundle"
    ],
@@ -5631,13 +5630,13 @@
    ],
    "56321970078075": [
     "Pokemon TCG: Mega Greninja ex Premium Collection",
-    792.52,
+    792.55,
     false,
     "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-greninja-ex-premium-collection"
    ],
    "56339095978363": [
     "Pokemon TCG: Mega Evolution - Pitch Black Booster Box",
-    960.49,
+    960.52,
     false,
     "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-pitch-black-booster-box"
    ],
@@ -5685,7 +5684,7 @@
    ],
    "56387041886587": [
     "Pokemon TCG: 30th Celebration Poster Collection",
-    763.17,
+    763.2,
     false,
     "https://thedicedungeon.co.uk/products/pokemon-tcg-30th-celebration-poster-collection"
    ],
@@ -5703,7 +5702,7 @@
    ],
    "56559574450555": [
     "Pokemon TCG: Mega Evolution - Delta Reign Booster Box",
-    226.66,
+    226.67,
     false,
     "https://thedicedungeon.co.uk/products/pokemon-tcg-mega-evolution-delta-reign-booster-box"
    ],
@@ -5914,12 +5913,6 @@
  },
  "Total Cards": {
   "items": {
-   "59038026301821": [
-    "Pokemon - Mega Evolution - Pitch Black - Elite Trainer Box - Dice",
-    0.79,
-    true,
-    "https://www.totalcards.net/products/pokemon-mega-evolution-pitch-black-elite-trainer-box-dice"
-   ],
    "59065346785661": [
     "Pokemon - Mega Rayquaza ex - Premium Tournament Collection (Pre-Order)",
     0.0,
@@ -6009,6 +6002,18 @@
     0.0,
     false,
     "https://www.totalcards.net/products/pokemon-mega-evolution-flowing-fists-booster-bundle"
+   ],
+   "59145890922877": [
+    "Pokemon - Mega Evolution - Base Set - Elite Trainer Box - Lucario - (EMPTY)",
+    1.21,
+    false,
+    "https://www.totalcards.net/products/pokemon-mega-evolution-base-set-elite-trainer-box-lucario-empty"
+   ],
+   "59145907896701": [
+    "Pokemon - Scarlet & Violet - Temporal Forces - Elite Trainer Box - Walking Wake - (EMPTY)",
+    1.21,
+    false,
+    "https://www.totalcards.net/products/pokemon-scarlet-violet-temporal-forces-elite-trainer-box-walking-wake-empty"
    ]
   },
   "mode": "shopify"
@@ -6062,6 +6067,30 @@
     39.99,
     true,
     "https://zatu.com/products/pokemon-tcg-mega-moonlit-tin-mega-clefable"
+   ],
+   "56783220965754": [
+    "Pokemon TCG: Lumiose City - Mini Tin - Feraligatr",
+    13.99,
+    true,
+    "https://zatu.com/products/pokemon-tcg-lumiose-city-mini-tin-feraligatr"
+   ],
+   "56783221424506": [
+    "Pokemon TCG: Lumiose City - Mini Tin - Gallade",
+    13.99,
+    true,
+    "https://zatu.com/products/pokemon-tcg-lumiose-city-mini-tin-gallade"
+   ],
+   "56783221752186": [
+    "Pokemon TCG: Lumiose City - Mini Tin - Salamance",
+    13.99,
+    true,
+    "https://zatu.com/products/pokemon-tcg-lumiose-city-mini-tin-salamance"
+   ],
+   "56783221784954": [
+    "Pokemon TCG: Lumiose City - Mini Tin - Embroar",
+    13.99,
+    true,
+    "https://zatu.com/products/pokemon-tcg-lumiose-city-mini-tin-embroar"
    ],
    "56783225094522": [
     "Pokemon TCG: Mega Moonlit Tin - Mega Gengar",
@@ -6302,35 +6331,35 @@
  "_ping_fixed": "2026-11-03T18:16:58+00:00",
  "_reminded": [],
  "_uptime": {
-  "120HP": 0.6669,
-  "Berry Brand Supply TCG": 0.8763,
+  "120HP": 0.6736,
+  "Berry Brand Supply TCG": 0.8788,
   "Card Cavern": 0.9976,
   "CardDeckr": 1.0,
   "Chaos Cards": 1.0,
-  "Collectors Edge": 0.6983,
-  "Dice Cup Cafe": 0.6682,
-  "Double Sleeved": 0.668,
-  "Evolvault": 0.8763,
-  "Firestorm Games": 0.997,
-  "Hobby Addicts": 0.6711,
-  "Hokey Poke Games": 0.8763,
-  "Hoodlums UK": 0.6666,
-  "Iconic TCG": 0.6662,
-  "JET Cards": 0.8763,
-  "Japan2UK": 0.8763,
+  "Collectors Edge": 0.7043,
+  "Dice Cup Cafe": 0.6748,
+  "Double Sleeved": 0.6746,
+  "Evolvault": 0.8788,
+  "Firestorm Games": 0.9971,
+  "Hobby Addicts": 0.6777,
+  "Hokey Poke Games": 0.8788,
+  "Hoodlums UK": 0.6733,
+  "Iconic TCG": 0.6729,
+  "JET Cards": 0.8788,
+  "Japan2UK": 0.8788,
   "Magic Madhouse": 0.9976,
-  "Monster Card Corner": 0.6662,
+  "Monster Card Corner": 0.6729,
   "Mystic Games": 1.0,
-  "Packrat": 0.9949,
-  "Pixel Hub": 0.6843,
-  "Poke Collect": 0.8922,
-  "TCG Paradise": 0.8763,
+  "Packrat": 0.995,
+  "Pixel Hub": 0.6906,
+  "Poke Collect": 0.8944,
+  "TCG Paradise": 0.8788,
   "TCGora": 0.0024,
-  "The Card Vault": 0.6662,
-  "The Dice Dungeon": 0.8922,
-  "The TCG Shop": 0.6887,
-  "Titan Cards": 0.6666,
-  "Total Cards": 0.6667,
-  "Zatu Games": 0.6662
+  "The Card Vault": 0.6729,
+  "The Dice Dungeon": 0.8944,
+  "The TCG Shop": 0.6949,
+  "Titan Cards": 0.6733,
+  "Total Cards": 0.6734,
+  "Zatu Games": 0.6729
  }
 }
