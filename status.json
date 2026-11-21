@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T09:37:17+00:00",
+ "updated": "2026-11-21T16:27:23+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -110,7 +110,7 @@
    "error": null,
    "mode": "shopify",
    "items": [],
-   "uptime": 0.7782
+   "uptime": 0.7826
   },
   {
    "name": "Magic Madhouse",
@@ -173,6 +173,15 @@
    "error": null,
    "mode": "shopify",
    "items": [
+    {
+     "title": "Pokemon - 30th Celebration - Ditto Premium Collection - Acrylic Display Card Frame",
+     "price": 4.13,
+     "available": true,
+     "url": "https://www.totalcards.net/products/pokemon-30th-celebration-ditto-premium-collection-acrylic-display-card-frame",
+     "over_rrp": false,
+     "rrp": 39.99,
+     "cart": "https://www.totalcards.net/cart/59154248663421:1"
+    },
     {
      "title": "Pokemon - Mega Evolution - Base Set - Elite Trainer Box - Lucario - (EMPTY)",
      "price": 1.21,
@@ -327,7 +336,7 @@
      "cart": "https://www.totalcards.net/cart/59125327888765:1"
     }
    ],
-   "uptime": 0.7772
+   "uptime": 0.7817
   },
   {
    "name": "Firestorm Games",
@@ -625,7 +634,7 @@
      "cart": "https://zatu.com/cart/56945082040698:1"
     }
    ],
-   "uptime": 0.777
+   "uptime": 0.7815
   },
   {
    "name": "Hokey Poke Games",
@@ -707,7 +716,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54634059956571:1"
     }
    ],
-   "uptime": 0.9174
+   "uptime": 0.9191
   },
   {
    "name": "Collectors Edge",
@@ -861,7 +870,7 @@
      "cart": "https://collectorsedge.co.uk/cart/55813699207507:1"
     }
    ],
-   "uptime": 0.7985
+   "uptime": 0.8025
   },
   {
    "name": "The Dice Dungeon",
@@ -1348,7 +1357,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9281
+   "uptime": 0.9295
   },
   {
    "name": "Packrat",
@@ -1602,7 +1611,7 @@
      "url": "https://packratt.co.uk/pokemon"
     }
    ],
-   "uptime": 0.9969
+   "uptime": 0.997
   },
   {
    "name": "Titan Cards",
@@ -1621,7 +1630,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.7771
+   "uptime": 0.7816
   },
   {
    "name": "TCG Paradise",
@@ -1640,6 +1649,15 @@
      "cart": "https://tcgparadise.co.uk/cart/56721281548633:1"
     },
     {
+     "title": "Pokemon TCG: 30th Celebration 2 Pack Combo Elite Trainer Box and Booster Bundle",
+     "price": 199.99,
+     "available": true,
+     "url": "https://tcgparadise.co.uk/products/pokemon-tcg-30th-celebration-2-pack-combo-elite-trainer-box-and-booster-bundle",
+     "over_rrp": true,
+     "rrp": 24.99,
+     "cart": "https://tcgparadise.co.uk/cart/60632765628761:1"
+    },
+    {
      "title": "Pokemon TCG: 30th Celebration Booster Bundle",
      "price": 74.99,
      "available": true,
@@ -1650,7 +1668,7 @@
     },
     {
      "title": "Pokemon TCG: 30th Celebration Elite Trainer Box",
-     "price": 119.99,
+     "price": 124.99,
      "available": true,
      "url": "https://tcgparadise.co.uk/products/pokemon-tcg-30th-celebration-elite-trainer-box",
      "over_rrp": true,
@@ -1992,7 +2010,7 @@
     },
     {
      "title": "Pokemon TCG: Pitch Black Booster Box",
-     "price": 179.99,
+     "price": 189.99,
      "available": true,
      "url": "https://tcgparadise.co.uk/products/pokemon-tcg-pitch-black-booster-box",
      "over_rrp": true,
@@ -2189,7 +2207,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9174
+   "uptime": 0.9191
   },
   {
    "name": "TCGora",
@@ -3406,7 +3424,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.7896
+   "uptime": 0.7938
   },
   {
    "name": "Poke Collect",
@@ -3533,7 +3551,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9281
+   "uptime": 0.9295
   },
   {
    "name": "Card Cavern",
@@ -3665,7 +3683,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.7783
+   "uptime": 0.7827
   },
   {
    "name": "The Card Vault",
@@ -3864,7 +3882,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.777
+   "uptime": 0.7815
   },
   {
    "name": "Iconic TCG",
@@ -4164,7 +4182,7 @@
     {
      "title": "Pok\u00e9mon TCG: Chaos Rising - Elite Trainer Box",
      "price": 80.0,
-     "available": true,
+     "available": false,
      "url": "https://iconic-tcg.com/products/pokemon-tcg-chaos-rising-elite-trainer-box",
      "over_rrp": true,
      "rrp": 49.99,
@@ -4326,7 +4344,7 @@
     {
      "title": "Pok\u00e9mon TCG: Fusion Strike - Elite Trainer Box",
      "price": 280.0,
-     "available": true,
+     "available": false,
      "url": "https://iconic-tcg.com/products/pokemon-tcg-fusion-strike-elite-trainer-box",
      "over_rrp": true,
      "rrp": 49.99,
@@ -5134,7 +5152,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.777
+   "uptime": 0.7815
   },
   {
    "name": "Evolvault",
@@ -5441,7 +5459,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9174
+   "uptime": 0.9191
   },
   {
    "name": "Hobby Addicts",
@@ -6630,7 +6648,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.7807
+   "uptime": 0.7851
   },
   {
    "name": "Hoodlums UK",
@@ -7036,7 +7054,7 @@
      "cart": "https://hoodlumsuk.com/cart/57569510621449:1"
     }
    ],
-   "uptime": 0.7771
+   "uptime": 0.7816
   },
   {
    "name": "The TCG Shop",
@@ -7307,7 +7325,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.7921
+   "uptime": 0.7963
   },
   {
    "name": "120HP",
@@ -7400,7 +7418,7 @@
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Ditto Premium Collection",
      "price": 67.95,
-     "available": true,
+     "available": false,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-ditto-premium-collection",
      "over_rrp": true,
      "rrp": 39.99,
@@ -7508,7 +7526,7 @@
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Mini Tin (Umbreon)",
      "price": 19.95,
-     "available": true,
+     "available": false,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-umbreon",
      "over_rrp": false,
      "rrp": null,
@@ -8019,7 +8037,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.7774
+   "uptime": 0.7819
   },
   {
    "name": "JET Cards",
@@ -8083,7 +8101,7 @@
      "cart": "https://jetcards.uk/cart/58943300075901:1"
     }
    ],
-   "uptime": 0.9174
+   "uptime": 0.9191
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -8156,7 +8174,7 @@
      "cart": "https://www.bbstcg.co.uk/cart/57169842471290:1"
     }
    ],
-   "uptime": 0.9174
+   "uptime": 0.9191
   },
   {
    "name": "Monster Card Corner",
@@ -9408,7 +9426,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.777
+   "uptime": 0.7815
   },
   {
    "name": "Mystic Games",
@@ -9461,7 +9479,7 @@
    "error": null,
    "mode": "shopify",
    "items": [],
-   "uptime": 0.9174
+   "uptime": 0.9191
   },
   {
    "name": "Asmodee UK",
@@ -9717,6 +9735,18 @@
   }
  ],
  "alerts": [
+  {
+   "time": "2026-11-21T16:27:23+00:00",
+   "site": "Total Cards",
+   "text": "NEW: Pokemon - 30th Celebration - Ditto Premium Collection - Acrylic Display Card Frame \u00a34.13",
+   "url": "https://www.totalcards.net/cart/59154248663421:1"
+  },
+  {
+   "time": "2026-11-21T16:27:23+00:00",
+   "site": "TCG Paradise",
+   "text": "NEW: Pokemon TCG: 30th Celebration 2 Pack Combo Elite Trainer Box and Booster Bundle \u00a3199.99 (over RRP)",
+   "url": "https://tcgparadise.co.uk/cart/60632765628761:1"
+  },
   {
    "time": "2026-11-21T01:49:58+00:00",
    "site": "Zatu Games",
@@ -10304,18 +10334,6 @@
    "site": "Iconic TCG",
    "text": "NEW: Pok\u00e9mon TCG: Pitch Black - SEALED Booster Bundle Case (25 Bundles) \u00a3950.00 (over RRP)",
    "url": "https://iconic-tcg.com/cart/59988320321868:1"
-  },
-  {
-   "time": "2026-11-17T20:03:12+00:00",
-   "site": "Iconic TCG",
-   "text": "NEW: Pok\u00e9mon TCG: Perfect Order - SEALED Booster Box Case (6 Booster Boxes) \u00a31150.00 (over RRP)",
-   "url": "https://iconic-tcg.com/cart/59988275265868:1"
-  },
-  {
-   "time": "2026-11-17T20:03:12+00:00",
-   "site": "Iconic TCG",
-   "text": "NEW: Pok\u00e9mon TCG: Prismatic Evolutions - Mini Tin (Various) \u00a328.00",
-   "url": "https://iconic-tcg.com/cart/59985094607180:1"
   }
  ],
  "wishlist": [
