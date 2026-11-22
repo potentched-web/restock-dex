@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T17:02:26+00:00",
+ "updated": "2026-11-22T17:07:27+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -126,7 +126,7 @@
    "error": null,
    "mode": "shopify",
    "items": [],
-   "uptime": 0.9106
+   "uptime": 0.9124
   },
   {
    "name": "Magic Madhouse",
@@ -365,7 +365,7 @@
      "cart": "https://www.totalcards.net/cart/59125327888765:1"
     }
    ],
-   "uptime": 0.9102
+   "uptime": 0.912
   },
   {
    "name": "Firestorm Games",
@@ -663,7 +663,7 @@
      "cart": "https://zatu.com/cart/56945082040698:1"
     }
    ],
-   "uptime": 0.9101
+   "uptime": 0.9119
   },
   {
    "name": "Hokey Poke Games",
@@ -745,7 +745,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54634059956571:1"
     }
    ],
-   "uptime": 0.9667
+   "uptime": 0.9674
   },
   {
    "name": "Collectors Edge",
@@ -899,7 +899,7 @@
      "cart": "https://collectorsedge.co.uk/cart/55813699207507:1"
     }
    ],
-   "uptime": 0.9188
+   "uptime": 0.9204
   },
   {
    "name": "The Dice Dungeon",
@@ -1359,15 +1359,6 @@
      "cart": "https://thedicedungeon.co.uk/cart/56022881010043:1"
     },
     {
-     "title": "Pokemon TCG: Terapagos ex Ultra Premium Collection",
-     "price": 154.1,
-     "available": false,
-     "url": "https://thedicedungeon.co.uk/products/terapagos-ex-ultra-premium-collection",
-     "over_rrp": false,
-     "rrp": 169.99,
-     "cart": "https://thedicedungeon.co.uk/cart/55954810143099:1"
-    },
-    {
      "title": "Pok\u00e9mon TCG: Mega Evolution - 3-pack Blister",
      "price": 20.53,
      "available": false,
@@ -1384,9 +1375,27 @@
      "over_rrp": false,
      "rrp": null,
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Ultra Premium Collection - Day 30th Celebration",
+     "price": 249.5,
+     "available": false,
+     "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-ultra-premium-collection-day-30th-celebration",
+     "over_rrp": true,
+     "rrp": 169.99,
+     "cart": "https://thedicedungeon.co.uk/cart/56594270191995:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Ultra Premium Collection - Night 30th Celebration",
+     "price": 249.5,
+     "available": false,
+     "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-ultra-premium-collection-night-30th-celebration",
+     "over_rrp": true,
+     "rrp": 169.99,
+     "cart": "https://thedicedungeon.co.uk/cart/56594268324219:1"
     }
    ],
-   "uptime": 0.9711
+   "uptime": 0.9717
   },
   {
    "name": "Packrat",
@@ -1659,7 +1668,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.9101
+   "uptime": 0.9119
   },
   {
    "name": "TCG Paradise",
@@ -2236,7 +2245,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9667
+   "uptime": 0.9674
   },
   {
    "name": "TCGora",
@@ -3453,7 +3462,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.9152
+   "uptime": 0.9169
   },
   {
    "name": "Poke Collect",
@@ -3580,7 +3589,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9711
+   "uptime": 0.9717
   },
   {
    "name": "Card Cavern",
@@ -3712,7 +3721,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.9107
+   "uptime": 0.9125
   },
   {
    "name": "The Card Vault",
@@ -3911,7 +3920,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.9101
+   "uptime": 0.9119
   },
   {
    "name": "Iconic TCG",
@@ -5181,7 +5190,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9101
+   "uptime": 0.9119
   },
   {
    "name": "Evolvault",
@@ -5479,7 +5488,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9667
+   "uptime": 0.9674
   },
   {
    "name": "Hobby Addicts",
@@ -6668,7 +6677,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9116
+   "uptime": 0.9134
   },
   {
    "name": "Hoodlums UK",
@@ -7074,7 +7083,7 @@
      "cart": "https://hoodlumsuk.com/cart/57569510621449:1"
     }
    ],
-   "uptime": 0.9101
+   "uptime": 0.9119
   },
   {
    "name": "The TCG Shop",
@@ -7345,7 +7354,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.9163
+   "uptime": 0.918
   },
   {
    "name": "120HP",
@@ -8057,7 +8066,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.9103
+   "uptime": 0.9121
   },
   {
    "name": "JET Cards",
@@ -8121,7 +8130,7 @@
      "cart": "https://jetcards.uk/cart/58943300075901:1"
     }
    ],
-   "uptime": 0.9667
+   "uptime": 0.9674
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -8194,7 +8203,7 @@
      "cart": "https://www.bbstcg.co.uk/cart/57169842471290:1"
     }
    ],
-   "uptime": 0.9667
+   "uptime": 0.9674
   },
   {
    "name": "Monster Card Corner",
@@ -9446,7 +9455,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.9101
+   "uptime": 0.9119
   },
   {
    "name": "Mystic Games",
@@ -9499,7 +9508,7 @@
    "error": null,
    "mode": "shopify",
    "items": [],
-   "uptime": 0.9667
+   "uptime": 0.9674
   },
   {
    "name": "Asmodee UK",
