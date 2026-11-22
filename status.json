@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T09:34:27+00:00",
+ "updated": "2026-11-22T16:42:29+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -29,11 +29,23 @@
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
+     "title": "Pokemon Lumiose City Mini Tins Gallade",
+     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+    },
+    {
+     "title": "Pokemon Mega Evolution Ascended Heroes - Elite Trainer Box",
+     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+    },
+    {
      "title": "Pokemon Mega Evolution Ascended Heroes - Mini Tin Clefairy",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
      "title": "Pokemon Mega Evolution Ascended Heroes - Mini Tin Pikachu",
+     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+    },
+    {
+     "title": "Pokemon Mega Evolution Ascended Heroes - Mini Tin Riolu",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
@@ -77,6 +89,10 @@
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
     {
+     "title": "Pokemon Mega Evolution Perfect Order Booster Box (36 Packs)",
+     "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+    },
+    {
      "title": "Pokemon Mega Rayquaza EX Premium Tournament Collection",
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     },
@@ -110,7 +126,7 @@
    "error": null,
    "mode": "shopify",
    "items": [],
-   "uptime": 0.9011
+   "uptime": 0.9031
   },
   {
    "name": "Magic Madhouse",
@@ -153,6 +169,10 @@
     },
     {
      "title": "Pokemon Gifting Bundle - 30th Celebration Tin Sylveon ex & 3-pack Tournament Folio (Series 1) & Pikachu & Mimikyu Deck Protectors (65)",
+     "url": "https://magicmadhouse.co.uk/pokemon/pokemon-sealed-product?sort=newest"
+    },
+    {
+     "title": "Pokemon Stacking Tin - Random (Psychic, Dragon, or Metal)",
      "url": "https://magicmadhouse.co.uk/pokemon/pokemon-sealed-product?sort=newest"
     },
     {
@@ -345,7 +365,7 @@
      "cart": "https://www.totalcards.net/cart/59125327888765:1"
     }
    ],
-   "uptime": 0.9007
+   "uptime": 0.9027
   },
   {
    "name": "Firestorm Games",
@@ -643,7 +663,7 @@
      "cart": "https://zatu.com/cart/56945082040698:1"
     }
    ],
-   "uptime": 0.9006
+   "uptime": 0.9026
   },
   {
    "name": "Hokey Poke Games",
@@ -725,7 +745,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54634059956571:1"
     }
    ],
-   "uptime": 0.9632
+   "uptime": 0.9639
   },
   {
    "name": "Collectors Edge",
@@ -879,7 +899,7 @@
      "cart": "https://collectorsedge.co.uk/cart/55813699207507:1"
     }
    ],
-   "uptime": 0.9101
+   "uptime": 0.9119
   },
   {
    "name": "The Dice Dungeon",
@@ -1366,7 +1386,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/55954832818555:1"
     }
    ],
-   "uptime": 0.9681
+   "uptime": 0.9687
   },
   {
    "name": "Packrat",
@@ -1639,7 +1659,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.9006
+   "uptime": 0.9026
   },
   {
    "name": "TCG Paradise",
@@ -2216,7 +2236,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9632
+   "uptime": 0.9639
   },
   {
    "name": "TCGora",
@@ -3433,7 +3453,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.9062
+   "uptime": 0.9081
   },
   {
    "name": "Poke Collect",
@@ -3560,7 +3580,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9681
+   "uptime": 0.9687
   },
   {
    "name": "Card Cavern",
@@ -3692,7 +3712,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.9012
+   "uptime": 0.9032
   },
   {
    "name": "The Card Vault",
@@ -3891,7 +3911,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.9006
+   "uptime": 0.9026
   },
   {
    "name": "Iconic TCG",
@@ -5161,7 +5181,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9006
+   "uptime": 0.9026
   },
   {
    "name": "Evolvault",
@@ -5459,7 +5479,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9632
+   "uptime": 0.9639
   },
   {
    "name": "Hobby Addicts",
@@ -6648,7 +6668,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9022
+   "uptime": 0.9042
   },
   {
    "name": "Hoodlums UK",
@@ -7054,7 +7074,7 @@
      "cart": "https://hoodlumsuk.com/cart/57569510621449:1"
     }
    ],
-   "uptime": 0.9006
+   "uptime": 0.9026
   },
   {
    "name": "The TCG Shop",
@@ -7325,7 +7345,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.9074
+   "uptime": 0.9093
   },
   {
    "name": "120HP",
@@ -8037,7 +8057,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.9008
+   "uptime": 0.9028
   },
   {
    "name": "JET Cards",
@@ -8101,7 +8121,7 @@
      "cart": "https://jetcards.uk/cart/58943300075901:1"
     }
    ],
-   "uptime": 0.9632
+   "uptime": 0.9639
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -8174,7 +8194,7 @@
      "cart": "https://www.bbstcg.co.uk/cart/57169842471290:1"
     }
    ],
-   "uptime": 0.9632
+   "uptime": 0.9639
   },
   {
    "name": "Monster Card Corner",
@@ -8221,7 +8241,7 @@
     },
     {
      "title": "Pokemon TCG - 30th Celebration - Booster Bundle",
-     "price": 90.0,
+     "price": 95.0,
      "available": true,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-booster-bundle-6-packs",
      "over_rrp": true,
@@ -8374,7 +8394,7 @@
     },
     {
      "title": "Pokemon TCG - 30th Celebration - Premium Poster Collection - Legendary Birds",
-     "price": 45.0,
+     "price": 48.0,
      "available": true,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-premium-poster-collection",
      "over_rrp": false,
@@ -8500,8 +8520,8 @@
     },
     {
      "title": "Pokemon TCG - Ascended Heroes - Premium Poster Collection - Mega Gardevoir EX",
-     "price": 180.0,
-     "available": false,
+     "price": 187.0,
+     "available": true,
      "url": "https://monstercardcorner.co.uk/products/pokemon-ascended-heroes-premium-poster-gardevoir",
      "over_rrp": false,
      "rrp": null,
@@ -8537,7 +8557,7 @@
     {
      "title": "Pokemon TCG - Chaos Rising - Booster Bundle (6 Packs)",
      "price": 53.0,
-     "available": true,
+     "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-chaos-rising-booster-bundle-6-packs",
      "over_rrp": true,
      "rrp": 24.99,
@@ -9426,7 +9446,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.9006
+   "uptime": 0.9026
   },
   {
    "name": "Mystic Games",
@@ -9479,7 +9499,7 @@
    "error": null,
    "mode": "shopify",
    "items": [],
-   "uptime": 0.9632
+   "uptime": 0.9639
   },
   {
    "name": "Asmodee UK",
@@ -9735,6 +9755,42 @@
   }
  ],
  "alerts": [
+  {
+   "time": "2026-11-22T16:42:29+00:00",
+   "site": "Chaos Cards",
+   "text": "New on page: Pokemon Lumiose City Mini Tins Gallade",
+   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+  },
+  {
+   "time": "2026-11-22T16:42:29+00:00",
+   "site": "Chaos Cards",
+   "text": "New on page: Pokemon Mega Evolution Ascended Heroes - Elite Trainer Box",
+   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+  },
+  {
+   "time": "2026-11-22T16:42:29+00:00",
+   "site": "Chaos Cards",
+   "text": "New on page: Pokemon Mega Evolution Ascended Heroes - Mini Tin Riolu",
+   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+  },
+  {
+   "time": "2026-11-22T16:42:29+00:00",
+   "site": "Chaos Cards",
+   "text": "New on page: Pokemon Mega Evolution Perfect Order Booster Box (36 Packs)",
+   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
+  },
+  {
+   "time": "2026-11-22T16:42:29+00:00",
+   "site": "Magic Madhouse",
+   "text": "New on page: Pokemon Stacking Tin - Random (Psychic, Dragon, or Metal)",
+   "url": "https://magicmadhouse.co.uk/pokemon/pokemon-sealed-product?sort=newest"
+  },
+  {
+   "time": "2026-11-22T16:42:29+00:00",
+   "site": "Monster Card Corner",
+   "text": "BACK IN STOCK: Pokemon TCG - Ascended Heroes - Premium Poster Collection - Mega Gardevoir EX \u00a3187.00",
+   "url": "https://monstercardcorner.co.uk/cart/56297255600472:1"
+  },
   {
    "time": "2026-11-21T21:47:05+00:00",
    "site": "Total Cards",
@@ -10298,42 +10354,6 @@
    "site": "Zatu Games",
    "text": "NEW: Pokemon TCG: 30th Celebration - Mini Tin - Espeon \u00a329.99",
    "url": "https://zatu.com/cart/57248471417210:1"
-  },
-  {
-   "time": "2026-11-17T20:03:12+00:00",
-   "site": "Zatu Games",
-   "text": "NEW: Pokemon TCG: 30th Celebration - Mini Tin - Mewtwo \u00a329.99",
-   "url": "https://zatu.com/cart/57248471253370:1"
-  },
-  {
-   "time": "2026-11-17T20:03:12+00:00",
-   "site": "Zatu Games",
-   "text": "NEW: Pokemon TCG: 30th Celebration - Mini Tin - Moltres \u00a329.99",
-   "url": "https://zatu.com/cart/57248470991226:1"
-  },
-  {
-   "time": "2026-11-17T20:03:12+00:00",
-   "site": "Zatu Games",
-   "text": "NEW: Pokemon TCG: 30th Celebration - Mini Tin - Lapras \u00a329.99",
-   "url": "https://zatu.com/cart/57248471515514:1"
-  },
-  {
-   "time": "2026-11-17T20:03:12+00:00",
-   "site": "Zatu Games",
-   "text": "NEW: Pokemon TCG: 30th Celebration - Mini Tin - Umbreon \u00a329.99",
-   "url": "https://zatu.com/cart/57248471220602:1"
-  },
-  {
-   "time": "2026-11-17T20:03:12+00:00",
-   "site": "Zatu Games",
-   "text": "NEW: Pokemon TCG: 30th Celebration - Mini Tin - Greninja \u00a329.99",
-   "url": "https://zatu.com/cart/57248471056762:1"
-  },
-  {
-   "time": "2026-11-17T20:03:12+00:00",
-   "site": "Zatu Games",
-   "text": "NEW: Pokemon TCG: 30th Celebration - Mini Tin - Zapdos \u00a329.99",
-   "url": "https://zatu.com/cart/57248471286138:1"
   }
  ],
  "wishlist": [
@@ -10757,7 +10777,7 @@
    "note": "Spotted in the shop's listings. Open it to check how to enter and when it closes.",
    "found": "2026-11-08T14:41:48+00:00",
    "expected": "2027-02-12",
-   "date_checked": "2026-11-15T14:45:06+00:00"
+   "date_checked": "2026-11-22T16:42:29+00:00"
   },
   {
    "shop": "Chaos Cards",
