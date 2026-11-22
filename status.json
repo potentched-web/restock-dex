@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T22:28:16+00:00",
+ "updated": "2026-11-22T22:33:16+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -118,7 +118,7 @@
    "error": null,
    "mode": "shopify",
    "items": [],
-   "uptime": 0.9285
+   "uptime": 0.9299
   },
   {
    "name": "Magic Madhouse",
@@ -357,7 +357,7 @@
      "cart": "https://www.totalcards.net/cart/59125327888765:1"
     }
    ],
-   "uptime": 0.9282
+   "uptime": 0.9296
   },
   {
    "name": "Firestorm Games",
@@ -655,7 +655,7 @@
      "cart": "https://zatu.com/cart/56945082040698:1"
     }
    ],
-   "uptime": 0.9281
+   "uptime": 0.9295
   },
   {
    "name": "Hokey Poke Games",
@@ -737,7 +737,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54634059956571:1"
     }
    ],
-   "uptime": 0.9734
+   "uptime": 0.9739
   },
   {
    "name": "Collectors Edge",
@@ -891,7 +891,7 @@
      "cart": "https://collectorsedge.co.uk/cart/55813699207507:1"
     }
    ],
-   "uptime": 0.935
+   "uptime": 0.9363
   },
   {
    "name": "The Dice Dungeon",
@@ -1387,7 +1387,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/56594268324219:1"
     }
    ],
-   "uptime": 0.9769
+   "uptime": 0.9774
   },
   {
    "name": "Packrat",
@@ -1660,7 +1660,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.9281
+   "uptime": 0.9295
   },
   {
    "name": "TCG Paradise",
@@ -2237,7 +2237,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9734
+   "uptime": 0.9739
   },
   {
    "name": "TCGora",
@@ -3454,7 +3454,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.9321
+   "uptime": 0.9335
   },
   {
    "name": "Poke Collect",
@@ -3581,7 +3581,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9769
+   "uptime": 0.9774
   },
   {
    "name": "Card Cavern",
@@ -3713,7 +3713,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.9286
+   "uptime": 0.93
   },
   {
    "name": "The Card Vault",
@@ -3912,7 +3912,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.9281
+   "uptime": 0.9295
   },
   {
    "name": "Iconic TCG",
@@ -5182,7 +5182,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9281
+   "uptime": 0.9295
   },
   {
    "name": "Evolvault",
@@ -5480,7 +5480,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9734
+   "uptime": 0.9739
   },
   {
    "name": "Hobby Addicts",
@@ -6669,7 +6669,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9292
+   "uptime": 0.9306
   },
   {
    "name": "Hoodlums UK",
@@ -7075,7 +7075,7 @@
      "cart": "https://hoodlumsuk.com/cart/57569510621449:1"
     }
    ],
-   "uptime": 0.9281
+   "uptime": 0.9295
   },
   {
    "name": "The TCG Shop",
@@ -7346,7 +7346,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.933
+   "uptime": 0.9343
   },
   {
    "name": "120HP",
@@ -8058,7 +8058,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.9283
+   "uptime": 0.9297
   },
   {
    "name": "JET Cards",
@@ -8122,7 +8122,7 @@
      "cart": "https://jetcards.uk/cart/58943300075901:1"
     }
    ],
-   "uptime": 0.9734
+   "uptime": 0.9739
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -8195,7 +8195,7 @@
      "cart": "https://www.bbstcg.co.uk/cart/57169842471290:1"
     }
    ],
-   "uptime": 0.9734
+   "uptime": 0.9739
   },
   {
    "name": "Monster Card Corner",
@@ -8602,8 +8602,8 @@
     },
     {
      "title": "Pokemon TCG - First Partner Illustration Collection - Series 3",
-     "price": 45.0,
-     "available": false,
+     "price": 50.0,
+     "available": true,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-first-partner-illustration-collection-series-3",
      "over_rrp": false,
      "rrp": null,
@@ -9465,7 +9465,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.9281
+   "uptime": 0.9295
   },
   {
    "name": "Mystic Games",
@@ -9518,7 +9518,7 @@
    "error": null,
    "mode": "shopify",
    "items": [],
-   "uptime": 0.9734
+   "uptime": 0.9739
   },
   {
    "name": "Asmodee UK",
@@ -9774,6 +9774,12 @@
   }
  ],
  "alerts": [
+  {
+   "time": "2026-11-22T22:33:16+00:00",
+   "site": "Monster Card Corner",
+   "text": "BACK IN STOCK: Pokemon TCG - First Partner Illustration Collection - Series 3 \u00a350.00",
+   "url": "https://monstercardcorner.co.uk/cart/58527117934936:1"
+  },
   {
    "time": "2026-11-22T22:03:19+00:00",
    "site": "Monster Card Corner",
@@ -10367,12 +10373,6 @@
    "site": "Chaos Cards",
    "text": "New on page: Pokemon First Partner Illustration Collection Series 1",
    "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
-  },
-  {
-   "time": "2026-11-17T20:03:12+00:00",
-   "site": "Zatu Games",
-   "text": "NEW: Pokemon TCG: 30th Celebration - Mini Tin - Vivillon \u00a329.99",
-   "url": "https://zatu.com/cart/57248471351674:1"
   }
  ],
  "wishlist": [
