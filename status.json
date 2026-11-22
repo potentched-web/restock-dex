@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T17:17:27+00:00",
+ "updated": "2026-11-22T17:22:26+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -126,7 +126,7 @@
    "error": null,
    "mode": "shopify",
    "items": [],
-   "uptime": 0.9159
+   "uptime": 0.9176
   },
   {
    "name": "Magic Madhouse",
@@ -365,7 +365,7 @@
      "cart": "https://www.totalcards.net/cart/59125327888765:1"
     }
    ],
-   "uptime": 0.9155
+   "uptime": 0.9172
   },
   {
    "name": "Firestorm Games",
@@ -663,7 +663,7 @@
      "cart": "https://zatu.com/cart/56945082040698:1"
     }
    ],
-   "uptime": 0.9154
+   "uptime": 0.9171
   },
   {
    "name": "Hokey Poke Games",
@@ -745,7 +745,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54634059956571:1"
     }
    ],
-   "uptime": 0.9687
+   "uptime": 0.9693
   },
   {
    "name": "Collectors Edge",
@@ -899,7 +899,7 @@
      "cart": "https://collectorsedge.co.uk/cart/55813699207507:1"
     }
    ],
-   "uptime": 0.9236
+   "uptime": 0.9251
   },
   {
    "name": "The Dice Dungeon",
@@ -1379,7 +1379,7 @@
     {
      "title": "Pok\u00e9mon TCG: Ultra Premium Collection - Day 30th Celebration",
      "price": 249.5,
-     "available": false,
+     "available": true,
      "url": "https://thedicedungeon.co.uk/products/pokemon-tcg-ultra-premium-collection-day-30th-celebration",
      "over_rrp": true,
      "rrp": 169.99,
@@ -1395,7 +1395,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/56594268324219:1"
     }
    ],
-   "uptime": 0.9729
+   "uptime": 0.9734
   },
   {
    "name": "Packrat",
@@ -1668,7 +1668,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.9154
+   "uptime": 0.9171
   },
   {
    "name": "TCG Paradise",
@@ -2245,7 +2245,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9687
+   "uptime": 0.9693
   },
   {
    "name": "TCGora",
@@ -3462,7 +3462,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.9202
+   "uptime": 0.9218
   },
   {
    "name": "Poke Collect",
@@ -3589,7 +3589,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9729
+   "uptime": 0.9734
   },
   {
    "name": "Card Cavern",
@@ -3721,7 +3721,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.916
+   "uptime": 0.9177
   },
   {
    "name": "The Card Vault",
@@ -3920,7 +3920,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.9154
+   "uptime": 0.9171
   },
   {
    "name": "Iconic TCG",
@@ -5190,7 +5190,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9154
+   "uptime": 0.9171
   },
   {
    "name": "Evolvault",
@@ -5488,7 +5488,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9687
+   "uptime": 0.9693
   },
   {
    "name": "Hobby Addicts",
@@ -6677,7 +6677,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9168
+   "uptime": 0.9185
   },
   {
    "name": "Hoodlums UK",
@@ -7083,7 +7083,7 @@
      "cart": "https://hoodlumsuk.com/cart/57569510621449:1"
     }
    ],
-   "uptime": 0.9154
+   "uptime": 0.9171
   },
   {
    "name": "The TCG Shop",
@@ -7354,7 +7354,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.9212
+   "uptime": 0.9228
   },
   {
    "name": "120HP",
@@ -8066,7 +8066,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.9156
+   "uptime": 0.9173
   },
   {
    "name": "JET Cards",
@@ -8130,7 +8130,7 @@
      "cart": "https://jetcards.uk/cart/58943300075901:1"
     }
    ],
-   "uptime": 0.9687
+   "uptime": 0.9693
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -8203,7 +8203,7 @@
      "cart": "https://www.bbstcg.co.uk/cart/57169842471290:1"
     }
    ],
-   "uptime": 0.9687
+   "uptime": 0.9693
   },
   {
    "name": "Monster Card Corner",
@@ -9455,7 +9455,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.9154
+   "uptime": 0.9171
   },
   {
    "name": "Mystic Games",
@@ -9508,7 +9508,7 @@
    "error": null,
    "mode": "shopify",
    "items": [],
-   "uptime": 0.9687
+   "uptime": 0.9693
   },
   {
    "name": "Asmodee UK",
@@ -9764,6 +9764,12 @@
   }
  ],
  "alerts": [
+  {
+   "time": "2026-11-22T17:22:26+00:00",
+   "site": "The Dice Dungeon",
+   "text": "BACK IN STOCK: Pok\u00e9mon TCG: Ultra Premium Collection - Day 30th Celebration \u00a3249.50 (over RRP)",
+   "url": "https://thedicedungeon.co.uk/cart/56594270191995:1"
+  },
   {
    "time": "2026-11-22T16:42:29+00:00",
    "site": "Chaos Cards",
@@ -10357,12 +10363,6 @@
    "site": "Zatu Games",
    "text": "NEW: Pokemon TCG: 30th Celebration - Mini Tin - Pikachu \u00a329.99",
    "url": "https://zatu.com/cart/57248471482746:1"
-  },
-  {
-   "time": "2026-11-17T20:03:12+00:00",
-   "site": "Zatu Games",
-   "text": "NEW: Pokemon TCG: 30th Celebration - Mini Tin - Espeon \u00a329.99",
-   "url": "https://zatu.com/cart/57248471417210:1"
   }
  ],
  "wishlist": [
