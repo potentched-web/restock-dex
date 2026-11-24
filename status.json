@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T18:17:26+00:00",
+ "updated": "2026-11-24T18:22:26+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -118,7 +118,7 @@
    "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [],
-   "uptime": 0.8774
+   "uptime": 0.8599
   },
   {
    "name": "Magic Madhouse",
@@ -345,7 +345,7 @@
      "cart": "https://www.totalcards.net/cart/59125327888765:1"
     }
    ],
-   "uptime": 0.8773
+   "uptime": 0.8598
   },
   {
    "name": "Firestorm Games",
@@ -634,7 +634,7 @@
      "cart": "https://zatu.com/cart/56945082040698:1"
     }
    ],
-   "uptime": 0.8965
+   "uptime": 0.8786
   },
   {
    "name": "Hokey Poke Games",
@@ -716,13 +716,13 @@
      "cart": "https://hokeypokegames.co.uk/cart/54634059956571:1"
     }
    ],
-   "uptime": 0.99
+   "uptime": 0.9902
   },
   {
    "name": "Collectors Edge",
    "url": "https://collectorsedge.co.uk/collections/pokemon",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -870,7 +870,7 @@
      "cart": "https://collectorsedge.co.uk/cart/55813699207507:1"
     }
    ],
-   "uptime": 0.8798
+   "uptime": 0.8822
   },
   {
    "name": "The Dice Dungeon",
@@ -1366,7 +1366,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/56594268324219:1"
     }
    ],
-   "uptime": 0.9914
+   "uptime": 0.9916
   },
   {
    "name": "Packrat",
@@ -1639,7 +1639,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.8773
+   "uptime": 0.8598
   },
   {
    "name": "TCG Paradise",
@@ -2225,7 +2225,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.99
+   "uptime": 0.9902
   },
   {
    "name": "TCGora",
@@ -3442,7 +3442,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.8788
+   "uptime": 0.8612
   },
   {
    "name": "Poke Collect",
@@ -3569,7 +3569,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9914
+   "uptime": 0.9916
   },
   {
    "name": "Card Cavern",
@@ -3696,7 +3696,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.8966
+   "uptime": 0.8787
   },
   {
    "name": "The Card Vault",
@@ -3895,7 +3895,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.8773
+   "uptime": 0.8598
   },
   {
    "name": "Iconic TCG",
@@ -5165,7 +5165,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.8773
+   "uptime": 0.8598
   },
   {
    "name": "Evolvault",
@@ -5463,7 +5463,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.99
+   "uptime": 0.9902
   },
   {
    "name": "Hobby Addicts",
@@ -6652,7 +6652,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.8776
+   "uptime": 0.86
   },
   {
    "name": "Hoodlums UK",
@@ -7058,7 +7058,7 @@
      "cart": "https://hoodlumsuk.com/cart/57569510621449:1"
     }
    ],
-   "uptime": 0.8773
+   "uptime": 0.8598
   },
   {
    "name": "The TCG Shop",
@@ -7329,7 +7329,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.8791
+   "uptime": 0.8615
   },
   {
    "name": "120HP",
@@ -8041,7 +8041,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.8773
+   "uptime": 0.8598
   },
   {
    "name": "JET Cards",
@@ -8141,7 +8141,7 @@
      "cart": "https://jetcards.uk/cart/59165679419773:1"
     }
    ],
-   "uptime": 0.99
+   "uptime": 0.9902
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -8214,13 +8214,13 @@
      "cart": "https://www.bbstcg.co.uk/cart/57169842471290:1"
     }
    ],
-   "uptime": 0.99
+   "uptime": 0.9902
   },
   {
    "name": "Monster Card Corner",
    "url": "https://monstercardcorner.co.uk/collections/pokemon",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -8243,7 +8243,7 @@
     },
     {
      "title": "Pokemon - SV09 Journey Together - Booster Bundle (6 Packs)",
-     "price": 67.0,
+     "price": 68.0,
      "available": true,
      "url": "https://monstercardcorner.co.uk/products/pokemon-sv09-journey-together-booster-bundle-6-packs",
      "over_rrp": true,
@@ -8261,7 +8261,7 @@
     },
     {
      "title": "Pokemon TCG - 30th Celebration - Booster Bundle",
-     "price": 94.0,
+     "price": 95.0,
      "available": true,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-booster-bundle-6-packs",
      "over_rrp": true,
@@ -8270,7 +8270,7 @@
     },
     {
      "title": "Pokemon TCG - 30th Celebration - Ditto Premium Collection (Pre-Order)",
-     "price": 67.0,
+     "price": 68.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-ditto-premium-collection",
      "over_rrp": true,
@@ -8405,7 +8405,7 @@
     },
     {
      "title": "Pokemon TCG - 30th Celebration - Mini Tin Case",
-     "price": 164.0,
+     "price": 165.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-case-10-tins",
      "over_rrp": false,
@@ -8459,7 +8459,7 @@
     },
     {
      "title": "Pokemon TCG - 30th Celebration - Ultra-Premium Collection - Day (Pre-Order)",
-     "price": 269.0,
+     "price": 270.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-ultra-premium-collection-day",
      "over_rrp": true,
@@ -8468,7 +8468,7 @@
     },
     {
      "title": "Pokemon TCG - 30th Celebration - Ultra-Premium Collection - Night (Pre-Order)",
-     "price": 269.0,
+     "price": 270.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-30th-celebration-ultra-premium-collection-night",
      "over_rrp": true,
@@ -8504,7 +8504,7 @@
     },
     {
      "title": "Pokemon TCG - Ascended Heroes - Elite Trainer Box",
-     "price": 127.0,
+     "price": 128.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-ascended-heroes-booster-etb",
      "over_rrp": true,
@@ -8558,7 +8558,7 @@
     },
     {
      "title": "Pokemon TCG - Ascended Heroes - Premium Poster Collection - Mega Gardevoir EX",
-     "price": 187.0,
+     "price": 188.0,
      "available": true,
      "url": "https://monstercardcorner.co.uk/products/pokemon-ascended-heroes-premium-poster-gardevoir",
      "over_rrp": false,
@@ -8567,7 +8567,7 @@
     },
     {
      "title": "Pokemon TCG - Ascended Heroes - Tin - Mega Emboar ex",
-     "price": 79.0,
+     "price": 78.0,
      "available": true,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-ascended-heroes-tin-mega-emboar-ex",
      "over_rrp": false,
@@ -8576,7 +8576,7 @@
     },
     {
      "title": "Pokemon TCG - Ascended Heroes - Tin - Mega Feraligatr ex",
-     "price": 79.0,
+     "price": 78.0,
      "available": true,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-ascended-heroes-tin-mega-feraligatr-ex",
      "over_rrp": false,
@@ -8585,7 +8585,7 @@
     },
     {
      "title": "Pokemon TCG - Ascended Heroes - Tin - Mega Meganium ex",
-     "price": 79.0,
+     "price": 78.0,
      "available": true,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-ascended-heroes-tin-mega-meganium-ex",
      "over_rrp": false,
@@ -8594,7 +8594,7 @@
     },
     {
      "title": "Pokemon TCG - Chaos Rising - Booster Bundle (6 Packs)",
-     "price": 53.0,
+     "price": 54.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-chaos-rising-booster-bundle-6-packs",
      "over_rrp": true,
@@ -8702,7 +8702,7 @@
     },
     {
      "title": "Pokemon TCG - Mega Evolution - Delta Reign - Booster Box (Pre-Order)",
-     "price": 231.0,
+     "price": 233.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-booster-box",
      "over_rrp": true,
@@ -8738,7 +8738,7 @@
     },
     {
      "title": "Pokemon TCG - Mega Evolution - Delta Reign - Elite Trainer Box (Pre-Order)",
-     "price": 82.0,
+     "price": 83.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-delta-reign-elite-trainer-box",
      "over_rrp": true,
@@ -8801,7 +8801,7 @@
     },
     {
      "title": "Pokemon TCG - Mega Evolution Elite Trainer Box - Mega Lucario",
-     "price": 97.0,
+     "price": 98.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-mega-evolution-elite-trainer-box-mega-lucario",
      "over_rrp": true,
@@ -8837,7 +8837,7 @@
     },
     {
      "title": "Pokemon TCG - Perfect Order - Elite Trainer Box",
-     "price": 82.0,
+     "price": 83.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-perfect-order-elite-trainer-box",
      "over_rrp": true,
@@ -8855,7 +8855,7 @@
     },
     {
      "title": "Pokemon TCG: Scarlet & Violet - 151 Blooming Waters Premium Collection",
-     "price": 291.0,
+     "price": 293.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-violet-151-blooming-waters-premium-collection",
      "over_rrp": false,
@@ -8864,7 +8864,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - 151 & Mega Heroes Mini Tin Bundle - Factory Sealed",
-     "price": 67.0,
+     "price": 68.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-151-mini-tin-bundle-factory-sealed",
      "over_rrp": false,
@@ -8909,7 +8909,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Mega Charizard X EX Ultra Premium Collection",
-     "price": 231.0,
+     "price": 233.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-mega-charizard-x-ex-ultra-premium-collection",
      "over_rrp": true,
@@ -8936,7 +8936,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Mega Evolution Booster Box (36 Packs) (Factory Sealed)",
-     "price": 321.0,
+     "price": 323.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-mega-evolution-booster-box-36-packs",
      "over_rrp": true,
@@ -8954,7 +8954,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Mega Evolution Phantasmal Flames Booster Box (36 Packs) + Acrylic Display Case Bundle",
-     "price": 269.0,
+     "price": 270.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-mega-evolution-phantasmal-flames-booster-display-box-36-packs",
      "over_rrp": true,
@@ -8981,7 +8981,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Mega Evolution Phantasmal Flames Pokemon Center Elite Trainer Box",
-     "price": 179.0,
+     "price": 180.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-mega-evolution-phantasmal-flames-pokemon-center-elite-trainer-box",
      "over_rrp": true,
@@ -9044,7 +9044,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Mega Venusaur ex Premium Collection Box",
-     "price": 67.0,
+     "price": 68.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-mega-venusaur-ex-premium-collection-box",
      "over_rrp": false,
@@ -9071,7 +9071,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Scarlet & Violet - Cyrus - Premium Tournament Collection Box",
-     "price": 67.0,
+     "price": 68.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-violet-cyrus-premium-tournament-collection-box",
      "over_rrp": false,
@@ -9080,7 +9080,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Scarlet & Violet - Klara - Premium Tournament Collection Box",
-     "price": 67.0,
+     "price": 68.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-violet-klara-premium-tournament-collection-box",
      "over_rrp": false,
@@ -9134,7 +9134,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Scarlet & Violet - Prismatic Evolutions - Mini Tin Bundle (Set of 8 Tins)",
-     "price": 179.0,
+     "price": 180.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-violet-prismatic-evolutions-mini-tin-bundle-set-of-8-tins",
      "over_rrp": false,
@@ -9170,7 +9170,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Scarlet & Violet Destined Rivals Booster Box (36 Packs) + Acrylic Display Case Bundle",
-     "price": 403.0,
+     "price": 405.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-scarlet-violet-destined-rivals-elite-trainer-box-copy",
      "over_rrp": true,
@@ -9197,7 +9197,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Scarlet & Violet Paradox Rift Booster Box (36 Packs) [Damaged Box]",
-     "price": 216.0,
+     "price": 218.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-violet-paradox-rift-booster-box-36-packs-damaged-boxes",
      "over_rrp": true,
@@ -9296,7 +9296,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Scarlet and Violet - White Flare - Elite Trainer Box",
-     "price": 94.0,
+     "price": 95.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/scarlet-and-violet-black-bolt-elite-trainer-box-copy",
      "over_rrp": true,
@@ -9323,7 +9323,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Scarlet and Violet - White Flare Pokemon Center - Elite Trainer Box",
-     "price": 149.0,
+     "price": 150.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-and-violet-white-flare-pokemon-center-elite-trainer-box",
      "over_rrp": true,
@@ -9332,7 +9332,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Scarlet and Violet Booster Box (36 Packs) + Acrylic Display Case Bundle",
-     "price": 261.0,
+     "price": 263.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-and-violet-booster-box-36-packs",
      "over_rrp": true,
@@ -9341,7 +9341,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Scarlet and Violet Journey Together Booster Box (36 Packs)",
-     "price": 246.0,
+     "price": 248.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/scarlet-and-violet-journey-together-booster-box",
      "over_rrp": true,
@@ -9377,7 +9377,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Scarlet and Violet Prismatic Evolutions - Premium Figure Collection",
-     "price": 169.0,
+     "price": 170.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-and-violet-prismatic-evolutions-premium-figure-collection",
      "over_rrp": true,
@@ -9386,7 +9386,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Scarlet and Violet Prismatic Evolutions - Premium Figure Collection (Damaged Corner)",
-     "price": 157.0,
+     "price": 158.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-and-violet-prismatic-evolutions-premium-figure-collection-copy",
      "over_rrp": true,
@@ -9395,7 +9395,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Scarlet and Violet Prismatic Evolutions Pokemon Center Elite Trainer Box",
-     "price": 440.0,
+     "price": 443.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-and-violet-prismatic-evolutions-pokemon-center-elite-trainer-box",
      "over_rrp": true,
@@ -9404,7 +9404,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Scarlet and Violet Prismatic Evolutions Super Premium Collection",
-     "price": 313.0,
+     "price": 315.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-and-violet-prismatic-evolutions-super-premium-collection",
      "over_rrp": false,
@@ -9413,7 +9413,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Scarlet and Violet Surging Sparks Booster Box",
-     "price": 276.0,
+     "price": 278.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-and-violet-surging-sparks-booster-box",
      "over_rrp": true,
@@ -9440,7 +9440,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Snorlax EX & Blissey EX Special Collection Box",
-     "price": 67.0,
+     "price": 68.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-snorlax-ex-blissey-ex-special-collection-box",
      "over_rrp": false,
@@ -9458,7 +9458,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG: Scarlet & Violet - 151 Booster Bundle (6 Booster Packs)",
-     "price": 209.0,
+     "price": 210.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-violet-151-booster-bundle-6-booster-packs",
      "over_rrp": true,
@@ -9484,7 +9484,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.8773
+   "uptime": 0.8798
   },
   {
    "name": "Mystic Games",
@@ -9537,7 +9537,7 @@
    "error": null,
    "mode": "shopify",
    "items": [],
-   "uptime": 0.99
+   "uptime": 0.9902
   },
   {
    "name": "Asmodee UK",
