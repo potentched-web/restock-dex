@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T18:27:26+00:00",
+ "updated": "2026-11-24T18:32:26+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -118,7 +118,7 @@
    "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [],
-   "uptime": 0.8427
+   "uptime": 0.8258
   },
   {
    "name": "Magic Madhouse",
@@ -170,7 +170,7 @@
    "name": "Total Cards",
    "url": "https://www.totalcards.net/collections/pokemon",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -210,7 +210,7 @@
      "cart": "https://www.totalcards.net/cart/59141123768701:1"
     },
     {
-     "title": "Pokemon - Mega Evolution - Flowing Fists - Booster Box (36 Boosters) (Pre-Order)",
+     "title": "Pokemon - Mega Evolution - Flowing Fists - Booster Box (36 Packs) (Pre-Order)",
      "price": 0.0,
      "available": false,
      "url": "https://www.totalcards.net/products/pokemon-mega-evolution-flowing-fists-booster-box-36-boosters",
@@ -345,7 +345,7 @@
      "cart": "https://www.totalcards.net/cart/59125327888765:1"
     }
    ],
-   "uptime": 0.8426
+   "uptime": 0.8457
   },
   {
    "name": "Firestorm Games",
@@ -369,7 +369,7 @@
    "name": "Zatu Games",
    "url": "https://zatu.com/collections/trading-card-games-pokemon-tcg",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -634,7 +634,7 @@
      "cart": "https://zatu.com/cart/56945082040698:1"
     }
    ],
-   "uptime": 0.861
+   "uptime": 0.8638
   },
   {
    "name": "Hokey Poke Games",
@@ -716,7 +716,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54634059956571:1"
     }
    ],
-   "uptime": 0.9904
+   "uptime": 0.9906
   },
   {
    "name": "Collectors Edge",
@@ -870,7 +870,7 @@
      "cart": "https://collectorsedge.co.uk/cart/55813699207507:1"
     }
    ],
-   "uptime": 0.8646
+   "uptime": 0.8473
   },
   {
    "name": "The Dice Dungeon",
@@ -1366,7 +1366,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/56594268324219:1"
     }
    ],
-   "uptime": 0.9918
+   "uptime": 0.992
   },
   {
    "name": "Packrat",
@@ -1639,7 +1639,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.8426
+   "uptime": 0.8257
   },
   {
    "name": "TCG Paradise",
@@ -1677,7 +1677,7 @@
     },
     {
      "title": "Pokemon TCG: 30th Celebration Elite Trainer Box",
-     "price": 124.99,
+     "price": 119.99,
      "available": true,
      "url": "https://tcgparadise.co.uk/products/pokemon-tcg-30th-celebration-elite-trainer-box",
      "over_rrp": true,
@@ -2225,7 +2225,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9904
+   "uptime": 0.9906
   },
   {
    "name": "TCGora",
@@ -3442,7 +3442,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.844
+   "uptime": 0.8271
   },
   {
    "name": "Poke Collect",
@@ -3569,7 +3569,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9918
+   "uptime": 0.992
   },
   {
    "name": "Card Cavern",
@@ -3584,7 +3584,7 @@
    "name": "Dice Cup Cafe",
    "url": "https://dicecupcafe.co.uk/collections/pokemon",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -3696,7 +3696,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.8811
+   "uptime": 0.8635
   },
   {
    "name": "The Card Vault",
@@ -3895,13 +3895,13 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.8426
+   "uptime": 0.8257
   },
   {
    "name": "Iconic TCG",
    "url": "https://iconic-tcg.com/collections/pokemon",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -5165,7 +5165,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.8626
+   "uptime": 0.8453
   },
   {
    "name": "Evolvault",
@@ -5463,7 +5463,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9904
+   "uptime": 0.9906
   },
   {
    "name": "Hobby Addicts",
@@ -6652,13 +6652,13 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.8428
+   "uptime": 0.8259
   },
   {
    "name": "Hoodlums UK",
    "url": "https://hoodlumsuk.com/collections/pokemon",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -7058,7 +7058,7 @@
      "cart": "https://hoodlumsuk.com/cart/57569510621449:1"
     }
    ],
-   "uptime": 0.8626
+   "uptime": 0.8453
   },
   {
    "name": "The TCG Shop",
@@ -7329,7 +7329,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.8443
+   "uptime": 0.8274
   },
   {
    "name": "120HP",
@@ -8041,7 +8041,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.8426
+   "uptime": 0.8257
   },
   {
    "name": "JET Cards",
@@ -8141,7 +8141,7 @@
      "cart": "https://jetcards.uk/cart/59165679419773:1"
     }
    ],
-   "uptime": 0.9904
+   "uptime": 0.9906
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -8214,7 +8214,7 @@
      "cart": "https://www.bbstcg.co.uk/cart/57169842471290:1"
     }
    ],
-   "uptime": 0.9904
+   "uptime": 0.9906
   },
   {
    "name": "Monster Card Corner",
@@ -9484,7 +9484,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.8622
+   "uptime": 0.845
   },
   {
    "name": "Mystic Games",
@@ -9537,7 +9537,7 @@
    "error": null,
    "mode": "shopify",
    "items": [],
-   "uptime": 0.9904
+   "uptime": 0.9906
   },
   {
    "name": "Asmodee UK",
