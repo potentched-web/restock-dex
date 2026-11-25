@@ -315,7 +315,7 @@
    ],
    "57565242294647": [
     "Pok\u00e9mon TCG: 30th Celebration 2-Pack Blister (Eevee)",
-    17.95,
+    16.95,
     true,
     "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-2-pack-blister-eevee"
    ],
@@ -327,7 +327,7 @@
    ],
    "57565253501303": [
     "Pok\u00e9mon TCG: 30th Celebration Booster Bundle",
-    54.95,
+    51.95,
     true,
     "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-booster-bundle"
    ],
@@ -465,7 +465,7 @@
    ],
    "57771020091767": [
     "Pok\u00e9mon TCG: 30th Celebration Ditto Premium Collection",
-    67.95,
+    69.95,
     false,
     "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-ditto-premium-collection"
    ]
@@ -3136,7 +3136,7 @@
    "55243804279128": [
     "Pok\u00e9mon TCG - Scarlet and Violet Prismatic Evolutions - Booster Bundle",
     102.0,
-    true,
+    false,
     "https://monstercardcorner.co.uk/products/scarlet-and-violet-prismatic-evolutions-booster-bundle"
    ],
    "55243851235672": [
@@ -6366,35 +6366,35 @@
  "_ping_fixed": "2026-11-03T18:16:58+00:00",
  "_reminded": [],
  "_uptime": {
-  "120HP": 0.8799,
-  "Berry Brand Supply TCG": 0.994,
+  "120HP": 0.8823,
+  "Berry Brand Supply TCG": 0.9941,
   "Card Cavern": 0.9976,
   "CardDeckr": 1.0,
-  "Chaos Cards": 0.7848,
-  "Collectors Edge": 0.8936,
-  "Dice Cup Cafe": 0.8905,
-  "Double Sleeved": 0.8673,
-  "Evolvault": 0.994,
+  "Chaos Cards": 0.7691,
+  "Collectors Edge": 0.8957,
+  "Dice Cup Cafe": 0.8927,
+  "Double Sleeved": 0.87,
+  "Evolvault": 0.9941,
   "Firestorm Games": 0.9976,
-  "Hobby Addicts": 0.8674,
-  "Hokey Poke Games": 0.994,
-  "Hoodlums UK": 0.8794,
-  "Iconic TCG": 0.8794,
-  "JET Cards": 0.994,
-  "Japan2UK": 0.994,
+  "Hobby Addicts": 0.8701,
+  "Hokey Poke Games": 0.9941,
+  "Hoodlums UK": 0.8818,
+  "Iconic TCG": 0.8818,
+  "JET Cards": 0.9941,
+  "Japan2UK": 0.9941,
   "Magic Madhouse": 0.9976,
-  "Monster Card Corner": 0.8917,
+  "Monster Card Corner": 0.8939,
   "Mystic Games": 1.0,
   "Packrat": 0.9976,
-  "Pixel Hub": 0.8682,
-  "Poke Collect": 0.9947,
-  "TCG Paradise": 0.994,
+  "Pixel Hub": 0.8708,
+  "Poke Collect": 0.9948,
+  "TCG Paradise": 0.9941,
   "TCGora": 0.0024,
-  "The Card Vault": 0.8673,
-  "The Dice Dungeon": 0.9947,
-  "The TCG Shop": 0.8684,
-  "Titan Cards": 0.8673,
-  "Total Cards": 0.892,
-  "Zatu Games": 0.9036
+  "The Card Vault": 0.87,
+  "The Dice Dungeon": 0.9948,
+  "The TCG Shop": 0.871,
+  "Titan Cards": 0.87,
+  "Total Cards": 0.8942,
+  "Zatu Games": 0.9055
  }
 }
