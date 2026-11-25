@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T01:59:06+00:00",
+ "updated": "2026-11-25T02:04:06+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -114,7 +114,7 @@
    "error": null,
    "mode": "shopify",
    "items": [],
-   "uptime": 0.8013
+   "uptime": 0.8053
   },
   {
    "name": "Magic Madhouse",
@@ -341,7 +341,7 @@
      "cart": "https://www.totalcards.net/cart/59125327888765:1"
     }
    ],
-   "uptime": 0.8385
+   "uptime": 0.8417
   },
   {
    "name": "Firestorm Games",
@@ -630,7 +630,7 @@
      "cart": "https://zatu.com/cart/56945082040698:1"
     }
    ],
-   "uptime": 0.8555
+   "uptime": 0.8584
   },
   {
    "name": "Hokey Poke Games",
@@ -712,7 +712,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54634059956571:1"
     }
    ],
-   "uptime": 0.9914
+   "uptime": 0.9916
   },
   {
    "name": "Collectors Edge",
@@ -866,7 +866,7 @@
      "cart": "https://collectorsedge.co.uk/cart/55813699207507:1"
     }
    ],
-   "uptime": 0.8404
+   "uptime": 0.8436
   },
   {
    "name": "The Dice Dungeon",
@@ -1362,7 +1362,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/56594268324219:1"
     }
    ],
-   "uptime": 0.9927
+   "uptime": 0.9928
   },
   {
    "name": "Packrat",
@@ -1635,7 +1635,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.8012
+   "uptime": 0.8052
   },
   {
    "name": "TCG Paradise",
@@ -2221,7 +2221,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9914
+   "uptime": 0.9916
   },
   {
    "name": "TCGora",
@@ -3438,7 +3438,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.8025
+   "uptime": 0.8065
   },
   {
    "name": "Poke Collect",
@@ -3565,7 +3565,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.9927
+   "uptime": 0.9928
   },
   {
    "name": "Card Cavern",
@@ -3692,7 +3692,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.836
+   "uptime": 0.8393
   },
   {
    "name": "The Card Vault",
@@ -3891,7 +3891,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.8012
+   "uptime": 0.8052
   },
   {
    "name": "Iconic TCG",
@@ -5161,7 +5161,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.8193
+   "uptime": 0.8229
   },
   {
    "name": "Evolvault",
@@ -5459,7 +5459,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9914
+   "uptime": 0.9916
   },
   {
    "name": "Hobby Addicts",
@@ -6648,7 +6648,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.8014
+   "uptime": 0.8054
   },
   {
    "name": "Hoodlums UK",
@@ -7054,7 +7054,7 @@
      "cart": "https://hoodlumsuk.com/cart/57569510621449:1"
     }
    ],
-   "uptime": 0.8193
+   "uptime": 0.8229
   },
   {
    "name": "The TCG Shop",
@@ -7325,7 +7325,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.8028
+   "uptime": 0.8067
   },
   {
    "name": "120HP",
@@ -8037,7 +8037,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.82
+   "uptime": 0.8236
   },
   {
    "name": "JET Cards",
@@ -8137,7 +8137,7 @@
      "cart": "https://jetcards.uk/cart/59165679419773:1"
     }
    ],
-   "uptime": 0.9914
+   "uptime": 0.9916
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -8210,7 +8210,7 @@
      "cart": "https://www.bbstcg.co.uk/cart/57169842471290:1"
     }
    ],
-   "uptime": 0.9914
+   "uptime": 0.9916
   },
   {
    "name": "Monster Card Corner",
@@ -8851,7 +8851,7 @@
     },
     {
      "title": "Pokemon TCG: Scarlet & Violet - 151 Blooming Waters Premium Collection",
-     "price": 293.0,
+     "price": 292.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-violet-151-blooming-waters-premium-collection",
      "over_rrp": false,
@@ -8932,7 +8932,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Mega Evolution Booster Box (36 Packs) (Factory Sealed)",
-     "price": 323.0,
+     "price": 322.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-mega-evolution-booster-box-36-packs",
      "over_rrp": true,
@@ -9409,7 +9409,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG - Scarlet and Violet Surging Sparks Booster Box",
-     "price": 278.0,
+     "price": 277.0,
      "available": false,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-scarlet-and-violet-surging-sparks-booster-box",
      "over_rrp": true,
@@ -9480,7 +9480,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.8378
+   "uptime": 0.841
   },
   {
    "name": "Mystic Games",
@@ -9533,7 +9533,7 @@
    "error": null,
    "mode": "shopify",
    "items": [],
-   "uptime": 0.9914
+   "uptime": 0.9916
   },
   {
    "name": "Asmodee UK",
