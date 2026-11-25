@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T10:58:51+00:00",
+ "updated": "2026-11-25T11:03:51+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -105,7 +105,7 @@
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     }
    ],
-   "uptime": 0.904
+   "uptime": 0.8859
   },
   {
    "name": "Double Sleeved",
@@ -114,7 +114,7 @@
    "error": null,
    "mode": "shopify",
    "items": [],
-   "uptime": 0.8471
+   "uptime": 0.8502
   },
   {
    "name": "Magic Madhouse",
@@ -341,7 +341,7 @@
      "cart": "https://www.totalcards.net/cart/59125327888765:1"
     }
    ],
-   "uptime": 0.8757
+   "uptime": 0.8782
   },
   {
    "name": "Firestorm Games",
@@ -630,7 +630,7 @@
      "cart": "https://zatu.com/cart/56945082040698:1"
     }
    ],
-   "uptime": 0.889
+   "uptime": 0.8912
   },
   {
    "name": "Hokey Poke Games",
@@ -712,7 +712,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54634059956571:1"
     }
    ],
-   "uptime": 0.9933
+   "uptime": 0.9934
   },
   {
    "name": "Collectors Edge",
@@ -866,7 +866,7 @@
      "cart": "https://collectorsedge.co.uk/cart/55813699207507:1"
     }
    ],
-   "uptime": 0.8773
+   "uptime": 0.8798
   },
   {
    "name": "The Dice Dungeon",
@@ -1362,7 +1362,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/56594268324219:1"
     }
    ],
-   "uptime": 0.994
+   "uptime": 0.9941
   },
   {
    "name": "Packrat",
@@ -1635,7 +1635,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.8471
+   "uptime": 0.8502
   },
   {
    "name": "TCG Paradise",
@@ -2221,7 +2221,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9933
+   "uptime": 0.9934
   },
   {
    "name": "TCGora",
@@ -3438,7 +3438,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.8482
+   "uptime": 0.8512
   },
   {
    "name": "Poke Collect",
@@ -3565,7 +3565,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.994
+   "uptime": 0.9941
   },
   {
    "name": "Card Cavern",
@@ -3697,7 +3697,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.8739
+   "uptime": 0.8764
   },
   {
    "name": "The Card Vault",
@@ -3896,7 +3896,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.8471
+   "uptime": 0.8502
   },
   {
    "name": "Iconic TCG",
@@ -5166,7 +5166,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.861
+   "uptime": 0.8638
   },
   {
    "name": "Evolvault",
@@ -5464,7 +5464,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9933
+   "uptime": 0.9934
   },
   {
    "name": "Hobby Addicts",
@@ -6653,7 +6653,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.8472
+   "uptime": 0.8503
   },
   {
    "name": "Hoodlums UK",
@@ -7059,7 +7059,7 @@
      "cart": "https://hoodlumsuk.com/cart/57569510621449:1"
     }
    ],
-   "uptime": 0.861
+   "uptime": 0.8638
   },
   {
    "name": "The TCG Shop",
@@ -7330,7 +7330,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.8484
+   "uptime": 0.8514
   },
   {
    "name": "120HP",
@@ -8042,7 +8042,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.8616
+   "uptime": 0.8644
   },
   {
    "name": "JET Cards",
@@ -8160,7 +8160,7 @@
      "cart": "https://jetcards.uk/cart/59165679419773:1"
     }
    ],
-   "uptime": 0.9933
+   "uptime": 0.9934
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -8233,7 +8233,7 @@
      "cart": "https://www.bbstcg.co.uk/cart/57169842471290:1"
     }
    ],
-   "uptime": 0.9933
+   "uptime": 0.9934
   },
   {
    "name": "Monster Card Corner",
@@ -8650,7 +8650,7 @@
     {
      "title": "Pokemon TCG - Lumiose City Mini Tin - Emboar and Inkay",
      "price": 20.0,
-     "available": false,
+     "available": true,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-lumiose-city-mini-tin-emboar-and-inkay",
      "over_rrp": false,
      "rrp": null,
@@ -8659,7 +8659,7 @@
     {
      "title": "Pokemon TCG - Lumiose City Mini Tin - Feraligatr and Budew",
      "price": 20.0,
-     "available": false,
+     "available": true,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-lumiose-city-mini-tin-feraligatr-and-budew",
      "over_rrp": false,
      "rrp": null,
@@ -8668,7 +8668,7 @@
     {
      "title": "Pokemon TCG - Lumiose City Mini Tin - Gallade and Goomy",
      "price": 20.0,
-     "available": false,
+     "available": true,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-lumiose-city-mini-tin-gallade-and-goomy",
      "over_rrp": false,
      "rrp": null,
@@ -8677,7 +8677,7 @@
     {
      "title": "Pokemon TCG - Lumiose City Mini Tin - Meganium and Meowstic",
      "price": 20.0,
-     "available": false,
+     "available": true,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-lumiose-city-mini-tin-meganium-and-meowstic",
      "over_rrp": false,
      "rrp": null,
@@ -8686,7 +8686,7 @@
     {
      "title": "Pokemon TCG - Lumiose City Mini Tin - Salamence and Litleo",
      "price": 20.0,
-     "available": false,
+     "available": true,
      "url": "https://monstercardcorner.co.uk/products/pokemon-tcg-lumiose-city-mini-tin-salamence-and-litleo",
      "over_rrp": false,
      "rrp": null,
@@ -9503,7 +9503,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.8753
+   "uptime": 0.8778
   },
   {
    "name": "Mystic Games",
@@ -9556,7 +9556,7 @@
    "error": null,
    "mode": "shopify",
    "items": [],
-   "uptime": 0.9933
+   "uptime": 0.9934
   },
   {
    "name": "Asmodee UK",
@@ -9812,6 +9812,36 @@
   }
  ],
  "alerts": [
+  {
+   "time": "2026-11-25T11:03:51+00:00",
+   "site": "Monster Card Corner",
+   "text": "BACK IN STOCK: Pokemon TCG - Lumiose City Mini Tin - Gallade and Goomy \u00a320.00",
+   "url": "https://monstercardcorner.co.uk/cart/57445451268440:1"
+  },
+  {
+   "time": "2026-11-25T11:03:51+00:00",
+   "site": "Monster Card Corner",
+   "text": "BACK IN STOCK: Pokemon TCG - Lumiose City Mini Tin - Meganium and Meowstic \u00a320.00",
+   "url": "https://monstercardcorner.co.uk/cart/57445449597272:1"
+  },
+  {
+   "time": "2026-11-25T11:03:51+00:00",
+   "site": "Monster Card Corner",
+   "text": "BACK IN STOCK: Pokemon TCG - Lumiose City Mini Tin - Salamence and Litleo \u00a320.00",
+   "url": "https://monstercardcorner.co.uk/cart/57445449171288:1"
+  },
+  {
+   "time": "2026-11-25T11:03:51+00:00",
+   "site": "Monster Card Corner",
+   "text": "BACK IN STOCK: Pokemon TCG - Lumiose City Mini Tin - Feraligatr and Budew \u00a320.00",
+   "url": "https://monstercardcorner.co.uk/cart/57445450645848:1"
+  },
+  {
+   "time": "2026-11-25T11:03:51+00:00",
+   "site": "Monster Card Corner",
+   "text": "BACK IN STOCK: Pokemon TCG - Lumiose City Mini Tin - Emboar and Inkay \u00a320.00",
+   "url": "https://monstercardcorner.co.uk/cart/57445450121560:1"
+  },
   {
    "time": "2026-11-25T02:29:07+00:00",
    "site": "Card Cavern",
@@ -10381,36 +10411,6 @@
    "site": "Chaos Cards",
    "text": "New on page: Pokemon Mega Evolution Flowing Fists Checklane Blister Tynamo",
    "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
-  },
-  {
-   "time": "2026-11-19T17:13:46+00:00",
-   "site": "Chaos Cards",
-   "text": "New on page: Pokemon Mega Evolution Flowing Fists Elite Trainer Box",
-   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
-  },
-  {
-   "time": "2026-11-19T17:13:46+00:00",
-   "site": "Chaos Cards",
-   "text": "...and 2 more",
-   "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
-  },
-  {
-   "time": "2026-11-19T17:13:46+00:00",
-   "site": "Zatu Games",
-   "text": "NEW: Pokemon TCG: Mega Evolution Ascended Heroes - First Partners Deluxe Pin Collection \u00a364.99",
-   "url": "https://zatu.com/cart/56477216178554:1"
-  },
-  {
-   "time": "2026-11-19T17:13:46+00:00",
-   "site": "Zatu Games",
-   "text": "NEW: Pokemon TCG: Mega Charizard Y ex Tin \u00a339.99",
-   "url": "https://zatu.com/cart/56361948709242:1"
-  },
-  {
-   "time": "2026-11-19T17:13:46+00:00",
-   "site": "Zatu Games",
-   "text": "NEW: Pokemon TCG: Lumiose City - Mini Tin - Meganium \u00a313.99",
-   "url": "https://zatu.com/cart/56783217295738:1"
   }
  ],
  "wishlist": [
