@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T11:52:37+00:00",
+ "updated": "2026-11-26T11:57:37+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -105,7 +105,7 @@
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     }
    ],
-   "uptime": 0.4929
+   "uptime": 0.483
   },
   {
    "name": "Double Sleeved",
@@ -114,7 +114,7 @@
    "error": null,
    "mode": "shopify",
    "items": [],
-   "uptime": 0.9166
+   "uptime": 0.9183
   },
   {
    "name": "Magic Madhouse",
@@ -341,7 +341,7 @@
      "cart": "https://www.totalcards.net/cart/59125327888765:1"
     }
    ],
-   "uptime": 0.9322
+   "uptime": 0.9336
   },
   {
    "name": "Firestorm Games",
@@ -621,7 +621,7 @@
      "cart": "https://zatu.com/cart/56047391179130:1"
     }
    ],
-   "uptime": 0.9394
+   "uptime": 0.9406
   },
   {
    "name": "Hokey Poke Games",
@@ -703,7 +703,7 @@
      "cart": "https://hokeypokegames.co.uk/cart/54634059956571:1"
     }
    ],
-   "uptime": 0.9963
+   "uptime": 0.9964
   },
   {
    "name": "Collectors Edge",
@@ -857,7 +857,7 @@
      "cart": "https://collectorsedge.co.uk/cart/55813699207507:1"
     }
    ],
-   "uptime": 0.9331
+   "uptime": 0.9344
   },
   {
    "name": "The Dice Dungeon",
@@ -1371,7 +1371,7 @@
      "cart": "https://thedicedungeon.co.uk/cart/56594268324219:1"
     }
    ],
-   "uptime": 0.997
+   "uptime": 0.9971
   },
   {
    "name": "Packrat",
@@ -1644,7 +1644,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.9166
+   "uptime": 0.9183
   },
   {
    "name": "TCG Paradise",
@@ -2230,7 +2230,7 @@
      "cart": "https://tcgparadise.co.uk/cart/59885897646425:1"
     }
    ],
-   "uptime": 0.9963
+   "uptime": 0.9964
   },
   {
    "name": "TCGora",
@@ -3447,7 +3447,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.9171
+   "uptime": 0.9188
   },
   {
    "name": "Poke Collect",
@@ -3574,7 +3574,7 @@
      "cart": "https://poke-collect.com/cart/57800927838391:1"
     }
    ],
-   "uptime": 0.997
+   "uptime": 0.9971
   },
   {
    "name": "Card Cavern",
@@ -3701,7 +3701,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.9313
+   "uptime": 0.9327
   },
   {
    "name": "The Card Vault",
@@ -3900,7 +3900,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.9166
+   "uptime": 0.9183
   },
   {
    "name": "Iconic TCG",
@@ -5143,7 +5143,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9242
+   "uptime": 0.9257
   },
   {
    "name": "Evolvault",
@@ -5441,7 +5441,7 @@
      "cart": "https://evolvault.com/cart/52921980420426:1"
     }
    ],
-   "uptime": 0.9963
+   "uptime": 0.9964
   },
   {
    "name": "Hobby Addicts",
@@ -6639,7 +6639,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9166
+   "uptime": 0.9183
   },
   {
    "name": "Hoodlums UK",
@@ -7045,7 +7045,7 @@
      "cart": "https://hoodlumsuk.com/cart/57569510621449:1"
     }
    ],
-   "uptime": 0.9242
+   "uptime": 0.9257
   },
   {
    "name": "The TCG Shop",
@@ -7316,7 +7316,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.9173
+   "uptime": 0.919
   },
   {
    "name": "120HP",
@@ -8028,7 +8028,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.9245
+   "uptime": 0.926
   },
   {
    "name": "JET Cards",
@@ -8101,7 +8101,7 @@
      "cart": "https://jetcards.uk/cart/59165679419773:1"
     }
    ],
-   "uptime": 0.9963
+   "uptime": 0.9964
   },
   {
    "name": "Berry Brand Supply TCG",
@@ -8174,7 +8174,7 @@
      "cart": "https://www.bbstcg.co.uk/cart/57169842471290:1"
     }
    ],
-   "uptime": 0.9963
+   "uptime": 0.9964
   },
   {
    "name": "Monster Card Corner",
@@ -9462,7 +9462,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.9319
+   "uptime": 0.9333
   },
   {
    "name": "Mystic Games",
@@ -9515,7 +9515,7 @@
    "error": null,
    "mode": "shopify",
    "items": [],
-   "uptime": 0.9963
+   "uptime": 0.9964
   },
   {
    "name": "Asmodee UK",
