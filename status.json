@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T21:12:10+00:00",
+ "updated": "2026-11-27T21:17:11+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -89,7 +89,7 @@
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     }
    ],
-   "uptime": 0.4597
+   "uptime": 0.4705
   },
   {
    "name": "Double Sleeved",
@@ -98,7 +98,7 @@
    "error": null,
    "mode": "shopify",
    "items": [],
-   "uptime": 0.9224
+   "uptime": 0.924
   },
   {
    "name": "Magic Madhouse",
@@ -322,7 +322,7 @@
      "cart": "https://www.totalcards.net/cart/59125327888765:1"
     }
    ],
-   "uptime": 0.9098
+   "uptime": 0.8916
   },
   {
    "name": "Firestorm Games",
@@ -602,7 +602,7 @@
      "cart": "https://zatu.com/cart/56047391179130:1"
     }
    ],
-   "uptime": 0.9131
+   "uptime": 0.8948
   },
   {
    "name": "Hokey Poke Games",
@@ -838,7 +838,7 @@
      "cart": "https://collectorsedge.co.uk/cart/55813699207507:1"
     }
    ],
-   "uptime": 0.9101
+   "uptime": 0.8919
   },
   {
    "name": "The Dice Dungeon",
@@ -1643,7 +1643,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.9024
+   "uptime": 0.8844
   },
   {
    "name": "TCG Paradise",
@@ -3446,7 +3446,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.922
+   "uptime": 0.9036
   },
   {
    "name": "Poke Collect",
@@ -3705,7 +3705,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.9093
+   "uptime": 0.8911
   },
   {
    "name": "The Card Vault",
@@ -3940,13 +3940,13 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.9216
+   "uptime": 0.9032
   },
   {
    "name": "Iconic TCG",
    "url": "https://iconic-tcg.com/collections/pokemon",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -4067,24 +4067,6 @@
      "cart": "https://iconic-tcg.com/cart/60148328530252:1"
     },
     {
-     "title": "Pok\u00e9mon TCG: Azure Legends Tin - Kyogre ex",
-     "price": 20.34,
-     "available": false,
-     "url": "https://iconic-tcg.com/products/pokemon-azure-legends-tin-kyogre-ex",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://iconic-tcg.com/cart/58325787902284:1"
-    },
-    {
-     "title": "Pok\u00e9mon TCG: Azure Legends Tin - Xerneas ex",
-     "price": 20.34,
-     "available": false,
-     "url": "https://iconic-tcg.com/products/pokemon-azure-legends-tin-xerneas-ex",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://iconic-tcg.com/cart/58325787967820:1"
-    },
-    {
      "title": "Pok\u00e9mon TCG: Black Bolt & White Flare - Unova Mini Tin - Axew & Alomomona",
      "price": 13.19,
      "available": false,
@@ -4101,15 +4083,6 @@
      "over_rrp": false,
      "rrp": null,
      "cart": "https://iconic-tcg.com/cart/58325788524876:1"
-    },
-    {
-     "title": "Pok\u00e9mon TCG: Black Bolt & White Flare - Unova Mini Tin - Garbodor & Amoonguss",
-     "price": 13.19,
-     "available": false,
-     "url": "https://iconic-tcg.com/products/pokemon-tcg-black-bolt-white-flare-unova-mini-tin-garbodor-amoonguss",
-     "over_rrp": false,
-     "rrp": null,
-     "cart": "https://iconic-tcg.com/cart/58325788655948:1"
     },
     {
      "title": "Pok\u00e9mon TCG: Black Bolt & White Flare - Unova Mini Tin - Krookodile & Drilbur",
@@ -4375,7 +4348,7 @@
     {
      "title": "Pok\u00e9mon TCG: Hidden Fates - Elite Trainer Box",
      "price": 418.0,
-     "available": true,
+     "available": false,
      "url": "https://iconic-tcg.com/products/pokemon-tcg-hidden-fates-elite-trainer-box",
      "over_rrp": true,
      "rrp": 49.99,
@@ -4517,6 +4490,33 @@
      "cart": "https://iconic-tcg.com/cart/59914532979020:1"
     },
     {
+     "title": "Pok\u00e9mon TCG: Mega Forces Tin - Mega Darkrai ex",
+     "price": 40.0,
+     "available": true,
+     "url": "https://iconic-tcg.com/products/pokemon-tcg-mega-forces-tin-mega-darkrai-ex",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://iconic-tcg.com/cart/60251546059084:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Mega Forces Tin - Mega Dragonite ex",
+     "price": 40.0,
+     "available": true,
+     "url": "https://iconic-tcg.com/products/pokemon-tcg-mega-forces-tin-mega-dragonite-ex",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://iconic-tcg.com/cart/60251547402572:1"
+    },
+    {
+     "title": "Pok\u00e9mon TCG: Mega Forces Tin - Mega Zeraora ex",
+     "price": 40.0,
+     "available": true,
+     "url": "https://iconic-tcg.com/products/pokemon-tcg-mega-forces-tin-mega-zeraora-ex",
+     "over_rrp": false,
+     "rrp": null,
+     "cart": "https://iconic-tcg.com/cart/60251546812748:1"
+    },
+    {
      "title": "Pok\u00e9mon TCG: Mega Greninja ex Premium Collection",
      "price": 66.0,
      "available": false,
@@ -4618,7 +4618,7 @@
     {
      "title": "Pok\u00e9mon TCG: Mini Tin - Assorted Design (Random)",
      "price": 15.4,
-     "available": true,
+     "available": false,
      "url": "https://iconic-tcg.com/products/mini-tin-miscellaneous",
      "over_rrp": false,
      "rrp": null,
@@ -5183,7 +5183,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.906
+   "uptime": 0.9079
   },
   {
    "name": "Evolvault",
@@ -6679,18 +6679,18 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.9024
+   "uptime": 0.8844
   },
   {
    "name": "Hoodlums UK",
    "url": "https://hoodlumsuk.com/collections/pokemon",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
      "title": "POK\u00c9MON TCG: 30TH CELEBRATION POK\u00c9MON CENTER ELITE TRAINER BOX",
-     "price": 235.0,
+     "price": 234.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-30th-celebration-pokemon-center-elite-trainer-box",
      "over_rrp": true,
@@ -6699,7 +6699,7 @@
     },
     {
      "title": "POK\u00c9MON TCG: 30TH CELEBRATION ULTRA-PREMIUM COLLECTION \u2013 DAY (ESPEON EX)",
-     "price": 603.0,
+     "price": 602.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-30th-celebration-ultra-premium-collection-day-espeon-ex",
      "over_rrp": true,
@@ -6708,7 +6708,7 @@
     },
     {
      "title": "POK\u00c9MON TCG: 30TH CELEBRATION ULTRA-PREMIUM COLLECTION \u2013 NIGHT (UMBREON EX)",
-     "price": 603.0,
+     "price": 602.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-30th-celebration-ultra-premium-collection-night-umbreon-ex",
      "over_rrp": true,
@@ -6717,7 +6717,7 @@
     },
     {
      "title": "POK\u00c9MON TCG: MEGA EVOLUTION - DELTA REIGN POK\u00c9MON CENTER ELITE TRAINER BOX",
-     "price": 242.0,
+     "price": 241.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-delta-reign-pokemon-center-elite-trainer-box",
      "over_rrp": true,
@@ -6726,7 +6726,7 @@
     },
     {
      "title": "POK\u00c9MON TCG: MEGA EVOLUTION \u2014 DELTA REIGN BOOSTER BOX (36 PACKS)",
-     "price": 322.0,
+     "price": 321.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-delta-reign-booster-box-36-packs",
      "over_rrp": true,
@@ -6744,7 +6744,7 @@
     },
     {
      "title": "POK\u00c9MON TCG: MEGA EVOLUTION \u2014 DELTA REIGN ELITE TRAINER BOX",
-     "price": 148.0,
+     "price": 147.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-delta-reign-elite-trainer-box",
      "over_rrp": true,
@@ -6753,7 +6753,7 @@
     },
     {
      "title": "Pok\u00e9mon Center Ascended Heroes Elite Trainer Box",
-     "price": 469.0,
+     "price": 468.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-centre-mega-evolution-ascended-heroes-elite-trainer-box",
      "over_rrp": true,
@@ -6816,7 +6816,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Ascended Heroes Booster Bundle (6 Packs)",
-     "price": 128.0,
+     "price": 127.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-ascended-heroes-booster-bundle-6-packs",
      "over_rrp": true,
@@ -6825,7 +6825,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Ascended Heroes Elite Trainer Box",
-     "price": 255.0,
+     "price": 254.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-mega-evolution-ascended-heroes-elite-trainer-box",
      "over_rrp": true,
@@ -6834,7 +6834,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Ascended Heroes First Partners Deluxe Pin Collection",
-     "price": 108.0,
+     "price": 107.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-ascended-heroes-first-partners-deluxe-pin-collection",
      "over_rrp": false,
@@ -6843,7 +6843,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Ascended Heroes Mega Gardevoir Premium Poster Collection",
-     "price": 255.0,
+     "price": 254.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-ascended-heroes-mega-gardevoir-premium-poster-collection",
      "over_rrp": false,
@@ -6852,7 +6852,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Ascended Heroes Mega Lucario Premium Poster Collection",
-     "price": 255.0,
+     "price": 254.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-ascended-heroes-mega-lucario-premium-poster-collection",
      "over_rrp": false,
@@ -6870,7 +6870,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Black Bolt Elite Trainer Box",
-     "price": 255.0,
+     "price": 254.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-scarlet-violet-black-bolt-elite-trainer-box",
      "over_rrp": true,
@@ -6888,7 +6888,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Chaos Rising Booster Display Box (36 Packs)",
-     "price": 335.0,
+     "price": 334.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-chaos-rising-boosters-display-36",
      "over_rrp": true,
@@ -6897,7 +6897,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Chaos Rising Elite Trainer Box",
-     "price": 128.0,
+     "price": 127.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-chaos-rising-elite-trainer-box",
      "over_rrp": true,
@@ -6915,7 +6915,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Mega Charizard X ex Ultra Premium Collection",
-     "price": 335.0,
+     "price": 334.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-mega-charizard-x-ex-ultra-premium-collection",
      "over_rrp": true,
@@ -6924,7 +6924,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Mega Evolution Booster Box (36 Packs)",
-     "price": 442.0,
+     "price": 441.0,
      "available": false,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-booster-box-36-pack",
      "over_rrp": true,
@@ -6933,7 +6933,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Mega Evolution Gardevoir Elite Trainer Box",
-     "price": 175.0,
+     "price": 174.0,
      "available": false,
      "url": "https://hoodlumsuk.com/products/pokemon-trading-card-game-tcg-mega-evolution-mega-gardevoir-elite-trainer-box",
      "over_rrp": true,
@@ -6951,7 +6951,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Mega Evolution Lucario Elite Trainer Box",
-     "price": 255.0,
+     "price": 254.0,
      "available": false,
      "url": "https://hoodlumsuk.com/products/untitled-oct16_20-04",
      "over_rrp": true,
@@ -6996,7 +6996,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Phantasmal Flames Booster Box (36 Packs)",
-     "price": 536.0,
+     "price": 535.0,
      "available": false,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-mega-evolution-phantasmal-flames-booster-box-36-pack",
      "over_rrp": true,
@@ -7005,7 +7005,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Phantasmal Flames Booster Bundle (6 Packs)",
-     "price": 128.0,
+     "price": 127.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-mega-evolution-phantasmal-flames-booster-bundle-pk6",
      "over_rrp": true,
@@ -7032,7 +7032,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Prismatic Evolutions Booster Bundle (6 Packs)",
-     "price": 128.0,
+     "price": 127.0,
      "available": false,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-scarlet-violet-prismatic-evolutions-booster-bundle-6-packs",
      "over_rrp": true,
@@ -7041,7 +7041,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Prismatic Evolutions Elite Trainer Box",
-     "price": 322.0,
+     "price": 321.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-scarlet-violet-prismatic-evolution-elite-trainer-box",
      "over_rrp": true,
@@ -7050,7 +7050,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Prismatic Evolutions Premium Figure Collection",
-     "price": 295.0,
+     "price": 294.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-prismatic-evolution-premium-figure-collection",
      "over_rrp": true,
@@ -7059,7 +7059,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG Prismatic Evolutions Super-Premium Collection",
-     "price": 375.0,
+     "price": 374.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-scarlet-violet-prismatic-evolutions-super-premium-collection",
      "over_rrp": false,
@@ -7077,7 +7077,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG White Flare Elite Trainer Box",
-     "price": 175.0,
+     "price": 174.0,
      "available": false,
      "url": "https://hoodlumsuk.com/products/pokemon-scarlet-violet-white-flare-elite-trainer-box",
      "over_rrp": true,
@@ -7086,7 +7086,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Mini Tins Display (10-Pack)",
-     "price": 335.0,
+     "price": 334.0,
      "available": true,
      "url": "https://hoodlumsuk.com/products/pokemon-tcg-30th-celebration-mini-tins-display-10-pack",
      "over_rrp": false,
@@ -7094,13 +7094,13 @@
      "cart": "https://hoodlumsuk.com/cart/57569510621449:1"
     }
    ],
-   "uptime": 0.906
+   "uptime": 0.9079
   },
   {
    "name": "The TCG Shop",
    "url": "https://www.thetcgshop.co.uk/collections/pokemon",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -7365,13 +7365,13 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.9228
+   "uptime": 0.9043
   },
   {
    "name": "120HP",
    "url": "https://www.120hp.co.uk/collections/sealed-pokemon-trading-card-game-products",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -7412,7 +7412,7 @@
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration 2-Pack Blister (Eevee)",
-     "price": 16.95,
+     "price": 14.95,
      "available": true,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-2-pack-blister-eevee",
      "over_rrp": false,
@@ -7431,7 +7431,7 @@
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Collection Box (Greninja ex)",
      "price": 38.95,
-     "available": true,
+     "available": false,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-greninja-collection",
      "over_rrp": false,
      "rrp": null,
@@ -7458,7 +7458,7 @@
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Ditto Premium Collection",
      "price": 69.95,
-     "available": false,
+     "available": true,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-ditto-premium-collection",
      "over_rrp": true,
      "rrp": 39.99,
@@ -7512,7 +7512,7 @@
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Mini Tin (Lapras)",
      "price": 19.95,
-     "available": true,
+     "available": false,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-mini-tin-lapras",
      "over_rrp": false,
      "rrp": null,
@@ -7592,8 +7592,8 @@
     },
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Poster Collection Box",
-     "price": 32.95,
-     "available": true,
+     "price": 24.95,
+     "available": false,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-poster-collection-box",
      "over_rrp": false,
      "rrp": null,
@@ -7701,7 +7701,7 @@
     {
      "title": "Pok\u00e9mon TCG: First Partner Illustration Collection \u2013 Series 3",
      "price": 33.33,
-     "available": true,
+     "available": false,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-first-partner-illustration-collection-series-3",
      "over_rrp": false,
      "rrp": null,
@@ -8077,7 +8077,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.9061
+   "uptime": 0.908
   },
   {
    "name": "JET Cards",
@@ -9511,7 +9511,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.9096
+   "uptime": 0.8914
   },
   {
    "name": "Mystic Games",
@@ -9820,6 +9820,30 @@
   }
  ],
  "alerts": [
+  {
+   "time": "2026-11-27T21:17:11+00:00",
+   "site": "Iconic TCG",
+   "text": "NEW: Pok\u00e9mon TCG: Mega Forces Tin - Mega Dragonite ex \u00a340.00",
+   "url": "https://iconic-tcg.com/cart/60251547402572:1"
+  },
+  {
+   "time": "2026-11-27T21:17:11+00:00",
+   "site": "Iconic TCG",
+   "text": "NEW: Pok\u00e9mon TCG: Mega Forces Tin - Mega Darkrai ex \u00a340.00",
+   "url": "https://iconic-tcg.com/cart/60251546059084:1"
+  },
+  {
+   "time": "2026-11-27T21:17:11+00:00",
+   "site": "Iconic TCG",
+   "text": "NEW: Pok\u00e9mon TCG: Mega Forces Tin - Mega Zeraora ex \u00a340.00",
+   "url": "https://iconic-tcg.com/cart/60251546812748:1"
+  },
+  {
+   "time": "2026-11-27T21:17:11+00:00",
+   "site": "120HP",
+   "text": "BACK IN STOCK: Pok\u00e9mon TCG: 30th Celebration Ditto Premium Collection \u00a369.95 (over RRP)",
+   "url": "https://www.120hp.co.uk/cart/57771020091767:1"
+  },
   {
    "time": "2026-11-27T21:02:11+00:00",
    "site": "Chaos Cards",
@@ -10395,30 +10419,6 @@
    "site": "Pixel Hub",
    "text": "BACK IN STOCK: Pok\u00e9mon TCG: Booster Bundle - 30th Celebration \u00a3139.00 (over RRP)",
    "url": "https://pixel-hub.co.uk/cart/55541691416918:1"
-  },
-  {
-   "time": "2026-11-20T20:52:03+00:00",
-   "site": "Magic Madhouse",
-   "text": "New on page: Pokemon Gifting Bundle - 30th Celebration Figure Collection: Mew & Eevee Building Set 72151",
-   "url": "https://magicmadhouse.co.uk/pokemon/pokemon-sealed-product?sort=newest"
-  },
-  {
-   "time": "2026-11-20T20:52:03+00:00",
-   "site": "Magic Madhouse",
-   "text": "New on page: Pokemon Gifting Bundle - 30th Celebration Figure Collection: Mewtwo & Eevee Building Set 72151",
-   "url": "https://magicmadhouse.co.uk/pokemon/pokemon-sealed-product?sort=newest"
-  },
-  {
-   "time": "2026-11-20T20:52:03+00:00",
-   "site": "Poke Collect",
-   "text": "NEW: Pok\u00e9mon Day 2027 Collection (Pre-Order) \u00a339.95",
-   "url": "https://poke-collect.com/cart/58185238577335:1"
-  },
-  {
-   "time": "2026-11-20T20:52:03+00:00",
-   "site": "Poke Collect",
-   "text": "NEW: Mega Rayquaza ex Premium Tournament Collection (Pre-Order) \u00a369.95",
-   "url": "https://poke-collect.com/cart/58185236938935:1"
   }
  ],
  "wishlist": [
