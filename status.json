@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T21:17:11+00:00",
+ "updated": "2026-11-27T21:22:10+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -89,16 +89,16 @@
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     }
    ],
-   "uptime": 0.4705
+   "uptime": 0.4811
   },
   {
    "name": "Double Sleeved",
    "url": "https://www.doublesleeved.co.uk/collections/pre-orders",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [],
-   "uptime": 0.924
+   "uptime": 0.9055
   },
   {
    "name": "Magic Madhouse",
@@ -138,7 +138,7 @@
    "name": "Total Cards",
    "url": "https://www.totalcards.net/collections/pokemon",
    "skip": null,
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": null,
    "mode": "shopify",
    "items": [
     {
@@ -322,7 +322,7 @@
      "cart": "https://www.totalcards.net/cart/59125327888765:1"
     }
    ],
-   "uptime": 0.8916
+   "uptime": 0.8938
   },
   {
    "name": "Firestorm Games",
@@ -602,7 +602,7 @@
      "cart": "https://zatu.com/cart/56047391179130:1"
     }
    ],
-   "uptime": 0.8948
+   "uptime": 0.8769
   },
   {
    "name": "Hokey Poke Games",
@@ -838,7 +838,7 @@
      "cart": "https://collectorsedge.co.uk/cart/55813699207507:1"
     }
    ],
-   "uptime": 0.8919
+   "uptime": 0.8741
   },
   {
    "name": "The Dice Dungeon",
@@ -1643,7 +1643,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.8844
+   "uptime": 0.8667
   },
   {
    "name": "TCG Paradise",
@@ -3446,7 +3446,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.9036
+   "uptime": 0.8855
   },
   {
    "name": "Poke Collect",
@@ -3705,7 +3705,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.8911
+   "uptime": 0.8733
   },
   {
    "name": "The Card Vault",
@@ -3940,7 +3940,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.9032
+   "uptime": 0.8851
   },
   {
    "name": "Iconic TCG",
@@ -5183,7 +5183,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.9079
+   "uptime": 0.9097
   },
   {
    "name": "Evolvault",
@@ -6679,13 +6679,13 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.8844
+   "uptime": 0.8667
   },
   {
    "name": "Hoodlums UK",
    "url": "https://hoodlumsuk.com/collections/pokemon",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -7094,7 +7094,7 @@
      "cart": "https://hoodlumsuk.com/cart/57569510621449:1"
     }
    ],
-   "uptime": 0.9079
+   "uptime": 0.8897
   },
   {
    "name": "The TCG Shop",
@@ -7365,13 +7365,13 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.9043
+   "uptime": 0.8862
   },
   {
    "name": "120HP",
    "url": "https://www.120hp.co.uk/collections/sealed-pokemon-trading-card-game-products",
    "skip": null,
-   "error": null,
+   "error": "HTTP Error 429: Too Many Requests",
    "mode": "shopify",
    "items": [
     {
@@ -8077,7 +8077,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.908
+   "uptime": 0.8898
   },
   {
    "name": "JET Cards",
@@ -9511,7 +9511,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.8914
+   "uptime": 0.8736
   },
   {
    "name": "Mystic Games",
