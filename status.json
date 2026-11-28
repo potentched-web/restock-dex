@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T03:57:34+00:00",
+ "updated": "2026-11-28T11:43:36+00:00",
  "sites": [
   {
    "name": "Chaos Cards",
@@ -89,7 +89,7 @@
      "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon"
     }
    ],
-   "uptime": 0.434
+   "uptime": 0.4253
   },
   {
    "name": "Double Sleeved",
@@ -98,7 +98,7 @@
    "error": null,
    "mode": "shopify",
    "items": [],
-   "uptime": 0.8518
+   "uptime": 0.8548
   },
   {
    "name": "Magic Madhouse",
@@ -322,7 +322,7 @@
      "cart": "https://www.totalcards.net/cart/59125327888765:1"
     }
    ],
-   "uptime": 0.8581
+   "uptime": 0.8609
   },
   {
    "name": "Firestorm Games",
@@ -593,7 +593,7 @@
      "cart": "https://zatu.com/cart/56047391179130:1"
     }
    ],
-   "uptime": 0.8306
+   "uptime": 0.834
   },
   {
    "name": "Hokey Poke Games",
@@ -829,7 +829,7 @@
      "cart": "https://collectorsedge.co.uk/cart/55813699207507:1"
     }
    ],
-   "uptime": 0.8285
+   "uptime": 0.8319
   },
   {
    "name": "The Dice Dungeon",
@@ -1634,7 +1634,7 @@
      "cart": "https://titancards.co.uk/cart/47740741189962:1"
     }
    ],
-   "uptime": 0.8231
+   "uptime": 0.8266
   },
   {
    "name": "TCG Paradise",
@@ -3437,7 +3437,7 @@
      "cart": "https://pixel-hub.co.uk/cart/50345983607126:1"
     }
    ],
-   "uptime": 0.8369
+   "uptime": 0.8402
   },
   {
    "name": "Poke Collect",
@@ -3457,7 +3457,7 @@
     },
     {
      "title": "Mega Evolution: 30th Celebration Pokemon Center Elite Trainer Box",
-     "price": 261.95,
+     "price": 259.95,
      "available": false,
      "url": "https://poke-collect.com/products/mega-evolution-30th-celebration-pokemon-center-elite-trainer-box",
      "over_rrp": true,
@@ -3466,7 +3466,7 @@
     },
     {
      "title": "Mega Evolution: Ascended Heroes Focused Fighters Premium Collection (Sam's Club)",
-     "price": 171.95,
+     "price": 172.95,
      "available": false,
      "url": "https://poke-collect.com/products/mega-evolution-ascended-heroes-focused-fighters-premium-collection-sams-club",
      "over_rrp": false,
@@ -3475,7 +3475,7 @@
     },
     {
      "title": "Mega Evolution: Ascended Heroes Premium Poster Collection (Mega Gardevoir)",
-     "price": 134.95,
+     "price": 132.95,
      "available": false,
      "url": "https://poke-collect.com/products/mega-evolution-ascended-heroes-premium-poster-collection-mega-gardevoir-1",
      "over_rrp": false,
@@ -3484,7 +3484,7 @@
     },
     {
      "title": "Mega Evolution: Ascended Heroes Premium Poster Collection (Mega Lucario)",
-     "price": 139.95,
+     "price": 131.95,
      "available": false,
      "url": "https://poke-collect.com/products/mega-evolution-ascended-heroes-premium-poster-collection-mega-lucario-1",
      "over_rrp": false,
@@ -3538,7 +3538,7 @@
     },
     {
      "title": "Scarlet & Violet: Prismatic Evolutions Pokemon Center Elite Trainer Box (Exclusive)",
-     "price": 352.95,
+     "price": 362.95,
      "available": false,
      "url": "https://poke-collect.com/products/scarlet-violet-prismatic-evolutions-pokemon-center-elite-trainer-box-exclusive",
      "over_rrp": true,
@@ -3696,7 +3696,7 @@
      "cart": "https://dicecupcafe.co.uk/cart/44953872367830:1"
     }
    ],
-   "uptime": 0.8279
+   "uptime": 0.8313
   },
   {
    "name": "The Card Vault",
@@ -3931,7 +3931,7 @@
      "cart": "https://thecardvault.co.uk/cart/44811602493678:1"
     }
    ],
-   "uptime": 0.8366
+   "uptime": 0.8399
   },
   {
    "name": "Iconic TCG",
@@ -5174,7 +5174,7 @@
      "cart": "https://iconic-tcg.com/cart/58394758185292:1"
     }
    ],
-   "uptime": 0.8548
+   "uptime": 0.8577
   },
   {
    "name": "Evolvault",
@@ -6670,7 +6670,7 @@
      "cart": "https://www.hobby-addicts.com/cart/51780470964531:1"
     }
    ],
-   "uptime": 0.8231
+   "uptime": 0.8266
   },
   {
    "name": "Hoodlums UK",
@@ -7085,7 +7085,7 @@
      "cart": "https://hoodlumsuk.com/cart/57569510621449:1"
     }
    ],
-   "uptime": 0.8401
+   "uptime": 0.8433
   },
   {
    "name": "The TCG Shop",
@@ -7356,7 +7356,7 @@
      "cart": "https://www.thetcgshop.co.uk/cart/56533268005248:1"
     }
    ],
-   "uptime": 0.8375
+   "uptime": 0.8407
   },
   {
    "name": "120HP",
@@ -7413,7 +7413,7 @@
     {
      "title": "Pok\u00e9mon TCG: 30th Celebration Booster Bundle",
      "price": 51.95,
-     "available": true,
+     "available": false,
      "url": "https://www.120hp.co.uk/products/pokemon-tcg-30th-celebration-booster-bundle",
      "over_rrp": true,
      "rrp": 24.99,
@@ -8068,7 +8068,7 @@
      "cart": "https://www.120hp.co.uk/cart/55154231673207:1"
     }
    ],
-   "uptime": 0.8401
+   "uptime": 0.8433
   },
   {
    "name": "JET Cards",
@@ -9502,7 +9502,7 @@
      "cart": "https://monstercardcorner.co.uk/cart/54833569595736:1"
     }
    ],
-   "uptime": 0.8282
+   "uptime": 0.8316
   },
   {
    "name": "Mystic Games",
